@@ -5,7 +5,7 @@
 ; Parameters ....:
 ; Return values .: None
 ; Author ........: Code Monkey #73
-; Modified ......: (2015-06) Sardo, KnowJack(July 2015)
+; Modified ......: (2015-06) Sardo, KnowJack(July 2015), Sardo 2015-08
 ; Remarks .......: This file is part of ClashGameBot. Copyright 2015
 ;                  ClashGameBot is distributed under the terms of the GNU GPL
 ; Related .......:
@@ -34,7 +34,7 @@ Func RequestCC()
 	;wait to see army overview
 	Local $icount = 0
 	While Not ( _ColorCheck(_GetPixelColor($aArmyOverviewTest[0], $aArmyOverviewTest[1], True), Hex($aArmyOverviewTest[2], 6), $aArmyOverviewTest[3]))
-		If _Sleep(500) Then ExitLoop
+		If _Sleep($iDelayRequestCC1) Then ExitLoop
 		$icount += 1
 		If $DebugSetLog = 1 Then Setlog("$icount1 = "&$iCount&", "&_GetPixelColor($aArmyOverviewTest[0], $aArmyOverviewTest[1], True), $COLOR_PURPLE)
 		If $icount > 5 Then ExitLoop  ; wait 6*500ms = 3 seconds max
@@ -57,7 +57,8 @@ Func RequestCC()
 	EndIf
 
 	;exit from army overview
-	ClickP($aTopLeftClient, 2, 0, "#0335")
+	If _Sleep($iDelayRequestCC1) Then Return
+	ClickP($aAway, 2, 0, "#0335")
 
 EndFunc   ;==>RequestCC
 
@@ -69,29 +70,29 @@ Func _makerequest()
 	;wait window
 	Local $icount = 0
 	While Not ( _ColorCheck(_GetPixelColor($aCancRequestCCBtn[0], $aCancRequestCCBtn[1], True), Hex($aCancRequestCCBtn[2], 6), $aCancRequestCCBtn[3]))
-		If _Sleep(500) Then ExitLoop
+		If _Sleep($iDelaymakerequest1) Then ExitLoop
 		$icount += 1
 		If $DebugSetLog = 1 Then Setlog("$icount2 = "&$iCount&", "&_GetPixelColor($aCancRequestCCBtn[0], $aCancRequestCCBtn[1], True), $COLOR_PURPLE)
 		If $icount > 20 Then ExitLoop  ; wait 21*500ms = 10.5 seconds max
 	WEnd
 	If $icount > 20 Then
 		SetLog("Request has already been made, or request window not available", $COLOR_RED)
-		ClickP($aTopLeftClient, 2, 0, "#0257")
-		If _Sleep(1000) Then Return
+		ClickP($aAway, 2, 0, "#0257")
+		If _Sleep($iDelaymakerequest2) Then Return
 	Else
 		If $sTxtRequest <> "" Then
 			ControlFocus($Title,"", "")
 			PureClick($atxtRequestCCBtn[0], $atxtRequestCCBtn[1], 1, 0, "#0254") ;Select text for request $atxtRequestCCBtn[2] = [430, 140]
-			_Sleep(1000)
+			_Sleep($iDelaymakerequest2)
 			If ControlSend($Title, "", "", $sTxtRequest, 0) = 0 Then
 				Setlog(" Request text entry failed, try again", $COLOR_RED)
 				Return
 			EndIf
 		EndIf
-		If _Sleep(1000) Then Return ; wait time for text request to complete
+		If _Sleep($iDelaymakerequest2) Then Return ; wait time for text request to complete
 		$icount = 0
 		While Not _ColorCheck(_GetPixelColor($aSendRequestCCBtn[0], $aSendRequestCCBtn[1], True), Hex(0x5fac10, 6), 20)
-			If _Sleep(500) Then ExitLoop
+			If _Sleep($iDelaymakerequest1) Then ExitLoop
 			$icount += 1
 			If $DebugSetLog = 1 Then Setlog("$icount3 = "&$iCount&", "&_GetPixelColor($aSendRequestCCBtn[0], $aSendRequestCCBtn[1], True), $COLOR_PURPLE)
 			If $icount > 25 Then ExitLoop  ; wait 26*500ms = 13 seconds max

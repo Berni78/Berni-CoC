@@ -1,0 +1,917 @@
+2015-08-08 16:50:40 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-08 16:50:40 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-08 16:50:40 : =================== Bot Start ====================
+2015-08-08 16:50:40 : -------------------------  Current Profile: 02 --------------------------
+2015-08-08 16:50:40 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-08 16:50:41 : Trying to locate Main Screen
+2015-08-08 16:50:41 : Main Screen Located
+2015-08-08 16:50:42 : Detecting your Buildings..
+2015-08-08 16:50:46 : Language setting is English: Correct.
+2015-08-08 16:50:46 : Bot clean start
+2015-08-08 16:50:47 : Trying to locate Main Screen
+2015-08-08 16:50:47 : Main Screen Located
+2015-08-08 16:50:48 : checkMainScreen start quiet mode
+2015-08-08 16:50:48 : checkMainScreen exit quiet mode
+2015-08-08 16:50:48 : Collecting Resources
+2015-08-08 16:50:54 : checkMainScreen start quiet mode
+2015-08-08 16:50:54 : checkMainScreen exit quiet mode
+2015-08-08 16:50:56 : Cannot find tombstones, Yard is clean!
+2015-08-08 16:50:56 : checkMainScreen start quiet mode
+2015-08-08 16:50:56 : checkMainScreen exit quiet mode
+2015-08-08 16:50:56 : Checking if Village needs Rearming..
+2015-08-08 16:51:02 : checkMainScreen start quiet mode
+2015-08-08 16:51:02 : checkMainScreen exit quiet mode
+2015-08-08 16:51:03 : checkMainScreen start quiet mode
+2015-08-08 16:51:03 : checkMainScreen exit quiet mode
+2015-08-08 16:51:04 : Village Report
+2015-08-08 16:51:04 : No. of Free/Total Builders: 0/4
+2015-08-08 16:51:04 :  [T]: 2 520
+2015-08-08 16:51:04 :  [G]: 1 257 782 [E]: 4 661 685 [D]: 16 839 [GEM]: 1 993
+2015-08-08 16:51:05 : checkMainScreen start quiet mode
+2015-08-08 16:51:05 : checkMainScreen exit quiet mode
+2015-08-08 16:51:05 : checkMainScreen start quiet mode
+2015-08-08 16:51:05 : checkMainScreen exit quiet mode
+2015-08-08 16:51:07 : Chat Request: archers soso merci
+2015-08-08 16:51:07 : Archers Keyword found: archers
+2015-08-08 16:51:07 : Donating Archers
+2015-08-08 16:51:09 : Chat Request: Pour farmer svp Merci
+2015-08-08 16:51:09 : Archers Keyword found: farmer
+2015-08-08 16:51:10 : Donating Archers
+2015-08-08 16:51:12 : Chat Request: Poubelle de bob le recycleur !! krkrk
+2015-08-08 16:51:12 : Archers Keyword found: poubelle
+2015-08-08 16:51:13 : Donating Archers
+2015-08-08 16:51:15 : checkMainScreen start quiet mode
+2015-08-08 16:51:15 : checkMainScreen exit quiet mode
+2015-08-08 16:51:15 : Func Train 
+2015-08-08 16:51:15 : Train enabled, $TotalTrainedTroops= 0, Adj TotalCamp= 192
+2015-08-08 16:51:15 : Checking Army Camp...
+2015-08-08 16:51:17 : $sArmyInfo = 187#200
+2015-08-08 16:51:17 : $CurCamp = 187
+2015-08-08 16:51:17 : $TotalCamp = 200
+2015-08-08 16:51:17 : Total Army Camp capacity: 187/200
+2015-08-08 16:51:17 : $hBitmapFirst made
+2015-08-08 16:51:18 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:51:21 : Dll return $FullTemp :Barbarian|8-21|138#Archer|71-22|49
+2015-08-08 16:51:21 : $Trooptype split # : 2
+2015-08-08 16:51:21 : Start the Loop
+2015-08-08 16:51:21 : $TroopTypeT[$i] split : 1
+2015-08-08 16:51:21 :  - No. of Barbarians: 138
+2015-08-08 16:51:21 : $TroopTypeT[$i] split : 2
+2015-08-08 16:51:21 :  - No. of Archers: 49
+2015-08-08 16:51:21 : start barrackstatus
+2015-08-08 16:51:21 : OK, I'm in army overview
+2015-08-08 16:51:21 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:51:21 : barrack 2 found! color 888070
+2015-08-08 16:51:21 : barrack 3 found! color 888070
+2015-08-08 16:51:21 : barrack 4 found! color 888070
+2015-08-08 16:51:21 : dark barrack 1 found! color 888070
+2015-08-08 16:51:21 : dark barrack 2 found! color 888070
+2015-08-08 16:51:21 : Factory Spell found! color 888070
+2015-08-08 16:51:21 : Dark Factory Spell found! color 888070
+2015-08-08 16:51:21 : Barracks and Spell factory status: 
+2015-08-08 16:51:21 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:51:21 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:51:21 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:51:21 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:51:21 : Trainaviable[0] = 1
+2015-08-08 16:51:21 : Trainaviable[1] = 0
+2015-08-08 16:51:21 : Trainaviable[2] = 1
+2015-08-08 16:51:21 : Trainaviable[3] = 1
+2015-08-08 16:51:21 : Trainaviable[4] = 1
+2015-08-08 16:51:21 : Trainaviable[5] = 1
+2015-08-08 16:51:21 : Trainaviable[6] = 1
+2015-08-08 16:51:21 : Trainaviable[7] = 1
+2015-08-08 16:51:21 : Trainaviable[8] = 1
+2015-08-08 16:51:22 : Training Troops...
+2015-08-08 16:51:22 : Checking for full army [!]False
+2015-08-08 16:51:22 : Train: need to make normal troops: True
+2015-08-08 16:51:22 : Train: need to make dark troops: False
+2015-08-08 16:51:22 : LAST BARRACK = 4
+2015-08-08 16:51:22 : Last Barrack TabColor=888070
+2015-08-08 16:51:22 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:51:22 : --------------AnotherTroops TOTAL to train:0
+2015-08-08 16:51:22 : Need to train (height) GOBL:0% BARB: -18% ARCH: 31% AND 0 other troops space
+2015-08-08 16:51:22 : Total Troops to be Trained= 13
+2015-08-08 16:51:22 : BARRACKNUM: 3
+2015-08-08 16:51:22 : ArchEBarrack: 10
+2015-08-08 16:51:22 : BarbEBarrack: -6
+2015-08-08 16:51:22 : DARKBARRACKNUM: 2
+2015-08-08 16:51:22 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:51:22 : 
+2015-08-08 16:51:22 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:51:22 : Barrack4 selected
+2015-08-08 16:51:24 : Full Check=DE58D0
+2015-08-08 16:51:24 : Full Check=DE58D0
+2015-08-08 16:51:25 : Full Check=FF78F3
+2015-08-08 16:51:25 : Full Check=FB75F1
+2015-08-08 16:51:25 : Full Check=FF7FF5
+2015-08-08 16:51:25 : Full Check=FF7FF5
+2015-08-08 16:51:25 : Full Check=FE78F4
+2015-08-08 16:51:25 : Full Check=FF7FF5
+2015-08-08 16:51:25 : Full Check=FF7FF5
+2015-08-08 16:51:25 : Full Check=FF78F3
+2015-08-08 16:51:25 : Full Check=FB75F1
+2015-08-08 16:51:25 : Full Check=FF7FF5
+2015-08-08 16:51:25 : Full Check=FF78F3
+2015-08-08 16:51:25 : Full Check=FF7FF5
+2015-08-08 16:51:25 : Full Check=FB75F1
+2015-08-08 16:51:25 : Full Check=FE78F4
+2015-08-08 16:51:25 : Full Check=FF78F3
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FE78F4
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FB75F1
+2015-08-08 16:51:26 : Full Check=FF78F3
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FE78F4
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:26 : Full Check=FF78F3
+2015-08-08 16:51:26 : Full Check=FB75F1
+2015-08-08 16:51:26 : Full Check=F164DF
+2015-08-08 16:51:26 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF78F3
+2015-08-08 16:51:27 : Full Check=FF78F3
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FE78F4
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF78F3
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF78F3
+2015-08-08 16:51:27 : Full Check=FB75F1
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:27 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FE78F4
+2015-08-08 16:51:28 : Full Check=FB75F1
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FF78F3
+2015-08-08 16:51:28 : Full Check=FB75F1
+2015-08-08 16:51:28 : Full Check=FF78F3
+2015-08-08 16:51:28 : Full Check=FB75F1
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:28 : Full Check=FE78F4
+2015-08-08 16:51:28 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FF80F8
+2015-08-08 16:51:29 : Full Check=FE78F4
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FE78F4
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FD74EE
+2015-08-08 16:51:29 : Full Check=FF78F3
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:29 : Full Check=FF78F3
+2015-08-08 16:51:29 : Full Check=FF7FF5
+2015-08-08 16:51:30 : Move from Barrack 4 direction -1
+2015-08-08 16:51:31 : Barrack3 selected
+2015-08-08 16:51:33 : Full Check=E05AD0
+2015-08-08 16:51:33 : Full Check=E05AD0
+2015-08-08 16:51:33 : Full Check=FF7BF6
+2015-08-08 16:51:33 : Full Check=FF7EF7
+2015-08-08 16:51:33 : Full Check=FF79F5
+2015-08-08 16:51:33 : Full Check=FF7EF7
+2015-08-08 16:51:33 : Full Check=FF7EF7
+2015-08-08 16:51:33 : Full Check=FF7BF6
+2015-08-08 16:51:33 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF7BF6
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF76F1
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF79F5
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF76F1
+2015-08-08 16:51:34 : Full Check=FF7BF6
+2015-08-08 16:51:34 : Full Check=FF7BF6
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:34 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF76F1
+2015-08-08 16:51:35 : Full Check=F167E2
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=F167E2
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=F167E2
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:35 : Full Check=FF76F1
+2015-08-08 16:51:35 : Full Check=F167E2
+2015-08-08 16:51:35 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF79F5
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF79F5
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF79F5
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:36 : Full Check=FF7BF6
+2015-08-08 16:51:36 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF79F5
+2015-08-08 16:51:37 : Full Check=FF7BF6
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF79F5
+2015-08-08 16:51:37 : Full Check=FF7BF6
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF79F5
+2015-08-08 16:51:37 : Full Check=FF7EF7
+2015-08-08 16:51:37 : Full Check=FF82F8
+2015-08-08 16:51:37 : Full Check=FF7BF6
+2015-08-08 16:51:38 : Full Check=FF7BF6
+2015-08-08 16:51:38 : Full Check=FF7EF7
+2015-08-08 16:51:38 : Full Check=FF7EF7
+2015-08-08 16:51:38 : Full Check=FF7EF7
+2015-08-08 16:51:38 : Full Check=FF7EF7
+2015-08-08 16:51:38 : Full Check=FF7BF6
+2015-08-08 16:51:38 : Full Check=FF7EF7
+2015-08-08 16:51:39 : Move from Barrack 3 direction -1
+2015-08-08 16:51:40 : Barrack2 selected
+2015-08-08 16:51:42 : Full Check=E05AD0
+2015-08-08 16:51:42 : Full Check=E05AD0
+2015-08-08 16:51:42 : Full Check=FF7EF7
+2015-08-08 16:51:42 : Full Check=FF79F5
+2015-08-08 16:51:42 : Full Check=FF7EF7
+2015-08-08 16:51:42 : Full Check=FF7EF7
+2015-08-08 16:51:42 : Full Check=FF7BF6
+2015-08-08 16:51:42 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7BF6
+2015-08-08 16:51:43 : Full Check=FF76F1
+2015-08-08 16:51:43 : Full Check=FF79F5
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF79F5
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF7EF7
+2015-08-08 16:51:43 : Full Check=FF82F8
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF7BF6
+2015-08-08 16:51:44 : Full Check=FF76F1
+2015-08-08 16:51:44 : Full Check=F167E2
+2015-08-08 16:51:44 : Full Check=FF7BF6
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:44 : Full Check=FF82F8
+2015-08-08 16:51:44 : Full Check=FF76F1
+2015-08-08 16:51:44 : Full Check=FF76F1
+2015-08-08 16:51:44 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF79F5
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF79F5
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF79F5
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7EF7
+2015-08-08 16:51:45 : Full Check=FF7BF6
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF7BF6
+2015-08-08 16:51:46 : Full Check=FE76EE
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF79F5
+2015-08-08 16:51:46 : Full Check=FF79F5
+2015-08-08 16:51:46 : Full Check=FF7BF6
+2015-08-08 16:51:46 : Full Check=FF7EF7
+2015-08-08 16:51:46 : Full Check=FF79F5
+2015-08-08 16:51:46 : Full Check=FF7BF6
+2015-08-08 16:51:47 : Full Check=FF76F1
+2015-08-08 16:51:47 : Full Check=FF79F5
+2015-08-08 16:51:47 : Full Check=FF7BF6
+2015-08-08 16:51:47 : Full Check=FF82F8
+2015-08-08 16:51:47 : Full Check=FF7EF7
+2015-08-08 16:51:47 : Full Check=FF7BF6
+2015-08-08 16:51:47 : Full Check=FF7EF7
+2015-08-08 16:51:48 : Move from Barrack 2 direction -1
+2015-08-08 16:51:49 : This is not a Barrack
+2015-08-08 16:51:49 : ---=====================END TRAIN =======================================---
+2015-08-08 16:51:51 : checkMainScreen start quiet mode
+2015-08-08 16:51:51 : checkMainScreen exit quiet mode
+2015-08-08 16:51:51 : checkMainScreen start quiet mode
+2015-08-08 16:51:51 : checkMainScreen exit quiet mode
+2015-08-08 16:51:52 : checkMainScreen start quiet mode
+2015-08-08 16:51:52 : checkMainScreen exit quiet mode
+2015-08-08 16:51:52 : Requesting Clan Castle Troops
+2015-08-08 16:51:53 : $icount1 = 1, BB2BD1
+2015-08-08 16:51:53 : Your Clan Castle is already full or you are not in a clan.
+2015-08-08 16:51:54 : checkMainScreen start quiet mode
+2015-08-08 16:51:54 : checkMainScreen exit quiet mode
+2015-08-08 16:51:54 : checkMainScreen start quiet mode
+2015-08-08 16:51:54 : checkMainScreen exit quiet mode
+2015-08-08 16:51:55 : checkMainScreen start quiet mode
+2015-08-08 16:51:55 : checkMainScreen exit quiet mode
+2015-08-08 16:51:57 : Finished kicking
+2015-08-08 16:51:57 : Func Idle 
+2015-08-08 16:51:57 : $fullArmy=False $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 16:51:57 : ====== Waiting for full army ======
+2015-08-08 16:52:09 : checkMainScreen start quiet mode
+2015-08-08 16:52:09 : checkMainScreen exit quiet mode
+2015-08-08 16:52:10 : checkMainScreen start quiet mode
+2015-08-08 16:52:10 : checkMainScreen exit quiet mode
+2015-08-08 16:52:10 : Func Train 
+2015-08-08 16:52:10 : Train enabled, $TotalTrainedTroops= 13, Adj TotalCamp= 192
+2015-08-08 16:52:10 : Checking Army Camp...
+2015-08-08 16:52:11 : $sArmyInfo = 193#200
+2015-08-08 16:52:11 : $CurCamp = 193
+2015-08-08 16:52:11 : $TotalCamp = 200
+2015-08-08 16:52:12 : Total Army Camp capacity: 193/200
+2015-08-08 16:52:12 : $hBitmapFirst made
+2015-08-08 16:52:12 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:52:13 : Dll return $FullTemp :Barbarian|8-21|141#Archer|71-22|52
+2015-08-08 16:52:13 : $Trooptype split # : 2
+2015-08-08 16:52:13 : Start the Loop
+2015-08-08 16:52:13 : $TroopTypeT[$i] split : 1
+2015-08-08 16:52:13 :  - No. of Barbarians: 141
+2015-08-08 16:52:13 : $TroopTypeT[$i] split : 2
+2015-08-08 16:52:13 :  - No. of Archers: 52
+2015-08-08 16:52:13 : start barrackstatus
+2015-08-08 16:52:13 : OK, I'm in army overview
+2015-08-08 16:52:13 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:52:13 : barrack 2 found! color 888070
+2015-08-08 16:52:13 : barrack 3 found! color 888070
+2015-08-08 16:52:13 : barrack 4 found! color 888070
+2015-08-08 16:52:13 : dark barrack 1 found! color 888070
+2015-08-08 16:52:13 : dark barrack 2 found! color 888070
+2015-08-08 16:52:14 : Factory Spell found! color 888070
+2015-08-08 16:52:14 : Dark Factory Spell found! color 888070
+2015-08-08 16:52:14 : Barracks and Spell factory status: 
+2015-08-08 16:52:14 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:52:14 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:52:14 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:52:14 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:52:14 : Trainaviable[0] = 1
+2015-08-08 16:52:14 : Trainaviable[1] = 0
+2015-08-08 16:52:14 : Trainaviable[2] = 1
+2015-08-08 16:52:14 : Trainaviable[3] = 1
+2015-08-08 16:52:14 : Trainaviable[4] = 1
+2015-08-08 16:52:14 : Trainaviable[5] = 1
+2015-08-08 16:52:14 : Trainaviable[6] = 1
+2015-08-08 16:52:14 : Trainaviable[7] = 1
+2015-08-08 16:52:14 : Trainaviable[8] = 1
+2015-08-08 16:52:14 : Training Troops...
+2015-08-08 16:52:14 : Checking for full army [!]False
+2015-08-08 16:52:14 : Train: need to make normal troops: True
+2015-08-08 16:52:14 : Train: need to make dark troops: False
+2015-08-08 16:52:14 : LAST BARRACK = 4
+2015-08-08 16:52:14 : Last Barrack TabColor=888070
+2015-08-08 16:52:14 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:52:15 : Total Troops to be Trained= 26
+2015-08-08 16:52:15 : BARRACKNUM: 3
+2015-08-08 16:52:15 : ArchEBarrack: 10
+2015-08-08 16:52:15 : BarbEBarrack: -6
+2015-08-08 16:52:15 : DARKBARRACKNUM: 2
+2015-08-08 16:52:15 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:52:15 : 
+2015-08-08 16:52:15 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:52:15 : Barrack4 selected
+2015-08-08 16:52:15 : Full Check=DE58D0
+2015-08-08 16:52:15 : Full Check=DE58D0
+2015-08-08 16:52:15 : Full Check=FF7FF5
+2015-08-08 16:52:16 : Move from Barrack 4 direction -1
+2015-08-08 16:52:17 : Barrack3 selected
+2015-08-08 16:52:17 : Full Check=E05AD0
+2015-08-08 16:52:18 : Full Check=FF82F8
+2015-08-08 16:52:18 : Move from Barrack 3 direction -1
+2015-08-08 16:52:19 : Barrack2 selected
+2015-08-08 16:52:20 : Full Check=E05AD0
+2015-08-08 16:52:20 : Full Check=FF82F8
+2015-08-08 16:52:20 : Move from Barrack 2 direction -1
+2015-08-08 16:52:21 : This is not a Barrack
+2015-08-08 16:52:21 : ---=====================END TRAIN =======================================---
+2015-08-08 16:52:22 : checkMainScreen start quiet mode
+2015-08-08 16:52:22 : checkMainScreen exit quiet mode
+2015-08-08 16:52:23 : Trophy Count : 2520
+2015-08-08 16:52:23 : checkMainScreen start quiet mode
+2015-08-08 16:52:23 : checkMainScreen exit quiet mode
+2015-08-08 16:52:23 : Time Idle: 00:00:26
+2015-08-08 16:52:23 : $fullArmy=False $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 16:52:24 : ====== Waiting for full army ======
+2015-08-08 16:52:35 : checkMainScreen start quiet mode
+2015-08-08 16:52:35 : checkMainScreen exit quiet mode
+2015-08-08 16:52:35 : checkMainScreen start quiet mode
+2015-08-08 16:52:35 : checkMainScreen exit quiet mode
+2015-08-08 16:52:35 : Func Train 
+2015-08-08 16:52:35 : Train enabled, $TotalTrainedTroops= 26, Adj TotalCamp= 192
+2015-08-08 16:52:35 : Checking Army Camp...
+2015-08-08 16:52:37 : $sArmyInfo = 196#200
+2015-08-08 16:52:37 : $CurCamp = 196
+2015-08-08 16:52:37 : $TotalCamp = 200
+2015-08-08 16:52:37 : Total Army Camp capacity: 196/200
+2015-08-08 16:52:37 : $hBitmapFirst made
+2015-08-08 16:52:38 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:52:38 : Dll return $FullTemp :Barbarian|8-21|142#Archer|71-22|54
+2015-08-08 16:52:38 : $Trooptype split # : 2
+2015-08-08 16:52:38 : Start the Loop
+2015-08-08 16:52:38 : $TroopTypeT[$i] split : 1
+2015-08-08 16:52:38 :  - No. of Barbarians: 142
+2015-08-08 16:52:39 : $TroopTypeT[$i] split : 2
+2015-08-08 16:52:39 :  - No. of Archers: 54
+2015-08-08 16:52:39 : start barrackstatus
+2015-08-08 16:52:39 : OK, I'm in army overview
+2015-08-08 16:52:39 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:52:39 : barrack 2 found! color 888070
+2015-08-08 16:52:39 : barrack 3 found! color 888070
+2015-08-08 16:52:39 : barrack 4 found! color 888070
+2015-08-08 16:52:39 : dark barrack 1 found! color 888070
+2015-08-08 16:52:39 : dark barrack 2 found! color 888070
+2015-08-08 16:52:39 : Factory Spell found! color 888070
+2015-08-08 16:52:39 : Dark Factory Spell found! color 888070
+2015-08-08 16:52:39 : Barracks and Spell factory status: 
+2015-08-08 16:52:39 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:52:39 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:52:39 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:52:39 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:52:39 : Trainaviable[0] = 1
+2015-08-08 16:52:39 : Trainaviable[1] = 0
+2015-08-08 16:52:39 : Trainaviable[2] = 1
+2015-08-08 16:52:39 : Trainaviable[3] = 1
+2015-08-08 16:52:39 : Trainaviable[4] = 1
+2015-08-08 16:52:39 : Trainaviable[5] = 1
+2015-08-08 16:52:39 : Trainaviable[6] = 1
+2015-08-08 16:52:39 : Trainaviable[7] = 1
+2015-08-08 16:52:39 : Trainaviable[8] = 1
+2015-08-08 16:52:39 : Training Troops...
+2015-08-08 16:52:40 : Checking for full army [!]False
+2015-08-08 16:52:40 : Train: need to make normal troops: True
+2015-08-08 16:52:40 : Train: need to make dark troops: False
+2015-08-08 16:52:40 : LAST BARRACK = 4
+2015-08-08 16:52:40 : Last Barrack TabColor=888070
+2015-08-08 16:52:40 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:52:40 : Total Troops to be Trained= 39
+2015-08-08 16:52:40 : BARRACKNUM: 3
+2015-08-08 16:52:40 : ArchEBarrack: 10
+2015-08-08 16:52:40 : BarbEBarrack: -6
+2015-08-08 16:52:40 : DARKBARRACKNUM: 2
+2015-08-08 16:52:40 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:52:40 : 
+2015-08-08 16:52:40 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:52:40 : Barrack4 selected
+2015-08-08 16:52:41 : Full Check=DE58D0
+2015-08-08 16:52:41 : Full Check=DE58D0
+2015-08-08 16:52:41 : Full Check=B5B5B0
+2015-08-08 16:52:41 : Move from Barrack 4 direction -1
+2015-08-08 16:52:42 : Barrack3 selected
+2015-08-08 16:52:43 : Full Check=E05AD0
+2015-08-08 16:52:43 : Full Check=FF82F8
+2015-08-08 16:52:43 : Move from Barrack 3 direction -1
+2015-08-08 16:52:45 : Barrack2 selected
+2015-08-08 16:52:45 : Full Check=E05AD0
+2015-08-08 16:52:45 : Full Check=FF82F8
+2015-08-08 16:52:46 : Move from Barrack 2 direction -1
+2015-08-08 16:52:47 : This is not a Barrack
+2015-08-08 16:52:47 : ---=====================END TRAIN =======================================---
+2015-08-08 16:52:48 : checkMainScreen start quiet mode
+2015-08-08 16:52:48 : checkMainScreen exit quiet mode
+2015-08-08 16:52:48 : Trophy Count : 2520
+2015-08-08 16:52:49 : checkMainScreen start quiet mode
+2015-08-08 16:52:49 : checkMainScreen exit quiet mode
+2015-08-08 16:52:49 : Time Idle: 00:00:51
+2015-08-08 16:52:49 : $fullArmy=False $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 16:52:49 : ====== Waiting for full army ======
+2015-08-08 16:53:02 : checkMainScreen start quiet mode
+2015-08-08 16:53:02 : checkMainScreen exit quiet mode
+2015-08-08 16:53:03 : checkMainScreen start quiet mode
+2015-08-08 16:53:03 : checkMainScreen exit quiet mode
+2015-08-08 16:53:03 : Func Train 
+2015-08-08 16:53:03 : Train enabled, $TotalTrainedTroops= 39, Adj TotalCamp= 192
+2015-08-08 16:53:03 : Checking Army Camp...
+2015-08-08 16:53:04 : $sArmyInfo = 199#200
+2015-08-08 16:53:04 : $CurCamp = 199
+2015-08-08 16:53:04 : $TotalCamp = 200
+2015-08-08 16:53:05 : Total Army Camp capacity: 199/200
+2015-08-08 16:53:05 : $hBitmapFirst made
+2015-08-08 16:53:05 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:53:06 : Dll return $FullTemp :Barbarian|8-21|144#Archer|71-22|56
+2015-08-08 16:53:06 : $Trooptype split # : 2
+2015-08-08 16:53:06 : Start the Loop
+2015-08-08 16:53:06 : $TroopTypeT[$i] split : 1
+2015-08-08 16:53:06 :  - No. of Barbarians: 144
+2015-08-08 16:53:06 : $TroopTypeT[$i] split : 2
+2015-08-08 16:53:06 :  - No. of Archers: 56
+2015-08-08 16:53:06 : start barrackstatus
+2015-08-08 16:53:06 : OK, I'm in army overview
+2015-08-08 16:53:06 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:53:06 : barrack 2 found! color 888070
+2015-08-08 16:53:06 : barrack 3 found! color 888070
+2015-08-08 16:53:06 : barrack 4 found! color 888070
+2015-08-08 16:53:06 : dark barrack 1 found! color 888070
+2015-08-08 16:53:06 : dark barrack 2 found! color 888070
+2015-08-08 16:53:06 : Factory Spell found! color 888070
+2015-08-08 16:53:06 : Dark Factory Spell found! color 888070
+2015-08-08 16:53:06 : Barracks and Spell factory status: 
+2015-08-08 16:53:06 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:53:06 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:53:06 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:53:06 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:53:06 : Trainaviable[0] = 1
+2015-08-08 16:53:06 : Trainaviable[1] = 0
+2015-08-08 16:53:06 : Trainaviable[2] = 1
+2015-08-08 16:53:06 : Trainaviable[3] = 1
+2015-08-08 16:53:06 : Trainaviable[4] = 1
+2015-08-08 16:53:07 : Trainaviable[5] = 1
+2015-08-08 16:53:07 : Trainaviable[6] = 1
+2015-08-08 16:53:07 : Trainaviable[7] = 1
+2015-08-08 16:53:07 : Trainaviable[8] = 1
+2015-08-08 16:53:07 : Training Troops...
+2015-08-08 16:53:07 : Train: need to make normal troops: True
+2015-08-08 16:53:07 : Train: need to make dark troops: False
+2015-08-08 16:53:07 : LAST BARRACK = 4
+2015-08-08 16:53:07 : OverView TabColor=B8BBB8
+2015-08-08 16:53:07 : Last Barrack TabColor=888070
+2015-08-08 16:53:07 : Your Army Camps are now Full
+2015-08-08 16:53:07 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:53:07 : -- Compute AnotherTroops to train
+2015-08-08 16:53:07 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 16:53:07 : Total Troops to be Trained= 200
+2015-08-08 16:53:07 : BARRACKNUM: 3
+2015-08-08 16:53:07 : ArchEBarrack: 26
+2015-08-08 16:53:07 : BarbEBarrack: 40
+2015-08-08 16:53:07 : DARKBARRACKNUM: 2
+2015-08-08 16:53:07 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:53:07 : 
+2015-08-08 16:53:07 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:53:07 : Barrack4 selected
+2015-08-08 16:53:08 : Full Check=DE58D0
+2015-08-08 16:53:08 : Full Check=FF80F8
+2015-08-08 16:53:08 : Full Check=FF7FF5
+2015-08-08 16:53:09 : Move from Barrack 4 direction -1
+2015-08-08 16:53:10 : Barrack3 selected
+2015-08-08 16:53:10 : Full Check=E05AD0
+2015-08-08 16:53:10 : Full Check=FF82F8
+2015-08-08 16:53:11 : Move from Barrack 3 direction -1
+2015-08-08 16:53:12 : Barrack2 selected
+2015-08-08 16:53:13 : Full Check=E05AD0
+2015-08-08 16:53:13 : Full Check=E05AD0
+2015-08-08 16:53:13 : Full Check=AFAFAF
+2015-08-08 16:53:13 : Move from Barrack 2 direction -1
+2015-08-08 16:53:14 : This is not a Barrack
+2015-08-08 16:53:14 : ---=====================END TRAIN =======================================---
+2015-08-08 16:53:15 : checkMainScreen start quiet mode
+2015-08-08 16:53:15 : checkMainScreen exit quiet mode
+2015-08-08 16:53:16 : Trophy Count : 2520
+2015-08-08 16:53:17 : Bot clean start
+2015-08-08 16:53:18 : Trying to locate Main Screen
+2015-08-08 16:53:18 : Main Screen Located
+2015-08-08 16:53:19 : checkMainScreen start quiet mode
+2015-08-08 16:53:19 : checkMainScreen exit quiet mode
+2015-08-08 16:53:19 : Collecting Resources
+2015-08-08 16:53:25 : checkMainScreen start quiet mode
+2015-08-08 16:53:25 : checkMainScreen exit quiet mode
+2015-08-08 16:53:27 : Cannot find tombstones, Yard is clean!
+2015-08-08 16:53:28 : checkMainScreen start quiet mode
+2015-08-08 16:53:28 : checkMainScreen exit quiet mode
+2015-08-08 16:53:28 : Checking if Village needs Rearming..
+2015-08-08 16:53:34 : checkMainScreen start quiet mode
+2015-08-08 16:53:34 : checkMainScreen exit quiet mode
+2015-08-08 16:53:35 : checkMainScreen start quiet mode
+2015-08-08 16:53:35 : checkMainScreen exit quiet mode
+2015-08-08 16:53:35 : Village Report
+2015-08-08 16:53:35 : No. of Free/Total Builders: 0/4
+2015-08-08 16:53:36 :  [T]: 2 520
+2015-08-08 16:53:36 :  [G]: 1 257 782 [E]: 4 639 435 [D]: 16 841 [GEM]: 1 993
+2015-08-08 16:53:36 : checkMainScreen start quiet mode
+2015-08-08 16:53:36 : checkMainScreen exit quiet mode
+2015-08-08 16:53:37 : checkMainScreen start quiet mode
+2015-08-08 16:53:37 : checkMainScreen exit quiet mode
+2015-08-08 16:53:39 : checkMainScreen start quiet mode
+2015-08-08 16:53:39 : checkMainScreen exit quiet mode
+2015-08-08 16:53:39 : Func Train 
+2015-08-08 16:53:39 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 16:53:39 : Checking Army Camp...
+2015-08-08 16:53:40 : $sArmyInfo = 200#200
+2015-08-08 16:53:40 : $CurCamp = 200
+2015-08-08 16:53:40 : $TotalCamp = 200
+2015-08-08 16:53:41 : Total Army Camp capacity: 200/200
+2015-08-08 16:53:41 : $hBitmapFirst made
+2015-08-08 16:53:41 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:53:42 : Dll return $FullTemp :Barbarian|8-21|144#Archer|71-22|56
+2015-08-08 16:53:42 : $Trooptype split # : 2
+2015-08-08 16:53:42 : Start the Loop
+2015-08-08 16:53:42 : $TroopTypeT[$i] split : 1
+2015-08-08 16:53:42 :  - No. of Barbarians: 144
+2015-08-08 16:53:42 : $TroopTypeT[$i] split : 2
+2015-08-08 16:53:42 :  - No. of Archers: 56
+2015-08-08 16:53:42 : start barrackstatus
+2015-08-08 16:53:42 : OK, I'm in army overview
+2015-08-08 16:53:42 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:53:42 : barrack 2 found! color 888070
+2015-08-08 16:53:42 : barrack 3 found! color 888070
+2015-08-08 16:53:42 : barrack 4 found! color 888070
+2015-08-08 16:53:42 : dark barrack 1 found! color 888070
+2015-08-08 16:53:42 : dark barrack 2 found! color 888070
+2015-08-08 16:53:42 : Factory Spell found! color 888070
+2015-08-08 16:53:43 : Dark Factory Spell found! color 888070
+2015-08-08 16:53:43 : Barracks and Spell factory status: 
+2015-08-08 16:53:43 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:53:43 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:53:43 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:53:43 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:53:43 : Trainaviable[0] = 1
+2015-08-08 16:53:43 : Trainaviable[1] = 0
+2015-08-08 16:53:43 : Trainaviable[2] = 1
+2015-08-08 16:53:43 : Trainaviable[3] = 1
+2015-08-08 16:53:43 : Trainaviable[4] = 1
+2015-08-08 16:53:43 : Trainaviable[5] = 1
+2015-08-08 16:53:43 : Trainaviable[6] = 1
+2015-08-08 16:53:43 : Trainaviable[7] = 1
+2015-08-08 16:53:43 : Trainaviable[8] = 1
+2015-08-08 16:53:43 : Training Troops...
+2015-08-08 16:53:43 : Train: need to make normal troops: True
+2015-08-08 16:53:43 : Train: need to make dark troops: False
+2015-08-08 16:53:43 : LAST BARRACK = 4
+2015-08-08 16:53:43 : OverView TabColor=B7BBB8
+2015-08-08 16:53:43 : Last Barrack TabColor=888070
+2015-08-08 16:53:43 : Your Army Camps are now Full
+2015-08-08 16:53:44 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:53:44 : -- Compute AnotherTroops to train
+2015-08-08 16:53:44 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 16:53:44 : Total Troops to be Trained= 200
+2015-08-08 16:53:44 : BARRACKNUM: 3
+2015-08-08 16:53:44 : ArchEBarrack: 26
+2015-08-08 16:53:44 : BarbEBarrack: 40
+2015-08-08 16:53:44 : DARKBARRACKNUM: 2
+2015-08-08 16:53:44 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:53:44 : 
+2015-08-08 16:53:44 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:53:44 : Barrack4 selected
+2015-08-08 16:53:44 : Full Check=8D8D8D
+2015-08-08 16:53:45 : Move from Barrack 4 direction -1
+2015-08-08 16:53:46 : Barrack3 selected
+2015-08-08 16:53:46 : Full Check=8F8F8F
+2015-08-08 16:53:47 : Move from Barrack 3 direction -1
+2015-08-08 16:53:48 : Barrack2 selected
+2015-08-08 16:53:49 : Full Check=8F8F8F
+2015-08-08 16:53:49 : Move from Barrack 2 direction -1
+2015-08-08 16:53:50 : This is not a Barrack
+2015-08-08 16:53:50 : ---=====================END TRAIN =======================================---
+2015-08-08 16:53:52 : checkMainScreen start quiet mode
+2015-08-08 16:53:52 : checkMainScreen exit quiet mode
+2015-08-08 16:53:53 : checkMainScreen start quiet mode
+2015-08-08 16:53:53 : checkMainScreen exit quiet mode
+2015-08-08 16:53:54 : checkMainScreen start quiet mode
+2015-08-08 16:53:54 : checkMainScreen exit quiet mode
+2015-08-08 16:53:54 : Requesting Clan Castle Troops
+2015-08-08 16:53:54 : $icount1 = 1, BB2BD1
+2015-08-08 16:53:54 : Your Clan Castle is already full or you are not in a clan.
+2015-08-08 16:53:55 : checkMainScreen start quiet mode
+2015-08-08 16:53:56 : checkMainScreen exit quiet mode
+2015-08-08 16:53:56 : checkMainScreen start quiet mode
+2015-08-08 16:53:56 : checkMainScreen exit quiet mode
+2015-08-08 16:53:56 : checkMainScreen start quiet mode
+2015-08-08 16:53:56 : checkMainScreen exit quiet mode
+2015-08-08 16:53:59 : Finished kicking
+2015-08-08 16:53:59 : Func Idle 
+2015-08-08 16:53:59 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 16:54:00 : Bot clean start
+2015-08-08 16:54:01 : Trying to locate Main Screen
+2015-08-08 16:54:01 : Main Screen Located
+2015-08-08 16:54:02 : checkMainScreen start quiet mode
+2015-08-08 16:54:02 : checkMainScreen exit quiet mode
+2015-08-08 16:54:02 : Collecting Resources
+2015-08-08 16:54:08 : checkMainScreen start quiet mode
+2015-08-08 16:54:08 : checkMainScreen exit quiet mode
+2015-08-08 16:54:10 : Cannot find tombstones, Yard is clean!
+2015-08-08 16:54:10 : checkMainScreen start quiet mode
+2015-08-08 16:54:10 : checkMainScreen exit quiet mode
+2015-08-08 16:54:11 : Checking if Village needs Rearming..
+2015-08-08 16:54:16 : checkMainScreen start quiet mode
+2015-08-08 16:54:16 : checkMainScreen exit quiet mode
+2015-08-08 16:54:17 : checkMainScreen start quiet mode
+2015-08-08 16:54:17 : checkMainScreen exit quiet mode
+2015-08-08 16:54:18 : Village Report
+2015-08-08 16:54:18 : No. of Free/Total Builders: 0/4
+2015-08-08 16:54:18 :  [T]: 2 520
+2015-08-08 16:54:18 :  [G]: 1 257 782 [E]: 4 639 435 [D]: 16 841 [GEM]: 1 993
+2015-08-08 16:54:19 : checkMainScreen start quiet mode
+2015-08-08 16:54:19 : checkMainScreen exit quiet mode
+2015-08-08 16:54:19 : checkMainScreen start quiet mode
+2015-08-08 16:54:19 : checkMainScreen exit quiet mode
+2015-08-08 16:54:22 : checkMainScreen start quiet mode
+2015-08-08 16:54:22 : checkMainScreen exit quiet mode
+2015-08-08 16:54:22 : Func Train 
+2015-08-08 16:54:22 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 16:54:22 : Checking Army Camp...
+2015-08-08 16:54:23 : $sArmyInfo = 200#200
+2015-08-08 16:54:23 : $CurCamp = 200
+2015-08-08 16:54:23 : $TotalCamp = 200
+2015-08-08 16:54:24 : Total Army Camp capacity: 200/200
+2015-08-08 16:54:24 : $hBitmapFirst made
+2015-08-08 16:54:24 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:54:25 : Dll return $FullTemp :Barbarian|8-21|144#Archer|71-22|56
+2015-08-08 16:54:25 : $Trooptype split # : 2
+2015-08-08 16:54:25 : Start the Loop
+2015-08-08 16:54:25 : $TroopTypeT[$i] split : 1
+2015-08-08 16:54:25 :  - No. of Barbarians: 144
+2015-08-08 16:54:25 : $TroopTypeT[$i] split : 2
+2015-08-08 16:54:25 :  - No. of Archers: 56
+2015-08-08 16:54:25 : start barrackstatus
+2015-08-08 16:54:25 : OK, I'm in army overview
+2015-08-08 16:54:25 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:54:25 : barrack 2 found! color 888070
+2015-08-08 16:54:25 : barrack 3 found! color 888070
+2015-08-08 16:54:25 : barrack 4 found! color 888070
+2015-08-08 16:54:25 : dark barrack 1 found! color 888070
+2015-08-08 16:54:25 : dark barrack 2 found! color 888070
+2015-08-08 16:54:25 : Factory Spell found! color 888070
+2015-08-08 16:54:25 : Dark Factory Spell found! color 888070
+2015-08-08 16:54:25 : Barracks and Spell factory status: 
+2015-08-08 16:54:25 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:54:25 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:54:26 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:54:26 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:54:26 : Trainaviable[0] = 1
+2015-08-08 16:54:26 : Trainaviable[1] = 0
+2015-08-08 16:54:26 : Trainaviable[2] = 1
+2015-08-08 16:54:26 : Trainaviable[3] = 1
+2015-08-08 16:54:26 : Trainaviable[4] = 1
+2015-08-08 16:54:26 : Trainaviable[5] = 1
+2015-08-08 16:54:26 : Trainaviable[6] = 1
+2015-08-08 16:54:26 : Trainaviable[7] = 1
+2015-08-08 16:54:26 : Trainaviable[8] = 1
+2015-08-08 16:54:26 : Training Troops...
+2015-08-08 16:54:26 : Train: need to make normal troops: True
+2015-08-08 16:54:26 : Train: need to make dark troops: False
+2015-08-08 16:54:26 : LAST BARRACK = 4
+2015-08-08 16:54:26 : Your Army Camps are now Full
+2015-08-08 16:54:26 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:54:26 : -- Compute AnotherTroops to train
+2015-08-08 16:54:26 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 16:54:26 : Total Troops to be Trained= 200
+2015-08-08 16:54:26 : BARRACKNUM: 3
+2015-08-08 16:54:26 : ArchEBarrack: 26
+2015-08-08 16:54:26 : BarbEBarrack: 40
+2015-08-08 16:54:26 : DARKBARRACKNUM: 2
+2015-08-08 16:54:26 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:54:26 : 
+2015-08-08 16:54:26 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:54:26 : This is not a Barrack
+2015-08-08 16:54:26 : ---=====================END TRAIN =======================================---
+2015-08-08 16:54:28 : checkMainScreen start quiet mode
+2015-08-08 16:54:28 : checkMainScreen exit quiet mode
+2015-08-08 16:54:29 : checkMainScreen start quiet mode
+2015-08-08 16:54:29 : checkMainScreen exit quiet mode
+2015-08-08 16:54:30 : checkMainScreen start quiet mode
+2015-08-08 16:54:30 : checkMainScreen exit quiet mode
+2015-08-08 16:54:30 : Requesting Clan Castle Troops
+2015-08-08 16:54:30 : $icount1 = 1, BB2BD1
+2015-08-08 16:54:30 : Your Clan Castle is already full or you are not in a clan.
+2015-08-08 16:54:31 : checkMainScreen start quiet mode
+2015-08-08 16:54:31 : checkMainScreen exit quiet mode
+2015-08-08 16:54:32 : checkMainScreen start quiet mode
+2015-08-08 16:54:32 : checkMainScreen exit quiet mode
+2015-08-08 16:54:32 : checkMainScreen start quiet mode
+2015-08-08 16:54:33 : checkMainScreen exit quiet mode
+2015-08-08 16:54:35 : Finished kicking
+2015-08-08 16:54:35 : Func Idle 
+2015-08-08 16:54:35 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 16:54:36 : Bot clean start
+2015-08-08 16:54:37 : Trying to locate Main Screen
+2015-08-08 16:54:37 : Main Screen Located
+2015-08-08 16:54:38 : checkMainScreen start quiet mode
+2015-08-08 16:54:38 : checkMainScreen exit quiet mode
+2015-08-08 16:54:38 : Collecting Resources
+2015-08-08 16:54:43 : checkMainScreen start quiet mode
+2015-08-08 16:54:43 : checkMainScreen exit quiet mode
+2015-08-08 16:54:45 : Cannot find tombstones, Yard is clean!
+2015-08-08 16:54:46 : checkMainScreen start quiet mode
+2015-08-08 16:54:46 : checkMainScreen exit quiet mode
+2015-08-08 16:54:46 : Checking if Village needs Rearming..
+2015-08-08 16:54:52 : checkMainScreen start quiet mode
+2015-08-08 16:54:52 : checkMainScreen exit quiet mode
+2015-08-08 16:54:53 : checkMainScreen start quiet mode
+2015-08-08 16:54:53 : checkMainScreen exit quiet mode
+2015-08-08 16:54:54 : Village Report
+2015-08-08 16:54:54 : No. of Free/Total Builders: 0/4
+2015-08-08 16:54:54 :  [T]: 2 520
+2015-08-08 16:54:54 :  [G]: 1 257 782 [E]: 4 639 739 [D]: 16 841 [GEM]: 1 993
+2015-08-08 16:54:55 : checkMainScreen start quiet mode
+2015-08-08 16:54:55 : checkMainScreen exit quiet mode
+2015-08-08 16:54:55 : checkMainScreen start quiet mode
+2015-08-08 16:54:55 : checkMainScreen exit quiet mode
+2015-08-08 16:54:57 : Chat Request: needs reinforcement troops
+2015-08-08 16:54:58 : checkMainScreen start quiet mode
+2015-08-08 16:54:58 : checkMainScreen exit quiet mode
+2015-08-08 16:54:59 : Func Train 
+2015-08-08 16:54:59 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 16:54:59 : Checking Army Camp...
+2015-08-08 16:55:00 : $sArmyInfo = 200#200
+2015-08-08 16:55:00 : $CurCamp = 200
+2015-08-08 16:55:00 : $TotalCamp = 200
+2015-08-08 16:55:01 : Total Army Camp capacity: 200/200
+2015-08-08 16:55:01 : $hBitmapFirst made
+2015-08-08 16:55:01 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:55:01 : Dll return $FullTemp :Barbarian|8-21|144#Archer|71-22|56
+2015-08-08 16:55:01 : $Trooptype split # : 2
+2015-08-08 16:55:01 : Start the Loop
+2015-08-08 16:55:01 : $TroopTypeT[$i] split : 1
+2015-08-08 16:55:01 :  - No. of Barbarians: 144
+2015-08-08 16:55:02 : $TroopTypeT[$i] split : 2
+2015-08-08 16:55:02 :  - No. of Archers: 56
+2015-08-08 16:55:02 : start barrackstatus
+2015-08-08 16:55:02 : OK, I'm in army overview
+2015-08-08 16:55:02 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:55:02 : barrack 2 found! color 888070
+2015-08-08 16:55:02 : barrack 3 found! color 888070
+2015-08-08 16:55:02 : barrack 4 found! color 888070
+2015-08-08 16:55:02 : dark barrack 1 found! color 888070
+2015-08-08 16:55:02 : dark barrack 2 found! color 888070
+2015-08-08 16:55:02 : Factory Spell found! color 888070
+2015-08-08 16:55:02 : Dark Factory Spell found! color 888070
+2015-08-08 16:55:02 : Barracks and Spell factory status: 
+2015-08-08 16:55:02 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:55:02 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:55:02 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:55:02 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:55:02 : Trainaviable[0] = 1
+2015-08-08 16:55:02 : Trainaviable[1] = 0
+2015-08-08 16:55:02 : Trainaviable[2] = 1
+2015-08-08 16:55:02 : Trainaviable[3] = 1
+2015-08-08 16:55:02 : Trainaviable[4] = 1
+2015-08-08 16:55:02 : Trainaviable[5] = 1
+2015-08-08 16:55:02 : Trainaviable[6] = 1
+2015-08-08 16:55:02 : Trainaviable[7] = 1
+2015-08-08 16:55:02 : Trainaviable[8] = 1
+2015-08-08 16:55:02 : Training Troops...
+2015-08-08 16:55:02 : Train: need to make normal troops: True
+2015-08-08 16:55:02 : Train: need to make dark troops: False
+2015-08-08 16:55:02 : LAST BARRACK = 4
+2015-08-08 16:55:02 : OverView TabColor=B7BBB8
+2015-08-08 16:55:03 : Last Barrack TabColor=888070
+2015-08-08 16:55:03 : Last Barrack TabColor=888070
+2015-08-08 16:55:03 : Your Army Camps are now Full
+2015-08-08 16:55:03 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:55:03 : -- Compute AnotherTroops to train
+2015-08-08 16:55:03 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 16:55:03 : Total Troops to be Trained= 200
+2015-08-08 16:55:03 : BARRACKNUM: 3
+2015-08-08 16:55:03 : ArchEBarrack: 26
+2015-08-08 16:55:03 : BarbEBarrack: 40
+2015-08-08 16:55:03 : DARKBARRACKNUM: 2
+2015-08-08 16:55:03 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:55:03 : 
+2015-08-08 16:55:03 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:55:03 : Barrack4 selected
+2015-08-08 16:55:04 : Full Check=8D8D8D
+2015-08-08 16:55:04 : Move from Barrack 4 direction -1
+2015-08-08 16:55:05 : Barrack3 selected
+2015-08-08 16:55:06 : Full Check=8F8F8F
+2015-08-08 16:55:06 : Move from Barrack 3 direction -1
+2015-08-08 16:55:07 : Barrack2 selected
+2015-08-08 16:55:08 : Full Check=8F8F8F
+2015-08-08 16:55:09 : Move from Barrack 2 direction -1
+2015-08-08 16:55:10 : This is not a Barrack
+2015-08-08 16:55:10 : ---=====================END TRAIN =======================================---
+2015-08-08 16:55:12 : checkMainScreen start quiet mode
+2015-08-08 16:55:12 : checkMainScreen exit quiet mode
+2015-08-08 16:55:12 : checkMainScreen start quiet mode
+2015-08-08 16:55:12 : checkMainScreen exit quiet mode
+2015-08-08 16:55:13 : checkMainScreen start quiet mode
+2015-08-08 16:55:13 : checkMainScreen exit quiet mode
+2015-08-08 16:55:13 : Requesting Clan Castle Troops

@@ -1,0 +1,30 @@
+2015-08-04 21:51:42 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-04 21:51:42 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-04 21:51:42 : =================== Bot Start ====================
+2015-08-04 21:51:42 : -------------------------  Current Profile: 01 --------------------------
+2015-08-04 21:51:42 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-04 21:51:43 : Trying to locate Main Screen
+2015-08-04 21:51:43 : Main Screen Located
+2015-08-04 21:51:44 : Detecting your Buildings..
+2015-08-04 21:51:49 : Language setting is English: Correct.
+2015-08-04 21:51:49 : Bot clean start
+2015-08-04 21:51:51 : Trying to locate Main Screen
+2015-08-04 21:51:51 : Main Screen Located
+2015-08-04 21:51:51 : checkMainScreen start quiet mode
+2015-08-04 21:51:51 : checkMainScreen exit quiet mode
+2015-08-04 21:51:52 : Collecting Resources
+2015-08-04 21:51:57 : checkMainScreen start quiet mode
+2015-08-04 21:51:57 : checkMainScreen exit quiet mode
+2015-08-04 21:51:59 : Cannot find tombstones, Yard is clean!
+2015-08-04 21:52:00 : checkMainScreen start quiet mode
+2015-08-04 21:52:00 : checkMainScreen exit quiet mode
+2015-08-04 21:52:00 : Checking if Village needs Rearming..
+2015-08-04 21:52:06 : checkMainScreen start quiet mode
+2015-08-04 21:52:06 : checkMainScreen exit quiet mode
+2015-08-04 21:52:07 : checkMainScreen start quiet mode
+2015-08-04 21:52:07 : checkMainScreen exit quiet mode
+2015-08-04 21:52:07 : Village Report
+2015-08-04 21:52:07 : No. of Free/Total Builders: 0/4
+2015-08-04 21:52:07 :  [T]: 2 043
+2015-08-04 21:52:08 :  [G]: 5 289 596 [E]: 6 001 000 [D]: 71 483 [GEM]: 974
+2015-08-04 21:52:08 : Village Gold detected Above Elixir Profile Switch Conditions

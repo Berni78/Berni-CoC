@@ -6,6 +6,7 @@
 ; Return values .:
 ; Author ........: KnowJack (April-2015)
 ; Modified ......: KnowJack (June-2015) edited for V3.x Bot and SC updates
+;                  Sardo 2015-08
 ; Remarks .......: This file is part of ClashGameBot. Copyright 2015
 ;                  ClashGameBot is distributed under the terms of the GNU GPL
 ; Related .......:
@@ -59,7 +60,7 @@ Func UpgradeBuilding()
 		EndIf
 		SetLog("Checking Upgrade " & $iz + 1, $COLOR_GREEN) ; Tell logfile which upgrade working on.
 		If $debugSetlog = 1 Then SetLog("-Upgrade location =  " & "(" & $aUpgrades[$iz][0] & "," & $aUpgrades[$iz][1] & ")", $COLOR_PURPLE) ;Debug
-		If _Sleep(200) Then Return
+		If _Sleep($iDelayUpgradeBuilding1) Then Return
 
 		Switch $aUpgrades[$iz][3] ;Change action based on upgrade type!
 			Case "Gold"
@@ -104,7 +105,7 @@ Func UpgradeBuilding()
 		EndSwitch
 	Next
 	If $iUpgradeAction <= 0 Then Setlog("No Upgrades Available", $COLOR_GREEN)
-	If _Sleep(500) Then Return
+	If _Sleep($iDelayUpgradeBuilding2) Then Return
 	checkMainScreen(False)  ; Check for screen errors during function
 	Return $iUpgradeAction
 
@@ -112,7 +113,7 @@ EndFunc   ;==>UpgradeBuilding
 ;
 Func UpgradeNormal($inum)
 	Click($aUpgrades[$inum][0], $aUpgrades[$inum][1],1,0,"#0296") ; Select the item to be upgrade
-	If _Sleep(700) Then Return ; Wait for window to open
+	If _Sleep($iDelayUpgradeNormal1) Then Return ; Wait for window to open
 	If $aUpgrades[$inum][3] = "Gold" Then
 		Local $offColors[3][3] = [[0xD6714B, 47, 37], [0xF0E850, 70, 0], [0xF4F8F2, 79, 0]] ; 2nd pixel brown hammer, 3rd pixel gold, 4th pixel edge of button
 		Global $ButtonPixel = _MultiPixelSearch(240, 563, 670, 650, 1, 1, Hex(0xF3F3F1, 6), $offColors, 30) ; first gray/white pixel of button
@@ -129,23 +130,23 @@ Func UpgradeNormal($inum)
 		EndIf
 	EndIf
 	If IsArray($ButtonPixel) Then
-		If _Sleep(200) Then Return
+		If _Sleep($iDelayUpgradeNormal2) Then Return
 		Click($ButtonPixel[0] + 20, $ButtonPixel[1] + 20,1,0,"#0297") ; Click Upgrade Button
-		If _Sleep(750) Then Return ; Wait for window to open
+		If _Sleep($iDelayUpgradeNormal3) Then Return ; Wait for window to open
 		If $debugSetlog = 1 Then DebugImageSave("UpgradeRegBtn1")
 		If _ColorCheck(_GetPixelColor(685, 150, True), Hex(0xE1090E, 6), 20) Then ; Check if the building Upgrade window is open
 			If _ColorCheck(_GetPixelColor(471, 478, True), Hex(0xE70A12, 6), 20) And _ColorCheck(_GetPixelColor(471, 482), Hex(0xE70A12, 6), 20) And _
 					_ColorCheck(_GetPixelColor(471, 486, True), Hex(0xE70A12, 6), 20) Then ; Check for Red Zero = means not enough loot!
 				SetLog("Upgrade Fail #" & $inum + 1 & " No Loot!", $COLOR_RED)
-				ClickP($aTopLeftClient, 2,0,"#0298") ;Click Away
+				ClickP($aAway, 2,0,"#0298") ;Click Away
 				Return False
 			Else
 				Click(440, 480,1,0,"#0299") ; Click upgrade buttton
-				If _Sleep(750) Then Return
+				If _Sleep($iDelayUpgradeNormal3) Then Return
 				If $debugSetlog = 1 Then DebugImageSave("UpgradeRegBtn2")
 				If _ColorCheck(_GetPixelColor(573, 256, True), Hex(0xE1090E, 6), 20) Then ; Redundant Safety Check if the use Gem window opens
 					SetLog("Upgrade Fail #" & $inum + 1 & " No Loot!", $COLOR_RED)
-					ClickP($aTopLeftClient, 2,0,"#0300") ;Click Away to close windows
+					ClickP($aAway, 2,0,"#0300") ;Click Away to close windows
 					Return False
 				EndIf
 				SetLog("Upgrade #" & $inum + 1 & " complete", $COLOR_GREEN)
@@ -154,24 +155,24 @@ Func UpgradeNormal($inum)
 				$aUpgrades[$inum][3] = ""
 				GUICtrlSetImage($picUpgradeStatus[$inum], $pIconLib, $eIcnGreenLight) ; Change GUI upgrade status to done
 				GUICtrlSetState($chkbxUpgrade[$inum], $GUI_UNCHECKED) ; Change upgrade selection box to unchecked
-				ClickP($aTopLeftClient, 2,0,"#0301") ;Click Away to close windows
-				If _Sleep(800) Then Return ; Wait for window to close
+				ClickP($aAway, 2,0,"#0301") ;Click Away to close windows
+				If _Sleep($iDelayUpgradeNormal3) Then Return ; Wait for window to close
 				Return True
 			EndIf
 		Else
 			Setlog("Upgrade #" & $inum + 1 & " window open fail", $COLOR_RED)
-			ClickP($aTopLeftClient, 2,0,"#0302") ;Click Away
+			ClickP($aAway, 2,0,"#0302") ;Click Away
 		EndIf
 	Else
 		Setlog("Upgrade #" & $inum + 1 & " Error finding button", $COLOR_RED)
-		ClickP($aTopLeftClient, 2,0,"#0303") ;Click Away
+		ClickP($aAway, 2,0,"#0303") ;Click Away
 		Return False
 	EndIf
 EndFunc   ;==>UpgradeNormal
 ;
 Func UpgradeHero($inum)
 	Click($aUpgrades[$inum][0], $aUpgrades[$inum][1],1,0,"#0304") ; Select the item to be upgrade
-	If _Sleep(800) Then Return ; Wait for window to open
+	If _Sleep($iDelayUpgradeHero1) Then Return ; Wait for window to open
 	Local $offColors[3][3] = [[0x9B4C28, 41, 23], [0x040009, 72, 0], [0xF5F9F2, 79, 0]] ; 2nd pixel brown hammer, 3rd pixel black, 4th pixel edge of button
 	Global $ButtonPixel = _MultiPixelSearch(240, 563, 670, 620, 1, 1, Hex(0xF6F9F3, 6), $offColors, 30) ; first gray/white pixel of button
 	If IsArray($ButtonPixel) Then
@@ -179,24 +180,24 @@ Func UpgradeHero($inum)
 			Setlog("ButtonPixel = " & $ButtonPixel[0] & ", " & $ButtonPixel[1], $COLOR_PURPLE) ;Debug
 			Setlog("Color #1: " & _GetPixelColor($ButtonPixel[0], $ButtonPixel[1], True) & ", #2: " & _GetPixelColor($ButtonPixel[0] + 41, $ButtonPixel[1] + 23, True) & ", #3: " & _GetPixelColor($ButtonPixel[0] + 72, $ButtonPixel[1], True) & ", #4: " & _GetPixelColor($ButtonPixel[0] + 79, $ButtonPixel[1], True), $COLOR_PURPLE)
 		EndIf
-		If _Sleep(500) Then Return
+		If _Sleep($iDelayUpgradeHero2) Then Return
 		Click($ButtonPixel[0] + 20, $ButtonPixel[1] + 20,1,0,"#0305") ; Click Upgrade Button
-		If _Sleep(1000) Then Return ; Wait for window to open
+		If _Sleep($iDelayUpgradeHero3) Then Return ; Wait for window to open
 		If $debugSetlog = 1 Then DebugImageSave("UpgradeDarkBtn1")
 		If _ColorCheck(_GetPixelColor(715, 150, True), Hex(0xE1090E, 6), 20) Then ; Check if the Hero Upgrade window is open
 			If _ColorCheck(_GetPixelColor(557, 486, True), Hex(0xE70A12, 6), 20) And _ColorCheck(_GetPixelColor(557, 490), Hex(0xE70A12, 6), 20) And _
 					_ColorCheck(_GetPixelColor(557, 494, True), Hex(0xE70A12, 6), 20) Then ; Check for Red Zero = means not enough loot!
 				SetLog("Hero Upgrade Fail #" & $inum + 1 & " No DE!", $COLOR_RED)
-				ClickP($aTopLeftClient, 2,0,"#0306") ;Click Away to close window
+				ClickP($aAway, 2,0,"#0306") ;Click Away to close window
 				Return False
 			Else
 				Click(540, 490,1,0,"#0307") ; Click upgrade buttton
-				ClickP($aTopLeftClient, 1,0,"#0308") ;Click Away to close windows
-				If _Sleep(800) Then Return
+				ClickP($aAway, 1,0,"#0308") ;Click Away to close windows
+				If _Sleep($iDelayUpgradeHero1) Then Return
 				If $debugSetlog = 1 Then DebugImageSave("UpgradeDarkBtn2")
 				If _ColorCheck(_GetPixelColor(573, 256, True), Hex(0xE1090E, 6), 20) Then ; Redundant Safety Check if the use Gem window opens
 					SetLog("Upgrade Fail #" & $inum + 1 & " No DE!", $COLOR_RED)
-					ClickP($aTopLeftClient, 2,0,"#0309") ;Click Away to close windows
+					ClickP($aAway, 2,0,"#0309") ;Click Away to close windows
 					Return False
 				EndIf
 				SetLog("Hero Upgrade #" & $inum + 1 & " complete", $COLOR_GREEN)
@@ -205,17 +206,17 @@ Func UpgradeHero($inum)
 				$aUpgrades[$inum][3] = ""
 				GUICtrlSetImage($picUpgradeStatus[$inum],  $pIconLib, $eIcnGreenLight) ; Change GUI upgrade status to done
 				GUICtrlSetState($chkbxUpgrade[$inum], $GUI_UNCHECKED) ; Change upgrade selection box to unchecked
-				ClickP($aTopLeftClient, 2,0,"#0310") ;Click Away to close windows
-				If _Sleep(500) Then Return ; Wait for window to close
+				ClickP($aAway, 2,0,"#0310") ;Click Away to close windows
+				If _Sleep($iDelayUpgradeHero2) Then Return ; Wait for window to close
 				Return True
 			EndIf
 		Else
 			Setlog("Upgrade #" & $inum + 1 & " window open fail", $COLOR_RED)
-			ClickP($aTopLeftClient, 2,0,"#0311") ;Click Away to close windows
+			ClickP($aAway, 2,0,"#0311") ;Click Away to close windows
 		EndIf
 	Else
 		Setlog("Upgrade #" & $inum + 1 & " Error finding button", $COLOR_RED)
-		ClickP($aTopLeftClient, 2,0,"#0312") ;Click Away to close windows
+		ClickP($aAway, 2,0,"#0312") ;Click Away to close windows
 		Return False
 	EndIf
 EndFunc   ;==>UpgradeHero

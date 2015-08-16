@@ -1,0 +1,152 @@
+2015-08-10 12:50:32 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-10 12:50:32 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-10 12:50:32 : =================== Bot Start ====================
+2015-08-10 12:50:32 : -------------------------  Current Profile: 03 --------------------------
+2015-08-10 12:50:32 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-10 12:50:33 : Trying to locate Main Screen
+2015-08-10 12:50:33 : Main Screen Located
+2015-08-10 12:50:34 : Detecting your Buildings..
+2015-08-10 12:50:40 : Language setting is English: Correct.
+2015-08-10 12:50:40 : Bot clean start
+2015-08-10 12:50:41 : Trying to locate Main Screen
+2015-08-10 12:50:41 : Main Screen Located
+2015-08-10 12:50:41 : checkMainScreen start quiet mode
+2015-08-10 12:50:41 : checkMainScreen exit quiet mode
+2015-08-10 12:50:42 : Collecting Resources
+2015-08-10 12:50:47 : checkMainScreen start quiet mode
+2015-08-10 12:50:47 : checkMainScreen exit quiet mode
+2015-08-10 12:50:49 : Cannot find tombstones, Yard is clean!
+2015-08-10 12:50:50 : checkMainScreen start quiet mode
+2015-08-10 12:50:50 : checkMainScreen exit quiet mode
+2015-08-10 12:50:50 : Checking if Village needs Rearming..
+2015-08-10 12:50:56 : checkMainScreen start quiet mode
+2015-08-10 12:50:56 : checkMainScreen exit quiet mode
+2015-08-10 12:50:57 : checkMainScreen start quiet mode
+2015-08-10 12:50:57 : checkMainScreen exit quiet mode
+2015-08-10 12:50:58 : Village Report
+2015-08-10 12:50:58 : No. of Free/Total Builders: 0/4
+2015-08-10 12:50:58 :  [T]: 2 556
+2015-08-10 12:50:58 :  [G]: 657 308 [E]: 5 585 447 [D]: 33 621 [GEM]: 1 993
+2015-08-10 12:50:59 : checkMainScreen start quiet mode
+2015-08-10 12:50:59 : checkMainScreen exit quiet mode
+2015-08-10 12:50:59 : checkMainScreen start quiet mode
+2015-08-10 12:50:59 : checkMainScreen exit quiet mode
+2015-08-10 12:51:01 : Chat Request: tt sauf geant et gob merci
+2015-08-10 12:51:03 : checkMainScreen start quiet mode
+2015-08-10 12:51:03 : checkMainScreen exit quiet mode
+2015-08-10 12:51:03 : Func Train 
+2015-08-10 12:51:03 : Train enabled, $TotalTrainedTroops= 0, Adj TotalCamp= -8
+2015-08-10 12:51:03 : Checking Army Camp...
+2015-08-10 12:51:04 : $sArmyInfo = 200#200
+2015-08-10 12:51:04 : $CurCamp = 200
+2015-08-10 12:51:04 : $TotalCamp = 200
+2015-08-10 12:51:05 : Total Army Camp capacity: 200/200
+2015-08-10 12:51:05 : $hBitmapFirst made
+2015-08-10 12:51:05 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-10 12:51:08 : Dll return $FullTemp :Dragon|9-23|10
+2015-08-10 12:51:08 : $Trooptype split # : 1
+2015-08-10 12:51:08 : Start the Loop
+2015-08-10 12:51:08 : $TroopTypeT[$i] split : 1
+2015-08-10 12:51:08 :  - No. of Dragons: 10
+2015-08-10 12:51:08 : start barrackstatus
+2015-08-10 12:51:08 : OK, I'm in army overview
+2015-08-10 12:51:08 : barrack 1 found upgrading! color 6B6964
+2015-08-10 12:51:08 : barrack 2 found! color 888070
+2015-08-10 12:51:08 : barrack 3 found! color 888070
+2015-08-10 12:51:08 : barrack 4 found! color 888070
+2015-08-10 12:51:08 : dark barrack 1 found! color 888070
+2015-08-10 12:51:08 : dark barrack 2 found! color 888070
+2015-08-10 12:51:08 : Factory Spell found! color 888070
+2015-08-10 12:51:08 : Dark Factory Spell found! color 888070
+2015-08-10 12:51:08 : Barracks and Spell factory status: 
+2015-08-10 12:51:08 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-10 12:51:08 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-10 12:51:08 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-10 12:51:08 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-10 12:51:08 : Trainaviable[0] = 1
+2015-08-10 12:51:08 : Trainaviable[1] = 0
+2015-08-10 12:51:08 : Trainaviable[2] = 1
+2015-08-10 12:51:08 : Trainaviable[3] = 1
+2015-08-10 12:51:08 : Trainaviable[4] = 1
+2015-08-10 12:51:08 : Trainaviable[5] = 1
+2015-08-10 12:51:08 : Trainaviable[6] = 1
+2015-08-10 12:51:08 : Trainaviable[7] = 1
+2015-08-10 12:51:09 : Trainaviable[8] = 1
+2015-08-10 12:51:09 : Training Troops...
+2015-08-10 12:51:09 : Train: need to make normal troops: True
+2015-08-10 12:51:09 : Train: need to make dark troops: False
+2015-08-10 12:51:09 : LAST BARRACK = 4
+2015-08-10 12:51:09 : Last Barrack TabColor=857B6E
+2015-08-10 12:51:09 : Your Army Camps are now Full
+2015-08-10 12:51:09 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-10 12:51:09 : -- Compute AnotherTroops to train
+2015-08-10 12:51:09 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-10 12:51:09 : Total Troops to be Trained= 200
+2015-08-10 12:51:09 : BARRACKNUM: 3
+2015-08-10 12:51:09 : ArchEBarrack: 26
+2015-08-10 12:51:09 : BarbEBarrack: 40
+2015-08-10 12:51:09 : DARKBARRACKNUM: 2
+2015-08-10 12:51:09 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-10 12:51:09 : 
+2015-08-10 12:51:09 : ---------TRAIN BARRACK MODE------------------------
+2015-08-10 12:51:10 : Barrack4 selected
+2015-08-10 12:51:10 : Full Check=E058D8
+2015-08-10 12:51:10 : Full Check=FF80FF
+2015-08-10 12:51:10 : Full Check=FF7BF1
+2015-08-10 12:51:11 : Move from Barrack 4 direction -1
+2015-08-10 12:51:12 : Barrack3 selected
+2015-08-10 12:51:13 : Full Check=E058D8
+2015-08-10 12:51:13 : Full Check=E058D8
+2015-08-10 12:51:13 : Full Check=FF7CF3
+2015-08-10 12:51:13 : Move from Barrack 3 direction -1
+2015-08-10 12:51:15 : Barrack2 selected
+2015-08-10 12:51:15 : Full Check=E058D8
+2015-08-10 12:51:15 : Full Check=FF80FF
+2015-08-10 12:51:15 : Full Check=FF7CF3
+2015-08-10 12:51:16 : Move from Barrack 2 direction -1
+2015-08-10 12:51:17 : This is not a Barrack
+2015-08-10 12:51:17 : ---=====================END TRAIN =======================================---
+2015-08-10 12:51:19 : checkMainScreen start quiet mode
+2015-08-10 12:51:19 : checkMainScreen exit quiet mode
+2015-08-10 12:51:20 : checkMainScreen start quiet mode
+2015-08-10 12:51:20 : checkMainScreen exit quiet mode
+2015-08-10 12:51:21 : checkMainScreen start quiet mode
+2015-08-10 12:51:21 : checkMainScreen exit quiet mode
+2015-08-10 12:51:21 : Requesting Clan Castle Troops
+2015-08-10 12:51:21 : $icount1 = 1, BB2BD1
+2015-08-10 12:51:21 : Your Clan Castle is already full or you are not in a clan.
+2015-08-10 12:51:22 : checkMainScreen start quiet mode
+2015-08-10 12:51:22 : checkMainScreen exit quiet mode
+2015-08-10 12:51:23 : checkMainScreen start quiet mode
+2015-08-10 12:51:23 : checkMainScreen exit quiet mode
+2015-08-10 12:51:23 : checkMainScreen start quiet mode
+2015-08-10 12:51:23 : checkMainScreen exit quiet mode
+2015-08-10 12:51:26 : Finished kicking
+2015-08-10 12:51:26 : Func Idle 
+2015-08-10 12:51:26 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-10 12:51:26 : Going to Attack...
+2015-08-10 12:51:30 : Take-A-Break OCR result = 
+2015-08-10 12:51:30 : Shield btn clr chk-#1: 000000, #2: 010101, #3: FFFFFF, #4: CBE870
+2015-08-10 12:51:31 : ButtonPixel = 441, 374
+2015-08-10 12:51:31 : Pixel color found #1: 000000, #2: 010101, #3: FFFFFF, #4: FEFEFE
+2015-08-10 12:51:31 : Loop to clean screen without Clouds , nº :1
+2015-08-10 12:51:32 : Loop to clean screen without Clouds , nº :2
+2015-08-10 12:51:32 : Loop to clean screen without Clouds , nº :3
+2015-08-10 12:51:33 : Loop to clean screen without Clouds , nº :4
+2015-08-10 12:51:34 : Loop to clean screen without Clouds , nº :5
+2015-08-10 12:51:34 : Loop to clean screen without Clouds , nº :6
+2015-08-10 12:51:35 : Loop to clean screen without Clouds , nº :7
+2015-08-10 12:51:35 : Loop to clean screen without Clouds , nº :8
+2015-08-10 12:51:36 : Loop to clean screen without Clouds , nº :9
+2015-08-10 12:51:36 : Loop to clean screen without Clouds , nº :10
+2015-08-10 12:51:37 : Loop to clean screen without Clouds , nº :11
+2015-08-10 12:51:38 : Loop to clean screen without Clouds , nº :12
+2015-08-10 12:51:39 :   1> [G]:  84016 [E]:  64194 [D]:  313 [T]:10 [TH]: 9, In
+2015-08-10 12:51:39 : Initiating attack for: Live Base
+2015-08-10 12:51:42 : DLL Troopsbar list: Dragon|43-31|111#Castle|112-85|0#King|188-31|0#LightSpell|260-31|3#PoisonSpell|328-28|1
+2015-08-10 12:51:42 : -Dragons 111
+2015-08-10 12:51:42 : -Clan Castle 
+2015-08-10 12:51:42 : -King 
+2015-08-10 12:51:42 : -Lightning Spells 3
+2015-08-10 12:51:42 : -Poison Spells 1
+2015-08-10 12:51:42 : Live Base Hero Healing Mode Enabled

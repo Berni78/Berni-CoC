@@ -191,6 +191,11 @@ Local $x = 30, $y = 205
 			$txtTip = "Relocate your Laboratory."
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetOnEvent(-1, "btnLab")
+		$btnResetBuilding = GUICtrlCreateButton("Reset.", $x + 380, $y, 40, 40, $BS_ICON)
+			GUICtrlSetImage(-1, $pIconLib, $eIcnBldgX)
+			$txtTip = "Click here it reset all building locations," & @CRLF & "like when you have changed base layout"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetOnEvent(-1, "btnResetBuilding")
 		GUICtrlCreateGroup("", -99, -99, 1, 1)
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 GUICtrlCreateTabItem("")

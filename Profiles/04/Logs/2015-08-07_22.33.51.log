@@ -1,0 +1,56 @@
+2015-08-07 22:33:52 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 22:33:52 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-07 22:33:52 : =================== Bot Start ====================
+2015-08-07 22:33:52 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 22:33:52 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 22:33:52 : Trying to locate Main Screen
+2015-08-07 22:33:53 : CheckObstacles Result = False
+2015-08-07 22:33:55 : Waiting for Main Screen
+2015-08-07 22:33:55 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 22:33:58 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 22:33:58 : Screen cleared, WaitMainScreen exit
+2015-08-07 22:33:58 : Main Screen Located
+2015-08-07 22:33:59 : Detecting your Buildings..
+2015-08-07 22:34:07 : Language setting is English: Correct.
+2015-08-07 22:34:07 : Bot clean start
+2015-08-07 22:34:08 : Trying to locate Main Screen
+2015-08-07 22:34:08 : Main Screen Located
+2015-08-07 22:34:09 : Halt Attack, Stay Online/Collect...
+2015-08-07 22:34:10 : checkMainScreen start quiet mode
+2015-08-07 22:34:10 : checkMainScreen exit quiet mode
+2015-08-07 22:34:10 : Collecting Resources
+2015-08-07 22:34:15 : checkMainScreen start quiet mode
+2015-08-07 22:34:15 : checkMainScreen exit quiet mode
+2015-08-07 22:34:17 : Checking if Village needs Rearming..
+2015-08-07 22:34:23 : checkMainScreen start quiet mode
+2015-08-07 22:34:23 : checkMainScreen exit quiet mode
+2015-08-07 22:34:23 : checkMainScreen start quiet mode
+2015-08-07 22:34:23 : checkMainScreen exit quiet mode
+2015-08-07 22:34:24 : Village Report
+2015-08-07 22:34:24 : No. of Free/Total Builders: 0/4
+2015-08-07 22:34:24 :  [T]: 2 546
+2015-08-07 22:34:24 :  [G]: 1 687 866 [E]: 5 155 301 [D]: 18 148 [GEM]: 1 981
+2015-08-07 22:34:25 : checkMainScreen start quiet mode
+2015-08-07 22:34:25 : checkMainScreen exit quiet mode
+2015-08-07 22:34:26 : checkMainScreen start quiet mode
+2015-08-07 22:34:26 : checkMainScreen exit quiet mode
+2015-08-07 22:34:27 : checkMainScreen start quiet mode
+2015-08-07 22:34:27 : checkMainScreen exit quiet mode
+2015-08-07 22:34:28 : checkMainScreen start quiet mode
+2015-08-07 22:34:28 : checkMainScreen exit quiet mode
+2015-08-07 22:34:29 : checkMainScreen start quiet mode
+2015-08-07 22:34:29 : checkMainScreen exit quiet mode
+2015-08-07 22:34:30 : checkMainScreen start quiet mode
+2015-08-07 22:34:30 : checkMainScreen exit quiet mode
+2015-08-07 22:34:30 : checkMainScreen start quiet mode
+2015-08-07 22:34:30 : checkMainScreen exit quiet mode
+2015-08-07 22:34:31 : checkMainScreen start quiet mode
+2015-08-07 22:34:31 : checkMainScreen exit quiet mode
+2015-08-07 22:34:33 : Finished kicking
+2015-08-07 22:34:33 : Func Idle 
+2015-08-07 22:34:44 : checkMainScreen start quiet mode
+2015-08-07 22:34:44 : checkMainScreen exit quiet mode
+2015-08-07 22:34:45 : Checking Overview for full army [!] True, 407508
+2015-08-07 22:34:45 : Checking Overview for full CC [!] False, FFFFFF
+2015-08-07 22:35:07 : Checking Overview for full Heroes [!] False, FCFEFC
+2015-08-07 22:35:27 : ClashGameBot was Paused!

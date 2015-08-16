@@ -6,7 +6,7 @@
 ; Parameters ....:
 ; Return values .: None
 ; Author ........: Code Monkey #69
-; Modified ......: KnowJack (June 2015)
+; Modified ......: KnowJack (June 2015) Sardo 2015-08
 ; Remarks .......: This file is part of ClashGameBot. Copyright 2015
 ;                  ClashGameBot is distributed under the terms of the GNU GPL
 ; Related .......:
@@ -24,7 +24,7 @@ Func LocateClanCastle()
 	EndIf
 
 	While 1
-		ClickP($aTopLeftClient)
+		ClickP($aAway,1,0,"#0373")
 		_ExtMsgBoxSet(1 + 64, $SS_CENTER, 0x004080, 0xFFFF00, 12, "Comic Sans MS", 500)
 		$stext =  $sErrorText & @CRLF & "Click OK then click on your Clan Castle" & @CRLF & @CRLF & _
 		"Do not move mouse quickly after clicking location"& @CRLF & @CRLF & "Make sure the building name is visible for me!" & @CRLF
@@ -51,20 +51,20 @@ Func LocateClanCastle()
 						ContinueLoop
 					Case $iStupid > 4
 						SetLog(" Operator Error - Bad Clan Castle Location: " & "(" & $aCCPos[0] & "," & $aCCPos[1] & ")", $COLOR_RED)
-						ClickP($aTopLeftClient)
+						ClickP($aAway,1,0,"#0374")
 						Return False
 					Case Else
 						SetLog(" Operator Error - Bad Clan Castle Location: " & "(" & $aCCPos[0] & "," & $aCCPos[1] & ")", $COLOR_RED)
 						$aCCPos[0] = -1
 						$aCCPos[1] = -1
-						ClickP($aTopLeftClient)
+						ClickP($aAway,1,0,"#0375")
 						Return False
 				EndSelect
 			EndIf
 			SetLog("Clan Castle: " & "(" & $aCCPos[0] & "," & $aCCPos[1] & ")", $COLOR_GREEN)
 		Else
 			SetLog("Locate Clan Castle Cancelled", $COLOR_BLUE)
-			ClickP($aTopLeftClient)
+			ClickP($aAway,1,0,"#0376")
 			Return
 		EndIf
 		$sInfo = BuildingInfo(242, 520)
@@ -93,7 +93,7 @@ Func LocateClanCastle()
 						SetLog("Quit joking, Click the Clan Castle, or restart bot and try again", $COLOR_RED)
 						$aCCPos[0] = -1
 						$aCCPos[1] = -1
-						ClickP($aTopLeftClient)
+						ClickP($aAway,1,0,"#0377")
 						Return False
 				EndSelect
 			EndIf
@@ -101,12 +101,12 @@ Func LocateClanCastle()
 			SetLog(" Operator Error - Bad Clan Castle Location: " & "(" & $aCCPos[0] & "," & $aCCPos[1] & ")", $COLOR_RED)
 			$aCCPos[0] = -1
 			$aCCPos[1] = -1
-			ClickP($aTopLeftClient)
+			ClickP($aAway,1,0,"#0378")
 			Return False
 		EndIf
 		ExitLoop
 	WEnd
 
-	ClickP($aTopLeftClient, 1, 200, "#0327")
+	ClickP($aAway, 1, 200, "#0327")
 
 EndFunc   ;==>LocateClanCastle

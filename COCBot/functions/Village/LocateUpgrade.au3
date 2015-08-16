@@ -6,6 +6,7 @@
 ; Return values .:
 ; Author ........: KnowJack (April-2015)
 ; Modified ......: KnowJack (June-2015) edited for V3.X bot and SC updates
+;				   Sardo 2015-08
 ; Remarks .......: This file is part of ClashGameBot. Copyright 2015
 ;                  ClashGameBot is distributed under the terms of the GNU GPL
 ; Related .......:
@@ -61,7 +62,7 @@ Func LocateUpgrades()
 				Case Else
 					Setlog("Impossible value from Msgbox, you have been a bad programmer!", $COLOR_PURPLE)
 			EndSwitch
-			ClickP($aTopLeftClient, 1,0,"#0210") ;Click Away to close windows
+			ClickP($aAway, 1,0,"#0210") ;Click Away to close windows
 		Next
 		ExitLoop
 	WEnd
@@ -75,7 +76,7 @@ Func CheckUpgrades() ; Valdiate and determine the cost and type of the upgrade a
 	_ExtMsgBoxSet(1 + 64, $SS_CENTER, 0x004080, 0xFFFF00, 12, "Comic Sans MS", 500)
 	$stext = "Keep Mouse OUT of BlueStacks Window While I Check Your Upgrades, Thanks!!"
 	$MsgBox = _ExtMsgBox(48, "OK", "Notice!", $stext, 15, $frmBot)
-	If _Sleep(1000) Then Return
+	If _Sleep($iDelayCheckUpgrades1) Then Return
 	If $MsgBox <> 1 Then
 		Setlog("Something weird happened in getting upgrade values, try again", $COLOR_RED)
 		Return False
@@ -118,11 +119,11 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 	If $aUpgrades[$inum][0] <= 0 Or $aUpgrades[$inum][1] <= 0 Then Return False
 	$aUpgrades[$inum][2] = 0 ; Clear previous upgrade value if run before
 	$aUpgrades[$inum][3] = "" ; Clear previous loot type if run before
-	ClickP($aTopLeftClient, 1,0,"#0211") ;Click Away to close windows
+	ClickP($aAway, 1,0,"#0211") ;Click Away to close windows
 	SetLog("-$Upgrade #" & $inum + 1 & " Location =  " & "(" & $aUpgrades[$inum][0] & "," & $aUpgrades[$inum][1] & ")", $COLOR_TEAL) ;Debug
-	If _Sleep(200) Then Return
+	If _Sleep($iDelayUpgradeValue1) Then Return
 	Click($aUpgrades[$inum][0], $aUpgrades[$inum][1],1,0,"#0212") ;Select upgrade trained
-	If _Sleep(800) Then Return
+	If _Sleep($iDelayUpgradeValue2) Then Return
 
 	If $bOopsFlag = True Then DebugImageSave("ButtonView")
 
@@ -153,7 +154,7 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 
 	If IsArray($ButtonPixel) Then
 		Click($ButtonPixel[0] + 20, $ButtonPixel[1] + 20,1,0,"#0213") ; Click Upgrade Button
-		If _Sleep(750) Then Return
+		If _Sleep($iDelayUpgradeValue3) Then Return
 
 		If $bOopsFlag = True Then DebugImageSave("UpgradeView")
 		_CaptureRegion()
@@ -166,7 +167,7 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 					$aUpgrades[$inum][1] = -1 ; Clear upgrade location value as it  is invalid
 					$aUpgrades[$inum][2] = 0 ; Clear upgrade value as it is invalid
 					$aUpgrades[$inum][3] = "" ; Clear upgrade type as it  is invalid
-					ClickP($aTopLeftClient, 2,0,"#0214") ;Click Away
+					ClickP($aAway, 2,0,"#0214") ;Click Away
 					Return False
 				EndIf
 				If _ColorCheck(_GetPixelColor(487, 479), Hex(0xF0E950, 6), 20) Then $aUpgrades[$inum][3] = "Gold" ;Check if Gold required and update type
@@ -182,7 +183,7 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 					$aUpgrades[$inum][1] = -1 ; Clear upgrade location value as it  is invalid
 					$aUpgrades[$inum][2] = 0 ; Clear upgrade value as it is invalid
 					$aUpgrades[$inum][3] = "" ; Clear upgrade type as it  is invalid
-					ClickP($aTopLeftClient, 2,0,"#0215") ;Click Away
+					ClickP($aAway, 2,0,"#0215") ;Click Away
 					Return False
 				EndIf
 				If _ColorCheck(_GetPixelColor(575, 498), Hex(0x000000, 6), 20) Then $aUpgrades[$inum][3] = "Dark" ; Check if DE required and update type
@@ -191,13 +192,13 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 				If $aUpgrades[$inum][2] = "" Then $bOopsFlag = True ; set error flag for user to set value
 
 			Case Else
-				If isGemOpen(True) Then ClickP($aTopLeftClient, 2,0,"#0216")
+				If isGemOpen(True) Then ClickP($aAway, 2,0,"#0216")
 				Setlog("Selected Upgrade Window Opening Error, try again", $COLOR_RED)
 				$aUpgrades[$inum][0] = -1 ; Clear upgrade location value as it is invalid
 				$aUpgrades[$inum][1] = -1 ; Clear upgrade location value as it  is invalid
 				$aUpgrades[$inum][2] = 0 ; Clear upgrade value as it is invalid
 				$aUpgrades[$inum][3] = "" ; Clear upgrade type as it  is invalid
-				ClickP($aTopLeftClient, 2,0,"#0217") ;Click Away
+				ClickP($aAway, 2,0,"#0217") ;Click Away
 				Return False
 
 		EndSelect
@@ -237,7 +238,7 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 			Setlog("Error finding loot info " & $inum & ", Loot = " & $aUpgrades[$inum][2] & ", Type= " & $aUpgrades[$inum][3], $COLOR_RED)
 			$aUpgrades[$inum][0] = -1 ; Clear upgrade location value as it is invalid
 			$aUpgrades[$inum][1] = -1 ; Clear upgrade location value as it  is invalid
-			ClickP($aTopLeftClient, 2,0,"#0218") ;Click Away
+			ClickP($aAway, 2,0,"#0218") ;Click Away
 			Return False
 		EndIf
 		Setlog("UpgradeValue = " & _NumberFormat($aUpgrades[$inum][2]) & " " & $aUpgrades[$inum][3], $COLOR_BLUE) ; debug & document cost of upgrade
@@ -245,11 +246,11 @@ Func UpgradeValue($inum) ;function to find the value and type of the upgrade.
 		;Setlog("Upgrade selection fail", $COLOR_RED)
 		$aUpgrades[$inum][0] = -1 ; Clear upgrade location value as it is invalid
 		$aUpgrades[$inum][1] = -1 ; Clear upgrade location value as it  is invalid
-		ClickP($aTopLeftClient, 2,0,"#0219") ;Click Away
+		ClickP($aAway, 2,0,"#0219") ;Click Away
 		Return False
 
 	EndIf
-	ClickP($aTopLeftClient, 2,0,"#0220") ;Click Away
+	ClickP($aAway, 2,0,"#0220") ;Click Away
 	Return True
 
 EndFunc   ;==>UpgradeValue
@@ -263,7 +264,7 @@ Func DebugImageSave($TxtName = "Unknown")
 	$Time = @HOUR & "." & @MIN & "." & @SEC
 	_CaptureRegion()
 	_GDIPlus_ImageSaveToFile($hBitmap, $dirloots & $TxtName & $Date & " at " & $Time & ".png")
-	If _Sleep(200) Then Return
+	If _Sleep($iDelayDebugImageSave1) Then Return
 
 EndFunc   ;==>DebugImageSave
 

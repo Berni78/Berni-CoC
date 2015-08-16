@@ -1,0 +1,1385 @@
+2015-08-08 16:57:04 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-08 16:57:04 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-08 16:57:04 : =================== Bot Start ====================
+2015-08-08 16:57:04 : -------------------------  Current Profile: 02 --------------------------
+2015-08-08 16:57:04 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-08 16:57:04 : Trying to locate Main Screen
+2015-08-08 16:57:04 : Main Screen Located
+2015-08-08 16:57:06 : Detecting your Buildings..
+2015-08-08 16:57:12 : Language setting is English: Correct.
+2015-08-08 16:57:12 : Bot clean start
+2015-08-08 16:57:13 : Trying to locate Main Screen
+2015-08-08 16:57:13 : Main Screen Located
+2015-08-08 16:57:14 : checkMainScreen start quiet mode
+2015-08-08 16:57:14 : checkMainScreen exit quiet mode
+2015-08-08 16:57:15 : Collecting Resources
+2015-08-08 16:57:20 : checkMainScreen start quiet mode
+2015-08-08 16:57:20 : checkMainScreen exit quiet mode
+2015-08-08 16:57:22 : Cannot find tombstones, Yard is clean!
+2015-08-08 16:57:22 : checkMainScreen start quiet mode
+2015-08-08 16:57:22 : checkMainScreen exit quiet mode
+2015-08-08 16:57:23 : Checking if Village needs Rearming..
+2015-08-08 16:57:29 : checkMainScreen start quiet mode
+2015-08-08 16:57:29 : checkMainScreen exit quiet mode
+2015-08-08 16:57:30 : checkMainScreen start quiet mode
+2015-08-08 16:57:30 : checkMainScreen exit quiet mode
+2015-08-08 16:57:31 : Village Report
+2015-08-08 16:57:31 : No. of Free/Total Builders: 0/4
+2015-08-08 16:57:31 :  [T]: 2 520
+2015-08-08 16:57:31 :  [G]: 1 260 117 [E]: 4 640 207 [D]: 16 845 [GEM]: 1 993
+2015-08-08 16:57:31 : checkMainScreen start quiet mode
+2015-08-08 16:57:31 : checkMainScreen exit quiet mode
+2015-08-08 16:57:32 : checkMainScreen start quiet mode
+2015-08-08 16:57:32 : checkMainScreen exit quiet mode
+2015-08-08 16:57:34 : Chat Request: needs reinforcement troops
+2015-08-08 16:57:35 : checkMainScreen start quiet mode
+2015-08-08 16:57:35 : checkMainScreen exit quiet mode
+2015-08-08 16:57:35 : Func Train 
+2015-08-08 16:57:35 : Train enabled, $TotalTrainedTroops= 0, Adj TotalCamp= -8
+2015-08-08 16:57:36 : Checking Army Camp...
+2015-08-08 16:57:37 : $sArmyInfo = 200#200
+2015-08-08 16:57:37 : $CurCamp = 200
+2015-08-08 16:57:37 : $TotalCamp = 200
+2015-08-08 16:57:38 : Total Army Camp capacity: 200/200
+2015-08-08 16:57:38 : $hBitmapFirst made
+2015-08-08 16:57:38 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 16:57:40 : Dll return $FullTemp :Barbarian|8-21|144#Archer|71-22|56
+2015-08-08 16:57:40 : $Trooptype split # : 2
+2015-08-08 16:57:40 : Start the Loop
+2015-08-08 16:57:40 : $TroopTypeT[$i] split : 1
+2015-08-08 16:57:40 :  - No. of Barbarians: 144
+2015-08-08 16:57:40 : $TroopTypeT[$i] split : 2
+2015-08-08 16:57:40 :  - No. of Archers: 56
+2015-08-08 16:57:40 : start barrackstatus
+2015-08-08 16:57:40 : OK, I'm in army overview
+2015-08-08 16:57:40 : barrack 1 found upgrading! color 6B6964
+2015-08-08 16:57:40 : barrack 2 found! color 888070
+2015-08-08 16:57:40 : barrack 3 found! color 888070
+2015-08-08 16:57:40 : barrack 4 found! color 888070
+2015-08-08 16:57:40 : dark barrack 1 found! color 888070
+2015-08-08 16:57:40 : dark barrack 2 found! color 888070
+2015-08-08 16:57:40 : Factory Spell found! color 888070
+2015-08-08 16:57:40 : Dark Factory Spell found! color 888070
+2015-08-08 16:57:40 : Barracks and Spell factory status: 
+2015-08-08 16:57:40 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 16:57:41 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 16:57:41 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:57:41 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 16:57:41 : Trainaviable[0] = 1
+2015-08-08 16:57:41 : Trainaviable[1] = 0
+2015-08-08 16:57:41 : Trainaviable[2] = 1
+2015-08-08 16:57:41 : Trainaviable[3] = 1
+2015-08-08 16:57:41 : Trainaviable[4] = 1
+2015-08-08 16:57:41 : Trainaviable[5] = 1
+2015-08-08 16:57:41 : Trainaviable[6] = 1
+2015-08-08 16:57:41 : Trainaviable[7] = 1
+2015-08-08 16:57:41 : Trainaviable[8] = 1
+2015-08-08 16:57:41 : Training Troops...
+2015-08-08 16:57:41 : Train: need to make normal troops: True
+2015-08-08 16:57:41 : Train: need to make dark troops: False
+2015-08-08 16:57:41 : LAST BARRACK = 4
+2015-08-08 16:57:41 : OverView TabColor=9CA3A6
+2015-08-08 16:57:41 : Last Barrack TabColor=888070
+2015-08-08 16:57:41 : Your Army Camps are now Full
+2015-08-08 16:57:41 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 16:57:41 : -- Compute AnotherTroops to train
+2015-08-08 16:57:42 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 16:57:42 : Total Troops to be Trained= 200
+2015-08-08 16:57:42 : BARRACKNUM: 3
+2015-08-08 16:57:42 : ArchEBarrack: 26
+2015-08-08 16:57:42 : BarbEBarrack: 40
+2015-08-08 16:57:42 : DARKBARRACKNUM: 2
+2015-08-08 16:57:42 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 16:57:42 : 
+2015-08-08 16:57:42 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 16:57:42 : Barrack4 selected
+2015-08-08 16:57:44 : Full Check=DE58D0
+2015-08-08 16:57:44 : Full Check=DE58D0
+2015-08-08 16:57:44 : Full Check=FF7FF5
+2015-08-08 16:57:44 : Full Check=FE78F4
+2015-08-08 16:57:44 : Full Check=FE78F4
+2015-08-08 16:57:44 : Full Check=FF7FF5
+2015-08-08 16:57:44 : Full Check=FE78F4
+2015-08-08 16:57:44 : Full Check=FF7FF5
+2015-08-08 16:57:44 : Full Check=FE78F4
+2015-08-08 16:57:44 : Full Check=FF78F3
+2015-08-08 16:57:45 : Full Check=FE78F4
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FB75F1
+2015-08-08 16:57:45 : Full Check=FF78F3
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FE78F4
+2015-08-08 16:57:45 : Full Check=FF80F8
+2015-08-08 16:57:45 : Full Check=FB75F1
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FE78F4
+2015-08-08 16:57:45 : Full Check=FE78F4
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FF7FF5
+2015-08-08 16:57:45 : Full Check=FB75F1
+2015-08-08 16:57:45 : Full Check=FF78F3
+2015-08-08 16:57:45 : Full Check=FF78F3
+2015-08-08 16:57:45 : Full Check=FF78F3
+2015-08-08 16:57:46 : Full Check=FE78F4
+2015-08-08 16:57:46 : Full Check=FE78F4
+2015-08-08 16:57:46 : Full Check=FF78F3
+2015-08-08 16:57:46 : Full Check=FF7FF5
+2015-08-08 16:57:46 : Full Check=FF7FF5
+2015-08-08 16:57:46 : Full Check=FB75F1
+2015-08-08 16:57:46 : Full Check=FE78F4
+2015-08-08 16:57:46 : Full Check=FF78F3
+2015-08-08 16:57:46 : Full Check=FF78F3
+2015-08-08 16:57:46 : Full Check=FB75F1
+2015-08-08 16:57:46 : Full Check=FF80F8
+2015-08-08 16:57:46 : Full Check=FF7FF5
+2015-08-08 16:57:46 : Full Check=FF80F8
+2015-08-08 16:57:46 : Full Check=FF7FF5
+2015-08-08 16:57:46 : Full Check=FB75F1
+2015-08-08 16:57:46 : Full Check=FF78F3
+2015-08-08 16:57:46 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FF78F3
+2015-08-08 16:57:47 : Full Check=FF7FF5
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FF7FF5
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FF7FF5
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FF78F3
+2015-08-08 16:57:47 : Full Check=FB75F1
+2015-08-08 16:57:47 : Full Check=FF78F3
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FE78F4
+2015-08-08 16:57:47 : Full Check=FF78F3
+2015-08-08 16:57:47 : Full Check=FF7FF5
+2015-08-08 16:57:48 : Full Check=FF7FF5
+2015-08-08 16:57:48 : Full Check=FE78F4
+2015-08-08 16:57:48 : Full Check=FF78F3
+2015-08-08 16:57:48 : Full Check=FE78F4
+2015-08-08 16:57:48 : Full Check=FF78F3
+2015-08-08 16:57:48 : Full Check=FE78F4
+2015-08-08 16:57:48 : Full Check=FF7FF5
+2015-08-08 16:57:48 : Full Check=FB75F1
+2015-08-08 16:57:48 : Full Check=FF78F3
+2015-08-08 16:57:48 : Full Check=FF78F3
+2015-08-08 16:57:49 : Move from Barrack 4 direction -1
+2015-08-08 16:57:50 : Barrack3 selected
+2015-08-08 16:57:52 : Full Check=E05AD0
+2015-08-08 16:57:52 : Full Check=E05AD0
+2015-08-08 16:57:52 : Full Check=FF79F5
+2015-08-08 16:57:52 : Full Check=FF7BF6
+2015-08-08 16:57:52 : Full Check=FF79F5
+2015-08-08 16:57:52 : Full Check=FF7EF7
+2015-08-08 16:57:52 : Full Check=FF76F1
+2015-08-08 16:57:52 : Full Check=FF7BF6
+2015-08-08 16:57:53 : Full Check=FF76F1
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF7BF6
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF7BF6
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF7EF7
+2015-08-08 16:57:53 : Full Check=FF7EF7
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF7BF6
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF82F8
+2015-08-08 16:57:53 : Full Check=FF76F1
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF79F5
+2015-08-08 16:57:53 : Full Check=FF7BF6
+2015-08-08 16:57:53 : Full Check=FF7EF7
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF7EF7
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF7BF6
+2015-08-08 16:57:54 : Full Check=FF7BF6
+2015-08-08 16:57:54 : Full Check=FF7BF6
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF82F8
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF7BF6
+2015-08-08 16:57:54 : Full Check=FF7EF7
+2015-08-08 16:57:54 : Full Check=FF7EF7
+2015-08-08 16:57:54 : Full Check=FF79F5
+2015-08-08 16:57:54 : Full Check=FF7EF7
+2015-08-08 16:57:54 : Full Check=FF76F1
+2015-08-08 16:57:55 : Full Check=FF76F1
+2015-08-08 16:57:55 : Full Check=FF79F5
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:55 : Full Check=FF76F1
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:55 : Full Check=FF76F1
+2015-08-08 16:57:55 : Full Check=FF82F8
+2015-08-08 16:57:55 : Full Check=FF76F1
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:55 : Full Check=FF79F5
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:55 : Full Check=FF79F5
+2015-08-08 16:57:55 : Full Check=FF79F5
+2015-08-08 16:57:55 : Full Check=FF79F5
+2015-08-08 16:57:55 : Full Check=FF7EF7
+2015-08-08 16:57:56 : Full Check=FF76F1
+2015-08-08 16:57:56 : Full Check=FF7BF6
+2015-08-08 16:57:56 : Full Check=FF7EF7
+2015-08-08 16:57:56 : Full Check=FF79F5
+2015-08-08 16:57:56 : Full Check=FF7BF6
+2015-08-08 16:57:56 : Full Check=FF7BF6
+2015-08-08 16:57:56 : Full Check=FF7EF7
+2015-08-08 16:57:56 : Full Check=FF79F5
+2015-08-08 16:57:56 : Full Check=FF79F5
+2015-08-08 16:57:56 : Full Check=FF7BF6
+2015-08-08 16:57:56 : Full Check=FF79F5
+2015-08-08 16:57:56 : Full Check=FF7BF6
+2015-08-08 16:57:56 : Full Check=FF79F5
+2015-08-08 16:57:57 : Move from Barrack 3 direction -1
+2015-08-08 16:57:58 : Barrack2 selected
+2015-08-08 16:58:00 : Full Check=E05AD0
+2015-08-08 16:58:00 : Full Check=FF82F8
+2015-08-08 16:58:00 : Full Check=FF79F5
+2015-08-08 16:58:00 : Full Check=FF7EF7
+2015-08-08 16:58:00 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF79F5
+2015-08-08 16:58:01 : Full Check=FF7BF6
+2015-08-08 16:58:01 : Full Check=FF7BF6
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF79F5
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=F167E2
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF79F5
+2015-08-08 16:58:01 : Full Check=FF79F5
+2015-08-08 16:58:01 : Full Check=FF7BF6
+2015-08-08 16:58:01 : Full Check=FF79F5
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:01 : Full Check=FF79F5
+2015-08-08 16:58:01 : Full Check=FF7EF7
+2015-08-08 16:58:02 : Full Check=FF76F1
+2015-08-08 16:58:02 : Full Check=FF7BF6
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF82F8
+2015-08-08 16:58:02 : Full Check=FF76F1
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF7EF7
+2015-08-08 16:58:02 : Full Check=FF7EF7
+2015-08-08 16:58:02 : Full Check=FF82F8
+2015-08-08 16:58:02 : Full Check=FF76F1
+2015-08-08 16:58:02 : Full Check=FF7EF7
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF7EF7
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF79F5
+2015-08-08 16:58:02 : Full Check=FF7BF6
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF76F1
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF76F1
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF76F1
+2015-08-08 16:58:03 : Full Check=FF76F1
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF76F1
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:03 : Full Check=FF76F1
+2015-08-08 16:58:03 : Full Check=FF7BF6
+2015-08-08 16:58:03 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7BF6
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF76F1
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF76F1
+2015-08-08 16:58:04 : Full Check=FF7BF6
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF79F5
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF7EF7
+2015-08-08 16:58:04 : Full Check=FF79F5
+2015-08-08 16:58:04 : Full Check=FF7BF6
+2015-08-08 16:58:05 : Move from Barrack 2 direction -1
+2015-08-08 16:58:06 : This is not a Barrack
+2015-08-08 16:58:06 : ---=====================END TRAIN =======================================---
+2015-08-08 16:58:08 : checkMainScreen start quiet mode
+2015-08-08 16:58:08 : checkMainScreen exit quiet mode
+2015-08-08 16:58:09 : checkMainScreen start quiet mode
+2015-08-08 16:58:09 : checkMainScreen exit quiet mode
+2015-08-08 16:58:10 : checkMainScreen start quiet mode
+2015-08-08 16:58:10 : checkMainScreen exit quiet mode
+2015-08-08 16:58:10 : Requesting Clan Castle Troops
+2015-08-08 16:58:10 : $icount1 = 1, BB2BD1
+2015-08-08 16:58:10 : Your Clan Castle is already full or you are not in a clan.
+2015-08-08 16:58:11 : checkMainScreen start quiet mode
+2015-08-08 16:58:11 : checkMainScreen exit quiet mode
+2015-08-08 16:58:12 : checkMainScreen start quiet mode
+2015-08-08 16:58:12 : checkMainScreen exit quiet mode
+2015-08-08 16:58:12 : checkMainScreen start quiet mode
+2015-08-08 16:58:12 : checkMainScreen exit quiet mode
+2015-08-08 16:58:15 : Finished kicking
+2015-08-08 16:58:15 : Func Idle 
+2015-08-08 16:58:15 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 16:58:15 : Going to Attack...
+2015-08-08 16:58:19 : Take-A-Break OCR result = 
+2015-08-08 16:58:20 : Shield btn clr chk-#1: 000000, #2: 010101, #3: FFFFFF, #4: CBE870
+2015-08-08 16:58:20 : ButtonPixel = 441, 374
+2015-08-08 16:58:20 : Pixel color found #1: 000000, #2: 010101, #3: FFFFFF, #4: FEFEFE
+2015-08-08 16:58:21 : ============== Searching For Dead Base ===============
+2015-08-08 16:58:21 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-08 16:58:21 : Meet: Gold and Elixir, TH Outside
+2015-08-08 16:58:21 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-08 16:58:21 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out for: Dead Base
+2015-08-08 16:58:21 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-08 16:58:21 : THSnipe Combo, 1 Tile(s), 
+2015-08-08 16:58:21 : ==================================================
+2015-08-08 16:58:22 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:58:22 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:58:23 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:58:23 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:58:24 :   1> [G]:  63297 [E]:  67393 [D]:  320 [T]:14 [TH]: 9, In
+2015-08-08 16:58:26 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:58:27 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:58:27 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:58:28 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:58:28 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:58:29 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:58:29 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:58:30 : Loop to clean screen without Clouds , nº :8
+2015-08-08 16:58:31 : Loop to clean screen without Clouds , nº :9
+2015-08-08 16:58:31 : Loop to clean screen without Clouds , nº :10
+2015-08-08 16:58:32 :   2> [G]:   3377 [E]:  48130 [D]:  340 [T]:13 [TH]:10, In
+2015-08-08 16:58:34 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:58:35 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:58:35 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:58:36 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:58:37 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:58:37 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:58:38 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:58:38 : Loop to clean screen without Clouds , nº :8
+2015-08-08 16:58:39 : Loop to clean screen without Clouds , nº :9
+2015-08-08 16:58:39 : Loop to clean screen without Clouds , nº :10
+2015-08-08 16:58:40 : Loop to clean screen without Clouds , nº :11
+2015-08-08 16:58:41 : Loop to clean screen without Clouds , nº :12
+2015-08-08 16:58:41 : Loop to clean screen without Clouds , nº :13
+2015-08-08 16:58:42 :   3> [G]:  26820 [E]: 128193 [D]:  860 [T]: 8 [TH]: 9, In
+2015-08-08 16:58:44 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:58:44 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:58:45 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:58:46 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:58:46 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:58:47 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:58:47 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:58:48 : Loop to clean screen without Clouds , nº :8
+2015-08-08 16:58:48 : Loop to clean screen without Clouds , nº :9
+2015-08-08 16:58:49 : Loop to clean screen without Clouds , nº :10
+2015-08-08 16:58:50 :   4> [G]:  20143 [E]:  49465 [D]:  549 [T]:23 [TH]:10, In
+2015-08-08 16:58:52 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:58:53 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:58:53 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:58:54 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:58:55 :   5> [G]:  15391 [E]:  28597 [D]: 1423 [T]: 5 [TH]: 9, In
+2015-08-08 16:58:56 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:58:57 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:58:58 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:58:58 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:58:59 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:58:59 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:59:00 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:59:01 : Loop to clean screen without Clouds , nº :8
+2015-08-08 16:59:01 : Loop to clean screen without Clouds , nº :9
+2015-08-08 16:59:02 :   6> [G]:  32771 [E]:  61107 [D]:  195 [T]:36 [TH]: 9, In
+2015-08-08 16:59:04 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:04 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:05 :   7> [G]: 140803 [E]:  39442 [D]:  853 [T]: 2 [TH]: 8, In
+2015-08-08 16:59:07 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:08 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:09 :   8> [G]:  38894 [E]:  26129 [D]:  410 [T]: 5 [TH]: 9, In
+2015-08-08 16:59:11 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:11 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:12 :   9> [G]:  31810 [E]:  41871 [D]:   51 [T]: 2 [TH]: 8, In
+2015-08-08 16:59:14 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:15 :  10> [G]:  63645 [E]:  32541 [D]:  842 [T]: 6 [TH]: 8, In
+2015-08-08 16:59:17 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:17 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:18 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:59:18 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:59:19 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:59:20 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:59:20 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:59:21 : Loop to clean screen without Clouds , nº :8
+2015-08-08 16:59:22 :  11> [G]: 110382 [E]:  23806 [D]:  749 [T]: 2 [TH]: 8, In
+2015-08-08 16:59:23 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:24 :  12> [G]:  36028 [E]: 123669 [D]:  482 [T]: 5 [TH]: 8, In
+2015-08-08 16:59:26 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:27 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:27 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:59:28 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:59:28 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:59:29 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:59:30 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:59:31 :  13> [G]:  29928 [E]: 148995 [D]:  326 [T]: 2 [TH]: 8, In
+2015-08-08 16:59:33 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:33 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:34 :  14> [G]:  36259 [E]: 106062 [D]:  587 [T]: 3 [TH]: 8, In
+2015-08-08 16:59:36 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:37 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:38 :  15> [G]:  26703 [E]: 128292 [D]:  380 [T]:17 [TH]: 9, In
+2015-08-08 16:59:39 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:40 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:41 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:59:41 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:59:42 : Loop to clean screen without Clouds , nº :5
+2015-08-08 16:59:42 : Loop to clean screen without Clouds , nº :6
+2015-08-08 16:59:43 : Loop to clean screen without Clouds , nº :7
+2015-08-08 16:59:43 : Loop to clean screen without Clouds , nº :8
+2015-08-08 16:59:44 : Loop to clean screen without Clouds , nº :9
+2015-08-08 16:59:45 : Loop to clean screen without Clouds , nº :10
+2015-08-08 16:59:46 :  16> [G]:  28382 [E]:  33331 [D]:  313 [T]: 3 [TH]: 9, In
+2015-08-08 16:59:47 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:48 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:49 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:59:49 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:59:50 :  17> [G]:   1374 [E]:  15172 [D]:  687 [T]: 3 [TH]: 8, In
+2015-08-08 16:59:52 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:52 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:53 : Loop to clean screen without Clouds , nº :3
+2015-08-08 16:59:54 : Loop to clean screen without Clouds , nº :4
+2015-08-08 16:59:55 :  18> [G]:  82610 [E]: 179647 [D]:  655 [T]: 5 [TH]: 9, In
+2015-08-08 16:59:56 : Loop to clean screen without Clouds , nº :1
+2015-08-08 16:59:57 : Loop to clean screen without Clouds , nº :2
+2015-08-08 16:59:58 :  19> [G]: 186004 [E]: 209768 [D]:  545 [T]: 9 [TH]: 9, In
+2015-08-08 17:00:00 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:00 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:01 :  20> [G]:  48579 [E]:  47958 [D]:   44 [T]: 3 [TH]: 8, In
+2015-08-08 17:00:03 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:04 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:07 :  21> [G]:  84016 [E]: 331921 [D]:  385 [T]:11 [TH]: -, -
+2015-08-08 17:00:09 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:09 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:10 :  22> [G]:  12718 [E]:   9416 [D]:  238 [T]: 3 [TH]: 8, In
+2015-08-08 17:00:12 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:13 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:13 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:00:14 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:00:14 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:00:15 :  23> [G]:  85021 [E]:  85238 [D]:  157 [T]: 6 [TH]: 9, In
+2015-08-08 17:00:17 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:18 :  24> [G]:  14387 [E]:  74157 [D]:  207 [T]: 5 [TH]: 8, In
+2015-08-08 17:00:20 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:20 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:21 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:00:22 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:00:22 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:00:23 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:00:23 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:00:24 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:00:24 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:00:25 :  25> [G]: 180201 [E]: 197362 [D]: 1200 [T]:23 [TH]: 9, In
+2015-08-08 17:00:27 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:28 :  26> [G]:  94188 [E]:   9250 [D]:  244 [T]: 2 [TH]: 8, In
+2015-08-08 17:00:30 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:31 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:31 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:00:32 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:00:32 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:00:33 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:00:33 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:00:34 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:00:35 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:00:35 :  27> [G]:  48969 [E]:  20767 [D]:  207 [T]: 1 [TH]: 7, In
+2015-08-08 17:00:37 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:38 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:39 :  28> [G]:  18848 [E]:  71383 [D]:   60 [T]:23 [TH]: 9, In
+2015-08-08 17:00:41 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:41 :  29> [G]:  18858 [E]:  49742 [D]:  461 [T]: 1 [TH]: 7, In
+2015-08-08 17:00:43 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:44 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:44 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:00:45 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:00:45 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:00:46 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:00:47 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:00:47 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:00:48 :  30> [G]:  22308 [E]:  73731 [D]:   24 [T]: 1 [TH]: 7, In
+2015-08-08 17:00:50 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:50 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:51 :  31> [G]: 109124 [E]:  25196 [D]: 1635 [T]:28 [TH]: 9, In
+2015-08-08 17:00:53 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:54 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:00:54 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:00:55 :  32> [G]:  33187 [E]:  48313 [D]:   33 [T]: 2 [TH]: 8, In
+2015-08-08 17:00:57 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:00:58 :  33> [G]:  68991 [E]: 108225 [D]: 1332 [T]: 2 [TH]: 8, In
+2015-08-08 17:01:00 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:00 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:01 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:01:02 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:01:02 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:01:03 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:01:03 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:01:04 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:01:04 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:01:05 :  34> [G]:  43716 [E]:   9323 [D]:  439 [T]:13 [TH]: 9, In
+2015-08-08 17:01:07 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:08 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:09 :  35> [G]:  71074 [E]: 128007 [D]:  456 [T]: 2 [TH]: 8, In
+2015-08-08 17:01:11 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:11 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:12 :  36> [G]:  29609 [E]:  23790 [D]:  238 [T]: 1 [TH]: 7, In
+2015-08-08 17:01:14 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:14 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:15 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:01:15 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:01:16 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:01:17 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:01:17 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:01:18 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:01:19 :  37> [G]:  98611 [E]: 188149 [D]:  597 [T]: 3 [TH]: 8, In
+2015-08-08 17:01:20 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:21 :  38> [G]:  97033 [E]:  43549 [D]:  583 [T]: 1 [TH]: 7, In
+2015-08-08 17:01:23 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:24 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:24 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:01:25 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:01:25 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:01:26 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:01:26 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:01:27 :  39> [G]:  32723 [E]:  39993 [D]:    0 [T]: 1 [TH]: 7, In
+2015-08-08 17:01:29 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:31 :  40> [G]:  26526 [E]: 196739 [D]:  951 [T]:30 [TH]:10, In
+2015-08-08 17:01:32 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:33 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:34 :  41> [G]:  35442 [E]:  84434 [D]:  213 [T]: 5 [TH]: 8, In
+2015-08-08 17:01:36 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:36 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:37 :  42> [G]: 108846 [E]:  39042 [D]:  208 [T]: 5 [TH]: 8, In
+2015-08-08 17:01:39 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:40 :  43> [G]: 181874 [E]: 128791 [D]:  865 [T]: 3 [TH]: 7, In
+2015-08-08 17:01:42 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:42 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:43 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:01:43 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:01:44 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:01:45 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:01:45 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:01:46 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:01:46 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:01:47 : Loop to clean screen without Clouds , nº :10
+2015-08-08 17:01:50 :  44> [G]: 108234 [E]: 365870 [D]: 1617 [T]: 3 [TH]: -, -
+2015-08-08 17:01:52 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:53 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:53 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:01:54 :  45> [G]:  79362 [E]:  90349 [D]:  111 [T]: 3 [TH]: 8, In
+2015-08-08 17:01:56 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:01:56 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:01:57 :  46> [G]:  20686 [E]:  74548 [D]:  660 [T]: 3 [TH]: 8, In
+2015-08-08 17:01:59 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:00 :  47> [G]:  17113 [E]:  63033 [D]:  330 [T]: 3 [TH]: 9, In
+2015-08-08 17:02:02 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:03 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:03 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:02:04 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:02:04 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:02:05 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:02:05 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:02:06 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:02:07 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:02:08 :  48> [G]:  10531 [E]: 137671 [D]:  568 [T]: 4 [TH]: 8, In
+2015-08-08 17:02:09 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:10 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:11 :  49> [G]:  37923 [E]: 113086 [D]:  183 [T]: 2 [TH]: 7, In
+2015-08-08 17:02:12 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:13 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:14 :  50> [G]:  52603 [E]:  32005 [D]:  483 [T]: 4 [TH]: 8, In
+2015-08-08 17:02:16 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:16 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:17 :  51> [G]:  33180 [E]:  28168 [D]:  816 [T]:13 [TH]: 9, In
+2015-08-08 17:02:19 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:20 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:21 :  52> [G]: 123592 [E]:  82689 [D]:  475 [T]: 2 [TH]: 8, In
+2015-08-08 17:02:22 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:23 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:23 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:02:24 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:02:25 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:02:26 :  53> [G]:  16066 [E]: 213629 [D]:  538 [T]: 3 [TH]: 8, In
+2015-08-08 17:02:27 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:28 :  54> [G]:  84529 [E]: 113176 [D]:  423 [T]: 1 [TH]: 7, In
+2015-08-08 17:02:30 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:31 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:31 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:02:32 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:02:32 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:02:33 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:02:34 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:02:34 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:02:35 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:02:35 :  55> [G]:  46303 [E]:  58031 [D]:  578 [T]: 1 [TH]: 7, In
+2015-08-08 17:02:37 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:38 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:39 :  56> [G]:  94620 [E]:  11598 [D]:  631 [T]: 3 [TH]: 8, In
+2015-08-08 17:02:41 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:41 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:42 :  57> [G]:  92072 [E]:  25052 [D]:  776 [T]:25 [TH]:10, In
+2015-08-08 17:02:44 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:45 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:45 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:02:46 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:02:47 :  58> [G]:  76440 [E]:  85082 [D]:  683 [T]: 4 [TH]: 8, In
+2015-08-08 17:02:49 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:49 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:50 :  59> [G]: 139862 [E]: 244608 [D]:  534 [T]: 2 [TH]: 8, In
+2015-08-08 17:02:52 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:53 :  60> [G]:  65333 [E]:  79965 [D]:  856 [T]: 2 [TH]: 8, In
+2015-08-08 17:02:55 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:02:55 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:02:56 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:02:56 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:02:57 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:02:58 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:02:58 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:02:59 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:02:59 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:03:00 :  61> [G]:  35014 [E]:  85144 [D]:  208 [T]: 2 [TH]: 8, In
+2015-08-08 17:03:02 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:03 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:04 :  62> [G]:  29879 [E]:  18247 [D]:  410 [T]: 3 [TH]: 8, In
+2015-08-08 17:03:05 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:06 :  63> [G]:  35296 [E]:  75554 [D]:  636 [T]: 4 [TH]: 8, In
+2015-08-08 17:03:08 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:09 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:09 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:03:10 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:03:10 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:03:11 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:03:11 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:03:12 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:03:13 :  64> [G]:   2361 [E]:  19187 [D]:  N/A [T]: 1 [TH]: 7, In
+2015-08-08 17:03:15 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:15 :  65> [G]:  67955 [E]:  80898 [D]:  333 [T]: 1 [TH]: 7, In
+2015-08-08 17:03:17 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:18 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:18 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:03:19 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:03:20 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:03:20 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:03:21 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:03:21 :  66> [G]:  37870 [E]:  95405 [D]:  576 [T]: 1 [TH]: 7, In
+2015-08-08 17:03:23 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:24 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:24 :  67> [G]:  21364 [E]:  75524 [D]:  204 [T]: 1 [TH]: 7, In
+2015-08-08 17:03:26 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:27 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:28 :  68> [G]:  64145 [E]:  91904 [D]:  307 [T]: 2 [TH]: 8, In
+2015-08-08 17:03:30 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:31 :  69> [G]:  88606 [E]: 120252 [D]: 2389 [T]: 2 [TH]: 9, In
+2015-08-08 17:03:33 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:33 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:34 :  70> [G]: 171599 [E]: 110920 [D]:  115 [T]: 3 [TH]: 9, In
+2015-08-08 17:03:36 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:37 :  71> [G]:  72264 [E]:  17640 [D]:  220 [T]: 5 [TH]: 7, In
+2015-08-08 17:03:39 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:39 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:40 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:03:40 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:03:41 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:03:42 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:03:42 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:03:43 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:03:43 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:03:44 : Loop to clean screen without Clouds , nº :10
+2015-08-08 17:03:44 : Loop to clean screen without Clouds , nº :11
+2015-08-08 17:03:45 : Loop to clean screen without Clouds , nº :12
+2015-08-08 17:03:46 :  72> [G]:  60052 [E]:  23851 [D]:  657 [T]: 4 [TH]: 8, In
+2015-08-08 17:03:48 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:49 :  73> [G]:  74993 [E]: 137812 [D]:  308 [T]: 3 [TH]: 8, In
+2015-08-08 17:03:50 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:51 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:03:52 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:03:52 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:03:53 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:03:53 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:03:54 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:03:54 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:03:55 :  74> [G]:  76555 [E]: 189815 [D]:  470 [T]: 1 [TH]: 7, In
+2015-08-08 17:03:57 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:03:58 :  75> [G]:  39224 [E]:  34439 [D]:  148 [T]: 3 [TH]: 8, In
+2015-08-08 17:04:00 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:04:00 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:04:01 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:04:02 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:04:02 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:04:03 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:04:03 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:04:04 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:04:04 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:04:05 :  76> [G]: 111512 [E]: 131330 [D]:  597 [T]: 2 [TH]: 8, In
+2015-08-08 17:04:07 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:04:08 :  77> [G]:  23728 [E]:  38085 [D]:  239 [T]: 1 [TH]: 7, In
+2015-08-08 17:04:10 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:04:10 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:04:11 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:04:11 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:04:12 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:04:13 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:04:13 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:04:14 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:04:14 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:04:15 : Loop to clean screen without Clouds , nº :10
+2015-08-08 17:04:16 :  78> [G]:  27634 [E]:  59935 [D]:  793 [T]: 3 [TH]: 9, In
+2015-08-08 17:04:18 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:04:18 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:04:23 :  79> [G]:  90777 [E]: 118849 [D]:  N/A [T]:   [TH]: -, -
+2015-08-08 17:04:25 :  80> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-08 17:04:27 :  81> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-08 17:04:29 :  82> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-08 17:04:31 :  83> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-08 17:04:33 :  84> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-08 17:04:35 : Trying to locate Main Screen
+2015-08-08 17:04:35 : Main Screen Located
+2015-08-08 17:04:35 : Have strange problem can not determine, Restarting Bot...
+2015-08-08 17:04:36 : Bot clean start
+2015-08-08 17:04:37 : Trying to locate Main Screen
+2015-08-08 17:04:37 : Main Screen Located
+2015-08-08 17:04:37 : Restarted after Out of Sync Error: Attack Now
+2015-08-08 17:04:38 : checkMainScreen start quiet mode
+2015-08-08 17:04:38 : checkMainScreen exit quiet mode
+2015-08-08 17:04:38 : Suppression AttackMain()
+2015-08-08 17:04:38 : Bot clean start
+2015-08-08 17:04:39 : Trying to locate Main Screen
+2015-08-08 17:04:39 : Main Screen Located
+2015-08-08 17:04:40 : checkMainScreen start quiet mode
+2015-08-08 17:04:40 : checkMainScreen exit quiet mode
+2015-08-08 17:04:40 : Collecting Resources
+2015-08-08 17:04:46 : checkMainScreen start quiet mode
+2015-08-08 17:04:46 : checkMainScreen exit quiet mode
+2015-08-08 17:04:49 : Cannot find tombstones, Yard is clean!
+2015-08-08 17:04:49 : checkMainScreen start quiet mode
+2015-08-08 17:04:49 : checkMainScreen exit quiet mode
+2015-08-08 17:04:49 : Checking if Village needs Rearming..
+2015-08-08 17:04:55 : checkMainScreen start quiet mode
+2015-08-08 17:04:55 : checkMainScreen exit quiet mode
+2015-08-08 17:04:56 : checkMainScreen start quiet mode
+2015-08-08 17:04:56 : checkMainScreen exit quiet mode
+2015-08-08 17:04:57 : Village Report
+2015-08-08 17:04:57 : Cannot get Free/Total Builders
+2015-08-08 17:04:57 : No. of Free/Total Builders: 0/0
+2015-08-08 17:04:57 :  [T]: 2 520
+2015-08-08 17:04:57 :  [G]: 1 214 297 [E]: 4 642 190 [D]: 16 855 [GEM]: 1 993
+2015-08-08 17:04:57 : checkMainScreen start quiet mode
+2015-08-08 17:04:57 : checkMainScreen exit quiet mode
+2015-08-08 17:04:58 : checkMainScreen start quiet mode
+2015-08-08 17:04:58 : checkMainScreen exit quiet mode
+2015-08-08 17:05:00 : Chat Request: Pour farmer svp Merci
+2015-08-08 17:05:00 : Archers Keyword found: farmer
+2015-08-08 17:05:00 : Donating Archers
+2015-08-08 17:05:02 : Chat Request: needs reinforcement troops
+2015-08-08 17:05:04 : checkMainScreen start quiet mode
+2015-08-08 17:05:04 : checkMainScreen exit quiet mode
+2015-08-08 17:05:04 : Func Train 
+2015-08-08 17:05:04 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 17:05:04 : Checking Army Camp...
+2015-08-08 17:05:05 : $sArmyInfo = 197#200
+2015-08-08 17:05:05 : $CurCamp = 197
+2015-08-08 17:05:05 : $TotalCamp = 200
+2015-08-08 17:05:06 : Total Army Camp capacity: 197/200
+2015-08-08 17:05:06 : $hBitmapFirst made
+2015-08-08 17:05:06 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 17:05:07 : Dll return $FullTemp :Barbarian|8-21|145#Archer|71-22|52
+2015-08-08 17:05:07 : $Trooptype split # : 2
+2015-08-08 17:05:07 : Start the Loop
+2015-08-08 17:05:07 : $TroopTypeT[$i] split : 1
+2015-08-08 17:05:07 :  - No. of Barbarians: 145
+2015-08-08 17:05:07 : $TroopTypeT[$i] split : 2
+2015-08-08 17:05:07 :  - No. of Archers: 52
+2015-08-08 17:05:07 : start barrackstatus
+2015-08-08 17:05:07 : OK, I'm in army overview
+2015-08-08 17:05:07 : barrack 1 found upgrading! color 6B6964
+2015-08-08 17:05:07 : barrack 2 found! color 888070
+2015-08-08 17:05:07 : barrack 3 found! color 888070
+2015-08-08 17:05:07 : barrack 4 found! color 888070
+2015-08-08 17:05:07 : dark barrack 1 found! color 888070
+2015-08-08 17:05:07 : dark barrack 2 found! color 888070
+2015-08-08 17:05:07 : Factory Spell found! color 888070
+2015-08-08 17:05:07 : Dark Factory Spell found! color 888070
+2015-08-08 17:05:07 : Barracks and Spell factory status: 
+2015-08-08 17:05:07 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 17:05:07 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 17:05:07 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 17:05:07 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 17:05:07 : Trainaviable[0] = 1
+2015-08-08 17:05:07 : Trainaviable[1] = 0
+2015-08-08 17:05:07 : Trainaviable[2] = 1
+2015-08-08 17:05:07 : Trainaviable[3] = 1
+2015-08-08 17:05:07 : Trainaviable[4] = 1
+2015-08-08 17:05:07 : Trainaviable[5] = 1
+2015-08-08 17:05:07 : Trainaviable[6] = 1
+2015-08-08 17:05:07 : Trainaviable[7] = 1
+2015-08-08 17:05:07 : Trainaviable[8] = 1
+2015-08-08 17:05:07 : Training Troops...
+2015-08-08 17:05:08 : Checking for full army [!]False
+2015-08-08 17:05:08 : Train: need to make normal troops: True
+2015-08-08 17:05:08 : Train: need to make dark troops: False
+2015-08-08 17:05:08 : LAST BARRACK = 4
+2015-08-08 17:05:08 : OverView TabColor=294C6D
+2015-08-08 17:05:08 : OverView TabColor=395571
+2015-08-08 17:05:08 : OverView TabColor=324D6A
+2015-08-08 17:05:09 : OverView TabColor=2F4B67
+2015-08-08 17:05:09 : OverView TabColor=2C4865
+2015-08-08 17:05:09 : OverView TabColor=2A4765
+2015-08-08 17:05:09 : OverView TabColor=254362
+2015-08-08 17:05:09 : OverView TabColor=204162
+2015-08-08 17:05:09 : OverView TabColor=1C3F61
+2015-08-08 17:05:09 : OverView TabColor=193E62
+2015-08-08 17:05:09 : OverView TabColor=173D62
+2015-08-08 17:05:10 : OverView TabColor=153D62
+2015-08-08 17:05:10 : OverView TabColor=143D63
+2015-08-08 17:05:10 : OverView TabColor=143C63
+2015-08-08 17:05:10 : OverView TabColor=143C63
+2015-08-08 17:05:10 : OverView TabColor=143C63
+2015-08-08 17:05:10 : Training Overview Window didn't open
+2015-08-08 17:05:11 : checkMainScreen start quiet mode
+2015-08-08 17:05:11 : checkMainScreen exit quiet mode
+2015-08-08 17:05:12 : checkMainScreen start quiet mode
+2015-08-08 17:05:12 : checkMainScreen exit quiet mode
+2015-08-08 17:05:13 : checkMainScreen start quiet mode
+2015-08-08 17:05:13 : checkMainScreen exit quiet mode
+2015-08-08 17:05:13 : Requesting Clan Castle Troops
+2015-08-08 17:05:14 : $icount1 = 1, BB2BD1
+2015-08-08 17:05:14 : Your Clan Castle is already full or you are not in a clan.
+2015-08-08 17:05:15 : checkMainScreen start quiet mode
+2015-08-08 17:05:15 : checkMainScreen exit quiet mode
+2015-08-08 17:05:15 : checkMainScreen start quiet mode
+2015-08-08 17:05:15 : checkMainScreen exit quiet mode
+2015-08-08 17:05:16 : checkMainScreen start quiet mode
+2015-08-08 17:05:16 : checkMainScreen exit quiet mode
+2015-08-08 17:05:18 : Finished kicking
+2015-08-08 17:05:18 : Func Idle 
+2015-08-08 17:05:18 : $fullArmy=False $fullCC=False $fullHeroes=False $iUnbreakableMode=0
+2015-08-08 17:05:18 : ====== Waiting for full army ======
+2015-08-08 17:05:29 : checkMainScreen start quiet mode
+2015-08-08 17:05:29 : checkMainScreen exit quiet mode
+2015-08-08 17:05:30 : checkMainScreen start quiet mode
+2015-08-08 17:05:30 : checkMainScreen exit quiet mode
+2015-08-08 17:05:30 : Func Train 
+2015-08-08 17:05:30 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 17:05:30 : Checking Army Camp...
+2015-08-08 17:05:31 : $sArmyInfo = 200#200
+2015-08-08 17:05:31 : $CurCamp = 200
+2015-08-08 17:05:31 : $TotalCamp = 200
+2015-08-08 17:05:32 : Total Army Camp capacity: 200/200
+2015-08-08 17:05:32 : $hBitmapFirst made
+2015-08-08 17:05:32 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 17:05:33 : Dll return $FullTemp :Barbarian|8-21|146#Archer|71-22|54
+2015-08-08 17:05:33 : $Trooptype split # : 2
+2015-08-08 17:05:33 : Start the Loop
+2015-08-08 17:05:33 : $TroopTypeT[$i] split : 1
+2015-08-08 17:05:33 :  - No. of Barbarians: 146
+2015-08-08 17:05:33 : $TroopTypeT[$i] split : 2
+2015-08-08 17:05:33 :  - No. of Archers: 54
+2015-08-08 17:05:33 : start barrackstatus
+2015-08-08 17:05:33 : OK, I'm in army overview
+2015-08-08 17:05:33 : barrack 1 found upgrading! color 6B6964
+2015-08-08 17:05:33 : barrack 2 found! color 888070
+2015-08-08 17:05:33 : barrack 3 found! color 888070
+2015-08-08 17:05:33 : barrack 4 found! color 888070
+2015-08-08 17:05:33 : dark barrack 1 found! color 888070
+2015-08-08 17:05:33 : dark barrack 2 found! color 888070
+2015-08-08 17:05:33 : Factory Spell found! color 888070
+2015-08-08 17:05:33 : Dark Factory Spell found! color 888070
+2015-08-08 17:05:33 : Barracks and Spell factory status: 
+2015-08-08 17:05:33 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 17:05:33 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-08 17:05:33 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 17:05:33 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 17:05:33 : Trainaviable[0] = 1
+2015-08-08 17:05:33 : Trainaviable[1] = 0
+2015-08-08 17:05:33 : Trainaviable[2] = 1
+2015-08-08 17:05:33 : Trainaviable[3] = 1
+2015-08-08 17:05:33 : Trainaviable[4] = 1
+2015-08-08 17:05:34 : Trainaviable[5] = 1
+2015-08-08 17:05:34 : Trainaviable[6] = 1
+2015-08-08 17:05:34 : Trainaviable[7] = 1
+2015-08-08 17:05:34 : Trainaviable[8] = 1
+2015-08-08 17:05:34 : Training Troops...
+2015-08-08 17:05:34 : Train: need to make normal troops: True
+2015-08-08 17:05:34 : Train: need to make dark troops: False
+2015-08-08 17:05:34 : LAST BARRACK = 4
+2015-08-08 17:05:34 : OverView TabColor=BABBB8
+2015-08-08 17:05:34 : Last Barrack TabColor=888070
+2015-08-08 17:05:34 : Last Barrack TabColor=888070
+2015-08-08 17:05:34 : Your Army Camps are now Full
+2015-08-08 17:05:34 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 17:05:34 : -- Compute AnotherTroops to train
+2015-08-08 17:05:34 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 17:05:34 : Total Troops to be Trained= 200
+2015-08-08 17:05:34 : BARRACKNUM: 3
+2015-08-08 17:05:34 : ArchEBarrack: 26
+2015-08-08 17:05:34 : BarbEBarrack: 40
+2015-08-08 17:05:34 : DARKBARRACKNUM: 2
+2015-08-08 17:05:34 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 17:05:35 : 
+2015-08-08 17:05:35 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 17:05:35 : Barrack4 selected
+2015-08-08 17:05:37 : Full Check=DE58D0
+2015-08-08 17:05:37 : Full Check=DE58D0
+2015-08-08 17:05:37 : Full Check=FF7FF5
+2015-08-08 17:05:37 : Full Check=FF7FF5
+2015-08-08 17:05:37 : Full Check=FB75F1
+2015-08-08 17:05:37 : Full Check=FF7FF5
+2015-08-08 17:05:37 : Full Check=FE78F4
+2015-08-08 17:05:37 : Full Check=FF7FF5
+2015-08-08 17:05:37 : Full Check=FF7FF5
+2015-08-08 17:05:38 : Full Check=FB75F1
+2015-08-08 17:05:38 : Full Check=FF78F3
+2015-08-08 17:05:38 : Full Check=FF7FF5
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=FF7FF5
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=FB75F1
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=F164DF
+2015-08-08 17:05:38 : Full Check=FF7FF5
+2015-08-08 17:05:38 : Full Check=F164DF
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=FE78F4
+2015-08-08 17:05:38 : Full Check=FF78F3
+2015-08-08 17:05:38 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FE78F4
+2015-08-08 17:05:39 : Full Check=FE78F4
+2015-08-08 17:05:39 : Full Check=FB75F1
+2015-08-08 17:05:39 : Full Check=FE78F4
+2015-08-08 17:05:39 : Full Check=F164DF
+2015-08-08 17:05:39 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FB75F1
+2015-08-08 17:05:39 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FE78F4
+2015-08-08 17:05:39 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FF7FF5
+2015-08-08 17:05:39 : Full Check=FE78F4
+2015-08-08 17:05:39 : Full Check=F164DF
+2015-08-08 17:05:39 : Full Check=FB75F1
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FE78F4
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FE78F4
+2015-08-08 17:05:40 : Full Check=FF7FF5
+2015-08-08 17:05:40 : Full Check=FB75F1
+2015-08-08 17:05:40 : Full Check=FF78F3
+2015-08-08 17:05:40 : Full Check=16130D
+2015-08-08 17:05:40 : Full Check=16130D
+2015-08-08 17:05:40 : Full Check=16130D
+2015-08-08 17:05:40 : Full Check=16130D
+2015-08-08 17:05:40 : Full Check=16130D
+2015-08-08 17:05:40 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:41 : Full Check=16130D
+2015-08-08 17:05:42 : Move from Army Overview
+2015-08-08 17:05:43 : Barrack1 selected
+2015-08-08 17:05:47 : Train warning 6
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:48 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:49 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:50 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:51 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:52 : Full Check=E8E8E0
+2015-08-08 17:05:53 : Move from Army Overview
+2015-08-08 17:05:54 : Barrack1 selected
+2015-08-08 17:05:58 : Train warning 6
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:05:59 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:00 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:01 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:02 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:03 : Full Check=E8E8E0
+2015-08-08 17:06:04 : Move from Army Overview
+2015-08-08 17:06:05 : Barrack1 selected
+2015-08-08 17:06:09 : Train warning 6
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:10 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:11 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:12 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:13 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:14 : Full Check=16130D
+2015-08-08 17:06:15 : Move from Army Overview
+2015-08-08 17:06:15 : ---=====================END TRAIN =======================================---
+2015-08-08 17:06:16 : checkMainScreen start quiet mode
+2015-08-08 17:06:16 : checkMainScreen exit quiet mode
+2015-08-08 17:06:16 : Trophy Count : 2520
+2015-08-08 17:06:16 : Going to Attack...
+2015-08-08 17:06:21 : Take-A-Break OCR result = 
+2015-08-08 17:06:22 : Shield btn clr chk-#1: FCFCFC, #2: F4F5F5, #3: FDFFFE, #4: FDFEFE
+2015-08-08 17:06:23 : ============== Searching For Dead Base ===============
+2015-08-08 17:06:23 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-08 17:06:23 : Meet: Gold and Elixir, TH Outside
+2015-08-08 17:06:23 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-08 17:06:23 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out for: Dead Base
+2015-08-08 17:06:23 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-08 17:06:23 : THSnipe Combo, 1 Tile(s), 
+2015-08-08 17:06:23 : ==================================================
+2015-08-08 17:06:24 :   1> [G]:  84229 [E]: 105161 [D]: 1221 [T]:28 [TH]: 9, In
+2015-08-08 17:06:26 :   2> [G]:  84229 [E]: 105161 [D]: 1221 [T]:28 [TH]: 9, In
+2015-08-08 17:06:28 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:06:29 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:06:30 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:06:30 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:06:31 :   3> [G]:  13871 [E]:  13568 [D]:   85 [T]:11 [TH]: 9, In
+2015-08-08 17:06:33 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:06:34 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:06:34 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:06:35 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:06:35 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:06:36 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:06:36 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:06:37 :   4> [G]:  92715 [E]:  74099 [D]:  279 [T]:14 [TH]: 9, In
+2015-08-08 17:06:39 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:06:40 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:06:41 :   5> [G]:  80265 [E]:  15070 [D]: 1104 [T]:23 [TH]: 9, In
+2015-08-08 17:06:43 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:06:43 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:06:44 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:06:44 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:06:45 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:06:46 :   6> [G]:  22451 [E]:  46960 [D]:  534 [T]:35 [TH]: 9, In
+2015-08-08 17:06:48 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:06:48 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:06:49 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:06:50 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:06:50 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:06:51 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:06:51 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:06:52 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:06:52 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:06:53 : Loop to clean screen without Clouds , nº :10
+2015-08-08 17:06:54 : Loop to clean screen without Clouds , nº :11
+2015-08-08 17:06:55 :   7> [G]:  11716 [E]:   8419 [D]:  495 [T]:10 [TH]:10, In
+2015-08-08 17:06:57 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:06:57 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:06:58 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:06:58 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:06:59 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:07:00 : Loop to clean screen without Clouds , nº :6
+2015-08-08 17:07:00 : Loop to clean screen without Clouds , nº :7
+2015-08-08 17:07:01 : Loop to clean screen without Clouds , nº :8
+2015-08-08 17:07:01 : Loop to clean screen without Clouds , nº :9
+2015-08-08 17:07:02 : Loop to clean screen without Clouds , nº :10
+2015-08-08 17:07:02 : Loop to clean screen without Clouds , nº :11
+2015-08-08 17:07:04 :   8> [G]:  84696 [E]:  54279 [D]: 1146 [T]: 8 [TH]:10, In
+2015-08-08 17:07:06 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:06 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:07 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:07:07 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:07:08 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:07:09 :   9> [G]:  31140 [E]:  27320 [D]:  211 [T]:13 [TH]: 9, In
+2015-08-08 17:07:11 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:11 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:12 :  10> [G]:  99567 [E]: 210985 [D]:  769 [T]:13 [TH]: 8, In
+2015-08-08 17:07:14 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:14 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:15 :  11> [G]:  16872 [E]:  82433 [D]:  780 [T]: 9 [TH]: 8, In
+2015-08-08 17:07:17 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:18 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:18 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:07:19 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:07:20 :  12> [G]:   4172 [E]: 133583 [D]:  512 [T]: 4 [TH]: 8, In
+2015-08-08 17:07:22 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:22 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:23 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:07:24 :  13> [G]:  48934 [E]:  89897 [D]:  536 [T]: 3 [TH]: 8, In
+2015-08-08 17:07:26 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:26 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:27 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:07:27 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:07:28 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:07:29 :  14> [G]:  39262 [E]:  24225 [D]:  208 [T]:12 [TH]: 9, In
+2015-08-08 17:07:31 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:31 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:32 :  15> [G]:  67508 [E]:  83896 [D]:  789 [T]: 4 [TH]: 8, In
+2015-08-08 17:07:34 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:34 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:35 :  16> [G]:   9914 [E]:  41819 [D]:  105 [T]: 8 [TH]: 9, In
+2015-08-08 17:07:37 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:38 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:39 :  17> [G]:  34331 [E]:  88556 [D]:  947 [T]:10 [TH]: 8, In
+2015-08-08 17:07:41 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:41 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:42 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:07:42 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:07:43 :  18> [G]:  60031 [E]: 136024 [D]:  617 [T]:10 [TH]: 9, In
+2015-08-08 17:07:45 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:46 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:47 :  19> [G]:  43467 [E]:  44101 [D]:  945 [T]: 2 [TH]: 8, In
+2015-08-08 17:07:48 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:49 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:50 :  20> [G]: 150912 [E]:  28760 [D]:  288 [T]:10 [TH]: 8, In
+2015-08-08 17:07:52 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:52 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:53 : Loop to clean screen without Clouds , nº :3
+2015-08-08 17:07:54 : Loop to clean screen without Clouds , nº :4
+2015-08-08 17:07:54 : Loop to clean screen without Clouds , nº :5
+2015-08-08 17:07:55 :  21> [G]:  42817 [E]: 309746 [D]: 1210 [T]:37 [TH]: 9, In
+2015-08-08 17:07:57 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:07:57 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:07:58 :  22> [G]:  40532 [E]:   8979 [D]:  815 [T]:20 [TH]: 9, In
+2015-08-08 17:08:00 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:08:01 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:08:02 :  23> [G]:  51687 [E]: 106326 [D]:  551 [T]: 4 [TH]: 8, In
+2015-08-08 17:08:03 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:08:04 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:08:05 :  24> [G]:  31431 [E]:  68865 [D]:  374 [T]: 3 [TH]: 8, In
+2015-08-08 17:08:07 : Loop to clean screen without Clouds , nº :1
+2015-08-08 17:08:07 : Loop to clean screen without Clouds , nº :2
+2015-08-08 17:08:08 :  25> [G]:  25661 [E]:  86356 [D]:  175 [T]: 3 [TH]: 8, In

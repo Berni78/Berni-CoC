@@ -5,7 +5,7 @@
 ; Parameters ....:
 ; Return values .: None
 ; Author ........: KnowJack (June 2015)
-; Modified ......:
+; Modified ......: Sardo 2015-08
 ; Remarks .......:This file is part of ClashGameBot. Copyright 2015
 ;                  ClashGameBot is distributed under the terms of the GNU GPL
 ; Related .......:
@@ -23,7 +23,7 @@ Func LocateLab()
 	EndIf
 
 	While 1
-		ClickP($aTopLeftClient)
+		ClickP($aAway,1,0,"#0379")
 		_ExtMsgBoxSet(1 + 64, $SS_CENTER, 0x004080, 0xFFFF00, 12, "Comic Sans MS", 600)
 		$stext =  $sErrorText & @CRLF& "Click OK then click on your Laboratory building" & @CRLF & @CRLF & _
 		"Do not move mouse quickly after clicking location"& @CRLF & @CRLF & "Make sure the building name is visible for me!" & @CRLF
@@ -50,19 +50,19 @@ Func LocateLab()
 						ContinueLoop
 					Case $iStupid > 4
 						SetLog(" Operator Error - Bad Laboratory Location: " & "(" & $SFPos[0] & "," &$SFPos[1] & ")", $COLOR_RED)
-						ClickP($aTopLeftClient)
+						ClickP($aAway,1,0,"#0380")
 						Return False
 					Case Else
 						SetLog(" Operator Error - Bad Laboratory Location: " & "(" & $SFPos[0] & "," &$SFPos[1] & ")", $COLOR_RED)
 						$aLabPos[0] = -1
 						$aLabPos[1] = -1
-						ClickP($aTopLeftClient)
+						ClickP($aAway,1,0,"#0381")
 						Return False
 				EndSelect
 			EndIf
 		Else
 			SetLog("Locate Laboratory Cancelled", $COLOR_BLUE)
-			ClickP($aTopLeftClient)
+			ClickP($aAway,1,0,"#0382")
 			Return
 		EndIf
 		$sLabInfo = BuildingInfo(242, 520)
@@ -91,7 +91,7 @@ Func LocateLab()
 						SetLog("Quit joking, Click the Army Camp, or restart bot and try again", $COLOR_RED)
 						$aLabPos[0] = -1
 						$aLabPos[1] = -1
-						ClickP($aTopLeftClient)
+						ClickP($aAway,1,0,"#0383")
 						Return False
 				EndSelect
 			EndIf
@@ -99,12 +99,12 @@ Func LocateLab()
 			SetLog(" Operator Error - Bad Laboratory Location: " & "(" & $aLabPos[0] & "," & $aLabPos[1] & ")", $COLOR_RED)
 			$aLabPos[0] = -1
 			$aLabPos[1] = -1
-			ClickP($aTopLeftClient)
+			ClickP($aAway,1,0,"#0384")
 			Return False
 		EndIf
 		SetLog("Locate Laboratory Success: " & "(" & $aLabPos[0] & "," & $aLabPos[1] & ")", $COLOR_GREEN)
 		ExitLoop
 	WEnd
-	Clickp($aTopLeftClient, 2, 0, "#0207")
+	Clickp($aAway, 2, 0, "#0207")
 
 EndFunc   ;==>LocateLab

@@ -75,13 +75,16 @@ $grpOnStartBot = GUICtrlCreateGroup("When Bot Starts", $x - 20, $y - 20, 205, 11
 		GUICtrlSetTip(-1, $txtTip)
 		GUICtrlSetLimit(-1, 2)
 	$lblOffset = GUICtrlCreateLabel("Offset:", $x + 85, $y + 4, -1, -1)
-	$txtWAOffset = GUICtrlCreateInput("10", $x + 120, $y, 25, -1, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-		$txtTip = "Offset in pixels between BlueStacks (BS) and GameBOT windows."
+	$txtWAOffsetx = GUICtrlCreateInput("10", $x + 120, $y, 25, -1, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+		$txtTip = "Offset horizontal pixels between BlueStacks (BS) and GameBOT windows."
 		GUICtrlSetTip(-1, $txtTip)
 		GUICtrlSetLimit(-1, 2)
-	$lblWAOffsetSeconds = GUICtrlCreateLabel("pixels", $x + 150, $y + 4, 38, 18)
+	$txtWAOffsety= GUICtrlCreateInput("0", $x + 150, $y, 25, -1, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+		$txtTip = "Offset vertical pixels between BlueStacks (BS) and GameBOT windows."
+		GUICtrlSetTip(-1, $txtTip)
+		GUICtrlSetLimit(-1, 2)
 	$y += 23
-	$cmbDisposeWindowsCond = GUICtrlCreateCombo("", $x + 15, $y, 165, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+	$cmbDisposeWindowsCond = GUICtrlCreateCombo("", $x + 15, $y, 160, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 		GUICtrlSetData(-1, "0,0: BlueStacks-Bot|0,0: Bot-BlueStacks|SNAP: Bot TopRight to BS|SNAP: Bot TopLeft to BS|SNAP: Bot BottomRight to BS|SNAP: Bot BottomLeft to BS", "SNAP: Bot TopRight to BS")
 		$txtTip &= @CRLF & "0,0: Reposition BS screen to position 0,0 on windows desktop and align Bot window right or left to it." & @CRLF & _
 				"SNAP: Only reorder windows, Align Bot window to BlueStacks window at Top Right, Top Left, Bottom Right or Bottom Left."

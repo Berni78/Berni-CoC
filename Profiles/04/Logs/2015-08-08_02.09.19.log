@@ -1,0 +1,1033 @@
+2015-08-08 02:09:20 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-08 02:09:20 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-08 02:09:20 : =================== Bot Start ====================
+2015-08-08 02:09:20 : -------------------------  Current Profile: 04 --------------------------
+2015-08-08 02:09:20 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-08 02:09:20 : Trying to locate Main Screen
+2015-08-08 02:09:20 : Main Screen Located
+2015-08-08 02:09:21 : Detecting your Buildings..
+2015-08-08 02:09:28 : Language setting is English: Correct.
+2015-08-08 02:09:28 : Bot clean start
+2015-08-08 02:09:29 : Trying to locate Main Screen
+2015-08-08 02:09:29 : Main Screen Located
+2015-08-08 02:09:30 : checkMainScreen start quiet mode
+2015-08-08 02:09:30 : checkMainScreen exit quiet mode
+2015-08-08 02:09:30 : Collecting Resources
+2015-08-08 02:09:36 : checkMainScreen start quiet mode
+2015-08-08 02:09:37 : CheckObstacles Result = True
+2015-08-08 02:09:37 : Waiting for Main Screen
+2015-08-08 02:09:37 : ChkObst Loop = 0ExitLoop = 0
+2015-08-08 02:09:37 : Screen cleared, WaitMainScreen exit
+2015-08-08 02:09:37 : checkMainScreen exit quiet mode
+2015-08-08 02:09:38 : Bot clean start
+2015-08-08 02:09:39 : Trying to locate Main Screen
+2015-08-08 02:09:39 : Main Screen Located
+2015-08-08 02:09:40 : checkMainScreen start quiet mode
+2015-08-08 02:09:40 : checkMainScreen exit quiet mode
+2015-08-08 02:09:40 : Collecting Resources
+2015-08-08 02:09:46 : checkMainScreen start quiet mode
+2015-08-08 02:09:46 : checkMainScreen exit quiet mode
+2015-08-08 02:09:47 : Checking if Village needs Rearming..
+2015-08-08 02:09:53 : checkMainScreen start quiet mode
+2015-08-08 02:09:53 : checkMainScreen exit quiet mode
+2015-08-08 02:09:54 : checkMainScreen start quiet mode
+2015-08-08 02:09:54 : checkMainScreen exit quiet mode
+2015-08-08 02:09:55 : Village Report
+2015-08-08 02:09:55 : No. of Free/Total Builders: 0/4
+2015-08-08 02:09:55 :  [T]: 2 542
+2015-08-08 02:09:55 :  [G]: 1 507 799 [E]: 5 071 765 [D]: 17 722 [GEM]: 1 981
+2015-08-08 02:09:56 : checkMainScreen start quiet mode
+2015-08-08 02:09:56 : checkMainScreen exit quiet mode
+2015-08-08 02:09:56 : checkMainScreen start quiet mode
+2015-08-08 02:09:56 : checkMainScreen exit quiet mode
+2015-08-08 02:09:58 : Chat Request: Geant 6 Mci
+2015-08-08 02:10:00 : checkMainScreen start quiet mode
+2015-08-08 02:10:00 : checkMainScreen exit quiet mode
+2015-08-08 02:10:00 : Func Train 
+2015-08-08 02:10:00 : Train enabled, $TotalTrainedTroops= 0, Adj TotalCamp= -8
+2015-08-08 02:10:00 : Checking Army Camp...
+2015-08-08 02:10:01 : $sArmyInfo = 200#200
+2015-08-08 02:10:01 : $CurCamp = 200
+2015-08-08 02:10:01 : $TotalCamp = 200
+2015-08-08 02:10:01 : Total Army Camp capacity: 200/200
+2015-08-08 02:10:01 : $hBitmapFirst made
+2015-08-08 02:10:02 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-08 02:10:05 : Dll return $FullTemp :Barbarian|8-21|83#Archer|71-22|117
+2015-08-08 02:10:05 : $Trooptype split # : 2
+2015-08-08 02:10:05 : Start the Loop
+2015-08-08 02:10:05 : $TroopTypeT[$i] split : 1
+2015-08-08 02:10:05 :  - No. of Barbarians: 83
+2015-08-08 02:10:05 : $TroopTypeT[$i] split : 2
+2015-08-08 02:10:05 :  - No. of Archers: 117
+2015-08-08 02:10:05 : start barrackstatus
+2015-08-08 02:10:05 : OK, I'm in army overview
+2015-08-08 02:10:05 : barrack 1 found upgrading! color 6B6964
+2015-08-08 02:10:05 : barrack 2 found! color 888070
+2015-08-08 02:10:05 : barrack 3 found! color 888070
+2015-08-08 02:10:05 : barrack 4 found! color 888070
+2015-08-08 02:10:05 : dark barrack 1 found! color 888070
+2015-08-08 02:10:05 : dark barrack 5 found upgrading! color 6B6964
+2015-08-08 02:10:05 : Factory Spell found! color 888070
+2015-08-08 02:10:05 : Dark Factory Spell found! color 888070
+2015-08-08 02:10:05 : Barracks and Spell factory status: 
+2015-08-08 02:10:05 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-08 02:10:05 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2015-08-08 02:10:05 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 02:10:05 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-08 02:10:05 : Trainaviable[0] = 1
+2015-08-08 02:10:05 : Trainaviable[1] = 0
+2015-08-08 02:10:05 : Trainaviable[2] = 1
+2015-08-08 02:10:05 : Trainaviable[3] = 1
+2015-08-08 02:10:05 : Trainaviable[4] = 1
+2015-08-08 02:10:05 : Trainaviable[5] = 1
+2015-08-08 02:10:05 : Trainaviable[6] = 0
+2015-08-08 02:10:05 : Trainaviable[7] = 1
+2015-08-08 02:10:05 : Trainaviable[8] = 1
+2015-08-08 02:10:05 : Training Troops...
+2015-08-08 02:10:06 : Train: need to make normal troops: True
+2015-08-08 02:10:06 : Train: need to make dark troops: False
+2015-08-08 02:10:06 : LAST BARRACK = 4
+2015-08-08 02:10:06 : OverView TabColor=9BA2A6
+2015-08-08 02:10:06 : Last Barrack TabColor=888070
+2015-08-08 02:10:06 : Your Army Camps are now Full
+2015-08-08 02:10:06 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-08 02:10:06 : -- Compute AnotherTroops to train
+2015-08-08 02:10:06 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-08 02:10:06 : Total Troops to be Trained= 200
+2015-08-08 02:10:06 : BARRACKNUM: 3
+2015-08-08 02:10:06 : ArchEBarrack: 26
+2015-08-08 02:10:06 : BarbEBarrack: 40
+2015-08-08 02:10:06 : DARKBARRACKNUM: 1
+2015-08-08 02:10:06 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-08 02:10:06 : 
+2015-08-08 02:10:06 : ---------TRAIN BARRACK MODE------------------------
+2015-08-08 02:10:06 : Barrack4 selected
+2015-08-08 02:10:08 : Full Check=DE58D0
+2015-08-08 02:10:09 : Full Check=FF80F8
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FB75F1
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FE78F4
+2015-08-08 02:10:09 : Full Check=FB75F1
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FB75F1
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FE78F4
+2015-08-08 02:10:09 : Full Check=FB75F1
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:09 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=F164DF
+2015-08-08 02:10:10 : Full Check=FE78F4
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FB75F1
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FB75F1
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FB75F1
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:10 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FB75F1
+2015-08-08 02:10:11 : Full Check=FF78F3
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FB75F1
+2015-08-08 02:10:11 : Full Check=FF78F3
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FF7FF5
+2015-08-08 02:10:11 : Full Check=FE78F4
+2015-08-08 02:10:11 : Full Check=FB75F1
+2015-08-08 02:10:11 : Full Check=FB75F1
+2015-08-08 02:10:11 : Full Check=FF78F3
+2015-08-08 02:10:12 : Full Check=FE78F4
+2015-08-08 02:10:12 : Full Check=FF78F3
+2015-08-08 02:10:12 : Full Check=FF80F8
+2015-08-08 02:10:12 : Full Check=FE78F4
+2015-08-08 02:10:12 : Full Check=FE78F4
+2015-08-08 02:10:12 : Full Check=FF78F3
+2015-08-08 02:10:12 : Full Check=FF7FF5
+2015-08-08 02:10:12 : Full Check=FB75F1
+2015-08-08 02:10:12 : Full Check=FF80F8
+2015-08-08 02:10:12 : Full Check=FF78F3
+2015-08-08 02:10:12 : Full Check=FF7FF5
+2015-08-08 02:10:12 : Full Check=FE78F4
+2015-08-08 02:10:12 : Full Check=FF7FF5
+2015-08-08 02:10:12 : Full Check=FF7FF5
+2015-08-08 02:10:12 : Full Check=FB75F1
+2015-08-08 02:10:12 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=F164DF
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=FE78F4
+2015-08-08 02:10:13 : Full Check=FF78F3
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:13 : Full Check=FE78F4
+2015-08-08 02:10:13 : Full Check=FF7FF5
+2015-08-08 02:10:14 : Move from Barrack 4 direction -1
+2015-08-08 02:10:15 : Barrack3 selected
+2015-08-08 02:10:17 : Full Check=DE58D0
+2015-08-08 02:10:17 : Full Check=F164DF
+2015-08-08 02:10:17 : Full Check=FE78F4
+2015-08-08 02:10:17 : Full Check=FF7FF5
+2015-08-08 02:10:17 : Full Check=FB75F1
+2015-08-08 02:10:17 : Full Check=FE78F4
+2015-08-08 02:10:17 : Full Check=FF78F3
+2015-08-08 02:10:17 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FB75F1
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FE78F4
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FB75F1
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FE78F4
+2015-08-08 02:10:18 : Full Check=FB75F1
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FF7FF5
+2015-08-08 02:10:18 : Full Check=FF78F3
+2015-08-08 02:10:18 : Full Check=FF80F8
+2015-08-08 02:10:19 : Full Check=FB75F1
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FE78F4
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FE78F4
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FF80F8
+2015-08-08 02:10:19 : Full Check=FF80F8
+2015-08-08 02:10:19 : Full Check=FF7FF5
+2015-08-08 02:10:19 : Full Check=FB75F1
+2015-08-08 02:10:19 : Full Check=FB75F1
+2015-08-08 02:10:20 : Full Check=FF78F3
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FB75F1
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FE78F4
+2015-08-08 02:10:20 : Full Check=FB75F1
+2015-08-08 02:10:20 : Full Check=FF7FF5
+2015-08-08 02:10:20 : Full Check=FE78F4
+2015-08-08 02:10:20 : Full Check=FB75F1
+2015-08-08 02:10:20 : Full Check=FF78F3
+2015-08-08 02:10:20 : Full Check=F164DF
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=F164DF
+2015-08-08 02:10:21 : Full Check=FE78F4
+2015-08-08 02:10:21 : Full Check=FE78F4
+2015-08-08 02:10:21 : Full Check=F164DF
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FB75F1
+2015-08-08 02:10:21 : Full Check=FF7FF5
+2015-08-08 02:10:21 : Full Check=FE78F4
+2015-08-08 02:10:21 : Full Check=FB75F1
+2015-08-08 02:10:21 : Full Check=FE78F4
+2015-08-08 02:10:22 : Full Check=FE78F4
+2015-08-08 02:10:22 : Move from Barrack 3 direction -1
+2015-08-08 02:10:23 : Barrack2 selected
+2015-08-08 02:10:26 : Full Check=E05AD0
+2015-08-08 02:10:26 : Full Check=FF82F8
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF79F5
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=F167E2
+2015-08-08 02:10:26 : Full Check=FF76F1
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF76F1
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:26 : Full Check=FF76F1
+2015-08-08 02:10:26 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF76F1
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF79F5
+2015-08-08 02:10:27 : Full Check=FF76F1
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF79F5
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF76F1
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF79F5
+2015-08-08 02:10:27 : Full Check=FF7EF7
+2015-08-08 02:10:27 : Full Check=FF7BF6
+2015-08-08 02:10:27 : Full Check=FF76F1
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=F167E2
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF79F5
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF76F1
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF79F5
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF76F1
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF79F5
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:28 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF79F5
+2015-08-08 02:10:29 : Full Check=FF79F5
+2015-08-08 02:10:29 : Full Check=FF7BF6
+2015-08-08 02:10:29 : Full Check=FF82F8
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF79F5
+2015-08-08 02:10:29 : Full Check=FF76F1
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:29 : Full Check=FF76F1
+2015-08-08 02:10:29 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF79F5
+2015-08-08 02:10:30 : Full Check=F167E2
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:30 : Full Check=FF7EF7
+2015-08-08 02:10:31 : Move from Barrack 2 direction -1
+2015-08-08 02:10:32 : This is not a Barrack
+2015-08-08 02:10:32 : ---=====================END TRAIN =======================================---
+2015-08-08 02:10:34 : checkMainScreen start quiet mode
+2015-08-08 02:10:34 : checkMainScreen exit quiet mode
+2015-08-08 02:10:34 : checkMainScreen start quiet mode
+2015-08-08 02:10:34 : checkMainScreen exit quiet mode
+2015-08-08 02:10:35 : checkMainScreen start quiet mode
+2015-08-08 02:10:35 : checkMainScreen exit quiet mode
+2015-08-08 02:10:35 : Requesting Clan Castle Troops
+2015-08-08 02:10:36 : $icount1 = 1, BB2BD1
+2015-08-08 02:10:36 : Request has already been made
+2015-08-08 02:10:37 : checkMainScreen start quiet mode
+2015-08-08 02:10:37 : checkMainScreen exit quiet mode
+2015-08-08 02:10:37 : Func Idle 
+2015-08-08 02:10:37 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:10:37 : ====== Waiting for full army ======
+2015-08-08 02:10:48 : checkMainScreen start quiet mode
+2015-08-08 02:10:48 : checkMainScreen exit quiet mode
+2015-08-08 02:10:49 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:10:49 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:10:49 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:10:50 : Clan Camp is not full, Still wait...
+2015-08-08 02:10:51 : checkMainScreen start quiet mode
+2015-08-08 02:10:51 : checkMainScreen exit quiet mode
+2015-08-08 02:10:51 : Requesting Clan Castle Troops
+2015-08-08 02:10:52 : $icount1 = 1, BB2BD1
+2015-08-08 02:10:52 : Request has already been made
+2015-08-08 02:10:52 : Heroes not Ready, Still wait...
+2015-08-08 02:10:52 : checkMainScreen start quiet mode
+2015-08-08 02:10:52 : checkMainScreen exit quiet mode
+2015-08-08 02:10:52 : Func Train 
+2015-08-08 02:10:52 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:10:53 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:10:54 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:10:54 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:10:54 : FullArmy & TotalTrained = skip training
+2015-08-08 02:10:55 : checkMainScreen start quiet mode
+2015-08-08 02:10:55 : checkMainScreen exit quiet mode
+2015-08-08 02:10:55 : Time Idle: 00:00:17
+2015-08-08 02:10:55 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:11:06 : checkMainScreen start quiet mode
+2015-08-08 02:11:07 : checkMainScreen exit quiet mode
+2015-08-08 02:11:07 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:11:07 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:11:08 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:11:08 : Clan Camp is not full, Still wait...
+2015-08-08 02:11:09 : checkMainScreen start quiet mode
+2015-08-08 02:11:09 : checkMainScreen exit quiet mode
+2015-08-08 02:11:09 : Requesting Clan Castle Troops
+2015-08-08 02:11:10 : $icount1 = 1, BB2BD1
+2015-08-08 02:11:10 : Request has already been made
+2015-08-08 02:11:10 : Heroes not Ready, Still wait...
+2015-08-08 02:11:10 : checkMainScreen start quiet mode
+2015-08-08 02:11:10 : checkMainScreen exit quiet mode
+2015-08-08 02:11:11 : Func Train 
+2015-08-08 02:11:11 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:11:11 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:11:11 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:11:12 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:11:12 : FullArmy & TotalTrained = skip training
+2015-08-08 02:11:12 : checkMainScreen start quiet mode
+2015-08-08 02:11:13 : checkMainScreen exit quiet mode
+2015-08-08 02:11:13 : Time Idle: 00:00:35
+2015-08-08 02:11:13 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:11:24 : checkMainScreen start quiet mode
+2015-08-08 02:11:24 : checkMainScreen exit quiet mode
+2015-08-08 02:11:25 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:11:25 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:11:26 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:11:26 : Clan Camp is not full, Still wait...
+2015-08-08 02:11:27 : checkMainScreen start quiet mode
+2015-08-08 02:11:27 : checkMainScreen exit quiet mode
+2015-08-08 02:11:27 : Requesting Clan Castle Troops
+2015-08-08 02:11:28 : $icount1 = 1, BB2BD1
+2015-08-08 02:11:28 : Request has already been made
+2015-08-08 02:11:28 : Heroes not Ready, Still wait...
+2015-08-08 02:11:28 : checkMainScreen start quiet mode
+2015-08-08 02:11:28 : checkMainScreen exit quiet mode
+2015-08-08 02:11:29 : Func Train 
+2015-08-08 02:11:29 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:11:29 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:11:29 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:11:30 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:11:30 : FullArmy & TotalTrained = skip training
+2015-08-08 02:11:30 : checkMainScreen start quiet mode
+2015-08-08 02:11:30 : checkMainScreen exit quiet mode
+2015-08-08 02:11:31 : Time Idle: 00:00:53
+2015-08-08 02:11:31 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:11:42 : checkMainScreen start quiet mode
+2015-08-08 02:11:42 : checkMainScreen exit quiet mode
+2015-08-08 02:11:43 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:11:43 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:11:43 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:11:44 : Clan Camp is not full, Still wait...
+2015-08-08 02:11:45 : checkMainScreen start quiet mode
+2015-08-08 02:11:45 : checkMainScreen exit quiet mode
+2015-08-08 02:11:45 : Requesting Clan Castle Troops
+2015-08-08 02:11:46 : $icount1 = 1, BB2BD1
+2015-08-08 02:11:46 : Request has already been made
+2015-08-08 02:11:46 : Heroes not Ready, Still wait...
+2015-08-08 02:11:46 : checkMainScreen start quiet mode
+2015-08-08 02:11:46 : checkMainScreen exit quiet mode
+2015-08-08 02:11:47 : Func Train 
+2015-08-08 02:11:47 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:11:47 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:11:47 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:11:48 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:11:48 : FullArmy & TotalTrained = skip training
+2015-08-08 02:11:49 : checkMainScreen start quiet mode
+2015-08-08 02:11:49 : checkMainScreen exit quiet mode
+2015-08-08 02:11:49 : Time Idle: 00:01:11
+2015-08-08 02:11:49 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:12:00 : checkMainScreen start quiet mode
+2015-08-08 02:12:01 : checkMainScreen exit quiet mode
+2015-08-08 02:12:01 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:01 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:02 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:02 : Clan Camp is not full, Still wait...
+2015-08-08 02:12:03 : checkMainScreen start quiet mode
+2015-08-08 02:12:03 : checkMainScreen exit quiet mode
+2015-08-08 02:12:03 : Requesting Clan Castle Troops
+2015-08-08 02:12:04 : $icount1 = 1, BB2BD1
+2015-08-08 02:12:04 : Request has already been made
+2015-08-08 02:12:04 : Heroes not Ready, Still wait...
+2015-08-08 02:12:04 : checkMainScreen start quiet mode
+2015-08-08 02:12:04 : checkMainScreen exit quiet mode
+2015-08-08 02:12:05 : Func Train 
+2015-08-08 02:12:05 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:12:05 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:06 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:06 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:06 : FullArmy & TotalTrained = skip training
+2015-08-08 02:12:07 : checkMainScreen start quiet mode
+2015-08-08 02:12:07 : checkMainScreen exit quiet mode
+2015-08-08 02:12:07 : Time Idle: 00:01:28
+2015-08-08 02:12:07 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:12:18 : checkMainScreen start quiet mode
+2015-08-08 02:12:18 : checkMainScreen exit quiet mode
+2015-08-08 02:12:19 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:19 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:20 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:20 : Clan Camp is not full, Still wait...
+2015-08-08 02:12:21 : checkMainScreen start quiet mode
+2015-08-08 02:12:21 : checkMainScreen exit quiet mode
+2015-08-08 02:12:21 : Requesting Clan Castle Troops
+2015-08-08 02:12:22 : $icount1 = 1, BB2BD1
+2015-08-08 02:12:22 : Request has already been made
+2015-08-08 02:12:22 : Heroes not Ready, Still wait...
+2015-08-08 02:12:22 : checkMainScreen start quiet mode
+2015-08-08 02:12:22 : checkMainScreen exit quiet mode
+2015-08-08 02:12:23 : Func Train 
+2015-08-08 02:12:23 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:12:23 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:24 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:24 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:24 : FullArmy & TotalTrained = skip training
+2015-08-08 02:12:25 : checkMainScreen start quiet mode
+2015-08-08 02:12:25 : checkMainScreen exit quiet mode
+2015-08-08 02:12:25 : Time Idle: 00:01:46
+2015-08-08 02:12:25 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:12:37 : checkMainScreen start quiet mode
+2015-08-08 02:12:37 : checkMainScreen exit quiet mode
+2015-08-08 02:12:37 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:37 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:38 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:38 : Clan Camp is not full, Still wait...
+2015-08-08 02:12:39 : checkMainScreen start quiet mode
+2015-08-08 02:12:39 : checkMainScreen exit quiet mode
+2015-08-08 02:12:39 : Requesting Clan Castle Troops
+2015-08-08 02:12:40 : $icount1 = 1, BB2BD1
+2015-08-08 02:12:40 : Request has already been made
+2015-08-08 02:12:40 : Heroes not Ready, Still wait...
+2015-08-08 02:12:41 : checkMainScreen start quiet mode
+2015-08-08 02:12:41 : checkMainScreen exit quiet mode
+2015-08-08 02:12:41 : Func Train 
+2015-08-08 02:12:41 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:12:41 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:42 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:42 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:42 : FullArmy & TotalTrained = skip training
+2015-08-08 02:12:43 : checkMainScreen start quiet mode
+2015-08-08 02:12:43 : checkMainScreen exit quiet mode
+2015-08-08 02:12:43 : Time Idle: 00:02:04
+2015-08-08 02:12:43 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:12:55 : checkMainScreen start quiet mode
+2015-08-08 02:12:55 : checkMainScreen exit quiet mode
+2015-08-08 02:12:55 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:12:56 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:12:56 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:12:56 : Clan Camp is not full, Still wait...
+2015-08-08 02:12:57 : checkMainScreen start quiet mode
+2015-08-08 02:12:57 : checkMainScreen exit quiet mode
+2015-08-08 02:12:57 : Requesting Clan Castle Troops
+2015-08-08 02:12:58 : $icount1 = 1, BB2BD1
+2015-08-08 02:12:58 : Request has already been made
+2015-08-08 02:12:58 : Heroes not Ready, Still wait...
+2015-08-08 02:12:59 : checkMainScreen start quiet mode
+2015-08-08 02:12:59 : checkMainScreen exit quiet mode
+2015-08-08 02:12:59 : Func Train 
+2015-08-08 02:12:59 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:12:59 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:00 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:00 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:00 : FullArmy & TotalTrained = skip training
+2015-08-08 02:13:01 : checkMainScreen start quiet mode
+2015-08-08 02:13:01 : checkMainScreen exit quiet mode
+2015-08-08 02:13:01 : Time Idle: 00:02:22
+2015-08-08 02:13:01 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:13:13 : checkMainScreen start quiet mode
+2015-08-08 02:13:13 : checkMainScreen exit quiet mode
+2015-08-08 02:13:13 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:13 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:14 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:14 : Clan Camp is not full, Still wait...
+2015-08-08 02:13:15 : checkMainScreen start quiet mode
+2015-08-08 02:13:15 : checkMainScreen exit quiet mode
+2015-08-08 02:13:15 : Requesting Clan Castle Troops
+2015-08-08 02:13:16 : $icount1 = 1, BB2BD1
+2015-08-08 02:13:16 : Request has already been made
+2015-08-08 02:13:16 : Heroes not Ready, Still wait...
+2015-08-08 02:13:16 : checkMainScreen start quiet mode
+2015-08-08 02:13:16 : checkMainScreen exit quiet mode
+2015-08-08 02:13:17 : Func Train 
+2015-08-08 02:13:17 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:13:17 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:18 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:18 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:18 : FullArmy & TotalTrained = skip training
+2015-08-08 02:13:19 : checkMainScreen start quiet mode
+2015-08-08 02:13:19 : checkMainScreen exit quiet mode
+2015-08-08 02:13:19 : Time Idle: 00:02:39
+2015-08-08 02:13:19 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:13:30 : checkMainScreen start quiet mode
+2015-08-08 02:13:30 : checkMainScreen exit quiet mode
+2015-08-08 02:13:31 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:31 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:32 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:32 : Clan Camp is not full, Still wait...
+2015-08-08 02:13:33 : checkMainScreen start quiet mode
+2015-08-08 02:13:33 : checkMainScreen exit quiet mode
+2015-08-08 02:13:33 : Requesting Clan Castle Troops
+2015-08-08 02:13:34 : $icount1 = 1, BB2BD1
+2015-08-08 02:13:34 : Request has already been made
+2015-08-08 02:13:34 : Heroes not Ready, Still wait...
+2015-08-08 02:13:34 : checkMainScreen start quiet mode
+2015-08-08 02:13:34 : checkMainScreen exit quiet mode
+2015-08-08 02:13:35 : Func Train 
+2015-08-08 02:13:35 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:13:35 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:36 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:36 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:36 : FullArmy & TotalTrained = skip training
+2015-08-08 02:13:37 : checkMainScreen start quiet mode
+2015-08-08 02:13:37 : checkMainScreen exit quiet mode
+2015-08-08 02:13:37 : Time Idle: 00:02:57
+2015-08-08 02:13:37 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:13:49 : checkMainScreen start quiet mode
+2015-08-08 02:13:49 : checkMainScreen exit quiet mode
+2015-08-08 02:13:49 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:49 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:50 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:50 : Clan Camp is not full, Still wait...
+2015-08-08 02:13:51 : checkMainScreen start quiet mode
+2015-08-08 02:13:51 : checkMainScreen exit quiet mode
+2015-08-08 02:13:51 : Requesting Clan Castle Troops
+2015-08-08 02:13:52 : $icount1 = 1, BB2BD1
+2015-08-08 02:13:52 : Request has already been made
+2015-08-08 02:13:52 : Heroes not Ready, Still wait...
+2015-08-08 02:13:53 : checkMainScreen start quiet mode
+2015-08-08 02:13:53 : checkMainScreen exit quiet mode
+2015-08-08 02:13:53 : Func Train 
+2015-08-08 02:13:53 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:13:54 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:13:54 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:13:54 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:13:55 : FullArmy & TotalTrained = skip training
+2015-08-08 02:13:55 : checkMainScreen start quiet mode
+2015-08-08 02:13:55 : checkMainScreen exit quiet mode
+2015-08-08 02:13:56 : Time Idle: 00:03:15
+2015-08-08 02:13:56 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:14:07 : checkMainScreen start quiet mode
+2015-08-08 02:14:07 : checkMainScreen exit quiet mode
+2015-08-08 02:14:07 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:14:08 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:14:08 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:14:09 : Clan Camp is not full, Still wait...
+2015-08-08 02:14:10 : checkMainScreen start quiet mode
+2015-08-08 02:14:10 : checkMainScreen exit quiet mode
+2015-08-08 02:14:10 : Requesting Clan Castle Troops
+2015-08-08 02:14:10 : $icount1 = 1, BB2BD1
+2015-08-08 02:14:10 : Request has already been made
+2015-08-08 02:14:10 : Heroes not Ready, Still wait...
+2015-08-08 02:14:11 : checkMainScreen start quiet mode
+2015-08-08 02:14:11 : checkMainScreen exit quiet mode
+2015-08-08 02:14:11 : Collecting Resources
+2015-08-08 02:14:19 : checkMainScreen start quiet mode
+2015-08-08 02:14:19 : checkMainScreen exit quiet mode
+2015-08-08 02:14:19 : Func Train 
+2015-08-08 02:14:19 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:14:20 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:14:20 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:14:20 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:14:21 : FullArmy & TotalTrained = skip training
+2015-08-08 02:14:21 : checkMainScreen start quiet mode
+2015-08-08 02:14:21 : checkMainScreen exit quiet mode
+2015-08-08 02:14:22 : Time Idle: 00:03:41
+2015-08-08 02:14:22 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:14:33 : checkMainScreen start quiet mode
+2015-08-08 02:14:33 : checkMainScreen exit quiet mode
+2015-08-08 02:14:34 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:14:34 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:14:34 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:14:35 : Clan Camp is not full, Still wait...
+2015-08-08 02:14:36 : checkMainScreen start quiet mode
+2015-08-08 02:14:36 : checkMainScreen exit quiet mode
+2015-08-08 02:14:36 : Requesting Clan Castle Troops
+2015-08-08 02:14:37 : $icount1 = 1, BB2BD1
+2015-08-08 02:14:37 : Request has already been made
+2015-08-08 02:14:37 : Heroes not Ready, Still wait...
+2015-08-08 02:14:37 : checkMainScreen start quiet mode
+2015-08-08 02:14:37 : checkMainScreen exit quiet mode
+2015-08-08 02:14:37 : Func Train 
+2015-08-08 02:14:37 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:14:38 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:14:38 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:14:39 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:14:39 : FullArmy & TotalTrained = skip training
+2015-08-08 02:14:39 : checkMainScreen start quiet mode
+2015-08-08 02:14:39 : checkMainScreen exit quiet mode
+2015-08-08 02:14:40 : Time Idle: 00:03:59
+2015-08-08 02:14:40 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:14:51 : checkMainScreen start quiet mode
+2015-08-08 02:14:51 : checkMainScreen exit quiet mode
+2015-08-08 02:14:52 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:14:52 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:14:52 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:14:53 : Clan Camp is not full, Still wait...
+2015-08-08 02:14:54 : checkMainScreen start quiet mode
+2015-08-08 02:14:54 : checkMainScreen exit quiet mode
+2015-08-08 02:14:54 : Requesting Clan Castle Troops
+2015-08-08 02:14:55 : $icount1 = 1, BB2BD1
+2015-08-08 02:14:55 : Request has already been made
+2015-08-08 02:14:55 : Heroes not Ready, Still wait...
+2015-08-08 02:14:56 : checkMainScreen start quiet mode
+2015-08-08 02:14:56 : checkMainScreen exit quiet mode
+2015-08-08 02:14:56 : Func Train 
+2015-08-08 02:14:56 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:14:56 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:14:57 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:14:57 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:14:58 : FullArmy & TotalTrained = skip training
+2015-08-08 02:14:58 : checkMainScreen start quiet mode
+2015-08-08 02:14:58 : checkMainScreen exit quiet mode
+2015-08-08 02:14:58 : Time Idle: 00:04:17
+2015-08-08 02:14:58 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:15:10 : checkMainScreen start quiet mode
+2015-08-08 02:15:10 : checkMainScreen exit quiet mode
+2015-08-08 02:15:10 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:15:11 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:15:11 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:15:11 : Clan Camp is not full, Still wait...
+2015-08-08 02:15:12 : checkMainScreen start quiet mode
+2015-08-08 02:15:12 : checkMainScreen exit quiet mode
+2015-08-08 02:15:12 : Requesting Clan Castle Troops
+2015-08-08 02:15:13 : $icount1 = 1, BB2BD1
+2015-08-08 02:15:13 : Request has already been made
+2015-08-08 02:15:13 : Heroes not Ready, Still wait...
+2015-08-08 02:15:14 : checkMainScreen start quiet mode
+2015-08-08 02:15:14 : checkMainScreen exit quiet mode
+2015-08-08 02:15:14 : Func Train 
+2015-08-08 02:15:14 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:15:15 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:15:15 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:15:15 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:15:16 : FullArmy & TotalTrained = skip training
+2015-08-08 02:15:16 : checkMainScreen start quiet mode
+2015-08-08 02:15:16 : checkMainScreen exit quiet mode
+2015-08-08 02:15:16 : Time Idle: 00:04:35
+2015-08-08 02:15:16 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:15:28 : checkMainScreen start quiet mode
+2015-08-08 02:15:28 : checkMainScreen exit quiet mode
+2015-08-08 02:15:28 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:15:29 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:15:29 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:15:29 : Clan Camp is not full, Still wait...
+2015-08-08 02:15:30 : checkMainScreen start quiet mode
+2015-08-08 02:15:30 : checkMainScreen exit quiet mode
+2015-08-08 02:15:30 : Requesting Clan Castle Troops
+2015-08-08 02:15:31 : $icount1 = 1, BB2BD1
+2015-08-08 02:15:31 : Request has already been made
+2015-08-08 02:15:31 : Heroes not Ready, Still wait...
+2015-08-08 02:15:32 : checkMainScreen start quiet mode
+2015-08-08 02:15:32 : checkMainScreen exit quiet mode
+2015-08-08 02:15:32 : Func Train 
+2015-08-08 02:15:32 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:15:32 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:15:33 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:15:33 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:15:34 : FullArmy & TotalTrained = skip training
+2015-08-08 02:15:34 : checkMainScreen start quiet mode
+2015-08-08 02:15:34 : checkMainScreen exit quiet mode
+2015-08-08 02:15:34 : Time Idle: 00:04:52
+2015-08-08 02:15:34 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:15:46 : checkMainScreen start quiet mode
+2015-08-08 02:15:46 : checkMainScreen exit quiet mode
+2015-08-08 02:15:46 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:15:47 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:15:47 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:15:47 : Clan Camp is not full, Still wait...
+2015-08-08 02:15:48 : checkMainScreen start quiet mode
+2015-08-08 02:15:48 : checkMainScreen exit quiet mode
+2015-08-08 02:15:48 : Requesting Clan Castle Troops
+2015-08-08 02:15:49 : $icount1 = 1, BB2BD1
+2015-08-08 02:15:50 : $icount2 = 1, CC4010
+2015-08-08 02:15:53 : Heroes not Ready, Still wait...
+2015-08-08 02:15:54 : checkMainScreen start quiet mode
+2015-08-08 02:15:54 : checkMainScreen exit quiet mode
+2015-08-08 02:15:54 : Func Train 
+2015-08-08 02:15:54 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:15:55 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:15:55 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:15:55 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:15:56 : FullArmy & TotalTrained = skip training
+2015-08-08 02:15:56 : checkMainScreen start quiet mode
+2015-08-08 02:15:56 : checkMainScreen exit quiet mode
+2015-08-08 02:15:57 : Time Idle: 00:05:15
+2015-08-08 02:15:57 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:16:08 : checkMainScreen start quiet mode
+2015-08-08 02:16:08 : checkMainScreen exit quiet mode
+2015-08-08 02:16:09 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:16:09 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:16:09 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:16:10 : Clan Camp is not full, Still wait...
+2015-08-08 02:16:11 : checkMainScreen start quiet mode
+2015-08-08 02:16:11 : checkMainScreen exit quiet mode
+2015-08-08 02:16:11 : Requesting Clan Castle Troops
+2015-08-08 02:16:11 : $icount1 = 1, BB2BD1
+2015-08-08 02:16:11 : Request has already been made
+2015-08-08 02:16:11 : Heroes not Ready, Still wait...
+2015-08-08 02:16:12 : checkMainScreen start quiet mode
+2015-08-08 02:16:12 : checkMainScreen exit quiet mode
+2015-08-08 02:16:12 : Func Train 
+2015-08-08 02:16:12 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:16:13 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:16:13 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:16:13 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:16:14 : FullArmy & TotalTrained = skip training
+2015-08-08 02:16:14 : checkMainScreen start quiet mode
+2015-08-08 02:16:14 : checkMainScreen exit quiet mode
+2015-08-08 02:16:15 : Time Idle: 00:05:32
+2015-08-08 02:16:15 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:16:26 : checkMainScreen start quiet mode
+2015-08-08 02:16:26 : checkMainScreen exit quiet mode
+2015-08-08 02:16:27 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:16:27 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:16:27 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:16:28 : Clan Camp is not full, Still wait...
+2015-08-08 02:16:29 : checkMainScreen start quiet mode
+2015-08-08 02:16:29 : checkMainScreen exit quiet mode
+2015-08-08 02:16:29 : Requesting Clan Castle Troops
+2015-08-08 02:16:29 : $icount1 = 1, BB2BD1
+2015-08-08 02:16:29 : Request has already been made
+2015-08-08 02:16:29 : Heroes not Ready, Still wait...
+2015-08-08 02:16:30 : checkMainScreen start quiet mode
+2015-08-08 02:16:30 : checkMainScreen exit quiet mode
+2015-08-08 02:16:30 : Func Train 
+2015-08-08 02:16:30 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:16:31 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:16:31 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:16:31 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:16:32 : FullArmy & TotalTrained = skip training
+2015-08-08 02:16:32 : checkMainScreen start quiet mode
+2015-08-08 02:16:32 : checkMainScreen exit quiet mode
+2015-08-08 02:16:33 : Time Idle: 00:05:50
+2015-08-08 02:16:33 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:16:44 : checkMainScreen start quiet mode
+2015-08-08 02:16:44 : checkMainScreen exit quiet mode
+2015-08-08 02:16:45 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:16:45 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:16:45 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:16:46 : Clan Camp is not full, Still wait...
+2015-08-08 02:16:47 : checkMainScreen start quiet mode
+2015-08-08 02:16:47 : checkMainScreen exit quiet mode
+2015-08-08 02:16:47 : Requesting Clan Castle Troops
+2015-08-08 02:16:47 : $icount1 = 1, BB2BD1
+2015-08-08 02:16:47 : Request has already been made
+2015-08-08 02:16:48 : Heroes not Ready, Still wait...
+2015-08-08 02:16:48 : checkMainScreen start quiet mode
+2015-08-08 02:16:48 : checkMainScreen exit quiet mode
+2015-08-08 02:16:48 : Func Train 
+2015-08-08 02:16:48 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:16:49 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:16:49 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:16:49 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:16:50 : FullArmy & TotalTrained = skip training
+2015-08-08 02:16:50 : checkMainScreen start quiet mode
+2015-08-08 02:16:50 : checkMainScreen exit quiet mode
+2015-08-08 02:16:51 : Time Idle: 00:06:08
+2015-08-08 02:16:51 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:17:02 : checkMainScreen start quiet mode
+2015-08-08 02:17:02 : checkMainScreen exit quiet mode
+2015-08-08 02:17:03 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:17:03 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:17:03 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:17:04 : Clan Camp is not full, Still wait...
+2015-08-08 02:17:05 : checkMainScreen start quiet mode
+2015-08-08 02:17:05 : checkMainScreen exit quiet mode
+2015-08-08 02:17:05 : Requesting Clan Castle Troops
+2015-08-08 02:17:06 : $icount1 = 1, BB2BD1
+2015-08-08 02:17:06 : Request has already been made
+2015-08-08 02:17:06 : Heroes not Ready, Still wait...
+2015-08-08 02:17:06 : checkMainScreen start quiet mode
+2015-08-08 02:17:06 : checkMainScreen exit quiet mode
+2015-08-08 02:17:06 : Func Train 
+2015-08-08 02:17:06 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:17:07 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:17:07 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:17:08 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:17:08 : FullArmy & TotalTrained = skip training
+2015-08-08 02:17:08 : checkMainScreen start quiet mode
+2015-08-08 02:17:08 : checkMainScreen exit quiet mode
+2015-08-08 02:17:09 : Time Idle: 00:06:26
+2015-08-08 02:17:09 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:17:17 : Chat Request: Geant 6 Mci
+2015-08-08 02:17:22 : checkMainScreen start quiet mode
+2015-08-08 02:17:22 : checkMainScreen exit quiet mode
+2015-08-08 02:17:23 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:17:23 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:17:24 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:17:24 : Clan Camp is not full, Still wait...
+2015-08-08 02:17:25 : checkMainScreen start quiet mode
+2015-08-08 02:17:25 : checkMainScreen exit quiet mode
+2015-08-08 02:17:25 : Requesting Clan Castle Troops
+2015-08-08 02:17:26 : $icount1 = 1, BB2BD1
+2015-08-08 02:17:26 : Request has already been made
+2015-08-08 02:17:26 : Heroes not Ready, Still wait...
+2015-08-08 02:17:26 : checkMainScreen start quiet mode
+2015-08-08 02:17:26 : checkMainScreen exit quiet mode
+2015-08-08 02:17:27 : Func Train 
+2015-08-08 02:17:27 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:17:27 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:17:27 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:17:28 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:17:28 : FullArmy & TotalTrained = skip training
+2015-08-08 02:17:29 : checkMainScreen start quiet mode
+2015-08-08 02:17:29 : checkMainScreen exit quiet mode
+2015-08-08 02:17:29 : Time Idle: 00:06:46
+2015-08-08 02:17:29 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:17:31 : Chat Request: Geant 6 Mci
+2015-08-08 02:17:41 : Chat Request: ì Geant 6 Mci
+2015-08-08 02:17:45 : checkMainScreen start quiet mode
+2015-08-08 02:17:45 : checkMainScreen exit quiet mode
+2015-08-08 02:17:45 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:17:45 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:17:46 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:17:46 : Clan Camp is not full, Still wait...
+2015-08-08 02:17:47 : checkMainScreen start quiet mode
+2015-08-08 02:17:47 : checkMainScreen exit quiet mode
+2015-08-08 02:17:47 : Requesting Clan Castle Troops
+2015-08-08 02:17:48 : $icount1 = 1, BB2BD1
+2015-08-08 02:17:48 : Request has already been made
+2015-08-08 02:17:48 : Heroes not Ready, Still wait...
+2015-08-08 02:17:49 : checkMainScreen start quiet mode
+2015-08-08 02:17:49 : checkMainScreen exit quiet mode
+2015-08-08 02:17:49 : Collecting Resources
+2015-08-08 02:17:54 : ClashGameBot was Paused!
+2015-08-08 02:18:37 : ClashGameBot was Resumed.
+2015-08-08 02:18:39 : checkMainScreen start quiet mode
+2015-08-08 02:18:39 : checkMainScreen exit quiet mode
+2015-08-08 02:18:39 : Func Train 
+2015-08-08 02:18:39 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:18:40 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:18:40 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:18:41 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:18:41 : FullArmy & TotalTrained = skip training
+2015-08-08 02:18:42 : checkMainScreen start quiet mode
+2015-08-08 02:18:42 : checkMainScreen exit quiet mode
+2015-08-08 02:18:42 : Time Idle: 00:07:58
+2015-08-08 02:18:42 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:18:54 : checkMainScreen start quiet mode
+2015-08-08 02:18:54 : checkMainScreen exit quiet mode
+2015-08-08 02:18:54 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:18:55 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:18:55 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:18:55 : Clan Camp is not full, Still wait...
+2015-08-08 02:18:56 : checkMainScreen start quiet mode
+2015-08-08 02:18:56 : checkMainScreen exit quiet mode
+2015-08-08 02:18:56 : Requesting Clan Castle Troops
+2015-08-08 02:18:57 : $icount1 = 1, BB2BD1
+2015-08-08 02:18:57 : Request has already been made
+2015-08-08 02:18:57 : Heroes not Ready, Still wait...
+2015-08-08 02:18:58 : checkMainScreen start quiet mode
+2015-08-08 02:18:58 : checkMainScreen exit quiet mode
+2015-08-08 02:18:58 : Func Train 
+2015-08-08 02:18:58 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:18:59 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:18:59 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:18:59 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:00 : FullArmy & TotalTrained = skip training
+2015-08-08 02:19:00 : checkMainScreen start quiet mode
+2015-08-08 02:19:00 : checkMainScreen exit quiet mode
+2015-08-08 02:19:01 : Time Idle: 00:08:16
+2015-08-08 02:19:01 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:19:12 : checkMainScreen start quiet mode
+2015-08-08 02:19:12 : checkMainScreen exit quiet mode
+2015-08-08 02:19:13 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:19:13 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:19:13 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:14 : Clan Camp is not full, Still wait...
+2015-08-08 02:19:15 : checkMainScreen start quiet mode
+2015-08-08 02:19:15 : checkMainScreen exit quiet mode
+2015-08-08 02:19:15 : Requesting Clan Castle Troops
+2015-08-08 02:19:16 : $icount1 = 1, BB2BD1
+2015-08-08 02:19:16 : Request has already been made
+2015-08-08 02:19:16 : Heroes not Ready, Still wait...
+2015-08-08 02:19:16 : checkMainScreen start quiet mode
+2015-08-08 02:19:16 : checkMainScreen exit quiet mode
+2015-08-08 02:19:17 : Func Train 
+2015-08-08 02:19:17 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:19:17 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:19:18 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:19:18 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:18 : FullArmy & TotalTrained = skip training
+2015-08-08 02:19:19 : checkMainScreen start quiet mode
+2015-08-08 02:19:19 : checkMainScreen exit quiet mode
+2015-08-08 02:19:19 : Time Idle: 00:08:35
+2015-08-08 02:19:19 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:19:31 : checkMainScreen start quiet mode
+2015-08-08 02:19:31 : checkMainScreen exit quiet mode
+2015-08-08 02:19:32 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:19:32 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:19:32 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:33 : Clan Camp is not full, Still wait...
+2015-08-08 02:19:34 : checkMainScreen start quiet mode
+2015-08-08 02:19:34 : checkMainScreen exit quiet mode
+2015-08-08 02:19:34 : Requesting Clan Castle Troops
+2015-08-08 02:19:34 : $icount1 = 1, BB2BD1
+2015-08-08 02:19:34 : Request has already been made
+2015-08-08 02:19:35 : Heroes not Ready, Still wait...
+2015-08-08 02:19:35 : checkMainScreen start quiet mode
+2015-08-08 02:19:35 : checkMainScreen exit quiet mode
+2015-08-08 02:19:35 : Func Train 
+2015-08-08 02:19:35 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:19:36 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:19:36 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:19:37 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:37 : FullArmy & TotalTrained = skip training
+2015-08-08 02:19:37 : checkMainScreen start quiet mode
+2015-08-08 02:19:37 : checkMainScreen exit quiet mode
+2015-08-08 02:19:38 : Time Idle: 00:08:53
+2015-08-08 02:19:38 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:19:50 : checkMainScreen start quiet mode
+2015-08-08 02:19:50 : checkMainScreen exit quiet mode
+2015-08-08 02:19:50 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:19:51 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:19:51 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:51 : Clan Camp is not full, Still wait...
+2015-08-08 02:19:52 : checkMainScreen start quiet mode
+2015-08-08 02:19:52 : checkMainScreen exit quiet mode
+2015-08-08 02:19:52 : Requesting Clan Castle Troops
+2015-08-08 02:19:53 : $icount1 = 1, BB2BD1
+2015-08-08 02:19:53 : Request has already been made
+2015-08-08 02:19:53 : Heroes not Ready, Still wait...
+2015-08-08 02:19:54 : checkMainScreen start quiet mode
+2015-08-08 02:19:54 : checkMainScreen exit quiet mode
+2015-08-08 02:19:54 : Func Train 
+2015-08-08 02:19:54 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:19:55 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:19:55 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:19:55 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:19:56 : FullArmy & TotalTrained = skip training
+2015-08-08 02:19:56 : checkMainScreen start quiet mode
+2015-08-08 02:19:56 : checkMainScreen exit quiet mode
+2015-08-08 02:19:57 : Time Idle: 00:09:12
+2015-08-08 02:19:57 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1
+2015-08-08 02:20:08 : checkMainScreen start quiet mode
+2015-08-08 02:20:08 : checkMainScreen exit quiet mode
+2015-08-08 02:20:09 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:20:09 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:20:10 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:20:10 : Clan Camp is not full, Still wait...
+2015-08-08 02:20:11 : checkMainScreen start quiet mode
+2015-08-08 02:20:11 : checkMainScreen exit quiet mode
+2015-08-08 02:20:11 : Requesting Clan Castle Troops
+2015-08-08 02:20:12 : $icount1 = 1, BB2BD1
+2015-08-08 02:20:12 : Request has already been made
+2015-08-08 02:20:12 : Heroes not Ready, Still wait...
+2015-08-08 02:20:12 : checkMainScreen start quiet mode
+2015-08-08 02:20:12 : checkMainScreen exit quiet mode
+2015-08-08 02:20:13 : Func Train 
+2015-08-08 02:20:13 : Train enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-08 02:20:13 : Checking Overview for full army [!] True, 407508
+2015-08-08 02:20:14 : Checking Overview for full CC [!] False, DD3B3D
+2015-08-08 02:20:14 : Checking Overview for full Heroes [!] False, E74849
+2015-08-08 02:20:15 : FullArmy & TotalTrained = skip training
+2015-08-08 02:20:15 : checkMainScreen start quiet mode
+2015-08-08 02:20:15 : checkMainScreen exit quiet mode
+2015-08-08 02:20:16 : Time Idle: 00:09:30
+2015-08-08 02:20:16 : $fullArmy=True $fullCC=False $fullHeroes=False $iUnbreakableMode=1

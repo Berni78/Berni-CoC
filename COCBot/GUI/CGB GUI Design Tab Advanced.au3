@@ -18,7 +18,7 @@
 ;~ -------------------------------------------------------------
  $tabAttackAdv = GUICtrlCreateTabItem("Attack Adv.")
 	Local $x = 30, $y = 150
-	$grpAtkOptions = GUICtrlCreateGroup("Attack Options", $x - 20, $y - 20, 450, 100)
+	$grpAtkOptions = GUICtrlCreateGroup("Attack Options", $x - 20, $y - 20, 450, 115)
 		$chkAttackNow = GUICtrlCreateCheckbox("Attack Now! option.", $x, $y, -1, -1)
 			$txtTip = "Check this if you want the option to have an 'Attack Now!' button next to" & @CRLF & _
 				"the Start and Pause buttons to bypass the dead base or all base search values." & @CRLF & _
@@ -40,6 +40,28 @@
 		$y +=22
 		$chkAttackTH = GUICtrlCreateCheckbox("Attack Townhall Outside", $x, $y, -1, -1)
 			GUICtrlSetTip(-1, "Check this to Attack an exposed Townhall first. (Townhall outside of Walls)" & @CRLF & "TIP: Also tick 'Meet Townhall Outside' on the Search tab if you only want to search for bases with exposed Townhalls.")
+	    $y +=27
+		$chkSnipeWhileTrain = GUICtrlCreateCheckbox("TH snipe while training army", $x, $y, -1, -1) ; Snipe While Train MOD by ChiefM3
+            GUICtrlSetTip(-1, "Bot will try to TH snipe while training army.")
+;            $y +=22
+	    $chkSmartLightSpell =  GUICtrlCreateCheckbox("Smart Zap", 260, 150, -1, -1)
+			$txtTip = "Check this to drop lightning spells on de drills"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetOnEvent(-1, "SmartLightSpell")
+
+             $chkSpellNone = GUICtrlCreateCheckbox("Use Spell:", 260, 175, -1, -1)
+		$txtTip = "Spells for use with TH Sniping using Gbarch"
+		GUICtrlSetTip(-1, $txtTip)
+		GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlSetOnEvent(-1, "chkSpellNone")
+
+		$cmbTHSpellType = GUICtrlCreateCombo("", 330, 175, 85, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+			GUICtrlSetData(-1, "Lighting|Healing|Rage", "Healing")
+
+                $lblAttackBottomType = GUICtrlCreateLabel("TH Bottom base", 238 , 210, -1, 17, $SS_RIGHT)
+		$cmbAttackbottomType = GUICtrlCreateCombo("",  330, 205, 95, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+			GUICtrlSetData(-1, "DontAttack|1:MaxZoomed|2:ModerateZoomed|3:SideAttack", "DontAttack")
+
 ;		$y +=22
 ;		$chkLightSpell = GUICtrlCreateCheckbox("Hit Dark Elixir storage with Lightning Spell", $x, $y, -1, -1)
 ;			GUICtrlSetTip(-1, "Check this if you want to use lightning spells to steal Dark Elixir when bot meet Minimum Dark Elixir.")
@@ -57,7 +79,7 @@
 ;			GUICtrlSetTip(-1, $txtTip)
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 
-	Local $x = 30, $y = 260
+	Local $x = 30, $y = 270
 	$grpAtkCombos = GUICtrlCreateGroup("Advanced Attack Combo's", $x - 20, $y - 20, 225, 165)
 		$chkBullyMode = GUICtrlCreateCheckbox("TH Bully.  After:", $x, $y, -1, -1)
 			$txtTip = "Adds the TH Bully combo to the current search settings. (Example: Deadbase OR TH Bully)" & @CRLF & _
@@ -99,11 +121,11 @@
 		$y+=25
 		$lblAttackTHType = GUICtrlCreateLabel("Attack Type:", $x + 10 , $y + 5, -1, 17, $SS_RIGHT)
 		$cmbAttackTHType = GUICtrlCreateCombo("",  $x + 95, $y, 105, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
-			GUICtrlSetData(-1, "Barch|Attack1:Normal|Attack2:eXtreme|Attack3:GBarch", "Attack1:Normal")
+			GUICtrlSetData(-1, "Barch|Attack1:Normal|Attack2:eXtreme|Attack3:GBarch|Attack4:Wizards|Attack5:Dragons|Attack6:SmartBarch|Attack7:MasterGiBaM", "Attack1:Normal")
 			GUICtrlSetState(-1, $GUI_DISABLE)
     GUICtrlCreateGroup("", -99, -99, 1, 1)
 
-	Local $x = 260, $y = 260
+	Local $x = 260, $y = 270
 	$grpDefenseFarming = GUICtrlCreateGroup("Defense Farming", $x - 20, $y - 20, 220, 165)
 		$chkUnbreakable = GUICtrlCreateCheckbox("Enable Unbreakable Mode", $x, $y, -1, -1)
 			$TxtTip = "Enable farming Defense Wins for Unbreakable achievement." ;& @CRLF & "TIP: Set your trophy range on the Misc Tab to '600 - 800' for best results. WARNING: Doing so will DROP you Trophies!"
@@ -154,4 +176,55 @@
 			GUICtrlSetState(-1, $GUI_DISABLE)
 		GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 170, $y, 16, 16)
     GUICtrlCreateGroup("", -99, -99, 1, 1)
+;;;;;;;;;;;;;;;;;
+    ;;; Toolbox
+    ;;;;;;;;;;;;;;;;;
+       Local $x = 30, $y = 435
+    $grpToolboxOptions = GUICtrlCreateGroup("Toolbox", $x - 20, $y - 20, 225, 90)
+        $chkToolboxModeBot = GUICtrlCreateCheckbox("Mode: Bot", $x, $y, 95, 20, $BS_PUSHLIKE)
+            $txtTip = "Check this if you want activate the Attack Toolbox during normal bot's attacks." & @CRLF & _
+                "WARNING: using the toolbox/hotkeys could screw the normal bot's attack behavior." & @CRLF & _
+                "The Toolbox should deactivate the hotkeys once the attack is finished and the bot take the screenshot." & @CRLF & _
+                "   Use with care."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxModeBot")
+        $y +=22
+        $chkToolboxModeSearch = GUICtrlCreateCheckbox("Mode: Search", $x, $y, 95, 20, $BS_PUSHLIKE)
+            $txtTip = "Check this if you want activate the Attack Toolbox when a base is found through Search Mode." & @CRLF & _
+                "This is be the 'normal' Toolbox usage. Search a base and use your mouse/keyboard to manually attack." & @CRLF & _
+                "The Toolbox should deactivate the hotkeys once the attack is done." & @CRLF & _
+                "   Enjoy it!"
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxModeSearch")
+			$x = 30 + 95
+        $y = 430
+        $chkToolboxModeWar = GUICtrlCreateCheckbox("Mode: War", $x, $y+5, 95, 42, $BS_PUSHLIKE)
+            $txtTip = "Check this if you want to keep the toolbox always active. Usefull for Wars probably." & @CRLF & _
+                "WARNING: when the hotkeys are active, you won't be able to use these keys on other applications!." & @CRLF & _
+                "The Toolbox will never deactivate the hotkeys. It's a responsability of yours." & @CRLF & _
+                "   Remeber, it's not my fault."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetFont(-1, 10, -1, -1, "Bad Blockhead")
+            GUICtrlSetOnEvent(-1, "chkToolboxModeWar")
+        $x = 28
+        $y = 430 + 22 + 22
+        ;$chkToolBoxDetach = GUICtrlCreateCheckbox("Integrate", $x, $y, 95, 20, $BS_PUSHLIKE)
+        $chkToolboxDetach = GUICtrlCreateCheckbox("Attached", $x, $y +5, 95, 20, $BS_PUSHLIKE)
+            $txtTip = "Attach/Detach the Attack Toolbox from the bot window, into its own movable toolbox-window."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxDetach")
+        $x = 30 + 95
+        $y = $y
+        ;$chkToolBoxSavePos = GUICtrlCreateCheckbox("Save Position", $x, $y, 95, 20, $BS_PUSHLIKE)
+        $chkToolboxSavePos = GUICtrlCreateCheckbox("Save Position", $x + 2, $y +5, 95, 20)
+            $txtTip = "Restore toolbox-window position instead of placing it at the top everytime."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxSavePos")
+    GUICtrlCreateGroup("", -99, -99, 1, 1)
+         Local $x = 260, $y = 435
+		 $grpSwitchD = GUICtrlCreateGroup("Account Switch And Donate Options", $x - 20, $y - 20, 220, 90)
+		 $chkSwitchD = GUICtrlCreateCheckbox("Switch Account && Donate", $x, $y, -1, -1)
+		   $txtTip = "Will Switch  account and  Donate  Then Switchh back"
+			GUICtrlSetTip(-1, $txtTip)
+	  GUICtrlCreateGroup("", -99, -99, 1, 1)
 GUICtrlCreateTabItem("")

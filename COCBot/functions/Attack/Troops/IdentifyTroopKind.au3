@@ -35,7 +35,7 @@ Func IdentifyTroopKind($SlotPos = 0)
                     $SlotComp = 2
 				Case 7 to 10
                     $SlotComp = 3
-			    case Else
+				case Else
 					$SlotComp = 0
             EndSwitch
 ;        EndIf

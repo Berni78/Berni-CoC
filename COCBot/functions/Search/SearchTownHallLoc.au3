@@ -27,6 +27,7 @@ Func SearchTownHallLoc()
 		 If $Thx<117+$i*19+ceiling(($THaddtiles-2)/2*19) And $Thy>268+$i*14-floor(($THaddtiles-2)/2*14) Then
 			$THi=$i
 			$THside=1
+			If $THi>15 And $BottomTHType = 0 Then Return False
 			Return True
 		 EndIf
 		 If $Thx>743-$i*19-floor(($THaddtiles-2)/2*19) And $Thy<358-$i*14+ceiling(($THaddtiles-2)/2*14) Then
@@ -37,6 +38,7 @@ Func SearchTownHallLoc()
 		 If $Thx>742-$i*19-floor(($THaddtiles-2)/2*19) And $Thy>268+$i*14-floor(($THaddtiles-2)/2*14) Then
 			$THi=$i
 			$THside=3
+			If $THi>15 And $BottomTHType = 0 Then Return False
 			Return True
 		 EndIf
 		 Next

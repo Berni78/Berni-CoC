@@ -51,10 +51,12 @@ AtkLogHead()
 #include "GUI\CGB GUI Control Tab EndBattle.au3"
 #include "GUI\CGB GUI Control Tab Donate.au3"
 #include "GUI\CGB GUI Control Tab Misc.au3"
+#include "GUI\CGB GUI Control Tab Profiles.au3"
 #include "GUI\CGB GUI Control Tab Upgrade.au3"
 #include "GUI\CGB GUI Control Tab Notify.au3"
 #include "GUI\CGB GUI Control Tab Expert.au3"
 #include "GUI\CGB GUI Control Tab Stats.au3"
+#include "GUI\CGB GUI Control Toolbox.au3"
 
 Func GUIControl($hWind, $iMsg, $wParam, $lParam)
 	Local $nNotifyCode = BitShift($wParam, 16)
@@ -130,7 +132,7 @@ Func GUIControl($hWind, $iMsg, $wParam, $lParam)
 EndFunc   ;==>GUIControl
 
 Func SetTime()
-	Local $time = _TicksToTime(Int(TimerDiff($sTimer)), $hour, $min, $sec)
+	Local $time = _TicksToTime(Int(TimerDiff($sTimer) + $iTimePassed), $hour, $min, $sec)
 	If GUICtrlRead($tabMain, 1) = $tabStats Then GUICtrlSetData($lblresultruntime, StringFormat("%02i:%02i:%02i", $hour, $min, $sec))
 	;If $pEnabled = 1 And $pRemote = 1 And StringFormat("%02i", $sec) = "50" Then _RemoteControl()
 	;If $pEnabled = 1 And $ichkDeleteOldPushes = 1 And Mod($min + 1, 30) = 0 And $sec = "0" Then _DeleteOldPushes() ; check every 30 min if must to delete old pushbullet messages, increase delay time for anti ban pushbullet

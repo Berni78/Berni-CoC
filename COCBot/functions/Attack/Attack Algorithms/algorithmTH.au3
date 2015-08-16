@@ -14,7 +14,7 @@
 ; ===============================================================================================================================
 
 Func algorithmTH() ;Attack Algorithm TH
-	If $iMatchMode = $TS Or $chkATH = 1 Then ; $iMatchMode = $TS
+	If $iMatchMode = $TS Or $chkATH = 1 And GUICtrlRead($BottomTHType) Then ; $iMatchMode = $TS
 		$LeftTHx = 40
 		$RightTHx = 30
 		$BottomTHy = 30
@@ -279,8 +279,7 @@ Func AttackTHGrid($troopKind, $spots, $numperspot, $Sleep, $waveNb, $maxWaveNb, 
 					Next
 			EndSwitch
 		EndIf
-
-		If $THi > 15 Then
+#cs		If $THi > 15 Then
 			If ($THside = 1 Or $THside = 3) And $zoomedin = False Then
 				;Zoom in all the way
 				SetLog("Zooming in...")
@@ -314,8 +313,7 @@ Func AttackTHGrid($troopKind, $spots, $numperspot, $Sleep, $waveNb, $maxWaveNb, 
 					Next
 					If _Sleep(Random($iDelayAttackTHGrid3min, $iDelayAttackTHGrid3max)) Then Return
 				Next
-			EndIf
-
+#ce			EndIf
 			If $THside = 3 Then
 				;						Setlog("LR Bottom deployment $THi="&$THi)
 				For $num = 0 To $numperspot - 1
@@ -329,7 +327,18 @@ Func AttackTHGrid($troopKind, $spots, $numperspot, $Sleep, $waveNb, $maxWaveNb, 
 					If _Sleep(Random($iDelayAttackTHGrid3min, $iDelayAttackTHGrid3max)) Then Return
 				Next
 			EndIf
-		EndIf
+;		EndIf
+
+		If $THi>15 And ($THside = 1 Or $THside = 3) Then
+			 Switch $BottomTHType
+				Case 1
+				AllZoomedAttack($num,$numperspot,$spots)
+				Case 2
+				ModrateZoom($num,$numperspot,$spots)
+				Case 3
+                SideSnipe($num,$numperspot,$spots)
+			 EndSwitch
+			EndIf
 
 		If _Sleep($iDelayAttackTHGrid1) Then Return
 		;_CaptureRegion()
@@ -348,6 +357,22 @@ Func AttackTHGrid($troopKind, $spots, $numperspot, $Sleep, $waveNb, $maxWaveNb, 
 EndFunc   ;==>AttackTHGrid
 
 Func AttackTHNormal()
+   If $OptTrophyMode = 1 Then
+	If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
 	Setlog("Normal Attacking TH Outside with BAM PULSE!")
 
 	;---1st wave
@@ -435,6 +460,22 @@ Func AttackTHNormal()
 EndFunc   ;==>AttackTHNormal
 
 Func AttackTHXtreme()
+	If $OptTrophyMode = 1 Then
+	If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
 	Setlog("Extreme Attacking TH Outside with BAM PULSE!")
 
 	;---1st wave 15 secs
@@ -512,11 +553,27 @@ Func AttackTHXtreme()
 EndFunc   ;==>AttackTHXtreme
 
 Func AttackTHGbarch()
-	Setlog("Sending 1st wave of archers.")
-	AttackTHGrid($eArch, 4, 1, 2000, 1, 4, 0) ; deploys 4 archers - take out possible bombs
-	AttackTHGrid($eArch, 3, Random(5, 6, 1), 1000, 1, 4, 0) ; deploys 15-18 archers
+	If $OptTrophyMode = 1 Then
+	If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
+	Setlog("Sending 1st wave of archers and Barbarians.")
+	AttackTHGrid($eArch, 5, 2, 2000, 1, 4, 0) ; deploys 10 archers - take out possible bombs
+	AttackTHGrid($eBarb, 2, Random(4, 5, 1), 1000, 1, 4, 0) ; deploys 8-10 archers
 	$count = 0
-	While $count < 30
+	While $count < 25
 		If _Sleep($iDelayAttackTHGbarch1) Then Return
 		;_CaptureRegion()
 		If _ColorCheck(_GetPixelColor($aWonOneStar[0], $aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
@@ -526,10 +583,11 @@ Func AttackTHGbarch()
 		$count += 1
 	WEnd
 
-	Setlog("Sending second wave of archers.")
+	Setlog("Sending second wave of archers And Barbarians.")
 	AttackTHGrid($eArch, 4, Random(4, 5, 1), 1000, 2, 4, 0) ;deploys 16-20 archers
+	AttackTHGrid($eBarb, 4, Random(4, 5, 1), 1500, 1, 5, 0) ; deploys 16-20 barbarians
 	$count = 0
-	While $count < 30
+	While $count < 25
 		If _Sleep($iDelayAttackTHGbarch1) Then Return
 		;_CaptureRegion()
 		If _ColorCheck(_GetPixelColor($aWonOneStar[0], $aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
@@ -579,6 +637,562 @@ Func AttackTHGbarch()
 
 EndFunc   ;==>AttackTHGbarch
 
+Func AttackTHWizard()
+        If $OptTrophyMode = 1 Then
+	     If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
+     SetLog($thinfo)
+	 SetLog("Sending 2-6 Wizards.")
+     AttackTHGrid($eWiza,2,1,1000,1,1,1) ; deploy 2 Wizards - for Taking Down All Traps
+	 AttackTHGrid($eWiza,2,Random(2,4,1),1000,2,3,0) ; deploy 4-6 Wizards
+	 $count = 0
+	 While $count < 20
+	 If _Sleep($iDelayAttackTHWizard1) Then Return
+;	  _CaptureRegion()
+	  If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+	    SetLog("Townhall has been destroyed!")
+	  Return ;exit if you get a star
+    EndIf
+ $count+=1
+WEnd
+
+	 Setlog("Get 1 Star ? Sending Some 10 More Wizards.")
+	 AttackTHGrid($eWiza,4,Random(1,3,1),1000,2,3,0) ; deploy 4 Wizards
+	  AttackTHGrid($eWiza,4,Random(1,4,1),1000,2,3,0) ; deploy 4 Wizards
+	  $count = 0
+   While $count < 20
+    If _Sleep($iDelayAttackTHWizard1) Then Return
+;   _CaptureRegion()
+   If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+	SetLog("Townhall has been destroyed!")
+	Return ;exit if you get a star
+ EndIf
+ $count+=1
+WEnd
+
+	 Setlog("Still Cant Get 1 Star ? Sending Again 16 More Wizards.")
+	 AttackTHGrid($eWiza,4,Random(2,3,1),1000,2,3,0) ; deploy 8-12 Wizards
+	  AttackTHGrid($eWiza,4,Random(3,4,1),1000,2,3,0) ; deploy 12-16 Wizards
+	  $count = 0
+   While $count < 20
+    If _Sleep($iDelayAttackTHWizard1) Then Return
+;   _CaptureRegion()
+   If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+	SetLog("Townhall has been destroyed!")
+	Return ;exit if you get a star
+ EndIf
+ $count+=1
+WEnd
+
+    Setlog("Now i know i Need to Send All My Wizards."
+	AttackTHGrid($eWiza,4,4,1500,2,3,0) ; release Heroes/CC + 16 Wizards
+	AttackTHGrid($eWiza,3,4,1000,2,3,0) ; release 12 Wizards
+	AttackTHGrid($eWiza,5,4,1000,2,3,0) ; release 20 Wizards
+	$count = 0
+  While $count < 20
+	  If _Sleep($iDelayAttackTHWizard1) Then Return
+;     _CaptureRegion()
+	  If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+	   SetLog("Townhall has been destroyed!")
+	   Return ;exit if you get a star
+    EndIf
+    $count+=1
+  WEnd
+     SetLog("~Finished Attacking, waiting to finish", $COLOR_GREEN)
+EndFunc ;----AttackTHWizards
+
+Func AttackTHDragon()
+If $OptTrophyMode = 1 Then
+	If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
+SetLog($thinfo)
+Setlog("Sending some troops.")
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 1 dragons
+
+$count = 0
+While $count < 25
+ If _Sleep($iDelayAttackTHDragon1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+Setlog("No star yet? More troops needed.")
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 1 dragons
+$count = 0
+While $count < 25
+If _Sleep($iDelayAttackTHDragon1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+Setlog("No star yet? Even more trops.")
+AttackTHGrid($eDrag,3,1,500,1,1,0) ;releases 2 dragons
+$count = 0
+While $count < 25
+If _Sleep($iDelayAttackTHDragon1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+Setlog("I smell a trap! Let's send more troops...")
+;AttackTHGrid($eDrag,3,1,500,1,1,0) ;releases 2 dragons
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 1 dragons
+AttackTHGrid($eDrag,1,1,500,1,1,1) ;releases 1 dragons and releases hero
+$count = 0
+While $count < 25
+If _Sleep($iDelayAttackTHDragon1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+Setlog("Definetly a trap!")
+AttackTHGrid($eDrag,3,1,500,1,1,0) ;releases 2 dragons
+
+$count = 0
+While $count < 25
+If _Sleep($iDelayAttackTHDragon1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+Setlog("Ok, this is getting serious, saved the best for last!")
+AttackTHGrid($eDrag,3,1,500,1,1,0) ;releases 3 dragons
+
+$count = 0
+While $count < 25
+If _Sleep($iDelayAttackTHDragon1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("~Finished Attacking, waiting to finish", $COLOR_GREEN)
+EndFunc ;===>AttackTHDragons
+
+Func AttackTHSmartBarch()
+          If $OptTrophyMode = 1 Then
+	      If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
+		 SetLog($thinfo)
+   		 Setlog("Sniping TH with SmartBarch")
+
+		 ; 1st wave 30 secs, total 4 barbs 8 archers, works for totally unprotected TH
+		 SetLog("Attacking TH with 1st wave of BARCH", $COLOR_BLUE)
+		 AttackTHGrid($eBarb,4,1,2000,1,4,0) ; deploys 4 barbarians to take out traps waits 2 seconds for bombs to go off
+		 AttackTHGrid($eArch,2,4,28000,1,4,0) ; deploys 8 archers and wait additional 28sec
+		 If _Sleep($iDelayAttackTHSmartBarch1) Then Return
+;		 _CaptureRegion()
+		 If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+		 SetLog("Easy 1 star! Yay!", $COLOR_RED)
+		 _Sleep(1000)
+		 Return ; exit if you get a star
+		 EndIf
+		 ; 2nd wave 25 secs total 16 barbs, 22 archers, works for TH partially covered by defenses
+ 		 SetLog("Attacking TH with 2nd wave of BARCH", $COLOR_BLUE)
+		 AttackTHGrid($eBarb,4,2,200,2,4,0) ; deploys 8 barbarians
+		 AttackTHGrid($eArch,2,5,2000,2,4,0) ; deploys 10 archers and waits 2 seconds
+		 AttackTHGrid($eBarb,4,2,200,2,4,0) ; deploys 8 barbarians
+		 AttackTHGrid($eArch,4,3,22000,2,4,0) ; deploys 12 archers and wait additional 22sec
+		 If _Sleep($iDelayAttackTHSmartBarch1) Then Return
+;		 _CaptureRegion()
+		 If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+		 SetLog("Cheap 1 star! Yay!", $COLOR_RED)
+		 _Sleep(1000)
+		 Return ; exit if you get a star
+		 EndIf
+		 ;---3nd wave 17 secs (rather short interval until ALL IN) total 2 giants, 30 barbs, 57 archers
+		 SetLog("Oh Shit! Seems like a trapped TH!", $COLOR_BLUE)
+		 AttackTHGrid($eBarb,3,3,200,3,4,0) ; deploys 9 barbarians
+		 AttackTHGrid($eGiant,2,1,200,3,4,0) ; deploys 2 giants as meat shield
+		 AttackTHGrid($eArch,3,5,200,3,4,0) ; deploys 15 archers
+		 AttackTHGrid($eBarb,3,3,200,3,4,0) ; deploys 9 barbarians
+		 AttackTHGrid($eArch,3,6,200,3,4,0) ; deploys 18 archers
+		 AttackTHGrid($eBarb,4,3,200,3,4,0) ; deploys 12 barbarians
+		 AttackTHGrid($eArch,4,6,16000,3,4,0) ; deploys 24 archers and wait additional 16sec
+		 If _Sleep($iDelayAttackTHSmartBarch1) Then Return
+;		 _CaptureRegion()
+		 If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+		 SetLog("Phew, got that 1 star!", $COLOR_RED)
+		 If _Sleep($iDelayAttackTHSmartBarch1) Then Return
+		 Return ; exit if you get a star
+		 EndIf
+		 ;---4th wave 20 secs throw in everything
+		 Setlog("Dammit! ALL IN!", $COLOR_BLUE)
+		 AttackTHGrid($eArch,2,10,100,4,4,0) ; deploys 20 archers
+		 AttackTHGrid($eBarb,2,10,100,4,4,0) ; deploys 20 barbarians
+		 AttackTHGrid($eGiant,3,10,100,4,4,0) ; deploys 30 giants
+		 AttackTHGrid($eGobl,2,10,100,4,4,0) ; deploys 20 goblins
+		 AttackTHGrid($eWall,2,10,100,4,4,0) ; deploys 20 wallbreakers
+		 AttackTHGrid($eWiza,2,10,100,4,4,0) ; deploys 20 wizards
+		 AttackTHGrid($eMini,2,10,100,4,4,1) ; deploys 20 minions and Heroes
+		 AttackTHGrid($eArch,2,10,100,4,4,1) ; deploys 20 archers and Heroes
+		 AttackTHGrid($eBarb,2,10,100,4,4,0) ; deploys 20 barbarians
+		 AttackTHGrid($eArch,2,10,100,4,4,0) ; deploys 20 archers
+		 AttackTHGrid($eBarb,2,10,100,4,4,0) ; deploys 20 barbarians
+		 AttackTHGrid($eArch,4,10,100,4,4,0) ; deploys 40 archers
+		 AttackTHGrid($eBarb,4,10,100,4,4,0) ; deploys 40 barbarians
+		 AttackTHGrid($eArch,4,10,60000,4,4,1) ; deploys 40 archers and Heroes (again just in case) and waits for a minute
+
+	     SetLog("All troops deployed and waiting for a star...", $COLOR_GREEN)
+
+EndFunc   ;==>AttackTHSmartBarch
+
+Func AttackTHMasterGiBAM()
+  If $OptTrophyMode = 1 Then
+	If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
+ SetLog($thinfo)
+ Setlog("Small attack first to get totally unprotected townhall")
+	   AttackTHGrid($eArch,3,3,2000,1,4,0) ; deploys 9 archers
+
+ ;check for one star
+local $count = 0
+While $count < 30
+ If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return
+
+ If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+	SetLog("Townhall has been destroyed!")
+	If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+	Return ;exit if you get a star
+ EndIf
+ $count+=1
+WEnd
+;end check for one star
+
+ Setlog(" Not a clear townhall Going In Full Power with GiPAM pulse")
+       AttackTHGrid($eGiant,2,1,2500,1,4,0) ; deploys 2 giants as meat shield
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+	   AttackTHGrid($eGole,1,2,1000,2,4,0) ; deploys 2 goelms
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+	   AttackTHGrid($eHogs,5,2,1000,2,4,0) ; deploys 10 hogs
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+       AttackTHGrid($eGiant,5,4,2500,2,4,0) ; deploys 20 giants To Protect PAM pulse
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+       AttackTHGrid($eBarb,5,3,2000,1,4,0) ; deploys 15 barbarians
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+	   AttackTHGrid($eArch,5,4,2000,2,4,0) ; deploys 20 archers
+
+;check for one star
+ $count = 0
+While $count < 5
+ If _Sleep(1000) Then Return
+
+ If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+	SetLog("Townhall has been destroyed!")
+	If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+	Return ;exit if you get a star
+ EndIf
+ $count+=1
+WEnd
+;end check for one star
+
+	   AttackTHGrid($eBarb,6,5,2000,2,4,0) ; deploys 30 barbarians
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+	   AttackTHGrid($eArch,6,10,2000,3,4,0) ; deploys 60 archers
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+	   AttackTHGrid($eMini,5,2,2000,1,1,1) ; deploys 10 minions with heros
+
+
+;check for one star
+ $count = 0
+While $count < 20
+ If _Sleep(1000) Then Return
+
+ If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+	SetLog("Townhall has been destroyed!")
+	If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+	Return ;exit if you get a star
+ EndIf
+ $count+=1
+WEnd
+;end check for one star
+
+ Setlog("Heavily Protected sending in all Remaining Troops")
+
+For $i = $eGole To $eLava ; Deploy Remaining troops
+ AttackTHGrid($i,5,2,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+For $i = $eGiant To $eValk ; Deploy Remaining troops
+ AttackTHGrid($i,6,5,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+For $i = $eBarb To $eArch ; Deploy Remaining Barb,archers
+ AttackTHGrid($i,5,15,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+If _Sleep($iDelayAttackTHMasterGiBAM1) Then Return
+ SetLog("~Finished Attacking, waiting to finish", $COLOR_GREEN)
+
+EndFunc    ;===AttackTHMasterGiBAM
+
+Func AttackTrappedTH()
+If $OptTrophyMode = 1 Then
+	If  $optSpellNone = 1 Then
+	       Switch $optSpellType
+	       Case 0
+		  local $spell = $eLSpell
+
+	       Case 1
+		  local $spell = $eHSpell
+
+	      Case 2
+		  local $spell = $eRSpell
+
+	       EndSwitch
+	      SpellTHGrid($spell)
+	   EndIf
+	EndIf
+SetLog($thinfo)
+Setlog("Trapped TH detected.. Let's do this!")
+AttackTHGrid($eArch,4,1,2000,1,4,0) ; deploys 4 archers to "reveal" teslas or bombs
+AttackTHGrid($eGiant,2,1,850,1,2,0) ;releases 2 giants to trigger spring traps
+AttackTHGrid($eGiant,2,2,1200,2,2,0) ;releases 4 giants
+AttackTHGrid($eArch,3,8,950,3,4,0) ; deploys 24 archers
+AttackTHGrid($eWiza,4,2,1000,2,3,0) ;deploy 8 Wizards
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 1 dragons
+
+$count = 0
+While $count < 25
+If _Sleep($iDelayAttackTrappedTH1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("Still Not DesTroyed The Traps Send More Troop!")
+; while giants are distracting, loop through barb/arch until you get a star
+AttackTHGrid($eGiant,1,1,1250,2,5,0) ; deploys 1 giant
+AttackTHGrid($eWiza,4,2,1000,2,3,0) ;deploy 4 Wizards
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 2 dragons
+$count = 0
+While $count < 20
+If _Sleep($iDelayAttackTrappedTH1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("Are u Kidding Me What Kind Of Traps Is That Let Me Do This!")
+AttackTHGrid($eBarb,3,4,1020,1,5,0) ; deploys up to 12 barbarians
+AttackTHGrid($eWiza,4,2,1000,2,3,0) ;deploy 6 Wizards
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 2 dragons
+$count = 0
+While $count < 15
+If _Sleep($iDelayAttackTrappedTH1) Then Return
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("I Hate To Do This But I Need To Destroy All Traps Send More Troops!")
+AttackTHGrid($eArch,3,5,650,3,4,0) ; deploys 15 archers
+AttackTHGrid($eWiza,4,3,1000,2,3,0) ;deploy 8 Wizards
+AttackTHGrid($eDrag,2,1,500,1,1,0) ;releases 3 dragons
+If _Sleep($iDelayAttackTrappedTH1) Then Return
+$count = 0
+While $count < 10
+;_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+ Setlog("This TH Is Hard I Need To Sending All Troops")
+For $i = $eGole To $eLava ; Deploy Remaining troops
+ AttackTHGrid($i,5,2,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTrappedTH1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+For $i = $eGiant To $eValk ; Deploy Remaining troops
+ AttackTHGrid($i,6,5,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTrappedTH1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+For $i = $eBarb To $eArch ; Deploy Remaining Barb,archers
+ AttackTHGrid($i,5,15,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep($iDelayAttackTrappedTH1) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+
+SetLog("~Finished Attacking, waiting to finish", $COLOR_GREEN)
+
+EndFunc ;---AttackTrappedTH
+
 Func ALLDropheroes($x, $y)
 	dropHeroes($x, $y, $King, $Queen)
 	If _Sleep($iDelayALLDropheroes1) Then Return
@@ -603,18 +1217,84 @@ Func ALLDropheroes($x, $y)
 EndFunc   ;==>ALLDropheroes
 
 Func SpellTHGrid($S)
-	If $THi <= 15 Or $THside = 0 Or $THside = 2 Then
-		Switch $THside
-			Case 0
-				CastSpell($S, 114 + $THi * 19 + Ceiling(-2 * 19), 359 - $THi * 14 + Ceiling(-2 * 14))
-			Case 1
-				CastSpell($S, 117 + $THi * 19 + Ceiling(-2 * 19), 268 + $THi * 14 - Floor(-2 * 14))
-			Case 2
-				CastSpell($S, 743 - $THi * 19 - Floor(-2 * 19), 358 - $THi * 14 + Ceiling(-2 * 14))
-			Case 3
-				CastSpell($S, 742 - $THi * 19 - Floor(-2 * 19), 268 + $THi * 14 - Floor(-2 * 14))
-		EndSwitch
-	EndIf
+   Setlog("start spell SpellTHGride " &$S)
+	If $THi <= 86 Or $THside = 0 Or $THside = 2 Then
+	    Switch $THside
+		Case 0
+		   If $THx <=200 and $Thy < 350 and $Thy > 280 then  ; In Left Corner
+		      If $optSpellType = 0 Then
+			 CastSpell($S,$THx,$THy)
+		      EndIf
+			CastSpell($S,55,314) ; Left Corner
+		     Else
+			If $THy < 110 and $THx > 400 and $THx < 470 then ; In Top Corner
+			   If $optSpellType = 0 Then
+			      CastSpell($S,$THx,$THy)
+			   EndIf
+			   CastSpell($S,428,50) ; Top Corner
+			Else
+			   If $optSpellType = 0 Then
+			      CastSpell($S,$THx,$THy)
+			   EndIf
+			   ;$aThx = 430 - ($ii * 4)
+			   ;$aThy = 30 + ($ii * 3)
+			   CastSpell($S, 430 - ($THi * 4) + 8 , 30 + ($THi * 3)+6) ;Along Side
+			EndIf
+		     EndIf
+
+		  Case 1
+		      If $THx <=200 and $Thy < 350 and $Thy > 280 then  ; In Left Corner
+			 If $optSpellType = 0 Then
+			   CastSpell($S,$THx,$THy)
+			   EndIf
+			CastSpell($S,55,314) ; Left Corner
+		     Else
+			If $optSpellType = 0 Then
+			 CastSpell($S,$THx,$THy)
+			EndIf
+			CastSpell($S, 70 + ($THi * 4) , 295 + ($THi * 3)) ;Along Side
+		     EndIf
+
+		  Case 2
+			If $THy < 110 and $THx > 400 and $THx < 470 then ; In Top Corner
+			   If $optSpellType = 0 Then
+			      CastSpell($S,$THx,$THy)
+			   EndIf
+			      CastSpell($S,428,50) ; TopCorner
+			Else
+			      If $THx >=700 and $Thy < 350 and $Thy > 280 then  ; In Right Corner
+				 If $optSpellType = 0 Then
+				    CastSpell($S,$THx,$THy)
+				 EndIf
+				 CastSpell($S,790,314) ; Right Corner
+			      Else
+				    If $optSpellType = 0 Then
+				       CastSpell($S,$THx,$THy)
+				    EndIf
+				 CastSpell($S, 410 + ($THi * 4) , 50 + ($THi * 3)) ;Along Side
+			      EndIf
+			EndIf
+
+		     Case 3
+			If $THx >=700 and $Thy < 350 and $Thy > 280 then  ; In Right Corner
+			   If $optSpellType = 0 Then
+			      CastSpell($S,$THx,$THy)
+			   EndIf
+			   CastSpell($S,790,314) ; Right Corner
+			Else
+			   If $optSpellType = 0 Then
+			      CastSpell($S,$THx,$THy)
+			   EndIf
+			   CastSpell($S, 790 - ($THi * 4) , 295 + ($THi * 3)) ;Along Side
+			EndIf
+	   EndSwitch
+	 Else
+	    If $THi > 15 And ($optSpellType = 1 or $optSpellType = 2) Then
+		  If ($THside = 1 Or $THside = 3) And $zoomedin = True Then
+			CastSpell($S,730,430)
+		  EndIf
+	    EndIf
+	 EndIf
 
 EndFunc   ;==>SpellTHGrid
 
@@ -639,3 +1319,176 @@ Func CastSpell($THSpell, $x, $y)
 	EndIf
 
 EndFunc   ;==>CastSpell
+
+Func AllZoomedAttack($num,$numperspot,$spots)
+	If ($THside = 1 Or $THside = 3) And $zoomedin = False Then
+					;Zoom in all the way
+					SetLog("Zooming in Max...")
+					While $zCount < 5
+						If _Sleep(Random(300,320)) Then Return
+						ControlSend($Title, "", "", "{UP}")
+						_Sleep(100)
+						$zCount += 1
+					WEnd
+					SetLog("Done zooming.")
+
+					;Scroll to bottom
+					SetLog("Scrolling to bottom...")
+
+					While $LTCount < 1
+					ControlSend($Title, "", "", "{CTRLDOWN}{LEFT}{CTRLUP}")
+						_Sleep(100)
+						$LTCount +=1
+					WEnd
+
+					While $sCount < 8
+						If _Sleep(Random(300,320)) Then Return
+						ControlSend($Title, "", "", "{CTRLDOWN}{UP}{CTRLUP}")
+						_Sleep(100)
+						$sCount += 1
+					WEnd
+					$zoomedin = True
+	EndIf
+if $THi=17 and $Thx>400 and $Thx<455 and $Thy>525 and $Thy<580 then
+
+					  Setlog("LC Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							Click(Random(550,650,1),Random(515,560,1),1,0,"#0022")
+							If _Sleep(Random(30,60)) Then Return
+						 Next
+						 _Sleep(Random(40,100))
+						Next
+
+
+Else
+				  If $THside=1 Then
+						Setlog("LL Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							Click(Random(280,380,1),Random(365,420,1),1,0,"#0022")
+							If _Sleep(Random(30,60)) Then Return
+						 Next
+						 _Sleep(Random(40,100))
+						Next
+				  EndIf
+
+				  If $THside=3 Then
+						Setlog("LR Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							   ;Click($aThx,$aThy)
+							   Click(Random(780,855,1),Random(400,560,1),1,0,"#0022")
+							   If _Sleep(Random(30,60)) Then Return
+						 Next
+						_Sleep(Random(40,100))
+						Next
+
+				  EndIf
+EndIf
+EndFunc
+
+Func ModrateZoom($num,$numperspot,$spots)
+	If _Sleep(Random(300,320)) Then Return
+	If ($THside = 1 Or $THside = 3) And $zoomedin = False Then
+					;Few zoom ;Scroll to bottom
+					SetLog("Zooming in a little and scrolling to bottom ...")
+					While $zCount < 2 And $sCount < 2
+						ControlSend($Title, "", "", "{UP}")
+						_Sleep(100)
+						ControlSend($Title, "", "", "{CTRLDOWN}{UP}{CTRLUP}")
+						_Sleep(100)
+						$zCount += 1
+						$sCount += 1
+					WEnd
+
+					SetLog("Done zooming.")
+					_Sleep(500)
+					$zoomedin = True
+	EndIf
+if $THi=17 and $Thx>400 and $Thx<455 and $Thy>525 and $Thy<580 then
+
+					  Setlog("LC Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							Click(Random(450,510,1),Random(564,566,1),1,0,"#0022")
+							If _Sleep(Random(30,60)) Then Return
+						 Next
+						 _Sleep(Random(40,100))
+						Next
+
+
+Else
+				  If $THside=1 Then
+						Setlog("LL Bottom deployment $THi="&$THi &"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							Click(Random(290,340,1),Random(564,566,1),1,0,"#0022")
+
+							If _Sleep(Random(30,60)) Then Return
+						 Next
+						 _Sleep(Random(40,100))
+						Next
+				  EndIf
+
+				  If $THside=3 Then
+						Setlog("LR Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							   ;Click($aThx,$aThy)
+							   Click(Random(630,700,1),Random(564,566,1),1,0,"#0022")
+							   If _Sleep(Random(30,60)) Then Return
+						 Next
+						_Sleep(Random(40,100))
+						Next
+
+                  EndIf
+EndIf
+ EndFunc
+
+Func SideSnipe($num,$numperspot,$spots)
+SetLog("Attacking Th from sides ...")
+if $THi=17 and $Thx>400 and $Thx<455 and $Thy>525 and $Thy<580 then
+local $i=0
+					  Setlog("LC Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							if $i=0 then
+							Click(Random(355,365,1),Random(564,566,1),1,0,"#0022")
+							$i=1
+							else
+							Click(Random(488,500,1),Random(564,566,1),1,0,"#0022")
+							$i=0
+							EndIf
+							If _Sleep(Random(30,60)) Then Return
+						 Next
+						 _Sleep(Random(40,100))
+						Next
+
+
+Else
+
+				  If $THside=1 Then
+					  Setlog("LL Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							Click(Random(300,340,1),Random(564,566,1),1,0,"#0022")
+							If _Sleep(Random(30,60)) Then Return
+						 Next
+						 _Sleep(Random(40,100))
+						Next
+	              EndIf
+
+				  If $THside=3 Then
+					  Setlog("LR Bottom deployment $THi="&$THi&"x"&$Thx &"y"&$Thy)
+						For $num=0 to $numperspot-1
+						 For $ii=$THi+1 to $THi+1+($spots-1)
+							   Click(Random(510,540,1),Random(564,566,1),1,0,"#0022")
+							   If _Sleep(Random(30,60)) Then Return
+						 Next
+						_Sleep(Random(40,100))
+						Next
+
+				  EndIf
+EndIf
+ EndFunc

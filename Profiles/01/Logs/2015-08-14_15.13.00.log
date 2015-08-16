@@ -1,0 +1,125 @@
+2015-08-14 15:13:01 :  Clash Game Bot v4.1.1 MODS Powered by GameBot.org ~
+2015-08-14 15:13:01 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-14 15:13:01 : =================== Bot Start ====================
+2015-08-14 15:13:01 : -------------------------  Current Profile: 01 --------------------------
+2015-08-14 15:13:01 : Trying to locate Main Screen
+2015-08-14 15:13:01 : Main Screen Located
+2015-08-14 15:13:02 : Detecting your Buildings..
+2015-08-14 15:13:09 : Language setting is English: Correct.
+2015-08-14 15:13:10 : Trying to locate Main Screen
+2015-08-14 15:13:10 : Main Screen Located
+2015-08-14 15:13:11 : Village Report
+2015-08-14 15:13:11 : No. of Free/Total Builders: 0/5
+2015-08-14 15:13:11 :  [T]: 3 130
+2015-08-14 15:13:11 :  [G]: 5 939 026 [E]: 5 820 854 [D]: 80 000 [GEM]: 77
+2015-08-14 15:13:11 : Trying to locate Main Screen
+2015-08-14 15:13:11 : Main Screen Located
+2015-08-14 15:13:14 : Temprory account Detected...
+2015-08-14 15:13:14 : Collecting Resources
+2015-08-14 15:13:22 : Checking if Village needs Rearming..
+2015-08-14 15:13:31 : Checking Army Camp...
+2015-08-14 15:13:33 : Total Army Camp capacity: 200/200
+2015-08-14 15:13:34 :  - No. of Barbarians: 51
+2015-08-14 15:13:34 :  - No. of Archers: 94
+2015-08-14 15:13:35 :  - No. of Giants: 11
+2015-08-14 15:13:35 : Barracks and Spell factory status: 
+2015-08-14 15:13:35 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-14 15:13:35 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2015-08-14 15:13:35 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-14 15:13:35 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-14 15:13:35 : Training Troops...
+2015-08-14 15:13:35 : Your Army Camps are now Full
+2015-08-14 15:13:59 : 0
+2015-08-14 15:14:02 : Clear an Obstacle on the Field
+2015-08-14 15:14:02 : No. of Free/Total Builders: 0/5
+2015-08-14 15:14:02 : No Builders
+2015-08-14 15:14:02 : Finished kicking
+2015-08-14 15:14:03 : Going to Attack...
+2015-08-14 15:14:08 : ============== Searching For Dead Base ===============
+2015-08-14 15:14:08 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-14 15:14:08 : Meet: Gold and Elixir, TH Outside
+2015-08-14 15:14:08 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-14 15:14:08 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Dead Base
+2015-08-14 15:14:08 : ============== Searching For Live Base ===============
+2015-08-14 15:14:08 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-14 15:14:08 : Meet: Gold and Elixir, TH Outside
+2015-08-14 15:14:08 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-14 15:14:08 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Live Base
+2015-08-14 15:14:08 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-14 15:14:08 : THSnipe Combo, 1 Tile(s), AttackTH, Attack3:GBarch
+2015-08-14 15:14:08 : ==================================================
+2015-08-14 15:14:12 :   1> [G]:  86558 [E]:  47574 [D]:  650 [T]:29 [TH]:10, In
+2015-08-14 15:14:26 :   2> [G]: 194026 [E]: 105161 [D]:  985 [T]:28 [TH]:10, In
+2015-08-14 15:14:29 :   3> [G]: 194026 [E]: 105161 [D]:  985 [T]:28 [TH]:10, In
+2015-08-14 15:14:42 : Have strange problem can not determine, Restarting Bot... (VillageSearch $Restart = True $Is_ClientSyncError=True)
+2015-08-14 15:14:44 : Trying to locate Main Screen (back to AttackMain then return Main and Continue Loop set $Restart = False)
+2015-08-14 15:14:45 : Returning Home
+2015-08-14 15:16:29 : Cannot return home.
+2015-08-14 15:16:29 : Trying to locate Main Screen
+2015-08-14 15:16:30 : Returning Home
+2015-08-14 15:18:14 : Cannot return home.
+2015-08-14 15:18:14 : Trying to locate Main Screen
+2015-08-14 15:18:15 : Waiting for Main Screen
+2015-08-14 15:18:22 : Main Screen Located
+2015-08-14 15:18:22 : Waiting for Main Screen
+2015-08-14 15:18:22 : Main Screen Located
+2015-08-14 15:18:22 : Waiting for Main Screen
+2015-08-14 15:18:22 : Main Screen Located
+2015-08-14 15:18:23 : Trying to locate Main Screen
+2015-08-14 15:18:23 : Main Screen Located
+2015-08-14 15:18:23 : Restarted after Out of Sync Error: Attack Now
+2015-08-14 15:18:24 : Going to Attack...
+2015-08-14 15:18:30 : ============== Searching For Dead Base ===============
+2015-08-14 15:18:30 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-14 15:18:30 : Meet: Gold and Elixir, TH Outside
+2015-08-14 15:18:30 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-14 15:18:30 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Dead Base
+2015-08-14 15:18:30 : ============== Searching For Live Base ===============
+2015-08-14 15:18:30 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-14 15:18:30 : Meet: Gold and Elixir, TH Outside
+2015-08-14 15:18:30 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-14 15:18:30 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Live Base
+2015-08-14 15:18:30 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-14 15:18:30 : THSnipe Combo, 1 Tile(s), AttackTH, Attack3:GBarch
+2015-08-14 15:18:30 : ==================================================
+2015-08-14 15:18:36 :   4> [G]: 106616 [E]:  35637 [D]: 3135 [T]:32 [TH]:10, In
+2015-08-14 15:18:38 :   5> [G]: 106616 [E]:  35637 [D]: 3135 [T]:32 [TH]:10, In
+2015-08-14 15:18:51 : Have strange problem can not determine, Restarting Bot...
+2015-08-14 15:18:52 : Trying to locate Main Screen
+2015-08-14 15:18:53 : Returning Home
+2015-08-14 15:20:37 : Cannot return home.
+2015-08-14 15:20:37 : Trying to locate Main Screen
+2015-08-14 15:20:38 : Returning Home
+2015-08-14 15:22:21 : Cannot return home.
+2015-08-14 15:22:21 : Trying to locate Main Screen
+2015-08-14 15:22:23 : Waiting for Main Screen
+2015-08-14 15:22:30 : Main Screen Located
+2015-08-14 15:22:30 : Waiting for Main Screen
+2015-08-14 15:22:30 : Main Screen Located
+2015-08-14 15:22:30 : Waiting for Main Screen
+2015-08-14 15:22:30 : Main Screen Located
+2015-08-14 15:22:31 : Trying to locate Main Screen
+2015-08-14 15:22:31 : Main Screen Located
+2015-08-14 15:22:31 : Restarted after Out of Sync Error: Attack Now
+2015-08-14 15:22:32 : Going to Attack...
+2015-08-14 15:22:38 : ============== Searching For Dead Base ===============
+2015-08-14 15:22:38 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-14 15:22:38 : Meet: Gold and Elixir, TH Outside
+2015-08-14 15:22:38 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-14 15:22:38 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Dead Base
+2015-08-14 15:22:38 : ============== Searching For Live Base ===============
+2015-08-14 15:22:38 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-14 15:22:38 : Meet: Gold and Elixir, TH Outside
+2015-08-14 15:22:38 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-14 15:22:38 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Live Base
+2015-08-14 15:22:38 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-14 15:22:38 : THSnipe Combo, 1 Tile(s), AttackTH, Attack3:GBarch
+2015-08-14 15:22:38 : ==================================================
+2015-08-14 15:22:44 :   6> [G]: 332304 [E]:  59297 [D]: 1528 [T]:29 [TH]:10, In
+2015-08-14 15:22:46 :   7> [G]: 332304 [E]:  59297 [D]: 1528 [T]:29 [TH]:10, In
+2015-08-14 15:22:58 : Have strange problem can not determine, Restarting Bot...
+2015-08-14 15:23:00 : Trying to locate Main Screen
+2015-08-14 15:23:01 : Returning Home
+2015-08-14 15:24:44 : Cannot return home.
+2015-08-14 15:24:44 : Trying to locate Main Screen
+2015-08-14 15:24:45 : Returning Home

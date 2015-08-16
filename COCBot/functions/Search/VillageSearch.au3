@@ -14,12 +14,23 @@
 ; Example .......: No
 ; ===============================================================================================================================
 Func VillageSearch() ;Control for searching a village that meets conditions
+
 	$iSkipped = 0
+	$DESideFound = False
 
 	If $debugDeadBaseImage = 1 Then
 		If DirGetSize(@ScriptDir & "\SkippedZombies\") = -1 Then DirCreate(@ScriptDir & "\SkippedZombies\")
 		If DirGetSize(@ScriptDir & "\Zombies\") = -1 Then DirCreate(@ScriptDir & "\Zombies\")
+
 	EndIf
+
+	If $iCmbSearchMode > 0 and ($LBAQFilter = 1 Or $LBBKFilter = 1) Then
+			If $Is_ClientSyncError = True  And $LBHeroFilter = 0 Then
+				SetLog("Client Sync error Heros already confirmed awake. Skipping Check ", $COLOR_BLUE)
+			Else
+				LiveRoyalFilter()
+		   EndIf
+	  EndIf
 
 	If $Is_ClientSyncError = False Then
 		For $i = 0 To $iModeCount - 1
@@ -94,6 +105,10 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		If $chkATH = 1 And $AttackTHType = 1 Then $AttackTHTypeText = ", Attack1:Normal"
 		If $chkATH = 1 And $AttackTHType = 2 Then $AttackTHTypeText = ", Attack2:Extreme"
 		If $chkATH = 1 And $AttackTHType = 3 Then $AttackTHTypeText = ", Attack3:GBarch"
+		If $chkATH = 1 And $AttackTHType = 4 Then $AttackTHTypeText = ", Attack4:Wizards"
+		If $chkATH = 1 And $AttackTHType = 5 Then $AttackTHTypeText = ", Attack5:Dragons"
+		If $chkATH = 1 And $AttackTHType = 6 Then $AttackTHTypeText = ", Attack6:SmartBarch"
+		If $chkATH = 1 And $AttackTHType = 7 Then $AttackTHTypeText = ", Attack7:MasterGiBaM"
 		If $OptTrophyMode = 1 Then $OptTrophyModeText = "THSnipe Combo, " & $THaddtiles & " Tile(s), "
 		If $OptTrophyMode = 1 Or $chkATH = 1 Then SetLog($OptTrophyModeText & $chkATHText & $AttackTHTypeText)
 	EndIf
@@ -170,6 +185,26 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 			$dbBase = checkDeadBase()
 		EndIf
 
+		If $OptTrophyMode = 1 Then ;Enables Triple Mode Settings ;---compare resources
+			If SearchTownHallLoc() Then ; attack this base anyway because outside TH found to snipe
+                If $skipBase = False Then
+				SetLog(_PadStringCenter(" TH Outside Found! ", 50, "~"), $COLOR_GREEN)
+				$iMatchMode = $TS
+				ExitLoop
+                Else
+                    SetLog("Trap found, skipping base...", $COLOR_RED)
+			  EndIf
+		   EndIf
+		EndIf
+		; break every 15 searches when Snipe While Train mode is active
+        If $isSnipeWhileTrain Then
+        If $iSkipped > 8 Then
+              Click(62, 519) ; Click End Battle
+           $Restart = True ; To Prevent Initiation of Attack
+          ExitLoop
+         EndIf
+	  EndIf
+
 		If $match[$DB] And $dbBase Then
 			SetLog(_PadStringCenter(" Dead Base Found! ", 50, "~"), $COLOR_GREEN)
 			$iMatchMode = $DB
@@ -179,10 +214,42 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 				_WinAPI_DeleteObject($hBitmap)
 			EndIf
 			ExitLoop
+	       ElseIf $match[$LB] Then
+			   If $iChkDeploySettings[$LB] = 5 And ($iSkipUndetectedDE > 0 Or $iSkipCentreDE > 0) Then
+				  If CheckfoundorcoreDE() = True Then
+					SetLog(_PadStringCenter(" DE Side Base Found!- ", 50, "~"), $COLOR_GREEN)
+					$iMatchMode = $LB
+					$DESideFound = True
+					ExitLoop
+				EndIf
+			ElseIf $iChkDeploySettings[$LB] = 5 Then
+				SetLog(_PadStringCenter(" DE Side Base Found! ", 50, "~"), $COLOR_GREEN)
+				$iMatchMode = $LB
+				$DESideFound = True
+				ExitLoop
 		ElseIf $match[$LB] And Not $dbBase Then
 			SetLog(_PadStringCenter(" Live Base Found! ", 50, "~"), $COLOR_GREEN)
 			$iMatchMode = $LB
 			ExitLoop
+		If $OptTrophyMode = 1 Then ;Enables Triple Mode Settings ;---compare resources
+			If SearchTownHallLoc() Then ; attack this base anyway because outside TH found to snipe
+                If $skipBase = False Then
+				SetLog(_PadStringCenter(" TH Outside Found! ", 50, "~"), $COLOR_GREEN)
+				$iMatchMode = $TS
+				ExitLoop
+                Else
+                    SetLog("Trap found, skipping base...", $COLOR_RED)
+			  EndIf
+		   EndIf
+		EndIf
+		; break every 15 searches when Snipe While Train mode is active
+        If $isSnipeWhileTrain Then
+        If $iSkipped > 8 Then
+              Click(62, 519) ; Click End Battle
+           $Restart = True ; To Prevent Initiation of Attack
+          ExitLoop
+         EndIf
+	  EndIf
 		ElseIf $match[$LB] Or $match[$DB] Then
 			If $OptBullyMode = 1 And ($SearchCount >= $ATBullyMode) Then
 				If $SearchTHLResult = 1 Then
@@ -191,15 +258,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 					ExitLoop
 				EndIf
 			EndIf
-		EndIf
-
-		If $OptTrophyMode = 1 Then ;Enables Triple Mode Settings ;---compare resources
-			If SearchTownHallLoc() Then ; attack this base anyway because outside TH found to snipe
-				SetLog(_PadStringCenter(" TH Outside Found! ", 50, "~"), $COLOR_GREEN)
-				$iMatchMode = $TS
-				ExitLoop
-			EndIf
-		EndIf
+		 EndIf
 
 		If $match[$DB] And Not $dbBase Then
 			$noMatchTxt &= ", Not a " & $sModeText[$DB]
@@ -208,6 +267,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 				_GDIPlus_ImageSaveToFile($hBitmap, @ScriptDir & "\SkippedZombies\" & $Date & " at " & $Time & ".jpg")
 				_WinAPI_DeleteObject($hBitmap)
 			EndIf
+		 EndIf
 		ElseIf $match[$LB] And $dbBase Then
 			$noMatchTxt &= ", Not a " & $sModeText[$LB]
 		EndIf
@@ -239,14 +299,15 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 				If isProblemAffect(True) Then
 					SetLog("Cannot locate Next button, Restarting Bot...", $COLOR_RED)
 					Pushmsg("OoSResources")
+				    GUICtrlSetData($lblresultoutofsync, GUICtrlRead($lblresultoutofsync)+ 1)
 					Return
 				Else
 					SetLog("Have strange problem can not determine, Restarting Bot...", $COLOR_RED)
 					Return
 				EndIf
-		EndIf
+		 EndIf
 			_Sleep($iDelayVillageSearch2)
-		WEnd
+	    WEnd
 
 		If _Sleep($iDelayVillageSearch3) Then Return
 
@@ -283,7 +344,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		ElseIf FileExists(@WindowsDir & "\media\Windows Exclamation.wav") Then
 			SoundPlay(@WindowsDir & "\media\Windows Exclamation.wav", 1)
 		EndIf
-	EndIf
+	 EndIf
 
 	SetLog(_PadStringCenter(" Search Complete ", 50, "="), $COLOR_BLUE)
 	PushMsg("MatchFound")
@@ -299,7 +360,6 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 			SetLog("Checking Townhall location: Could not locate TH, skipping attack TH...")
 		EndIf
 	EndIf
-
 ;~	_WinAPI_EmptyWorkingSet(WinGetProcess($Title)) ; reduce BS Memory
 
 ;~	readConfig()

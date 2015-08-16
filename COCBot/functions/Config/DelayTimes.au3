@@ -26,6 +26,11 @@ Global Const $iDelayAttackTHGrid6 = 500
 Global Const $iDelayAttackTHNormal1 = 1000
 Global Const $iDelayAttackTHXtreme1 = 1000
 Global Const $iDelayAttackTHGbarch1 = 1000
+Global Const $iDelayAttackTHWizard1 = 1000
+Global const $iDelayAttackTHDragon1 = 500
+Global Const $iDelayAttackTHSmartBarch1 = 2000
+Global Const $iDelayAttackTHMasterGiBAM1 = 2000
+Global Const $iDelayAttackTrappedTH1 = 1000
 Global Const $iDelayALLDropheroes1 = 1000
 Global Const $iDelayALLDropheroes2 = 100
 Global Const $iDelayCastSpell1 = 10
@@ -334,6 +339,8 @@ Global Const $iDelayUpgradeNormal3 = 750
 Global Const $iDelayUpgradeHero1 = 800
 Global Const $iDelayUpgradeHero2 = 500
 Global Const $iDelayUpgradeHero3 = 1000
+Global Const $iDelayUpgradeHero4 = 200
+Global Const $iDelayUpgradeHero5 = 2000
 
 ;UpgradeWall
 Global Const $iDelayUpgradeWall1 = 500

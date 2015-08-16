@@ -23,7 +23,7 @@ $frmBot = GUICreate($sBotTitle, 470, 650)
 $tabMain = GUICtrlCreateTab(5, 85, 461, 425, $TCS_MULTILINE)
 	GUICtrlSetOnEvent(-1, "tabMain")
 	GUICtrlCreatePic (@ScriptDir & "\Icons\logo.jpg", 0, 0, 470, 80)
-
+$picBotLogo = GUICtrlCreatePic (@ScriptDir & "\Icons\logo.jpg", 0, 0, 470, 80)
 ;~ ------------------------------------------------------
 ;~ Header Menu
 ;~ ------------------------------------------------------
@@ -31,6 +31,19 @@ $tabMain = GUICtrlCreateTab(5, 85, 461, 425, $TCS_MULTILINE)
 
 $DonateMenu = GUICtrlCreateMenu("&Paypal Donate?")
 $DonateConfig = GUICtrlCreateMenuItem("Support the development", $DonateMenu)
+GUICtrlSetOnEvent(-1, "")
+$account =  GUICtrlCreateLabel("hii", 150, 0, 100)
+GUICtrlSetState($account, $GUI_HIDE)
+$SwitchMenu = GUICtrlCreateMenu("Account Options")
+$Detect = GUICtrlCreateMenuItem("Detect Current Account", $SwitchMenu)
+	GUICtrlSetOnEvent(-1, "DetectAccount")
+	GUICtrlSetTip(-1, "Detect current account then load corresponding profile")
+$Main = GUICtrlCreateMenuItem("Switch to Main Account", $SwitchMenu)
+	GUICtrlSetOnEvent(-1, "Switchmain")
+	GUICtrlSetTip(-1, "Switch to main account")
+$Mini = GUICtrlCreateMenuItem("Switch to Mini Account", $SwitchMenu)
+	GUICtrlSetOnEvent(-1, "Switchmini")
+	GUICtrlSetTip(-1, "Switch to mini account")
 GUICtrlSetOnEvent(-1, "")
 
 ;~ ------------------------------------------------------
@@ -45,10 +58,17 @@ GUICtrlSetOnEvent(-1, "")
 #include "GUI\CGB GUI Design Tab EndBattle.au3"
 #include "GUI\CGB GUI Design Tab Donate.au3"
 #include "GUI\CGB GUI Design Tab Misc.au3"
+#include "GUI\CGB GUI Design Tab Profiles.au3"
 #include "GUI\CGB GUI Design Tab Upgrade.au3"
 #include "GUI\CGB GUI Design Tab Notify.au3"
 #include "GUI\CGB GUI Design Tab Expert.au3"
 #include "GUI\CGB GUI Design Tab Stats.au3" ; includes '$LastControlToHide" on GUI
+#include "GUI\CGB GUI Design Toolbox.au3"
+
+;~ ------------------------------------------------------
+;~ Chat mod GUI
+;~ ------------------------------------------------------
+ChatbotCreateGui()
 
 ;~ -------------------------------------------------------------
 ;~ About Us Tab
@@ -110,4 +130,10 @@ $tiAbout = TrayCreateItem("About")
 TrayCreateItem("")
 $tiExit = TrayCreateItem("Exit")
 
+;~ -------------------------------------------------------------
+;;;;;;;;;;;;;;;
+;;; Toolbox
+;;;;;;;;;;;;;;;
+_CGB_GUI_Toolbox_GUI(0, 0)
+_CGB_GUI_Toolbox_Win()
 ;~ -------------------------------------------------------------

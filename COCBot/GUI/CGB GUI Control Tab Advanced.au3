@@ -66,6 +66,14 @@ Func GUILightSpell()
 EndFunc   ;==>GUILightSpell
 #comments-end
 
+Func SmartLightSpell()
+	If GUICtrlRead($chkSmartLightSpell) = $GUI_CHECKED Then
+		$ichkSmartLightSpell = 1
+	Else
+		$ichkSmartLightSpell = 0
+	EndIf
+EndFunc   ;==>GUILightSpell
+
 Func chkBullyMode()
 	If GUICtrlRead($chkBullyMode) = $GUI_CHECKED Then
 		$OptBullyMode = 1
@@ -87,9 +95,66 @@ Func chkSnipeMode()
 		$OptTrophyMode = 1
 		GUICtrlSetState($txtTHaddtiles, $GUI_ENABLE)
 		GUICtrlSetState($cmbAttackTHType, $GUI_ENABLE)
+	    GUICtrlSetState($ChkSnipeWhileTrain, $GUI_ENABLE)
+		GUICtrlSetState($chkSpellNone, $GUI_ENABLE)
+		GUICtrlSetState($cmbTHSpellType, $GUI_ENABLE)
+	        GUICtrlSetState($cmbAttackbottomType, $GUI_ENABLE)
 	Else
 		$OptTrophyMode = 0
 		GUICtrlSetState($txtTHaddtiles, $GUI_DISABLE)
 		GUICtrlSetState($cmbAttackTHType, $GUI_DISABLE)
+		GUICtrlSetState($chkSpellNone, $GUI_DISABLE)
+		GUICtrlSetState($cmbTHSpellType, $GUI_DISABLE)
+	    GUICtrlSetState($ChkSnipeWhileTrain, $GUI_DISABLE)
+	      GUICtrlSetState($cmbAttackbottomType, $GUI_DISABLE)
 	EndIf
 EndFunc   ;==>chkSnipeMode
+
+;;; Toolbox
+Func chkToolboxModeWar()
+    If GUICtrlRead($chkToolboxModeWar) = $GUI_CHECKED Then
+        $ToolboxModeWar = True
+        $ToolboxModeBot    = False
+        $ToolboxModeSearch = False
+        If Not $ToolboxActive Then
+            _GUI_Toolbox_Show()
+        EndIf
+    Else
+        $ToolboxModeWar = False
+        $ToolboxModeBot    = (GUICtrlRead($chkToolboxModeBot) = $GUI_CHECKED)
+        $ToolboxModeSearch = (GUICtrlRead($chkToolboxModeSearch) = $GUI_CHECKED)
+        If $ToolboxActive Then
+            _GUI_Toolbox_Hide()
+        EndIf
+    EndIf
+EndFunc
+
+Func chkToolboxModeBot()
+    $ToolboxModeBot = (GUICtrlRead($chkToolboxModeBot) = $GUI_CHECKED)
+EndFunc
+
+Func chkToolboxModeSearch()
+    $ToolboxModeSearch = (GUICtrlRead($chkToolboxModeSearch) = $GUI_CHECKED)
+EndFunc
+
+Func chkToolboxDetach()
+    Local $val = (GUICtrlRead($chkToolboxDetach) = $GUI_CHECKED)
+    Local $restore = $ToolboxActive
+    If $restore Then
+        ($ToolboxDetached) ? _GUI_Toolbox_Win_Hide() : _GUI_Toolbox_GUI_Hide()
+        ;_GUI_Toolbox_Hide()
+    EndIf
+    $ToolboxDetached = $val
+    If $restore Then
+        ($ToolboxDetached) ? _GUI_Toolbox_Win_Show() : _GUI_Toolbox_GUI_Show()
+    EndIf
+    If $val Then
+        _GUICtrlButton_SetText($chkToolboxDetach, "Detached")
+    Else
+        _GUICtrlButton_SetText($chkToolboxDetach, "Attached")
+    EndIf
+EndFunc
+
+Func chkToolboxSavePos()
+    $ToolboxSavePos = (GUICtrlRead($chkToolboxDetach) = $GUI_CHECKED)
+EndFunc

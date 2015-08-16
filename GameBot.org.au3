@@ -19,11 +19,11 @@
 #pragma compile(FileDescription, Clash of Clans Bot - A Free Clash of Clans bot - https://gamebot.org)
 #pragma compile(ProductName, Clash Game Bot)
 
-#pragma compile(ProductVersion, 4.1.1)
-#pragma compile(FileVersion, 4.1.1)
+#pragma compile(ProductVersion, 4.1.1 MODS)
+#pragma compile(FileVersion, 4.1.1 MODS)
 #pragma compile(LegalCopyright, © http://gamebot.org)
 
-$sBotVersion = "v4.1.1"
+$sBotVersion = "v4.1.1 MODS"
 $sBotTitle = "Clash Game Bot " & $sBotVersion
 Global $sBotDll = @ScriptDir & "\CGBPlugin.dll"
 
@@ -43,6 +43,7 @@ If Not FileExists(@ScriptDir & "\License.txt") Then
 	InetClose($license)
 EndIf
 
+#include "COCBot\functions\Chatbot\Chatbot.au3"
 #include "COCBot\CGB Global Variables.au3"
 #include "COCBot\CGB GUI Design.au3"
 #include "COCBot\CGB GUI Control.au3"
@@ -95,7 +96,11 @@ Func runBot() ;Bot that runs everything in order
 	While 1
 		$Restart = False
 		$fullArmy = False
+		SWHTrainRevertNormal()  ;===>>>added
 		$CommandStop = -1
+		$LTCount = 0
+                $zCount = 0
+		$sCount = 0
 		If _Sleep($iDelayRunBot1) Then Return
 		checkMainScreen()
 		If $Restart = True Then ContinueLoop
@@ -113,6 +118,10 @@ Func runBot() ;Bot that runs everything in order
 			if $RequestScreenshot = 1 then PushMsg("RequestScreenshot")
 				If _Sleep($iDelayRunBot3) Then Return
 			VillageReport()
+
+			   DetectAccount()
+
+			ProfileSwitch()
 				If $OutOfGold = 1  And ($GoldCount >= $itxtRestartGold) Then  ; check if enough gold to begin searching again
 					$OutOfGold = 0  ; reset out of gold flag
 					Setlog("Switching back to normal after no gold to search ...", $COLOR_RED)
@@ -155,7 +164,10 @@ Func runBot() ;Bot that runs everything in order
 				If $Restart = True Then ContinueLoop
 			BoostSpellFactory()
 				If $Restart = True Then ContinueLoop
+			BoostHeros()
+				If $Restart = True Then ContinueLoop
 			RequestCC()
+			SwitchDonate()
 				If _Sleep($iDelayRunBot1) Then Return
 				checkMainScreen(False) ; required here due to many possible exits
 				If $Restart = True Then ContinueLoop
@@ -166,12 +178,23 @@ Func runBot() ;Bot that runs everything in order
 				If _Sleep($iDelayRunBot3) Then Return
 				checkMainScreen(False)  ; required here due to many possible exits
 				If $Restart = True Then ContinueLoop
-			UpgradeBuilding()
-				If _Sleep($iDelayRunBot3) Then Return
-				If $Restart = True Then ContinueLoop
+			If $FreeBuilder > $iSaveWallBldr Then
+				UpgradeHeroes()
+					If _Sleep($iDelayRunBot3) Then Return
+					checkMainScreen(False)  ; required here due to many possible exits
+					If $Restart = True Then ContinueLoop
+				UpgradeBuilding()
+					If _Sleep($iDelayRunBot3) Then Return
+					checkMainScreen(False)  ; required here due to many possible exits
+					If $Restart = True Then ContinueLoop
+			EndIf
 			UpgradeWall()
 				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
+			ClearObstacles()
+				If _Sleep($iDelayRunBot3) Then Return
+				If $Restart = True Then ContinueLoop
+			GTFO()
 			Idle()
 				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
@@ -220,6 +243,9 @@ Func Idle() ;Sequence that runs until Full Army
 		While $iReHere < 7
 			$iReHere += 1
 			DonateCC(True)
+			If $iReHere = 6 Then ; <<<<<<<<<<<<<
+			   ChatbotMessage()  ; <<<<<<<<<<<<<
+			EndIf                ; <<<<<<<<<<<<<
 			If _Sleep($iDelayIdle2) Then ExitLoop
 			If $Restart = True Then ExitLoop
 		WEnd
@@ -271,6 +297,7 @@ Func Idle() ;Sequence that runs until Full Army
 		EndIf
 		If _Sleep($iDelayIdle1) Then Return
 		If $Restart = True Then ExitLoop
+		SnipeWhileTrain()  ;==>>>added
 		$TimeIdle += Round(TimerDiff($hTimer) / 1000, 2) ;In Seconds
 		SetLog("Time Idle: " & StringFormat("%02i", Floor(Floor($TimeIdle / 60) / 60)) & ":" & StringFormat("%02i", Floor(Mod(Floor($TimeIdle / 60), 60))) & ":" & StringFormat("%02i", Floor(Mod($TimeIdle, 60))))
 		If $OutOfGold = 1 Then Return
@@ -291,10 +318,18 @@ Func AttackMain() ;Main control for attack functions
 	VillageSearch()
 		If $OutOfGold = 1  Then Return ; Check flag for enough gold to search
 		If $Restart = True Then Return
+     ;;; ToolBox ;;;;;;;;;
+       If $ToolboxModeBot Then
+          _GUI_Toolbox_Show()
+    EndIf
 	PrepareAttack($iMatchMode)
 		If $Restart = True Then Return
 	;checkDarkElix()
 	;DEAttack()
+     ;;; ToolBox ;;;;;;;;;
+        If $ToolboxModeBot Then
+          _GUI_Toolbox_Activate()
+     EndIf
 		If $Restart = True Then Return
 	Attack()
 		If $Restart = True Then Return

@@ -138,6 +138,8 @@ Func _DecodeDebug($message)
 			Return $separator & "AtkTH - Arcer Top Left"
 		Case "#0155"
 			Return $separator & "Attack - Next Button"
+		Case "#0221"
+			Return $separator & "Open Profile Page"
 			;COLLECT
 		Case "#0331"
 			Return $separator & "Collect resources"

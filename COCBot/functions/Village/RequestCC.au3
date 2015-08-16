@@ -106,3 +106,33 @@ Func _makerequest()
 	EndIf
 
 EndFunc   ;==>_makerequest
+Func SwitchDonate()
+		;..............Switch Account & Donate Then Switch Back...................
+		 If GUICtrlRead($chkSwitchD) = $GUI_CHECKED Then
+		 SetLog("Switching account", $COLOR_blue)
+		; DetectAccount()
+		If   GUICtrlRead($account) = "Main" Then
+		  SetLog("Sw", $COLOR_blue)
+
+
+			Switchmini()
+			$RunState = True
+         While 1
+		 Train()
+         DonateCC()
+			ExitLoop
+			WEnd
+			Switchmain()
+			ElseIf   GUICtrlRead($account) = "Mini"  Then
+			Switchmain()
+         While 1
+		 Train()
+         DonateCC()
+			ExitLoop
+			WEnd
+			Switchmini()
+			EndIf
+		If _Sleep(1000) Then Return
+		EndIf
+
+  EndFunc

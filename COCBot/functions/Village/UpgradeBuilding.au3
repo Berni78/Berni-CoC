@@ -76,6 +76,10 @@ Func UpgradeBuilding()
 				$iAvailBldr -= 1
 				ContinueLoop
 			Case "Elixir"
+				If $LabNeedsElix = 1 Then
+					SetLog("Lab Needs Elixir", $COLOR_RED)
+					Return False
+				EndIf
 				If $iAvailElixir < $aUpgrades[$iz][2] + $itxtUpgrMinElixir Then
 					SetLog("Insufficent Elixir for #" & $iz + 1 & ", requires: " & $aUpgrades[$iz][2] & " + " & $itxtUpgrMinElixir, $COLOR_BLUE)
 					ContinueLoop
@@ -88,6 +92,10 @@ Func UpgradeBuilding()
 				$iAvailBldr -= 1
 				ContinueLoop
 			Case "Dark"
+				If $LabNeedsDE = 1 Then
+					SetLog("Lab Needs DE", $COLOR_RED)
+					Return False
+				EndIf
 				If $iAvailDark  < $aUpgrades[$iz][2] + $itxtUpgrMinDark Then
 					SetLog("Insufficent Dark for #" & $iz + 1 & ", requires: " & $aUpgrades[$iz][2] & " + " & $itxtUpgrMinDark, $COLOR_BLUE)
 					ContinueLoop

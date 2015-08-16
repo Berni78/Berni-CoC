@@ -18,17 +18,17 @@
 ;~ -------------------------------------------------------------
 
 $tabUpgrades = GUICtrlCreateTabItem("Upgrade")
-Local $x = 30, $y = 150
-	$Laboratory = GUICtrlCreateGroup("Laboratory", $x - 20, $y - 20, 450, 65)
+Local $x = 30, $y = 145
+	$Laboratory = GUICtrlCreateGroup("Laboratory", $x - 20, $y - 15, 450, 55)
 		GUICtrlCreateIcon($pIconLib, $eIcnLaboratory, $x, $y, 32, 32)
-		$chkLab = GUICtrlCreateCheckbox("Auto Laboratory Upgrades", $x + 40, $y + 8, -1, -1)
+		$chkLab = GUICtrlCreateCheckbox("Auto Laboratory Upgrades", $x + 40, $y + 6, -1, -1)
 			$txtTip = "Check box to enable automatically starting Upgrades in laboratory"
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetOnEvent(-1, "chkLab")
 		Local $sNames = "None|Barbarian|Archer|Giant|Goblin|Wall Breaker|Balloon|Wizard|Healer|Dragon|Pekka|Lightning Spell|Healing Spell|Rage Spell|Jump Spell|Freeze Spell|Poison Spell|EarthQuake Spell|Haste Spell|Minion|Hog Rider|Valkyrie|Golem|Witch|Lava Hound"
-		$lblNextUpgrade = GUICtrlCreateLabel("Next do:", $x + 205, $y + 12, -1, -1)
+		$lblNextUpgrade = GUICtrlCreateLabel("Next do:", $x + 205, $y + 10, -1, -1)
 			GUICtrlSetState(-1, $GUI_DISABLE)
-		$cmbLaboratory = GUICtrlCreateCombo("", $x + 250, $y + 8, 125, 25, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+		$cmbLaboratory = GUICtrlCreateCombo("", $x + 250, $y + 6, 125, 25, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetData(-1, $sNames, $aLabTroops[0][3])
 			$txtTip = "Select the troop type to upgrade with this pull down menu" & @CRLF & "The troop icon will appear on the left."
 			GUICtrlSetTip(-1, $txtTip)
@@ -39,8 +39,8 @@ Local $x = 30, $y = 150
 		GUICtrlCreateGroup("", -99, -99, 1, 1)
 	Local $x = 260, $y = 150
 
-	Local $x = 30, $y = 215
-	$grpUpgrade = GUICtrlCreateGroup("Buildings or Heroes", $x - 20, $y - 15, 450, 180)
+	Local $x = 30, $y = 200
+	$grpUpgrade = GUICtrlCreateGroup("Buildings or Heroes", $x - 20, $y - 15, 450, 200)
 		$picUpgradeStatus[0]= GUICtrlCreateIcon($pIconLib, $eIcnRedLight, $x - 15, $y + 1, 16, 16)
 			$txtTip = "Status: Red=not programmed, Yellow=programmed, not completed, Green=Completed"
 			GUICtrlSetTip(-1, $txtTip)
@@ -150,6 +150,18 @@ Local $x = 30, $y = 150
 			GUICtrlSetTip(-1, $txtTip)
 		$txtUpgradeValue[5] = GUICtrlCreateInput("", $x+248, $y-1, 65, 18, BitOR($ES_CENTER, $GUI_SS_DEFAULT_INPUT, $ES_READONLY, $ES_NUMBER))
 
+		 $y+=22
+		 GUICtrlCreateIcon($pIconLib, $eIcnKing, $x + 15, $y, 18, 18)
+		$chkUpgradeKing = GUICtrlCreateCheckbox("Upgrade King", $x + 40, $y , -1, -1)
+			$txtTip = "Check box to enable continuously upgrade King when you have enough DE"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetOnEvent(-1, "ichkUpgradeKing")
+		 GUICtrlCreateIcon($pIconLib, $eIcnQueen, $x + 180, $y, 18, 18)
+		$chkUpgradeQueen = GUICtrlCreateCheckbox("Upgrade Queen", $x + 205, $y , -1, -1)
+			$txtTip = "Check box to enable continuously upgrade Queen when you have enough DE"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetOnEvent(-1, "ichkUpgradeQueen")
+
 		$y+=27
 		GUICtrlCreateIcon ($pIconLib, $eIcnGold, $x - 15, $y, 16, 16)
 		$UpgrMinGold = GUICtrlCreateLabel("Min. Gold:", $x + 5, $y + 3, -1, -1)
@@ -162,7 +174,7 @@ Local $x = 30, $y = 150
 			GUICtrlSetTip(-1, "Save this much Elixir after the upgrade completes" & @CRLF & "Set this value as needed to save for making troops or wall upgrades.")
 			GUICtrlSetLimit(-1, 7)
 		GUICtrlCreateIcon ($pIconLib, $eIcnDark, $x + 285, $y, 16, 16)
-		$UpgrMinDark = GUICtrlCreateLabel("Min. Dark:", $x + 305, $y + 3, -1, -1)
+		$UpgrMinDark = GUICtrlCreateLabel("Min. Dark:", $x + 305, $y, -1, -1)
 		$txtUpgrMinDark= GUICtrlCreateInput("3000", $x + 360, $y - 2, 61, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
 			GUICtrlSetTip(-1, "Save this amount of Dark Elixir after the upgrade completes." & @CRLF & "Set this value higher if you want make war troops.")
 			GUICtrlSetLimit(-1, 6)

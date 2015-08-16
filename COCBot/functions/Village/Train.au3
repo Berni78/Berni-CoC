@@ -700,29 +700,44 @@ Func Train()
 			Return
 		EndIf
 	EndIf
-	If $iChkLightSpell = 1 Then
+
+	If $ichkSmartLightSpell = 1 Or $iChkDEUseSpell = 1 Or $optSpellNone = 1 Then
 		$iBarrHere = 0
 		While Not (isSpellFactory())
 			If Not (IsTrainPage()) Then Return
-			If IsArray($PrevPos) Then _TrainMoveBtn(-1) ;click prev button
+;			If IsArray($PrevPos) Then _TrainMoveBtn(-1) ;click prev button
+			_TrainMoveBtn(-1) ;click prev button
 			$iBarrHere += 1
 			If _Sleep($iDelayTrain3) Then ExitLoop
 			If $iBarrHere = 7 Then ExitLoop
 		WEnd
 		If isSpellFactory() Then
 			Local $x = 0
+			local $Spellslot = -1
+
+			;Assign spellslot for spellwithTHSnipe
+			If $optSpellNone = 1 Then
+			   $Spellslot = $optSpellType
+			EndIf
+			If $ichkSmartLightSpell = 1 Then
+				$Spellslot = 0
+			 EndIf
+			If $iChkDEUseSpell = 1 Then
+				$Spellslot = $iChkDEUseSpellType + 1
+			EndIf
+			If $Spellslot <> -1 Then
 			While 1
 				_CaptureRegion()
 				If _sleep($iDelayTrain2) Then Return
-				If _ColorCheck(_GetPixelColor(237, 354, True), Hex(0xFFFFFF, 6), 20) = False Then
-					setlog("Not enough Elixir to create Spell", $COLOR_RED)
-					ExitLoop
-				ElseIf _ColorCheck(_GetPixelColor(200, 346, True), Hex(0x1A1A1A, 6), 20) Then
+;                If _ColorCheck(_GetPixelColor(237, 354, True), Hex(0xFFFFFF, 6), 20) = False Then
+;					setlog("Not enough Elixir to create Spell", $COLOR_RED)
+;					ExitLoop
+					If _ColorCheck(_GetPixelColor(200, 346, True), Hex(0x414141, 6), 20) Then
 					setlog("Spell Factory Full", $COLOR_RED)
-					ExitLoop
-				Else
-					GemClick(252, 354, 1, $iDelayTrain6, "#0290")
-					$x = $x + 1
+						ExitLoop
+				    Else
+					        GemClick(252 + ($Spellslot * 105), 354, 1, $iDelayTrain6, "#0290")
+					    $x = $x + 1
 				EndIf
 				If $x = 5 Then
 					ExitLoop
@@ -730,12 +745,12 @@ Func Train()
 			WEnd
 			If $x = 0 Then
 			Else
-				SetLog("Created " & $x & " Lightning Spell(s)", $COLOR_BLUE)
+						SetLog("Created " & $x & " Spell(s)", $COLOR_BLUE)
+				EndIf
 			EndIf
 		Else
 			SetLog("Spell Factory not found...", $COLOR_BLUE)
 		EndIf
-	Else
 	EndIf ; End Spell Factory
 	If _Sleep($iDelayTrain4) Then Return
 	ClickP($aAway, 2, $iDelayTrain5, "#0291"); Click away twice with 250ms delay
@@ -743,8 +758,6 @@ Func Train()
 	If _GUICtrlComboBox_GetCurSel($cmbTroopComp) <> 1 Then
 	EndIf
 EndFunc   ;==>Train
-
-
 
 Func IsTrainPage()
 	Local $i = 0

@@ -23,7 +23,7 @@ $tabAttack = GUICtrlCreateTabItem("Attack")
 		$lblDBDeploy = GUICtrlCreateLabel("Attack on:", $x, $y + 5, -1, -1)
 		$cmbDBDeploy = GUICtrlCreateCombo("", $x + 55, $y, 120, 25, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, "Attack on a single side, penetrates through base" & @CRLF & "Attack on two sides, penetrates through base" & @CRLF & "Attack on three sides, gets outer and some inside of base" & @CRLF & "Attack on all sides equally, gets most of outer base", "Select the No. of sides to attack on.")
-			GUICtrlSetData(-1, "one side|two sides|three sides|all sides equally", "all sides equally")
+			GUICtrlSetData(-1, "one side|two sides|three sides|all sides equally | FF Barch", "all sides equally")
 		$y += 25
 		$lblDBSelectTroop=GUICtrlCreateLabel("Troops:",$x, $y + 5, -1 , -1)
 		$cmbDBSelectTroop=GUICtrlCreateCombo("", $x + 55, $y, 120, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
@@ -34,12 +34,12 @@ $tabAttack = GUICtrlCreateTabItem("Attack")
 			GUICtrlSetTip(-1, $txtTip)
 		$cmbDBUnitDelay = GUICtrlCreateCombo("", $x + 55, $y, 36, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetData(-1, "1|2|3|4|5|6|7|8|9|10", "5")
+			GUICtrlSetData(-1, "0|1|2|3|4|5|6|7|8|9|10", "5")
 		$lblDBWaveDelay = GUICtrlCreateLabel("Wave:", $x + 105, $y + 5, -1, -1)
 			GUICtrlSetTip(-1, $txtTip)
 		$cmbDBWaveDelay = GUICtrlCreateCombo("", $x + 140, $y, 36, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetData(-1, "1|2|3|4|5|6|7|8|9|10", "5")
+			GUICtrlSetData(-1, "0|1|2|3|4|5|6|7|8|9|10", "5")
 		$y += 22
 		$chkDBRandomSpeedAtk = GUICtrlCreateCheckbox("Randomize delay for Units && Waves", $x, $y, -1, -1)
 			GUICtrlSetTip(-1, $txtTip)
@@ -98,7 +98,8 @@ $tabAttack = GUICtrlCreateTabItem("Attack")
 		$lblABDeploy = GUICtrlCreateLabel("Attack on:", $x, $y + 5, -1, -1)
 		$cmbABDeploy = GUICtrlCreateCombo("", $x + 55, $y, 120, 25, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, "Attack on a single side, penetrates through base" & @CRLF & "Attack on two sides, penetrates through base" & @CRLF & "Attack on three sides, gets outer and some inside of base" & @CRLF & "Attack on all sides equally, gets most of outer base", "Select the No. of sides to attack on.")
-			GUICtrlSetData(-1, "one side|two sides|three sides|all sides equally", "all sides equally")
+			GUICtrlSetData(-1, "one side|two sides|three sides|all sides equally | FF Barch |DE Side Attack", "all sides equally")
+			GUICtrlSetOnEvent(-1, "chkABSmartAttackRedArea")
 		$y += 25
 		$lblABSelectTroop=GUICtrlCreateLabel("Troops:",$x, $y + 5, -1 , -1)
 		$cmbABSelectTroop=GUICtrlCreateCombo("", $x + 55, $y, 120, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
@@ -109,17 +110,17 @@ $tabAttack = GUICtrlCreateTabItem("Attack")
 			GUICtrlSetTip(-1, $txtTip)
 		$cmbABUnitDelay = GUICtrlCreateCombo("", $x + 55, $y, 36, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetData(-1, "1|2|3|4|5|6|7|8|9|10", "5")
+			GUICtrlSetData(-1, "0|1|2|3|4|5|6|7|8|9|10", "5")
 		$lblABWaveDelay = GUICtrlCreateLabel("Wave:", $x + 105, $y + 5, -1, -1)
 			GUICtrlSetTip(-1, $txtTip)
 		$cmbABWaveDelay = GUICtrlCreateCombo("", $x + 140, $y, 36, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetData(-1, "1|2|3|4|5|6|7|8|9|10", "5")
+			GUICtrlSetData(-1, "0|1|2|3|4|5|6|7|8|9|10", "5")
 		$y += 22
 		$chkABRandomSpeedAtk = GUICtrlCreateCheckbox("Randomize delay for Units && Waves", $x, $y, -1, -1)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetOnEvent(-1, "chkABRandomSpeedAtk")
-	$y = 250
+	$y = 240
 		$chkABSmartAttackRedArea = GUICtrlCreateCheckbox("Use Smart Attack: Near Red Line.", $x, $y, -1, -1)
 			$txtTip = "Use Smart Attack to detect the outer 'Red Line' of the village to attack. And drop your troops close to it."
 			GUICtrlSetTip(-1, $txtTip)
@@ -152,6 +153,12 @@ $tabAttack = GUICtrlCreateTabItem("Attack")
  			GUICtrlSetTip(-1, $txtTip)
 		$picABAttackNearDarkElixirDrill = GUICtrlCreateIcon($pIconLib, $eIcnDrill, $x + 20 , $y - 3, 24, 24)
  			GUICtrlSetTip(-1, $txtTip)
+		$y += 22
+		$chkABDEUseSpell = GUICtrlCreateCheckbox("DE attack Spell:",$x - 130, $y, -1 , -1)
+			$txtTip = "Drop spell while doing DE attack (only work with DE side attack ATM)"
+ 			GUICtrlSetTip(-1, $txtTip)
+		$cmbABDEUseSpellType = GUICtrlCreateCombo("", $x - 30, $y, 95, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+			GUICtrlSetData(-1, "Healing|Rage", "Healing")
 	$x -= 70
 	$y = 335
 		GUICtrlCreateIcon($pIconLib, $eIcnKing, $x, $y, 24, 24)
@@ -169,8 +176,8 @@ $tabAttack = GUICtrlCreateTabItem("Attack")
 			GUICtrlSetTip(-1, "Drop your Clan Castle in battle if it contains troops.")
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 
-	Local $x = 200, $y = 345
-	$grpClanCastleBal = GUICtrlCreateGroup("ClanCastle Balance", $x - 20, $y - 20, 110, 100)
+	Local $x = 200, $y = 350
+	$grpClanCastleBal = GUICtrlCreateGroup("ClanCastle Balance", $x - 20, $y - 20, 110, 95)
 		GUICtrlCreateLabel("", $x - 18, $y - 7, 106, 85) ; fake label to hide group border from DB and LB setting groups
 		GUICtrlSetBkColor (-1, $COLOR_WHITE)
 		GUICtrlSetState (-1, $GUI_DISABLE)

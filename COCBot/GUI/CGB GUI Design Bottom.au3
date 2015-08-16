@@ -74,8 +74,8 @@ $grpButtons = GUICtrlCreateGroup("https://gamebot.org - freeware bot -", $x - 5,
 		GUICtrlSetState(-1, $GUI_HIDE)
 GUICtrlCreateGroup("", -99, -99, 1, 1)
 
-$pic2arrow = GUICtrlCreatePic(@ScriptDir & "\Icons\2arrow.jpg", $x + 187, $y + 10, 50, 45)
-$lblVersion = GUICtrlCreateLabel($sBotVersion, 205, $y + 60, 60, 17, $SS_CENTER)
+$pic2arrow = GUICtrlCreatePic(@ScriptDir & "\Icons\2arrow.jpg", $x + 187, $y - 10, 50, 45)
+$lblVersion = GUICtrlCreateLabel($sBotVersion, 205, $y + 40, 60, 30, $SS_CENTER)
 	GUICtrlSetColor(-1, $COLOR_MEDGRAY)
 
 ;~ Village

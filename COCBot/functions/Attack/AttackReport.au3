@@ -56,10 +56,10 @@ Func AttackReport()
 
 		If $FirstAttack = 1 Then GUICtrlSetState($lblLastAttackTemp, $GUI_HIDE)
 
-		GUICtrlSetData($lblGoldLastAttack, _NumberFormat($lootGold))
-		GUICtrlSetData($lblElixirLastAttack, _NumberFormat($lootElixir))
-		GUICtrlSetData($lblDarkLastAttack, _NumberFormat($lootDarkElixir))
-		GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($lootTrophies))
+;		GUICtrlSetData($lblGoldLastAttack, _NumberFormat($lootGold))
+;		GUICtrlSetData($lblElixirLastAttack, _NumberFormat($lootElixir))
+;		GUICtrlSetData($lblDarkLastAttack, _NumberFormat($lootDarkElixir))
+;		GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($lootTrophies))
 	Else
 		$lootGold = getResourcesLoot(333, 289)
 		If _Sleep($iDelayAttackReport2) Then Return
@@ -67,17 +67,17 @@ Func AttackReport()
 		If _Sleep($iDelayAttackReport2) Then Return
 		$lootTrophies = getResourcesLootT(403, 365)
 		If _ColorCheck(_GetPixelColor($aAtkRprtTrophyCheck[0], $aAtkRprtTrophyCheck[1], True), Hex($aAtkRprtTrophyCheck[2], 6), $aAtkRprtTrophyCheck[3]) Then
-			$lootTrophies = -$lootTrophies
+;			$lootTrophies = -$lootTrophies
 		EndIf
 		$lootDarkElixir = 0
 		SetLog("Loot: [G]: " & _NumberFormat($lootGold) & " [E]: " & _NumberFormat($lootElixir) & " [DE]: " & _NumberFormat($lootDarkElixir) & " [T]: " & $lootTrophies, $COLOR_GREEN)
 
 		If $FirstAttack = 1 Then GUICtrlSetState($lblLastAttackTemp, $GUI_HIDE)
 
-		GUICtrlSetData($lblGoldLastAttack, _NumberFormat($lootGold))
-		GUICtrlSetData($lblElixirLastAttack, _NumberFormat($lootElixir))
-		GUICtrlSetData($lblDarkLastAttack, "")
-		GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($lootTrophies))
+;		GUICtrlSetData($lblGoldLastAttack, _NumberFormat($lootGold))
+;		GUICtrlSetData($lblElixirLastAttack, _NumberFormat($lootElixir))
+;		GUICtrlSetData($lblDarkLastAttack, "")
+;		GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($lootTrophies))
 	EndIf
 
 	If $lootTrophies >= 0 Then
@@ -124,13 +124,21 @@ Func AttackReport()
 	If _ColorCheck(_GetPixelColor($aWonThreeStarAtkRprt[0], $aWonThreeStarAtkRprt[1], True), Hex($aWonThreeStarAtkRprt[2], 6), $aWonThreeStarAtkRprt[3]) Then $starsearned += 1
 	SetLog("Stars earned: " & $starsearned)
 
+	Local $HeroFilterUsed
+	If $LBHeroFilter = 1 Then
+		$HeroFilterUsed = " Y"
+	Else
+		$HeroFilterUsed = " N"
+	EndIf
+
 	Local $AtkLogTxt
 	$AtkLogTxt = "" & _NowTime(4) & "|"
-	$AtkLogTxt &= StringFormat("%5d", $TrophyCount) & "|"
+	$AtkLogTxt &= StringFormat("%4d", $TrophyCount) & "|"
 	$AtkLogTxt &= StringFormat("%6d", $SearchCount) & "|"
+	$AtkLogTxt &= $HeroFilterUsed & "|"
 	$AtkLogTxt &= StringFormat("%7d", $lootGold) & "|"
 	$AtkLogTxt &= StringFormat("%7d", $lootElixir) & "|"
-	$AtkLogTxt &= StringFormat("%7d", $lootDarkElixir) & "|"
+	$AtkLogTxt &= StringFormat("%4d", $lootDarkElixir) & "|"
 	$AtkLogTxt &= StringFormat("%3d", $lootTrophies) & "|"
 	$AtkLogTxt &= StringFormat("%1d", $starsearned) & "|"
 	$AtkLogTxt &= StringFormat("%6d", $BonusLeagueG) & "|"
@@ -138,6 +146,37 @@ Func AttackReport()
 	$AtkLogTxt &= StringFormat("%4d", $BonusLeagueD) & "|"
 	$AtkLogTxt &= $LeagueShort & "|"
 	SetAtkLog($AtkLogTxt)
+
+	; ==================== Begin CGBStats Mod ====================
+   SetLog("Sending attack report to CGBStats.cf...", $COLOR_BLUE)
+   $MyApiKey = "10816b059c9741b7ae7a756523a18153" ; <---- insert api key here
+   $sPD = 'apikey=' & $MyApiKey & '&ctrophy=' & $TrophyCount & '&cgold=' & $GoldCount & '&celix=' & $ElixirCount & '&cdelix=' & $DarkCount & '&search=' & $SearchCount & '&gold=' & $lootGold & '&elix=' & $lootElixir & '&delix=' & $lootDarkElixir & '&trophy=' & $lootTrophies & '&bgold=' & $BonusLeagueG & '&belix=' & $BonusLeagueE & '&bdelix=' & $BonusLeagueD & '&stars=' & $starsearned & '&thlevel=' & $iTownHallLevel & '&log='
+
+   $tempLogText = _GuiCtrlRichEdit_GetText($txtLog, True)
+   For $i = 1 To StringLen($tempLogText)
+	  $acode = Asc(StringMid($tempLogText, $i, 1))
+	  Select
+		 Case ($acode >= 48 And $acode <= 57) Or _
+			   ($acode >= 65 And $acode <= 90) Or _
+			   ($acode >= 97 And $acode <= 122)
+			$sPD = $sPD & StringMid($tempLogText, $i, 1)
+		 Case $acode = 32
+			$sPD = $sPD & "+"
+		 Case Else
+			$sPD = $sPD & "%" & Hex($acode, 2)
+	  EndSelect
+   Next
+
+   $oHTTP = ObjCreate("winhttp.winhttprequest.5.1")
+   $oHTTP.Open("POST", "https://cgbstats.cf/api/log.php", False)
+   $oHTTP.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+
+   $oHTTP.Send($sPD)
+
+   $oReceived = $oHTTP.ResponseText
+   $oStatusCode = $oHTTP.Status
+   SetLog("Report sent. " & $oStatusCode & " " & $oReceived, $COLOR_BLUE)
+   ; ===================== End CGBStats Mod =====================
 
 	; Share Replay
 	If $iShareAttack = 1 Then

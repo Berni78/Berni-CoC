@@ -41,7 +41,11 @@ Func CompareResources($pMode) ;Compares resources and returns true if conditions
 	Switch $THLoc
 		Case "In"
 			$THLO = 0
+		Case "Bottom Rejected"
+			$THLO = 0
 		Case "Out"
+			$THLO = 1
+		Case "Bottom"
 			$THLO = 1
 	EndSwitch
 

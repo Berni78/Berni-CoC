@@ -124,10 +124,12 @@ Func btnResetUpgrade()
 		GUICtrlSetImage($picUpgradeType[$i], $pIconLib, $eIcnBlank) ; change GUI upgrade image to blank
 		$ipicUpgradeStatus[$i] =  $eIcnRedLight
 		GUICtrlSetImage($picUpgradeStatus[$i], $pIconLib, $ipicUpgradeStatus[$i]) ; Change GUI upgrade status to not ready
+	    GUICtrlSetState($chkUpgradeKing, $GUI_UNCHECKED) ; Change upgrade selection box to unchecked
+	    GUICtrlSetState($chkUpgradeQueen, $GUI_UNCHECKED) ; Change upgrade selection box to unchecked
 		GUICtrlSetState($chkbxUpgrade[$i], $GUI_UNCHECKED) ; Change upgrade selection box to unchecked
 		For $j = 0 To 2
 			$aUpgrades[$i][$j] = -1 ; clear location and loot value in $aUpgrades variable
-		Next
+	    Next
 	Next
 EndFunc   ;==>btnResetUpgrade
 
@@ -153,3 +155,20 @@ Func cmbLab()
 	$icmbLaboratory = _GUICtrlComboBox_GetCurSel($cmbLaboratory)
 	GUICtrlSetImage($icnLabUpgrade, $pIconLib, $aLabTroops[$icmbLaboratory][4])
 EndFunc   ;==>cmbLab
+
+
+Func ichkUpgradeKing()
+	If GUICtrlRead($chkUpgradeKing) = $GUI_CHECKED Then
+		$ichkUpgradeKing = 1
+	Else
+		$ichkUpgradeKing = 0
+	EndIf
+EndFunc 
+
+Func ichkUpgradeQueen()
+	If GUICtrlRead($chkUpgradeQueen) = $GUI_CHECKED Then
+		$ichkUpgradeQueen = 1
+	Else
+		$ichkUpgradeQueen = 0
+	EndIf
+EndFunc 

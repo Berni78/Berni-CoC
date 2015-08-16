@@ -1,0 +1,36 @@
+2015-08-10 11:29:23 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-10 11:29:23 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-10 11:29:23 : =================== Bot Start ====================
+2015-08-10 11:29:23 : -------------------------  Current Profile: 03 --------------------------
+2015-08-10 11:29:23 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-10 11:29:23 : Trying to locate Main Screen
+2015-08-10 11:29:30 : CheckObstacles Result = True
+2015-08-10 11:29:30 : Waiting for Main Screen
+2015-08-10 11:29:30 : ChkObst Loop = 0ExitLoop = 0
+2015-08-10 11:29:30 : Screen cleared, WaitMainScreen exit
+2015-08-10 11:29:32 : Zooming Out
+2015-08-10 11:29:32 : Index = 0
+2015-08-10 11:29:32 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:32 : Index = 2
+2015-08-10 11:29:32 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:32 : Index = 4
+2015-08-10 11:29:32 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:32 : Index = 6
+2015-08-10 11:29:33 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:33 : Index = 8
+2015-08-10 11:29:33 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:33 : Index = 10
+2015-08-10 11:29:33 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:33 : Index = 12
+2015-08-10 11:29:34 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-10 11:29:34 : Main Screen Located
+2015-08-10 11:29:35 : Detecting your Buildings..
+2015-08-10 11:29:43 : Language setting is English: Correct.
+2015-08-10 11:29:43 : Bot clean start
+2015-08-10 11:29:44 : Trying to locate Main Screen
+2015-08-10 11:29:44 : Main Screen Located
+2015-08-10 11:29:45 : checkMainScreen start quiet mode
+2015-08-10 11:29:45 : checkMainScreen exit quiet mode
+2015-08-10 11:29:45 : Collecting Resources
+2015-08-10 11:29:50 : checkMainScreen start quiet mode
+2015-08-10 11:29:50 : checkMainScreen exit quiet mode

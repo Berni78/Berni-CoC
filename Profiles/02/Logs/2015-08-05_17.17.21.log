@@ -1,0 +1,33 @@
+2015-08-05 17:17:21 : Starting BlueStacks
+2015-08-05 17:17:31 : BlueStacks Loaded, took 9.94 seconds to begin.
+2015-08-05 17:17:32 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-05 17:17:32 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-05 17:17:32 : =================== Bot Start ====================
+2015-08-05 17:17:32 : -------------------------  Current Profile: 02 --------------------------
+2015-08-05 17:17:32 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-05 17:17:33 : Trying to locate Main Screen
+2015-08-05 17:17:36 : CheckObstacles Result = False
+2015-08-05 17:17:38 : Waiting for Main Screen
+2015-08-05 17:17:38 : ChkObst Loop = 0ExitLoop = 0
+2015-08-05 17:17:46 : ChkObst Loop = 1ExitLoop = 1
+2015-08-05 17:17:50 : ChkObst Loop = 2ExitLoop = 2
+2015-08-05 17:17:53 : ChkObst Loop = 3ExitLoop = 3
+2015-08-05 17:17:53 : Screen cleared, WaitMainScreen exit
+2015-08-05 17:17:54 : Zooming Out
+2015-08-05 17:17:54 : Index = 0
+2015-08-05 17:17:55 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:55 : Index = 2
+2015-08-05 17:17:55 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:55 : Index = 4
+2015-08-05 17:17:55 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:55 : Index = 6
+2015-08-05 17:17:55 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:56 : Index = 8
+2015-08-05 17:17:56 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:56 : Index = 10
+2015-08-05 17:17:56 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:56 : Index = 12
+2015-08-05 17:17:56 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-05 17:17:56 : Main Screen Located
+2015-08-05 17:17:57 : Detecting your Buildings..
+2015-08-05 17:18:05 : Language setting is Wrong: Change CoC language to English!

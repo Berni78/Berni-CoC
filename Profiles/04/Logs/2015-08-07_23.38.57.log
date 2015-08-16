@@ -1,0 +1,56 @@
+2015-08-07 23:38:58 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 23:38:58 : GameBot.org.au3 Script running on WIN_7  X64
+2015-08-07 23:38:58 : =================== Bot Start ====================
+2015-08-07 23:38:58 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 23:38:58 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 23:38:58 : Trying to locate Main Screen
+2015-08-07 23:39:00 : CheckObstacles Result = True
+2015-08-07 23:39:00 : Waiting for Main Screen
+2015-08-07 23:39:00 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 23:39:02 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 23:39:02 : Screen cleared, WaitMainScreen exit
+2015-08-07 23:39:02 : Main Screen Located
+2015-08-07 23:39:03 : Detecting your Buildings..
+2015-08-07 23:39:11 : Language setting is English: Correct.
+2015-08-07 23:39:11 : Bot clean start
+2015-08-07 23:39:12 : Trying to locate Main Screen
+2015-08-07 23:39:12 : Main Screen Located
+2015-08-07 23:39:13 : Halt Attack, Stay Online/Collect...
+2015-08-07 23:39:14 : checkMainScreen start quiet mode
+2015-08-07 23:39:14 : checkMainScreen exit quiet mode
+2015-08-07 23:39:15 : Collecting Resources
+2015-08-07 23:39:20 : checkMainScreen start quiet mode
+2015-08-07 23:39:20 : checkMainScreen exit quiet mode
+2015-08-07 23:39:21 : Checking if Village needs Rearming..
+2015-08-07 23:39:27 : checkMainScreen start quiet mode
+2015-08-07 23:39:27 : checkMainScreen exit quiet mode
+2015-08-07 23:39:28 : checkMainScreen start quiet mode
+2015-08-07 23:39:28 : checkMainScreen exit quiet mode
+2015-08-07 23:39:29 : Village Report
+2015-08-07 23:39:29 : No. of Free/Total Builders: 0/4
+2015-08-07 23:39:29 :  [T]: 2 546
+2015-08-07 23:39:29 :  [G]: 1 721 309 [E]: 5 181 182 [D]: 18 326 [GEM]: 1 981
+2015-08-07 23:39:30 : checkMainScreen start quiet mode
+2015-08-07 23:39:30 : checkMainScreen exit quiet mode
+2015-08-07 23:39:30 : checkMainScreen start quiet mode
+2015-08-07 23:39:30 : checkMainScreen exit quiet mode
+2015-08-07 23:39:31 : checkMainScreen start quiet mode
+2015-08-07 23:39:31 : checkMainScreen exit quiet mode
+2015-08-07 23:39:33 : checkMainScreen start quiet mode
+2015-08-07 23:39:33 : checkMainScreen exit quiet mode
+2015-08-07 23:39:34 : checkMainScreen start quiet mode
+2015-08-07 23:39:34 : checkMainScreen exit quiet mode
+2015-08-07 23:39:35 : checkMainScreen start quiet mode
+2015-08-07 23:39:35 : checkMainScreen exit quiet mode
+2015-08-07 23:39:35 : checkMainScreen start quiet mode
+2015-08-07 23:39:35 : checkMainScreen exit quiet mode
+2015-08-07 23:39:36 : checkMainScreen start quiet mode
+2015-08-07 23:39:36 : checkMainScreen exit quiet mode
+2015-08-07 23:39:38 : Finished kicking
+2015-08-07 23:39:38 : Func Idle 
+2015-08-07 23:39:49 : checkMainScreen start quiet mode
+2015-08-07 23:39:49 : checkMainScreen exit quiet mode
+2015-08-07 23:39:50 : Checking Overview for full army [!] True, 407508
+2015-08-07 23:39:50 : Screenshot saved: .\Profiles\04\Temp\2015-08-07_23.39.50.jpg
+2015-08-07 23:39:50 : Checking Overview for full CC [!] False, FEFEFD
+2015-08-07 23:42:28 : Checking Overview for full Heroes [!] True, 98C538

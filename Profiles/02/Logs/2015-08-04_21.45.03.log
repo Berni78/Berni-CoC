@@ -1,0 +1,55 @@
+2015-08-04 21:45:04 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-04 21:45:04 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-04 21:45:04 : =================== Bot Start ====================
+2015-08-04 21:45:04 : -------------------------  Current Profile: 02 --------------------------
+2015-08-04 21:45:04 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-04 21:45:04 : Trying to locate Main Screen
+2015-08-04 21:45:04 : Main Screen Located
+2015-08-04 21:45:04 : Language setting is English: Correct.
+2015-08-04 21:45:05 : Trying to locate Main Screen
+2015-08-04 21:45:06 : Main Screen Located
+2015-08-04 21:45:06 : Restarted after Out of Sync Error: Attack Now
+2015-08-04 21:45:06 : checkMainScreen start quiet mode
+2015-08-04 21:45:06 : checkMainScreen exit quiet mode
+2015-08-04 21:45:06 : Going to Attack...
+2015-08-04 21:45:11 : Take-A-Break OCR result = 
+2015-08-04 21:45:11 : Shield btn clr chk-#1: 897673, #2: EF5D5F, #3: C634A6, #4: 602249
+2015-08-04 21:45:12 : ============== Searching For Dead Base ===============
+2015-08-04 21:45:12 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-04 21:45:12 : Meet: Gold and Elixir, TH Outside
+2015-08-04 21:45:12 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-04 21:45:12 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Dead Base
+2015-08-04 21:45:12 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-04 21:45:12 : THSnipe Combo, 1 Tile(s), 
+2015-08-04 21:45:12 : ==================================================
+2015-08-04 21:45:13 : Loop to clean screen without Clouds , nº :1
+2015-08-04 21:45:14 :  16> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:16 :  17> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:19 :  18> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:21 :  19> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:23 :  20> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:25 : Trying to locate Main Screen
+2015-08-04 21:45:25 : Main Screen Located
+2015-08-04 21:45:25 : Have strange problem can not determine, Restarting Bot...
+2015-08-04 21:45:26 : Trying to locate Main Screen
+2015-08-04 21:45:26 : Main Screen Located
+2015-08-04 21:45:26 : Restarted after Out of Sync Error: Attack Now
+2015-08-04 21:45:27 : checkMainScreen start quiet mode
+2015-08-04 21:45:27 : checkMainScreen exit quiet mode
+2015-08-04 21:45:27 : Going to Attack...
+2015-08-04 21:45:31 : Take-A-Break OCR result = 
+2015-08-04 21:45:31 : Shield btn clr chk-#1: A09383, #2: 525352, #3: 816B53, #4: 87B131
+2015-08-04 21:45:33 : ============== Searching For Dead Base ===============
+2015-08-04 21:45:33 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-04 21:45:33 : Meet: Gold and Elixir, TH Outside
+2015-08-04 21:45:33 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-04 21:45:33 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out, Out for: Dead Base
+2015-08-04 21:45:33 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-04 21:45:33 : THSnipe Combo, 1 Tile(s), 
+2015-08-04 21:45:33 : ==================================================
+2015-08-04 21:45:34 : Loop to clean screen without Clouds , nº :1
+2015-08-04 21:45:34 : Loop to clean screen without Clouds , nº :2
+2015-08-04 21:45:35 : Loop to clean screen without Clouds , nº :3
+2015-08-04 21:45:36 :  21> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:38 :  22> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In
+2015-08-04 21:45:40 :  23> [G]:        [E]:        [D]:  N/A [T]:   [TH]: 8, In

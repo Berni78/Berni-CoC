@@ -1,0 +1,99 @@
+2015-08-04 18:29:11 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-04 18:29:11 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-04 18:29:11 : =================== Bot Start ====================
+2015-08-04 18:29:11 : -------------------------  Current Profile: 01 --------------------------
+2015-08-04 18:29:11 : Trying to locate Main Screen
+2015-08-04 18:29:13 : Zooming Out
+2015-08-04 18:29:15 : Main Screen Located
+2015-08-04 18:29:16 : Detecting your Buildings..
+2015-08-04 18:29:22 : Language setting is English: Correct.
+2015-08-04 18:29:23 : Trying to locate Main Screen
+2015-08-04 18:29:23 : Main Screen Located
+2015-08-04 18:29:25 : Collecting Resources
+2015-08-04 18:29:33 : Checking if Village needs Rearming..
+2015-08-04 18:29:40 : Village Report
+2015-08-04 18:29:40 : No. of Free/Total Builders: 0/4
+2015-08-04 18:29:40 :  [T]: 1 972
+2015-08-04 18:29:40 :  [G]: 5 816 602 [E]: 5 975 317 [D]: 68 624 [GEM]: 953
+2015-08-04 18:29:43 : Checking Army Camp...
+2015-08-04 18:29:45 : Total Army Camp capacity: 130/200
+2015-08-04 18:29:46 :  - No. of Barbarians: 22
+2015-08-04 18:29:46 :  - No. of Archers: 108
+2015-08-04 18:29:46 : Barracks and Spell factory status: 
+2015-08-04 18:29:46 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-04 18:29:46 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2015-08-04 18:29:46 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-04 18:29:46 : - Dark Spell factory detected: 1 | Available: 0 | Upgrading: 1
+2015-08-04 18:29:46 : Training Troops...
+2015-08-04 18:30:09 : Requesting Clan Castle Troops
+2015-08-04 18:30:10 : Your Clan Castle is already full or you are not in a clan.
+2015-08-04 18:30:11 : Checking Troop Upgrade in Laboratory ...
+2015-08-04 18:30:11 : Updating village values [E]: 5952667 [D]: 68624
+2015-08-04 18:30:13 : Insufficent Elixir for Pekka, Lab requires: 6000000 + 250000 user reserve
+2015-08-04 18:30:16 : Finished kicking
+2015-08-04 18:30:17 : ====== Waiting for full army ======
+2015-08-04 18:30:29 : Checking Army Camp...
+2015-08-04 18:30:31 : Total Army Camp capacity: 134/200
+2015-08-04 18:30:31 :  - No. of Barbarians: 23
+2015-08-04 18:30:32 :  - No. of Archers: 111
+2015-08-04 18:30:32 : Training Troops...
+2015-08-04 18:30:40 : Time Idle: 00:00:23
+2015-08-04 18:30:41 : ====== Waiting for full army ======
+2015-08-04 18:30:52 : Checking Army Camp...
+2015-08-04 18:30:54 : Total Army Camp capacity: 137/200
+2015-08-04 18:30:55 :  - No. of Barbarians: 23
+2015-08-04 18:30:55 :  - No. of Archers: 114
+2015-08-04 18:30:56 : Training Troops...
+2015-08-04 18:31:03 : Time Idle: 00:00:46
+2015-08-04 18:31:04 : ====== Waiting for full army ======
+2015-08-04 18:31:15 : Checking Army Camp...
+2015-08-04 18:31:17 : Total Army Camp capacity: 140/200
+2015-08-04 18:31:18 :  - No. of Barbarians: 23
+2015-08-04 18:31:18 :  - No. of Archers: 117
+2015-08-04 18:31:19 : Training Troops...
+2015-08-04 18:31:25 : Time Idle: 00:01:07
+2015-08-04 18:31:26 : ====== Waiting for full army ======
+2015-08-04 18:31:37 : Checking Army Camp...
+2015-08-04 18:31:39 : Total Army Camp capacity: 142/200
+2015-08-04 18:31:40 :  - No. of Barbarians: 23
+2015-08-04 18:31:40 :  - No. of Archers: 119
+2015-08-04 18:31:40 : Training Troops...
+2015-08-04 18:31:47 : Time Idle: 00:01:29
+2015-08-04 18:31:48 : ====== Waiting for full army ======
+2015-08-04 18:32:00 : Checking Army Camp...
+2015-08-04 18:32:01 : Total Army Camp capacity: 145/200
+2015-08-04 18:32:02 :  - No. of Barbarians: 23
+2015-08-04 18:32:03 :  - No. of Archers: 122
+2015-08-04 18:32:03 : Training Troops...
+2015-08-04 18:32:10 : Time Idle: 00:01:51
+2015-08-04 18:32:10 : ====== Waiting for full army ======
+2015-08-04 18:32:22 : Checking Army Camp...
+2015-08-04 18:32:24 : Total Army Camp capacity: 147/200
+2015-08-04 18:32:25 :  - No. of Barbarians: 23
+2015-08-04 18:32:25 :  - No. of Archers: 124
+2015-08-04 18:32:25 : Training Troops...
+2015-08-04 18:32:32 : Time Idle: 00:02:13
+2015-08-04 18:32:32 : ====== Waiting for full army ======
+2015-08-04 18:32:44 : Checking Army Camp...
+2015-08-04 18:32:46 : Total Army Camp capacity: 150/200
+2015-08-04 18:32:47 :  - No. of Barbarians: 23
+2015-08-04 18:32:47 :  - No. of Archers: 127
+2015-08-04 18:32:47 : Training Troops...
+2015-08-04 18:32:54 : Time Idle: 00:02:35
+2015-08-04 18:32:54 : ====== Waiting for full army ======
+2015-08-04 18:33:06 : Checking Army Camp...
+2015-08-04 18:33:08 : Total Army Camp capacity: 152/200
+2015-08-04 18:33:09 :  - No. of Barbarians: 23
+2015-08-04 18:33:09 :  - No. of Archers: 129
+2015-08-04 18:33:09 : Training Troops...
+2015-08-04 18:33:16 : Time Idle: 00:02:56
+2015-08-04 18:33:16 : ====== Waiting for full army ======
+2015-08-04 18:33:28 : Collecting Resources
+2015-08-04 18:33:35 : Checking Army Camp...
+2015-08-04 18:33:37 : Total Army Camp capacity: 156/200
+2015-08-04 18:33:38 :  - No. of Barbarians: 23
+2015-08-04 18:33:38 :  - No. of Archers: 133
+2015-08-04 18:33:38 : Training Troops...
+2015-08-04 18:33:45 : Time Idle: 00:03:25
+2015-08-04 18:33:45 : ====== Waiting for full army ======
+2015-08-04 18:33:51 : ClashGameBot was Paused!

@@ -31,8 +31,8 @@ Func dropCC($x, $y, $slot) ;Drop clan castle
 			If Number($TroopsReceived) <> 0 Then
 				If Number(Number($TroopsDonated) / Number($TroopsReceived)) >= (Number($iCmbCCDonated) / Number($iCmbCCReceived)) Then
 					SetLog("Dropping Clan Castle, donated (" & $TroopsDonated & ") / received (" & $TroopsReceived & ") >= " & $iCmbCCDonated & "/" & $iCmbCCReceived, $COLOR_BLUE)
-					Click(GetXPosOfArmySlot($slot, 68), 595, 1, 500,"#0086")
-					If _Sleep(500) Then Return
+					Click(GetXPosOfArmySlot($slot, 68), 595, 1, $iDelaydropCC2,"#0086")
+					If _Sleep($iDelaydropCC1) Then Return
 					Click($x, $y,1,0,"#0087")
 				Else
 					SetLog("No Dropping Clan Castle, donated  (" & $TroopsDonated & ") / received (" & $TroopsReceived & ") < " & $iCmbCCDonated & "/" & $iCmbCCReceived, $COLOR_BLUE)
@@ -40,8 +40,8 @@ Func dropCC($x, $y, $slot) ;Drop clan castle
 			Else
 				If Number(Number($TroopsDonated) / 1) >= (Number($iCmbCCDonated) / Number($iCmbCCReceived)) Then
 					SetLog("Dropping Clan Castle, donated (" & $TroopsDonated & ") / received (" & $TroopsReceived & ") >= " & $iCmbCCDonated & "/" & $iCmbCCReceived, $COLOR_BLUE)
-					Click(GetXPosOfArmySlot($slot, 68), 595, 1, 500,"#0088")
-					If _Sleep(500) Then Return
+					Click(GetXPosOfArmySlot($slot, 68), 595, 1, $iDelaydropCC2,"#0088")
+					If _Sleep($iDelaydropCC1) Then Return
 					Click($x, $y,1,0,"#0089")
 				Else
 					SetLog("No Dropping Clan Castle, donated  (" & $TroopsDonated & ") / received (" & $TroopsReceived & ") < " & $iCmbCCDonated & "/" & $iCmbCCReceived, $COLOR_BLUE)
@@ -49,8 +49,8 @@ Func dropCC($x, $y, $slot) ;Drop clan castle
 			EndIf
 		Else
 			SetLog("Dropping Clan Castle", $COLOR_BLUE)
-			Click(GetXPosOfArmySlot($slot, 68), 595, 1, 500,"#0090")
-			If _Sleep(500) Then Return
+			Click(GetXPosOfArmySlot($slot, 68), 595, 1, $iDelaydropCC2,"#0090")
+			If _Sleep($iDelaydropCC1) Then Return
 			Click($x, $y,1,0,"#0091")
 		EndIf
 	EndIf

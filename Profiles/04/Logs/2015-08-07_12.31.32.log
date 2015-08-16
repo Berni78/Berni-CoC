@@ -1,0 +1,74 @@
+2015-08-07 12:31:33 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 12:31:33 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-07 12:31:33 : =================== Bot Start ====================
+2015-08-07 12:31:33 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 12:31:33 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 12:31:33 : Trying to locate Main Screen
+2015-08-07 12:31:34 : CheckObstacles Result = False
+2015-08-07 12:31:36 : Waiting for Main Screen
+2015-08-07 12:31:36 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 12:31:39 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 12:31:42 : ChkObst Loop = 2ExitLoop = 2
+2015-08-07 12:31:44 : ChkObst Loop = 3ExitLoop = 3
+2015-08-07 12:31:44 : Screen cleared, WaitMainScreen exit
+2015-08-07 12:31:46 : Zooming Out
+2015-08-07 12:31:46 : Index = 0
+2015-08-07 12:31:46 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:46 : Index = 2
+2015-08-07 12:31:46 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:46 : Index = 4
+2015-08-07 12:31:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:47 : Index = 6
+2015-08-07 12:31:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:47 : Index = 8
+2015-08-07 12:31:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:47 : Index = 10
+2015-08-07 12:31:48 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:48 : Index = 12
+2015-08-07 12:31:48 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:31:48 : Main Screen Located
+2015-08-07 12:31:49 : Detecting your Buildings..
+2015-08-07 12:31:53 : Language setting is English: Correct.
+2015-08-07 12:31:53 : Bot clean start
+2015-08-07 12:31:54 : Trying to locate Main Screen
+2015-08-07 12:31:54 : Main Screen Located
+2015-08-07 12:31:55 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:31:56 : checkMainScreen start quiet mode
+2015-08-07 12:31:56 : checkMainScreen exit quiet mode
+2015-08-07 12:31:56 : Collecting Resources
+2015-08-07 12:32:02 : checkMainScreen start quiet mode
+2015-08-07 12:32:02 : checkMainScreen exit quiet mode
+2015-08-07 12:32:03 : Checking if Village needs Rearming..
+2015-08-07 12:32:09 : checkMainScreen start quiet mode
+2015-08-07 12:32:09 : checkMainScreen exit quiet mode
+2015-08-07 12:32:10 : checkMainScreen start quiet mode
+2015-08-07 12:32:10 : checkMainScreen exit quiet mode
+2015-08-07 12:32:11 : Village Report
+2015-08-07 12:32:11 : No. of Free/Total Builders: 0/4
+2015-08-07 12:32:11 :  [T]: 2 589
+2015-08-07 12:32:11 :  [G]: 2 495 355 [E]: 5 253 776 [D]: 79 123 [GEM]: 1 981
+2015-08-07 12:32:12 : checkMainScreen start quiet mode
+2015-08-07 12:32:12 : checkMainScreen exit quiet mode
+2015-08-07 12:32:13 : checkMainScreen start quiet mode
+2015-08-07 12:32:13 : checkMainScreen exit quiet mode
+2015-08-07 12:32:14 : checkMainScreen start quiet mode
+2015-08-07 12:32:15 : checkMainScreen exit quiet mode
+2015-08-07 12:32:15 : Func Train 
+2015-08-07 12:32:16 : checkMainScreen start quiet mode
+2015-08-07 12:32:16 : checkMainScreen exit quiet mode
+2015-08-07 12:32:17 : checkMainScreen start quiet mode
+2015-08-07 12:32:17 : checkMainScreen exit quiet mode
+2015-08-07 12:32:18 : checkMainScreen start quiet mode
+2015-08-07 12:32:18 : checkMainScreen exit quiet mode
+2015-08-07 12:32:18 :  ====== Unbreakable Mode enabled! ====== 
+2015-08-07 12:32:18 : Trophy Count : 2589
+2015-08-07 12:32:21 : Trophy Count Read = 2589
+2015-08-07 12:32:21 : Going to Attack...
+2015-08-07 12:32:25 : Take-A-Break OCR result = 
+2015-08-07 12:32:26 : Shield btn clr chk-#1: F8FCF8, #2: F8FCF6, #3: F8FCF8, #4: F8FCF8
+2015-08-07 12:32:29 : Returning Home For Defense
+2015-08-07 12:32:33 : Closing Clash Of Clans
+2015-08-07 12:32:34 : Exit btn chk-#1: 000000, #2: 010101, #3: FFFFFF, #4: CBE870
+2015-08-07 12:32:34 : ButtonPixel = 441, 374
+2015-08-07 12:32:34 : Pixel color found #1: 000000, #2: 010101, #3: FFFFFF, #4: FEFEFE
+2015-08-07 12:32:34 : Waiting 10 Minutes for Defense Attacks

@@ -1,0 +1,108 @@
+2015-08-07 22:44:40 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 22:44:40 : GameBot.org.au3 Script running on WIN_7  X64
+2015-08-07 22:44:40 : =================== Bot Start ====================
+2015-08-07 22:44:40 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 22:44:40 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 22:44:40 : Trying to locate Main Screen
+2015-08-07 22:44:42 : CheckObstacles Result = True
+2015-08-07 22:44:42 : Waiting for Main Screen
+2015-08-07 22:44:42 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 22:44:44 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 22:44:44 : Screen cleared, WaitMainScreen exit
+2015-08-07 22:44:45 : Zooming Out
+2015-08-07 22:44:45 : Index = 0
+2015-08-07 22:44:46 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:46 : Index = 2
+2015-08-07 22:44:46 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:46 : Index = 4
+2015-08-07 22:44:46 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:46 : Index = 6
+2015-08-07 22:44:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:47 : Index = 8
+2015-08-07 22:44:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:47 : Index = 10
+2015-08-07 22:44:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:47 : Index = 12
+2015-08-07 22:44:47 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 22:44:47 : Main Screen Located
+2015-08-07 22:44:49 : Detecting your Buildings..
+2015-08-07 22:44:57 : Language setting is English: Correct.
+2015-08-07 22:44:57 : Bot clean start
+2015-08-07 22:44:58 : Trying to locate Main Screen
+2015-08-07 22:44:58 : Main Screen Located
+2015-08-07 22:44:58 : Halt Attack, Stay Online/Collect...
+2015-08-07 22:45:00 : checkMainScreen start quiet mode
+2015-08-07 22:45:00 : checkMainScreen exit quiet mode
+2015-08-07 22:45:00 : Collecting Resources
+2015-08-07 22:45:06 : checkMainScreen start quiet mode
+2015-08-07 22:45:07 : CheckObstacles Result = True
+2015-08-07 22:45:07 : Waiting for Main Screen
+2015-08-07 22:45:07 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 22:45:09 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 22:45:09 : Screen cleared, WaitMainScreen exit
+2015-08-07 22:45:09 : checkMainScreen exit quiet mode
+2015-08-07 22:45:11 : Bot clean start
+2015-08-07 22:45:12 : Trying to locate Main Screen
+2015-08-07 22:45:12 : Main Screen Located
+2015-08-07 22:45:12 : Halt Attack, Stay Online/Collect...
+2015-08-07 22:45:13 : checkMainScreen start quiet mode
+2015-08-07 22:45:14 : checkMainScreen exit quiet mode
+2015-08-07 22:45:14 : Collecting Resources
+2015-08-07 22:45:19 : checkMainScreen start quiet mode
+2015-08-07 22:45:21 : CheckObstacles Result = True
+2015-08-07 22:45:21 : Waiting for Main Screen
+2015-08-07 22:45:21 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 22:45:23 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 22:45:23 : Screen cleared, WaitMainScreen exit
+2015-08-07 22:45:23 : checkMainScreen exit quiet mode
+2015-08-07 22:45:24 : Bot clean start
+2015-08-07 22:45:25 : Trying to locate Main Screen
+2015-08-07 22:45:25 : Main Screen Located
+2015-08-07 22:45:26 : Halt Attack, Stay Online/Collect...
+2015-08-07 22:45:27 : checkMainScreen start quiet mode
+2015-08-07 22:45:27 : checkMainScreen exit quiet mode
+2015-08-07 22:45:28 : Collecting Resources
+2015-08-07 22:45:33 : checkMainScreen start quiet mode
+2015-08-07 22:45:33 : checkMainScreen exit quiet mode
+2015-08-07 22:45:34 : Checking if Village needs Rearming..
+2015-08-07 22:45:40 : checkMainScreen start quiet mode
+2015-08-07 22:45:40 : checkMainScreen exit quiet mode
+2015-08-07 22:45:41 : checkMainScreen start quiet mode
+2015-08-07 22:45:41 : checkMainScreen exit quiet mode
+2015-08-07 22:45:42 : Village Report
+2015-08-07 22:45:42 : No. of Free/Total Builders: 0/4
+2015-08-07 22:45:42 :  [T]: 2 546
+2015-08-07 22:45:42 :  [G]: 1 693 410 [E]: 5 159 592 [D]: 18 178 [GEM]: 1 981
+2015-08-07 22:45:42 : checkMainScreen start quiet mode
+2015-08-07 22:45:42 : checkMainScreen exit quiet mode
+2015-08-07 22:45:43 : checkMainScreen start quiet mode
+2015-08-07 22:45:43 : checkMainScreen exit quiet mode
+2015-08-07 22:45:44 : checkMainScreen start quiet mode
+2015-08-07 22:45:44 : checkMainScreen exit quiet mode
+2015-08-07 22:45:45 : checkMainScreen start quiet mode
+2015-08-07 22:45:45 : checkMainScreen exit quiet mode
+2015-08-07 22:45:46 : checkMainScreen start quiet mode
+2015-08-07 22:45:46 : checkMainScreen exit quiet mode
+2015-08-07 22:45:47 : checkMainScreen start quiet mode
+2015-08-07 22:45:47 : checkMainScreen exit quiet mode
+2015-08-07 22:45:48 : checkMainScreen start quiet mode
+2015-08-07 22:45:48 : checkMainScreen exit quiet mode
+2015-08-07 22:45:48 : checkMainScreen start quiet mode
+2015-08-07 22:45:48 : checkMainScreen exit quiet mode
+2015-08-07 22:45:51 : Finished kicking
+2015-08-07 22:45:51 : Func Idle 
+2015-08-07 22:46:02 : checkMainScreen start quiet mode
+2015-08-07 22:46:02 : checkMainScreen exit quiet mode
+2015-08-07 22:46:02 : Checking Overview for full army [!] True, 407508
+2015-08-07 22:46:03 : Checking Overview for full CC [!] False, 5D9DE8
+2015-08-07 22:46:36 : Checking Overview for full Heroes [!] False, D7D6CC
+2015-08-07 22:47:06 : checkMainScreen start quiet mode
+2015-08-07 22:47:06 : checkMainScreen exit quiet mode
+2015-08-07 22:47:06 : Func Train 
+2015-08-07 22:47:06 : checkMainScreen start quiet mode
+2015-08-07 22:47:06 : checkMainScreen exit quiet mode
+2015-08-07 22:47:07 : Time Idle: 00:01:16
+2015-08-07 22:47:07 : Bot clean start
+2015-08-07 22:47:08 : Trying to locate Main Screen
+2015-08-07 22:47:08 : Main Screen Located
+2015-08-07 22:47:09 : Halt Attack, Stay Online/Collect...

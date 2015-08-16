@@ -1,0 +1,2366 @@
+2015-08-07 14:21:33 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 14:21:33 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-07 14:21:33 : =================== Bot Start ====================
+2015-08-07 14:21:33 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 14:21:33 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 14:21:33 : Trying to locate Main Screen
+2015-08-07 14:21:35 : Zooming Out
+2015-08-07 14:21:35 : Index = 0
+2015-08-07 14:21:35 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:35 : Index = 2
+2015-08-07 14:21:35 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:35 : Index = 4
+2015-08-07 14:21:35 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:35 : Index = 6
+2015-08-07 14:21:36 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:36 : Index = 8
+2015-08-07 14:21:36 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:36 : Index = 10
+2015-08-07 14:21:36 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:36 : Index = 12
+2015-08-07 14:21:37 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 14:21:37 : Main Screen Located
+2015-08-07 14:21:38 : Detecting your Buildings..
+2015-08-07 14:21:44 : Language setting is English: Correct.
+2015-08-07 14:21:44 : Bot clean start
+2015-08-07 14:21:45 : Trying to locate Main Screen
+2015-08-07 14:21:45 : Main Screen Located
+2015-08-07 14:21:46 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:21:47 : checkMainScreen start quiet mode
+2015-08-07 14:21:47 : checkMainScreen exit quiet mode
+2015-08-07 14:21:47 : Collecting Resources
+2015-08-07 14:21:53 : checkMainScreen start quiet mode
+2015-08-07 14:21:53 : checkMainScreen exit quiet mode
+2015-08-07 14:21:54 : Checking if Village needs Rearming..
+2015-08-07 14:22:00 : checkMainScreen start quiet mode
+2015-08-07 14:22:00 : checkMainScreen exit quiet mode
+2015-08-07 14:22:02 : Pushbullet: removed 1 messages older than 2 h 
+2015-08-07 14:22:02 : checkMainScreen start quiet mode
+2015-08-07 14:22:02 : checkMainScreen exit quiet mode
+2015-08-07 14:22:03 : Village Report
+2015-08-07 14:22:03 : No. of Free/Total Builders: 0/4
+2015-08-07 14:22:03 :  [T]: 2 589
+2015-08-07 14:22:03 :  [G]: 2 552 354 [E]: 5 298 272 [D]: 79 327 [GEM]: 1 981
+2015-08-07 14:22:04 : checkMainScreen start quiet mode
+2015-08-07 14:22:04 : checkMainScreen exit quiet mode
+2015-08-07 14:22:04 : checkMainScreen start quiet mode
+2015-08-07 14:22:04 : checkMainScreen exit quiet mode
+2015-08-07 14:22:05 : checkMainScreen start quiet mode
+2015-08-07 14:22:05 : checkMainScreen exit quiet mode
+2015-08-07 14:22:05 : Func Train 
+2015-08-07 14:22:06 : checkMainScreen start quiet mode
+2015-08-07 14:22:06 : checkMainScreen exit quiet mode
+2015-08-07 14:22:07 : checkMainScreen start quiet mode
+2015-08-07 14:22:08 : checkMainScreen exit quiet mode
+2015-08-07 14:22:09 : checkMainScreen start quiet mode
+2015-08-07 14:22:09 : checkMainScreen exit quiet mode
+2015-08-07 14:22:09 : checkMainScreen start quiet mode
+2015-08-07 14:22:09 : checkMainScreen exit quiet mode
+2015-08-07 14:22:10 : checkMainScreen start quiet mode
+2015-08-07 14:22:10 : checkMainScreen exit quiet mode
+2015-08-07 14:22:12 : Finished kicking
+2015-08-07 14:22:12 : Func Idle 
+2015-08-07 14:22:23 : checkMainScreen start quiet mode
+2015-08-07 14:22:23 : checkMainScreen exit quiet mode
+2015-08-07 14:22:23 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:22:25 : checkMainScreen start quiet mode
+2015-08-07 14:22:25 : checkMainScreen exit quiet mode
+2015-08-07 14:22:25 : Func Train 
+2015-08-07 14:22:25 : checkMainScreen start quiet mode
+2015-08-07 14:22:25 : checkMainScreen exit quiet mode
+2015-08-07 14:22:26 : Time Idle: 00:00:13
+2015-08-07 14:22:26 : Bot clean start
+2015-08-07 14:22:27 : Trying to locate Main Screen
+2015-08-07 14:22:27 : Main Screen Located
+2015-08-07 14:22:28 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:22:29 : checkMainScreen start quiet mode
+2015-08-07 14:22:29 : checkMainScreen exit quiet mode
+2015-08-07 14:22:29 : Collecting Resources
+2015-08-07 14:22:34 : checkMainScreen start quiet mode
+2015-08-07 14:22:34 : checkMainScreen exit quiet mode
+2015-08-07 14:22:36 : Checking if Village needs Rearming..
+2015-08-07 14:22:42 : checkMainScreen start quiet mode
+2015-08-07 14:22:42 : checkMainScreen exit quiet mode
+2015-08-07 14:22:42 : checkMainScreen start quiet mode
+2015-08-07 14:22:42 : checkMainScreen exit quiet mode
+2015-08-07 14:22:43 : Village Report
+2015-08-07 14:22:43 : No. of Free/Total Builders: 0/4
+2015-08-07 14:22:43 :  [T]: 2 589
+2015-08-07 14:22:43 :  [G]: 2 552 354 [E]: 5 298 272 [D]: 79 327 [GEM]: 1 981
+2015-08-07 14:22:44 : checkMainScreen start quiet mode
+2015-08-07 14:22:44 : checkMainScreen exit quiet mode
+2015-08-07 14:22:45 : checkMainScreen start quiet mode
+2015-08-07 14:22:45 : checkMainScreen exit quiet mode
+2015-08-07 14:22:46 : checkMainScreen start quiet mode
+2015-08-07 14:22:46 : checkMainScreen exit quiet mode
+2015-08-07 14:22:46 : Func Train 
+2015-08-07 14:22:47 : checkMainScreen start quiet mode
+2015-08-07 14:22:47 : checkMainScreen exit quiet mode
+2015-08-07 14:22:48 : checkMainScreen start quiet mode
+2015-08-07 14:22:48 : checkMainScreen exit quiet mode
+2015-08-07 14:22:49 : checkMainScreen start quiet mode
+2015-08-07 14:22:49 : checkMainScreen exit quiet mode
+2015-08-07 14:22:49 : checkMainScreen start quiet mode
+2015-08-07 14:22:49 : checkMainScreen exit quiet mode
+2015-08-07 14:22:50 : checkMainScreen start quiet mode
+2015-08-07 14:22:50 : checkMainScreen exit quiet mode
+2015-08-07 14:22:52 : Finished kicking
+2015-08-07 14:22:52 : Func Idle 
+2015-08-07 14:23:03 : checkMainScreen start quiet mode
+2015-08-07 14:23:03 : checkMainScreen exit quiet mode
+2015-08-07 14:23:04 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:23:05 : checkMainScreen start quiet mode
+2015-08-07 14:23:05 : checkMainScreen exit quiet mode
+2015-08-07 14:23:05 : Func Train 
+2015-08-07 14:23:06 : checkMainScreen start quiet mode
+2015-08-07 14:23:06 : checkMainScreen exit quiet mode
+2015-08-07 14:23:06 : Time Idle: 00:00:13
+2015-08-07 14:23:07 : Bot clean start
+2015-08-07 14:23:08 : Trying to locate Main Screen
+2015-08-07 14:23:08 : Main Screen Located
+2015-08-07 14:23:08 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:23:10 : checkMainScreen start quiet mode
+2015-08-07 14:23:10 : checkMainScreen exit quiet mode
+2015-08-07 14:23:10 : Collecting Resources
+2015-08-07 14:23:15 : checkMainScreen start quiet mode
+2015-08-07 14:23:15 : checkMainScreen exit quiet mode
+2015-08-07 14:23:17 : Checking if Village needs Rearming..
+2015-08-07 14:23:23 : checkMainScreen start quiet mode
+2015-08-07 14:23:23 : checkMainScreen exit quiet mode
+2015-08-07 14:23:24 : checkMainScreen start quiet mode
+2015-08-07 14:23:24 : checkMainScreen exit quiet mode
+2015-08-07 14:23:24 : Village Report
+2015-08-07 14:23:24 : No. of Free/Total Builders: 0/4
+2015-08-07 14:23:24 :  [T]: 2 589
+2015-08-07 14:23:24 :  [G]: 2 552 354 [E]: 5 298 272 [D]: 79 331 [GEM]: 1 981
+2015-08-07 14:23:25 : checkMainScreen start quiet mode
+2015-08-07 14:23:25 : checkMainScreen exit quiet mode
+2015-08-07 14:23:26 : checkMainScreen start quiet mode
+2015-08-07 14:23:26 : checkMainScreen exit quiet mode
+2015-08-07 14:23:27 : checkMainScreen start quiet mode
+2015-08-07 14:23:27 : checkMainScreen exit quiet mode
+2015-08-07 14:23:27 : Func Train 
+2015-08-07 14:23:28 : checkMainScreen start quiet mode
+2015-08-07 14:23:28 : checkMainScreen exit quiet mode
+2015-08-07 14:23:29 : checkMainScreen start quiet mode
+2015-08-07 14:23:29 : checkMainScreen exit quiet mode
+2015-08-07 14:23:30 : checkMainScreen start quiet mode
+2015-08-07 14:23:30 : checkMainScreen exit quiet mode
+2015-08-07 14:23:30 : checkMainScreen start quiet mode
+2015-08-07 14:23:30 : checkMainScreen exit quiet mode
+2015-08-07 14:23:31 : checkMainScreen start quiet mode
+2015-08-07 14:23:31 : checkMainScreen exit quiet mode
+2015-08-07 14:23:33 : Finished kicking
+2015-08-07 14:23:33 : Func Idle 
+2015-08-07 14:23:44 : checkMainScreen start quiet mode
+2015-08-07 14:23:44 : checkMainScreen exit quiet mode
+2015-08-07 14:23:45 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:23:46 : checkMainScreen start quiet mode
+2015-08-07 14:23:46 : checkMainScreen exit quiet mode
+2015-08-07 14:23:46 : Func Train 
+2015-08-07 14:23:47 : checkMainScreen start quiet mode
+2015-08-07 14:23:47 : checkMainScreen exit quiet mode
+2015-08-07 14:23:47 : Time Idle: 00:00:13
+2015-08-07 14:23:48 : Bot clean start
+2015-08-07 14:23:49 : Trying to locate Main Screen
+2015-08-07 14:23:49 : Main Screen Located
+2015-08-07 14:23:49 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:23:51 : checkMainScreen start quiet mode
+2015-08-07 14:23:51 : checkMainScreen exit quiet mode
+2015-08-07 14:23:51 : Collecting Resources
+2015-08-07 14:23:56 : checkMainScreen start quiet mode
+2015-08-07 14:23:56 : checkMainScreen exit quiet mode
+2015-08-07 14:23:57 : Checking if Village needs Rearming..
+2015-08-07 14:24:04 : checkMainScreen start quiet mode
+2015-08-07 14:24:04 : checkMainScreen exit quiet mode
+2015-08-07 14:24:05 : checkMainScreen start quiet mode
+2015-08-07 14:24:05 : checkMainScreen exit quiet mode
+2015-08-07 14:24:06 : Village Report
+2015-08-07 14:24:06 : No. of Free/Total Builders: 0/4
+2015-08-07 14:24:06 :  [T]: 2 589
+2015-08-07 14:24:06 :  [G]: 2 552 354 [E]: 5 298 272 [D]: 79 331 [GEM]: 1 981
+2015-08-07 14:24:06 : checkMainScreen start quiet mode
+2015-08-07 14:24:06 : checkMainScreen exit quiet mode
+2015-08-07 14:24:07 : checkMainScreen start quiet mode
+2015-08-07 14:24:07 : checkMainScreen exit quiet mode
+2015-08-07 14:24:08 : checkMainScreen start quiet mode
+2015-08-07 14:24:08 : checkMainScreen exit quiet mode
+2015-08-07 14:24:08 : Func Train 
+2015-08-07 14:24:09 : checkMainScreen start quiet mode
+2015-08-07 14:24:09 : checkMainScreen exit quiet mode
+2015-08-07 14:24:10 : checkMainScreen start quiet mode
+2015-08-07 14:24:10 : checkMainScreen exit quiet mode
+2015-08-07 14:24:11 : checkMainScreen start quiet mode
+2015-08-07 14:24:11 : checkMainScreen exit quiet mode
+2015-08-07 14:24:12 : checkMainScreen start quiet mode
+2015-08-07 14:24:12 : checkMainScreen exit quiet mode
+2015-08-07 14:24:12 : checkMainScreen start quiet mode
+2015-08-07 14:24:12 : checkMainScreen exit quiet mode
+2015-08-07 14:24:15 : Finished kicking
+2015-08-07 14:24:15 : Func Idle 
+2015-08-07 14:24:26 : checkMainScreen start quiet mode
+2015-08-07 14:24:26 : checkMainScreen exit quiet mode
+2015-08-07 14:24:26 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:24:27 : checkMainScreen start quiet mode
+2015-08-07 14:24:27 : checkMainScreen exit quiet mode
+2015-08-07 14:24:28 : Func Train 
+2015-08-07 14:24:28 : checkMainScreen start quiet mode
+2015-08-07 14:24:28 : checkMainScreen exit quiet mode
+2015-08-07 14:24:28 : Time Idle: 00:00:13
+2015-08-07 14:24:29 : Bot clean start
+2015-08-07 14:24:30 : Trying to locate Main Screen
+2015-08-07 14:24:30 : Main Screen Located
+2015-08-07 14:24:30 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:24:32 : checkMainScreen start quiet mode
+2015-08-07 14:24:32 : checkMainScreen exit quiet mode
+2015-08-07 14:24:32 : Collecting Resources
+2015-08-07 14:24:38 : checkMainScreen start quiet mode
+2015-08-07 14:24:38 : checkMainScreen exit quiet mode
+2015-08-07 14:24:39 : Checking if Village needs Rearming..
+2015-08-07 14:24:46 : checkMainScreen start quiet mode
+2015-08-07 14:24:46 : checkMainScreen exit quiet mode
+2015-08-07 14:24:47 : checkMainScreen start quiet mode
+2015-08-07 14:24:47 : checkMainScreen exit quiet mode
+2015-08-07 14:24:47 : Village Report
+2015-08-07 14:24:47 : No. of Free/Total Builders: 0/4
+2015-08-07 14:24:47 :  [T]: 2 589
+2015-08-07 14:24:48 :  [G]: 2 552 354 [E]: 5 298 272 [D]: 79 333 [GEM]: 1 981
+2015-08-07 14:24:48 : checkMainScreen start quiet mode
+2015-08-07 14:24:48 : checkMainScreen exit quiet mode
+2015-08-07 14:24:49 : checkMainScreen start quiet mode
+2015-08-07 14:24:49 : checkMainScreen exit quiet mode
+2015-08-07 14:24:50 : checkMainScreen start quiet mode
+2015-08-07 14:24:50 : checkMainScreen exit quiet mode
+2015-08-07 14:24:50 : Func Train 
+2015-08-07 14:24:51 : checkMainScreen start quiet mode
+2015-08-07 14:24:51 : checkMainScreen exit quiet mode
+2015-08-07 14:24:52 : checkMainScreen start quiet mode
+2015-08-07 14:24:52 : checkMainScreen exit quiet mode
+2015-08-07 14:24:53 : checkMainScreen start quiet mode
+2015-08-07 14:24:53 : checkMainScreen exit quiet mode
+2015-08-07 14:24:53 : checkMainScreen start quiet mode
+2015-08-07 14:24:53 : checkMainScreen exit quiet mode
+2015-08-07 14:24:54 : checkMainScreen start quiet mode
+2015-08-07 14:24:54 : checkMainScreen exit quiet mode
+2015-08-07 14:24:56 : Finished kicking
+2015-08-07 14:24:56 : Func Idle 
+2015-08-07 14:25:08 : checkMainScreen start quiet mode
+2015-08-07 14:25:08 : checkMainScreen exit quiet mode
+2015-08-07 14:25:08 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:25:09 : checkMainScreen start quiet mode
+2015-08-07 14:25:09 : checkMainScreen exit quiet mode
+2015-08-07 14:25:10 : Func Train 
+2015-08-07 14:25:10 : checkMainScreen start quiet mode
+2015-08-07 14:25:10 : checkMainScreen exit quiet mode
+2015-08-07 14:25:10 : Time Idle: 00:00:13
+2015-08-07 14:25:11 : Bot clean start
+2015-08-07 14:25:12 : Trying to locate Main Screen
+2015-08-07 14:25:12 : Main Screen Located
+2015-08-07 14:25:12 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:25:14 : checkMainScreen start quiet mode
+2015-08-07 14:25:14 : checkMainScreen exit quiet mode
+2015-08-07 14:25:14 : Collecting Resources
+2015-08-07 14:25:20 : checkMainScreen start quiet mode
+2015-08-07 14:25:20 : checkMainScreen exit quiet mode
+2015-08-07 14:25:21 : Checking if Village needs Rearming..
+2015-08-07 14:25:28 : checkMainScreen start quiet mode
+2015-08-07 14:25:28 : checkMainScreen exit quiet mode
+2015-08-07 14:25:28 : checkMainScreen start quiet mode
+2015-08-07 14:25:28 : checkMainScreen exit quiet mode
+2015-08-07 14:25:29 : Village Report
+2015-08-07 14:25:29 : No. of Free/Total Builders: 0/4
+2015-08-07 14:25:29 :  [T]: 2 589
+2015-08-07 14:25:29 :  [G]: 2 552 354 [E]: 5 299 180 [D]: 79 333 [GEM]: 1 981
+2015-08-07 14:25:30 : checkMainScreen start quiet mode
+2015-08-07 14:25:30 : checkMainScreen exit quiet mode
+2015-08-07 14:25:31 : checkMainScreen start quiet mode
+2015-08-07 14:25:31 : checkMainScreen exit quiet mode
+2015-08-07 14:25:32 : checkMainScreen start quiet mode
+2015-08-07 14:25:32 : checkMainScreen exit quiet mode
+2015-08-07 14:25:32 : Func Train 
+2015-08-07 14:25:33 : checkMainScreen start quiet mode
+2015-08-07 14:25:33 : checkMainScreen exit quiet mode
+2015-08-07 14:25:34 : checkMainScreen start quiet mode
+2015-08-07 14:25:34 : checkMainScreen exit quiet mode
+2015-08-07 14:25:35 : checkMainScreen start quiet mode
+2015-08-07 14:25:35 : checkMainScreen exit quiet mode
+2015-08-07 14:25:35 : checkMainScreen start quiet mode
+2015-08-07 14:25:35 : checkMainScreen exit quiet mode
+2015-08-07 14:25:36 : checkMainScreen start quiet mode
+2015-08-07 14:25:36 : checkMainScreen exit quiet mode
+2015-08-07 14:25:38 : Finished kicking
+2015-08-07 14:25:38 : Func Idle 
+2015-08-07 14:25:49 : checkMainScreen start quiet mode
+2015-08-07 14:25:49 : checkMainScreen exit quiet mode
+2015-08-07 14:25:50 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:25:51 : checkMainScreen start quiet mode
+2015-08-07 14:25:51 : checkMainScreen exit quiet mode
+2015-08-07 14:25:51 : Collecting Resources
+2015-08-07 14:25:57 : checkMainScreen start quiet mode
+2015-08-07 14:25:57 : checkMainScreen exit quiet mode
+2015-08-07 14:25:57 : Func Train 
+2015-08-07 14:25:57 : checkMainScreen start quiet mode
+2015-08-07 14:25:57 : checkMainScreen exit quiet mode
+2015-08-07 14:25:58 : Time Idle: 00:00:19
+2015-08-07 14:25:58 : Bot clean start
+2015-08-07 14:25:59 : Trying to locate Main Screen
+2015-08-07 14:25:59 : Main Screen Located
+2015-08-07 14:26:00 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:26:01 : checkMainScreen start quiet mode
+2015-08-07 14:26:01 : checkMainScreen exit quiet mode
+2015-08-07 14:26:02 : Collecting Resources
+2015-08-07 14:26:07 : checkMainScreen start quiet mode
+2015-08-07 14:26:07 : checkMainScreen exit quiet mode
+2015-08-07 14:26:08 : Checking if Village needs Rearming..
+2015-08-07 14:26:15 : checkMainScreen start quiet mode
+2015-08-07 14:26:15 : checkMainScreen exit quiet mode
+2015-08-07 14:26:16 : checkMainScreen start quiet mode
+2015-08-07 14:26:16 : checkMainScreen exit quiet mode
+2015-08-07 14:26:16 : Village Report
+2015-08-07 14:26:17 : No. of Free/Total Builders: 0/4
+2015-08-07 14:26:17 :  [T]: 2 589
+2015-08-07 14:26:17 :  [G]: 2 552 354 [E]: 5 299 795 [D]: 79 335 [GEM]: 1 981
+2015-08-07 14:26:17 : checkMainScreen start quiet mode
+2015-08-07 14:26:17 : checkMainScreen exit quiet mode
+2015-08-07 14:26:18 : checkMainScreen start quiet mode
+2015-08-07 14:26:18 : checkMainScreen exit quiet mode
+2015-08-07 14:26:19 : checkMainScreen start quiet mode
+2015-08-07 14:26:19 : checkMainScreen exit quiet mode
+2015-08-07 14:26:19 : Func Train 
+2015-08-07 14:26:20 : checkMainScreen start quiet mode
+2015-08-07 14:26:20 : checkMainScreen exit quiet mode
+2015-08-07 14:26:21 : checkMainScreen start quiet mode
+2015-08-07 14:26:21 : checkMainScreen exit quiet mode
+2015-08-07 14:26:22 : checkMainScreen start quiet mode
+2015-08-07 14:26:22 : checkMainScreen exit quiet mode
+2015-08-07 14:26:23 : checkMainScreen start quiet mode
+2015-08-07 14:26:23 : checkMainScreen exit quiet mode
+2015-08-07 14:26:23 : checkMainScreen start quiet mode
+2015-08-07 14:26:23 : checkMainScreen exit quiet mode
+2015-08-07 14:26:25 : Finished kicking
+2015-08-07 14:26:25 : Func Idle 
+2015-08-07 14:26:37 : checkMainScreen start quiet mode
+2015-08-07 14:26:37 : checkMainScreen exit quiet mode
+2015-08-07 14:26:37 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:26:39 : checkMainScreen start quiet mode
+2015-08-07 14:26:39 : checkMainScreen exit quiet mode
+2015-08-07 14:26:39 : Func Train 
+2015-08-07 14:26:39 : checkMainScreen start quiet mode
+2015-08-07 14:26:39 : checkMainScreen exit quiet mode
+2015-08-07 14:26:40 : Time Idle: 00:00:14
+2015-08-07 14:26:40 : Bot clean start
+2015-08-07 14:26:41 : Trying to locate Main Screen
+2015-08-07 14:26:41 : Main Screen Located
+2015-08-07 14:26:42 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:26:43 : checkMainScreen start quiet mode
+2015-08-07 14:26:43 : checkMainScreen exit quiet mode
+2015-08-07 14:26:43 : Collecting Resources
+2015-08-07 14:26:49 : checkMainScreen start quiet mode
+2015-08-07 14:26:49 : checkMainScreen exit quiet mode
+2015-08-07 14:26:51 : Checking if Village needs Rearming..
+2015-08-07 14:26:57 : checkMainScreen start quiet mode
+2015-08-07 14:26:57 : checkMainScreen exit quiet mode
+2015-08-07 14:26:58 : checkMainScreen start quiet mode
+2015-08-07 14:26:58 : checkMainScreen exit quiet mode
+2015-08-07 14:26:59 : Village Report
+2015-08-07 14:26:59 : No. of Free/Total Builders: 0/4
+2015-08-07 14:26:59 :  [T]: 2 589
+2015-08-07 14:26:59 :  [G]: 2 554 981 [E]: 5 299 795 [D]: 79 335 [GEM]: 1 981
+2015-08-07 14:26:59 : checkMainScreen start quiet mode
+2015-08-07 14:26:59 : checkMainScreen exit quiet mode
+2015-08-07 14:27:00 : checkMainScreen start quiet mode
+2015-08-07 14:27:00 : checkMainScreen exit quiet mode
+2015-08-07 14:27:01 : checkMainScreen start quiet mode
+2015-08-07 14:27:01 : checkMainScreen exit quiet mode
+2015-08-07 14:27:01 : Func Train 
+2015-08-07 14:27:02 : checkMainScreen start quiet mode
+2015-08-07 14:27:02 : checkMainScreen exit quiet mode
+2015-08-07 14:27:03 : checkMainScreen start quiet mode
+2015-08-07 14:27:03 : checkMainScreen exit quiet mode
+2015-08-07 14:27:04 : checkMainScreen start quiet mode
+2015-08-07 14:27:04 : checkMainScreen exit quiet mode
+2015-08-07 14:27:05 : checkMainScreen start quiet mode
+2015-08-07 14:27:05 : checkMainScreen exit quiet mode
+2015-08-07 14:27:05 : checkMainScreen start quiet mode
+2015-08-07 14:27:05 : checkMainScreen exit quiet mode
+2015-08-07 14:27:07 : Finished kicking
+2015-08-07 14:27:07 : Func Idle 
+2015-08-07 14:27:19 : checkMainScreen start quiet mode
+2015-08-07 14:27:19 : checkMainScreen exit quiet mode
+2015-08-07 14:27:19 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:27:20 : checkMainScreen start quiet mode
+2015-08-07 14:27:20 : checkMainScreen exit quiet mode
+2015-08-07 14:27:21 : Func Train 
+2015-08-07 14:27:21 : checkMainScreen start quiet mode
+2015-08-07 14:27:21 : checkMainScreen exit quiet mode
+2015-08-07 14:27:21 : Time Idle: 00:00:13
+2015-08-07 14:27:22 : Bot clean start
+2015-08-07 14:27:23 : Trying to locate Main Screen
+2015-08-07 14:27:23 : Main Screen Located
+2015-08-07 14:27:23 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:27:25 : checkMainScreen start quiet mode
+2015-08-07 14:27:25 : checkMainScreen exit quiet mode
+2015-08-07 14:27:25 : Collecting Resources
+2015-08-07 14:27:30 : checkMainScreen start quiet mode
+2015-08-07 14:27:30 : checkMainScreen exit quiet mode
+2015-08-07 14:27:32 : Checking if Village needs Rearming..
+2015-08-07 14:27:38 : checkMainScreen start quiet mode
+2015-08-07 14:27:38 : checkMainScreen exit quiet mode
+2015-08-07 14:27:39 : checkMainScreen start quiet mode
+2015-08-07 14:27:39 : checkMainScreen exit quiet mode
+2015-08-07 14:27:40 : Village Report
+2015-08-07 14:27:40 : Cannot get Free/Total Builders
+2015-08-07 14:27:40 : No. of Free/Total Builders: 0/0
+2015-08-07 14:27:40 :  [T]: 2 589
+2015-08-07 14:27:40 :  [G]: 2 554 981 [E]: 5 299 795 [D]: 79 339 [GEM]: 1 981
+2015-08-07 14:27:41 : checkMainScreen start quiet mode
+2015-08-07 14:27:41 : checkMainScreen exit quiet mode
+2015-08-07 14:27:41 : checkMainScreen start quiet mode
+2015-08-07 14:27:41 : checkMainScreen exit quiet mode
+2015-08-07 14:27:43 : checkMainScreen start quiet mode
+2015-08-07 14:27:43 : checkMainScreen exit quiet mode
+2015-08-07 14:27:43 : Func Train 
+2015-08-07 14:27:44 : checkMainScreen start quiet mode
+2015-08-07 14:27:44 : checkMainScreen exit quiet mode
+2015-08-07 14:27:45 : checkMainScreen start quiet mode
+2015-08-07 14:27:45 : checkMainScreen exit quiet mode
+2015-08-07 14:27:46 : checkMainScreen start quiet mode
+2015-08-07 14:27:46 : checkMainScreen exit quiet mode
+2015-08-07 14:27:46 : checkMainScreen start quiet mode
+2015-08-07 14:27:46 : checkMainScreen exit quiet mode
+2015-08-07 14:27:47 : checkMainScreen start quiet mode
+2015-08-07 14:27:47 : checkMainScreen exit quiet mode
+2015-08-07 14:27:49 : Finished kicking
+2015-08-07 14:27:49 : Func Idle 
+2015-08-07 14:28:00 : checkMainScreen start quiet mode
+2015-08-07 14:28:00 : checkMainScreen exit quiet mode
+2015-08-07 14:28:01 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:28:02 : checkMainScreen start quiet mode
+2015-08-07 14:28:02 : checkMainScreen exit quiet mode
+2015-08-07 14:28:02 : Func Train 
+2015-08-07 14:28:02 : checkMainScreen start quiet mode
+2015-08-07 14:28:02 : checkMainScreen exit quiet mode
+2015-08-07 14:28:03 : Time Idle: 00:00:13
+2015-08-07 14:28:03 : Bot clean start
+2015-08-07 14:28:04 : Trying to locate Main Screen
+2015-08-07 14:28:04 : Main Screen Located
+2015-08-07 14:28:05 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:28:06 : checkMainScreen start quiet mode
+2015-08-07 14:28:06 : checkMainScreen exit quiet mode
+2015-08-07 14:28:06 : Collecting Resources
+2015-08-07 14:28:12 : checkMainScreen start quiet mode
+2015-08-07 14:28:12 : checkMainScreen exit quiet mode
+2015-08-07 14:28:13 : Checking if Village needs Rearming..
+2015-08-07 14:28:19 : checkMainScreen start quiet mode
+2015-08-07 14:28:19 : checkMainScreen exit quiet mode
+2015-08-07 14:28:20 : checkMainScreen start quiet mode
+2015-08-07 14:28:20 : checkMainScreen exit quiet mode
+2015-08-07 14:28:21 : Village Report
+2015-08-07 14:28:21 : No. of Free/Total Builders: 0/4
+2015-08-07 14:28:21 :  [T]: 2 589
+2015-08-07 14:28:21 :  [G]: 2 554 981 [E]: 5 299 795 [D]: 79 339 [GEM]: 1 981
+2015-08-07 14:28:22 : checkMainScreen start quiet mode
+2015-08-07 14:28:22 : checkMainScreen exit quiet mode
+2015-08-07 14:28:22 : checkMainScreen start quiet mode
+2015-08-07 14:28:22 : checkMainScreen exit quiet mode
+2015-08-07 14:28:24 : checkMainScreen start quiet mode
+2015-08-07 14:28:24 : checkMainScreen exit quiet mode
+2015-08-07 14:28:24 : Func Train 
+2015-08-07 14:28:25 : checkMainScreen start quiet mode
+2015-08-07 14:28:25 : checkMainScreen exit quiet mode
+2015-08-07 14:28:26 : checkMainScreen start quiet mode
+2015-08-07 14:28:26 : checkMainScreen exit quiet mode
+2015-08-07 14:28:27 : checkMainScreen start quiet mode
+2015-08-07 14:28:27 : checkMainScreen exit quiet mode
+2015-08-07 14:28:27 : checkMainScreen start quiet mode
+2015-08-07 14:28:27 : checkMainScreen exit quiet mode
+2015-08-07 14:28:28 : checkMainScreen start quiet mode
+2015-08-07 14:28:28 : checkMainScreen exit quiet mode
+2015-08-07 14:28:30 : Finished kicking
+2015-08-07 14:28:30 : Func Idle 
+2015-08-07 14:28:41 : checkMainScreen start quiet mode
+2015-08-07 14:28:41 : checkMainScreen exit quiet mode
+2015-08-07 14:28:42 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:28:43 : checkMainScreen start quiet mode
+2015-08-07 14:28:45 : CheckObstacles Result = True
+2015-08-07 14:28:45 : Waiting for Main Screen
+2015-08-07 14:28:45 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:28:47 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:28:47 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:28:47 : checkMainScreen exit quiet mode
+2015-08-07 14:28:48 : Bot clean start
+2015-08-07 14:28:49 : Trying to locate Main Screen
+2015-08-07 14:28:49 : Main Screen Located
+2015-08-07 14:28:49 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:28:51 : checkMainScreen start quiet mode
+2015-08-07 14:28:51 : checkMainScreen exit quiet mode
+2015-08-07 14:28:51 : Collecting Resources
+2015-08-07 14:28:57 : checkMainScreen start quiet mode
+2015-08-07 14:28:57 : checkMainScreen exit quiet mode
+2015-08-07 14:28:58 : Checking if Village needs Rearming..
+2015-08-07 14:29:05 : checkMainScreen start quiet mode
+2015-08-07 14:29:05 : checkMainScreen exit quiet mode
+2015-08-07 14:29:06 : checkMainScreen start quiet mode
+2015-08-07 14:29:06 : checkMainScreen exit quiet mode
+2015-08-07 14:29:07 : Village Report
+2015-08-07 14:29:07 : Cannot get Free/Total Builders
+2015-08-07 14:29:07 : No. of Free/Total Builders: 0/0
+2015-08-07 14:29:07 :  [T]: 2 589
+2015-08-07 14:29:07 :  [G]: 2 554 981 [E]: 5 300 705 [D]: 79 341 [GEM]: 1 981
+2015-08-07 14:29:08 : checkMainScreen start quiet mode
+2015-08-07 14:29:08 : checkMainScreen exit quiet mode
+2015-08-07 14:29:09 : checkMainScreen start quiet mode
+2015-08-07 14:29:09 : checkMainScreen exit quiet mode
+2015-08-07 14:29:10 : checkMainScreen start quiet mode
+2015-08-07 14:29:10 : checkMainScreen exit quiet mode
+2015-08-07 14:29:10 : Func Train 
+2015-08-07 14:29:11 : checkMainScreen start quiet mode
+2015-08-07 14:29:11 : checkMainScreen exit quiet mode
+2015-08-07 14:29:12 : checkMainScreen start quiet mode
+2015-08-07 14:29:12 : checkMainScreen exit quiet mode
+2015-08-07 14:29:13 : checkMainScreen start quiet mode
+2015-08-07 14:29:13 : checkMainScreen exit quiet mode
+2015-08-07 14:29:13 : checkMainScreen start quiet mode
+2015-08-07 14:29:13 : checkMainScreen exit quiet mode
+2015-08-07 14:29:14 : checkMainScreen start quiet mode
+2015-08-07 14:29:14 : checkMainScreen exit quiet mode
+2015-08-07 14:29:16 : Finished kicking
+2015-08-07 14:29:16 : Func Idle 
+2015-08-07 14:29:27 : checkMainScreen start quiet mode
+2015-08-07 14:29:27 : checkMainScreen exit quiet mode
+2015-08-07 14:29:28 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:29:29 : checkMainScreen start quiet mode
+2015-08-07 14:29:31 : CheckObstacles Result = True
+2015-08-07 14:29:31 : Waiting for Main Screen
+2015-08-07 14:29:31 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:29:33 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:29:33 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:29:33 : checkMainScreen exit quiet mode
+2015-08-07 14:29:34 : Bot clean start
+2015-08-07 14:29:35 : Trying to locate Main Screen
+2015-08-07 14:29:35 : Main Screen Located
+2015-08-07 14:29:35 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:29:36 : checkMainScreen start quiet mode
+2015-08-07 14:29:36 : checkMainScreen exit quiet mode
+2015-08-07 14:29:37 : Collecting Resources
+2015-08-07 14:29:42 : checkMainScreen start quiet mode
+2015-08-07 14:29:42 : checkMainScreen exit quiet mode
+2015-08-07 14:29:43 : Checking if Village needs Rearming..
+2015-08-07 14:29:50 : checkMainScreen start quiet mode
+2015-08-07 14:29:50 : checkMainScreen exit quiet mode
+2015-08-07 14:29:51 : checkMainScreen start quiet mode
+2015-08-07 14:29:51 : checkMainScreen exit quiet mode
+2015-08-07 14:29:52 : Village Report
+2015-08-07 14:29:52 : Cannot get Free/Total Builders
+2015-08-07 14:29:52 : No. of Free/Total Builders: 0/0
+2015-08-07 14:29:52 :  [T]: 2 589
+2015-08-07 14:29:52 :  [G]: 2 554 981 [E]: 5 300 705 [D]: 79 341 [GEM]: 1 981
+2015-08-07 14:29:52 : checkMainScreen start quiet mode
+2015-08-07 14:29:52 : checkMainScreen exit quiet mode
+2015-08-07 14:29:53 : checkMainScreen start quiet mode
+2015-08-07 14:29:53 : checkMainScreen exit quiet mode
+2015-08-07 14:29:54 : checkMainScreen start quiet mode
+2015-08-07 14:29:54 : checkMainScreen exit quiet mode
+2015-08-07 14:29:54 : Func Train 
+2015-08-07 14:29:55 : checkMainScreen start quiet mode
+2015-08-07 14:29:55 : checkMainScreen exit quiet mode
+2015-08-07 14:29:56 : checkMainScreen start quiet mode
+2015-08-07 14:29:56 : checkMainScreen exit quiet mode
+2015-08-07 14:29:57 : checkMainScreen start quiet mode
+2015-08-07 14:29:57 : checkMainScreen exit quiet mode
+2015-08-07 14:29:58 : checkMainScreen start quiet mode
+2015-08-07 14:29:58 : checkMainScreen exit quiet mode
+2015-08-07 14:29:58 : checkMainScreen start quiet mode
+2015-08-07 14:29:58 : checkMainScreen exit quiet mode
+2015-08-07 14:30:01 : Finished kicking
+2015-08-07 14:30:01 : Func Idle 
+2015-08-07 14:30:12 : checkMainScreen start quiet mode
+2015-08-07 14:30:12 : checkMainScreen exit quiet mode
+2015-08-07 14:30:12 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:30:13 : checkMainScreen start quiet mode
+2015-08-07 14:30:15 : CheckObstacles Result = True
+2015-08-07 14:30:15 : Waiting for Main Screen
+2015-08-07 14:30:15 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:30:18 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:30:18 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:30:18 : checkMainScreen exit quiet mode
+2015-08-07 14:30:18 : Bot clean start
+2015-08-07 14:30:19 : Trying to locate Main Screen
+2015-08-07 14:30:19 : Main Screen Located
+2015-08-07 14:30:20 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:30:21 : checkMainScreen start quiet mode
+2015-08-07 14:30:21 : checkMainScreen exit quiet mode
+2015-08-07 14:30:22 : Collecting Resources
+2015-08-07 14:30:27 : checkMainScreen start quiet mode
+2015-08-07 14:30:27 : checkMainScreen exit quiet mode
+2015-08-07 14:30:29 : Checking if Village needs Rearming..
+2015-08-07 14:30:37 : checkMainScreen start quiet mode
+2015-08-07 14:30:37 : checkMainScreen exit quiet mode
+2015-08-07 14:30:38 : checkMainScreen start quiet mode
+2015-08-07 14:30:38 : checkMainScreen exit quiet mode
+2015-08-07 14:30:38 : Village Report
+2015-08-07 14:30:38 : Cannot get Free/Total Builders
+2015-08-07 14:30:38 : No. of Free/Total Builders: 0/0
+2015-08-07 14:30:38 :  [T]: 2 589
+2015-08-07 14:30:39 :  [G]: 2 554 981 [E]: 5 301 363 [D]: 79 344 [GEM]: 1 981
+2015-08-07 14:30:39 : checkMainScreen start quiet mode
+2015-08-07 14:30:39 : checkMainScreen exit quiet mode
+2015-08-07 14:30:40 : checkMainScreen start quiet mode
+2015-08-07 14:30:40 : checkMainScreen exit quiet mode
+2015-08-07 14:30:41 : checkMainScreen start quiet mode
+2015-08-07 14:30:43 : Zooming Out
+2015-08-07 14:30:43 : checkMainScreen exit quiet mode
+2015-08-07 14:30:43 : Func Train 
+2015-08-07 14:30:44 : checkMainScreen start quiet mode
+2015-08-07 14:30:44 : checkMainScreen exit quiet mode
+2015-08-07 14:30:45 : checkMainScreen start quiet mode
+2015-08-07 14:30:45 : checkMainScreen exit quiet mode
+2015-08-07 14:30:46 : checkMainScreen start quiet mode
+2015-08-07 14:30:46 : checkMainScreen exit quiet mode
+2015-08-07 14:30:46 : checkMainScreen start quiet mode
+2015-08-07 14:30:46 : checkMainScreen exit quiet mode
+2015-08-07 14:30:47 : checkMainScreen start quiet mode
+2015-08-07 14:30:47 : checkMainScreen exit quiet mode
+2015-08-07 14:30:49 : Finished kicking
+2015-08-07 14:30:49 : Func Idle 
+2015-08-07 14:31:00 : checkMainScreen start quiet mode
+2015-08-07 14:31:00 : checkMainScreen exit quiet mode
+2015-08-07 14:31:01 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:31:02 : checkMainScreen start quiet mode
+2015-08-07 14:31:04 : CheckObstacles Result = True
+2015-08-07 14:31:04 : Waiting for Main Screen
+2015-08-07 14:31:04 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:31:06 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:31:06 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:31:06 : checkMainScreen exit quiet mode
+2015-08-07 14:31:06 : Bot clean start
+2015-08-07 14:31:07 : Trying to locate Main Screen
+2015-08-07 14:31:07 : Main Screen Located
+2015-08-07 14:31:08 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:31:09 : checkMainScreen start quiet mode
+2015-08-07 14:31:09 : checkMainScreen exit quiet mode
+2015-08-07 14:31:09 : Collecting Resources
+2015-08-07 14:31:15 : checkMainScreen start quiet mode
+2015-08-07 14:31:15 : checkMainScreen exit quiet mode
+2015-08-07 14:31:16 : Checking if Village needs Rearming..
+2015-08-07 14:31:24 : checkMainScreen start quiet mode
+2015-08-07 14:31:24 : checkMainScreen exit quiet mode
+2015-08-07 14:31:25 : checkMainScreen start quiet mode
+2015-08-07 14:31:25 : checkMainScreen exit quiet mode
+2015-08-07 14:31:26 : Village Report
+2015-08-07 14:31:26 : Cannot get Free/Total Builders
+2015-08-07 14:31:26 : No. of Free/Total Builders: 0/0
+2015-08-07 14:31:26 :  [T]: 2 589
+2015-08-07 14:31:26 :  [G]: 2 554 981 [E]: 5 301 363 [D]: 79 344 [GEM]: 1 981
+2015-08-07 14:31:27 : checkMainScreen start quiet mode
+2015-08-07 14:31:27 : checkMainScreen exit quiet mode
+2015-08-07 14:31:27 : checkMainScreen start quiet mode
+2015-08-07 14:31:27 : checkMainScreen exit quiet mode
+2015-08-07 14:31:29 : checkMainScreen start quiet mode
+2015-08-07 14:31:29 : checkMainScreen exit quiet mode
+2015-08-07 14:31:29 : Func Train 
+2015-08-07 14:31:30 : checkMainScreen start quiet mode
+2015-08-07 14:31:30 : checkMainScreen exit quiet mode
+2015-08-07 14:31:31 : checkMainScreen start quiet mode
+2015-08-07 14:31:31 : checkMainScreen exit quiet mode
+2015-08-07 14:31:32 : checkMainScreen start quiet mode
+2015-08-07 14:31:32 : checkMainScreen exit quiet mode
+2015-08-07 14:31:32 : checkMainScreen start quiet mode
+2015-08-07 14:31:32 : checkMainScreen exit quiet mode
+2015-08-07 14:31:33 : checkMainScreen start quiet mode
+2015-08-07 14:31:33 : checkMainScreen exit quiet mode
+2015-08-07 14:31:35 : Finished kicking
+2015-08-07 14:31:35 : Func Idle 
+2015-08-07 14:31:46 : checkMainScreen start quiet mode
+2015-08-07 14:31:46 : checkMainScreen exit quiet mode
+2015-08-07 14:31:47 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:31:48 : checkMainScreen start quiet mode
+2015-08-07 14:31:49 : CheckObstacles Result = True
+2015-08-07 14:31:49 : Waiting for Main Screen
+2015-08-07 14:31:49 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:31:52 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:31:52 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:31:52 : checkMainScreen exit quiet mode
+2015-08-07 14:31:52 : Bot clean start
+2015-08-07 14:31:53 : Trying to locate Main Screen
+2015-08-07 14:31:53 : Main Screen Located
+2015-08-07 14:31:54 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:31:55 : checkMainScreen start quiet mode
+2015-08-07 14:31:55 : checkMainScreen exit quiet mode
+2015-08-07 14:31:55 : Collecting Resources
+2015-08-07 14:32:02 : checkMainScreen start quiet mode
+2015-08-07 14:32:02 : checkMainScreen exit quiet mode
+2015-08-07 14:32:03 : Checking if Village needs Rearming..
+2015-08-07 14:32:09 : checkMainScreen start quiet mode
+2015-08-07 14:32:09 : checkMainScreen exit quiet mode
+2015-08-07 14:32:10 : checkMainScreen start quiet mode
+2015-08-07 14:32:10 : checkMainScreen exit quiet mode
+2015-08-07 14:32:11 : Village Report
+2015-08-07 14:32:11 : Cannot get Free/Total Builders
+2015-08-07 14:32:11 : No. of Free/Total Builders: 0/0
+2015-08-07 14:32:11 :  [T]: 2 589
+2015-08-07 14:32:11 :  [G]: 2 557 639 [E]: 5 301 363 [D]: 79 348 [GEM]: 1 981
+2015-08-07 14:32:12 : checkMainScreen start quiet mode
+2015-08-07 14:32:12 : checkMainScreen exit quiet mode
+2015-08-07 14:32:12 : checkMainScreen start quiet mode
+2015-08-07 14:32:12 : checkMainScreen exit quiet mode
+2015-08-07 14:32:13 : checkMainScreen start quiet mode
+2015-08-07 14:32:13 : checkMainScreen exit quiet mode
+2015-08-07 14:32:13 : Func Train 
+2015-08-07 14:32:14 : checkMainScreen start quiet mode
+2015-08-07 14:32:14 : checkMainScreen exit quiet mode
+2015-08-07 14:32:16 : checkMainScreen start quiet mode
+2015-08-07 14:32:16 : checkMainScreen exit quiet mode
+2015-08-07 14:32:17 : checkMainScreen start quiet mode
+2015-08-07 14:32:17 : checkMainScreen exit quiet mode
+2015-08-07 14:32:17 : checkMainScreen start quiet mode
+2015-08-07 14:32:17 : checkMainScreen exit quiet mode
+2015-08-07 14:32:18 : checkMainScreen start quiet mode
+2015-08-07 14:32:18 : checkMainScreen exit quiet mode
+2015-08-07 14:32:20 : Finished kicking
+2015-08-07 14:32:20 : Func Idle 
+2015-08-07 14:32:31 : checkMainScreen start quiet mode
+2015-08-07 14:32:31 : checkMainScreen exit quiet mode
+2015-08-07 14:32:32 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:32:33 : checkMainScreen start quiet mode
+2015-08-07 14:32:34 : CheckObstacles Result = True
+2015-08-07 14:32:34 : Waiting for Main Screen
+2015-08-07 14:32:34 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:32:37 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:32:37 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:32:37 : checkMainScreen exit quiet mode
+2015-08-07 14:32:37 : Bot clean start
+2015-08-07 14:32:38 : Trying to locate Main Screen
+2015-08-07 14:32:38 : Main Screen Located
+2015-08-07 14:32:39 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:32:40 : checkMainScreen start quiet mode
+2015-08-07 14:32:40 : checkMainScreen exit quiet mode
+2015-08-07 14:32:40 : Collecting Resources
+2015-08-07 14:32:46 : checkMainScreen start quiet mode
+2015-08-07 14:32:46 : checkMainScreen exit quiet mode
+2015-08-07 14:32:48 : Checking if Village needs Rearming..
+2015-08-07 14:32:54 : checkMainScreen start quiet mode
+2015-08-07 14:32:54 : checkMainScreen exit quiet mode
+2015-08-07 14:32:55 : checkMainScreen start quiet mode
+2015-08-07 14:32:55 : checkMainScreen exit quiet mode
+2015-08-07 14:32:55 : Village Report
+2015-08-07 14:32:55 : Cannot get Free/Total Builders
+2015-08-07 14:32:55 : No. of Free/Total Builders: 0/0
+2015-08-07 14:32:55 :  [T]: 2 589
+2015-08-07 14:32:56 :  [G]: 2 557 639 [E]: 5 302 315 [D]: 79 348 [GEM]: 1 981
+2015-08-07 14:32:56 : checkMainScreen start quiet mode
+2015-08-07 14:32:56 : checkMainScreen exit quiet mode
+2015-08-07 14:32:57 : checkMainScreen start quiet mode
+2015-08-07 14:32:57 : checkMainScreen exit quiet mode
+2015-08-07 14:32:58 : checkMainScreen start quiet mode
+2015-08-07 14:32:58 : checkMainScreen exit quiet mode
+2015-08-07 14:32:58 : Func Train 
+2015-08-07 14:32:59 : checkMainScreen start quiet mode
+2015-08-07 14:32:59 : checkMainScreen exit quiet mode
+2015-08-07 14:33:00 : checkMainScreen start quiet mode
+2015-08-07 14:33:00 : checkMainScreen exit quiet mode
+2015-08-07 14:33:01 : checkMainScreen start quiet mode
+2015-08-07 14:33:01 : checkMainScreen exit quiet mode
+2015-08-07 14:33:01 : checkMainScreen start quiet mode
+2015-08-07 14:33:01 : checkMainScreen exit quiet mode
+2015-08-07 14:33:02 : checkMainScreen start quiet mode
+2015-08-07 14:33:02 : checkMainScreen exit quiet mode
+2015-08-07 14:33:04 : Finished kicking
+2015-08-07 14:33:04 : Func Idle 
+2015-08-07 14:33:16 : checkMainScreen start quiet mode
+2015-08-07 14:33:16 : checkMainScreen exit quiet mode
+2015-08-07 14:33:16 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:33:17 : checkMainScreen start quiet mode
+2015-08-07 14:33:19 : CheckObstacles Result = True
+2015-08-07 14:33:19 : Waiting for Main Screen
+2015-08-07 14:33:19 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:33:21 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:33:21 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:33:21 : checkMainScreen exit quiet mode
+2015-08-07 14:33:21 : Bot clean start
+2015-08-07 14:33:22 : Trying to locate Main Screen
+2015-08-07 14:33:22 : Main Screen Located
+2015-08-07 14:33:23 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:33:24 : checkMainScreen start quiet mode
+2015-08-07 14:33:24 : checkMainScreen exit quiet mode
+2015-08-07 14:33:25 : Collecting Resources
+2015-08-07 14:33:30 : checkMainScreen start quiet mode
+2015-08-07 14:33:30 : checkMainScreen exit quiet mode
+2015-08-07 14:33:32 : Checking if Village needs Rearming..
+2015-08-07 14:33:38 : checkMainScreen start quiet mode
+2015-08-07 14:33:38 : checkMainScreen exit quiet mode
+2015-08-07 14:33:39 : checkMainScreen start quiet mode
+2015-08-07 14:33:39 : checkMainScreen exit quiet mode
+2015-08-07 14:33:39 : Village Report
+2015-08-07 14:33:39 : Cannot get Free/Total Builders
+2015-08-07 14:33:40 : No. of Free/Total Builders: 0/0
+2015-08-07 14:33:40 :  [T]: 2 589
+2015-08-07 14:33:40 :  [G]: 2 557 639 [E]: 5 302 315 [D]: 79 350 [GEM]: 1 981
+2015-08-07 14:33:40 : checkMainScreen start quiet mode
+2015-08-07 14:33:40 : checkMainScreen exit quiet mode
+2015-08-07 14:33:41 : checkMainScreen start quiet mode
+2015-08-07 14:33:41 : checkMainScreen exit quiet mode
+2015-08-07 14:33:42 : checkMainScreen start quiet mode
+2015-08-07 14:33:42 : checkMainScreen exit quiet mode
+2015-08-07 14:33:42 : Func Train 
+2015-08-07 14:33:43 : checkMainScreen start quiet mode
+2015-08-07 14:33:43 : checkMainScreen exit quiet mode
+2015-08-07 14:33:44 : checkMainScreen start quiet mode
+2015-08-07 14:33:44 : checkMainScreen exit quiet mode
+2015-08-07 14:33:45 : checkMainScreen start quiet mode
+2015-08-07 14:33:45 : checkMainScreen exit quiet mode
+2015-08-07 14:33:46 : checkMainScreen start quiet mode
+2015-08-07 14:33:46 : checkMainScreen exit quiet mode
+2015-08-07 14:33:46 : checkMainScreen start quiet mode
+2015-08-07 14:33:46 : checkMainScreen exit quiet mode
+2015-08-07 14:33:49 : Finished kicking
+2015-08-07 14:33:49 : Func Idle 
+2015-08-07 14:34:00 : checkMainScreen start quiet mode
+2015-08-07 14:34:00 : checkMainScreen exit quiet mode
+2015-08-07 14:34:00 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:34:02 : checkMainScreen start quiet mode
+2015-08-07 14:34:03 : CheckObstacles Result = True
+2015-08-07 14:34:03 : Waiting for Main Screen
+2015-08-07 14:34:03 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:34:05 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:34:05 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:34:05 : checkMainScreen exit quiet mode
+2015-08-07 14:34:06 : Bot clean start
+2015-08-07 14:34:07 : Trying to locate Main Screen
+2015-08-07 14:34:07 : Main Screen Located
+2015-08-07 14:34:07 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:34:09 : checkMainScreen start quiet mode
+2015-08-07 14:34:09 : checkMainScreen exit quiet mode
+2015-08-07 14:34:09 : Collecting Resources
+2015-08-07 14:34:14 : checkMainScreen start quiet mode
+2015-08-07 14:34:14 : checkMainScreen exit quiet mode
+2015-08-07 14:34:15 : Checking if Village needs Rearming..
+2015-08-07 14:34:21 : checkMainScreen start quiet mode
+2015-08-07 14:34:21 : checkMainScreen exit quiet mode
+2015-08-07 14:34:22 : checkMainScreen start quiet mode
+2015-08-07 14:34:22 : checkMainScreen exit quiet mode
+2015-08-07 14:34:23 : Village Report
+2015-08-07 14:34:23 : Cannot get Free/Total Builders
+2015-08-07 14:34:23 : No. of Free/Total Builders: 0/0
+2015-08-07 14:34:23 :  [T]: 2 589
+2015-08-07 14:34:23 :  [G]: 2 557 639 [E]: 5 302 315 [D]: 79 350 [GEM]: 1 981
+2015-08-07 14:34:24 : checkMainScreen start quiet mode
+2015-08-07 14:34:24 : checkMainScreen exit quiet mode
+2015-08-07 14:34:24 : checkMainScreen start quiet mode
+2015-08-07 14:34:24 : checkMainScreen exit quiet mode
+2015-08-07 14:34:26 : checkMainScreen start quiet mode
+2015-08-07 14:34:26 : checkMainScreen exit quiet mode
+2015-08-07 14:34:26 : Func Train 
+2015-08-07 14:34:27 : checkMainScreen start quiet mode
+2015-08-07 14:34:27 : checkMainScreen exit quiet mode
+2015-08-07 14:34:28 : checkMainScreen start quiet mode
+2015-08-07 14:34:28 : checkMainScreen exit quiet mode
+2015-08-07 14:34:29 : checkMainScreen start quiet mode
+2015-08-07 14:34:29 : checkMainScreen exit quiet mode
+2015-08-07 14:34:29 : checkMainScreen start quiet mode
+2015-08-07 14:34:29 : checkMainScreen exit quiet mode
+2015-08-07 14:34:30 : checkMainScreen start quiet mode
+2015-08-07 14:34:30 : checkMainScreen exit quiet mode
+2015-08-07 14:34:32 : Finished kicking
+2015-08-07 14:34:32 : Func Idle 
+2015-08-07 14:34:43 : checkMainScreen start quiet mode
+2015-08-07 14:34:43 : checkMainScreen exit quiet mode
+2015-08-07 14:34:44 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:34:45 : checkMainScreen start quiet mode
+2015-08-07 14:34:46 : CheckObstacles Result = True
+2015-08-07 14:34:46 : Waiting for Main Screen
+2015-08-07 14:34:46 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:34:49 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:34:49 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:34:49 : checkMainScreen exit quiet mode
+2015-08-07 14:34:49 : Bot clean start
+2015-08-07 14:34:50 : Trying to locate Main Screen
+2015-08-07 14:34:50 : Main Screen Located
+2015-08-07 14:34:51 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:34:52 : checkMainScreen start quiet mode
+2015-08-07 14:34:52 : checkMainScreen exit quiet mode
+2015-08-07 14:34:52 : Collecting Resources
+2015-08-07 14:34:58 : checkMainScreen start quiet mode
+2015-08-07 14:34:58 : checkMainScreen exit quiet mode
+2015-08-07 14:34:59 : Checking if Village needs Rearming..
+2015-08-07 14:35:06 : checkMainScreen start quiet mode
+2015-08-07 14:35:06 : checkMainScreen exit quiet mode
+2015-08-07 14:35:07 : checkMainScreen start quiet mode
+2015-08-07 14:35:07 : checkMainScreen exit quiet mode
+2015-08-07 14:35:07 : Village Report
+2015-08-07 14:35:07 : Cannot get Free/Total Builders
+2015-08-07 14:35:08 : No. of Free/Total Builders: 0/0
+2015-08-07 14:35:08 :  [T]: 2 589
+2015-08-07 14:35:08 :  [G]: 2 557 639 [E]: 5 302 969 [D]: 79 352 [GEM]: 1 981
+2015-08-07 14:35:08 : checkMainScreen start quiet mode
+2015-08-07 14:35:08 : checkMainScreen exit quiet mode
+2015-08-07 14:35:09 : checkMainScreen start quiet mode
+2015-08-07 14:35:09 : checkMainScreen exit quiet mode
+2015-08-07 14:35:10 : checkMainScreen start quiet mode
+2015-08-07 14:35:10 : checkMainScreen exit quiet mode
+2015-08-07 14:35:10 : Func Train 
+2015-08-07 14:35:11 : checkMainScreen start quiet mode
+2015-08-07 14:35:11 : checkMainScreen exit quiet mode
+2015-08-07 14:35:12 : checkMainScreen start quiet mode
+2015-08-07 14:35:12 : checkMainScreen exit quiet mode
+2015-08-07 14:35:13 : checkMainScreen start quiet mode
+2015-08-07 14:35:13 : checkMainScreen exit quiet mode
+2015-08-07 14:35:14 : checkMainScreen start quiet mode
+2015-08-07 14:35:14 : checkMainScreen exit quiet mode
+2015-08-07 14:35:14 : checkMainScreen start quiet mode
+2015-08-07 14:35:14 : checkMainScreen exit quiet mode
+2015-08-07 14:35:16 : Finished kicking
+2015-08-07 14:35:17 : Func Idle 
+2015-08-07 14:35:28 : checkMainScreen start quiet mode
+2015-08-07 14:35:28 : checkMainScreen exit quiet mode
+2015-08-07 14:35:28 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:35:29 : checkMainScreen start quiet mode
+2015-08-07 14:35:31 : CheckObstacles Result = True
+2015-08-07 14:35:31 : Waiting for Main Screen
+2015-08-07 14:35:31 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:35:33 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:35:33 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:35:33 : checkMainScreen exit quiet mode
+2015-08-07 14:35:34 : Bot clean start
+2015-08-07 14:35:35 : Trying to locate Main Screen
+2015-08-07 14:35:35 : Main Screen Located
+2015-08-07 14:35:35 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:35:37 : checkMainScreen start quiet mode
+2015-08-07 14:35:37 : checkMainScreen exit quiet mode
+2015-08-07 14:35:37 : Collecting Resources
+2015-08-07 14:35:42 : checkMainScreen start quiet mode
+2015-08-07 14:35:42 : checkMainScreen exit quiet mode
+2015-08-07 14:35:43 : Checking if Village needs Rearming..
+2015-08-07 14:35:50 : checkMainScreen start quiet mode
+2015-08-07 14:35:50 : checkMainScreen exit quiet mode
+2015-08-07 14:35:50 : checkMainScreen start quiet mode
+2015-08-07 14:35:50 : checkMainScreen exit quiet mode
+2015-08-07 14:35:51 : Village Report
+2015-08-07 14:35:51 : Cannot get Free/Total Builders
+2015-08-07 14:35:51 : No. of Free/Total Builders: 0/0
+2015-08-07 14:35:51 :  [T]: 2 589
+2015-08-07 14:35:51 :  [G]: 2 557 639 [E]: 5 302 969 [D]: 79 352 [GEM]: 1 981
+2015-08-07 14:35:52 : checkMainScreen start quiet mode
+2015-08-07 14:35:52 : checkMainScreen exit quiet mode
+2015-08-07 14:35:53 : checkMainScreen start quiet mode
+2015-08-07 14:35:53 : checkMainScreen exit quiet mode
+2015-08-07 14:35:54 : checkMainScreen start quiet mode
+2015-08-07 14:35:54 : checkMainScreen exit quiet mode
+2015-08-07 14:35:54 : Func Train 
+2015-08-07 14:35:55 : checkMainScreen start quiet mode
+2015-08-07 14:35:55 : checkMainScreen exit quiet mode
+2015-08-07 14:35:56 : checkMainScreen start quiet mode
+2015-08-07 14:35:56 : checkMainScreen exit quiet mode
+2015-08-07 14:35:57 : checkMainScreen start quiet mode
+2015-08-07 14:35:57 : checkMainScreen exit quiet mode
+2015-08-07 14:35:57 : checkMainScreen start quiet mode
+2015-08-07 14:35:57 : checkMainScreen exit quiet mode
+2015-08-07 14:35:58 : checkMainScreen start quiet mode
+2015-08-07 14:35:58 : checkMainScreen exit quiet mode
+2015-08-07 14:36:00 : Finished kicking
+2015-08-07 14:36:00 : Func Idle 
+2015-08-07 14:36:11 : checkMainScreen start quiet mode
+2015-08-07 14:36:11 : checkMainScreen exit quiet mode
+2015-08-07 14:36:12 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:36:13 : checkMainScreen start quiet mode
+2015-08-07 14:36:14 : CheckObstacles Result = True
+2015-08-07 14:36:14 : Waiting for Main Screen
+2015-08-07 14:36:14 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:36:17 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:36:17 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:36:17 : checkMainScreen exit quiet mode
+2015-08-07 14:36:17 : Bot clean start
+2015-08-07 14:36:18 : Trying to locate Main Screen
+2015-08-07 14:36:18 : Main Screen Located
+2015-08-07 14:36:19 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:36:20 : checkMainScreen start quiet mode
+2015-08-07 14:36:20 : checkMainScreen exit quiet mode
+2015-08-07 14:36:20 : Collecting Resources
+2015-08-07 14:36:27 : checkMainScreen start quiet mode
+2015-08-07 14:36:27 : checkMainScreen exit quiet mode
+2015-08-07 14:36:28 : Checking if Village needs Rearming..
+2015-08-07 14:36:34 : checkMainScreen start quiet mode
+2015-08-07 14:36:34 : checkMainScreen exit quiet mode
+2015-08-07 14:36:35 : checkMainScreen start quiet mode
+2015-08-07 14:36:35 : checkMainScreen exit quiet mode
+2015-08-07 14:36:36 : Village Report
+2015-08-07 14:36:36 : Cannot get Free/Total Builders
+2015-08-07 14:36:36 : No. of Free/Total Builders: 0/0
+2015-08-07 14:36:36 :  [T]: 2 589
+2015-08-07 14:36:36 :  [G]: 2 557 639 [E]: 5 303 893 [D]: 79 354 [GEM]: 1 981
+2015-08-07 14:36:36 : checkMainScreen start quiet mode
+2015-08-07 14:36:37 : checkMainScreen exit quiet mode
+2015-08-07 14:36:37 : checkMainScreen start quiet mode
+2015-08-07 14:36:37 : checkMainScreen exit quiet mode
+2015-08-07 14:36:38 : checkMainScreen start quiet mode
+2015-08-07 14:36:38 : checkMainScreen exit quiet mode
+2015-08-07 14:36:38 : Func Train 
+2015-08-07 14:36:39 : checkMainScreen start quiet mode
+2015-08-07 14:36:39 : checkMainScreen exit quiet mode
+2015-08-07 14:36:40 : checkMainScreen start quiet mode
+2015-08-07 14:36:40 : checkMainScreen exit quiet mode
+2015-08-07 14:36:41 : checkMainScreen start quiet mode
+2015-08-07 14:36:41 : checkMainScreen exit quiet mode
+2015-08-07 14:36:42 : checkMainScreen start quiet mode
+2015-08-07 14:36:42 : checkMainScreen exit quiet mode
+2015-08-07 14:36:43 : checkMainScreen start quiet mode
+2015-08-07 14:36:43 : checkMainScreen exit quiet mode
+2015-08-07 14:36:45 : Finished kicking
+2015-08-07 14:36:45 : Func Idle 
+2015-08-07 14:36:56 : checkMainScreen start quiet mode
+2015-08-07 14:36:56 : checkMainScreen exit quiet mode
+2015-08-07 14:36:57 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:36:58 : checkMainScreen start quiet mode
+2015-08-07 14:36:59 : CheckObstacles Result = True
+2015-08-07 14:36:59 : Waiting for Main Screen
+2015-08-07 14:36:59 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:37:01 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:37:01 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:37:01 : checkMainScreen exit quiet mode
+2015-08-07 14:37:02 : Bot clean start
+2015-08-07 14:37:03 : Trying to locate Main Screen
+2015-08-07 14:37:03 : Main Screen Located
+2015-08-07 14:37:03 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:37:05 : checkMainScreen start quiet mode
+2015-08-07 14:37:05 : checkMainScreen exit quiet mode
+2015-08-07 14:37:05 : Collecting Resources
+2015-08-07 14:37:11 : checkMainScreen start quiet mode
+2015-08-07 14:37:11 : checkMainScreen exit quiet mode
+2015-08-07 14:37:13 : Checking if Village needs Rearming..
+2015-08-07 14:37:19 : checkMainScreen start quiet mode
+2015-08-07 14:37:19 : checkMainScreen exit quiet mode
+2015-08-07 14:37:20 : checkMainScreen start quiet mode
+2015-08-07 14:37:20 : checkMainScreen exit quiet mode
+2015-08-07 14:37:20 : Village Report
+2015-08-07 14:37:20 : Cannot get Free/Total Builders
+2015-08-07 14:37:20 : No. of Free/Total Builders: 0/0
+2015-08-07 14:37:20 :  [T]: 2 589
+2015-08-07 14:37:21 :  [G]: 2 560 290 [E]: 5 303 893 [D]: 79 354 [GEM]: 1 981
+2015-08-07 14:37:21 : checkMainScreen start quiet mode
+2015-08-07 14:37:21 : checkMainScreen exit quiet mode
+2015-08-07 14:37:22 : checkMainScreen start quiet mode
+2015-08-07 14:37:22 : checkMainScreen exit quiet mode
+2015-08-07 14:37:23 : checkMainScreen start quiet mode
+2015-08-07 14:37:23 : checkMainScreen exit quiet mode
+2015-08-07 14:37:23 : Func Train 
+2015-08-07 14:37:24 : checkMainScreen start quiet mode
+2015-08-07 14:37:24 : checkMainScreen exit quiet mode
+2015-08-07 14:37:25 : checkMainScreen start quiet mode
+2015-08-07 14:37:25 : checkMainScreen exit quiet mode
+2015-08-07 14:37:26 : checkMainScreen start quiet mode
+2015-08-07 14:37:26 : checkMainScreen exit quiet mode
+2015-08-07 14:37:26 : checkMainScreen start quiet mode
+2015-08-07 14:37:26 : checkMainScreen exit quiet mode
+2015-08-07 14:37:27 : checkMainScreen start quiet mode
+2015-08-07 14:37:27 : checkMainScreen exit quiet mode
+2015-08-07 14:37:29 : Finished kicking
+2015-08-07 14:37:29 : Func Idle 
+2015-08-07 14:37:41 : checkMainScreen start quiet mode
+2015-08-07 14:37:41 : checkMainScreen exit quiet mode
+2015-08-07 14:37:41 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:37:42 : checkMainScreen start quiet mode
+2015-08-07 14:37:44 : CheckObstacles Result = True
+2015-08-07 14:37:44 : Waiting for Main Screen
+2015-08-07 14:37:44 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:37:46 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:37:46 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:37:46 : checkMainScreen exit quiet mode
+2015-08-07 14:37:47 : Bot clean start
+2015-08-07 14:37:48 : Trying to locate Main Screen
+2015-08-07 14:37:48 : Main Screen Located
+2015-08-07 14:37:48 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:37:49 : checkMainScreen start quiet mode
+2015-08-07 14:37:50 : checkMainScreen exit quiet mode
+2015-08-07 14:37:50 : Collecting Resources
+2015-08-07 14:37:55 : checkMainScreen start quiet mode
+2015-08-07 14:37:55 : checkMainScreen exit quiet mode
+2015-08-07 14:37:57 : Checking if Village needs Rearming..
+2015-08-07 14:38:03 : checkMainScreen start quiet mode
+2015-08-07 14:38:03 : checkMainScreen exit quiet mode
+2015-08-07 14:38:04 : checkMainScreen start quiet mode
+2015-08-07 14:38:04 : checkMainScreen exit quiet mode
+2015-08-07 14:38:05 : Village Report
+2015-08-07 14:38:05 : Cannot get Free/Total Builders
+2015-08-07 14:38:05 : No. of Free/Total Builders: 0/0
+2015-08-07 14:38:05 :  [T]: 2 589
+2015-08-07 14:38:05 :  [G]: 2 560 290 [E]: 5 303 893 [D]: 79 356 [GEM]: 1 981
+2015-08-07 14:38:05 : checkMainScreen start quiet mode
+2015-08-07 14:38:05 : checkMainScreen exit quiet mode
+2015-08-07 14:38:06 : checkMainScreen start quiet mode
+2015-08-07 14:38:06 : checkMainScreen exit quiet mode
+2015-08-07 14:38:07 : checkMainScreen start quiet mode
+2015-08-07 14:38:07 : checkMainScreen exit quiet mode
+2015-08-07 14:38:07 : Func Train 
+2015-08-07 14:38:08 : checkMainScreen start quiet mode
+2015-08-07 14:38:08 : checkMainScreen exit quiet mode
+2015-08-07 14:38:09 : checkMainScreen start quiet mode
+2015-08-07 14:38:09 : checkMainScreen exit quiet mode
+2015-08-07 14:38:10 : checkMainScreen start quiet mode
+2015-08-07 14:38:10 : checkMainScreen exit quiet mode
+2015-08-07 14:38:11 : checkMainScreen start quiet mode
+2015-08-07 14:38:11 : checkMainScreen exit quiet mode
+2015-08-07 14:38:11 : checkMainScreen start quiet mode
+2015-08-07 14:38:11 : checkMainScreen exit quiet mode
+2015-08-07 14:38:14 : Finished kicking
+2015-08-07 14:38:14 : Func Idle 
+2015-08-07 14:38:25 : checkMainScreen start quiet mode
+2015-08-07 14:38:25 : checkMainScreen exit quiet mode
+2015-08-07 14:38:25 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:38:27 : checkMainScreen start quiet mode
+2015-08-07 14:38:28 : CheckObstacles Result = True
+2015-08-07 14:38:28 : Waiting for Main Screen
+2015-08-07 14:38:28 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:38:30 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:38:30 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:38:30 : checkMainScreen exit quiet mode
+2015-08-07 14:38:31 : Bot clean start
+2015-08-07 14:38:32 : Trying to locate Main Screen
+2015-08-07 14:38:32 : Main Screen Located
+2015-08-07 14:38:32 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:38:34 : checkMainScreen start quiet mode
+2015-08-07 14:38:34 : checkMainScreen exit quiet mode
+2015-08-07 14:38:34 : Collecting Resources
+2015-08-07 14:38:39 : checkMainScreen start quiet mode
+2015-08-07 14:38:39 : checkMainScreen exit quiet mode
+2015-08-07 14:38:40 : Checking if Village needs Rearming..
+2015-08-07 14:38:47 : checkMainScreen start quiet mode
+2015-08-07 14:38:47 : checkMainScreen exit quiet mode
+2015-08-07 14:38:47 : checkMainScreen start quiet mode
+2015-08-07 14:38:47 : checkMainScreen exit quiet mode
+2015-08-07 14:38:48 : Village Report
+2015-08-07 14:38:48 : Cannot get Free/Total Builders
+2015-08-07 14:38:48 : No. of Free/Total Builders: 0/0
+2015-08-07 14:38:48 :  [T]: 2 589
+2015-08-07 14:38:48 :  [G]: 2 560 290 [E]: 5 303 893 [D]: 79 356 [GEM]: 1 981
+2015-08-07 14:38:49 : checkMainScreen start quiet mode
+2015-08-07 14:38:49 : checkMainScreen exit quiet mode
+2015-08-07 14:38:50 : checkMainScreen start quiet mode
+2015-08-07 14:38:50 : checkMainScreen exit quiet mode
+2015-08-07 14:38:51 : checkMainScreen start quiet mode
+2015-08-07 14:38:51 : checkMainScreen exit quiet mode
+2015-08-07 14:38:51 : Func Train 
+2015-08-07 14:38:52 : checkMainScreen start quiet mode
+2015-08-07 14:38:52 : checkMainScreen exit quiet mode
+2015-08-07 14:38:53 : checkMainScreen start quiet mode
+2015-08-07 14:38:53 : checkMainScreen exit quiet mode
+2015-08-07 14:38:54 : checkMainScreen start quiet mode
+2015-08-07 14:38:54 : checkMainScreen exit quiet mode
+2015-08-07 14:38:54 : checkMainScreen start quiet mode
+2015-08-07 14:38:54 : checkMainScreen exit quiet mode
+2015-08-07 14:38:55 : checkMainScreen start quiet mode
+2015-08-07 14:38:55 : checkMainScreen exit quiet mode
+2015-08-07 14:38:57 : Finished kicking
+2015-08-07 14:38:57 : Func Idle 
+2015-08-07 14:39:08 : checkMainScreen start quiet mode
+2015-08-07 14:39:09 : checkMainScreen exit quiet mode
+2015-08-07 14:39:09 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:39:10 : checkMainScreen start quiet mode
+2015-08-07 14:39:12 : CheckObstacles Result = True
+2015-08-07 14:39:12 : Waiting for Main Screen
+2015-08-07 14:39:12 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:39:14 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:39:14 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:39:14 : checkMainScreen exit quiet mode
+2015-08-07 14:39:14 : Bot clean start
+2015-08-07 14:39:16 : Trying to locate Main Screen
+2015-08-07 14:39:16 : Main Screen Located
+2015-08-07 14:39:16 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:39:17 : checkMainScreen start quiet mode
+2015-08-07 14:39:17 : checkMainScreen exit quiet mode
+2015-08-07 14:39:18 : Collecting Resources
+2015-08-07 14:39:23 : checkMainScreen start quiet mode
+2015-08-07 14:39:23 : checkMainScreen exit quiet mode
+2015-08-07 14:39:25 : Checking if Village needs Rearming..
+2015-08-07 14:39:31 : checkMainScreen start quiet mode
+2015-08-07 14:39:31 : checkMainScreen exit quiet mode
+2015-08-07 14:39:32 : checkMainScreen start quiet mode
+2015-08-07 14:39:32 : checkMainScreen exit quiet mode
+2015-08-07 14:39:32 : Village Report
+2015-08-07 14:39:32 : Cannot get Free/Total Builders
+2015-08-07 14:39:32 : No. of Free/Total Builders: 0/0
+2015-08-07 14:39:32 :  [T]: 2 589
+2015-08-07 14:39:33 :  [G]: 2 560 290 [E]: 5 304 539 [D]: 79 358 [GEM]: 1 981
+2015-08-07 14:39:33 : checkMainScreen start quiet mode
+2015-08-07 14:39:33 : checkMainScreen exit quiet mode
+2015-08-07 14:39:34 : checkMainScreen start quiet mode
+2015-08-07 14:39:34 : checkMainScreen exit quiet mode
+2015-08-07 14:39:35 : checkMainScreen start quiet mode
+2015-08-07 14:39:35 : checkMainScreen exit quiet mode
+2015-08-07 14:39:35 : Func Train 
+2015-08-07 14:39:36 : checkMainScreen start quiet mode
+2015-08-07 14:39:36 : checkMainScreen exit quiet mode
+2015-08-07 14:39:37 : checkMainScreen start quiet mode
+2015-08-07 14:39:37 : checkMainScreen exit quiet mode
+2015-08-07 14:39:38 : checkMainScreen start quiet mode
+2015-08-07 14:39:38 : checkMainScreen exit quiet mode
+2015-08-07 14:39:38 : checkMainScreen start quiet mode
+2015-08-07 14:39:38 : checkMainScreen exit quiet mode
+2015-08-07 14:39:39 : checkMainScreen start quiet mode
+2015-08-07 14:39:39 : checkMainScreen exit quiet mode
+2015-08-07 14:39:41 : Finished kicking
+2015-08-07 14:39:41 : Func Idle 
+2015-08-07 14:39:52 : checkMainScreen start quiet mode
+2015-08-07 14:39:52 : checkMainScreen exit quiet mode
+2015-08-07 14:39:53 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:39:54 : checkMainScreen start quiet mode
+2015-08-07 14:39:56 : CheckObstacles Result = True
+2015-08-07 14:39:56 : Waiting for Main Screen
+2015-08-07 14:39:56 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:39:58 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:39:58 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:39:58 : checkMainScreen exit quiet mode
+2015-08-07 14:39:58 : Bot clean start
+2015-08-07 14:39:59 : Trying to locate Main Screen
+2015-08-07 14:39:59 : Main Screen Located
+2015-08-07 14:40:00 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:40:01 : checkMainScreen start quiet mode
+2015-08-07 14:40:01 : checkMainScreen exit quiet mode
+2015-08-07 14:40:02 : Collecting Resources
+2015-08-07 14:40:08 : checkMainScreen start quiet mode
+2015-08-07 14:40:08 : checkMainScreen exit quiet mode
+2015-08-07 14:40:09 : Checking if Village needs Rearming..
+2015-08-07 14:40:15 : checkMainScreen start quiet mode
+2015-08-07 14:40:15 : checkMainScreen exit quiet mode
+2015-08-07 14:40:16 : checkMainScreen start quiet mode
+2015-08-07 14:40:16 : checkMainScreen exit quiet mode
+2015-08-07 14:40:17 : Village Report
+2015-08-07 14:40:17 : Cannot get Free/Total Builders
+2015-08-07 14:40:17 : No. of Free/Total Builders: 0/0
+2015-08-07 14:40:17 :  [T]: 2 589
+2015-08-07 14:40:17 :  [G]: 2 560 290 [E]: 5 305 465 [D]: 79 358 [GEM]: 1 981
+2015-08-07 14:40:18 : checkMainScreen start quiet mode
+2015-08-07 14:40:18 : checkMainScreen exit quiet mode
+2015-08-07 14:40:18 : checkMainScreen start quiet mode
+2015-08-07 14:40:18 : checkMainScreen exit quiet mode
+2015-08-07 14:40:20 : checkMainScreen start quiet mode
+2015-08-07 14:40:20 : checkMainScreen exit quiet mode
+2015-08-07 14:40:20 : Func Train 
+2015-08-07 14:40:21 : checkMainScreen start quiet mode
+2015-08-07 14:40:21 : checkMainScreen exit quiet mode
+2015-08-07 14:40:22 : checkMainScreen start quiet mode
+2015-08-07 14:40:22 : checkMainScreen exit quiet mode
+2015-08-07 14:40:23 : checkMainScreen start quiet mode
+2015-08-07 14:40:23 : checkMainScreen exit quiet mode
+2015-08-07 14:40:23 : checkMainScreen start quiet mode
+2015-08-07 14:40:23 : checkMainScreen exit quiet mode
+2015-08-07 14:40:24 : checkMainScreen start quiet mode
+2015-08-07 14:40:24 : checkMainScreen exit quiet mode
+2015-08-07 14:40:26 : Finished kicking
+2015-08-07 14:40:26 : Func Idle 
+2015-08-07 14:40:37 : checkMainScreen start quiet mode
+2015-08-07 14:40:37 : checkMainScreen exit quiet mode
+2015-08-07 14:40:38 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:40:39 : checkMainScreen start quiet mode
+2015-08-07 14:40:40 : CheckObstacles Result = True
+2015-08-07 14:40:40 : Waiting for Main Screen
+2015-08-07 14:40:40 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:40:42 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:40:42 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:40:43 : checkMainScreen exit quiet mode
+2015-08-07 14:40:43 : Bot clean start
+2015-08-07 14:40:44 : Trying to locate Main Screen
+2015-08-07 14:40:44 : Main Screen Located
+2015-08-07 14:40:45 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:40:46 : checkMainScreen start quiet mode
+2015-08-07 14:40:46 : checkMainScreen exit quiet mode
+2015-08-07 14:40:46 : Collecting Resources
+2015-08-07 14:40:52 : checkMainScreen start quiet mode
+2015-08-07 14:40:52 : checkMainScreen exit quiet mode
+2015-08-07 14:40:53 : Checking if Village needs Rearming..
+2015-08-07 14:40:59 : checkMainScreen start quiet mode
+2015-08-07 14:40:59 : checkMainScreen exit quiet mode
+2015-08-07 14:41:00 : checkMainScreen start quiet mode
+2015-08-07 14:41:00 : checkMainScreen exit quiet mode
+2015-08-07 14:41:01 : Village Report
+2015-08-07 14:41:01 : Cannot get Free/Total Builders
+2015-08-07 14:41:01 : No. of Free/Total Builders: 0/0
+2015-08-07 14:41:01 :  [T]: 2 589
+2015-08-07 14:41:01 :  [G]: 2 560 290 [E]: 5 305 465 [D]: 79 360 [GEM]: 1 981
+2015-08-07 14:41:02 : checkMainScreen start quiet mode
+2015-08-07 14:41:02 : checkMainScreen exit quiet mode
+2015-08-07 14:41:02 : checkMainScreen start quiet mode
+2015-08-07 14:41:02 : checkMainScreen exit quiet mode
+2015-08-07 14:41:03 : checkMainScreen start quiet mode
+2015-08-07 14:41:04 : checkMainScreen exit quiet mode
+2015-08-07 14:41:04 : Func Train 
+2015-08-07 14:41:05 : checkMainScreen start quiet mode
+2015-08-07 14:41:05 : checkMainScreen exit quiet mode
+2015-08-07 14:41:06 : checkMainScreen start quiet mode
+2015-08-07 14:41:06 : checkMainScreen exit quiet mode
+2015-08-07 14:41:07 : checkMainScreen start quiet mode
+2015-08-07 14:41:07 : checkMainScreen exit quiet mode
+2015-08-07 14:41:07 : checkMainScreen start quiet mode
+2015-08-07 14:41:07 : checkMainScreen exit quiet mode
+2015-08-07 14:41:08 : checkMainScreen start quiet mode
+2015-08-07 14:41:08 : checkMainScreen exit quiet mode
+2015-08-07 14:41:10 : Finished kicking
+2015-08-07 14:41:10 : Func Idle 
+2015-08-07 14:41:21 : checkMainScreen start quiet mode
+2015-08-07 14:41:21 : checkMainScreen exit quiet mode
+2015-08-07 14:41:22 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:41:23 : checkMainScreen start quiet mode
+2015-08-07 14:41:24 : CheckObstacles Result = True
+2015-08-07 14:41:24 : Waiting for Main Screen
+2015-08-07 14:41:24 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:41:26 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:41:27 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:41:27 : checkMainScreen exit quiet mode
+2015-08-07 14:41:27 : Bot clean start
+2015-08-07 14:41:28 : Trying to locate Main Screen
+2015-08-07 14:41:28 : Main Screen Located
+2015-08-07 14:41:29 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:41:30 : checkMainScreen start quiet mode
+2015-08-07 14:41:30 : checkMainScreen exit quiet mode
+2015-08-07 14:41:31 : Collecting Resources
+2015-08-07 14:41:36 : checkMainScreen start quiet mode
+2015-08-07 14:41:36 : checkMainScreen exit quiet mode
+2015-08-07 14:41:37 : Checking if Village needs Rearming..
+2015-08-07 14:41:43 : checkMainScreen start quiet mode
+2015-08-07 14:41:43 : checkMainScreen exit quiet mode
+2015-08-07 14:41:44 : checkMainScreen start quiet mode
+2015-08-07 14:41:44 : checkMainScreen exit quiet mode
+2015-08-07 14:41:45 : Village Report
+2015-08-07 14:41:45 : Cannot get Free/Total Builders
+2015-08-07 14:41:45 : No. of Free/Total Builders: 0/0
+2015-08-07 14:41:45 :  [T]: 2 589
+2015-08-07 14:41:45 :  [G]: 2 560 290 [E]: 5 305 465 [D]: 79 360 [GEM]: 1 981
+2015-08-07 14:41:45 : checkMainScreen start quiet mode
+2015-08-07 14:41:45 : checkMainScreen exit quiet mode
+2015-08-07 14:41:46 : checkMainScreen start quiet mode
+2015-08-07 14:41:46 : checkMainScreen exit quiet mode
+2015-08-07 14:41:47 : checkMainScreen start quiet mode
+2015-08-07 14:41:47 : checkMainScreen exit quiet mode
+2015-08-07 14:41:47 : Func Train 
+2015-08-07 14:41:48 : checkMainScreen start quiet mode
+2015-08-07 14:41:48 : checkMainScreen exit quiet mode
+2015-08-07 14:41:49 : checkMainScreen start quiet mode
+2015-08-07 14:41:49 : checkMainScreen exit quiet mode
+2015-08-07 14:41:50 : checkMainScreen start quiet mode
+2015-08-07 14:41:50 : checkMainScreen exit quiet mode
+2015-08-07 14:41:51 : checkMainScreen start quiet mode
+2015-08-07 14:41:51 : checkMainScreen exit quiet mode
+2015-08-07 14:41:51 : checkMainScreen start quiet mode
+2015-08-07 14:41:51 : checkMainScreen exit quiet mode
+2015-08-07 14:41:54 : Finished kicking
+2015-08-07 14:41:54 : Func Idle 
+2015-08-07 14:42:05 : checkMainScreen start quiet mode
+2015-08-07 14:42:05 : checkMainScreen exit quiet mode
+2015-08-07 14:42:05 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:42:07 : checkMainScreen start quiet mode
+2015-08-07 14:42:08 : CheckObstacles Result = True
+2015-08-07 14:42:08 : Waiting for Main Screen
+2015-08-07 14:42:08 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:42:10 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:42:10 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:42:10 : checkMainScreen exit quiet mode
+2015-08-07 14:42:11 : Bot clean start
+2015-08-07 14:42:12 : Trying to locate Main Screen
+2015-08-07 14:42:12 : Main Screen Located
+2015-08-07 14:42:12 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:42:14 : checkMainScreen start quiet mode
+2015-08-07 14:42:14 : checkMainScreen exit quiet mode
+2015-08-07 14:42:14 : Collecting Resources
+2015-08-07 14:42:20 : checkMainScreen start quiet mode
+2015-08-07 14:42:20 : checkMainScreen exit quiet mode
+2015-08-07 14:42:22 : Checking if Village needs Rearming..
+2015-08-07 14:42:28 : checkMainScreen start quiet mode
+2015-08-07 14:42:28 : checkMainScreen exit quiet mode
+2015-08-07 14:42:29 : checkMainScreen start quiet mode
+2015-08-07 14:42:29 : checkMainScreen exit quiet mode
+2015-08-07 14:42:29 : Village Report
+2015-08-07 14:42:30 : Cannot get Free/Total Builders
+2015-08-07 14:42:30 : No. of Free/Total Builders: 0/0
+2015-08-07 14:42:30 :  [T]: 2 589
+2015-08-07 14:42:30 :  [G]: 2 562 936 [E]: 5 305 465 [D]: 79 362 [GEM]: 1 981
+2015-08-07 14:42:30 : checkMainScreen start quiet mode
+2015-08-07 14:42:30 : checkMainScreen exit quiet mode
+2015-08-07 14:42:31 : checkMainScreen start quiet mode
+2015-08-07 14:42:31 : checkMainScreen exit quiet mode
+2015-08-07 14:42:32 : checkMainScreen start quiet mode
+2015-08-07 14:42:32 : checkMainScreen exit quiet mode
+2015-08-07 14:42:32 : Func Train 
+2015-08-07 14:42:33 : checkMainScreen start quiet mode
+2015-08-07 14:42:33 : checkMainScreen exit quiet mode
+2015-08-07 14:42:34 : checkMainScreen start quiet mode
+2015-08-07 14:42:34 : checkMainScreen exit quiet mode
+2015-08-07 14:42:35 : checkMainScreen start quiet mode
+2015-08-07 14:42:35 : checkMainScreen exit quiet mode
+2015-08-07 14:42:36 : checkMainScreen start quiet mode
+2015-08-07 14:42:36 : checkMainScreen exit quiet mode
+2015-08-07 14:42:36 : checkMainScreen start quiet mode
+2015-08-07 14:42:36 : checkMainScreen exit quiet mode
+2015-08-07 14:42:38 : Finished kicking
+2015-08-07 14:42:38 : Func Idle 
+2015-08-07 14:42:50 : checkMainScreen start quiet mode
+2015-08-07 14:42:50 : checkMainScreen exit quiet mode
+2015-08-07 14:42:50 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:42:51 : checkMainScreen start quiet mode
+2015-08-07 14:42:53 : CheckObstacles Result = True
+2015-08-07 14:42:53 : Waiting for Main Screen
+2015-08-07 14:42:53 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:42:55 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:42:55 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:42:55 : checkMainScreen exit quiet mode
+2015-08-07 14:42:56 : Bot clean start
+2015-08-07 14:42:57 : Trying to locate Main Screen
+2015-08-07 14:42:57 : Main Screen Located
+2015-08-07 14:42:57 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:42:59 : checkMainScreen start quiet mode
+2015-08-07 14:42:59 : checkMainScreen exit quiet mode
+2015-08-07 14:42:59 : Collecting Resources
+2015-08-07 14:43:04 : checkMainScreen start quiet mode
+2015-08-07 14:43:04 : checkMainScreen exit quiet mode
+2015-08-07 14:43:05 : Checking if Village needs Rearming..
+2015-08-07 14:43:12 : checkMainScreen start quiet mode
+2015-08-07 14:43:12 : checkMainScreen exit quiet mode
+2015-08-07 14:43:12 : checkMainScreen start quiet mode
+2015-08-07 14:43:12 : checkMainScreen exit quiet mode
+2015-08-07 14:43:13 : Village Report
+2015-08-07 14:43:13 : Cannot get Free/Total Builders
+2015-08-07 14:43:13 : No. of Free/Total Builders: 0/0
+2015-08-07 14:43:13 :  [T]: 2 589
+2015-08-07 14:43:13 :  [G]: 2 562 936 [E]: 5 305 465 [D]: 79 362 [GEM]: 1 981
+2015-08-07 14:43:14 : checkMainScreen start quiet mode
+2015-08-07 14:43:14 : checkMainScreen exit quiet mode
+2015-08-07 14:43:14 : checkMainScreen start quiet mode
+2015-08-07 14:43:14 : checkMainScreen exit quiet mode
+2015-08-07 14:43:16 : checkMainScreen start quiet mode
+2015-08-07 14:43:16 : checkMainScreen exit quiet mode
+2015-08-07 14:43:16 : Func Train 
+2015-08-07 14:43:17 : checkMainScreen start quiet mode
+2015-08-07 14:43:17 : checkMainScreen exit quiet mode
+2015-08-07 14:43:18 : checkMainScreen start quiet mode
+2015-08-07 14:43:18 : checkMainScreen exit quiet mode
+2015-08-07 14:43:19 : checkMainScreen start quiet mode
+2015-08-07 14:43:19 : checkMainScreen exit quiet mode
+2015-08-07 14:43:19 : checkMainScreen start quiet mode
+2015-08-07 14:43:19 : checkMainScreen exit quiet mode
+2015-08-07 14:43:20 : checkMainScreen start quiet mode
+2015-08-07 14:43:20 : checkMainScreen exit quiet mode
+2015-08-07 14:43:22 : Finished kicking
+2015-08-07 14:43:22 : Func Idle 
+2015-08-07 14:43:33 : checkMainScreen start quiet mode
+2015-08-07 14:43:33 : checkMainScreen exit quiet mode
+2015-08-07 14:43:34 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:43:35 : checkMainScreen start quiet mode
+2015-08-07 14:43:36 : CheckObstacles Result = True
+2015-08-07 14:43:36 : Waiting for Main Screen
+2015-08-07 14:43:36 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:43:39 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:43:39 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:43:39 : checkMainScreen exit quiet mode
+2015-08-07 14:43:39 : Bot clean start
+2015-08-07 14:43:40 : Trying to locate Main Screen
+2015-08-07 14:43:40 : Main Screen Located
+2015-08-07 14:43:41 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:43:42 : checkMainScreen start quiet mode
+2015-08-07 14:43:42 : checkMainScreen exit quiet mode
+2015-08-07 14:43:42 : Collecting Resources
+2015-08-07 14:43:48 : checkMainScreen start quiet mode
+2015-08-07 14:43:48 : checkMainScreen exit quiet mode
+2015-08-07 14:43:50 : Checking if Village needs Rearming..
+2015-08-07 14:43:56 : checkMainScreen start quiet mode
+2015-08-07 14:43:56 : checkMainScreen exit quiet mode
+2015-08-07 14:43:57 : checkMainScreen start quiet mode
+2015-08-07 14:43:57 : checkMainScreen exit quiet mode
+2015-08-07 14:43:57 : Village Report
+2015-08-07 14:43:58 : Cannot get Free/Total Builders
+2015-08-07 14:43:58 : No. of Free/Total Builders: 0/0
+2015-08-07 14:43:58 :  [T]: 2 589
+2015-08-07 14:43:58 :  [G]: 2 562 936 [E]: 5 307 033 [D]: 79 364 [GEM]: 1 981
+2015-08-07 14:43:58 : checkMainScreen start quiet mode
+2015-08-07 14:43:58 : checkMainScreen exit quiet mode
+2015-08-07 14:43:59 : checkMainScreen start quiet mode
+2015-08-07 14:43:59 : checkMainScreen exit quiet mode
+2015-08-07 14:44:00 : checkMainScreen start quiet mode
+2015-08-07 14:44:00 : checkMainScreen exit quiet mode
+2015-08-07 14:44:00 : Func Train 
+2015-08-07 14:44:01 : checkMainScreen start quiet mode
+2015-08-07 14:44:01 : checkMainScreen exit quiet mode
+2015-08-07 14:44:02 : checkMainScreen start quiet mode
+2015-08-07 14:44:02 : checkMainScreen exit quiet mode
+2015-08-07 14:44:03 : checkMainScreen start quiet mode
+2015-08-07 14:44:03 : checkMainScreen exit quiet mode
+2015-08-07 14:44:04 : checkMainScreen start quiet mode
+2015-08-07 14:44:04 : checkMainScreen exit quiet mode
+2015-08-07 14:44:04 : checkMainScreen start quiet mode
+2015-08-07 14:44:04 : checkMainScreen exit quiet mode
+2015-08-07 14:44:06 : Finished kicking
+2015-08-07 14:44:06 : Func Idle 
+2015-08-07 14:44:18 : checkMainScreen start quiet mode
+2015-08-07 14:44:18 : checkMainScreen exit quiet mode
+2015-08-07 14:44:18 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:44:19 : checkMainScreen start quiet mode
+2015-08-07 14:44:21 : CheckObstacles Result = True
+2015-08-07 14:44:21 : Waiting for Main Screen
+2015-08-07 14:44:21 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:44:23 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:44:23 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:44:23 : checkMainScreen exit quiet mode
+2015-08-07 14:44:23 : Bot clean start
+2015-08-07 14:44:25 : Trying to locate Main Screen
+2015-08-07 14:44:25 : Main Screen Located
+2015-08-07 14:44:25 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:44:26 : checkMainScreen start quiet mode
+2015-08-07 14:44:27 : checkMainScreen exit quiet mode
+2015-08-07 14:44:27 : Collecting Resources
+2015-08-07 14:44:32 : checkMainScreen start quiet mode
+2015-08-07 14:44:32 : checkMainScreen exit quiet mode
+2015-08-07 14:44:33 : Checking if Village needs Rearming..
+2015-08-07 14:44:39 : checkMainScreen start quiet mode
+2015-08-07 14:44:39 : checkMainScreen exit quiet mode
+2015-08-07 14:44:40 : checkMainScreen start quiet mode
+2015-08-07 14:44:40 : checkMainScreen exit quiet mode
+2015-08-07 14:44:41 : Village Report
+2015-08-07 14:44:41 : Cannot get Free/Total Builders
+2015-08-07 14:44:41 : No. of Free/Total Builders: 0/0
+2015-08-07 14:44:41 :  [T]: 2 589
+2015-08-07 14:44:41 :  [G]: 2 562 936 [E]: 5 307 033 [D]: 79 364 [GEM]: 1 981
+2015-08-07 14:44:42 : checkMainScreen start quiet mode
+2015-08-07 14:44:42 : checkMainScreen exit quiet mode
+2015-08-07 14:44:42 : checkMainScreen start quiet mode
+2015-08-07 14:44:42 : checkMainScreen exit quiet mode
+2015-08-07 14:44:43 : checkMainScreen start quiet mode
+2015-08-07 14:44:43 : checkMainScreen exit quiet mode
+2015-08-07 14:44:44 : Func Train 
+2015-08-07 14:44:45 : checkMainScreen start quiet mode
+2015-08-07 14:44:45 : checkMainScreen exit quiet mode
+2015-08-07 14:44:46 : checkMainScreen start quiet mode
+2015-08-07 14:44:46 : checkMainScreen exit quiet mode
+2015-08-07 14:44:47 : checkMainScreen start quiet mode
+2015-08-07 14:44:47 : checkMainScreen exit quiet mode
+2015-08-07 14:44:47 : checkMainScreen start quiet mode
+2015-08-07 14:44:47 : checkMainScreen exit quiet mode
+2015-08-07 14:44:48 : checkMainScreen start quiet mode
+2015-08-07 14:44:48 : checkMainScreen exit quiet mode
+2015-08-07 14:44:50 : Finished kicking
+2015-08-07 14:44:50 : Func Idle 
+2015-08-07 14:45:01 : checkMainScreen start quiet mode
+2015-08-07 14:45:01 : checkMainScreen exit quiet mode
+2015-08-07 14:45:02 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:45:03 : checkMainScreen start quiet mode
+2015-08-07 14:45:03 : checkMainScreen exit quiet mode
+2015-08-07 14:45:03 : Func Train 
+2015-08-07 14:45:03 : checkMainScreen start quiet mode
+2015-08-07 14:45:03 : checkMainScreen exit quiet mode
+2015-08-07 14:45:04 : Time Idle: 00:00:14
+2015-08-07 14:45:05 : Bot clean start
+2015-08-07 14:45:06 : Trying to locate Main Screen
+2015-08-07 14:45:06 : Main Screen Located
+2015-08-07 14:45:06 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:45:08 : checkMainScreen start quiet mode
+2015-08-07 14:45:08 : checkMainScreen exit quiet mode
+2015-08-07 14:45:08 : Collecting Resources
+2015-08-07 14:45:13 : checkMainScreen start quiet mode
+2015-08-07 14:45:13 : checkMainScreen exit quiet mode
+2015-08-07 14:45:15 : Checking if Village needs Rearming..
+2015-08-07 14:45:21 : checkMainScreen start quiet mode
+2015-08-07 14:45:21 : checkMainScreen exit quiet mode
+2015-08-07 14:45:22 : checkMainScreen start quiet mode
+2015-08-07 14:45:22 : checkMainScreen exit quiet mode
+2015-08-07 14:45:22 : Village Report
+2015-08-07 14:45:23 : Cannot get Free/Total Builders
+2015-08-07 14:45:23 : No. of Free/Total Builders: 0/0
+2015-08-07 14:45:23 :  [T]: 2 589
+2015-08-07 14:45:23 :  [G]: 2 562 936 [E]: 5 307 033 [D]: 79 366 [GEM]: 1 981
+2015-08-07 14:45:23 : checkMainScreen start quiet mode
+2015-08-07 14:45:23 : checkMainScreen exit quiet mode
+2015-08-07 14:45:24 : checkMainScreen start quiet mode
+2015-08-07 14:45:24 : checkMainScreen exit quiet mode
+2015-08-07 14:45:25 : checkMainScreen start quiet mode
+2015-08-07 14:45:25 : checkMainScreen exit quiet mode
+2015-08-07 14:45:25 : Func Train 
+2015-08-07 14:45:26 : checkMainScreen start quiet mode
+2015-08-07 14:45:26 : checkMainScreen exit quiet mode
+2015-08-07 14:45:27 : checkMainScreen start quiet mode
+2015-08-07 14:45:27 : checkMainScreen exit quiet mode
+2015-08-07 14:45:28 : checkMainScreen start quiet mode
+2015-08-07 14:45:28 : checkMainScreen exit quiet mode
+2015-08-07 14:45:28 : checkMainScreen start quiet mode
+2015-08-07 14:45:28 : checkMainScreen exit quiet mode
+2015-08-07 14:45:29 : checkMainScreen start quiet mode
+2015-08-07 14:45:29 : checkMainScreen exit quiet mode
+2015-08-07 14:45:31 : Finished kicking
+2015-08-07 14:45:31 : Func Idle 
+2015-08-07 14:45:43 : checkMainScreen start quiet mode
+2015-08-07 14:45:43 : checkMainScreen exit quiet mode
+2015-08-07 14:45:43 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:45:44 : checkMainScreen start quiet mode
+2015-08-07 14:45:46 : CheckObstacles Result = True
+2015-08-07 14:45:46 : Waiting for Main Screen
+2015-08-07 14:45:46 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:45:48 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:45:48 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:45:48 : checkMainScreen exit quiet mode
+2015-08-07 14:45:49 : Bot clean start
+2015-08-07 14:45:50 : Trying to locate Main Screen
+2015-08-07 14:45:50 : Main Screen Located
+2015-08-07 14:45:50 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:45:52 : checkMainScreen start quiet mode
+2015-08-07 14:45:52 : checkMainScreen exit quiet mode
+2015-08-07 14:45:52 : Collecting Resources
+2015-08-07 14:45:57 : checkMainScreen start quiet mode
+2015-08-07 14:45:59 : CheckObstacles Result = True
+2015-08-07 14:45:59 : Waiting for Main Screen
+2015-08-07 14:45:59 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:46:01 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:46:01 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:46:01 : checkMainScreen exit quiet mode
+2015-08-07 14:46:02 : Bot clean start
+2015-08-07 14:46:03 : Trying to locate Main Screen
+2015-08-07 14:46:03 : Main Screen Located
+2015-08-07 14:46:04 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:46:06 : checkMainScreen start quiet mode
+2015-08-07 14:46:06 : checkMainScreen exit quiet mode
+2015-08-07 14:46:06 : Collecting Resources
+2015-08-07 14:46:11 : checkMainScreen start quiet mode
+2015-08-07 14:46:11 : checkMainScreen exit quiet mode
+2015-08-07 14:46:12 : Checking if Village needs Rearming..
+2015-08-07 14:46:19 : checkMainScreen start quiet mode
+2015-08-07 14:46:19 : checkMainScreen exit quiet mode
+2015-08-07 14:46:19 : checkMainScreen start quiet mode
+2015-08-07 14:46:19 : checkMainScreen exit quiet mode
+2015-08-07 14:46:20 : Village Report
+2015-08-07 14:46:20 : Cannot get Free/Total Builders
+2015-08-07 14:46:20 : No. of Free/Total Builders: 0/0
+2015-08-07 14:46:20 :  [T]: 2 589
+2015-08-07 14:46:20 :  [G]: 2 562 936 [E]: 5 307 033 [D]: 79 366 [GEM]: 1 981
+2015-08-07 14:46:21 : checkMainScreen start quiet mode
+2015-08-07 14:46:21 : checkMainScreen exit quiet mode
+2015-08-07 14:46:21 : checkMainScreen start quiet mode
+2015-08-07 14:46:21 : checkMainScreen exit quiet mode
+2015-08-07 14:46:23 : checkMainScreen start quiet mode
+2015-08-07 14:46:23 : checkMainScreen exit quiet mode
+2015-08-07 14:46:23 : Func Train 
+2015-08-07 14:46:24 : checkMainScreen start quiet mode
+2015-08-07 14:46:24 : checkMainScreen exit quiet mode
+2015-08-07 14:46:25 : checkMainScreen start quiet mode
+2015-08-07 14:46:25 : checkMainScreen exit quiet mode
+2015-08-07 14:46:26 : checkMainScreen start quiet mode
+2015-08-07 14:46:26 : checkMainScreen exit quiet mode
+2015-08-07 14:46:26 : checkMainScreen start quiet mode
+2015-08-07 14:46:26 : checkMainScreen exit quiet mode
+2015-08-07 14:46:27 : checkMainScreen start quiet mode
+2015-08-07 14:46:27 : checkMainScreen exit quiet mode
+2015-08-07 14:46:29 : Finished kicking
+2015-08-07 14:46:29 : Func Idle 
+2015-08-07 14:46:40 : checkMainScreen start quiet mode
+2015-08-07 14:46:40 : checkMainScreen exit quiet mode
+2015-08-07 14:46:41 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:46:42 : checkMainScreen start quiet mode
+2015-08-07 14:46:43 : CheckObstacles Result = True
+2015-08-07 14:46:43 : Waiting for Main Screen
+2015-08-07 14:46:43 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:46:46 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:46:46 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:46:46 : checkMainScreen exit quiet mode
+2015-08-07 14:46:46 : Bot clean start
+2015-08-07 14:46:47 : Trying to locate Main Screen
+2015-08-07 14:46:47 : Main Screen Located
+2015-08-07 14:46:48 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:46:49 : checkMainScreen start quiet mode
+2015-08-07 14:46:49 : checkMainScreen exit quiet mode
+2015-08-07 14:46:49 : Collecting Resources
+2015-08-07 14:46:55 : checkMainScreen start quiet mode
+2015-08-07 14:46:55 : checkMainScreen exit quiet mode
+2015-08-07 14:46:56 : Checking if Village needs Rearming..
+2015-08-07 14:47:02 : checkMainScreen start quiet mode
+2015-08-07 14:47:02 : checkMainScreen exit quiet mode
+2015-08-07 14:47:03 : checkMainScreen start quiet mode
+2015-08-07 14:47:03 : checkMainScreen exit quiet mode
+2015-08-07 14:47:04 : Village Report
+2015-08-07 14:47:04 : Cannot get Free/Total Builders
+2015-08-07 14:47:04 : No. of Free/Total Builders: 0/0
+2015-08-07 14:47:04 :  [T]: 2 589
+2015-08-07 14:47:04 :  [G]: 2 562 936 [E]: 5 307 033 [D]: 79 370 [GEM]: 1 981
+2015-08-07 14:47:05 : checkMainScreen start quiet mode
+2015-08-07 14:47:05 : checkMainScreen exit quiet mode
+2015-08-07 14:47:05 : checkMainScreen start quiet mode
+2015-08-07 14:47:05 : checkMainScreen exit quiet mode
+2015-08-07 14:47:07 : checkMainScreen start quiet mode
+2015-08-07 14:47:07 : checkMainScreen exit quiet mode
+2015-08-07 14:47:07 : Func Train 
+2015-08-07 14:47:08 : checkMainScreen start quiet mode
+2015-08-07 14:47:08 : checkMainScreen exit quiet mode
+2015-08-07 14:47:09 : checkMainScreen start quiet mode
+2015-08-07 14:47:09 : checkMainScreen exit quiet mode
+2015-08-07 14:47:10 : checkMainScreen start quiet mode
+2015-08-07 14:47:10 : checkMainScreen exit quiet mode
+2015-08-07 14:47:10 : checkMainScreen start quiet mode
+2015-08-07 14:47:10 : checkMainScreen exit quiet mode
+2015-08-07 14:47:11 : checkMainScreen start quiet mode
+2015-08-07 14:47:11 : checkMainScreen exit quiet mode
+2015-08-07 14:47:13 : Finished kicking
+2015-08-07 14:47:13 : Func Idle 
+2015-08-07 14:47:24 : checkMainScreen start quiet mode
+2015-08-07 14:47:24 : checkMainScreen exit quiet mode
+2015-08-07 14:47:25 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:47:26 : checkMainScreen start quiet mode
+2015-08-07 14:47:27 : CheckObstacles Result = True
+2015-08-07 14:47:27 : Waiting for Main Screen
+2015-08-07 14:47:27 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:47:30 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:47:30 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:47:30 : checkMainScreen exit quiet mode
+2015-08-07 14:47:30 : Bot clean start
+2015-08-07 14:47:31 : Trying to locate Main Screen
+2015-08-07 14:47:31 : Main Screen Located
+2015-08-07 14:47:32 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:47:33 : checkMainScreen start quiet mode
+2015-08-07 14:47:33 : checkMainScreen exit quiet mode
+2015-08-07 14:47:33 : Collecting Resources
+2015-08-07 14:47:40 : checkMainScreen start quiet mode
+2015-08-07 14:47:40 : checkMainScreen exit quiet mode
+2015-08-07 14:47:42 : Checking if Village needs Rearming..
+2015-08-07 14:47:48 : checkMainScreen start quiet mode
+2015-08-07 14:47:48 : checkMainScreen exit quiet mode
+2015-08-07 14:47:49 : checkMainScreen start quiet mode
+2015-08-07 14:47:49 : checkMainScreen exit quiet mode
+2015-08-07 14:47:49 : Village Report
+2015-08-07 14:47:49 : Cannot get Free/Total Builders
+2015-08-07 14:47:49 : No. of Free/Total Builders: 0/0
+2015-08-07 14:47:49 :  [T]: 2 589
+2015-08-07 14:47:50 :  [G]: 2 565 671 [E]: 5 308 003 [D]: 79 370 [GEM]: 1 981
+2015-08-07 14:47:50 : checkMainScreen start quiet mode
+2015-08-07 14:47:50 : checkMainScreen exit quiet mode
+2015-08-07 14:47:51 : checkMainScreen start quiet mode
+2015-08-07 14:47:51 : checkMainScreen exit quiet mode
+2015-08-07 14:47:52 : checkMainScreen start quiet mode
+2015-08-07 14:47:52 : checkMainScreen exit quiet mode
+2015-08-07 14:47:52 : Func Train 
+2015-08-07 14:47:53 : checkMainScreen start quiet mode
+2015-08-07 14:47:53 : checkMainScreen exit quiet mode
+2015-08-07 14:47:54 : checkMainScreen start quiet mode
+2015-08-07 14:47:54 : checkMainScreen exit quiet mode
+2015-08-07 14:47:55 : checkMainScreen start quiet mode
+2015-08-07 14:47:55 : checkMainScreen exit quiet mode
+2015-08-07 14:47:56 : checkMainScreen start quiet mode
+2015-08-07 14:47:56 : checkMainScreen exit quiet mode
+2015-08-07 14:47:56 : checkMainScreen start quiet mode
+2015-08-07 14:47:56 : checkMainScreen exit quiet mode
+2015-08-07 14:47:59 : Finished kicking
+2015-08-07 14:47:59 : Func Idle 
+2015-08-07 14:48:10 : checkMainScreen start quiet mode
+2015-08-07 14:48:10 : checkMainScreen exit quiet mode
+2015-08-07 14:48:10 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:48:11 : checkMainScreen start quiet mode
+2015-08-07 14:48:13 : CheckObstacles Result = True
+2015-08-07 14:48:13 : Waiting for Main Screen
+2015-08-07 14:48:13 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:48:15 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:48:15 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:48:15 : checkMainScreen exit quiet mode
+2015-08-07 14:48:16 : Bot clean start
+2015-08-07 14:48:17 : Trying to locate Main Screen
+2015-08-07 14:48:17 : Main Screen Located
+2015-08-07 14:48:17 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:48:19 : checkMainScreen start quiet mode
+2015-08-07 14:48:19 : checkMainScreen exit quiet mode
+2015-08-07 14:48:19 : Collecting Resources
+2015-08-07 14:48:25 : checkMainScreen start quiet mode
+2015-08-07 14:48:25 : checkMainScreen exit quiet mode
+2015-08-07 14:48:26 : Checking if Village needs Rearming..
+2015-08-07 14:48:32 : checkMainScreen start quiet mode
+2015-08-07 14:48:32 : checkMainScreen exit quiet mode
+2015-08-07 14:48:33 : checkMainScreen start quiet mode
+2015-08-07 14:48:33 : checkMainScreen exit quiet mode
+2015-08-07 14:48:34 : Village Report
+2015-08-07 14:48:34 : Cannot get Free/Total Builders
+2015-08-07 14:48:34 : No. of Free/Total Builders: 0/0
+2015-08-07 14:48:34 :  [T]: 2 589
+2015-08-07 14:48:34 :  [G]: 2 565 671 [E]: 5 308 674 [D]: 79 372 [GEM]: 1 981
+2015-08-07 14:48:35 : checkMainScreen start quiet mode
+2015-08-07 14:48:35 : checkMainScreen exit quiet mode
+2015-08-07 14:48:35 : checkMainScreen start quiet mode
+2015-08-07 14:48:35 : checkMainScreen exit quiet mode
+2015-08-07 14:48:36 : checkMainScreen start quiet mode
+2015-08-07 14:48:36 : checkMainScreen exit quiet mode
+2015-08-07 14:48:36 : Func Train 
+2015-08-07 14:48:38 : checkMainScreen start quiet mode
+2015-08-07 14:48:38 : checkMainScreen exit quiet mode
+2015-08-07 14:48:39 : checkMainScreen start quiet mode
+2015-08-07 14:48:39 : checkMainScreen exit quiet mode
+2015-08-07 14:48:40 : checkMainScreen start quiet mode
+2015-08-07 14:48:40 : checkMainScreen exit quiet mode
+2015-08-07 14:48:40 : checkMainScreen start quiet mode
+2015-08-07 14:48:40 : checkMainScreen exit quiet mode
+2015-08-07 14:48:41 : checkMainScreen start quiet mode
+2015-08-07 14:48:41 : checkMainScreen exit quiet mode
+2015-08-07 14:48:43 : Finished kicking
+2015-08-07 14:48:43 : Func Idle 
+2015-08-07 14:48:54 : checkMainScreen start quiet mode
+2015-08-07 14:48:54 : checkMainScreen exit quiet mode
+2015-08-07 14:48:55 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:48:56 : checkMainScreen start quiet mode
+2015-08-07 14:48:57 : CheckObstacles Result = True
+2015-08-07 14:48:57 : Waiting for Main Screen
+2015-08-07 14:48:57 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:48:59 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:48:59 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:48:59 : checkMainScreen exit quiet mode
+2015-08-07 14:49:00 : Bot clean start
+2015-08-07 14:49:01 : Trying to locate Main Screen
+2015-08-07 14:49:01 : Main Screen Located
+2015-08-07 14:49:02 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:49:03 : checkMainScreen start quiet mode
+2015-08-07 14:49:03 : checkMainScreen exit quiet mode
+2015-08-07 14:49:03 : Collecting Resources
+2015-08-07 14:49:09 : checkMainScreen start quiet mode
+2015-08-07 14:49:09 : checkMainScreen exit quiet mode
+2015-08-07 14:49:10 : Checking if Village needs Rearming..
+2015-08-07 14:49:16 : checkMainScreen start quiet mode
+2015-08-07 14:49:16 : checkMainScreen exit quiet mode
+2015-08-07 14:49:17 : checkMainScreen start quiet mode
+2015-08-07 14:49:17 : checkMainScreen exit quiet mode
+2015-08-07 14:49:18 : Village Report
+2015-08-07 14:49:18 : Cannot get Free/Total Builders
+2015-08-07 14:49:18 : No. of Free/Total Builders: 0/0
+2015-08-07 14:49:18 :  [T]: 2 589
+2015-08-07 14:49:18 :  [G]: 2 565 671 [E]: 5 308 674 [D]: 79 372 [GEM]: 1 981
+2015-08-07 14:49:18 : checkMainScreen start quiet mode
+2015-08-07 14:49:18 : checkMainScreen exit quiet mode
+2015-08-07 14:49:19 : checkMainScreen start quiet mode
+2015-08-07 14:49:19 : checkMainScreen exit quiet mode
+2015-08-07 14:49:20 : checkMainScreen start quiet mode
+2015-08-07 14:49:20 : checkMainScreen exit quiet mode
+2015-08-07 14:49:20 : Func Train 
+2015-08-07 14:49:21 : checkMainScreen start quiet mode
+2015-08-07 14:49:21 : checkMainScreen exit quiet mode
+2015-08-07 14:49:22 : checkMainScreen start quiet mode
+2015-08-07 14:49:22 : checkMainScreen exit quiet mode
+2015-08-07 14:49:23 : checkMainScreen start quiet mode
+2015-08-07 14:49:23 : checkMainScreen exit quiet mode
+2015-08-07 14:49:24 : checkMainScreen start quiet mode
+2015-08-07 14:49:24 : checkMainScreen exit quiet mode
+2015-08-07 14:49:24 : checkMainScreen start quiet mode
+2015-08-07 14:49:24 : checkMainScreen exit quiet mode
+2015-08-07 14:49:27 : Finished kicking
+2015-08-07 14:49:27 : Func Idle 
+2015-08-07 14:49:38 : checkMainScreen start quiet mode
+2015-08-07 14:49:38 : checkMainScreen exit quiet mode
+2015-08-07 14:49:38 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:49:40 : checkMainScreen start quiet mode
+2015-08-07 14:49:41 : CheckObstacles Result = True
+2015-08-07 14:49:41 : Waiting for Main Screen
+2015-08-07 14:49:41 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:49:43 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:49:43 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:49:43 : checkMainScreen exit quiet mode
+2015-08-07 14:49:44 : Bot clean start
+2015-08-07 14:49:45 : Trying to locate Main Screen
+2015-08-07 14:49:45 : Main Screen Located
+2015-08-07 14:49:45 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:49:47 : checkMainScreen start quiet mode
+2015-08-07 14:49:47 : checkMainScreen exit quiet mode
+2015-08-07 14:49:47 : Collecting Resources
+2015-08-07 14:49:53 : checkMainScreen start quiet mode
+2015-08-07 14:49:53 : checkMainScreen exit quiet mode
+2015-08-07 14:49:54 : Checking if Village needs Rearming..
+2015-08-07 14:50:00 : checkMainScreen start quiet mode
+2015-08-07 14:50:00 : checkMainScreen exit quiet mode
+2015-08-07 14:50:01 : checkMainScreen start quiet mode
+2015-08-07 14:50:01 : checkMainScreen exit quiet mode
+2015-08-07 14:50:02 : Village Report
+2015-08-07 14:50:02 : Cannot get Free/Total Builders
+2015-08-07 14:50:02 : No. of Free/Total Builders: 0/0
+2015-08-07 14:50:02 :  [T]: 2 589
+2015-08-07 14:50:02 :  [G]: 2 565 671 [E]: 5 308 674 [D]: 79 374 [GEM]: 1 981
+2015-08-07 14:50:02 : checkMainScreen start quiet mode
+2015-08-07 14:50:02 : checkMainScreen exit quiet mode
+2015-08-07 14:50:03 : checkMainScreen start quiet mode
+2015-08-07 14:50:03 : checkMainScreen exit quiet mode
+2015-08-07 14:50:04 : checkMainScreen start quiet mode
+2015-08-07 14:50:04 : checkMainScreen exit quiet mode
+2015-08-07 14:50:04 : Func Train 
+2015-08-07 14:50:05 : checkMainScreen start quiet mode
+2015-08-07 14:50:05 : checkMainScreen exit quiet mode
+2015-08-07 14:50:06 : checkMainScreen start quiet mode
+2015-08-07 14:50:06 : checkMainScreen exit quiet mode
+2015-08-07 14:50:07 : checkMainScreen start quiet mode
+2015-08-07 14:50:07 : checkMainScreen exit quiet mode
+2015-08-07 14:50:08 : checkMainScreen start quiet mode
+2015-08-07 14:50:08 : checkMainScreen exit quiet mode
+2015-08-07 14:50:08 : checkMainScreen start quiet mode
+2015-08-07 14:50:08 : checkMainScreen exit quiet mode
+2015-08-07 14:50:11 : Finished kicking
+2015-08-07 14:50:11 : Func Idle 
+2015-08-07 14:50:22 : checkMainScreen start quiet mode
+2015-08-07 14:50:22 : checkMainScreen exit quiet mode
+2015-08-07 14:50:23 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:50:24 : checkMainScreen start quiet mode
+2015-08-07 14:50:25 : CheckObstacles Result = True
+2015-08-07 14:50:25 : Waiting for Main Screen
+2015-08-07 14:50:25 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:50:27 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:50:27 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:50:27 : checkMainScreen exit quiet mode
+2015-08-07 14:50:28 : Bot clean start
+2015-08-07 14:50:29 : Trying to locate Main Screen
+2015-08-07 14:50:29 : Main Screen Located
+2015-08-07 14:50:29 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:50:31 : checkMainScreen start quiet mode
+2015-08-07 14:50:31 : checkMainScreen exit quiet mode
+2015-08-07 14:50:31 : Collecting Resources
+2015-08-07 14:50:37 : checkMainScreen start quiet mode
+2015-08-07 14:50:38 : CheckObstacles Result = True
+2015-08-07 14:50:38 : Waiting for Main Screen
+2015-08-07 14:50:38 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:50:41 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:50:41 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:50:41 : checkMainScreen exit quiet mode
+2015-08-07 14:50:42 : Bot clean start
+2015-08-07 14:50:43 : Trying to locate Main Screen
+2015-08-07 14:50:43 : Main Screen Located
+2015-08-07 14:50:43 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:50:45 : checkMainScreen start quiet mode
+2015-08-07 14:50:45 : checkMainScreen exit quiet mode
+2015-08-07 14:50:45 : Collecting Resources
+2015-08-07 14:50:50 : checkMainScreen start quiet mode
+2015-08-07 14:50:50 : checkMainScreen exit quiet mode
+2015-08-07 14:50:52 : Checking if Village needs Rearming..
+2015-08-07 14:50:58 : checkMainScreen start quiet mode
+2015-08-07 14:50:58 : checkMainScreen exit quiet mode
+2015-08-07 14:50:59 : checkMainScreen start quiet mode
+2015-08-07 14:50:59 : checkMainScreen exit quiet mode
+2015-08-07 14:50:59 : Village Report
+2015-08-07 14:50:59 : Cannot get Free/Total Builders
+2015-08-07 14:50:59 : No. of Free/Total Builders: 0/0
+2015-08-07 14:50:59 :  [T]: 2 589
+2015-08-07 14:51:00 :  [G]: 2 565 671 [E]: 5 308 674 [D]: 79 374 [GEM]: 1 981
+2015-08-07 14:51:00 : checkMainScreen start quiet mode
+2015-08-07 14:51:00 : checkMainScreen exit quiet mode
+2015-08-07 14:51:01 : checkMainScreen start quiet mode
+2015-08-07 14:51:01 : checkMainScreen exit quiet mode
+2015-08-07 14:51:02 : checkMainScreen start quiet mode
+2015-08-07 14:51:02 : checkMainScreen exit quiet mode
+2015-08-07 14:51:02 : Func Train 
+2015-08-07 14:51:03 : checkMainScreen start quiet mode
+2015-08-07 14:51:03 : checkMainScreen exit quiet mode
+2015-08-07 14:51:04 : checkMainScreen start quiet mode
+2015-08-07 14:51:04 : checkMainScreen exit quiet mode
+2015-08-07 14:51:05 : checkMainScreen start quiet mode
+2015-08-07 14:51:05 : checkMainScreen exit quiet mode
+2015-08-07 14:51:05 : checkMainScreen start quiet mode
+2015-08-07 14:51:06 : checkMainScreen exit quiet mode
+2015-08-07 14:51:06 : checkMainScreen start quiet mode
+2015-08-07 14:51:06 : checkMainScreen exit quiet mode
+2015-08-07 14:51:08 : Finished kicking
+2015-08-07 14:51:08 : Func Idle 
+2015-08-07 14:51:20 : checkMainScreen start quiet mode
+2015-08-07 14:51:20 : checkMainScreen exit quiet mode
+2015-08-07 14:51:20 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:51:21 : checkMainScreen start quiet mode
+2015-08-07 14:51:23 : CheckObstacles Result = True
+2015-08-07 14:51:23 : Waiting for Main Screen
+2015-08-07 14:51:23 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:51:25 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:51:25 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:51:25 : checkMainScreen exit quiet mode
+2015-08-07 14:51:25 : Bot clean start
+2015-08-07 14:51:26 : Trying to locate Main Screen
+2015-08-07 14:51:26 : Main Screen Located
+2015-08-07 14:51:27 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:51:28 : checkMainScreen start quiet mode
+2015-08-07 14:51:28 : checkMainScreen exit quiet mode
+2015-08-07 14:51:29 : Collecting Resources
+2015-08-07 14:51:35 : checkMainScreen start quiet mode
+2015-08-07 14:51:35 : checkMainScreen exit quiet mode
+2015-08-07 14:51:36 : Checking if Village needs Rearming..
+2015-08-07 14:51:42 : checkMainScreen start quiet mode
+2015-08-07 14:51:42 : checkMainScreen exit quiet mode
+2015-08-07 14:51:43 : checkMainScreen start quiet mode
+2015-08-07 14:51:43 : checkMainScreen exit quiet mode
+2015-08-07 14:51:44 : Village Report
+2015-08-07 14:51:44 : Cannot get Free/Total Builders
+2015-08-07 14:51:44 : No. of Free/Total Builders: 0/0
+2015-08-07 14:51:44 :  [T]: 2 589
+2015-08-07 14:51:44 :  [G]: 2 565 671 [E]: 5 309 657 [D]: 79 378 [GEM]: 1 981
+2015-08-07 14:51:45 : checkMainScreen start quiet mode
+2015-08-07 14:51:45 : checkMainScreen exit quiet mode
+2015-08-07 14:51:45 : checkMainScreen start quiet mode
+2015-08-07 14:51:45 : checkMainScreen exit quiet mode
+2015-08-07 14:51:46 : checkMainScreen start quiet mode
+2015-08-07 14:51:46 : checkMainScreen exit quiet mode
+2015-08-07 14:51:46 : Func Train 
+2015-08-07 14:51:48 : checkMainScreen start quiet mode
+2015-08-07 14:51:48 : checkMainScreen exit quiet mode
+2015-08-07 14:51:49 : checkMainScreen start quiet mode
+2015-08-07 14:51:49 : checkMainScreen exit quiet mode
+2015-08-07 14:51:50 : checkMainScreen start quiet mode
+2015-08-07 14:51:50 : checkMainScreen exit quiet mode
+2015-08-07 14:51:50 : checkMainScreen start quiet mode
+2015-08-07 14:51:50 : checkMainScreen exit quiet mode
+2015-08-07 14:51:51 : checkMainScreen start quiet mode
+2015-08-07 14:51:51 : checkMainScreen exit quiet mode
+2015-08-07 14:51:53 : Finished kicking
+2015-08-07 14:51:53 : Func Idle 
+2015-08-07 14:52:11 : Pushbullet: removed 14 messages older than 2 h 
+2015-08-07 14:52:12 : checkMainScreen start quiet mode
+2015-08-07 14:52:12 : checkMainScreen exit quiet mode
+2015-08-07 14:52:13 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:52:14 : checkMainScreen start quiet mode
+2015-08-07 14:52:15 : CheckObstacles Result = True
+2015-08-07 14:52:15 : Waiting for Main Screen
+2015-08-07 14:52:15 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:52:17 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:52:17 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:52:17 : checkMainScreen exit quiet mode
+2015-08-07 14:52:18 : Bot clean start
+2015-08-07 14:52:19 : Trying to locate Main Screen
+2015-08-07 14:52:19 : Main Screen Located
+2015-08-07 14:52:19 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:52:21 : checkMainScreen start quiet mode
+2015-08-07 14:52:21 : checkMainScreen exit quiet mode
+2015-08-07 14:52:21 : Collecting Resources
+2015-08-07 14:52:26 : checkMainScreen start quiet mode
+2015-08-07 14:52:26 : checkMainScreen exit quiet mode
+2015-08-07 14:52:28 : Checking if Village needs Rearming..
+2015-08-07 14:52:34 : checkMainScreen start quiet mode
+2015-08-07 14:52:34 : checkMainScreen exit quiet mode
+2015-08-07 14:52:35 : checkMainScreen start quiet mode
+2015-08-07 14:52:35 : checkMainScreen exit quiet mode
+2015-08-07 14:52:36 : Village Report
+2015-08-07 14:52:36 : Cannot get Free/Total Builders
+2015-08-07 14:52:36 : No. of Free/Total Builders: 0/0
+2015-08-07 14:52:36 :  [T]: 2 589
+2015-08-07 14:52:36 :  [G]: 2 566 073 [E]: 5 309 657 [D]: 79 378 [GEM]: 1 981
+2015-08-07 14:52:36 : checkMainScreen start quiet mode
+2015-08-07 14:52:36 : checkMainScreen exit quiet mode
+2015-08-07 14:52:37 : checkMainScreen start quiet mode
+2015-08-07 14:52:37 : checkMainScreen exit quiet mode
+2015-08-07 14:52:38 : checkMainScreen start quiet mode
+2015-08-07 14:52:38 : checkMainScreen exit quiet mode
+2015-08-07 14:52:38 : Func Train 
+2015-08-07 14:52:39 : checkMainScreen start quiet mode
+2015-08-07 14:52:39 : checkMainScreen exit quiet mode
+2015-08-07 14:52:40 : checkMainScreen start quiet mode
+2015-08-07 14:52:40 : checkMainScreen exit quiet mode
+2015-08-07 14:52:41 : checkMainScreen start quiet mode
+2015-08-07 14:52:41 : checkMainScreen exit quiet mode
+2015-08-07 14:52:42 : checkMainScreen start quiet mode
+2015-08-07 14:52:42 : checkMainScreen exit quiet mode
+2015-08-07 14:52:42 : checkMainScreen start quiet mode
+2015-08-07 14:52:42 : checkMainScreen exit quiet mode
+2015-08-07 14:52:45 : Finished kicking
+2015-08-07 14:52:45 : Func Idle 
+2015-08-07 14:52:56 : checkMainScreen start quiet mode
+2015-08-07 14:52:56 : checkMainScreen exit quiet mode
+2015-08-07 14:52:56 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:52:58 : checkMainScreen start quiet mode
+2015-08-07 14:52:59 : CheckObstacles Result = True
+2015-08-07 14:52:59 : Waiting for Main Screen
+2015-08-07 14:52:59 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:53:02 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:53:02 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:53:02 : checkMainScreen exit quiet mode
+2015-08-07 14:53:02 : Bot clean start
+2015-08-07 14:53:03 : Trying to locate Main Screen
+2015-08-07 14:53:03 : Main Screen Located
+2015-08-07 14:53:04 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:53:05 : checkMainScreen start quiet mode
+2015-08-07 14:53:05 : checkMainScreen exit quiet mode
+2015-08-07 14:53:05 : Collecting Resources
+2015-08-07 14:53:12 : checkMainScreen start quiet mode
+2015-08-07 14:53:12 : checkMainScreen exit quiet mode
+2015-08-07 14:53:14 : Checking if Village needs Rearming..
+2015-08-07 14:53:20 : checkMainScreen start quiet mode
+2015-08-07 14:53:20 : checkMainScreen exit quiet mode
+2015-08-07 14:53:21 : checkMainScreen start quiet mode
+2015-08-07 14:53:21 : checkMainScreen exit quiet mode
+2015-08-07 14:53:22 : Village Report
+2015-08-07 14:53:22 : Cannot get Free/Total Builders
+2015-08-07 14:53:22 : No. of Free/Total Builders: 0/0
+2015-08-07 14:53:22 :  [T]: 2 589
+2015-08-07 14:53:22 :  [G]: 2 568 460 [E]: 5 310 355 [D]: 79 382 [GEM]: 1 981
+2015-08-07 14:53:22 : checkMainScreen start quiet mode
+2015-08-07 14:53:22 : checkMainScreen exit quiet mode
+2015-08-07 14:53:23 : checkMainScreen start quiet mode
+2015-08-07 14:53:23 : checkMainScreen exit quiet mode
+2015-08-07 14:53:24 : checkMainScreen start quiet mode
+2015-08-07 14:53:24 : checkMainScreen exit quiet mode
+2015-08-07 14:53:24 : Func Train 
+2015-08-07 14:53:25 : checkMainScreen start quiet mode
+2015-08-07 14:53:25 : checkMainScreen exit quiet mode
+2015-08-07 14:53:26 : checkMainScreen start quiet mode
+2015-08-07 14:53:26 : checkMainScreen exit quiet mode
+2015-08-07 14:53:27 : checkMainScreen start quiet mode
+2015-08-07 14:53:27 : checkMainScreen exit quiet mode
+2015-08-07 14:53:28 : checkMainScreen start quiet mode
+2015-08-07 14:53:28 : checkMainScreen exit quiet mode
+2015-08-07 14:53:28 : checkMainScreen start quiet mode
+2015-08-07 14:53:28 : checkMainScreen exit quiet mode
+2015-08-07 14:53:31 : Finished kicking
+2015-08-07 14:53:31 : Func Idle 
+2015-08-07 14:53:42 : checkMainScreen start quiet mode
+2015-08-07 14:53:42 : checkMainScreen exit quiet mode
+2015-08-07 14:53:42 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:53:43 : checkMainScreen start quiet mode
+2015-08-07 14:53:45 : CheckObstacles Result = True
+2015-08-07 14:53:45 : Waiting for Main Screen
+2015-08-07 14:53:45 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:53:47 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:53:47 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:53:47 : checkMainScreen exit quiet mode
+2015-08-07 14:53:48 : Bot clean start
+2015-08-07 14:53:49 : Trying to locate Main Screen
+2015-08-07 14:53:49 : Main Screen Located
+2015-08-07 14:53:49 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:53:51 : checkMainScreen start quiet mode
+2015-08-07 14:53:51 : checkMainScreen exit quiet mode
+2015-08-07 14:53:51 : Collecting Resources
+2015-08-07 14:53:56 : checkMainScreen start quiet mode
+2015-08-07 14:53:58 : CheckObstacles Result = True
+2015-08-07 14:53:58 : Waiting for Main Screen
+2015-08-07 14:53:58 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:54:00 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:54:00 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:54:00 : checkMainScreen exit quiet mode
+2015-08-07 14:54:01 : Bot clean start
+2015-08-07 14:54:02 : Trying to locate Main Screen
+2015-08-07 14:54:02 : Main Screen Located
+2015-08-07 14:54:03 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:54:04 : checkMainScreen start quiet mode
+2015-08-07 14:54:04 : checkMainScreen exit quiet mode
+2015-08-07 14:54:05 : Collecting Resources
+2015-08-07 14:54:10 : checkMainScreen start quiet mode
+2015-08-07 14:54:10 : checkMainScreen exit quiet mode
+2015-08-07 14:54:11 : Checking if Village needs Rearming..
+2015-08-07 14:54:17 : checkMainScreen start quiet mode
+2015-08-07 14:54:17 : checkMainScreen exit quiet mode
+2015-08-07 14:54:18 : checkMainScreen start quiet mode
+2015-08-07 14:54:18 : checkMainScreen exit quiet mode
+2015-08-07 14:54:19 : Village Report
+2015-08-07 14:54:19 : Cannot get Free/Total Builders
+2015-08-07 14:54:19 : No. of Free/Total Builders: 0/0
+2015-08-07 14:54:19 :  [T]: 2 589
+2015-08-07 14:54:19 :  [G]: 2 568 460 [E]: 5 310 355 [D]: 79 382 [GEM]: 1 981
+2015-08-07 14:54:20 : checkMainScreen start quiet mode
+2015-08-07 14:54:20 : checkMainScreen exit quiet mode
+2015-08-07 14:54:20 : checkMainScreen start quiet mode
+2015-08-07 14:54:20 : checkMainScreen exit quiet mode
+2015-08-07 14:54:21 : checkMainScreen start quiet mode
+2015-08-07 14:54:21 : checkMainScreen exit quiet mode
+2015-08-07 14:54:21 : Func Train 
+2015-08-07 14:54:22 : checkMainScreen start quiet mode
+2015-08-07 14:54:23 : checkMainScreen exit quiet mode
+2015-08-07 14:54:24 : checkMainScreen start quiet mode
+2015-08-07 14:54:24 : checkMainScreen exit quiet mode
+2015-08-07 14:54:25 : checkMainScreen start quiet mode
+2015-08-07 14:54:25 : checkMainScreen exit quiet mode
+2015-08-07 14:54:25 : checkMainScreen start quiet mode
+2015-08-07 14:54:25 : checkMainScreen exit quiet mode
+2015-08-07 14:54:26 : checkMainScreen start quiet mode
+2015-08-07 14:54:26 : checkMainScreen exit quiet mode
+2015-08-07 14:54:28 : Finished kicking
+2015-08-07 14:54:28 : Func Idle 
+2015-08-07 14:54:39 : checkMainScreen start quiet mode
+2015-08-07 14:54:39 : checkMainScreen exit quiet mode
+2015-08-07 14:54:40 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:54:41 : checkMainScreen start quiet mode
+2015-08-07 14:54:42 : CheckObstacles Result = True
+2015-08-07 14:54:42 : Waiting for Main Screen
+2015-08-07 14:54:42 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:54:44 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:54:44 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:54:44 : checkMainScreen exit quiet mode
+2015-08-07 14:54:45 : Bot clean start
+2015-08-07 14:54:46 : Trying to locate Main Screen
+2015-08-07 14:54:46 : Main Screen Located
+2015-08-07 14:54:46 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:54:48 : checkMainScreen start quiet mode
+2015-08-07 14:54:48 : checkMainScreen exit quiet mode
+2015-08-07 14:54:48 : Collecting Resources
+2015-08-07 14:54:53 : checkMainScreen start quiet mode
+2015-08-07 14:54:53 : checkMainScreen exit quiet mode
+2015-08-07 14:54:55 : Checking if Village needs Rearming..
+2015-08-07 14:55:01 : checkMainScreen start quiet mode
+2015-08-07 14:55:01 : checkMainScreen exit quiet mode
+2015-08-07 14:55:02 : checkMainScreen start quiet mode
+2015-08-07 14:55:02 : checkMainScreen exit quiet mode
+2015-08-07 14:55:03 : Village Report
+2015-08-07 14:55:03 : No. of Free/Total Builders: 0/4
+2015-08-07 14:55:03 :  [T]: 2 589
+2015-08-07 14:55:03 :  [G]: 2 568 460 [E]: 5 310 355 [D]: 79 386 [GEM]: 1 981
+2015-08-07 14:55:03 : checkMainScreen start quiet mode
+2015-08-07 14:55:03 : checkMainScreen exit quiet mode
+2015-08-07 14:55:04 : checkMainScreen start quiet mode
+2015-08-07 14:55:04 : checkMainScreen exit quiet mode
+2015-08-07 14:55:05 : checkMainScreen start quiet mode
+2015-08-07 14:55:05 : checkMainScreen exit quiet mode
+2015-08-07 14:55:05 : Func Train 
+2015-08-07 14:55:06 : checkMainScreen start quiet mode
+2015-08-07 14:55:06 : checkMainScreen exit quiet mode
+2015-08-07 14:55:07 : checkMainScreen start quiet mode
+2015-08-07 14:55:07 : checkMainScreen exit quiet mode
+2015-08-07 14:55:08 : checkMainScreen start quiet mode
+2015-08-07 14:55:08 : checkMainScreen exit quiet mode
+2015-08-07 14:55:09 : checkMainScreen start quiet mode
+2015-08-07 14:55:09 : checkMainScreen exit quiet mode
+2015-08-07 14:55:09 : checkMainScreen start quiet mode
+2015-08-07 14:55:09 : checkMainScreen exit quiet mode
+2015-08-07 14:55:12 : Finished kicking
+2015-08-07 14:55:12 : Func Idle 
+2015-08-07 14:55:23 : checkMainScreen start quiet mode
+2015-08-07 14:55:23 : checkMainScreen exit quiet mode
+2015-08-07 14:55:23 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:55:24 : checkMainScreen start quiet mode
+2015-08-07 14:55:26 : CheckObstacles Result = True
+2015-08-07 14:55:26 : Waiting for Main Screen
+2015-08-07 14:55:26 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:55:28 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:55:28 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:55:28 : checkMainScreen exit quiet mode
+2015-08-07 14:55:29 : Bot clean start
+2015-08-07 14:55:30 : Trying to locate Main Screen
+2015-08-07 14:55:30 : Main Screen Located
+2015-08-07 14:55:30 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:55:32 : checkMainScreen start quiet mode
+2015-08-07 14:55:32 : checkMainScreen exit quiet mode
+2015-08-07 14:55:32 : Collecting Resources
+2015-08-07 14:55:38 : checkMainScreen start quiet mode
+2015-08-07 14:55:38 : checkMainScreen exit quiet mode
+2015-08-07 14:55:39 : Checking if Village needs Rearming..
+2015-08-07 14:55:45 : checkMainScreen start quiet mode
+2015-08-07 14:55:45 : checkMainScreen exit quiet mode
+2015-08-07 14:55:46 : checkMainScreen start quiet mode
+2015-08-07 14:55:46 : checkMainScreen exit quiet mode
+2015-08-07 14:55:47 : Village Report
+2015-08-07 14:55:47 : Cannot get Free/Total Builders
+2015-08-07 14:55:47 : No. of Free/Total Builders: 0/0
+2015-08-07 14:55:47 :  [T]: 2 589
+2015-08-07 14:55:47 :  [G]: 2 568 460 [E]: 5 311 373 [D]: 79 386 [GEM]: 1 981
+2015-08-07 14:55:48 : checkMainScreen start quiet mode
+2015-08-07 14:55:48 : checkMainScreen exit quiet mode
+2015-08-07 14:55:48 : checkMainScreen start quiet mode
+2015-08-07 14:55:48 : checkMainScreen exit quiet mode
+2015-08-07 14:55:49 : checkMainScreen start quiet mode
+2015-08-07 14:55:49 : checkMainScreen exit quiet mode
+2015-08-07 14:55:49 : Func Train 
+2015-08-07 14:55:50 : checkMainScreen start quiet mode
+2015-08-07 14:55:50 : checkMainScreen exit quiet mode
+2015-08-07 14:55:52 : checkMainScreen start quiet mode
+2015-08-07 14:55:52 : checkMainScreen exit quiet mode
+2015-08-07 14:55:53 : checkMainScreen start quiet mode
+2015-08-07 14:55:53 : checkMainScreen exit quiet mode
+2015-08-07 14:55:53 : checkMainScreen start quiet mode
+2015-08-07 14:55:53 : checkMainScreen exit quiet mode
+2015-08-07 14:55:54 : checkMainScreen start quiet mode
+2015-08-07 14:55:54 : checkMainScreen exit quiet mode
+2015-08-07 14:55:56 : Finished kicking
+2015-08-07 14:55:56 : Func Idle 
+2015-08-07 14:56:07 : checkMainScreen start quiet mode
+2015-08-07 14:56:07 : checkMainScreen exit quiet mode
+2015-08-07 14:56:07 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:56:09 : checkMainScreen start quiet mode
+2015-08-07 14:56:10 : CheckObstacles Result = True
+2015-08-07 14:56:10 : Waiting for Main Screen
+2015-08-07 14:56:10 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:56:12 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:56:12 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:56:12 : checkMainScreen exit quiet mode
+2015-08-07 14:56:13 : Bot clean start
+2015-08-07 14:56:14 : Trying to locate Main Screen
+2015-08-07 14:56:14 : Main Screen Located
+2015-08-07 14:56:14 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:56:16 : checkMainScreen start quiet mode
+2015-08-07 14:56:16 : checkMainScreen exit quiet mode
+2015-08-07 14:56:16 : Collecting Resources
+2015-08-07 14:56:21 : checkMainScreen start quiet mode
+2015-08-07 14:56:21 : checkMainScreen exit quiet mode
+2015-08-07 14:56:23 : Checking if Village needs Rearming..
+2015-08-07 14:56:29 : checkMainScreen start quiet mode
+2015-08-07 14:56:29 : checkMainScreen exit quiet mode
+2015-08-07 14:56:30 : checkMainScreen start quiet mode
+2015-08-07 14:56:30 : checkMainScreen exit quiet mode
+2015-08-07 14:56:30 : Village Report
+2015-08-07 14:56:30 : Cannot get Free/Total Builders
+2015-08-07 14:56:30 : No. of Free/Total Builders: 0/0
+2015-08-07 14:56:31 :  [T]: 2 589
+2015-08-07 14:56:31 :  [G]: 2 568 460 [E]: 5 311 373 [D]: 79 388 [GEM]: 1 981
+2015-08-07 14:56:31 : checkMainScreen start quiet mode
+2015-08-07 14:56:31 : checkMainScreen exit quiet mode
+2015-08-07 14:56:32 : checkMainScreen start quiet mode
+2015-08-07 14:56:32 : checkMainScreen exit quiet mode
+2015-08-07 14:56:33 : checkMainScreen start quiet mode
+2015-08-07 14:56:33 : checkMainScreen exit quiet mode
+2015-08-07 14:56:33 : Func Train 
+2015-08-07 14:56:34 : checkMainScreen start quiet mode
+2015-08-07 14:56:34 : checkMainScreen exit quiet mode
+2015-08-07 14:56:35 : checkMainScreen start quiet mode
+2015-08-07 14:56:35 : checkMainScreen exit quiet mode
+2015-08-07 14:56:36 : checkMainScreen start quiet mode
+2015-08-07 14:56:36 : checkMainScreen exit quiet mode
+2015-08-07 14:56:37 : checkMainScreen start quiet mode
+2015-08-07 14:56:37 : checkMainScreen exit quiet mode
+2015-08-07 14:56:37 : checkMainScreen start quiet mode
+2015-08-07 14:56:37 : checkMainScreen exit quiet mode
+2015-08-07 14:56:39 : Finished kicking
+2015-08-07 14:56:39 : Func Idle 
+2015-08-07 14:56:51 : checkMainScreen start quiet mode
+2015-08-07 14:56:51 : checkMainScreen exit quiet mode
+2015-08-07 14:56:51 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:56:52 : checkMainScreen start quiet mode
+2015-08-07 14:56:54 : CheckObstacles Result = True
+2015-08-07 14:56:54 : Waiting for Main Screen
+2015-08-07 14:56:54 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:56:56 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:56:56 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:56:56 : checkMainScreen exit quiet mode
+2015-08-07 14:56:57 : Bot clean start
+2015-08-07 14:56:58 : Trying to locate Main Screen
+2015-08-07 14:56:58 : Main Screen Located
+2015-08-07 14:56:58 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:57:00 : checkMainScreen start quiet mode
+2015-08-07 14:57:00 : checkMainScreen exit quiet mode
+2015-08-07 14:57:00 : Collecting Resources
+2015-08-07 14:57:05 : checkMainScreen start quiet mode
+2015-08-07 14:57:05 : checkMainScreen exit quiet mode
+2015-08-07 14:57:06 : Checking if Village needs Rearming..
+2015-08-07 14:57:14 : checkMainScreen start quiet mode
+2015-08-07 14:57:14 : checkMainScreen exit quiet mode
+2015-08-07 14:57:14 : checkMainScreen start quiet mode
+2015-08-07 14:57:14 : checkMainScreen exit quiet mode
+2015-08-07 14:57:15 : Village Report
+2015-08-07 14:57:15 : Cannot get Free/Total Builders
+2015-08-07 14:57:15 : No. of Free/Total Builders: 0/0
+2015-08-07 14:57:15 :  [T]: 2 589
+2015-08-07 14:57:15 :  [G]: 2 568 460 [E]: 5 311 373 [D]: 79 388 [GEM]: 1 981
+2015-08-07 14:57:16 : checkMainScreen start quiet mode
+2015-08-07 14:57:16 : checkMainScreen exit quiet mode
+2015-08-07 14:57:17 : checkMainScreen start quiet mode
+2015-08-07 14:57:17 : checkMainScreen exit quiet mode
+2015-08-07 14:57:18 : checkMainScreen start quiet mode
+2015-08-07 14:57:18 : checkMainScreen exit quiet mode
+2015-08-07 14:57:18 : Func Train 
+2015-08-07 14:57:19 : checkMainScreen start quiet mode
+2015-08-07 14:57:19 : checkMainScreen exit quiet mode
+2015-08-07 14:57:20 : checkMainScreen start quiet mode
+2015-08-07 14:57:20 : checkMainScreen exit quiet mode
+2015-08-07 14:57:21 : checkMainScreen start quiet mode
+2015-08-07 14:57:21 : checkMainScreen exit quiet mode
+2015-08-07 14:57:21 : checkMainScreen start quiet mode
+2015-08-07 14:57:21 : checkMainScreen exit quiet mode
+2015-08-07 14:57:22 : checkMainScreen start quiet mode
+2015-08-07 14:57:22 : checkMainScreen exit quiet mode
+2015-08-07 14:57:24 : Finished kicking
+2015-08-07 14:57:24 : Func Idle 
+2015-08-07 14:57:35 : checkMainScreen start quiet mode
+2015-08-07 14:57:35 : checkMainScreen exit quiet mode
+2015-08-07 14:57:36 : Checking Overview for full army [!] True, 407508
+2015-08-07 14:57:37 : checkMainScreen start quiet mode
+2015-08-07 14:57:39 : CheckObstacles Result = True
+2015-08-07 14:57:39 : Waiting for Main Screen
+2015-08-07 14:57:39 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 14:57:41 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 14:57:41 : Screen cleared, WaitMainScreen exit
+2015-08-07 14:57:41 : checkMainScreen exit quiet mode
+2015-08-07 14:57:41 : Bot clean start
+2015-08-07 14:57:42 : Trying to locate Main Screen
+2015-08-07 14:57:42 : Main Screen Located
+2015-08-07 14:57:43 : Halt Attack, Stay Online/Collect...
+2015-08-07 14:57:44 : checkMainScreen start quiet mode
+2015-08-07 14:57:44 : checkMainScreen exit quiet mode
+2015-08-07 14:57:45 : Collecting Resources
+2015-08-07 14:57:51 : checkMainScreen start quiet mode
+2015-08-07 14:57:51 : checkMainScreen exit quiet mode
+2015-08-07 14:57:52 : Checking if Village needs Rearming..

@@ -404,7 +404,8 @@ Func readConfig() ;Reads config and sets it to the variables
 		$iChkTrophyHeroes = IniRead($config, "other", "chkTrophyHeroes", "0")
 		$iChkTrophyAtkDead = IniRead($config, "other", "chkTrophyAtkDead", "0")
 
-		$iWAOffset =  IniRead($config, "other", "WAOffset", "10")
+		$iWAOffsetX =  IniRead($config, "other", "WAOffsetX", "10")
+		$iWAOffsetY =  IniRead($config, "other", "WAOffsetY", "0")
 
 		;PushBullet Settings ---------------------------------------------
 		$PushToken = IniRead($config, "pushbullet", "AccountToken", "")

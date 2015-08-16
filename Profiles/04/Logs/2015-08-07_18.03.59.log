@@ -1,0 +1,394 @@
+2015-08-07 18:04:00 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 18:04:00 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-07 18:04:00 : =================== Bot Start ====================
+2015-08-07 18:04:00 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 18:04:00 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 18:04:00 : Trying to locate Main Screen
+2015-08-07 18:04:07 : CheckObstacles Result = True
+2015-08-07 18:04:07 : Waiting for Main Screen
+2015-08-07 18:04:07 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 18:04:07 : Screen cleared, WaitMainScreen exit
+2015-08-07 18:04:08 : Zooming Out
+2015-08-07 18:04:08 : Index = 0
+2015-08-07 18:04:08 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:08 : Index = 2
+2015-08-07 18:04:09 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:09 : Index = 4
+2015-08-07 18:04:09 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:09 : Index = 6
+2015-08-07 18:04:09 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:09 : Index = 8
+2015-08-07 18:04:10 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:10 : Index = 10
+2015-08-07 18:04:10 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:10 : Index = 12
+2015-08-07 18:04:10 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 18:04:10 : Main Screen Located
+2015-08-07 18:04:11 : Detecting your Buildings..
+2015-08-07 18:04:19 : Language setting is English: Correct.
+2015-08-07 18:04:19 : Bot clean start
+2015-08-07 18:04:20 : Trying to locate Main Screen
+2015-08-07 18:04:20 : Main Screen Located
+2015-08-07 18:04:21 : Halt Attack, Stay Online/Train/Collect/Donate...
+2015-08-07 18:04:22 : checkMainScreen start quiet mode
+2015-08-07 18:04:22 : checkMainScreen exit quiet mode
+2015-08-07 18:04:23 : Collecting Resources
+2015-08-07 18:04:28 : checkMainScreen start quiet mode
+2015-08-07 18:04:28 : checkMainScreen exit quiet mode
+2015-08-07 18:04:29 : Checking if Village needs Rearming..
+2015-08-07 18:04:36 : checkMainScreen start quiet mode
+2015-08-07 18:04:36 : checkMainScreen exit quiet mode
+2015-08-07 18:04:36 : checkMainScreen start quiet mode
+2015-08-07 18:04:36 : checkMainScreen exit quiet mode
+2015-08-07 18:04:37 : Village Report
+2015-08-07 18:04:37 : No. of Free/Total Builders: 0/4
+2015-08-07 18:04:37 :  [T]: 2 558
+2015-08-07 18:04:37 :  [G]: 1 021 553 [E]: 4 642 613 [D]: 15 901 [GEM]: 1 981
+2015-08-07 18:04:38 : checkMainScreen start quiet mode
+2015-08-07 18:04:38 : checkMainScreen exit quiet mode
+2015-08-07 18:04:38 : checkMainScreen start quiet mode
+2015-08-07 18:04:38 : checkMainScreen exit quiet mode
+2015-08-07 18:04:40 : checkMainScreen start quiet mode
+2015-08-07 18:04:40 : checkMainScreen exit quiet mode
+2015-08-07 18:04:40 : Func Train 
+2015-08-07 18:04:40 : Halt enabled, $TotalTrainedTroops= 0, Adj TotalCamp= -8
+2015-08-07 18:04:40 : Checking Army Camp...
+2015-08-07 18:04:41 : $sArmyInfo = 200#200
+2015-08-07 18:04:41 : $CurCamp = 200
+2015-08-07 18:04:41 : $TotalCamp = 200
+2015-08-07 18:04:42 : Total Army Camp capacity: 200/200
+2015-08-07 18:04:42 : $hBitmapFirst made
+2015-08-07 18:04:42 : Calling CGBfunctions.dll/searchIdentifyTroopTrained 
+2015-08-07 18:04:45 : Dll return $FullTemp :Barbarian|8-21|75#Archer|71-22|125
+2015-08-07 18:04:45 : $Trooptype split # : 2
+2015-08-07 18:04:45 : Start the Loop
+2015-08-07 18:04:45 : $TroopTypeT[$i] split : 1
+2015-08-07 18:04:45 :  - No. of Barbarians: 75
+2015-08-07 18:04:45 : $TroopTypeT[$i] split : 2
+2015-08-07 18:04:45 :  - No. of Archers: 125
+2015-08-07 18:04:45 : start barrackstatus
+2015-08-07 18:04:45 : OK, I'm in army overview
+2015-08-07 18:04:45 : barrack 1 found upgrading! color 6B6964
+2015-08-07 18:04:45 : barrack 2 found! color 888070
+2015-08-07 18:04:45 : barrack 3 found! color 888070
+2015-08-07 18:04:45 : barrack 4 found! color 888070
+2015-08-07 18:04:45 : dark barrack 1 found! color 888070
+2015-08-07 18:04:45 : dark barrack 5 found upgrading! color 6B6964
+2015-08-07 18:04:45 : Factory Spell found! color 888070
+2015-08-07 18:04:45 : Dark Factory Spell found! color 888070
+2015-08-07 18:04:45 : Barracks and Spell factory status: 
+2015-08-07 18:04:45 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-07 18:04:45 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2015-08-07 18:04:45 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-07 18:04:45 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-07 18:04:45 : Trainaviable[0] = 1
+2015-08-07 18:04:45 : Trainaviable[1] = 0
+2015-08-07 18:04:45 : Trainaviable[2] = 1
+2015-08-07 18:04:45 : Trainaviable[3] = 1
+2015-08-07 18:04:45 : Trainaviable[4] = 1
+2015-08-07 18:04:46 : Trainaviable[5] = 1
+2015-08-07 18:04:46 : Trainaviable[6] = 0
+2015-08-07 18:04:46 : Trainaviable[7] = 1
+2015-08-07 18:04:46 : Trainaviable[8] = 1
+2015-08-07 18:04:46 : Training Troops...
+2015-08-07 18:04:46 : Train: need to make normal troops: True
+2015-08-07 18:04:46 : Train: need to make dark troops: False
+2015-08-07 18:04:46 : LAST BARRACK = 4
+2015-08-07 18:04:46 : OverView TabColor=BABCB8
+2015-08-07 18:04:46 : Last Barrack TabColor=888070
+2015-08-07 18:04:46 : Your Army Camps are now Full
+2015-08-07 18:04:46 : ---------COMPUTE TROOPS TO MAKE------------------------
+2015-08-07 18:04:46 : -- Compute AnotherTroops to train
+2015-08-07 18:04:46 : Need to train (height) GOBL:0% BARB: 120% ARCH: 80% AND 0 other troops space
+2015-08-07 18:04:46 : Total Troops to be Trained= 200
+2015-08-07 18:04:46 : BARRACKNUM: 3
+2015-08-07 18:04:46 : ArchEBarrack: 26
+2015-08-07 18:04:46 : BarbEBarrack: 40
+2015-08-07 18:04:46 : DARKBARRACKNUM: 1
+2015-08-07 18:04:46 : ---------END COMPUTE TROOPS TO MAKE--------------------
+2015-08-07 18:04:46 : 
+2015-08-07 18:04:46 : ---------TRAIN BARRACK MODE------------------------
+2015-08-07 18:04:46 : Barrack4 selected
+2015-08-07 18:04:49 : Full Check=DE58D0
+2015-08-07 18:04:49 : Full Check=DE58D0
+2015-08-07 18:04:49 : Full Check=FF7FF5
+2015-08-07 18:04:49 : Full Check=FB75F1
+2015-08-07 18:04:49 : Full Check=FF80F8
+2015-08-07 18:04:49 : Full Check=FE78F4
+2015-08-07 18:04:49 : Full Check=FE78F4
+2015-08-07 18:04:49 : Full Check=FF7FF5
+2015-08-07 18:04:49 : Full Check=FE78F4
+2015-08-07 18:04:49 : Full Check=FB75F1
+2015-08-07 18:04:49 : Full Check=FF7FF5
+2015-08-07 18:04:49 : Full Check=FB75F1
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FE78F4
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FE78F4
+2015-08-07 18:04:50 : Full Check=FB75F1
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FE78F4
+2015-08-07 18:04:50 : Full Check=FF7FF5
+2015-08-07 18:04:50 : Full Check=FB75F1
+2015-08-07 18:04:50 : Full Check=FE78F4
+2015-08-07 18:04:51 : Full Check=FE78F4
+2015-08-07 18:04:51 : Full Check=FF78F3
+2015-08-07 18:04:51 : Full Check=FD74EE
+2015-08-07 18:04:51 : Full Check=FF78F3
+2015-08-07 18:04:51 : Full Check=FF7FF5
+2015-08-07 18:04:51 : Full Check=FF7FF5
+2015-08-07 18:04:51 : Full Check=FB75F1
+2015-08-07 18:04:51 : Full Check=FF7FF5
+2015-08-07 18:04:51 : Full Check=FE78F4
+2015-08-07 18:04:51 : Full Check=FB75F1
+2015-08-07 18:04:51 : Full Check=FF7FF5
+2015-08-07 18:04:51 : Full Check=FF7FF5
+2015-08-07 18:04:51 : Full Check=FF80F8
+2015-08-07 18:04:51 : Full Check=FF78F3
+2015-08-07 18:04:51 : Full Check=FF7FF5
+2015-08-07 18:04:51 : Full Check=FB75F1
+2015-08-07 18:04:52 : Full Check=FF78F3
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=FE78F4
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=F164DF
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=FE78F4
+2015-08-07 18:04:52 : Full Check=FE78F4
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=FD74EE
+2015-08-07 18:04:52 : Full Check=F164DF
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=FB75F1
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=FF7FF5
+2015-08-07 18:04:52 : Full Check=FF80F8
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FD74EE
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FB75F1
+2015-08-07 18:04:53 : Full Check=FB75F1
+2015-08-07 18:04:53 : Full Check=FE78F4
+2015-08-07 18:04:53 : Full Check=FF78F3
+2015-08-07 18:04:53 : Full Check=FF7FF5
+2015-08-07 18:04:53 : Full Check=FB75F1
+2015-08-07 18:04:54 : Move from Barrack 4 direction -1
+2015-08-07 18:04:55 : Barrack3 selected
+2015-08-07 18:04:57 : Full Check=DE58D0
+2015-08-07 18:04:57 : Full Check=FF80F8
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FE78F4
+2015-08-07 18:04:58 : Full Check=FE78F4
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FE78F4
+2015-08-07 18:04:58 : Full Check=FF78F3
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FB75F1
+2015-08-07 18:04:58 : Full Check=FF78F3
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FB75F1
+2015-08-07 18:04:58 : Full Check=FE78F4
+2015-08-07 18:04:58 : Full Check=FF7FF5
+2015-08-07 18:04:58 : Full Check=FB75F1
+2015-08-07 18:04:58 : Full Check=FE78F4
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FB75F1
+2015-08-07 18:04:59 : Full Check=FB75F1
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FE78F4
+2015-08-07 18:04:59 : Full Check=FB75F1
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FE78F4
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FF80F8
+2015-08-07 18:04:59 : Full Check=FB75F1
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:04:59 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FB75F1
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FE78F4
+2015-08-07 18:05:00 : Full Check=FB75F1
+2015-08-07 18:05:00 : Full Check=FB75F1
+2015-08-07 18:05:00 : Full Check=FF78F3
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FF78F3
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FE78F4
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:00 : Full Check=FE78F4
+2015-08-07 18:05:00 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=FE78F4
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=FF78F3
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=FE78F4
+2015-08-07 18:05:01 : Full Check=F164DF
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:01 : Full Check=F164DF
+2015-08-07 18:05:01 : Full Check=F164DF
+2015-08-07 18:05:01 : Full Check=FB75F1
+2015-08-07 18:05:01 : Full Check=FE78F4
+2015-08-07 18:05:01 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=F164DF
+2015-08-07 18:05:02 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=F164DF
+2015-08-07 18:05:02 : Full Check=FF7FF5
+2015-08-07 18:05:02 : Full Check=FE78F4
+2015-08-07 18:05:03 : Move from Barrack 3 direction -1
+2015-08-07 18:05:04 : Barrack2 selected
+2015-08-07 18:05:06 : Full Check=E05AD0
+2015-08-07 18:05:06 : Full Check=E05AD0
+2015-08-07 18:05:06 : Full Check=FF76F1
+2015-08-07 18:05:06 : Full Check=FF76F1
+2015-08-07 18:05:06 : Full Check=FF79F5
+2015-08-07 18:05:06 : Full Check=F167E2
+2015-08-07 18:05:06 : Full Check=FF7EF7
+2015-08-07 18:05:06 : Full Check=FF79F5
+2015-08-07 18:05:06 : Full Check=FF79F5
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=FF76F1
+2015-08-07 18:05:07 : Full Check=FF7BF6
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=FF76F1
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=FF76F1
+2015-08-07 18:05:07 : Full Check=FF7BF6
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=FF76F1
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=F167E2
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:07 : Full Check=FF76F1
+2015-08-07 18:05:07 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF79F5
+2015-08-07 18:05:08 : Full Check=FF76F1
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF76F1
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF79F5
+2015-08-07 18:05:08 : Full Check=FF76F1
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF76F1
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF79F5
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF79F5
+2015-08-07 18:05:08 : Full Check=FF7EF7
+2015-08-07 18:05:08 : Full Check=FF76F1
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7BF6
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF79F5
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF7EF7
+2015-08-07 18:05:09 : Full Check=FF79F5
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF76F1
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF76F1
+2015-08-07 18:05:10 : Full Check=FF79F5
+2015-08-07 18:05:10 : Full Check=FF7BF6
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF79F5
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=FF7EF7
+2015-08-07 18:05:10 : Full Check=F167E2
+2015-08-07 18:05:11 : Full Check=FF7EF7
+2015-08-07 18:05:11 : Full Check=FF79F5
+2015-08-07 18:05:11 : Move from Barrack 2 direction -1
+2015-08-07 18:05:12 : This is not a Barrack
+2015-08-07 18:05:12 : ---=====================END TRAIN =======================================---
+2015-08-07 18:05:14 : checkMainScreen start quiet mode
+2015-08-07 18:05:14 : checkMainScreen exit quiet mode
+2015-08-07 18:05:15 : checkMainScreen start quiet mode
+2015-08-07 18:05:15 : checkMainScreen exit quiet mode
+2015-08-07 18:05:16 : checkMainScreen start quiet mode
+2015-08-07 18:05:16 : checkMainScreen exit quiet mode
+2015-08-07 18:05:16 : Requesting Clan Castle Troops
+2015-08-07 18:05:16 : $icount1 = 1, BB2BD1
+2015-08-07 18:05:16 : Your Clan Castle is already full or you are not in a clan.
+2015-08-07 18:05:17 : checkMainScreen start quiet mode
+2015-08-07 18:05:17 : checkMainScreen exit quiet mode
+2015-08-07 18:05:17 :  ====== Unbreakable Mode enabled! ====== 
+2015-08-07 18:05:17 : Oops, Out of Gold,  - back to farming
+2015-08-07 18:05:18 : checkMainScreen start quiet mode
+2015-08-07 18:05:18 : checkMainScreen exit quiet mode
+2015-08-07 18:05:18 : checkMainScreen start quiet mode
+2015-08-07 18:05:18 : checkMainScreen exit quiet mode
+2015-08-07 18:05:21 : Finished kicking
+2015-08-07 18:05:21 : Func Idle 
+2015-08-07 18:05:21 : Bot clean start
+2015-08-07 18:05:22 : Trying to locate Main Screen
+2015-08-07 18:05:22 : Main Screen Located
+2015-08-07 18:05:23 : Halt Attack, Stay Online/Train/Collect/Donate...
+2015-08-07 18:05:24 : checkMainScreen start quiet mode
+2015-08-07 18:05:24 : checkMainScreen exit quiet mode
+2015-08-07 18:05:24 : Collecting Resources
+2015-08-07 18:05:25 : ClashGameBot was Paused!
+2015-08-07 18:06:02 : ClashGameBot was Resumed.
+2015-08-07 18:06:07 : checkMainScreen start quiet mode
+2015-08-07 18:06:07 : checkMainScreen exit quiet mode
+2015-08-07 18:06:08 : Checking if Village needs Rearming..
+2015-08-07 18:06:14 : checkMainScreen start quiet mode
+2015-08-07 18:06:14 : checkMainScreen exit quiet mode
+2015-08-07 18:06:15 : checkMainScreen start quiet mode
+2015-08-07 18:06:15 : checkMainScreen exit quiet mode
+2015-08-07 18:06:16 : Village Report
+2015-08-07 18:06:16 : No. of Free/Total Builders: 0/4
+2015-08-07 18:06:16 :  [T]: 2 558
+2015-08-07 18:06:16 :  [G]: 1 021 553 [E]: 4 642 613 [D]: 15 905 [GEM]: 1 981
+2015-08-07 18:06:16 : checkMainScreen start quiet mode
+2015-08-07 18:06:16 : checkMainScreen exit quiet mode
+2015-08-07 18:06:17 : checkMainScreen start quiet mode
+2015-08-07 18:06:17 : checkMainScreen exit quiet mode
+2015-08-07 18:06:18 : checkMainScreen start quiet mode
+2015-08-07 18:06:18 : checkMainScreen exit quiet mode
+2015-08-07 18:06:18 : Func Train 
+2015-08-07 18:06:18 : Halt enabled, $TotalTrainedTroops= 200, Adj TotalCamp= 192
+2015-08-07 18:06:19 : Checking Overview for full army [!] True, 407508
+2015-08-07 18:06:19 : Checking Overview for full CC [!] False, 6F9F1E
+2015-08-07 18:06:19 : Checking Overview for full Heroes [!] False, 6F9F1E
+2015-08-07 18:06:20 : FullArmy & TotalTrained = skip training

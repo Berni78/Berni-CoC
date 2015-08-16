@@ -1,0 +1,63 @@
+2015-08-02 19:07:44 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-02 19:07:44 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-02 19:07:44 : =================== Bot Start ====================
+2015-08-02 19:07:44 : -------------------------  Current Profile: 01 --------------------------
+2015-08-02 19:07:44 : Trying to locate Main Screen
+2015-08-02 19:07:44 : Main Screen Located
+2015-08-02 19:07:45 : Detecting your Buildings..
+2015-08-02 19:07:49 : Language setting is English: Correct.
+2015-08-02 19:07:51 : Trying to locate Main Screen
+2015-08-02 19:07:51 : Main Screen Located
+2015-08-02 19:07:52 : Collecting Resources
+2015-08-02 19:08:00 : Checking if Village needs Rearming..
+2015-08-02 19:08:08 : Village Report
+2015-08-02 19:08:08 : No. of Free/Total Builders: 0/4
+2015-08-02 19:08:08 :  [T]: 1 803
+2015-08-02 19:08:08 :  [G]: 5 846 778 [E]: 5 104 201 [D]: 61 149 [GEM]: 953
+2015-08-02 19:08:12 : Checking Army Camp...
+2015-08-02 19:08:14 : Total Army Camp capacity: 200/200
+2015-08-02 19:08:15 :  - No. of Barbarians: 122
+2015-08-02 19:08:15 :  - No. of Archers: 78
+2015-08-02 19:08:15 : Barracks and Spell factory status: 
+2015-08-02 19:08:15 : - Barracks detected: 4 | Available: 3 | Upgrading: 1
+2015-08-02 19:08:15 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-02 19:08:15 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-02 19:08:15 : - Dark Spell factory detected: 1 | Available: 0 | Upgrading: 1
+2015-08-02 19:08:15 : Training Troops...
+2015-08-02 19:08:16 : Your Army Camps are now Full
+2015-08-02 19:08:38 : Requesting Clan Castle Troops
+2015-08-02 19:08:38 : Your Clan Castle is already full or you are not in a clan.
+2015-08-02 19:08:39 : Checking Troop Upgrade in Laboratory ...
+2015-08-02 19:08:39 : Updating village values [E]: 5112001 [D]: 61149
+2015-08-02 19:08:41 : Insufficent Elixir for Pekka, Lab requires: 6000000 + 250000 user reserve
+2015-08-02 19:08:45 : Finished kicking
+2015-08-02 19:08:45 : Going to Attack...
+2015-08-02 19:08:51 : ============== Searching For Dead Base ===============
+2015-08-02 19:08:51 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-02 19:08:51 : Meet: Gold and Elixir
+2015-08-02 19:08:51 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-02 19:08:51 : Aim: [G]: 200000 [E]: 200000 [D]:    0 [T]: 0, Out for: Dead Base
+2015-08-02 19:08:51 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-02 19:08:51 : THSnipe Combo, 1 Tile(s), 
+2015-08-02 19:08:51 : ==================================================
+2015-08-02 19:08:52 :   1> [G]:  52432 [E]:  65328 [D]:  597 [T]:32 [TH]: 8, In
+2015-08-02 19:08:56 :   2> [G]:  77508 [E]: 157526 [D]:  513 [T]:33 [TH]:10, In
+2015-08-02 19:08:59 :   3> [G]:  23976 [E]:  47212 [D]:  261 [T]:29 [TH]: 7, In
+2015-08-02 19:09:05 :   4> [G]:  38128 [E]: 147827 [D]:  304 [T]:19 [TH]: 7, In
+2015-08-02 19:09:07 :   5> [G]:  54000 [E]:  45000 [D]:  116 [T]:27 [TH]: 7, In
+2015-08-02 19:09:14 :   6> [G]: 146867 [E]:  84339 [D]:  550 [T]:16 [TH]: 8, In
+2015-08-02 19:09:17 :   7> [G]: 126615 [E]:  55057 [D]:  164 [T]:13 [TH]: 8, In
+2015-08-02 19:09:20 :   8> [G]:  55437 [E]:  50616 [D]:  347 [T]:26 [TH]: 7, In
+2015-08-02 19:09:23 :   9> [G]: 100794 [E]: 191317 [D]:  115 [T]:32 [TH]: 8, In
+2015-08-02 19:09:30 :  10> [G]: 135491 [E]:  85537 [D]:  265 [T]:31 [TH]: 8, In
+2015-08-02 19:09:33 :  11> [G]:  23969 [E]:  96832 [D]:  436 [T]:35 [TH]: 7, In
+2015-08-02 19:09:36 :  12> [G]:  11744 [E]:  89012 [D]:  360 [T]:26 [TH]: 7, In
+2015-08-02 19:09:43 :  13> [G]:  98458 [E]:  93567 [D]:  973 [T]:22 [TH]: 8, In
+2015-08-02 19:09:46 :  14> [G]:  66377 [E]:  55825 [D]:  115 [T]:32 [TH]: 8, In
+2015-08-02 19:09:53 :  15> [G]:  92111 [E]: 124575 [D]:  687 [T]:34 [TH]: 8, In
+2015-08-02 19:09:55 :  16> [G]:  46786 [E]:  89361 [D]:  615 [T]:24 [TH]: 7, In
+2015-08-02 19:10:02 :  17> [G]:  34822 [E]:  28939 [D]:  254 [T]:21 [TH]: 8, In
+2015-08-02 19:10:05 :  18> [G]:  54134 [E]:  59693 [D]:  349 [T]:24 [TH]: 7, In
+2015-08-02 19:10:08 :  19> [G]: 129670 [E]: 287128 [D]:  840 [T]:19 [TH]: 8, In
+2015-08-02 19:10:12 :  20> [G]: 187011 [E]:  54557 [D]:  264 [T]:25 [TH]: 8, In
+2015-08-02 19:10:12 : Aim: [G]: 198000 [E]: 198000 [D]:    0 [T]: 0, Out for: Dead Base

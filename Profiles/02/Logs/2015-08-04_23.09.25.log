@@ -1,0 +1,52 @@
+2015-08-04 23:09:26 : Starting BlueStacks
+2015-08-04 23:10:27 : BlueStacks Loaded, took 60.88 seconds to begin.
+2015-08-04 23:10:27 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-04 23:10:27 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-04 23:10:28 : =================== Bot Start ====================
+2015-08-04 23:10:28 : -------------------------  Current Profile: 02 --------------------------
+2015-08-04 23:10:28 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-04 23:10:29 : Trying to locate Main Screen
+2015-08-04 23:10:31 : CheckObstacles Result = False
+2015-08-04 23:10:33 : Waiting for Main Screen
+2015-08-04 23:10:33 : ChkObst Loop = 0ExitLoop = 0
+2015-08-04 23:34:13 : ChkObst Loop = 1ExitLoop = 1
+2015-08-04 23:34:16 : ChkObst Loop = 2ExitLoop = 2
+2015-08-04 23:34:19 : ChkObst Loop = 3ExitLoop = 3
+2015-08-04 23:34:19 : Screen cleared, WaitMainScreen exit
+2015-08-04 23:34:20 : Zooming Out
+2015-08-04 23:34:20 : Index = 0
+2015-08-04 23:34:21 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-04 23:34:21 : Index = 2
+2015-08-04 23:34:21 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-04 23:34:21 : Index = 4
+2015-08-04 23:34:21 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-04 23:34:21 : Index = 6
+2015-08-04 23:34:22 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-04 23:34:22 : Index = 8
+2015-08-04 23:34:22 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-04 23:34:22 : Index = 10
+2015-08-04 23:34:22 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-04 23:34:22 : Main Screen Located
+2015-08-04 23:34:23 : Detecting your Buildings..
+2015-08-04 23:34:32 : Language setting is English: Correct.
+2015-08-04 23:34:32 : Bot clean start
+2015-08-04 23:34:33 : Trying to locate Main Screen
+2015-08-04 23:34:33 : Main Screen Located
+2015-08-04 23:34:34 : checkMainScreen start quiet mode
+2015-08-04 23:34:34 : checkMainScreen exit quiet mode
+2015-08-04 23:34:34 : Collecting Resources
+2015-08-04 23:34:40 : checkMainScreen start quiet mode
+2015-08-04 23:34:40 : checkMainScreen exit quiet mode
+2015-08-04 23:34:42 : Cannot find tombstones, Yard is clean!
+2015-08-04 23:34:42 : checkMainScreen start quiet mode
+2015-08-04 23:34:42 : checkMainScreen exit quiet mode
+2015-08-04 23:34:43 : Checking if Village needs Rearming..
+2015-08-04 23:34:49 : checkMainScreen start quiet mode
+2015-08-04 23:34:49 : checkMainScreen exit quiet mode
+2015-08-04 23:34:50 : checkMainScreen start quiet mode
+2015-08-04 23:34:50 : checkMainScreen exit quiet mode
+2015-08-04 23:34:51 : Village Report
+2015-08-04 23:34:51 : No. of Free/Total Builders: 0/4
+2015-08-04 23:34:51 :  [T]: 2 048
+2015-08-04 23:34:51 :  [G]: 4 939 619 [E]: 5 765 994 [D]: 71 633 [GEM]: 974
+2015-08-04 23:34:51 : Village Gold detected Below Gold Profile Switch Conditions

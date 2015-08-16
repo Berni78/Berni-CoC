@@ -1,0 +1,3169 @@
+2015-08-07 12:32:42 : ~ Clash Game Bot v4.1MODS Powered by GameBot.org ~
+2015-08-07 12:32:42 : GameBot.org.exe Executable running on WIN_7  X64
+2015-08-07 12:32:42 : =================== Bot Start ====================
+2015-08-07 12:32:42 : -------------------------  Current Profile: 04 --------------------------
+2015-08-07 12:32:42 :  Warning Debug Mode Enabled! Setlog: 1 OCR: 0 RedArea: 0 
+2015-08-07 12:32:42 : Trying to locate Main Screen
+2015-08-07 12:32:43 : CheckObstacles Result = False
+2015-08-07 12:32:45 : Waiting for Main Screen
+2015-08-07 12:32:45 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 12:32:48 : ChkObst Loop = 1ExitLoop = 1
+2015-08-07 12:32:51 : ChkObst Loop = 2ExitLoop = 2
+2015-08-07 12:32:54 : ChkObst Loop = 3ExitLoop = 3
+2015-08-07 12:32:54 : Screen cleared, WaitMainScreen exit
+2015-08-07 12:32:55 : Zooming Out
+2015-08-07 12:32:55 : Index = 0
+2015-08-07 12:32:55 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:55 : Index = 2
+2015-08-07 12:32:56 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:56 : Index = 4
+2015-08-07 12:32:56 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:56 : Index = 6
+2015-08-07 12:32:56 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:56 : Index = 8
+2015-08-07 12:32:57 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:57 : Index = 10
+2015-08-07 12:32:57 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:57 : Index = 12
+2015-08-07 12:32:57 : ControlFocus Result = 1, ControlSend Result = 1|0
+2015-08-07 12:32:57 : Main Screen Located
+2015-08-07 12:32:58 : Detecting your Buildings..
+2015-08-07 12:33:03 : Language setting is English: Correct.
+2015-08-07 12:33:03 : Bot clean start
+2015-08-07 12:33:04 : Trying to locate Main Screen
+2015-08-07 12:33:04 : Main Screen Located
+2015-08-07 12:33:04 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:33:06 : checkMainScreen start quiet mode
+2015-08-07 12:33:06 : checkMainScreen exit quiet mode
+2015-08-07 12:33:06 : Collecting Resources
+2015-08-07 12:33:12 : checkMainScreen start quiet mode
+2015-08-07 12:33:12 : checkMainScreen exit quiet mode
+2015-08-07 12:33:13 : Checking if Village needs Rearming..
+2015-08-07 12:33:19 : checkMainScreen start quiet mode
+2015-08-07 12:33:19 : checkMainScreen exit quiet mode
+2015-08-07 12:33:20 : checkMainScreen start quiet mode
+2015-08-07 12:33:20 : checkMainScreen exit quiet mode
+2015-08-07 12:33:21 : Village Report
+2015-08-07 12:33:21 : No. of Free/Total Builders: 0/4
+2015-08-07 12:33:21 :  [T]: 2 589
+2015-08-07 12:33:21 :  [G]: 2 494 775 [E]: 5 254 667 [D]: 79 125 [GEM]: 1 981
+2015-08-07 12:33:22 : checkMainScreen start quiet mode
+2015-08-07 12:33:22 : checkMainScreen exit quiet mode
+2015-08-07 12:33:23 : checkMainScreen start quiet mode
+2015-08-07 12:33:23 : checkMainScreen exit quiet mode
+2015-08-07 12:33:24 : checkMainScreen start quiet mode
+2015-08-07 12:33:24 : checkMainScreen exit quiet mode
+2015-08-07 12:33:24 : Func Train 
+2015-08-07 12:33:25 : checkMainScreen start quiet mode
+2015-08-07 12:33:25 : checkMainScreen exit quiet mode
+2015-08-07 12:33:26 : checkMainScreen start quiet mode
+2015-08-07 12:33:27 : checkMainScreen exit quiet mode
+2015-08-07 12:33:28 : checkMainScreen start quiet mode
+2015-08-07 12:33:28 : checkMainScreen exit quiet mode
+2015-08-07 12:33:28 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:33:28 : Updating village values [E]: 5254667 [D]: 79125
+2015-08-07 12:33:29 : ButtonPixel = 483, 565
+2015-08-07 12:33:29 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:33:29 : Taking snapshot for later review
+2015-08-07 12:33:30 : Taking snapshot for later review
+2015-08-07 12:33:30 : Taking debug snapshot for later review
+2015-08-07 12:33:31 : Barbarian
+2015-08-07 12:33:31 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:33:31 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:33:31 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:33:31 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:33:31 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:31 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:33:31 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:33:31 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:33:31 : Taking debug snapshot for later review
+2015-08-07 12:33:31 : Archer
+2015-08-07 12:33:31 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:33:31 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:33:31 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:33:31 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:33:31 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:31 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:33:31 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:33:31 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:33:31 : Taking debug snapshot for later review
+2015-08-07 12:33:31 : Giant
+2015-08-07 12:33:31 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:33:31 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:33:31 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:33:31 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:33:31 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:31 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:33:31 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:33:31 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:33:31 : Taking debug snapshot for later review
+2015-08-07 12:33:32 : Goblin
+2015-08-07 12:33:32 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:33:32 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:33:32 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:33:32 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:33:32 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:32 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:33:32 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:33:32 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:33:32 : Taking debug snapshot for later review
+2015-08-07 12:33:32 : Wall Breaker
+2015-08-07 12:33:32 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:33:32 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:33:32 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:33:32 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:33:32 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:32 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:33:32 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:33:32 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:33:32 : Taking debug snapshot for later review
+2015-08-07 12:33:33 : Balloon
+2015-08-07 12:33:33 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:33:33 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:33:33 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:33:33 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:33:33 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:33 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:33:33 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:33:33 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:33:33 : Taking debug snapshot for later review
+2015-08-07 12:33:33 : Wizard
+2015-08-07 12:33:33 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:33:33 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:33:33 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:33:33 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:33:33 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:33 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:33:33 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:33:33 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:33:33 : Taking debug snapshot for later review
+2015-08-07 12:33:33 : Healer
+2015-08-07 12:33:33 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:33:33 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:33:33 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:33:33 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:33:33 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:33 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:33:33 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:33:33 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:33:33 : Taking debug snapshot for later review
+2015-08-07 12:33:34 : Dragon
+2015-08-07 12:33:34 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:33:34 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:33:34 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:33:34 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:33:34 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:34 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:33:34 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:33:34 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:33:34 : Taking debug snapshot for later review
+2015-08-07 12:33:34 : Pekka
+2015-08-07 12:33:34 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:33:34 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:33:34 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:33:34 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:33:34 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:33:34 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:33:34 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:33:34 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:33:34 : Taking debug snapshot for later review
+2015-08-07 12:33:35 : Lightning Spell
+2015-08-07 12:33:35 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:33:35 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:33:35 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:33:35 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:33:35 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:33:35 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:33:35 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:33:35 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:33:35 : Taking debug snapshot for later review
+2015-08-07 12:33:35 : Healing Spell
+2015-08-07 12:33:35 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:33:35 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:33:35 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:33:35 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:33:35 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:33:35 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:33:35 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:33:35 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:33:35 : Barbarian Red text upgrade value = 
+2015-08-07 12:33:35 : Barbarian White text upgrade value = 
+2015-08-07 12:33:35 : Archer Red text upgrade value = 
+2015-08-07 12:33:35 : Archer White text upgrade value = 
+2015-08-07 12:33:35 : Giant Red text upgrade value = 
+2015-08-07 12:33:35 : Giant White text upgrade value = 
+2015-08-07 12:33:35 : Goblin Red text upgrade value = 
+2015-08-07 12:33:35 : Goblin White text upgrade value = 
+2015-08-07 12:33:35 : Wall Breaker Red text upgrade value = 
+2015-08-07 12:33:35 : Wall Breaker White text upgrade value = 
+2015-08-07 12:33:35 : Balloon Red text upgrade value = 
+2015-08-07 12:33:35 : Balloon White text upgrade value = 
+2015-08-07 12:33:36 : Wizard Red text upgrade value = 
+2015-08-07 12:33:36 : Wizard White text upgrade value = 
+2015-08-07 12:33:36 : Healer Red text upgrade value = 
+2015-08-07 12:33:36 : Healer White text upgrade value = 
+2015-08-07 12:33:36 : Dragon Red text upgrade value = 
+2015-08-07 12:33:36 : Dragon White text upgrade value = 
+2015-08-07 12:33:36 : Pekka Red text upgrade value = 6000000
+2015-08-07 12:33:36 : Lightning Spell Red text upgrade value = 
+2015-08-07 12:33:36 : Lightning Spell White text upgrade value = 2000000
+2015-08-07 12:33:36 : Healing Spell Red text upgrade value = 
+2015-08-07 12:33:36 : Healing Spell White text upgrade value = 
+2015-08-07 12:33:39 : Taking snapshot for later review
+2015-08-07 12:33:39 : Taking debug snapshot for later review
+2015-08-07 12:33:40 : Rage Spell
+2015-08-07 12:33:40 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:33:40 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:33:40 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:33:40 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:33:40 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:33:40 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:33:40 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:40 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:33:40 : Taking debug snapshot for later review
+2015-08-07 12:33:40 : Jump Spell
+2015-08-07 12:33:40 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:33:40 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:33:40 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:33:40 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:33:40 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:33:40 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:33:40 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:40 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:33:40 : Taking debug snapshot for later review
+2015-08-07 12:33:40 : Freeze Spell
+2015-08-07 12:33:40 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:33:40 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:33:40 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:33:40 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:33:40 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:33:40 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:33:40 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:40 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:33:40 : Taking debug snapshot for later review
+2015-08-07 12:33:41 : Poison Spell
+2015-08-07 12:33:41 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:33:41 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:33:41 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:33:41 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:33:41 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:33:41 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:33:41 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:41 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:33:41 : Taking debug snapshot for later review
+2015-08-07 12:33:41 : Earthquake Spell
+2015-08-07 12:33:41 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:33:41 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:33:41 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:33:41 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:33:41 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:33:41 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:33:41 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:41 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:33:41 : Taking debug snapshot for later review
+2015-08-07 12:33:41 : Haste Spell
+2015-08-07 12:33:42 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:33:42 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:33:42 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:33:42 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:33:42 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:33:42 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:33:42 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:42 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:33:42 : Taking debug snapshot for later review
+2015-08-07 12:33:42 : Minion
+2015-08-07 12:33:42 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:33:42 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:33:42 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:33:42 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:33:42 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:33:42 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:33:42 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:42 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:33:42 : Taking debug snapshot for later review
+2015-08-07 12:33:42 : Hog Rider
+2015-08-07 12:33:42 : _GetPixelColor(+47, +6): 08100F
+2015-08-07 12:33:42 : _GetPixelColor(+68, +79): 908F8D
+2015-08-07 12:33:42 : _GetPixelColor(+68, +82): A9A9A8
+2015-08-07 12:33:42 : _GetPixelColor(+81, +82): 1A0F23
+2015-08-07 12:33:42 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:33:42 : _GetPixelColor(+79, +78): 603524
+2015-08-07 12:33:42 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:42 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:33:42 : Taking debug snapshot for later review
+2015-08-07 12:33:43 : Valkyrie
+2015-08-07 12:33:43 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:33:43 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:33:43 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:33:43 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:33:43 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:33:43 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:33:43 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:43 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:33:43 : Taking debug snapshot for later review
+2015-08-07 12:33:43 : Golem
+2015-08-07 12:33:43 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:33:43 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:33:43 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:33:43 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:33:43 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:33:43 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:33:43 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:43 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:33:43 : Taking debug snapshot for later review
+2015-08-07 12:33:43 : Witch
+2015-08-07 12:33:43 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:33:43 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:33:44 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:33:44 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:33:44 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:33:44 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:33:44 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:44 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:33:44 : Taking debug snapshot for later review
+2015-08-07 12:33:44 : Lava Hound
+2015-08-07 12:33:44 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:33:44 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:33:44 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:33:44 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:33:44 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:33:44 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:33:44 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:33:44 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:33:44 : Rage Spell Red text upgrade value = 
+2015-08-07 12:33:44 : Rage Spell White text upgrade value = 11
+2015-08-07 12:33:44 : Jump Spell Red text upgrade value = 
+2015-08-07 12:33:44 : Jump Spell White text upgrade value = 
+2015-08-07 12:33:44 : Freeze Spell Red text upgrade value = 
+2015-08-07 12:33:44 : Freeze Spell White text upgrade value = 
+2015-08-07 12:33:44 : Poison Spell Red text upgrade value = 
+2015-08-07 12:33:44 : Poison Spell White text upgrade value = 2500
+2015-08-07 12:33:44 : Earthquake Spell Red text upgrade value = 
+2015-08-07 12:33:44 : Earthquake Spell White text upgrade value = 3000
+2015-08-07 12:33:44 : Haste Spell Red text upgrade value = 
+2015-08-07 12:33:44 : Haste Spell White text upgrade value = 
+2015-08-07 12:33:44 : Minion Red text upgrade value = 
+2015-08-07 12:33:45 : Minion White text upgrade value = 2000
+2015-08-07 12:33:45 : Hog Rider Red text upgrade value = 
+2015-08-07 12:33:45 : Hog Rider White text upgrade value = 40001
+2015-08-07 12:33:45 : Valkyrie Red text upgrade value = 
+2015-08-07 12:33:45 : Valkyrie White text upgrade value = 5000
+2015-08-07 12:33:45 : Golem Red text upgrade value = 
+2015-08-07 12:33:45 : Golem White text upgrade value = 6000
+2015-08-07 12:33:45 : Witch Red text upgrade value = 
+2015-08-07 12:33:45 : Witch White text upgrade value = 
+2015-08-07 12:33:45 : Lava Hound Red text upgrade value = 
+2015-08-07 12:33:45 : Lava Hound White text upgrade value = 
+2015-08-07 12:33:46 : Taking snapshot for later review
+2015-08-07 12:33:48 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:33:49 : checkMainScreen start quiet mode
+2015-08-07 12:33:49 : checkMainScreen exit quiet mode
+2015-08-07 12:33:50 : checkMainScreen start quiet mode
+2015-08-07 12:33:50 : checkMainScreen exit quiet mode
+2015-08-07 12:33:52 : Finished kicking
+2015-08-07 12:33:52 : Func Idle 
+2015-08-07 12:34:03 : checkMainScreen start quiet mode
+2015-08-07 12:34:03 : checkMainScreen exit quiet mode
+2015-08-07 12:34:04 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:34:05 : checkMainScreen start quiet mode
+2015-08-07 12:34:05 : checkMainScreen exit quiet mode
+2015-08-07 12:34:05 : Func Train 
+2015-08-07 12:34:05 : checkMainScreen start quiet mode
+2015-08-07 12:34:05 : checkMainScreen exit quiet mode
+2015-08-07 12:34:06 : Time Idle: 00:00:13
+2015-08-07 12:34:06 : Bot clean start
+2015-08-07 12:34:07 : Trying to locate Main Screen
+2015-08-07 12:34:07 : Main Screen Located
+2015-08-07 12:34:08 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:34:09 : checkMainScreen start quiet mode
+2015-08-07 12:34:09 : checkMainScreen exit quiet mode
+2015-08-07 12:34:09 : Collecting Resources
+2015-08-07 12:34:15 : checkMainScreen start quiet mode
+2015-08-07 12:34:15 : checkMainScreen exit quiet mode
+2015-08-07 12:34:17 : Checking if Village needs Rearming..
+2015-08-07 12:34:23 : checkMainScreen start quiet mode
+2015-08-07 12:34:23 : checkMainScreen exit quiet mode
+2015-08-07 12:34:24 : checkMainScreen start quiet mode
+2015-08-07 12:34:24 : checkMainScreen exit quiet mode
+2015-08-07 12:34:24 : Village Report
+2015-08-07 12:34:24 : No. of Free/Total Builders: 0/4
+2015-08-07 12:34:24 :  [T]: 2 589
+2015-08-07 12:34:25 :  [G]: 2 494 775 [E]: 5 255 348 [D]: 79 127 [GEM]: 1 981
+2015-08-07 12:34:25 : checkMainScreen start quiet mode
+2015-08-07 12:34:25 : checkMainScreen exit quiet mode
+2015-08-07 12:34:26 : checkMainScreen start quiet mode
+2015-08-07 12:34:26 : checkMainScreen exit quiet mode
+2015-08-07 12:34:28 : checkMainScreen start quiet mode
+2015-08-07 12:34:28 : checkMainScreen exit quiet mode
+2015-08-07 12:34:28 : Func Train 
+2015-08-07 12:34:29 : checkMainScreen start quiet mode
+2015-08-07 12:34:29 : checkMainScreen exit quiet mode
+2015-08-07 12:34:30 : checkMainScreen start quiet mode
+2015-08-07 12:34:30 : checkMainScreen exit quiet mode
+2015-08-07 12:34:31 : checkMainScreen start quiet mode
+2015-08-07 12:34:31 : checkMainScreen exit quiet mode
+2015-08-07 12:34:31 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:34:31 : Updating village values [E]: 5255348 [D]: 79127
+2015-08-07 12:34:32 : ButtonPixel = 483, 565
+2015-08-07 12:34:32 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:34:32 : Taking snapshot for later review
+2015-08-07 12:34:33 : Taking snapshot for later review
+2015-08-07 12:34:34 : Taking debug snapshot for later review
+2015-08-07 12:34:34 : Barbarian
+2015-08-07 12:34:34 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:34:34 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:34:34 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:34:34 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:34:34 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:34 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:34:34 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:34:34 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:34:34 : Taking debug snapshot for later review
+2015-08-07 12:34:34 : Archer
+2015-08-07 12:34:34 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:34:34 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:34:34 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:34:34 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:34:34 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:34 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:34:34 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:34:34 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:34:34 : Taking debug snapshot for later review
+2015-08-07 12:34:35 : Giant
+2015-08-07 12:34:35 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:34:35 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:34:35 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:34:35 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:34:35 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:35 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:34:35 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:34:35 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:34:35 : Taking debug snapshot for later review
+2015-08-07 12:34:35 : Goblin
+2015-08-07 12:34:35 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:34:35 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:34:35 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:34:35 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:34:35 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:35 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:34:35 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:34:35 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:34:35 : Taking debug snapshot for later review
+2015-08-07 12:34:36 : Wall Breaker
+2015-08-07 12:34:36 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:34:36 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:34:36 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:34:36 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:34:36 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:36 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:34:36 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:34:36 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:34:36 : Taking debug snapshot for later review
+2015-08-07 12:34:36 : Balloon
+2015-08-07 12:34:36 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:34:36 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:34:36 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:34:36 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:34:36 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:36 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:34:36 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:34:36 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:34:36 : Taking debug snapshot for later review
+2015-08-07 12:34:36 : Wizard
+2015-08-07 12:34:36 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:34:36 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:34:36 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:34:36 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:34:36 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:36 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:34:36 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:34:36 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:34:36 : Taking debug snapshot for later review
+2015-08-07 12:34:37 : Healer
+2015-08-07 12:34:37 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:34:37 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:34:37 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:34:37 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:34:37 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:37 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:34:37 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:34:37 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:34:37 : Taking debug snapshot for later review
+2015-08-07 12:34:37 : Dragon
+2015-08-07 12:34:37 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:34:37 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:34:37 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:34:37 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:34:37 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:37 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:34:37 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:34:37 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:34:37 : Taking debug snapshot for later review
+2015-08-07 12:34:38 : Pekka
+2015-08-07 12:34:38 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:34:38 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:34:38 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:34:38 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:34:38 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:34:38 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:34:38 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:34:38 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:34:38 : Taking debug snapshot for later review
+2015-08-07 12:34:38 : Lightning Spell
+2015-08-07 12:34:38 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:34:38 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:34:38 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:34:38 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:34:38 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:34:38 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:34:38 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:34:38 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:34:38 : Taking debug snapshot for later review
+2015-08-07 12:34:38 : Healing Spell
+2015-08-07 12:34:38 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:34:38 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:34:38 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:34:38 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:34:38 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:34:38 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:34:38 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:34:38 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:34:42 : Taking snapshot for later review
+2015-08-07 12:34:42 : Taking debug snapshot for later review
+2015-08-07 12:34:42 : Rage Spell
+2015-08-07 12:34:42 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:34:42 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:34:42 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:34:42 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:34:42 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:34:42 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:34:42 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:42 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:34:42 : Taking debug snapshot for later review
+2015-08-07 12:34:43 : Jump Spell
+2015-08-07 12:34:43 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:34:43 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:34:43 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:34:43 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:34:43 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:34:43 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:34:43 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:43 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:34:43 : Taking debug snapshot for later review
+2015-08-07 12:34:43 : Freeze Spell
+2015-08-07 12:34:43 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:34:43 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:34:43 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:34:43 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:34:43 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:34:43 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:34:43 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:43 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:34:43 : Taking debug snapshot for later review
+2015-08-07 12:34:43 : Poison Spell
+2015-08-07 12:34:43 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:34:43 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:34:43 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:34:43 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:34:43 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:34:43 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:34:43 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:43 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:34:43 : Taking debug snapshot for later review
+2015-08-07 12:34:44 : Earthquake Spell
+2015-08-07 12:34:44 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:34:44 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:34:44 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:34:44 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:34:44 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:34:44 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:34:44 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:44 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:34:44 : Taking debug snapshot for later review
+2015-08-07 12:34:44 : Haste Spell
+2015-08-07 12:34:44 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:34:44 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:34:44 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:34:44 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:34:44 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:34:44 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:34:44 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:44 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:34:44 : Taking debug snapshot for later review
+2015-08-07 12:34:45 : Minion
+2015-08-07 12:34:45 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:34:45 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:34:45 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:34:45 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:34:45 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:34:45 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:34:45 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:45 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:34:45 : Taking debug snapshot for later review
+2015-08-07 12:34:45 : Hog Rider
+2015-08-07 12:34:45 : _GetPixelColor(+47, +6): 1C3336
+2015-08-07 12:34:45 : _GetPixelColor(+68, +79): 94A5AA
+2015-08-07 12:34:45 : _GetPixelColor(+68, +82): ADBEC4
+2015-08-07 12:34:45 : _GetPixelColor(+81, +82): 1E223D
+2015-08-07 12:34:45 : _GetPixelColor(+49, +78): FDFEFE
+2015-08-07 12:34:45 : _GetPixelColor(+79, +78): 65473C
+2015-08-07 12:34:45 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:45 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:34:45 : Taking debug snapshot for later review
+2015-08-07 12:34:45 : Valkyrie
+2015-08-07 12:34:45 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:34:45 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:34:45 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:34:45 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:34:45 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:34:45 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:34:45 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:45 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:34:46 : Taking debug snapshot for later review
+2015-08-07 12:34:46 : Golem
+2015-08-07 12:34:46 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:34:46 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:34:46 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:34:46 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:34:46 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:34:46 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:34:46 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:46 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:34:46 : Taking debug snapshot for later review
+2015-08-07 12:34:46 : Witch
+2015-08-07 12:34:46 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:34:46 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:34:46 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:34:46 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:34:46 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:34:46 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:34:46 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:46 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:34:46 : Taking debug snapshot for later review
+2015-08-07 12:34:47 : Lava Hound
+2015-08-07 12:34:47 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:34:47 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:34:47 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:34:47 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:34:47 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:34:47 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:34:47 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:34:47 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:34:48 : Taking snapshot for later review
+2015-08-07 12:34:50 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:34:51 : checkMainScreen start quiet mode
+2015-08-07 12:34:51 : checkMainScreen exit quiet mode
+2015-08-07 12:34:52 : checkMainScreen start quiet mode
+2015-08-07 12:34:52 : checkMainScreen exit quiet mode
+2015-08-07 12:34:54 : Finished kicking
+2015-08-07 12:34:54 : Func Idle 
+2015-08-07 12:35:05 : checkMainScreen start quiet mode
+2015-08-07 12:35:05 : checkMainScreen exit quiet mode
+2015-08-07 12:35:06 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:35:07 : checkMainScreen start quiet mode
+2015-08-07 12:35:07 : checkMainScreen exit quiet mode
+2015-08-07 12:35:07 : Func Train 
+2015-08-07 12:35:07 : checkMainScreen start quiet mode
+2015-08-07 12:35:07 : checkMainScreen exit quiet mode
+2015-08-07 12:35:08 : Time Idle: 00:00:13
+2015-08-07 12:35:08 : Bot clean start
+2015-08-07 12:35:09 : Trying to locate Main Screen
+2015-08-07 12:35:09 : Main Screen Located
+2015-08-07 12:35:10 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:35:11 : checkMainScreen start quiet mode
+2015-08-07 12:35:11 : checkMainScreen exit quiet mode
+2015-08-07 12:35:11 : Collecting Resources
+2015-08-07 12:35:17 : checkMainScreen start quiet mode
+2015-08-07 12:35:18 : checkMainScreen exit quiet mode
+2015-08-07 12:35:19 : Checking if Village needs Rearming..
+2015-08-07 12:35:25 : checkMainScreen start quiet mode
+2015-08-07 12:35:25 : checkMainScreen exit quiet mode
+2015-08-07 12:35:26 : checkMainScreen start quiet mode
+2015-08-07 12:35:26 : checkMainScreen exit quiet mode
+2015-08-07 12:35:27 : Village Report
+2015-08-07 12:35:27 : No. of Free/Total Builders: 0/4
+2015-08-07 12:35:27 :  [T]: 2 589
+2015-08-07 12:35:27 :  [G]: 2 497 235 [E]: 5 255 348 [D]: 79 128 [GEM]: 1 981
+2015-08-07 12:35:27 : checkMainScreen start quiet mode
+2015-08-07 12:35:27 : checkMainScreen exit quiet mode
+2015-08-07 12:35:29 : checkMainScreen start quiet mode
+2015-08-07 12:35:29 : checkMainScreen exit quiet mode
+2015-08-07 12:35:30 : checkMainScreen start quiet mode
+2015-08-07 12:35:30 : checkMainScreen exit quiet mode
+2015-08-07 12:35:30 : Func Train 
+2015-08-07 12:35:31 : checkMainScreen start quiet mode
+2015-08-07 12:35:31 : checkMainScreen exit quiet mode
+2015-08-07 12:35:32 : checkMainScreen start quiet mode
+2015-08-07 12:35:32 : checkMainScreen exit quiet mode
+2015-08-07 12:35:33 : checkMainScreen start quiet mode
+2015-08-07 12:35:33 : checkMainScreen exit quiet mode
+2015-08-07 12:35:33 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:35:33 : Updating village values [E]: 5255348 [D]: 79128
+2015-08-07 12:35:34 : ButtonPixel = 483, 565
+2015-08-07 12:35:34 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:35:34 : Taking snapshot for later review
+2015-08-07 12:35:36 : Taking snapshot for later review
+2015-08-07 12:35:36 : Taking debug snapshot for later review
+2015-08-07 12:35:36 : Barbarian
+2015-08-07 12:35:36 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:35:36 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:35:36 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:35:36 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:35:36 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:36 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:35:36 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:35:36 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:35:36 : Taking debug snapshot for later review
+2015-08-07 12:35:37 : Archer
+2015-08-07 12:35:37 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:35:37 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:35:37 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:35:37 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:35:37 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:37 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:35:37 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:35:37 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:35:37 : Taking debug snapshot for later review
+2015-08-07 12:35:37 : Giant
+2015-08-07 12:35:37 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:35:37 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:35:37 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:35:37 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:35:37 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:37 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:35:37 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:35:37 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:35:37 : Taking debug snapshot for later review
+2015-08-07 12:35:37 : Goblin
+2015-08-07 12:35:37 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:35:37 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:35:37 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:35:37 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:35:37 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:37 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:35:37 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:35:37 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:35:37 : Taking debug snapshot for later review
+2015-08-07 12:35:38 : Wall Breaker
+2015-08-07 12:35:38 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:35:38 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:35:38 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:35:38 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:35:38 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:38 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:35:38 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:35:38 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:35:38 : Taking debug snapshot for later review
+2015-08-07 12:35:38 : Balloon
+2015-08-07 12:35:38 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:35:38 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:35:38 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:35:38 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:35:38 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:38 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:35:38 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:35:38 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:35:38 : Taking debug snapshot for later review
+2015-08-07 12:35:39 : Wizard
+2015-08-07 12:35:39 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:35:39 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:35:39 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:35:39 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:35:39 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:39 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:35:39 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:35:39 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:35:39 : Taking debug snapshot for later review
+2015-08-07 12:35:39 : Healer
+2015-08-07 12:35:39 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:35:39 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:35:39 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:35:39 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:35:39 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:39 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:35:39 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:35:39 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:35:39 : Taking debug snapshot for later review
+2015-08-07 12:35:39 : Dragon
+2015-08-07 12:35:39 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:35:39 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:35:39 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:35:39 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:35:39 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:40 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:35:40 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:35:40 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:35:40 : Taking debug snapshot for later review
+2015-08-07 12:35:40 : Pekka
+2015-08-07 12:35:40 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:35:40 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:35:40 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:35:40 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:35:40 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:35:40 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:35:40 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:35:40 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:35:40 : Taking debug snapshot for later review
+2015-08-07 12:35:40 : Lightning Spell
+2015-08-07 12:35:40 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:35:40 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:35:40 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:35:40 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:35:40 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:35:40 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:35:40 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:35:40 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:35:40 : Taking debug snapshot for later review
+2015-08-07 12:35:41 : Healing Spell
+2015-08-07 12:35:41 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:35:41 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:35:41 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:35:41 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:35:41 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:35:41 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:35:41 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:35:41 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:35:44 : Taking snapshot for later review
+2015-08-07 12:35:44 : Taking debug snapshot for later review
+2015-08-07 12:35:44 : Rage Spell
+2015-08-07 12:35:44 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:35:44 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:35:44 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:35:44 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:35:44 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:35:44 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:35:45 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:45 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:35:45 : Taking debug snapshot for later review
+2015-08-07 12:35:45 : Jump Spell
+2015-08-07 12:35:45 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:35:45 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:35:45 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:35:45 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:35:45 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:35:45 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:35:45 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:45 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:35:45 : Taking debug snapshot for later review
+2015-08-07 12:35:45 : Freeze Spell
+2015-08-07 12:35:45 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:35:45 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:35:45 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:35:45 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:35:45 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:35:45 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:35:45 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:45 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:35:45 : Taking debug snapshot for later review
+2015-08-07 12:35:46 : Poison Spell
+2015-08-07 12:35:46 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:35:46 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:35:46 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:35:46 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:35:46 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:35:46 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:35:46 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:46 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:35:46 : Taking debug snapshot for later review
+2015-08-07 12:35:46 : Earthquake Spell
+2015-08-07 12:35:46 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:35:46 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:35:46 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:35:46 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:35:46 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:35:46 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:35:46 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:46 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:35:46 : Taking debug snapshot for later review
+2015-08-07 12:35:46 : Haste Spell
+2015-08-07 12:35:46 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:35:46 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:35:46 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:35:46 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:35:46 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:35:46 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:35:46 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:46 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:35:47 : Taking debug snapshot for later review
+2015-08-07 12:35:47 : Minion
+2015-08-07 12:35:47 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:35:47 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:35:47 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:35:47 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:35:47 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:35:47 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:35:47 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:47 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:35:47 : Taking debug snapshot for later review
+2015-08-07 12:35:47 : Hog Rider
+2015-08-07 12:35:47 : _GetPixelColor(+47, +6): 1E373A
+2015-08-07 12:35:47 : _GetPixelColor(+68, +79): 95A6AC
+2015-08-07 12:35:47 : _GetPixelColor(+68, +82): AEC0C7
+2015-08-07 12:35:47 : _GetPixelColor(+81, +82): 1F2642
+2015-08-07 12:35:47 : _GetPixelColor(+49, +78): FEFEFE
+2015-08-07 12:35:47 : _GetPixelColor(+79, +78): 65483E
+2015-08-07 12:35:47 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:47 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:35:47 : Taking debug snapshot for later review
+2015-08-07 12:35:48 : Valkyrie
+2015-08-07 12:35:48 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:35:48 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:35:48 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:35:48 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:35:48 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:35:48 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:35:48 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:48 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:35:48 : Taking debug snapshot for later review
+2015-08-07 12:35:48 : Golem
+2015-08-07 12:35:48 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:35:48 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:35:48 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:35:48 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:35:48 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:35:48 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:35:48 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:48 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:35:48 : Taking debug snapshot for later review
+2015-08-07 12:35:48 : Witch
+2015-08-07 12:35:48 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:35:48 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:35:48 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:35:48 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:35:48 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:35:49 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:35:49 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:49 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:35:49 : Taking debug snapshot for later review
+2015-08-07 12:35:49 : Lava Hound
+2015-08-07 12:35:49 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:35:49 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:35:49 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:35:49 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:35:49 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:35:49 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:35:49 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:35:49 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:35:50 : Taking snapshot for later review
+2015-08-07 12:35:52 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:35:53 : checkMainScreen start quiet mode
+2015-08-07 12:35:53 : checkMainScreen exit quiet mode
+2015-08-07 12:35:54 : checkMainScreen start quiet mode
+2015-08-07 12:35:54 : checkMainScreen exit quiet mode
+2015-08-07 12:35:56 : Finished kicking
+2015-08-07 12:35:56 : Func Idle 
+2015-08-07 12:36:07 : checkMainScreen start quiet mode
+2015-08-07 12:36:10 : CheckObstacles Result = True
+2015-08-07 12:36:10 : Waiting for Main Screen
+2015-08-07 12:36:10 : ChkObst Loop = 0ExitLoop = 0
+2015-08-07 12:36:10 : Screen cleared, WaitMainScreen exit
+2015-08-07 12:36:10 : checkMainScreen exit quiet mode
+2015-08-07 12:36:10 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:36:12 : checkMainScreen start quiet mode
+2015-08-07 12:36:12 : checkMainScreen exit quiet mode
+2015-08-07 12:36:12 : Bot clean start
+2015-08-07 12:36:13 : Trying to locate Main Screen
+2015-08-07 12:36:13 : Main Screen Located
+2015-08-07 12:36:14 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:36:15 : checkMainScreen start quiet mode
+2015-08-07 12:36:15 : checkMainScreen exit quiet mode
+2015-08-07 12:36:15 : Collecting Resources
+2015-08-07 12:36:21 : checkMainScreen start quiet mode
+2015-08-07 12:36:21 : checkMainScreen exit quiet mode
+2015-08-07 12:36:22 : Checking if Village needs Rearming..
+2015-08-07 12:36:28 : checkMainScreen start quiet mode
+2015-08-07 12:36:29 : checkMainScreen exit quiet mode
+2015-08-07 12:36:29 : checkMainScreen start quiet mode
+2015-08-07 12:36:29 : checkMainScreen exit quiet mode
+2015-08-07 12:36:30 : Village Report
+2015-08-07 12:36:30 : No. of Free/Total Builders: 0/4
+2015-08-07 12:36:30 :  [T]: 2 589
+2015-08-07 12:36:30 :  [G]: 2 497 797 [E]: 5 255 348 [D]: 79 132 [GEM]: 1 981
+2015-08-07 12:36:31 : checkMainScreen start quiet mode
+2015-08-07 12:36:31 : checkMainScreen exit quiet mode
+2015-08-07 12:36:32 : checkMainScreen start quiet mode
+2015-08-07 12:36:32 : checkMainScreen exit quiet mode
+2015-08-07 12:36:33 : checkMainScreen start quiet mode
+2015-08-07 12:36:33 : checkMainScreen exit quiet mode
+2015-08-07 12:36:33 : Func Train 
+2015-08-07 12:36:34 : checkMainScreen start quiet mode
+2015-08-07 12:36:34 : checkMainScreen exit quiet mode
+2015-08-07 12:36:35 : checkMainScreen start quiet mode
+2015-08-07 12:36:35 : checkMainScreen exit quiet mode
+2015-08-07 12:36:36 : checkMainScreen start quiet mode
+2015-08-07 12:36:36 : checkMainScreen exit quiet mode
+2015-08-07 12:36:36 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:36:37 : Updating village values [E]: 5255348 [D]: 79132
+2015-08-07 12:36:38 : ButtonPixel = 483, 565
+2015-08-07 12:36:38 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:36:38 : Taking snapshot for later review
+2015-08-07 12:36:39 : Taking snapshot for later review
+2015-08-07 12:36:39 : Taking debug snapshot for later review
+2015-08-07 12:36:39 : Barbarian
+2015-08-07 12:36:39 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:36:39 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:36:40 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:36:40 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:36:40 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:40 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:36:40 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:36:40 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:36:40 : Taking debug snapshot for later review
+2015-08-07 12:36:40 : Archer
+2015-08-07 12:36:40 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:36:40 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:36:40 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:36:40 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:36:40 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:40 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:36:40 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:36:40 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:36:40 : Taking debug snapshot for later review
+2015-08-07 12:36:40 : Giant
+2015-08-07 12:36:40 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:36:40 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:36:40 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:36:40 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:36:40 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:40 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:36:40 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:36:40 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:36:40 : Taking debug snapshot for later review
+2015-08-07 12:36:41 : Goblin
+2015-08-07 12:36:41 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:36:41 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:36:41 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:36:41 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:36:41 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:41 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:36:41 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:36:41 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:36:41 : Taking debug snapshot for later review
+2015-08-07 12:36:41 : Wall Breaker
+2015-08-07 12:36:41 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:36:41 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:36:41 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:36:41 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:36:41 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:41 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:36:41 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:36:41 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:36:41 : Taking debug snapshot for later review
+2015-08-07 12:36:41 : Balloon
+2015-08-07 12:36:42 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:36:42 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:36:42 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:36:42 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:36:42 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:42 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:36:42 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:36:42 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:36:42 : Taking debug snapshot for later review
+2015-08-07 12:36:42 : Wizard
+2015-08-07 12:36:42 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:36:42 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:36:42 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:36:42 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:36:42 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:42 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:36:42 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:36:42 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:36:42 : Taking debug snapshot for later review
+2015-08-07 12:36:42 : Healer
+2015-08-07 12:36:42 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:36:42 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:36:42 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:36:42 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:36:42 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:42 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:36:42 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:36:42 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:36:42 : Taking debug snapshot for later review
+2015-08-07 12:36:43 : Dragon
+2015-08-07 12:36:43 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:36:43 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:36:43 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:36:43 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:36:43 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:43 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:36:43 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:36:43 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:36:43 : Taking debug snapshot for later review
+2015-08-07 12:36:43 : Pekka
+2015-08-07 12:36:43 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:36:43 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:36:43 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:36:43 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:36:43 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:36:43 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:36:43 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:36:43 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:36:43 : Taking debug snapshot for later review
+2015-08-07 12:36:44 : Lightning Spell
+2015-08-07 12:36:44 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:36:44 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:36:44 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:36:44 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:36:44 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:36:44 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:36:44 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:36:44 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:36:44 : Taking debug snapshot for later review
+2015-08-07 12:36:44 : Healing Spell
+2015-08-07 12:36:44 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:36:44 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:36:44 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:36:44 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:36:44 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:36:44 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:36:44 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:36:44 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:36:47 : Taking snapshot for later review
+2015-08-07 12:36:47 : Taking debug snapshot for later review
+2015-08-07 12:36:48 : Rage Spell
+2015-08-07 12:36:48 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:36:48 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:36:48 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:36:48 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:36:48 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:36:48 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:36:48 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:48 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:36:48 : Taking debug snapshot for later review
+2015-08-07 12:36:48 : Jump Spell
+2015-08-07 12:36:48 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:36:48 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:36:48 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:36:48 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:36:48 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:36:48 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:36:48 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:48 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:36:48 : Taking debug snapshot for later review
+2015-08-07 12:36:48 : Freeze Spell
+2015-08-07 12:36:48 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:36:48 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:36:49 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:36:49 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:36:49 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:36:49 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:36:49 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:49 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:36:49 : Taking debug snapshot for later review
+2015-08-07 12:36:49 : Poison Spell
+2015-08-07 12:36:49 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:36:49 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:36:49 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:36:49 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:36:49 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:36:49 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:36:49 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:49 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:36:49 : Taking debug snapshot for later review
+2015-08-07 12:36:49 : Earthquake Spell
+2015-08-07 12:36:49 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:36:49 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:36:49 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:36:49 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:36:49 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:36:49 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:36:49 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:49 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:36:49 : Taking debug snapshot for later review
+2015-08-07 12:36:50 : Haste Spell
+2015-08-07 12:36:50 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:36:50 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:36:50 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:36:50 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:36:50 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:36:50 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:36:50 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:50 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:36:50 : Taking debug snapshot for later review
+2015-08-07 12:36:50 : Minion
+2015-08-07 12:36:50 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:36:50 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:36:50 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:36:50 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:36:50 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:36:50 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:36:50 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:50 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:36:50 : Taking debug snapshot for later review
+2015-08-07 12:36:50 : Hog Rider
+2015-08-07 12:36:50 : _GetPixelColor(+47, +6): 203B3E
+2015-08-07 12:36:51 : _GetPixelColor(+68, +79): 95A8AF
+2015-08-07 12:36:51 : _GetPixelColor(+68, +82): AEC3CA
+2015-08-07 12:36:51 : _GetPixelColor(+81, +82): 202945
+2015-08-07 12:36:51 : _GetPixelColor(+49, +78): FEFEFE
+2015-08-07 12:36:51 : _GetPixelColor(+79, +78): 664C43
+2015-08-07 12:36:51 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:51 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:36:51 : Taking debug snapshot for later review
+2015-08-07 12:36:51 : Valkyrie
+2015-08-07 12:36:51 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:36:51 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:36:51 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:36:51 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:36:51 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:36:51 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:36:51 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:51 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:36:51 : Taking debug snapshot for later review
+2015-08-07 12:36:51 : Golem
+2015-08-07 12:36:51 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:36:51 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:36:51 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:36:51 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:36:51 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:36:51 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:36:51 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:51 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:36:51 : Taking debug snapshot for later review
+2015-08-07 12:36:52 : Witch
+2015-08-07 12:36:52 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:36:52 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:36:52 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:36:52 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:36:52 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:36:52 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:36:52 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:52 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:36:52 : Taking debug snapshot for later review
+2015-08-07 12:36:52 : Lava Hound
+2015-08-07 12:36:52 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:36:52 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:36:52 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:36:52 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:36:52 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:36:52 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:36:52 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:36:52 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:36:53 : Taking snapshot for later review
+2015-08-07 12:36:55 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:36:56 : checkMainScreen start quiet mode
+2015-08-07 12:36:56 : checkMainScreen exit quiet mode
+2015-08-07 12:36:57 : checkMainScreen start quiet mode
+2015-08-07 12:36:57 : checkMainScreen exit quiet mode
+2015-08-07 12:36:59 : Finished kicking
+2015-08-07 12:36:59 : Func Idle 
+2015-08-07 12:37:10 : checkMainScreen start quiet mode
+2015-08-07 12:37:10 : checkMainScreen exit quiet mode
+2015-08-07 12:37:11 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:37:12 : checkMainScreen start quiet mode
+2015-08-07 12:37:12 : checkMainScreen exit quiet mode
+2015-08-07 12:37:12 : Func Train 
+2015-08-07 12:37:13 : checkMainScreen start quiet mode
+2015-08-07 12:37:13 : checkMainScreen exit quiet mode
+2015-08-07 12:37:13 : Time Idle: 00:00:13
+2015-08-07 12:37:14 : Bot clean start
+2015-08-07 12:37:15 : Trying to locate Main Screen
+2015-08-07 12:37:15 : Main Screen Located
+2015-08-07 12:37:15 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:37:17 : checkMainScreen start quiet mode
+2015-08-07 12:37:17 : checkMainScreen exit quiet mode
+2015-08-07 12:37:17 : Collecting Resources
+2015-08-07 12:37:23 : checkMainScreen start quiet mode
+2015-08-07 12:37:23 : checkMainScreen exit quiet mode
+2015-08-07 12:37:25 : Checking if Village needs Rearming..
+2015-08-07 12:37:31 : checkMainScreen start quiet mode
+2015-08-07 12:37:31 : checkMainScreen exit quiet mode
+2015-08-07 12:37:32 : checkMainScreen start quiet mode
+2015-08-07 12:37:32 : checkMainScreen exit quiet mode
+2015-08-07 12:37:32 : Village Report
+2015-08-07 12:37:32 : No. of Free/Total Builders: 0/4
+2015-08-07 12:37:32 :  [T]: 2 589
+2015-08-07 12:37:33 :  [G]: 2 497 797 [E]: 5 256 421 [D]: 79 134 [GEM]: 1 981
+2015-08-07 12:37:33 : checkMainScreen start quiet mode
+2015-08-07 12:37:33 : checkMainScreen exit quiet mode
+2015-08-07 12:37:34 : checkMainScreen start quiet mode
+2015-08-07 12:37:34 : checkMainScreen exit quiet mode
+2015-08-07 12:37:36 : checkMainScreen start quiet mode
+2015-08-07 12:37:36 : checkMainScreen exit quiet mode
+2015-08-07 12:37:36 : Func Train 
+2015-08-07 12:37:37 : checkMainScreen start quiet mode
+2015-08-07 12:37:37 : checkMainScreen exit quiet mode
+2015-08-07 12:37:38 : checkMainScreen start quiet mode
+2015-08-07 12:37:38 : checkMainScreen exit quiet mode
+2015-08-07 12:37:39 : checkMainScreen start quiet mode
+2015-08-07 12:37:39 : checkMainScreen exit quiet mode
+2015-08-07 12:37:39 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:37:39 : Updating village values [E]: 5256421 [D]: 79134
+2015-08-07 12:37:40 : ButtonPixel = 483, 565
+2015-08-07 12:37:40 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:37:40 : Taking snapshot for later review
+2015-08-07 12:37:41 : Taking snapshot for later review
+2015-08-07 12:37:42 : Taking debug snapshot for later review
+2015-08-07 12:37:42 : Barbarian
+2015-08-07 12:37:42 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:37:42 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:37:42 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:37:42 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:37:42 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:42 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:37:42 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:37:42 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:37:42 : Taking debug snapshot for later review
+2015-08-07 12:37:42 : Archer
+2015-08-07 12:37:42 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:37:42 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:37:42 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:37:42 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:37:42 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:43 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:37:43 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:37:43 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:37:43 : Taking debug snapshot for later review
+2015-08-07 12:37:43 : Giant
+2015-08-07 12:37:43 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:37:43 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:37:43 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:37:43 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:37:43 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:43 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:37:43 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:37:43 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:37:43 : Taking debug snapshot for later review
+2015-08-07 12:37:43 : Goblin
+2015-08-07 12:37:43 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:37:43 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:37:43 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:37:43 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:37:43 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:43 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:37:43 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:37:43 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:37:43 : Taking debug snapshot for later review
+2015-08-07 12:37:44 : Wall Breaker
+2015-08-07 12:37:44 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:37:44 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:37:44 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:37:44 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:37:44 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:44 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:37:44 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:37:44 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:37:44 : Taking debug snapshot for later review
+2015-08-07 12:37:44 : Balloon
+2015-08-07 12:37:44 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:37:44 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:37:44 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:37:44 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:37:44 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:44 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:37:44 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:37:44 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:37:44 : Taking debug snapshot for later review
+2015-08-07 12:37:44 : Wizard
+2015-08-07 12:37:45 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:37:45 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:37:45 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:37:45 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:37:45 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:45 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:37:45 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:37:45 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:37:45 : Taking debug snapshot for later review
+2015-08-07 12:37:45 : Healer
+2015-08-07 12:37:45 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:37:45 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:37:45 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:37:45 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:37:45 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:45 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:37:45 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:37:45 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:37:45 : Taking debug snapshot for later review
+2015-08-07 12:37:45 : Dragon
+2015-08-07 12:37:45 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:37:45 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:37:45 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:37:45 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:37:45 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:45 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:37:45 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:37:45 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:37:45 : Taking debug snapshot for later review
+2015-08-07 12:37:46 : Pekka
+2015-08-07 12:37:46 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:37:46 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:37:46 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:37:46 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:37:46 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:37:46 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:37:46 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:37:46 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:37:46 : Taking debug snapshot for later review
+2015-08-07 12:37:46 : Lightning Spell
+2015-08-07 12:37:46 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:37:46 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:37:46 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:37:46 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:37:46 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:37:46 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:37:46 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:37:46 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:37:46 : Taking debug snapshot for later review
+2015-08-07 12:37:47 : Healing Spell
+2015-08-07 12:37:47 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:37:47 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:37:47 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:37:47 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:37:47 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:37:47 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:37:47 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:37:47 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:37:50 : Taking snapshot for later review
+2015-08-07 12:37:50 : Taking debug snapshot for later review
+2015-08-07 12:37:50 : Rage Spell
+2015-08-07 12:37:50 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:37:50 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:37:50 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:37:50 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:37:50 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:37:51 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:37:51 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:51 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:37:51 : Taking debug snapshot for later review
+2015-08-07 12:37:51 : Jump Spell
+2015-08-07 12:37:51 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:37:51 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:37:51 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:37:51 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:37:51 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:37:51 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:37:51 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:51 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:37:51 : Taking debug snapshot for later review
+2015-08-07 12:37:51 : Freeze Spell
+2015-08-07 12:37:51 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:37:51 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:37:51 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:37:51 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:37:51 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:37:51 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:37:51 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:51 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:37:51 : Taking debug snapshot for later review
+2015-08-07 12:37:52 : Poison Spell
+2015-08-07 12:37:52 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:37:52 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:37:52 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:37:52 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:37:52 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:37:52 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:37:52 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:52 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:37:52 : Taking debug snapshot for later review
+2015-08-07 12:37:52 : Earthquake Spell
+2015-08-07 12:37:52 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:37:52 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:37:52 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:37:52 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:37:52 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:37:52 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:37:52 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:52 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:37:52 : Taking debug snapshot for later review
+2015-08-07 12:37:52 : Haste Spell
+2015-08-07 12:37:53 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:37:53 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:37:53 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:37:53 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:37:53 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:37:53 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:37:53 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:53 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:37:53 : Taking debug snapshot for later review
+2015-08-07 12:37:53 : Minion
+2015-08-07 12:37:53 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:37:53 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:37:53 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:37:53 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:37:53 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:37:53 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:37:53 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:53 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:37:53 : Taking debug snapshot for later review
+2015-08-07 12:37:53 : Hog Rider
+2015-08-07 12:37:53 : _GetPixelColor(+47, +6): 152829
+2015-08-07 12:37:53 : _GetPixelColor(+68, +79): 939C9F
+2015-08-07 12:37:53 : _GetPixelColor(+68, +82): ACB5B8
+2015-08-07 12:37:53 : _GetPixelColor(+81, +82): 1C1A31
+2015-08-07 12:37:53 : _GetPixelColor(+49, +78): FBFEFE
+2015-08-07 12:37:53 : _GetPixelColor(+79, +78): 623E31
+2015-08-07 12:37:53 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:53 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:37:53 : Taking debug snapshot for later review
+2015-08-07 12:37:54 : Valkyrie
+2015-08-07 12:37:54 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:37:54 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:37:54 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:37:54 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:37:54 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:37:54 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:37:54 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:54 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:37:54 : Taking debug snapshot for later review
+2015-08-07 12:37:54 : Golem
+2015-08-07 12:37:54 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:37:54 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:37:54 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:37:54 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:37:54 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:37:54 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:37:54 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:54 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:37:54 : Taking debug snapshot for later review
+2015-08-07 12:37:55 : Witch
+2015-08-07 12:37:55 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:37:55 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:37:55 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:37:55 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:37:55 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:37:55 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:37:55 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:55 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:37:55 : Taking debug snapshot for later review
+2015-08-07 12:37:55 : Lava Hound
+2015-08-07 12:37:55 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:37:55 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:37:55 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:37:55 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:37:55 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:37:55 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:37:55 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:37:55 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:37:56 : Taking snapshot for later review
+2015-08-07 12:37:58 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:37:59 : checkMainScreen start quiet mode
+2015-08-07 12:37:59 : checkMainScreen exit quiet mode
+2015-08-07 12:38:00 : checkMainScreen start quiet mode
+2015-08-07 12:38:00 : checkMainScreen exit quiet mode
+2015-08-07 12:38:02 : Finished kicking
+2015-08-07 12:38:02 : Func Idle 
+2015-08-07 12:38:13 : checkMainScreen start quiet mode
+2015-08-07 12:38:13 : checkMainScreen exit quiet mode
+2015-08-07 12:38:14 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:38:15 : checkMainScreen start quiet mode
+2015-08-07 12:38:15 : checkMainScreen exit quiet mode
+2015-08-07 12:38:15 : Func Train 
+2015-08-07 12:38:15 : checkMainScreen start quiet mode
+2015-08-07 12:38:15 : checkMainScreen exit quiet mode
+2015-08-07 12:38:16 : Time Idle: 00:00:13
+2015-08-07 12:38:16 : Bot clean start
+2015-08-07 12:38:17 : Trying to locate Main Screen
+2015-08-07 12:38:17 : Main Screen Located
+2015-08-07 12:38:18 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:38:19 : checkMainScreen start quiet mode
+2015-08-07 12:38:19 : checkMainScreen exit quiet mode
+2015-08-07 12:38:20 : Collecting Resources
+2015-08-07 12:38:26 : checkMainScreen start quiet mode
+2015-08-07 12:38:26 : checkMainScreen exit quiet mode
+2015-08-07 12:38:27 : Checking if Village needs Rearming..
+2015-08-07 12:38:33 : checkMainScreen start quiet mode
+2015-08-07 12:38:33 : checkMainScreen exit quiet mode
+2015-08-07 12:38:34 : checkMainScreen start quiet mode
+2015-08-07 12:38:34 : checkMainScreen exit quiet mode
+2015-08-07 12:38:35 : Village Report
+2015-08-07 12:38:35 : No. of Free/Total Builders: 0/4
+2015-08-07 12:38:35 :  [T]: 2 589
+2015-08-07 12:38:35 :  [G]: 2 497 797 [E]: 5 257 029 [D]: 79 136 [GEM]: 1 981
+2015-08-07 12:38:35 : checkMainScreen start quiet mode
+2015-08-07 12:38:35 : checkMainScreen exit quiet mode
+2015-08-07 12:38:37 : checkMainScreen start quiet mode
+2015-08-07 12:38:37 : checkMainScreen exit quiet mode
+2015-08-07 12:38:38 : checkMainScreen start quiet mode
+2015-08-07 12:38:38 : checkMainScreen exit quiet mode
+2015-08-07 12:38:38 : Func Train 
+2015-08-07 12:38:39 : checkMainScreen start quiet mode
+2015-08-07 12:38:39 : checkMainScreen exit quiet mode
+2015-08-07 12:38:40 : checkMainScreen start quiet mode
+2015-08-07 12:38:40 : checkMainScreen exit quiet mode
+2015-08-07 12:38:41 : checkMainScreen start quiet mode
+2015-08-07 12:38:41 : checkMainScreen exit quiet mode
+2015-08-07 12:38:41 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:38:41 : Updating village values [E]: 5257029 [D]: 79136
+2015-08-07 12:38:42 : ButtonPixel = 483, 565
+2015-08-07 12:38:42 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:38:42 : Taking snapshot for later review
+2015-08-07 12:38:43 : Taking snapshot for later review
+2015-08-07 12:38:44 : Taking debug snapshot for later review
+2015-08-07 12:38:44 : Barbarian
+2015-08-07 12:38:44 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:38:44 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:38:44 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:38:44 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:38:44 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:44 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:38:44 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:38:44 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:38:44 : Taking debug snapshot for later review
+2015-08-07 12:38:45 : Archer
+2015-08-07 12:38:45 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:38:45 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:38:45 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:38:45 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:38:45 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:45 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:38:45 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:38:45 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:38:45 : Taking debug snapshot for later review
+2015-08-07 12:38:45 : Giant
+2015-08-07 12:38:45 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:38:45 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:38:45 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:38:45 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:38:45 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:45 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:38:45 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:38:45 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:38:45 : Taking debug snapshot for later review
+2015-08-07 12:38:45 : Goblin
+2015-08-07 12:38:45 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:38:45 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:38:45 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:38:45 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:38:45 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:45 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:38:46 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:38:46 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:38:46 : Taking debug snapshot for later review
+2015-08-07 12:38:46 : Wall Breaker
+2015-08-07 12:38:46 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:38:46 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:38:46 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:38:46 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:38:46 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:46 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:38:46 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:38:46 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:38:46 : Taking debug snapshot for later review
+2015-08-07 12:38:46 : Balloon
+2015-08-07 12:38:46 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:38:46 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:38:46 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:38:46 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:38:46 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:46 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:38:46 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:38:46 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:38:46 : Taking debug snapshot for later review
+2015-08-07 12:38:47 : Wizard
+2015-08-07 12:38:47 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:38:47 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:38:47 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:38:47 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:38:47 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:47 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:38:47 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:38:47 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:38:47 : Taking debug snapshot for later review
+2015-08-07 12:38:47 : Healer
+2015-08-07 12:38:47 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:38:47 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:38:47 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:38:47 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:38:47 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:47 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:38:47 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:38:47 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:38:47 : Taking debug snapshot for later review
+2015-08-07 12:38:48 : Dragon
+2015-08-07 12:38:48 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:38:48 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:38:48 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:38:48 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:38:48 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:48 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:38:48 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:38:48 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:38:48 : Taking debug snapshot for later review
+2015-08-07 12:38:48 : Pekka
+2015-08-07 12:38:48 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:38:48 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:38:48 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:38:48 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:38:48 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:38:48 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:38:48 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:38:48 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:38:48 : Taking debug snapshot for later review
+2015-08-07 12:38:48 : Lightning Spell
+2015-08-07 12:38:48 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:38:48 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:38:48 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:38:48 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:38:48 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:38:48 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:38:49 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:38:49 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:38:49 : Taking debug snapshot for later review
+2015-08-07 12:38:49 : Healing Spell
+2015-08-07 12:38:49 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:38:49 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:38:49 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:38:49 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:38:49 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:38:49 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:38:49 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:38:49 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:38:52 : Taking snapshot for later review
+2015-08-07 12:38:52 : Taking debug snapshot for later review
+2015-08-07 12:38:53 : Rage Spell
+2015-08-07 12:38:53 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:38:53 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:38:53 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:38:53 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:38:53 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:38:53 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:38:53 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:53 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:38:53 : Taking debug snapshot for later review
+2015-08-07 12:38:53 : Jump Spell
+2015-08-07 12:38:53 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:38:53 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:38:53 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:38:53 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:38:53 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:38:53 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:38:53 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:53 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:38:53 : Taking debug snapshot for later review
+2015-08-07 12:38:54 : Freeze Spell
+2015-08-07 12:38:54 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:38:54 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:38:54 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:38:54 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:38:54 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:38:54 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:38:54 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:54 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:38:54 : Taking debug snapshot for later review
+2015-08-07 12:38:54 : Poison Spell
+2015-08-07 12:38:54 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:38:54 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:38:54 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:38:54 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:38:54 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:38:54 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:38:54 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:54 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:38:54 : Taking debug snapshot for later review
+2015-08-07 12:38:54 : Earthquake Spell
+2015-08-07 12:38:54 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:38:54 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:38:54 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:38:54 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:38:54 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:38:55 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:38:55 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:55 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:38:55 : Taking debug snapshot for later review
+2015-08-07 12:38:55 : Haste Spell
+2015-08-07 12:38:55 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:38:55 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:38:55 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:38:55 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:38:55 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:38:55 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:38:55 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:55 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:38:55 : Taking debug snapshot for later review
+2015-08-07 12:38:55 : Minion
+2015-08-07 12:38:55 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:38:55 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:38:55 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:38:55 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:38:55 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:38:55 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:38:55 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:55 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:38:55 : Taking debug snapshot for later review
+2015-08-07 12:38:56 : Hog Rider
+2015-08-07 12:38:56 : _GetPixelColor(+47, +6): 0C1817
+2015-08-07 12:38:56 : _GetPixelColor(+68, +79): 919493
+2015-08-07 12:38:56 : _GetPixelColor(+68, +82): AAADAD
+2015-08-07 12:38:56 : _GetPixelColor(+81, +82): 1B1328
+2015-08-07 12:38:56 : _GetPixelColor(+49, +78): F9FBFC
+2015-08-07 12:38:56 : _GetPixelColor(+79, +78): 603626
+2015-08-07 12:38:56 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:56 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:38:56 : Taking debug snapshot for later review
+2015-08-07 12:38:56 : Valkyrie
+2015-08-07 12:38:56 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:38:56 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:38:56 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:38:56 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:38:56 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:38:56 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:38:56 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:56 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:38:56 : Taking debug snapshot for later review
+2015-08-07 12:38:56 : Golem
+2015-08-07 12:38:57 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:38:57 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:38:57 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:38:57 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:38:57 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:38:57 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:38:57 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:57 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:38:57 : Taking debug snapshot for later review
+2015-08-07 12:38:57 : Witch
+2015-08-07 12:38:57 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:38:57 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:38:57 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:38:57 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:38:57 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:38:57 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:38:57 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:57 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:38:57 : Taking debug snapshot for later review
+2015-08-07 12:38:57 : Lava Hound
+2015-08-07 12:38:57 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:38:57 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:38:57 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:38:57 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:38:57 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:38:57 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:38:57 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:38:57 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:38:59 : Taking snapshot for later review
+2015-08-07 12:39:00 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:39:02 : checkMainScreen start quiet mode
+2015-08-07 12:39:02 : checkMainScreen exit quiet mode
+2015-08-07 12:39:02 : checkMainScreen start quiet mode
+2015-08-07 12:39:02 : checkMainScreen exit quiet mode
+2015-08-07 12:39:04 : Finished kicking
+2015-08-07 12:39:05 : Func Idle 
+2015-08-07 12:39:16 : checkMainScreen start quiet mode
+2015-08-07 12:39:16 : checkMainScreen exit quiet mode
+2015-08-07 12:39:16 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:39:17 : checkMainScreen start quiet mode
+2015-08-07 12:39:17 : checkMainScreen exit quiet mode
+2015-08-07 12:39:18 : Collecting Resources
+2015-08-07 12:39:23 : checkMainScreen start quiet mode
+2015-08-07 12:39:23 : checkMainScreen exit quiet mode
+2015-08-07 12:39:23 : Func Train 
+2015-08-07 12:39:23 : checkMainScreen start quiet mode
+2015-08-07 12:39:23 : checkMainScreen exit quiet mode
+2015-08-07 12:39:24 : Time Idle: 00:00:19
+2015-08-07 12:39:24 : Bot clean start
+2015-08-07 12:39:25 : Trying to locate Main Screen
+2015-08-07 12:39:25 : Main Screen Located
+2015-08-07 12:39:26 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:39:27 : checkMainScreen start quiet mode
+2015-08-07 12:39:27 : checkMainScreen exit quiet mode
+2015-08-07 12:39:28 : Collecting Resources
+2015-08-07 12:39:33 : checkMainScreen start quiet mode
+2015-08-07 12:39:33 : checkMainScreen exit quiet mode
+2015-08-07 12:39:35 : Checking if Village needs Rearming..
+2015-08-07 12:39:41 : checkMainScreen start quiet mode
+2015-08-07 12:39:41 : checkMainScreen exit quiet mode
+2015-08-07 12:39:41 : checkMainScreen start quiet mode
+2015-08-07 12:39:41 : checkMainScreen exit quiet mode
+2015-08-07 12:39:42 : Village Report
+2015-08-07 12:39:42 : No. of Free/Total Builders: 0/4
+2015-08-07 12:39:42 :  [T]: 2 589
+2015-08-07 12:39:42 :  [G]: 2 497 797 [E]: 5 257 029 [D]: 79 138 [GEM]: 1 981
+2015-08-07 12:39:43 : checkMainScreen start quiet mode
+2015-08-07 12:39:43 : checkMainScreen exit quiet mode
+2015-08-07 12:39:44 : checkMainScreen start quiet mode
+2015-08-07 12:39:44 : checkMainScreen exit quiet mode
+2015-08-07 12:39:46 : checkMainScreen start quiet mode
+2015-08-07 12:39:46 : checkMainScreen exit quiet mode
+2015-08-07 12:39:46 : Func Train 
+2015-08-07 12:39:47 : checkMainScreen start quiet mode
+2015-08-07 12:39:47 : checkMainScreen exit quiet mode
+2015-08-07 12:39:48 : checkMainScreen start quiet mode
+2015-08-07 12:39:48 : checkMainScreen exit quiet mode
+2015-08-07 12:39:49 : checkMainScreen start quiet mode
+2015-08-07 12:39:49 : checkMainScreen exit quiet mode
+2015-08-07 12:39:49 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:39:49 : Updating village values [E]: 5257029 [D]: 79138
+2015-08-07 12:39:50 : ButtonPixel = 483, 565
+2015-08-07 12:39:50 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:39:50 : Taking snapshot for later review
+2015-08-07 12:39:51 : Taking snapshot for later review
+2015-08-07 12:39:52 : Taking debug snapshot for later review
+2015-08-07 12:39:52 : Barbarian
+2015-08-07 12:39:52 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:39:52 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:39:52 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:39:52 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:39:52 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:52 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:39:52 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:39:52 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:39:52 : Taking debug snapshot for later review
+2015-08-07 12:39:52 : Archer
+2015-08-07 12:39:52 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:39:52 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:39:52 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:39:52 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:39:52 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:53 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:39:53 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:39:53 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:39:53 : Taking debug snapshot for later review
+2015-08-07 12:39:53 : Giant
+2015-08-07 12:39:53 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:39:53 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:39:53 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:39:53 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:39:53 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:53 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:39:53 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:39:53 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:39:53 : Taking debug snapshot for later review
+2015-08-07 12:39:53 : Goblin
+2015-08-07 12:39:53 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:39:53 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:39:53 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:39:53 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:39:53 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:53 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:39:53 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:39:53 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:39:53 : Taking debug snapshot for later review
+2015-08-07 12:39:54 : Wall Breaker
+2015-08-07 12:39:54 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:39:54 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:39:54 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:39:54 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:39:54 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:54 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:39:54 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:39:54 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:39:54 : Taking debug snapshot for later review
+2015-08-07 12:39:54 : Balloon
+2015-08-07 12:39:54 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:39:54 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:39:54 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:39:54 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:39:54 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:54 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:39:54 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:39:54 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:39:54 : Taking debug snapshot for later review
+2015-08-07 12:39:55 : Wizard
+2015-08-07 12:39:55 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:39:55 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:39:55 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:39:55 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:39:55 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:55 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:39:55 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:39:55 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:39:55 : Taking debug snapshot for later review
+2015-08-07 12:39:55 : Healer
+2015-08-07 12:39:55 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:39:55 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:39:55 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:39:55 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:39:55 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:55 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:39:55 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:39:55 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:39:55 : Taking debug snapshot for later review
+2015-08-07 12:39:55 : Dragon
+2015-08-07 12:39:55 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:39:55 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:39:56 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:39:56 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:39:56 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:56 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:39:56 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:39:56 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:39:56 : Taking debug snapshot for later review
+2015-08-07 12:39:56 : Pekka
+2015-08-07 12:39:56 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:39:56 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:39:56 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:39:56 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:39:56 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:39:56 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:39:56 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:39:56 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:39:56 : Taking debug snapshot for later review
+2015-08-07 12:39:56 : Lightning Spell
+2015-08-07 12:39:56 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:39:56 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:39:56 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:39:56 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:39:56 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:39:56 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:39:56 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:39:56 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:39:57 : Taking debug snapshot for later review
+2015-08-07 12:39:57 : Healing Spell
+2015-08-07 12:39:57 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:39:57 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:39:57 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:39:57 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:39:57 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:39:57 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:39:57 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:39:57 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:40:00 : Taking snapshot for later review
+2015-08-07 12:40:00 : Taking debug snapshot for later review
+2015-08-07 12:40:01 : Rage Spell
+2015-08-07 12:40:01 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:40:01 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:40:01 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:40:01 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:40:01 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:40:01 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:40:01 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:01 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:40:01 : Taking debug snapshot for later review
+2015-08-07 12:40:01 : Jump Spell
+2015-08-07 12:40:01 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:40:01 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:40:01 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:40:01 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:40:01 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:40:01 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:40:01 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:01 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:40:01 : Taking debug snapshot for later review
+2015-08-07 12:40:01 : Freeze Spell
+2015-08-07 12:40:01 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:40:01 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:40:01 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:40:01 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:40:01 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:40:02 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:40:02 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:02 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:40:02 : Taking debug snapshot for later review
+2015-08-07 12:40:02 : Poison Spell
+2015-08-07 12:40:02 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:40:02 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:40:02 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:40:02 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:40:02 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:40:02 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:40:02 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:02 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:40:02 : Taking debug snapshot for later review
+2015-08-07 12:40:02 : Earthquake Spell
+2015-08-07 12:40:02 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:40:02 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:40:02 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:40:02 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:40:02 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:40:02 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:40:02 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:02 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:40:02 : Taking debug snapshot for later review
+2015-08-07 12:40:03 : Haste Spell
+2015-08-07 12:40:03 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:40:03 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:40:03 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:40:03 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:40:03 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:40:03 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:40:03 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:03 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:40:03 : Taking debug snapshot for later review
+2015-08-07 12:40:03 : Minion
+2015-08-07 12:40:03 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:40:03 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:40:03 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:40:03 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:40:03 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:40:03 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:40:03 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:03 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:40:03 : Taking debug snapshot for later review
+2015-08-07 12:40:04 : Hog Rider
+2015-08-07 12:40:04 : _GetPixelColor(+47, +6): 091211
+2015-08-07 12:40:04 : _GetPixelColor(+68, +79): 908F8D
+2015-08-07 12:40:04 : _GetPixelColor(+68, +82): A9A9A8
+2015-08-07 12:40:04 : _GetPixelColor(+81, +82): 1A0F23
+2015-08-07 12:40:04 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:40:04 : _GetPixelColor(+79, +78): 603524
+2015-08-07 12:40:04 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:04 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:40:04 : Taking debug snapshot for later review
+2015-08-07 12:40:04 : Valkyrie
+2015-08-07 12:40:04 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:40:04 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:40:04 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:40:04 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:40:04 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:40:04 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:40:04 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:04 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:40:04 : Taking debug snapshot for later review
+2015-08-07 12:40:04 : Golem
+2015-08-07 12:40:04 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:40:04 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:40:04 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:40:04 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:40:05 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:40:05 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:40:05 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:05 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:40:05 : Taking debug snapshot for later review
+2015-08-07 12:40:05 : Witch
+2015-08-07 12:40:05 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:40:05 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:40:05 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:40:05 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:40:05 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:40:05 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:40:05 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:05 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:40:05 : Taking debug snapshot for later review
+2015-08-07 12:40:05 : Lava Hound
+2015-08-07 12:40:05 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:40:05 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:40:05 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:40:05 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:40:05 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:40:05 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:40:05 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:40:05 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:40:07 : Taking snapshot for later review
+2015-08-07 12:40:08 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:40:09 : checkMainScreen start quiet mode
+2015-08-07 12:40:10 : checkMainScreen exit quiet mode
+2015-08-07 12:40:10 : checkMainScreen start quiet mode
+2015-08-07 12:40:10 : checkMainScreen exit quiet mode
+2015-08-07 12:40:12 : Finished kicking
+2015-08-07 12:40:12 : Func Idle 
+2015-08-07 12:40:24 : checkMainScreen start quiet mode
+2015-08-07 12:40:24 : checkMainScreen exit quiet mode
+2015-08-07 12:40:24 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:40:25 : checkMainScreen start quiet mode
+2015-08-07 12:40:25 : checkMainScreen exit quiet mode
+2015-08-07 12:40:26 : Func Train 
+2015-08-07 12:40:26 : checkMainScreen start quiet mode
+2015-08-07 12:40:26 : checkMainScreen exit quiet mode
+2015-08-07 12:40:27 : Time Idle: 00:00:13
+2015-08-07 12:40:27 : Bot clean start
+2015-08-07 12:40:28 : Trying to locate Main Screen
+2015-08-07 12:40:28 : Main Screen Located
+2015-08-07 12:40:28 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:40:30 : checkMainScreen start quiet mode
+2015-08-07 12:40:30 : checkMainScreen exit quiet mode
+2015-08-07 12:40:30 : Collecting Resources
+2015-08-07 12:40:36 : checkMainScreen start quiet mode
+2015-08-07 12:40:36 : checkMainScreen exit quiet mode
+2015-08-07 12:40:38 : Checking if Village needs Rearming..
+2015-08-07 12:40:44 : checkMainScreen start quiet mode
+2015-08-07 12:40:44 : checkMainScreen exit quiet mode
+2015-08-07 12:40:44 : checkMainScreen start quiet mode
+2015-08-07 12:40:44 : checkMainScreen exit quiet mode
+2015-08-07 12:40:45 : Village Report
+2015-08-07 12:40:45 : No. of Free/Total Builders: 0/4
+2015-08-07 12:40:45 :  [T]: 2 589
+2015-08-07 12:40:45 :  [G]: 2 500 091 [E]: 5 257 029 [D]: 79 140 [GEM]: 1 981
+2015-08-07 12:40:46 : checkMainScreen start quiet mode
+2015-08-07 12:40:46 : checkMainScreen exit quiet mode
+2015-08-07 12:40:47 : checkMainScreen start quiet mode
+2015-08-07 12:40:47 : checkMainScreen exit quiet mode
+2015-08-07 12:40:49 : checkMainScreen start quiet mode
+2015-08-07 12:40:49 : checkMainScreen exit quiet mode
+2015-08-07 12:40:49 : Func Train 
+2015-08-07 12:40:50 : checkMainScreen start quiet mode
+2015-08-07 12:40:50 : checkMainScreen exit quiet mode
+2015-08-07 12:40:51 : checkMainScreen start quiet mode
+2015-08-07 12:40:51 : checkMainScreen exit quiet mode
+2015-08-07 12:40:52 : checkMainScreen start quiet mode
+2015-08-07 12:40:52 : checkMainScreen exit quiet mode
+2015-08-07 12:40:52 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:40:52 : Updating village values [E]: 5257029 [D]: 79140
+2015-08-07 12:40:53 : ButtonPixel = 483, 565
+2015-08-07 12:40:53 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:40:53 : Taking snapshot for later review
+2015-08-07 12:40:54 : Taking snapshot for later review
+2015-08-07 12:40:55 : Taking debug snapshot for later review
+2015-08-07 12:40:55 : Barbarian
+2015-08-07 12:40:55 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:40:55 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:40:55 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:40:55 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:40:55 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:55 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:40:55 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:40:55 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:40:55 : Taking debug snapshot for later review
+2015-08-07 12:40:55 : Archer
+2015-08-07 12:40:55 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:40:55 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:40:55 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:40:55 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:40:55 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:55 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:40:56 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:40:56 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:40:56 : Taking debug snapshot for later review
+2015-08-07 12:40:56 : Giant
+2015-08-07 12:40:56 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:40:56 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:40:56 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:40:56 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:40:56 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:56 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:40:56 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:40:56 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:40:56 : Taking debug snapshot for later review
+2015-08-07 12:40:56 : Goblin
+2015-08-07 12:40:56 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:40:56 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:40:56 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:40:56 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:40:56 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:56 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:40:56 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:40:56 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:40:56 : Taking debug snapshot for later review
+2015-08-07 12:40:57 : Wall Breaker
+2015-08-07 12:40:57 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:40:57 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:40:57 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:40:57 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:40:57 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:57 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:40:57 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:40:57 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:40:57 : Taking debug snapshot for later review
+2015-08-07 12:40:57 : Balloon
+2015-08-07 12:40:57 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:40:57 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:40:57 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:40:57 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:40:57 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:57 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:40:57 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:40:57 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:40:57 : Taking debug snapshot for later review
+2015-08-07 12:40:58 : Wizard
+2015-08-07 12:40:58 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:40:58 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:40:58 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:40:58 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:40:58 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:58 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:40:58 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:40:58 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:40:58 : Taking debug snapshot for later review
+2015-08-07 12:40:58 : Healer
+2015-08-07 12:40:58 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:40:58 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:40:58 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:40:58 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:40:58 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:58 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:40:58 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:40:58 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:40:58 : Taking debug snapshot for later review
+2015-08-07 12:40:58 : Dragon
+2015-08-07 12:40:58 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:40:58 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:40:58 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:40:58 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:40:59 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:40:59 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:40:59 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:40:59 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:40:59 : Taking debug snapshot for later review
+2015-08-07 12:40:59 : Pekka
+2015-08-07 12:40:59 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:40:59 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:40:59 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:40:59 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:40:59 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:40:59 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:40:59 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:40:59 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:40:59 : Taking debug snapshot for later review
+2015-08-07 12:40:59 : Lightning Spell
+2015-08-07 12:40:59 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:40:59 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:40:59 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:40:59 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:40:59 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:40:59 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:40:59 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:40:59 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:40:59 : Taking debug snapshot for later review
+2015-08-07 12:41:00 : Healing Spell
+2015-08-07 12:41:00 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:41:00 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:41:00 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:41:00 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:41:00 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:41:00 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:41:00 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:41:00 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:41:03 : Taking snapshot for later review
+2015-08-07 12:41:03 : Taking debug snapshot for later review
+2015-08-07 12:41:04 : Rage Spell
+2015-08-07 12:41:04 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:41:04 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:41:04 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:41:04 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:41:04 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:41:04 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:41:04 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:04 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:41:04 : Taking debug snapshot for later review
+2015-08-07 12:41:04 : Jump Spell
+2015-08-07 12:41:04 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:41:04 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:41:04 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:41:04 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:41:04 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:41:04 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:41:04 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:04 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:41:04 : Taking debug snapshot for later review
+2015-08-07 12:41:05 : Freeze Spell
+2015-08-07 12:41:05 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:41:05 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:41:05 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:41:05 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:41:05 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:41:05 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:41:05 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:05 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:41:05 : Taking debug snapshot for later review
+2015-08-07 12:41:05 : Poison Spell
+2015-08-07 12:41:05 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:41:05 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:41:05 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:41:05 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:41:05 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:41:05 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:41:05 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:05 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:41:05 : Taking debug snapshot for later review
+2015-08-07 12:41:05 : Earthquake Spell
+2015-08-07 12:41:05 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:41:05 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:41:05 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:41:06 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:41:06 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:41:06 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:41:06 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:06 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:41:06 : Taking debug snapshot for later review
+2015-08-07 12:41:06 : Haste Spell
+2015-08-07 12:41:06 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:41:06 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:41:06 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:41:06 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:41:06 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:41:06 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:41:06 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:06 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:41:06 : Taking debug snapshot for later review
+2015-08-07 12:41:06 : Minion
+2015-08-07 12:41:06 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:41:06 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:41:06 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:41:06 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:41:06 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:41:06 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:41:06 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:06 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:41:06 : Taking debug snapshot for later review
+2015-08-07 12:41:07 : Hog Rider
+2015-08-07 12:41:07 : _GetPixelColor(+47, +6): 08100F
+2015-08-07 12:41:07 : _GetPixelColor(+68, +79): 908F8D
+2015-08-07 12:41:07 : _GetPixelColor(+68, +82): A9A9A8
+2015-08-07 12:41:07 : _GetPixelColor(+81, +82): 1A0F23
+2015-08-07 12:41:07 : _GetPixelColor(+49, +78): F9FAFB
+2015-08-07 12:41:07 : _GetPixelColor(+79, +78): 603626
+2015-08-07 12:41:07 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:07 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:41:07 : Taking debug snapshot for later review
+2015-08-07 12:41:07 : Valkyrie
+2015-08-07 12:41:07 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:41:07 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:41:07 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:41:07 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:41:07 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:41:07 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:41:07 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:07 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:41:07 : Taking debug snapshot for later review
+2015-08-07 12:41:08 : Golem
+2015-08-07 12:41:08 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:41:08 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:41:08 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:41:08 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:41:08 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:41:08 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:41:08 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:08 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:41:08 : Taking debug snapshot for later review
+2015-08-07 12:41:08 : Witch
+2015-08-07 12:41:08 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:41:08 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:41:08 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:41:08 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:41:08 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:41:08 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:41:08 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:08 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:41:08 : Taking debug snapshot for later review
+2015-08-07 12:41:09 : Lava Hound
+2015-08-07 12:41:09 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:41:09 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:41:09 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:41:09 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:41:09 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:41:09 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:41:09 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:41:09 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:41:10 : Taking snapshot for later review
+2015-08-07 12:41:12 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:41:13 : checkMainScreen start quiet mode
+2015-08-07 12:41:13 : checkMainScreen exit quiet mode
+2015-08-07 12:41:14 : checkMainScreen start quiet mode
+2015-08-07 12:41:14 : checkMainScreen exit quiet mode
+2015-08-07 12:41:16 : Finished kicking
+2015-08-07 12:41:16 : Func Idle 
+2015-08-07 12:41:27 : checkMainScreen start quiet mode
+2015-08-07 12:41:27 : checkMainScreen exit quiet mode
+2015-08-07 12:41:28 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:41:29 : checkMainScreen start quiet mode
+2015-08-07 12:41:29 : checkMainScreen exit quiet mode
+2015-08-07 12:41:30 : Func Train 
+2015-08-07 12:41:30 : checkMainScreen start quiet mode
+2015-08-07 12:41:30 : checkMainScreen exit quiet mode
+2015-08-07 12:41:30 : Time Idle: 00:00:13
+2015-08-07 12:41:31 : Bot clean start
+2015-08-07 12:41:32 : Trying to locate Main Screen
+2015-08-07 12:41:32 : Main Screen Located
+2015-08-07 12:41:32 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:41:34 : checkMainScreen start quiet mode
+2015-08-07 12:41:34 : checkMainScreen exit quiet mode
+2015-08-07 12:41:34 : Collecting Resources
+2015-08-07 12:41:40 : checkMainScreen start quiet mode
+2015-08-07 12:41:40 : checkMainScreen exit quiet mode
+2015-08-07 12:41:42 : Checking if Village needs Rearming..
+2015-08-07 12:41:48 : checkMainScreen start quiet mode
+2015-08-07 12:41:48 : checkMainScreen exit quiet mode
+2015-08-07 12:41:49 : checkMainScreen start quiet mode
+2015-08-07 12:41:49 : checkMainScreen exit quiet mode
+2015-08-07 12:41:49 : Village Report
+2015-08-07 12:41:50 : No. of Free/Total Builders: 0/4
+2015-08-07 12:41:50 :  [T]: 2 589
+2015-08-07 12:41:50 :  [G]: 2 500 532 [E]: 5 258 108 [D]: 79 142 [GEM]: 1 981
+2015-08-07 12:41:50 : checkMainScreen start quiet mode
+2015-08-07 12:41:50 : checkMainScreen exit quiet mode
+2015-08-07 12:41:52 : checkMainScreen start quiet mode
+2015-08-07 12:41:52 : checkMainScreen exit quiet mode
+2015-08-07 12:41:53 : checkMainScreen start quiet mode
+2015-08-07 12:41:53 : checkMainScreen exit quiet mode
+2015-08-07 12:41:53 : Func Train 
+2015-08-07 12:41:54 : checkMainScreen start quiet mode
+2015-08-07 12:41:54 : checkMainScreen exit quiet mode
+2015-08-07 12:41:55 : checkMainScreen start quiet mode
+2015-08-07 12:41:55 : checkMainScreen exit quiet mode
+2015-08-07 12:41:56 : checkMainScreen start quiet mode
+2015-08-07 12:41:56 : checkMainScreen exit quiet mode
+2015-08-07 12:41:56 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:41:56 : Updating village values [E]: 5258108 [D]: 79142
+2015-08-07 12:41:57 : ButtonPixel = 483, 565
+2015-08-07 12:41:57 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:41:57 : Taking snapshot for later review
+2015-08-07 12:41:59 : Taking snapshot for later review
+2015-08-07 12:41:59 : Taking debug snapshot for later review
+2015-08-07 12:41:59 : Barbarian
+2015-08-07 12:41:59 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:41:59 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:41:59 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:41:59 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:41:59 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:41:59 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:41:59 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:41:59 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:41:59 : Taking debug snapshot for later review
+2015-08-07 12:42:00 : Archer
+2015-08-07 12:42:00 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:42:00 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:42:00 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:42:00 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:42:00 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:00 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:42:00 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:42:00 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:42:00 : Taking debug snapshot for later review
+2015-08-07 12:42:00 : Giant
+2015-08-07 12:42:00 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:42:00 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:42:00 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:42:00 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:42:00 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:00 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:42:00 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:42:00 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:42:00 : Taking debug snapshot for later review
+2015-08-07 12:42:01 : Goblin
+2015-08-07 12:42:01 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:42:01 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:42:01 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:42:01 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:42:01 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:01 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:42:01 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:42:01 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:42:01 : Taking debug snapshot for later review
+2015-08-07 12:42:01 : Wall Breaker
+2015-08-07 12:42:01 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:42:01 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:42:01 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:42:01 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:42:01 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:01 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:42:01 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:42:01 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:42:01 : Taking debug snapshot for later review
+2015-08-07 12:42:01 : Balloon
+2015-08-07 12:42:01 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:42:01 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:42:02 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:42:02 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:42:02 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:02 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:42:02 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:42:02 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:42:02 : Taking debug snapshot for later review
+2015-08-07 12:42:02 : Wizard
+2015-08-07 12:42:02 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:42:02 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:42:02 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:42:02 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:42:02 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:02 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:42:02 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:42:02 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:42:02 : Taking debug snapshot for later review
+2015-08-07 12:42:02 : Healer
+2015-08-07 12:42:02 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:42:02 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:42:02 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:42:02 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:42:02 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:02 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:42:02 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:42:03 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:42:03 : Taking debug snapshot for later review
+2015-08-07 12:42:03 : Dragon
+2015-08-07 12:42:03 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:42:03 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:42:03 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:42:03 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:42:03 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:03 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:42:03 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:42:03 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:42:03 : Taking debug snapshot for later review
+2015-08-07 12:42:03 : Pekka
+2015-08-07 12:42:03 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:42:03 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:42:03 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:42:03 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:42:03 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:42:03 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:42:03 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:42:03 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:42:03 : Taking debug snapshot for later review
+2015-08-07 12:42:04 : Lightning Spell
+2015-08-07 12:42:04 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:42:04 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:42:04 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:42:04 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:42:04 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:42:04 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:42:04 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:42:04 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:42:04 : Taking debug snapshot for later review
+2015-08-07 12:42:04 : Healing Spell
+2015-08-07 12:42:04 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:42:04 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:42:04 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:42:04 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:42:04 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:42:04 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:42:04 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:42:04 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:42:07 : Taking snapshot for later review
+2015-08-07 12:42:08 : Taking debug snapshot for later review
+2015-08-07 12:42:08 : Rage Spell
+2015-08-07 12:42:08 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:42:08 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:42:08 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:42:08 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:42:08 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:42:08 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:42:08 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:08 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:42:08 : Taking debug snapshot for later review
+2015-08-07 12:42:08 : Jump Spell
+2015-08-07 12:42:08 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:42:08 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:42:08 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:42:08 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:42:08 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:42:08 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:42:08 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:09 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:42:09 : Taking debug snapshot for later review
+2015-08-07 12:42:09 : Freeze Spell
+2015-08-07 12:42:09 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:42:09 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:42:09 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:42:09 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:42:09 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:42:09 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:42:09 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:09 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:42:09 : Taking debug snapshot for later review
+2015-08-07 12:42:09 : Poison Spell
+2015-08-07 12:42:09 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:42:09 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:42:09 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:42:09 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:42:09 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:42:09 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:42:09 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:09 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:42:09 : Taking debug snapshot for later review
+2015-08-07 12:42:10 : Earthquake Spell
+2015-08-07 12:42:10 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:42:10 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:42:10 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:42:10 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:42:10 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:42:10 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:42:10 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:10 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:42:10 : Taking debug snapshot for later review
+2015-08-07 12:42:10 : Haste Spell
+2015-08-07 12:42:10 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:42:10 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:42:10 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:42:10 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:42:10 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:42:10 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:42:10 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:10 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:42:11 : Taking debug snapshot for later review
+2015-08-07 12:42:11 : Minion
+2015-08-07 12:42:11 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:42:11 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:42:11 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:42:11 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:42:11 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:42:11 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:42:11 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:11 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:42:11 : Taking debug snapshot for later review
+2015-08-07 12:42:11 : Hog Rider
+2015-08-07 12:42:11 : _GetPixelColor(+47, +6): 112222
+2015-08-07 12:42:11 : _GetPixelColor(+68, +79): 939EA0
+2015-08-07 12:42:11 : _GetPixelColor(+68, +82): ACB8BB
+2015-08-07 12:42:11 : _GetPixelColor(+81, +82): 1E223D
+2015-08-07 12:42:11 : _GetPixelColor(+49, +78): FEFEFE
+2015-08-07 12:42:11 : _GetPixelColor(+79, +78): 664C43
+2015-08-07 12:42:11 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:11 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:42:11 : Taking debug snapshot for later review
+2015-08-07 12:42:12 : Valkyrie
+2015-08-07 12:42:12 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:42:12 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:42:12 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:42:12 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:42:12 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:42:12 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:42:12 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:12 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:42:12 : Taking debug snapshot for later review
+2015-08-07 12:42:12 : Golem
+2015-08-07 12:42:12 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:42:12 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:42:12 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:42:12 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:42:12 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:42:12 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:42:12 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:12 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:42:12 : Taking debug snapshot for later review
+2015-08-07 12:42:13 : Witch
+2015-08-07 12:42:13 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:42:13 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:42:13 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:42:13 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:42:13 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:42:13 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:42:13 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:13 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:42:13 : Taking debug snapshot for later review
+2015-08-07 12:42:13 : Lava Hound
+2015-08-07 12:42:13 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:42:13 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:42:13 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:42:13 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:42:13 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:42:13 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:42:13 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:42:13 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:42:14 : Taking snapshot for later review
+2015-08-07 12:42:16 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:42:17 : checkMainScreen start quiet mode
+2015-08-07 12:42:17 : checkMainScreen exit quiet mode
+2015-08-07 12:42:18 : checkMainScreen start quiet mode
+2015-08-07 12:42:18 : checkMainScreen exit quiet mode
+2015-08-07 12:42:20 : Finished kicking
+2015-08-07 12:42:20 : Func Idle 
+2015-08-07 12:42:31 : checkMainScreen start quiet mode
+2015-08-07 12:42:31 : checkMainScreen exit quiet mode
+2015-08-07 12:42:32 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:42:33 : checkMainScreen start quiet mode
+2015-08-07 12:42:33 : checkMainScreen exit quiet mode
+2015-08-07 12:42:33 : Func Train 
+2015-08-07 12:42:34 : checkMainScreen start quiet mode
+2015-08-07 12:42:34 : checkMainScreen exit quiet mode
+2015-08-07 12:42:34 : Time Idle: 00:00:13
+2015-08-07 12:42:35 : Bot clean start
+2015-08-07 12:42:36 : Trying to locate Main Screen
+2015-08-07 12:42:36 : Main Screen Located
+2015-08-07 12:42:36 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:42:38 : checkMainScreen start quiet mode
+2015-08-07 12:42:38 : checkMainScreen exit quiet mode
+2015-08-07 12:42:38 : Collecting Resources
+2015-08-07 12:42:43 : checkMainScreen start quiet mode
+2015-08-07 12:42:43 : checkMainScreen exit quiet mode
+2015-08-07 12:42:45 : Checking if Village needs Rearming..
+2015-08-07 12:42:51 : checkMainScreen start quiet mode
+2015-08-07 12:42:51 : checkMainScreen exit quiet mode
+2015-08-07 12:42:52 : checkMainScreen start quiet mode
+2015-08-07 12:42:52 : checkMainScreen exit quiet mode
+2015-08-07 12:42:52 : Village Report
+2015-08-07 12:42:52 : No. of Free/Total Builders: 0/4
+2015-08-07 12:42:52 :  [T]: 2 589
+2015-08-07 12:42:53 :  [G]: 2 500 532 [E]: 5 258 736 [D]: 79 144 [GEM]: 1 981
+2015-08-07 12:42:53 : checkMainScreen start quiet mode
+2015-08-07 12:42:53 : checkMainScreen exit quiet mode
+2015-08-07 12:42:54 : checkMainScreen start quiet mode
+2015-08-07 12:42:54 : checkMainScreen exit quiet mode
+2015-08-07 12:42:56 : checkMainScreen start quiet mode
+2015-08-07 12:42:56 : checkMainScreen exit quiet mode
+2015-08-07 12:42:56 : Func Train 
+2015-08-07 12:42:57 : checkMainScreen start quiet mode
+2015-08-07 12:42:57 : checkMainScreen exit quiet mode
+2015-08-07 12:42:58 : checkMainScreen start quiet mode
+2015-08-07 12:42:58 : checkMainScreen exit quiet mode
+2015-08-07 12:42:59 : checkMainScreen start quiet mode
+2015-08-07 12:42:59 : checkMainScreen exit quiet mode
+2015-08-07 12:42:59 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:42:59 : Updating village values [E]: 5258736 [D]: 79144
+2015-08-07 12:43:00 : ButtonPixel = 483, 565
+2015-08-07 12:43:00 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:43:00 : Taking snapshot for later review
+2015-08-07 12:43:01 : Taking snapshot for later review
+2015-08-07 12:43:02 : Taking debug snapshot for later review
+2015-08-07 12:43:02 : Barbarian
+2015-08-07 12:43:02 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:43:02 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:43:02 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:43:02 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:43:02 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:02 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:43:02 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:43:02 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:43:02 : Taking debug snapshot for later review
+2015-08-07 12:43:02 : Archer
+2015-08-07 12:43:03 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:43:03 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:43:03 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:43:03 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:43:03 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:03 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:43:03 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:43:03 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:43:03 : Taking debug snapshot for later review
+2015-08-07 12:43:03 : Giant
+2015-08-07 12:43:03 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:43:03 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:43:03 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:43:03 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:43:03 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:03 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:43:03 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:43:03 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:43:03 : Taking debug snapshot for later review
+2015-08-07 12:43:03 : Goblin
+2015-08-07 12:43:03 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:43:03 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:43:03 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:43:03 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:43:03 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:03 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:43:04 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:43:04 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:43:04 : Taking debug snapshot for later review
+2015-08-07 12:43:04 : Wall Breaker
+2015-08-07 12:43:04 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:43:04 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:43:04 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:43:04 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:43:04 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:04 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:43:04 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:43:04 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:43:04 : Taking debug snapshot for later review
+2015-08-07 12:43:04 : Balloon
+2015-08-07 12:43:04 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:43:04 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:43:04 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:43:04 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:43:04 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:04 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:43:04 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:43:04 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:43:04 : Taking debug snapshot for later review
+2015-08-07 12:43:05 : Wizard
+2015-08-07 12:43:05 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:43:05 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:43:05 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:43:05 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:43:05 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:05 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:43:05 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:43:05 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:43:05 : Taking debug snapshot for later review
+2015-08-07 12:43:05 : Healer
+2015-08-07 12:43:05 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:43:05 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:43:05 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:43:06 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:43:06 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:06 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:43:06 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:43:06 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:43:06 : Taking debug snapshot for later review
+2015-08-07 12:43:06 : Dragon
+2015-08-07 12:43:06 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:43:06 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:43:06 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:43:06 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:43:06 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:06 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:43:06 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:43:06 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:43:06 : Taking debug snapshot for later review
+2015-08-07 12:43:06 : Pekka
+2015-08-07 12:43:06 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:43:06 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:43:06 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:43:06 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:43:06 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:43:06 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:43:06 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:43:07 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:43:07 : Taking debug snapshot for later review
+2015-08-07 12:43:07 : Lightning Spell
+2015-08-07 12:43:07 : _GetPixelColor(+47, +6): BFBFBF
+2015-08-07 12:43:07 : _GetPixelColor(+68, +79): FFFFFF
+2015-08-07 12:43:07 : _GetPixelColor(+68, +82): FFFFFF
+2015-08-07 12:43:07 : _GetPixelColor(+81, +82): 919191
+2015-08-07 12:43:07 : _GetPixelColor(+49, +78): F8F8F8
+2015-08-07 12:43:07 : _GetPixelColor(+79, +78): 808080
+2015-08-07 12:43:07 : _GetPixelColor(+3, +19): D2D2D2
+2015-08-07 12:43:07 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:43:07 : Taking debug snapshot for later review
+2015-08-07 12:43:07 : Healing Spell
+2015-08-07 12:43:07 : _GetPixelColor(+47, +6): BBBBBB
+2015-08-07 12:43:07 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:43:07 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:43:07 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:43:07 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:43:07 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:43:07 : _GetPixelColor(+3, +19): D3D3D3
+2015-08-07 12:43:07 : _GetPixelColor(+8, +59): 5F5F5F
+2015-08-07 12:43:11 : Taking snapshot for later review
+2015-08-07 12:43:11 : Taking debug snapshot for later review
+2015-08-07 12:43:11 : Rage Spell
+2015-08-07 12:43:11 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:43:11 : _GetPixelColor(+68, +79): 010101
+2015-08-07 12:43:11 : _GetPixelColor(+68, +82): FCFCFC
+2015-08-07 12:43:11 : _GetPixelColor(+81, +82): FFFFFF
+2015-08-07 12:43:11 : _GetPixelColor(+49, +78): 161616
+2015-08-07 12:43:11 : _GetPixelColor(+79, +78): 020202
+2015-08-07 12:43:11 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:11 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:43:11 : Taking debug snapshot for later review
+2015-08-07 12:43:12 : Jump Spell
+2015-08-07 12:43:12 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:43:12 : _GetPixelColor(+68, +79): DCDCD8
+2015-08-07 12:43:12 : _GetPixelColor(+68, +82): CDCDC9
+2015-08-07 12:43:12 : _GetPixelColor(+81, +82): DADAD6
+2015-08-07 12:43:12 : _GetPixelColor(+49, +78): BCBCB8
+2015-08-07 12:43:12 : _GetPixelColor(+79, +78): D8D8D4
+2015-08-07 12:43:12 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:12 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:43:12 : Taking debug snapshot for later review
+2015-08-07 12:43:12 : Freeze Spell
+2015-08-07 12:43:12 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:43:12 : _GetPixelColor(+68, +79): D4D4D0
+2015-08-07 12:43:12 : _GetPixelColor(+68, +82): DADAD6
+2015-08-07 12:43:12 : _GetPixelColor(+81, +82): D6D6D2
+2015-08-07 12:43:12 : _GetPixelColor(+49, +78): B3B3AF
+2015-08-07 12:43:12 : _GetPixelColor(+79, +78): EEEEEA
+2015-08-07 12:43:12 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:12 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:43:12 : Taking debug snapshot for later review
+2015-08-07 12:43:13 : Poison Spell
+2015-08-07 12:43:13 : _GetPixelColor(+47, +6): C4C4C4
+2015-08-07 12:43:13 : _GetPixelColor(+68, +79): 939393
+2015-08-07 12:43:13 : _GetPixelColor(+68, +82): AEAEAE
+2015-08-07 12:43:13 : _GetPixelColor(+81, +82): 1E1E1E
+2015-08-07 12:43:13 : _GetPixelColor(+49, +78): FCFCFC
+2015-08-07 12:43:13 : _GetPixelColor(+79, +78): 5C5C5C
+2015-08-07 12:43:13 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:13 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:43:13 : Taking debug snapshot for later review
+2015-08-07 12:43:13 : Earthquake Spell
+2015-08-07 12:43:13 : _GetPixelColor(+47, +6): C2C2C2
+2015-08-07 12:43:13 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:43:13 : _GetPixelColor(+68, +82): A8A8A8
+2015-08-07 12:43:13 : _GetPixelColor(+81, +82): 0A0A0A
+2015-08-07 12:43:13 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:43:13 : _GetPixelColor(+79, +78): 3D3D3D
+2015-08-07 12:43:13 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:13 : _GetPixelColor(+8, +59): A8A8A8
+2015-08-07 12:43:13 : Taking debug snapshot for later review
+2015-08-07 12:43:13 : Haste Spell
+2015-08-07 12:43:13 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:43:14 : _GetPixelColor(+68, +79): C3C3BF
+2015-08-07 12:43:14 : _GetPixelColor(+68, +82): B6B6B2
+2015-08-07 12:43:14 : _GetPixelColor(+81, +82): D1D1CD
+2015-08-07 12:43:14 : _GetPixelColor(+49, +78): B7B7B3
+2015-08-07 12:43:14 : _GetPixelColor(+79, +78): CACAC6
+2015-08-07 12:43:14 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:14 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:43:14 : Taking debug snapshot for later review
+2015-08-07 12:43:14 : Minion
+2015-08-07 12:43:14 : _GetPixelColor(+47, +6): A8A8A8
+2015-08-07 12:43:14 : _GetPixelColor(+68, +79): 909090
+2015-08-07 12:43:14 : _GetPixelColor(+68, +82): ADADAD
+2015-08-07 12:43:14 : _GetPixelColor(+81, +82): 101010
+2015-08-07 12:43:14 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:43:14 : _GetPixelColor(+79, +78): 545454
+2015-08-07 12:43:14 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:14 : _GetPixelColor(+8, +59): C3C3C3
+2015-08-07 12:43:14 : Taking debug snapshot for later review
+2015-08-07 12:43:14 : Hog Rider
+2015-08-07 12:43:14 : _GetPixelColor(+47, +6): 224145
+2015-08-07 12:43:14 : _GetPixelColor(+68, +79): 96ADB5
+2015-08-07 12:43:14 : _GetPixelColor(+68, +82): AFC6CE
+2015-08-07 12:43:14 : _GetPixelColor(+81, +82): 202B48
+2015-08-07 12:43:14 : _GetPixelColor(+49, +78): FEFEFE
+2015-08-07 12:43:14 : _GetPixelColor(+79, +78): 674E46
+2015-08-07 12:43:15 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:15 : _GetPixelColor(+8, +59): 84DCF8
+2015-08-07 12:43:15 : Taking debug snapshot for later review
+2015-08-07 12:43:15 : Valkyrie
+2015-08-07 12:43:15 : _GetPixelColor(+47, +6): A4A4A4
+2015-08-07 12:43:15 : _GetPixelColor(+68, +79): 8F8F8F
+2015-08-07 12:43:15 : _GetPixelColor(+68, +82): AFAFAF
+2015-08-07 12:43:15 : _GetPixelColor(+81, +82): 191919
+2015-08-07 12:43:15 : _GetPixelColor(+49, +78): F9F9F9
+2015-08-07 12:43:15 : _GetPixelColor(+79, +78): 5D5D5D
+2015-08-07 12:43:15 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:15 : _GetPixelColor(+8, +59): C2C2C2
+2015-08-07 12:43:15 : Taking debug snapshot for later review
+2015-08-07 12:43:15 : Golem
+2015-08-07 12:43:15 : _GetPixelColor(+47, +6): CBCBCB
+2015-08-07 12:43:15 : _GetPixelColor(+68, +79): 949494
+2015-08-07 12:43:15 : _GetPixelColor(+68, +82): ABABAB
+2015-08-07 12:43:15 : _GetPixelColor(+81, +82): 1F1F1F
+2015-08-07 12:43:15 : _GetPixelColor(+49, +78): FAFAFA
+2015-08-07 12:43:15 : _GetPixelColor(+79, +78): 676767
+2015-08-07 12:43:15 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:15 : _GetPixelColor(+8, +59): C4C4C4
+2015-08-07 12:43:15 : Taking debug snapshot for later review
+2015-08-07 12:43:16 : Witch
+2015-08-07 12:43:16 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:43:16 : _GetPixelColor(+68, +79): 93938F
+2015-08-07 12:43:16 : _GetPixelColor(+68, +82): CCCCC8
+2015-08-07 12:43:16 : _GetPixelColor(+81, +82): D9D9D5
+2015-08-07 12:43:16 : _GetPixelColor(+49, +78): 93938F
+2015-08-07 12:43:16 : _GetPixelColor(+79, +78): 9F9F9B
+2015-08-07 12:43:16 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:16 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:43:16 : Taking debug snapshot for later review
+2015-08-07 12:43:16 : Lava Hound
+2015-08-07 12:43:16 : _GetPixelColor(+47, +6): E8E8E0
+2015-08-07 12:43:16 : _GetPixelColor(+68, +79): 8C8C88
+2015-08-07 12:43:16 : _GetPixelColor(+68, +82): 898985
+2015-08-07 12:43:16 : _GetPixelColor(+81, +82): C1C1BD
+2015-08-07 12:43:16 : _GetPixelColor(+49, +78): 8D8D89
+2015-08-07 12:43:16 : _GetPixelColor(+79, +78): 888884
+2015-08-07 12:43:16 : _GetPixelColor(+3, +19): E8E8E0
+2015-08-07 12:43:16 : _GetPixelColor(+8, +59): E8E8E0
+2015-08-07 12:43:17 : Taking snapshot for later review
+2015-08-07 12:43:19 : Something went wrong with Golem Upgrade, try again.
+2015-08-07 12:43:20 : checkMainScreen start quiet mode
+2015-08-07 12:43:20 : checkMainScreen exit quiet mode
+2015-08-07 12:43:21 : checkMainScreen start quiet mode
+2015-08-07 12:43:21 : checkMainScreen exit quiet mode
+2015-08-07 12:43:23 : Finished kicking
+2015-08-07 12:43:23 : Func Idle 
+2015-08-07 12:43:35 : checkMainScreen start quiet mode
+2015-08-07 12:43:35 : checkMainScreen exit quiet mode
+2015-08-07 12:43:35 : Checking Overview for full army [!] True, 407508
+2015-08-07 12:43:36 : checkMainScreen start quiet mode
+2015-08-07 12:43:36 : checkMainScreen exit quiet mode
+2015-08-07 12:43:37 : Func Train 
+2015-08-07 12:43:37 : checkMainScreen start quiet mode
+2015-08-07 12:43:37 : checkMainScreen exit quiet mode
+2015-08-07 12:43:38 : Time Idle: 00:00:13
+2015-08-07 12:43:38 : Bot clean start
+2015-08-07 12:43:39 : Trying to locate Main Screen
+2015-08-07 12:43:39 : Main Screen Located
+2015-08-07 12:43:39 : Halt Attack, Stay Online/Collect...
+2015-08-07 12:43:41 : checkMainScreen start quiet mode
+2015-08-07 12:43:41 : checkMainScreen exit quiet mode
+2015-08-07 12:43:41 : Collecting Resources
+2015-08-07 12:43:47 : checkMainScreen start quiet mode
+2015-08-07 12:43:47 : checkMainScreen exit quiet mode
+2015-08-07 12:43:48 : Checking if Village needs Rearming..
+2015-08-07 12:43:54 : checkMainScreen start quiet mode
+2015-08-07 12:43:54 : checkMainScreen exit quiet mode
+2015-08-07 12:43:55 : checkMainScreen start quiet mode
+2015-08-07 12:43:55 : checkMainScreen exit quiet mode
+2015-08-07 12:43:56 : Village Report
+2015-08-07 12:43:56 : No. of Free/Total Builders: 0/4
+2015-08-07 12:43:56 :  [T]: 2 589
+2015-08-07 12:43:56 :  [G]: 2 500 532 [E]: 5 258 736 [D]: 79 146 [GEM]: 1 981
+2015-08-07 12:43:57 : checkMainScreen start quiet mode
+2015-08-07 12:43:57 : checkMainScreen exit quiet mode
+2015-08-07 12:43:58 : checkMainScreen start quiet mode
+2015-08-07 12:43:58 : checkMainScreen exit quiet mode
+2015-08-07 12:43:59 : checkMainScreen start quiet mode
+2015-08-07 12:43:59 : checkMainScreen exit quiet mode
+2015-08-07 12:43:59 : Func Train 
+2015-08-07 12:44:00 : checkMainScreen start quiet mode
+2015-08-07 12:44:00 : checkMainScreen exit quiet mode
+2015-08-07 12:44:01 : checkMainScreen start quiet mode
+2015-08-07 12:44:01 : checkMainScreen exit quiet mode
+2015-08-07 12:44:02 : checkMainScreen start quiet mode
+2015-08-07 12:44:02 : checkMainScreen exit quiet mode
+2015-08-07 12:44:03 : Checking Troop Upgrade in Laboratory ...
+2015-08-07 12:44:03 : Updating village values [E]: 5258736 [D]: 79146
+2015-08-07 12:44:04 : ButtonPixel = 483, 565
+2015-08-07 12:44:04 : #1: 050602, #2: 708BB0, #3: 603818, #4: D8FF58
+2015-08-07 12:44:04 : Taking snapshot for later review
+2015-08-07 12:44:05 : Taking snapshot for later review
+2015-08-07 12:44:05 : Taking debug snapshot for later review
+2015-08-07 12:44:05 : Barbarian
+2015-08-07 12:44:06 : _GetPixelColor(+47, +6): DFDFDF
+2015-08-07 12:44:06 : _GetPixelColor(+68, +79): 818181
+2015-08-07 12:44:06 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:44:06 : _GetPixelColor(+81, +82): A6A6A6
+2015-08-07 12:44:06 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:06 : _GetPixelColor(+79, +78): A6A6A6
+2015-08-07 12:44:06 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:44:06 : _GetPixelColor(+8, +59): C8C8C8
+2015-08-07 12:44:06 : Taking debug snapshot for later review
+2015-08-07 12:44:06 : Archer
+2015-08-07 12:44:06 : _GetPixelColor(+47, +6): 9C9C9C
+2015-08-07 12:44:06 : _GetPixelColor(+68, +79): 8C8C8C
+2015-08-07 12:44:06 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:44:06 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:44:06 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:06 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:44:06 : _GetPixelColor(+3, +19): CBCBCB
+2015-08-07 12:44:06 : _GetPixelColor(+8, +59): 747474
+2015-08-07 12:44:06 : Taking debug snapshot for later review
+2015-08-07 12:44:06 : Giant
+2015-08-07 12:44:06 : _GetPixelColor(+47, +6): CECECE
+2015-08-07 12:44:06 : _GetPixelColor(+68, +79): 3C3C3C
+2015-08-07 12:44:06 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:44:07 : _GetPixelColor(+81, +82): 616161
+2015-08-07 12:44:07 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:07 : _GetPixelColor(+79, +78): 6B6B6B
+2015-08-07 12:44:07 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:44:07 : _GetPixelColor(+8, +59): 5E5E5E
+2015-08-07 12:44:07 : Taking debug snapshot for later review
+2015-08-07 12:44:07 : Goblin
+2015-08-07 12:44:07 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:44:07 : _GetPixelColor(+68, +79): 575757
+2015-08-07 12:44:07 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:44:07 : _GetPixelColor(+81, +82): A4A4A4
+2015-08-07 12:44:07 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:07 : _GetPixelColor(+79, +78): 868686
+2015-08-07 12:44:07 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:44:07 : _GetPixelColor(+8, +59): 656565
+2015-08-07 12:44:07 : Taking debug snapshot for later review
+2015-08-07 12:44:07 : Wall Breaker
+2015-08-07 12:44:07 : _GetPixelColor(+47, +6): BEBEBE
+2015-08-07 12:44:07 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:44:07 : _GetPixelColor(+68, +82): 353535
+2015-08-07 12:44:07 : _GetPixelColor(+81, +82): 6E6E6E
+2015-08-07 12:44:07 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:07 : _GetPixelColor(+79, +78): 6F6F6F
+2015-08-07 12:44:07 : _GetPixelColor(+3, +19): B2B2B2
+2015-08-07 12:44:07 : _GetPixelColor(+8, +59): BABABA
+2015-08-07 12:44:08 : Taking debug snapshot for later review
+2015-08-07 12:44:08 : Balloon
+2015-08-07 12:44:08 : _GetPixelColor(+47, +6): 777777
+2015-08-07 12:44:08 : _GetPixelColor(+68, +79): 5A5A5A
+2015-08-07 12:44:08 : _GetPixelColor(+68, +82): 292929
+2015-08-07 12:44:08 : _GetPixelColor(+81, +82): 6F6F6F
+2015-08-07 12:44:08 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:08 : _GetPixelColor(+79, +78): 717171
+2015-08-07 12:44:08 : _GetPixelColor(+3, +19): B3B3B3
+2015-08-07 12:44:08 : _GetPixelColor(+8, +59): B1B1B1
+2015-08-07 12:44:08 : Taking debug snapshot for later review
+2015-08-07 12:44:08 : Wizard
+2015-08-07 12:44:08 : _GetPixelColor(+47, +6): 505050
+2015-08-07 12:44:08 : _GetPixelColor(+68, +79): 121212
+2015-08-07 12:44:08 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:44:08 : _GetPixelColor(+81, +82): 171717
+2015-08-07 12:44:08 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:08 : _GetPixelColor(+79, +78): 878787
+2015-08-07 12:44:08 : _GetPixelColor(+3, +19): CCCCCC
+2015-08-07 12:44:08 : _GetPixelColor(+8, +59): A1A1A1
+2015-08-07 12:44:08 : Taking debug snapshot for later review
+2015-08-07 12:44:09 : Healer
+2015-08-07 12:44:09 : _GetPixelColor(+47, +6): F9F9F9
+2015-08-07 12:44:09 : _GetPixelColor(+68, +79): 9B9B9B
+2015-08-07 12:44:09 : _GetPixelColor(+68, +82): 020202
+2015-08-07 12:44:09 : _GetPixelColor(+81, +82): BCBCBC
+2015-08-07 12:44:09 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:09 : _GetPixelColor(+79, +78): A3A3A3
+2015-08-07 12:44:09 : _GetPixelColor(+3, +19): CDCDCD
+2015-08-07 12:44:09 : _GetPixelColor(+8, +59): A4A4A4
+2015-08-07 12:44:09 : Taking debug snapshot for later review
+2015-08-07 12:44:09 : Dragon
+2015-08-07 12:44:09 : _GetPixelColor(+47, +6): D2D2D2
+2015-08-07 12:44:09 : _GetPixelColor(+68, +79): 6C6C6C
+2015-08-07 12:44:09 : _GetPixelColor(+68, +82): 010101
+2015-08-07 12:44:09 : _GetPixelColor(+81, +82): 636363
+2015-08-07 12:44:09 : _GetPixelColor(+49, +78): 000000
+2015-08-07 12:44:09 : _GetPixelColor(+79, +78): 4F4F4F
+2015-08-07 12:44:09 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:44:09 : _GetPixelColor(+8, +59): ABABAB
+2015-08-07 12:44:09 : Taking debug snapshot for later review
+2015-08-07 12:44:10 : Pekka
+2015-08-07 12:44:10 : _GetPixelColor(+47, +6): C1C1C1
+2015-08-07 12:44:10 : _GetPixelColor(+68, +79): E70A12
+2015-08-07 12:44:10 : _GetPixelColor(+68, +82): E70A12
+2015-08-07 12:44:10 : _GetPixelColor(+81, +82): 8F8F8F
+2015-08-07 12:44:10 : _GetPixelColor(+49, +78): E30D14
+2015-08-07 12:44:10 : _GetPixelColor(+79, +78): 7C7C7C
+2015-08-07 12:44:10 : _GetPixelColor(+3, +19): D5D5D5
+2015-08-07 12:44:10 : _GetPixelColor(+8, +59): 303030
+2015-08-07 12:44:10 : Taking debug snapshot for later review

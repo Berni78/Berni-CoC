@@ -457,8 +457,173 @@ Func DonateTroopType($Type, $quant = 8, $custom = False)
 		Setlog("Unable to donate " & NameOfTroop($Type) & ". Donate screen not visible, will retry next run.", $COLOR_RED)
 	Else
 		SetLog("No " & NameOfTroop($Type) & " available to donate..", $COLOR_RED)
-	EndIf
+	    If GUICtrlRead($donateAllSub) = 1 Then
+		  Switch $SubAllDonate
+             Case 0
+                 DonateSub($eBarb)
+             Case 1
+                 DonateSub($eArch)
+	         Case 2
+			     DonateSub($eGiant)
+	         Case 3
+			     DonateSub($eGobl)
+             Case 4
+                 DonateSub($eWall)
+             Case 5
+                 DonateSub($eBall)
+	         Case 6
+                 DonateSub($eWiza)
+	         Case 7
+                 DonateSub($eHeal)
+             Case 8
+                 Donatesub($eDrag)
+             Case 9
+                 DonateSub($ePekk)
+             Case 10
+                 DonateSub($eMini)
+             Case 11
+                 DonateSub($eHogs)
+             Case 12
+                 DonateSub($eValk)
+             Case 13
+                 DonateSub($eGole)
+             Case 14
+                 DonateSub($eWitc)
+             Case 15
+                 DonateSub($eLava)
+          EndSwitch
+     EndIf
+   EndIf
 
 	ClickP($aAway, 1, 0, "#0176")
 	If _Sleep($iDelayDonateTroopType1) Then Return
 EndFunc   ;==>DonateTroopType
+
+;------------------------gtfo------------------------;
+Func GTFO()
+   If GUICtrlRead($gtfo) = 1 Then
+       SetLog("Starting to kick new members..", $COLOR_BLUE)
+Local $scroll, $kick_y, $kicked = 0
+       While 1
+           Click($aCCPos[0], $aCCPos[1]) ; click clan castle
+           If _Sleep(500) Then Return
+           Click(530, 600) ; open clan page
+           If _Sleep(500) Then Return ; wait for it to load
+           $scroll = 0
+           While 1
+           _CaptureRegion(190, 80, 220, 650)
+           If _Sleep(500) Then ExitLoop
+           Local $new = _PixelSearch(200, 80, 210, 650, Hex(0xE73838, 6), 20) ; search for red New words
+           If IsArray($new) Then
+               ;SetLog("x:" & $new[0] & " y:" & $new[1], $COLOR_RED) ; debuggin purpose
+               Click($new[0], $new[1]) ; click the New member
+           If _Sleep(500) Then ExitLoop
+           If $new[1]+80> 640 Then
+               $kick_y = 640 ;if the kick button is over bluestack boundary, limit it to the bottom
+           Else
+               $kick_y = $new[1] + 80 ; else just use it
+           EndIf
+               Click($new[0] + 300, $kick_y) ; click kick button, hopefully
+           If _Sleep(500) Then ExitLoop
+               Click(520, 240) ; click Send button
+           If _Sleep(500) Then ExitLoop
+               $kicked += 1
+               SetLog($kicked & " Player/'s Kicked!", $COLOR_RED)
+           If _Sleep(500) Then ExitLoop
+               ExitLoop
+           Else
+
+If $kicked = $gtfocount + 1 Then ExitLoop(2)
+               Click($aCCPos[0], $aCCPos[1]) ; click clan castle
+               If _Sleep(500) Then Return
+               Click(530, 600) ; open clan page
+               If _Sleep(500) Then Return ; wait for it to load
+               ControlSend($Title, "", "", "{CTRLDOWN}{UP}{CTRLUP}") ; scroll down the member list
+               ;SetLog("Scrolling down " & $scroll, $COLOR_RED)
+               $scroll += 1
+           If _Sleep(500) Then ExitLoop
+EndIf
+           If $scroll = 8 Then ExitLoop(2) ; quit the loop if cannot find any New member after scrolling 8 times
+           WEnd
+       WEnd
+   EndIf
+   SetLog("Finished kicking", $COLOR_RED)
+   ;ClickP($TopLeftClient)
+   Click(1, 1, 1, 2000)
+EndFunc
+
+;------------DonateSub Troops------------
+Func DonateSub($Type)
+If $TroopCheck = 7 Then
+$TroopCheck -= 7
+$Restart = False
+$fullArmy = False
+$CommandStop = -1
+runBot()
+EndIf
+
+Local $Slot, $YComp
+
+Switch $Type
+Case $eBarb To $eWiza
+$Slot = $Type
+$YComp = 0
+Case $eHeal To $eGole
+$Slot = $Type - 7
+$YComp = 99
+Case $eWitc To $eLava
+$Slot = $Type - 14
+$YComp = 99 + 98
+EndSwitch
+
+Click($DonatePixel[0], $DonatePixel[1] + 11)
+If _Sleep(250) Then Return
+_CaptureRegion(0, 0, 766, $DonatePixel[1] + 50 + $YComp)
+$icount = 0
+While Not (_ColorCheck(_GetPixelColor(237 + ($Slot * 82), $DonatePixel[1] - 5 + $YComp), Hex(0x507C00, 6), 10) Or _
+_ColorCheck(_GetPixelColor(237 + ($Slot * 82), $DonatePixel[1] - 10 + $YComp), Hex(0x507C00, 6), 10) Or _
+_ColorCheck(_GetPixelColor(237 + ($Slot * 82), $DonatePixel[1] - 16 + $YComp), Hex(0x507C00, 6), 10))
+If _Sleep(250) Then Return
+_CaptureRegion(0, 0, 766, $DonatePixel[1] + 50 + $YComp)
+$icount += 1
+If $icount = 10 Then ExitLoop
+WEnd
+
+If _ColorCheck(_GetPixelColor(237 + ($Slot * 82), $DonatePixel[1] - 5 + $YComp), Hex(0x507C00, 6), 10) Or _
+_ColorCheck(_GetPixelColor(237 + ($Slot * 82), $DonatePixel[1] - 10 + $YComp), Hex(0x507C00, 6), 10) Or _
+_ColorCheck(_GetPixelColor(237 + ($Slot * 82), $DonatePixel[1] - 16 + $YComp), Hex(0x507C00, 6), 10) Then
+SetLog("Donating " & NameOfTroop($Type) & "as subtitute.", $COLOR_GREEN)
+Click(237 + ($Slot * 82), $DonatePixel[1] - 10 + $YComp, 8, 50)
+;~ PureClick(237 + ($Slot * 82), $DonatePixel[1] - 10 + $YComp, 8, 50)
+$Donate = True
+For $i = 0 To UBound($TroopName) - 1
+If Eval("e" & $TroopName[$i]) = $Type Then
+If $TroopHeight[$i] <= 6 Then
+Assign("Cur" & $TroopName[$i], Eval("Cur" & $TroopName[$i]) + 5)
+Else
+Assign("Cur" & $TroopName[$i], Eval("Cur" & $TroopName[$i]) + 1)
+EndIf
+EndIf
+Next
+For $i = 0 To UBound($TroopDarkName) - 1
+If Eval("e" & $TroopDarkName[$i]) = $Type Then
+If $TroopDarkHeight[$i] <= 6 Then
+Assign("Cur" & $TroopDarkName[$i], Eval("Cur" & $TroopDarkName[$i]) + 5)
+Else
+Assign("Cur" & $TroopDarkName[$i], Eval("Cur" & $TroopDarkName[$i]) + 1)
+EndIf
+EndIf
+Next
+ElseIf $DonatePixel[1] - 5 + $YComp > 675 Then
+Setlog("Unable to donate " & NameOfTroop($Type) & ". Donate screen not visible, will retry next run.", $COLOR_RED)
+Else
+SetLog("No " & NameOfTroop($Type) & " as subtroop available to donate..", $COLOR_RED)
+$TroopCheck += 1
+;SetLog($TroopCheck, $COLOR_RED) ;==Debug
+Return
+EndIf
+Click(1, 1)
+If _Sleep(250) Then
+Return
+EndIf
+EndFunc  ;====>>Donatesub

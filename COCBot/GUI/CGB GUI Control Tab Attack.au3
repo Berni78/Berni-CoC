@@ -14,6 +14,16 @@
 ; ===============================================================================================================================
 
 Func chkDBSmartAttackRedArea()
+	If _GUICtrlComboBox_GetCurSel($cmbDBDeploy) >= 4 Then
+		GUICtrlSetState($chkDBSmartAttackRedArea, $GUI_UNCHECKED)
+		GUICtrlSetState($chkDBSmartAttackRedArea, $GUI_DISABLE)
+		$iChkRedArea[$LB] = 0
+		For $i = $lblDBSmartDeploy To $picDBAttackNearDarkElixirDrill
+			GUICtrlSetState($i, $GUI_HIDE)
+		Next
+	Else
+		GUICtrlSetState($chkDBSmartAttackRedArea, $GUI_ENABLE)
+	EndIf
 	If GUICtrlRead($chkDBSmartAttackRedArea) = $GUI_CHECKED Then
 		$iChkRedArea[$DB] = 1
 		For $i = $lblDBSmartDeploy To $picDBAttackNearDarkElixirDrill
@@ -28,6 +38,17 @@ Func chkDBSmartAttackRedArea()
 EndFunc   ;==>chkDBSmartAttackRedArea
 
 Func chkABSmartAttackRedArea()
+	chkDESideEB()
+	If _GUICtrlComboBox_GetCurSel($cmbABDeploy) >= 4 Then
+		GUICtrlSetState($chkABSmartAttackRedArea, $GUI_UNCHECKED)
+		GUICtrlSetState($chkABSmartAttackRedArea, $GUI_DISABLE)
+		$iChkRedArea[$LB] = 0
+		For $i = $lblABSmartDeploy To $picABAttackNearDarkElixirDrill
+			GUICtrlSetState($i, $GUI_HIDE)
+		Next
+	Else
+		GUICtrlSetState($chkABSmartAttackRedArea, $GUI_ENABLE)
+	EndIf
 	If GUICtrlRead($chkABSmartAttackRedArea) = $GUI_CHECKED Then
 		$iChkRedArea[$LB] = 1
 		For $i = $lblABSmartDeploy To $picABAttackNearDarkElixirDrill

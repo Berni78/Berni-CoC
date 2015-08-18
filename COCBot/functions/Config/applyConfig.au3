@@ -47,6 +47,13 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 	Else
 		GUICtrlSetState($chkBotStop, $GUI_UNCHECKED)
 	EndIf
+
+	If $ichkIceBreaker = 1 Then
+		GUICtrlSetState($chkIceBreaker, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkIceBreaker, $GUI_UNCHECKED)
+	EndIf
+
 	_GUICtrlComboBox_SetCurSel($cmbBotCommand, $icmbBotCommand)
 	_GUICtrlComboBox_SetCurSel($cmbBotCond, $icmbBotCond)
 	_GUICtrlComboBox_SetCurSel($cmbHoursStop, $icmbHoursStop)
@@ -196,6 +203,75 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 	_GUICtrlComboBox_SetCurSel($cmbABWeakMortar, $iCmbWeakMortar[$LB])
 	_GUICtrlComboBox_SetCurSel($cmbABWeakWizTower, $iCmbWeakWizTower[$LB])
 
+	;Hero Filters
+	_GUICtrlComboBox_SetCurSel($cmbSkipCentreDE, $iSkipCentreDE)
+	_GUICtrlComboBox_SetCurSel($cmbSkipUndetectedDE, $iSkipUndetectedDE)
+
+	_GUICtrlComboBox_SetCurSel($cmbABMeetGEHero, $iCmbMeetGEHero)
+
+	If $iChkMeetDEHero = 1 Then
+		GUICtrlSetState($chkABMeetDEHero, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABMeetDEHero, $GUI_UNCHECKED)
+	EndIf
+	chkABMeetDEHero()
+
+	If $iChkMeetTrophyHero = 1 Then
+		GUICtrlSetState($chkABMeetTrophyHero, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABMeetTrophyHero, $GUI_UNCHECKED)
+	EndIf
+	chkABMeetTrophyHero()
+
+	If $iChkMeetTHHero = 1 Then
+		GUICtrlSetState($chkABMeetTHHero, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABMeetTHHero, $GUI_UNCHECKED)
+	EndIf
+	chkABMeetTHHero()
+
+	If $iChkMeetTHO[$LB] = 1 Then
+		GUICtrlSetState($chkABMeetTHOHero, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABMeetTHOHero, $GUI_UNCHECKED)
+	EndIf
+
+	If $iChkWeakBaseHero = 1 Then
+		GUICtrlSetState($chkABWeakBaseHero, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABWeakBaseHero, $GUI_UNCHECKED)
+	EndIf
+	chkABWeakBaseHero()
+
+	If $iChkMeetOneHero = 1 Then
+		GUICtrlSetState($chkABMeetOneHero, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABMeetOneHero, $GUI_UNCHECKED)
+	EndIf
+
+	GUICtrlSetData($txtABMinGoldHero, $iMinGoldHero)
+	GUICtrlSetData($txtABMinElixirHero, $iMinElixirHero)
+	GUICtrlSetData($txtABMinGoldPlusElixirHero, $iMinGoldPlusElixirHero)
+	GUICtrlSetData($txtABMinDarkElixirHero, $iMinDarkHero)
+	GUICtrlSetData($txtABMinTrophyHero, $iMinTrophyHero)
+
+	_GUICtrlComboBox_SetCurSel($cmbABTHHero, $iCmbTHHero)
+	$iMaxTHHero = $THText[$iCmbTHHero]
+	_GUICtrlComboBox_SetCurSel($cmbABWeakMortarHero, $iCmbWeakMortarHero)
+	_GUICtrlComboBox_SetCurSel($cmbABWeakWizTowerHero, $iCmbWeakWizTowerHero)
+
+	If $LBBKFilter = 1 Then
+		GUICtrlSetState($chkLBBKFilter, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkLBBKFilter, $GUI_UNCHECKED)
+	EndIf
+	If $LBAQFilter = 1 Then
+		GUICtrlSetState($chkLBAQFilter, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkLBAQFilter, $GUI_UNCHECKED)
+	EndIf
+
+
 	If $iChkSearchReduction = 1 Then
 		GUICtrlSetState($chkSearchReduction, $GUI_CHECKED)
 	Else
@@ -287,6 +363,13 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 	Else
 		GUICtrlSetState($chkABAttackNearDarkElixirDrill, $GUI_UNCHECKED)
 	EndIf
+
+	If $iChkDEUseSpell = 1 Then
+		GUICtrlSetState($chkABDEUseSpell, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkABDEUseSpell, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbABDEUseSpellType, $iChkDEUseSpellType)
 
 	If $KingAttack[$DB] = 1 Then
 		GUICtrlSetState($chkDBKingAttack, $GUI_CHECKED)
@@ -485,6 +568,39 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 		GUICtrlSetState($chkEndNoResources, $GUI_UNCHECKED)
 	EndIf
 
+
+
+	If $DESideEB = 1 Then
+		GUICtrlSetState($chkDESideEB, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDESideEB, $GUI_UNCHECKED)
+	EndIf
+	chkDESideEB()
+	GUICtrlSetData($txtDELowEndMin, $DELowEndMin)
+
+	If $DisableOtherEBO = 1 Then
+		GUICtrlSetState($chkDisableOtherEBO, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDisableOtherEBO, $GUI_UNCHECKED)
+	EndIf
+
+	If $DEEndOneStar = 1 Then
+		GUICtrlSetState($chkDEEndOneStar, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDEEndOneStar, $GUI_UNCHECKED)
+	EndIf
+
+	If $DEEndBk = 1 Then
+		GUICtrlSetState($chkDEEndBk, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDEEndBk, $GUI_UNCHECKED)
+	EndIf
+
+	If $DEEndAq = 1 Then
+		GUICtrlSetState($chkDEEndAq, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDEEndAq, $GUI_UNCHECKED)
+	EndIf
 
 	;Donate Settings-------------------------------------------------------------------------
 	If $ichkRequest = 1 Then
@@ -778,6 +894,12 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 		GUICtrlSetState($chkDonateAllCustom, $GUI_UNCHECKED)
 	EndIf
 
+	If IniRead($config, "donate", "donateAllSub", "0") = 1 Then
+       GUICtrlSetState($donateAllSub, $GUI_CHECKED)
+    Else
+       GUICtrlSetState($donateAllSub, $GUI_UNCHECKED)
+    EndIf
+       _GUICtrlComboBox_SetCurSel($cmbDonateAllSub,$SubAllDonate)
 	;Troop Settings--------------------------------------------------------------------------
 	_GUICtrlComboBox_SetCurSel($cmbTroopComp, $iCmbTroopComp)
 
@@ -939,7 +1061,7 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 		GUICtrlSetState($chkSaveWallBldr, $GUI_UNCHECKED)
 	EndIf
 
-	For $iz = 0 To 5 ; Apply the buildings upgrade varaible to GUI
+	For $iz = 0 To 11 ; Apply the buildings upgrade varaible to GUI
 		GUICtrlSetImage($picUpgradeStatus[$iz], $pIconLib, $ipicUpgradeStatus[$iz]) ; Set GUI status pic
 		If $aUpgrades[$iz][2] > 0 Then
 			GUICtrlSetData($txtUpgradeValue[$iz], _NumberFormat($aUpgrades[$iz][2])) ; Set GUI loot value to match $aUpgrades variable
@@ -1161,4 +1283,129 @@ Func applyConfig() ;Applies the data from config to the controls in GUI
 		GUICtrlSetState($chkVersion, $GUI_UNCHECKED)
 	EndIf
 
+	;Heroes
+	If $ichkUpgradeKing = 1 Then ;==>upgradeking
+        GUICtrlSetState($chkUpgradeKing, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkUpgradeKing, $GUI_UNCHECKED)
+	EndIf
+	 
+	If $ichkUpgradeQueen = 1 Then ;==>upgradequeen
+        GUICtrlSetState($chkUpgradeQueen, $GUI_CHECKED)
+	Else
+        GUICtrlSetState($chkUpgradeQueen, $GUI_UNCHECKED)
+	EndIf
+
+	;Profile Switch
+	If $ichkGoldSwitchMax = 1 Then
+		GUICtrlSetState($chkGoldSwitchMax, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkGoldSwitchMax, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbGoldMaxProfile, $icmbGoldMaxProfile)
+	GUICtrlSetData($txtMaxGoldAmount, $itxtMaxGoldAmount)
+	If $ichkGoldSwitchMin = 1 Then
+		GUICtrlSetState($chkGoldSwitchMin, $GUI_CHECKED)
+    ;;; Toolbox
+    If $ichkToolboxModeBot = 1 Then
+        GUICtrlSetState($chkToolboxModeBot, $GUI_CHECKED)
+        $ToolboxModeBot = True
+    Else
+        GUICtrlSetState($chkToolboxModeBot, $GUI_UNCHECKED)
+        $ToolboxModeBot = False
+    EndIf
+
+    If $ichkToolboxModeSearch = 1 Then
+        GUICtrlSetState($chkToolboxModeSearch, $GUI_CHECKED)
+        $ToolboxModeSearch = True
+    Else
+        GUICtrlSetState($chkToolboxModeSearch, $GUI_UNCHECKED)
+        $ToolboxModeSearch = False
+    EndIf
+
+    If $ichkToolboxDetach = 1 Then
+        GUICtrlSetState($chkToolboxDetach, $GUI_CHECKED)
+        $ToolboxDetached = True
+    Else
+        GUICtrlSetState($chkToolboxDetach, $GUI_UNCHECKED)
+        $ToolboxDetached = False
+    EndIf
+
+    If $ichkToolboxSavePos = 1 Then
+        GUICtrlSetState($chkToolboxSavePos, $GUI_CHECKED)
+        $ToolboxSavePos = True
+        $Toolbox_x = $iToolbox_x
+        $Toolbox_y = $iToolbox_y
+    Else
+        GUICtrlSetState($chkToolboxSavePos, $GUI_UNCHECKED)
+        $ToolboxSavePos = False
+    EndIf
+
+	If $iChkSnipeWhileTrain = 1 Then ; Snipe While Train MOD by ChiefM3
+   GUICtrlSetState($chkSnipeWhileTrain, $GUI_CHECKED)
+   Else
+   GUICtrlSetState($chkSnipeWhileTrain, $GUI_UNCHECKED)
+   EndIf
+
+	;Heroes
+	If $ichkUpgradeKing = 1 Then ;==>upgradeking
+        GUICtrlSetState($chkUpgradeKing, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkUpgradeKing, $GUI_UNCHECKED)
+	EndIf
+	 
+	If $ichkUpgradeQueen = 1 Then ;==>upgradequeen
+        GUICtrlSetState($chkUpgradeQueen, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkGoldSwitchMin, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbGoldMinProfile, $icmbGoldMinProfile)
+	GUICtrlSetData($txtMinGoldAmount, $itxtMinGoldAmount)
+
+	If $ichkElixirSwitchMax = 1 Then
+		GUICtrlSetState($chkElixirSwitchMax, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkElixirSwitchMax, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbElixirMaxProfile, $icmbElixirMaxProfile)
+	GUICtrlSetData($txtMaxElixirAmount, $itxtMaxElixirAmount)
+	If $ichkElixirSwitchMin = 1 Then
+		GUICtrlSetState($chkElixirSwitchMin, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkElixirSwitchMin, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbElixirMinProfile, $icmbElixirMinProfile)
+	GUICtrlSetData($txtMinElixirAmount, $itxtMinElixirAmount)
+
+	If $ichkDESwitchMax = 1 Then
+		GUICtrlSetState($chkDESwitchMax, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDESwitchMax, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbDEMaxProfile, $icmbDEMaxProfile)
+	GUICtrlSetData($txtMaxDEAmount, $itxtMaxDEAmount)
+	If $ichkDESwitchMin = 1 Then
+		GUICtrlSetState($chkDESwitchMin, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkDESwitchMin, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbDEMinProfile, $icmbDEMinProfile)
+	GUICtrlSetData($txtMinDEAmount, $itxtMinDEAmount)
+
+	If $ichkTrophySwitchMax = 1 Then
+		GUICtrlSetState($chkTrophySwitchMax, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkTrophySwitchMax, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbTrophyMaxProfile, $icmbTrophyMaxProfile)
+	GUICtrlSetData($txtMaxTrophyAmount, $itxtMaxTrophyAmount)
+	If $ichkTrophySwitchMin = 1 Then
+		GUICtrlSetState($chkTrophySwitchMin, $GUI_CHECKED)
+	Else
+		GUICtrlSetState($chkTrophySwitchMin, $GUI_UNCHECKED)
+	EndIf
+	_GUICtrlComboBox_SetCurSel($cmbTrophyMinProfile, $icmbTrophyMinProfile)
+	GUICtrlSetData($txtMinTrophyAmount, $itxtMinTrophyAmount)
+
+	EndIf
 EndFunc   ;==>applyConfig

@@ -249,7 +249,9 @@ EndFunc   ;==>_DeleteMessage
 Func PushMsg($Message, $Source = "")
 	Local $hBitmap_Scaled
 	Switch $Message
-		Case "Restarted"
+        Case "LastRaidTxt"
+            If $pEnabled = 1 And $iAlertPBLastRaidTxt = 1 Then _Push($iOrigPushB & " | Last Raid - [G]: " &  _NumberFormat($lootGold) & " [E]: " &  _NumberFormat($lootElixir) & " [D]: " &  _NumberFormat($lootDarkElixir) & "  [T]: " & $lootTrophies & "  [S]: " & $SearchCount)
+        Case "Restarted"
 			If $pEnabled = 1 And $pRemote = 1 Then _Push($iOrigPushB & " | Bot restarted")
 		Case "OutOfSync"
 			If $pEnabled = 1 And $pOOS = 1 Then _Push($iOrigPushB & " | Restarted after Out of Sync Error" & "\n" & "Attacking now...")

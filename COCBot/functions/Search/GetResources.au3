@@ -30,6 +30,7 @@ Func GetResources() ;Reads resources
 				SetLog("Cannot locate Next button, Restarting Bot...", $COLOR_RED)
 				Pushmsg("OoSResources")
 				$Is_ClientSyncError = True
+				GUICtrlSetData($lblresultoutofsync, GUICtrlRead($lblresultoutofsync)+ 1)
 				$iStuck = 0
 				Return
 			Else
@@ -69,6 +70,7 @@ Func GetResources() ;Reads resources
 			SetLog("Cannot locate Next button, Restarting Bot...", $COLOR_RED)
 			Pushmsg("OoSResources")
 			$Is_ClientSyncError = True
+			GUICtrlSetData($lblresultoutofsync, GUICtrlRead($lblresultoutofsync)+ 1)
 			$iStuck = 0
 			Return
 		Else
@@ -93,6 +95,9 @@ Func GetResources() ;Reads resources
 			$THLoc = "In"
 		ElseIf $searchTH <> "-" Then
 			$THLoc = "Out"
+			If $OptTrophyMode = 1 Then
+				$searchDef = checkDefense()
+			EndIf
 		Else
 			$THLoc = $searchTH
 			$THx = 0
@@ -103,5 +108,11 @@ Func GetResources() ;Reads resources
 
 	$SearchCount += 1 ; Counter for number of searches
 	SetLog(StringFormat("%3s", $SearchCount) & "> [G]:" & StringFormat("%7s", $searchGold) & " [E]:" & StringFormat("%7s", $searchElixir) & " [D]:" & StringFormat("%5s", $searchDark) & " [T]:" & StringFormat("%2s", $searchTrophy) & $THString, $COLOR_BLACK, "Lucida Console", 7.5)
+
+	If $OptTrophyMode = 1 Then
+		If $THLoc = "Out" Then
+			SetLog($searchDef)
+		EndIf
+	EndIf
 
 EndFunc   ;==>GetResources

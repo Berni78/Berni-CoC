@@ -1,0 +1,995 @@
+2015-08-17 18:10:14 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-17 18:10:14 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-17 18:10:14 : =================== Bot Start ====================
+2015-08-17 18:10:14 : -------------------------  Current Profile: 01 --------------------------
+2015-08-17 18:10:14 : Trying to locate Main Screen
+2015-08-17 18:10:14 : Main Screen Located
+2015-08-17 18:10:15 : Detecting your Buildings..
+2015-08-17 18:10:23 : Language setting is English: Correct.
+2015-08-17 18:10:24 : Trying to locate Main Screen
+2015-08-17 18:10:24 : Main Screen Located
+2015-08-17 18:10:26 : Village Report
+2015-08-17 18:10:26 : No. of Free/Total Builders: 0/4
+2015-08-17 18:10:26 :  [T]: 2 665
+2015-08-17 18:10:26 :  [G]: 2 838 687 [E]: 3 075 685 [D]: 32 447 [GEM]: 57
+2015-08-17 18:10:26 : Collecting Resources
+2015-08-17 18:10:40 : Chat Request: wiz arch
+2015-08-17 18:10:40 : Archers Keyword found: arc
+2015-08-17 18:10:43 : No Archers available to donate..
+2015-08-17 18:10:43 : Wizards Keyword found: wiz
+2015-08-17 18:10:46 : No Wizards available to donate..
+2015-08-17 18:10:48 : Chat Request: any
+2015-08-17 18:10:48 : Custom Donation Keyword found: any
+2015-08-17 18:10:51 : No Giants available to donate..
+2015-08-17 18:10:55 : No Wizards available to donate..
+2015-08-17 18:10:58 : No Archers available to donate..
+2015-08-17 18:11:00 : Chat Request: kahit ano lang po
+2015-08-17 18:11:00 : Custom Donation Keyword found: kahit
+2015-08-17 18:11:03 : No Giants available to donate..
+2015-08-17 18:11:07 : No Wizards available to donate..
+2015-08-17 18:11:10 : No Archers available to donate..
+2015-08-17 18:11:12 : Chat Request: witch po sana
+2015-08-17 18:11:12 : Witches Keyword found: witch
+2015-08-17 18:11:16 : No Witches available to donate..
+2015-08-17 18:11:18 : Checking Army Camp...
+2015-08-17 18:11:20 : Total Army Camp capacity: 160/220
+2015-08-17 18:11:22 :  - No. of Giants: 32
+2015-08-17 18:11:22 : Barracks and Spell factory status: 
+2015-08-17 18:11:22 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-17 18:11:22 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-17 18:11:22 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 18:11:22 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 18:11:23 : Training Troops...
+2015-08-17 18:11:38 : Spell Factory Full
+2015-08-17 18:11:38 : Created 1 Spell(s)
+2015-08-17 18:11:40 : 0
+2015-08-17 18:11:41 : Requesting Clan Castle Troops
+2015-08-17 18:11:47 : ====== Waiting for full army ======
+2015-08-17 18:11:59 : Checking Army Camp...
+2015-08-17 18:12:01 : Total Army Camp capacity: 160/220
+2015-08-17 18:12:02 :  - No. of Giants: 32
+2015-08-17 18:12:02 : Training Troops...
+2015-08-17 18:12:11 : Spell Factory Full
+2015-08-17 18:12:13 : Time Idle: 00:00:26
+2015-08-17 18:12:14 : ====== Waiting for full army ======
+2015-08-17 18:12:25 : Checking Army Camp...
+2015-08-17 18:12:27 : Total Army Camp capacity: 160/220
+2015-08-17 18:12:28 :  - No. of Giants: 32
+2015-08-17 18:12:29 : Training Troops...
+2015-08-17 18:12:39 : Spell Factory Full
+2015-08-17 18:12:39 : Created 1 Spell(s)
+2015-08-17 18:12:41 : Time Idle: 00:00:53
+2015-08-17 18:12:42 : ====== Waiting for full army ======
+2015-08-17 18:12:53 : Checking Army Camp...
+2015-08-17 18:12:55 : Total Army Camp capacity: 160/220
+2015-08-17 18:12:56 :  - No. of Giants: 32
+2015-08-17 18:12:57 : Training Troops...
+2015-08-17 18:13:06 : Spell Factory Full
+2015-08-17 18:13:08 : Time Idle: 00:01:20
+2015-08-17 18:13:08 : ====== Waiting for full army ======
+2015-08-17 18:13:20 : Checking Army Camp...
+2015-08-17 18:13:22 : Total Army Camp capacity: 160/220
+2015-08-17 18:13:23 :  - No. of Giants: 32
+2015-08-17 18:13:24 : Training Troops...
+2015-08-17 18:13:33 : Spell Factory Full
+2015-08-17 18:13:35 : Time Idle: 00:01:46
+2015-08-17 18:13:35 : ====== Waiting for full army ======
+2015-08-17 18:13:47 : Checking Army Camp...
+2015-08-17 18:13:48 : Total Army Camp capacity: 160/220
+2015-08-17 18:13:50 :  - No. of Giants: 32
+2015-08-17 18:13:50 : Training Troops...
+2015-08-17 18:13:59 : Spell Factory Full
+2015-08-17 18:14:01 : Time Idle: 00:02:12
+2015-08-17 18:14:01 : ====== Waiting for full army ======
+2015-08-17 18:14:13 : Checking Army Camp...
+2015-08-17 18:14:15 : Total Army Camp capacity: 160/220
+2015-08-17 18:14:16 :  - No. of Giants: 32
+2015-08-17 18:14:17 : Training Troops...
+2015-08-17 18:14:26 : Spell Factory Full
+2015-08-17 18:14:27 : Time Idle: 00:02:38
+2015-08-17 18:14:28 : ====== Waiting for full army ======
+2015-08-17 18:14:39 : Checking Army Camp...
+2015-08-17 18:14:41 : Total Army Camp capacity: 160/220
+2015-08-17 18:14:42 :  - No. of Giants: 32
+2015-08-17 18:14:43 : Training Troops...
+2015-08-17 18:14:52 : Spell Factory Full
+2015-08-17 18:14:54 : Time Idle: 00:03:05
+2015-08-17 18:14:54 : ====== Waiting for full army ======
+2015-08-17 18:15:06 : Checking Army Camp...
+2015-08-17 18:15:08 : Total Army Camp capacity: 160/220
+2015-08-17 18:15:09 :  - No. of Giants: 32
+2015-08-17 18:15:09 : Training Troops...
+2015-08-17 18:15:18 : Spell Factory Full
+2015-08-17 18:15:20 : Time Idle: 00:03:31
+2015-08-17 18:15:20 : ====== Waiting for full army ======
+2015-08-17 18:15:32 : Checking Army Camp...
+2015-08-17 18:15:34 : Total Army Camp capacity: 160/220
+2015-08-17 18:15:35 :  - No. of Giants: 32
+2015-08-17 18:15:36 : Training Troops...
+2015-08-17 18:15:44 : Spell Factory Full
+2015-08-17 18:15:46 : Time Idle: 00:03:57
+2015-08-17 18:15:46 : ====== Waiting for full army ======
+2015-08-17 18:15:58 : Checking Army Camp...
+2015-08-17 18:16:00 : Total Army Camp capacity: 160/220
+2015-08-17 18:16:01 :  - No. of Giants: 32
+2015-08-17 18:16:02 : Training Troops...
+2015-08-17 18:16:11 : Spell Factory Full
+2015-08-17 18:16:13 : Time Idle: 00:04:23
+2015-08-17 18:16:13 : ====== Waiting for full army ======
+2015-08-17 18:16:25 : Checking Army Camp...
+2015-08-17 18:16:27 : Total Army Camp capacity: 160/220
+2015-08-17 18:16:28 :  - No. of Giants: 32
+2015-08-17 18:16:28 : Training Troops...
+2015-08-17 18:16:37 : Spell Factory Full
+2015-08-17 18:16:39 : Time Idle: 00:04:49
+2015-08-17 18:16:40 : ====== Waiting for full army ======
+2015-08-17 18:16:51 : Collecting Resources
+2015-08-17 18:16:57 : Checking Army Camp...
+2015-08-17 18:16:59 : Total Army Camp capacity: 160/220
+2015-08-17 18:17:00 :  - No. of Giants: 32
+2015-08-17 18:17:01 : Training Troops...
+2015-08-17 18:17:10 : Spell Factory Full
+2015-08-17 18:17:12 : Time Idle: 00:05:21
+2015-08-17 18:17:12 : ====== Waiting for full army ======
+2015-08-17 18:17:24 : Checking Army Camp...
+2015-08-17 18:17:26 : Total Army Camp capacity: 160/220
+2015-08-17 18:17:27 :  - No. of Giants: 32
+2015-08-17 18:17:27 : Training Troops...
+2015-08-17 18:17:36 : Spell Factory Full
+2015-08-17 18:17:38 : Time Idle: 00:05:47
+2015-08-17 18:17:38 : ====== Waiting for full army ======
+2015-08-17 18:17:50 : Checking Army Camp...
+2015-08-17 18:17:52 : Total Army Camp capacity: 160/220
+2015-08-17 18:17:53 :  - No. of Giants: 32
+2015-08-17 18:17:54 : Training Troops...
+2015-08-17 18:18:03 : Spell Factory Full
+2015-08-17 18:18:05 : Time Idle: 00:06:14
+2015-08-17 18:18:05 : ====== Waiting for full army ======
+2015-08-17 18:18:17 : Checking Army Camp...
+2015-08-17 18:18:18 : Total Army Camp capacity: 160/220
+2015-08-17 18:18:19 :  - No. of Giants: 32
+2015-08-17 18:18:20 : Training Troops...
+2015-08-17 18:18:29 : Spell Factory Full
+2015-08-17 18:18:31 : Time Idle: 00:06:40
+2015-08-17 18:18:31 : ====== Waiting for full army ======
+2015-08-17 18:18:43 : Checking Army Camp...
+2015-08-17 18:18:45 : Total Army Camp capacity: 160/220
+2015-08-17 18:18:46 :  - No. of Giants: 32
+2015-08-17 18:18:46 : Training Troops...
+2015-08-17 18:18:55 : Spell Factory Full
+2015-08-17 18:18:57 : Time Idle: 00:07:06
+2015-08-17 18:18:57 : ====== Waiting for full army ======
+2015-08-17 18:19:09 : Checking Army Camp...
+2015-08-17 18:19:11 : Total Army Camp capacity: 160/220
+2015-08-17 18:19:12 :  - No. of Giants: 32
+2015-08-17 18:19:13 : Training Troops...
+2015-08-17 18:19:22 : Spell Factory Full
+2015-08-17 18:19:24 : Time Idle: 00:07:32
+2015-08-17 18:19:24 : ====== Waiting for full army ======
+2015-08-17 18:19:36 : Checking Army Camp...
+2015-08-17 18:19:38 : Total Army Camp capacity: 176/220
+2015-08-17 18:19:39 :  - No. of Giants: 32
+2015-08-17 18:19:39 :  - No. of Wizards: 4
+2015-08-17 18:19:40 : Training Troops...
+2015-08-17 18:19:48 : Spell Factory Full
+2015-08-17 18:19:50 : Time Idle: 00:07:58
+2015-08-17 18:19:51 : ====== Waiting for full army ======
+2015-08-17 18:20:02 : Checking Army Camp...
+2015-08-17 18:20:04 : Total Army Camp capacity: 176/220
+2015-08-17 18:20:05 :  - No. of Giants: 32
+2015-08-17 18:20:06 :  - No. of Wizards: 4
+2015-08-17 18:20:06 : Training Troops...
+2015-08-17 18:20:15 : Spell Factory Full
+2015-08-17 18:20:17 : Time Idle: 00:08:25
+2015-08-17 18:20:17 : ====== Waiting for full army ======
+2015-08-17 18:20:29 : Checking Army Camp...
+2015-08-17 18:20:31 : Total Army Camp capacity: 176/220
+2015-08-17 18:20:32 :  - No. of Giants: 32
+2015-08-17 18:20:32 :  - No. of Wizards: 4
+2015-08-17 18:20:33 : Training Troops...
+2015-08-17 18:20:42 : Spell Factory Full
+2015-08-17 18:20:44 : Time Idle: 00:08:51
+2015-08-17 18:20:44 : ====== Waiting for full army ======
+2015-08-17 18:20:55 : Checking Army Camp...
+2015-08-17 18:20:57 : Total Army Camp capacity: 176/220
+2015-08-17 18:20:58 :  - No. of Giants: 32
+2015-08-17 18:20:59 :  - No. of Wizards: 4
+2015-08-17 18:20:59 : Training Troops...
+2015-08-17 18:21:08 : Spell Factory Full
+2015-08-17 18:21:10 : Time Idle: 00:09:17
+2015-08-17 18:21:10 : ====== Waiting for full army ======
+2015-08-17 18:21:22 : Checking Army Camp...
+2015-08-17 18:21:24 : Total Army Camp capacity: 176/220
+2015-08-17 18:21:25 :  - No. of Giants: 32
+2015-08-17 18:21:25 :  - No. of Wizards: 4
+2015-08-17 18:21:26 : Training Troops...
+2015-08-17 18:21:34 : Spell Factory Full
+2015-08-17 18:21:36 : Time Idle: 00:09:43
+2015-08-17 18:21:37 : ====== Waiting for full army ======
+2015-08-17 18:21:48 : Collecting Resources
+2015-08-17 18:21:57 : Checking Army Camp...
+2015-08-17 18:21:59 : Total Army Camp capacity: 176/220
+2015-08-17 18:22:00 :  - No. of Giants: 32
+2015-08-17 18:22:00 :  - No. of Wizards: 4
+2015-08-17 18:22:01 : Training Troops...
+2015-08-17 18:22:10 : Spell Factory Full
+2015-08-17 18:22:11 : ClashGameBot was Paused!
+2015-08-17 18:24:07 : ClashGameBot was Resumed.
+2015-08-17 18:24:08 : Time Idle: 00:12:15
+2015-08-17 18:24:09 : ====== Waiting for full army ======
+2015-08-17 18:24:10 : Chat Request: hog,arch wiz
+2015-08-17 18:24:10 : Archers Keyword found: arc
+2015-08-17 18:24:13 : No Archers available to donate..
+2015-08-17 18:24:14 : Wizards Keyword found: wiz
+2015-08-17 18:24:14 : Donating Wizards
+2015-08-17 18:24:16 : Chat Request: wiz arch
+2015-08-17 18:24:16 : Archers Keyword found: arc
+2015-08-17 18:24:19 : No Archers available to donate..
+2015-08-17 18:24:19 : Wizards Keyword found: wiz
+2015-08-17 18:24:23 : No Wizards available to donate..
+2015-08-17 18:24:25 : Chat Request: witch po sana
+2015-08-17 18:24:25 : Witches Keyword found: witch
+2015-08-17 18:24:28 : No Witches available to donate..
+2015-08-17 18:24:41 : Checking Army Camp...
+2015-08-17 18:24:43 : Total Army Camp capacity: 164/220
+2015-08-17 18:24:44 :  - No. of Giants: 32
+2015-08-17 18:24:44 :  - No. of Wizards: 1
+2015-08-17 18:24:44 : Training Troops...
+2015-08-17 18:24:55 : Spell Factory Full
+2015-08-17 18:24:57 : Time Idle: 00:13:03
+2015-08-17 18:24:57 : ====== Waiting for full army ======
+2015-08-17 18:25:00 : Chat Request: wiz arch
+2015-08-17 18:25:00 : Archers Keyword found: arc
+2015-08-17 18:25:03 : No Archers available to donate..
+2015-08-17 18:25:04 : Wizards Keyword found: wiz
+2015-08-17 18:25:04 : Donating Wizards
+2015-08-17 18:25:06 : Chat Request: hog,arch wiz
+2015-08-17 18:25:06 : Archers Keyword found: arc
+2015-08-17 18:25:09 : No Archers available to donate..
+2015-08-17 18:25:09 : Wizards Keyword found: wiz
+2015-08-17 18:25:13 : No Wizards available to donate..
+2015-08-17 18:25:13 : Hog Riders Keyword found: hog
+2015-08-17 18:25:16 : No Hog Riders available to donate..
+2015-08-17 18:25:18 : Chat Request: witch po sana
+2015-08-17 18:25:18 : Witches Keyword found: witch
+2015-08-17 18:25:21 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:25:32 : Checking Army Camp...
+2015-08-17 18:25:34 : Total Army Camp capacity: 160/220
+2015-08-17 18:25:35 :  - No. of Giants: 32
+2015-08-17 18:25:35 : Training Troops...
+2015-08-17 18:25:46 : Spell Factory Full
+2015-08-17 18:25:48 : Time Idle: 00:13:54
+2015-08-17 18:25:48 : ====== Waiting for full army ======
+2015-08-17 18:26:00 : Checking Army Camp...
+2015-08-17 18:26:02 : Total Army Camp capacity: 160/220
+2015-08-17 18:26:03 :  - No. of Giants: 32
+2015-08-17 18:26:03 : Training Troops...
+2015-08-17 18:26:14 : Spell Factory Full
+2015-08-17 18:26:16 : Time Idle: 00:14:22
+2015-08-17 18:26:16 : ====== Waiting for full army ======
+2015-08-17 18:26:27 : Checking Army Camp...
+2015-08-17 18:26:29 : Total Army Camp capacity: 160/220
+2015-08-17 18:26:30 :  - No. of Giants: 32
+2015-08-17 18:26:31 : Training Troops...
+2015-08-17 18:26:41 : Spell Factory Full
+2015-08-17 18:26:43 : Time Idle: 00:14:49
+2015-08-17 18:26:43 : ====== Waiting for full army ======
+2015-08-17 18:26:55 : Checking Army Camp...
+2015-08-17 18:26:57 : Total Army Camp capacity: 160/220
+2015-08-17 18:26:58 :  - No. of Giants: 32
+2015-08-17 18:26:59 : Training Troops...
+2015-08-17 18:27:09 : Spell Factory Full
+2015-08-17 18:27:11 : Time Idle: 00:15:17
+2015-08-17 18:27:11 : ====== Waiting for full army ======
+2015-08-17 18:27:23 : Checking Army Camp...
+2015-08-17 18:27:25 : Total Army Camp capacity: 160/220
+2015-08-17 18:27:26 :  - No. of Giants: 32
+2015-08-17 18:27:26 : Training Troops...
+2015-08-17 18:27:37 : Spell Factory Full
+2015-08-17 18:27:39 : Time Idle: 00:15:44
+2015-08-17 18:27:39 : ====== Waiting for full army ======
+2015-08-17 18:27:51 : Checking Army Camp...
+2015-08-17 18:27:53 : Total Army Camp capacity: 176/220
+2015-08-17 18:27:54 :  - No. of Giants: 32
+2015-08-17 18:27:54 :  - No. of Wizards: 4
+2015-08-17 18:27:55 : Training Troops...
+2015-08-17 18:28:05 : Spell Factory Full
+2015-08-17 18:28:07 : Time Idle: 00:16:12
+2015-08-17 18:28:07 : ====== Waiting for full army ======
+2015-08-17 18:28:19 : Checking Army Camp...
+2015-08-17 18:28:21 : Total Army Camp capacity: 176/220
+2015-08-17 18:28:22 :  - No. of Giants: 32
+2015-08-17 18:28:22 :  - No. of Wizards: 4
+2015-08-17 18:28:23 : Training Troops...
+2015-08-17 18:28:33 : Spell Factory Full
+2015-08-17 18:28:35 : Time Idle: 00:16:40
+2015-08-17 18:28:36 : ====== Waiting for full army ======
+2015-08-17 18:28:47 : Checking Army Camp...
+2015-08-17 18:28:49 : Total Army Camp capacity: 176/220
+2015-08-17 18:28:50 :  - No. of Giants: 32
+2015-08-17 18:28:50 :  - No. of Wizards: 4
+2015-08-17 18:28:51 : Training Troops...
+2015-08-17 18:29:01 : Spell Factory Full
+2015-08-17 18:29:03 : Time Idle: 00:17:08
+2015-08-17 18:29:04 : ====== Waiting for full army ======
+2015-08-17 18:29:15 : Checking Army Camp...
+2015-08-17 18:29:17 : Total Army Camp capacity: 176/220
+2015-08-17 18:29:18 :  - No. of Giants: 32
+2015-08-17 18:29:18 :  - No. of Wizards: 4
+2015-08-17 18:29:19 : Training Troops...
+2015-08-17 18:29:29 : Spell Factory Full
+2015-08-17 18:29:31 : Time Idle: 00:17:36
+2015-08-17 18:29:32 : ====== Waiting for full army ======
+2015-08-17 18:29:43 : Collecting Resources
+2015-08-17 18:29:49 : Checking Army Camp...
+2015-08-17 18:29:51 : Total Army Camp capacity: 176/220
+2015-08-17 18:29:52 :  - No. of Giants: 32
+2015-08-17 18:29:52 :  - No. of Wizards: 4
+2015-08-17 18:29:53 : Training Troops...
+2015-08-17 18:30:04 : Spell Factory Full
+2015-08-17 18:30:06 : Time Idle: 00:18:10
+2015-08-17 18:30:06 : ====== Waiting for full army ======
+2015-08-17 18:30:17 : Checking Army Camp...
+2015-08-17 18:30:19 : Total Army Camp capacity: 176/220
+2015-08-17 18:30:21 :  - No. of Giants: 32
+2015-08-17 18:30:21 :  - No. of Wizards: 4
+2015-08-17 18:30:21 : Training Troops...
+2015-08-17 18:30:32 : Spell Factory Full
+2015-08-17 18:30:34 : Time Idle: 00:18:37
+2015-08-17 18:30:34 : ====== Waiting for full army ======
+2015-08-17 18:30:46 : Checking Army Camp...
+2015-08-17 18:30:48 : Total Army Camp capacity: 176/220
+2015-08-17 18:30:49 :  - No. of Giants: 32
+2015-08-17 18:30:49 :  - No. of Wizards: 4
+2015-08-17 18:30:49 : Training Troops...
+2015-08-17 18:31:00 : Spell Factory Full
+2015-08-17 18:31:02 : Time Idle: 00:19:05
+2015-08-17 18:31:02 : ====== Waiting for full army ======
+2015-08-17 18:31:14 : Checking Army Camp...
+2015-08-17 18:31:15 : Total Army Camp capacity: 176/220
+2015-08-17 18:31:16 :  - No. of Giants: 32
+2015-08-17 18:31:17 :  - No. of Wizards: 4
+2015-08-17 18:31:17 : Training Troops...
+2015-08-17 18:31:28 : Spell Factory Full
+2015-08-17 18:31:30 : Time Idle: 00:19:33
+2015-08-17 18:31:30 : ====== Waiting for full army ======
+2015-08-17 18:31:42 : Checking Army Camp...
+2015-08-17 18:31:43 : Total Army Camp capacity: 176/220
+2015-08-17 18:31:45 :  - No. of Giants: 32
+2015-08-17 18:31:45 :  - No. of Wizards: 4
+2015-08-17 18:31:45 : Training Troops...
+2015-08-17 18:31:56 : Spell Factory Full
+2015-08-17 18:31:58 : Time Idle: 00:20:01
+2015-08-17 18:31:58 : ====== Waiting for full army ======
+2015-08-17 18:32:10 : Checking Army Camp...
+2015-08-17 18:32:12 : Total Army Camp capacity: 176/220
+2015-08-17 18:32:13 :  - No. of Giants: 32
+2015-08-17 18:32:13 :  - No. of Wizards: 4
+2015-08-17 18:32:14 : Training Troops...
+2015-08-17 18:32:25 : Spell Factory Full
+2015-08-17 18:32:25 : Created 1 Spell(s)
+2015-08-17 18:32:27 : Time Idle: 00:20:30
+2015-08-17 18:32:28 : ====== Waiting for full army ======
+2015-08-17 18:32:39 : Checking Army Camp...
+2015-08-17 18:32:41 : Total Army Camp capacity: 176/220
+2015-08-17 18:32:42 :  - No. of Giants: 32
+2015-08-17 18:32:43 :  - No. of Wizards: 4
+2015-08-17 18:32:43 : Training Troops...
+2015-08-17 18:32:53 : Spell Factory Full
+2015-08-17 18:32:55 : Time Idle: 00:20:58
+2015-08-17 18:32:56 : ====== Waiting for full army ======
+2015-08-17 18:33:07 : Checking Army Camp...
+2015-08-17 18:33:09 : Total Army Camp capacity: 176/220
+2015-08-17 18:33:10 :  - No. of Giants: 32
+2015-08-17 18:33:11 :  - No. of Wizards: 4
+2015-08-17 18:33:11 : Training Troops...
+2015-08-17 18:33:22 : Spell Factory Full
+2015-08-17 18:33:24 : Time Idle: 00:21:26
+2015-08-17 18:33:24 : ====== Waiting for full army ======
+2015-08-17 18:33:36 : Checking Army Camp...
+2015-08-17 18:33:38 : Total Army Camp capacity: 176/220
+2015-08-17 18:33:39 :  - No. of Giants: 32
+2015-08-17 18:33:39 :  - No. of Wizards: 4
+2015-08-17 18:33:39 : Training Troops...
+2015-08-17 18:33:50 : Spell Factory Full
+2015-08-17 18:33:52 : Time Idle: 00:21:54
+2015-08-17 18:33:52 : ====== Waiting for full army ======
+2015-08-17 18:34:04 : Checking Army Camp...
+2015-08-17 18:34:06 : Total Army Camp capacity: 176/220
+2015-08-17 18:34:07 :  - No. of Giants: 32
+2015-08-17 18:34:07 :  - No. of Wizards: 4
+2015-08-17 18:34:08 : Training Troops...
+2015-08-17 18:34:18 : Spell Factory Full
+2015-08-17 18:34:20 : Time Idle: 00:22:22
+2015-08-17 18:34:21 : ====== Waiting for full army ======
+2015-08-17 18:34:32 : Checking Army Camp...
+2015-08-17 18:34:34 : Total Army Camp capacity: 176/220
+2015-08-17 18:34:35 :  - No. of Giants: 32
+2015-08-17 18:34:35 :  - No. of Wizards: 4
+2015-08-17 18:34:36 : Training Troops...
+2015-08-17 18:34:46 : Spell Factory Full
+2015-08-17 18:34:48 : Time Idle: 00:22:50
+2015-08-17 18:34:49 : ====== Waiting for full army ======
+2015-08-17 18:35:00 : Collecting Resources
+2015-08-17 18:35:09 : Checking Army Camp...
+2015-08-17 18:35:11 : Total Army Camp capacity: 176/220
+2015-08-17 18:35:12 :  - No. of Giants: 32
+2015-08-17 18:35:12 :  - No. of Wizards: 4
+2015-08-17 18:35:13 : Training Troops...
+2015-08-17 18:35:23 : Spell Factory Full
+2015-08-17 18:35:25 : Time Idle: 00:23:26
+2015-08-17 18:35:26 : ====== Waiting for full army ======
+2015-08-17 18:35:37 : Checking Army Camp...
+2015-08-17 18:35:39 : Total Army Camp capacity: 192/220
+2015-08-17 18:35:40 :  - No. of Giants: 32
+2015-08-17 18:35:40 :  - No. of Wizards: 8
+2015-08-17 18:35:41 : Training Troops...
+2015-08-17 18:35:52 : Spell Factory Full
+2015-08-17 18:35:54 : Time Idle: 00:23:54
+2015-08-17 18:35:54 : ====== Waiting for full army ======
+2015-08-17 18:35:55 : Chat Request: any
+2015-08-17 18:35:55 : Custom Donation Keyword found: any
+2015-08-17 18:35:56 : Donating 6 Giants
+2015-08-17 18:35:59 : No Wizards available to donate..
+2015-08-17 18:36:03 : No Archers available to donate..
+2015-08-17 18:36:04 : Chat Request: witch po sana
+2015-08-17 18:36:04 : Witches Keyword found: witch
+2015-08-17 18:36:07 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:36:20 : Checking Army Camp...
+2015-08-17 18:36:22 : Total Army Camp capacity: 172/220
+2015-08-17 18:36:23 :  - No. of Giants: 28
+2015-08-17 18:36:23 :  - No. of Wizards: 8
+2015-08-17 18:36:24 : Training Troops...
+2015-08-17 18:36:36 : Spell Factory Full
+2015-08-17 18:36:38 : Time Idle: 00:24:38
+2015-08-17 18:36:38 : ====== Waiting for full army ======
+2015-08-17 18:36:49 : Checking Army Camp...
+2015-08-17 18:36:51 : Total Army Camp capacity: 172/220
+2015-08-17 18:36:52 :  - No. of Giants: 28
+2015-08-17 18:36:53 :  - No. of Wizards: 8
+2015-08-17 18:36:53 : Training Troops...
+2015-08-17 18:37:05 : Spell Factory Full
+2015-08-17 18:37:07 : Time Idle: 00:25:08
+2015-08-17 18:37:07 : ====== Waiting for full army ======
+2015-08-17 18:37:19 : Checking Army Camp...
+2015-08-17 18:37:21 : Total Army Camp capacity: 172/220
+2015-08-17 18:37:22 :  - No. of Giants: 28
+2015-08-17 18:37:22 :  - No. of Wizards: 8
+2015-08-17 18:37:23 : Training Troops...
+2015-08-17 18:37:35 : Spell Factory Full
+2015-08-17 18:37:37 : Time Idle: 00:25:37
+2015-08-17 18:37:37 : ====== Waiting for full army ======
+2015-08-17 18:37:49 : Checking Army Camp...
+2015-08-17 18:37:51 : Total Army Camp capacity: 172/220
+2015-08-17 18:37:52 :  - No. of Giants: 28
+2015-08-17 18:37:52 :  - No. of Wizards: 8
+2015-08-17 18:37:53 : Training Troops...
+2015-08-17 18:38:05 : Spell Factory Full
+2015-08-17 18:38:07 : Time Idle: 00:26:07
+2015-08-17 18:38:07 : ====== Waiting for full army ======
+2015-08-17 18:38:18 : Checking Army Camp...
+2015-08-17 18:38:20 : Total Army Camp capacity: 172/220
+2015-08-17 18:38:21 :  - No. of Giants: 28
+2015-08-17 18:38:22 :  - No. of Wizards: 8
+2015-08-17 18:38:22 : Training Troops...
+2015-08-17 18:38:35 : Spell Factory Full
+2015-08-17 18:38:37 : Time Idle: 00:26:36
+2015-08-17 18:38:37 : ====== Waiting for full army ======
+2015-08-17 18:38:48 : Checking Army Camp...
+2015-08-17 18:38:50 : Total Army Camp capacity: 172/220
+2015-08-17 18:38:51 :  - No. of Giants: 28
+2015-08-17 18:38:52 :  - No. of Wizards: 8
+2015-08-17 18:38:52 : Training Troops...
+2015-08-17 18:39:04 : Spell Factory Full
+2015-08-17 18:39:06 : Time Idle: 00:27:06
+2015-08-17 18:39:07 : ====== Waiting for full army ======
+2015-08-17 18:39:18 : Checking Army Camp...
+2015-08-17 18:39:20 : Total Army Camp capacity: 172/220
+2015-08-17 18:39:21 :  - No. of Giants: 28
+2015-08-17 18:39:21 :  - No. of Wizards: 8
+2015-08-17 18:39:22 : Training Troops...
+2015-08-17 18:39:34 : Spell Factory Full
+2015-08-17 18:39:36 : Time Idle: 00:27:36
+2015-08-17 18:39:37 : ====== Waiting for full army ======
+2015-08-17 18:39:48 : Checking Army Camp...
+2015-08-17 18:39:50 : Total Army Camp capacity: 172/220
+2015-08-17 18:39:51 :  - No. of Giants: 28
+2015-08-17 18:39:52 :  - No. of Wizards: 8
+2015-08-17 18:39:52 : Training Troops...
+2015-08-17 18:40:05 : Spell Factory Full
+2015-08-17 18:40:06 : Time Idle: 00:28:05
+2015-08-17 18:40:07 : ====== Waiting for full army ======
+2015-08-17 18:40:08 : Chat Request: wiz arch
+2015-08-17 18:40:08 : Archers Keyword found: arc
+2015-08-17 18:40:11 : No Archers available to donate..
+2015-08-17 18:40:12 : Wizards Keyword found: wiz
+2015-08-17 18:40:12 : Donating Wizards
+2015-08-17 18:40:14 : Chat Request: witch po sana
+2015-08-17 18:40:14 : Witches Keyword found: witch
+2015-08-17 18:40:17 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:40:30 : Checking Army Camp...
+2015-08-17 18:40:32 : Total Army Camp capacity: 164/220
+2015-08-17 18:40:33 :  - No. of Giants: 28
+2015-08-17 18:40:33 :  - No. of Wizards: 6
+2015-08-17 18:40:34 : Training Troops...
+2015-08-17 18:40:46 : Spell Factory Full
+2015-08-17 18:40:48 : Time Idle: 00:28:47
+2015-08-17 18:40:48 : ====== Waiting for full army ======
+2015-08-17 18:41:00 : Collecting Resources
+2015-08-17 18:41:06 : Checking Army Camp...
+2015-08-17 18:41:08 : Total Army Camp capacity: 164/220
+2015-08-17 18:41:09 :  - No. of Giants: 28
+2015-08-17 18:41:09 :  - No. of Wizards: 6
+2015-08-17 18:41:10 : Training Troops...
+2015-08-17 18:41:22 : Spell Factory Full
+2015-08-17 18:41:24 : Time Idle: 00:29:23
+2015-08-17 18:41:24 : ====== Waiting for full army ======
+2015-08-17 18:41:36 : Checking Army Camp...
+2015-08-17 18:41:38 : Total Army Camp capacity: 164/220
+2015-08-17 18:41:39 :  - No. of Giants: 28
+2015-08-17 18:41:39 :  - No. of Wizards: 6
+2015-08-17 18:41:40 : Training Troops...
+2015-08-17 18:41:52 : Spell Factory Full
+2015-08-17 18:41:54 : Time Idle: 00:29:52
+2015-08-17 18:41:54 : ====== Waiting for full army ======
+2015-08-17 18:42:06 : Checking Army Camp...
+2015-08-17 18:42:07 : Total Army Camp capacity: 164/220
+2015-08-17 18:42:09 :  - No. of Giants: 28
+2015-08-17 18:42:09 :  - No. of Wizards: 6
+2015-08-17 18:42:09 : Training Troops...
+2015-08-17 18:42:22 : Spell Factory Full
+2015-08-17 18:42:24 : Time Idle: 00:30:22
+2015-08-17 18:42:24 : ====== Waiting for full army ======
+2015-08-17 18:42:36 : Checking Army Camp...
+2015-08-17 18:42:37 : Total Army Camp capacity: 164/220
+2015-08-17 18:42:39 :  - No. of Giants: 28
+2015-08-17 18:42:39 :  - No. of Wizards: 6
+2015-08-17 18:42:39 : Training Troops...
+2015-08-17 18:42:52 : Spell Factory Full
+2015-08-17 18:42:54 : Time Idle: 00:30:51
+2015-08-17 18:42:54 : ====== Waiting for full army ======
+2015-08-17 18:43:05 : Checking Army Camp...
+2015-08-17 18:43:07 : Total Army Camp capacity: 164/220
+2015-08-17 18:43:08 :  - No. of Giants: 28
+2015-08-17 18:43:09 :  - No. of Wizards: 6
+2015-08-17 18:43:09 : Training Troops...
+2015-08-17 18:43:22 : Spell Factory Full
+2015-08-17 18:43:24 : Time Idle: 00:31:21
+2015-08-17 18:43:24 : ====== Waiting for full army ======
+2015-08-17 18:43:36 : Checking Army Camp...
+2015-08-17 18:43:37 : Total Army Camp capacity: 180/220
+2015-08-17 18:43:39 :  - No. of Giants: 28
+2015-08-17 18:43:39 :  - No. of Wizards: 10
+2015-08-17 18:43:39 : Training Troops...
+2015-08-17 18:43:52 : Spell Factory Full
+2015-08-17 18:43:54 : Time Idle: 00:31:51
+2015-08-17 18:43:54 : ====== Waiting for full army ======
+2015-08-17 18:44:06 : Checking Army Camp...
+2015-08-17 18:44:07 : Total Army Camp capacity: 180/220
+2015-08-17 18:44:09 :  - No. of Giants: 28
+2015-08-17 18:44:09 :  - No. of Wizards: 10
+2015-08-17 18:44:09 : Training Troops...
+2015-08-17 18:44:22 : Spell Factory Full
+2015-08-17 18:44:24 : Time Idle: 00:32:21
+2015-08-17 18:44:24 : ====== Waiting for full army ======
+2015-08-17 18:44:36 : Checking Army Camp...
+2015-08-17 18:44:38 : Total Army Camp capacity: 180/220
+2015-08-17 18:44:39 :  - No. of Giants: 28
+2015-08-17 18:44:39 :  - No. of Wizards: 10
+2015-08-17 18:44:40 : Training Troops...
+2015-08-17 18:44:52 : Spell Factory Full
+2015-08-17 18:44:54 : Time Idle: 00:32:50
+2015-08-17 18:44:54 : ====== Waiting for full army ======
+2015-08-17 18:45:06 : Checking Army Camp...
+2015-08-17 18:45:08 : Total Army Camp capacity: 180/220
+2015-08-17 18:45:09 :  - No. of Giants: 28
+2015-08-17 18:45:09 :  - No. of Wizards: 10
+2015-08-17 18:45:10 : Training Troops...
+2015-08-17 18:45:22 : Spell Factory Full
+2015-08-17 18:45:24 : Time Idle: 00:33:20
+2015-08-17 18:45:24 : ====== Waiting for full army ======
+2015-08-17 18:45:27 : Chat Request: bantay tnx
+2015-08-17 18:45:27 : Custom Donation Keyword found: bantay
+2015-08-17 18:45:28 : Donating 6 Giants
+2015-08-17 18:45:32 : No Wizards available to donate..
+2015-08-17 18:45:35 : No Archers available to donate..
+2015-08-17 18:45:36 : Chat Request: witch po sana
+2015-08-17 18:45:36 : Witches Keyword found: witch
+2015-08-17 18:45:40 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:45:51 : Checking Army Camp...
+2015-08-17 18:45:53 : Total Army Camp capacity: 175/220
+2015-08-17 18:45:54 :  - No. of Giants: 27
+2015-08-17 18:45:54 :  - No. of Wizards: 10
+2015-08-17 18:45:54 : Training Troops...
+2015-08-17 18:46:06 : Spell Factory Full
+2015-08-17 18:46:08 : Time Idle: 00:34:04
+2015-08-17 18:46:09 : ====== Waiting for full army ======
+2015-08-17 18:46:20 : Checking Army Camp...
+2015-08-17 18:46:22 : Total Army Camp capacity: 175/220
+2015-08-17 18:46:23 :  - No. of Giants: 27
+2015-08-17 18:46:23 :  - No. of Wizards: 10
+2015-08-17 18:46:24 : Training Troops...
+2015-08-17 18:46:35 : Spell Factory Full
+2015-08-17 18:46:37 : Time Idle: 00:34:33
+2015-08-17 18:46:37 : ====== Waiting for full army ======
+2015-08-17 18:46:49 : Collecting Resources
+2015-08-17 18:46:57 : Checking Army Camp...
+2015-08-17 18:46:59 : Total Army Camp capacity: 175/220
+2015-08-17 18:47:00 :  - No. of Giants: 27
+2015-08-17 18:47:01 :  - No. of Wizards: 10
+2015-08-17 18:47:01 : Training Troops...
+2015-08-17 18:47:12 : Spell Factory Full
+2015-08-17 18:47:14 : Time Idle: 00:35:09
+2015-08-17 18:47:14 : ====== Waiting for full army ======
+2015-08-17 18:47:26 : Checking Army Camp...
+2015-08-17 18:47:28 : Total Army Camp capacity: 175/220
+2015-08-17 18:47:29 :  - No. of Giants: 27
+2015-08-17 18:47:29 :  - No. of Wizards: 10
+2015-08-17 18:47:29 : Training Troops...
+2015-08-17 18:47:40 : Spell Factory Full
+2015-08-17 18:47:42 : Time Idle: 00:35:38
+2015-08-17 18:47:42 : ====== Waiting for full army ======
+2015-08-17 18:47:54 : Checking Army Camp...
+2015-08-17 18:47:56 : Total Army Camp capacity: 175/220
+2015-08-17 18:47:57 :  - No. of Giants: 27
+2015-08-17 18:47:57 :  - No. of Wizards: 10
+2015-08-17 18:47:58 : Training Troops...
+2015-08-17 18:48:09 : Spell Factory Full
+2015-08-17 18:48:11 : Time Idle: 00:36:06
+2015-08-17 18:48:11 : ====== Waiting for full army ======
+2015-08-17 18:48:23 : Checking Army Camp...
+2015-08-17 18:48:24 : Total Army Camp capacity: 175/220
+2015-08-17 18:48:26 :  - No. of Giants: 27
+2015-08-17 18:48:26 :  - No. of Wizards: 10
+2015-08-17 18:48:26 : Training Troops...
+2015-08-17 18:48:37 : Spell Factory Full
+2015-08-17 18:48:39 : Time Idle: 00:36:34
+2015-08-17 18:48:39 : ====== Waiting for full army ======
+2015-08-17 18:48:51 : Checking Army Camp...
+2015-08-17 18:48:53 : Total Army Camp capacity: 175/220
+2015-08-17 18:48:54 :  - No. of Giants: 27
+2015-08-17 18:48:54 :  - No. of Wizards: 10
+2015-08-17 18:48:55 : Training Troops...
+2015-08-17 18:49:06 : Spell Factory Full
+2015-08-17 18:49:08 : Time Idle: 00:37:03
+2015-08-17 18:49:08 : ====== Waiting for full army ======
+2015-08-17 18:49:20 : Checking Army Camp...
+2015-08-17 18:49:22 : Total Army Camp capacity: 175/220
+2015-08-17 18:49:23 :  - No. of Giants: 27
+2015-08-17 18:49:23 :  - No. of Wizards: 10
+2015-08-17 18:49:24 : Training Troops...
+2015-08-17 18:49:35 : Spell Factory Full
+2015-08-17 18:49:37 : Time Idle: 00:37:31
+2015-08-17 18:49:37 : ====== Waiting for full army ======
+2015-08-17 18:49:49 : Checking Army Camp...
+2015-08-17 18:49:50 : Total Army Camp capacity: 175/220
+2015-08-17 18:49:51 :  - No. of Giants: 27
+2015-08-17 18:49:51 :  - No. of Wizards: 10
+2015-08-17 18:49:52 : Training Troops...
+2015-08-17 18:50:03 : Spell Factory Full
+2015-08-17 18:50:05 : Time Idle: 00:37:59
+2015-08-17 18:50:05 : ====== Waiting for full army ======
+2015-08-17 18:50:13 : Chat Request: hog,arch wiz
+2015-08-17 18:50:13 : Archers Keyword found: arc
+2015-08-17 18:50:16 : No Archers available to donate..
+2015-08-17 18:50:16 : Wizards Keyword found: wiz
+2015-08-17 18:50:17 : Donating Wizards
+2015-08-17 18:50:19 : Chat Request: witch po sana
+2015-08-17 18:50:19 : Witches Keyword found: witch
+2015-08-17 18:50:22 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:50:28 : Checking Army Camp...
+2015-08-17 18:50:30 : Total Army Camp capacity: 163/220
+2015-08-17 18:50:31 :  - No. of Giants: 27
+2015-08-17 18:50:31 :  - No. of Wizards: 7
+2015-08-17 18:50:32 : Training Troops...
+2015-08-17 18:50:43 : Spell Factory Full
+2015-08-17 18:50:45 : Time Idle: 00:38:39
+2015-08-17 18:50:46 : ====== Waiting for full army ======
+2015-08-17 18:50:57 : Checking Army Camp...
+2015-08-17 18:50:59 : Total Army Camp capacity: 163/220
+2015-08-17 18:51:00 :  - No. of Giants: 27
+2015-08-17 18:51:00 :  - No. of Wizards: 7
+2015-08-17 18:51:01 : Training Troops...
+2015-08-17 18:51:10 : Spell Factory Full
+2015-08-17 18:51:12 : Time Idle: 00:39:06
+2015-08-17 18:51:13 : ====== Waiting for full army ======
+2015-08-17 18:51:24 : Checking Army Camp...
+2015-08-17 18:51:26 : Total Army Camp capacity: 167/220
+2015-08-17 18:51:27 :  - No. of Giants: 27
+2015-08-17 18:51:27 :  - No. of Wizards: 8
+2015-08-17 18:51:28 : Training Troops...
+2015-08-17 18:51:38 : Spell Factory Full
+2015-08-17 18:51:40 : Time Idle: 00:39:33
+2015-08-17 18:51:40 : ====== Waiting for full army ======
+2015-08-17 18:51:51 : Checking Army Camp...
+2015-08-17 18:51:53 : Total Army Camp capacity: 179/220
+2015-08-17 18:51:54 :  - No. of Giants: 27
+2015-08-17 18:51:55 :  - No. of Wizards: 11
+2015-08-17 18:51:55 : Training Troops...
+2015-08-17 18:52:05 : Spell Factory Full
+2015-08-17 18:52:07 : Time Idle: 00:40:00
+2015-08-17 18:52:07 : ====== Waiting for full army ======
+2015-08-17 18:52:19 : Collecting Resources
+2015-08-17 18:52:25 : Checking Army Camp...
+2015-08-17 18:52:26 : Total Army Camp capacity: 179/220
+2015-08-17 18:52:28 :  - No. of Giants: 27
+2015-08-17 18:52:28 :  - No. of Wizards: 11
+2015-08-17 18:52:28 : Training Troops...
+2015-08-17 18:52:39 : Spell Factory Full
+2015-08-17 18:52:39 : Created 1 Spell(s)
+2015-08-17 18:52:41 : Time Idle: 00:40:34
+2015-08-17 18:52:41 : ====== Waiting for full army ======
+2015-08-17 18:52:42 : Chat Request: barchers
+2015-08-17 18:52:42 : Barbarians Keyword found: barch
+2015-08-17 18:52:46 : No Barbarians available to donate..
+2015-08-17 18:52:46 : Archers Keyword found: arc
+2015-08-17 18:52:49 : No Archers available to donate..
+2015-08-17 18:52:51 : Chat Request: witch po sana
+2015-08-17 18:52:51 : Witches Keyword found: witch
+2015-08-17 18:52:54 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:53:06 : Checking Army Camp...
+2015-08-17 18:53:08 : Total Army Camp capacity: 179/220
+2015-08-17 18:53:09 :  - No. of Giants: 27
+2015-08-17 18:53:10 :  - No. of Wizards: 11
+2015-08-17 18:53:10 : Training Troops...
+2015-08-17 18:53:19 : Spell Factory Full
+2015-08-17 18:53:22 : Time Idle: 00:41:14
+2015-08-17 18:53:22 : ====== Waiting for full army ======
+2015-08-17 18:53:33 : Checking Army Camp...
+2015-08-17 18:53:35 : Total Army Camp capacity: 179/220
+2015-08-17 18:53:36 :  - No. of Giants: 27
+2015-08-17 18:53:37 :  - No. of Wizards: 11
+2015-08-17 18:53:37 : Training Troops...
+2015-08-17 18:53:46 : Spell Factory Full
+2015-08-17 18:53:48 : Time Idle: 00:41:40
+2015-08-17 18:53:48 : ====== Waiting for full army ======
+2015-08-17 18:54:00 : Checking Army Camp...
+2015-08-17 18:54:02 : Total Army Camp capacity: 179/220
+2015-08-17 18:54:03 :  - No. of Giants: 27
+2015-08-17 18:54:03 :  - No. of Wizards: 11
+2015-08-17 18:54:04 : Training Troops...
+2015-08-17 18:54:15 : Spell Factory Full
+2015-08-17 18:54:17 : Time Idle: 00:42:09
+2015-08-17 18:54:17 : ====== Waiting for full army ======
+2015-08-17 18:54:29 : Checking Army Camp...
+2015-08-17 18:54:30 : Total Army Camp capacity: 179/220
+2015-08-17 18:54:31 :  - No. of Giants: 27
+2015-08-17 18:54:32 :  - No. of Wizards: 11
+2015-08-17 18:54:32 : Training Troops...
+2015-08-17 18:54:42 : Spell Factory Full
+2015-08-17 18:54:44 : Time Idle: 00:42:35
+2015-08-17 18:54:44 : ====== Waiting for full army ======
+2015-08-17 18:54:56 : Checking Army Camp...
+2015-08-17 18:54:58 : Total Army Camp capacity: 179/220
+2015-08-17 18:54:59 :  - No. of Giants: 27
+2015-08-17 18:54:59 :  - No. of Wizards: 11
+2015-08-17 18:54:59 : Training Troops...
+2015-08-17 18:55:09 : Spell Factory Full
+2015-08-17 18:55:11 : Time Idle: 00:43:03
+2015-08-17 18:55:11 : ====== Waiting for full army ======
+2015-08-17 18:55:23 : Checking Army Camp...
+2015-08-17 18:55:25 : Total Army Camp capacity: 179/220
+2015-08-17 18:55:26 :  - No. of Giants: 27
+2015-08-17 18:55:26 :  - No. of Wizards: 11
+2015-08-17 18:55:27 : Training Troops...
+2015-08-17 18:55:36 : Spell Factory Full
+2015-08-17 18:55:38 : Time Idle: 00:43:30
+2015-08-17 18:55:39 : ====== Waiting for full army ======
+2015-08-17 18:55:50 : Checking Army Camp...
+2015-08-17 18:55:52 : Total Army Camp capacity: 179/220
+2015-08-17 18:55:53 :  - No. of Giants: 27
+2015-08-17 18:55:54 :  - No. of Wizards: 11
+2015-08-17 18:55:54 : Training Troops...
+2015-08-17 18:56:04 : Spell Factory Full
+2015-08-17 18:56:06 : Time Idle: 00:43:57
+2015-08-17 18:56:06 : ====== Waiting for full army ======
+2015-08-17 18:56:18 : Checking Army Camp...
+2015-08-17 18:56:19 : Total Army Camp capacity: 179/220
+2015-08-17 18:56:21 :  - No. of Giants: 27
+2015-08-17 18:56:21 :  - No. of Wizards: 11
+2015-08-17 18:56:21 : Training Troops...
+2015-08-17 18:56:31 : Spell Factory Full
+2015-08-17 18:56:33 : Time Idle: 00:44:24
+2015-08-17 18:56:33 : ====== Waiting for full army ======
+2015-08-17 18:56:45 : Checking Army Camp...
+2015-08-17 18:56:47 : Total Army Camp capacity: 179/220
+2015-08-17 18:56:48 :  - No. of Giants: 27
+2015-08-17 18:56:48 :  - No. of Wizards: 11
+2015-08-17 18:56:49 : Training Troops...
+2015-08-17 18:56:58 : Spell Factory Full
+2015-08-17 18:57:00 : Time Idle: 00:44:50
+2015-08-17 18:57:00 : ====== Waiting for full army ======
+2015-08-17 18:57:12 : Checking Army Camp...
+2015-08-17 18:57:14 : Total Army Camp capacity: 179/220
+2015-08-17 18:57:15 :  - No. of Giants: 27
+2015-08-17 18:57:15 :  - No. of Wizards: 11
+2015-08-17 18:57:16 : Training Troops...
+2015-08-17 18:57:26 : Spell Factory Full
+2015-08-17 18:57:28 : Time Idle: 00:45:18
+2015-08-17 18:57:28 : ====== Waiting for full army ======
+2015-08-17 18:57:29 : Chat Request: any
+2015-08-17 18:57:29 : Custom Donation Keyword found: any
+2015-08-17 18:57:30 : Donating 6 Giants
+2015-08-17 18:57:34 : No Wizards available to donate..
+2015-08-17 18:57:37 : No Archers available to donate..
+2015-08-17 18:57:38 : Chat Request: witch po sana
+2015-08-17 18:57:38 : Witches Keyword found: witch
+2015-08-17 18:57:41 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 18:57:54 : Collecting Resources
+2015-08-17 18:58:03 : Checking Army Camp...
+2015-08-17 18:58:05 : Total Army Camp capacity: 159/220
+2015-08-17 18:58:06 :  - No. of Giants: 23
+2015-08-17 18:58:06 :  - No. of Wizards: 11
+2015-08-17 18:58:06 : Training Troops...
+2015-08-17 18:58:16 : Spell Factory Full
+2015-08-17 18:58:18 : Time Idle: 00:46:08
+2015-08-17 18:58:18 : ====== Waiting for full army ======
+2015-08-17 18:58:30 : Checking Army Camp...
+2015-08-17 18:58:32 : Total Army Camp capacity: 159/220
+2015-08-17 18:58:33 :  - No. of Giants: 23
+2015-08-17 18:58:33 :  - No. of Wizards: 11
+2015-08-17 18:58:34 : Training Troops...
+2015-08-17 18:58:43 : Spell Factory Full
+2015-08-17 18:58:45 : Time Idle: 00:46:34
+2015-08-17 18:58:45 : ====== Waiting for full army ======
+2015-08-17 18:58:57 : Checking Army Camp...
+2015-08-17 18:58:59 : Total Army Camp capacity: 159/220
+2015-08-17 18:59:00 :  - No. of Giants: 23
+2015-08-17 18:59:00 :  - No. of Wizards: 11
+2015-08-17 18:59:01 : Training Troops...
+2015-08-17 18:59:10 : Spell Factory Full
+2015-08-17 18:59:12 : Time Idle: 00:47:01
+2015-08-17 18:59:12 : ====== Waiting for full army ======
+2015-08-17 18:59:24 : Checking Army Camp...
+2015-08-17 18:59:26 : Total Army Camp capacity: 163/220
+2015-08-17 18:59:27 :  - No. of Giants: 23
+2015-08-17 18:59:27 :  - No. of Wizards: 12
+2015-08-17 18:59:28 : Training Troops...
+2015-08-17 18:59:37 : Spell Factory Full
+2015-08-17 18:59:39 : Time Idle: 00:47:28
+2015-08-17 18:59:39 : ====== Waiting for full army ======
+2015-08-17 18:59:51 : Checking Army Camp...
+2015-08-17 18:59:53 : Total Army Camp capacity: 175/220
+2015-08-17 18:59:54 :  - No. of Giants: 23
+2015-08-17 18:59:54 :  - No. of Wizards: 15
+2015-08-17 18:59:55 : Training Troops...
+2015-08-17 19:00:05 : Spell Factory Full
+2015-08-17 19:00:07 : Time Idle: 00:47:55
+2015-08-17 19:00:07 : ====== Waiting for full army ======
+2015-08-17 19:00:19 : Checking Army Camp...
+2015-08-17 19:00:20 : Total Army Camp capacity: 175/220
+2015-08-17 19:00:22 :  - No. of Giants: 23
+2015-08-17 19:00:22 :  - No. of Wizards: 15
+2015-08-17 19:00:22 : Training Troops...
+2015-08-17 19:00:32 : Spell Factory Full
+2015-08-17 19:00:34 : Time Idle: 00:48:22
+2015-08-17 19:00:34 : ====== Waiting for full army ======
+2015-08-17 19:00:46 : Checking Army Camp...
+2015-08-17 19:00:48 : Total Army Camp capacity: 175/220
+2015-08-17 19:00:49 :  - No. of Giants: 23
+2015-08-17 19:00:49 :  - No. of Wizards: 15
+2015-08-17 19:00:50 : Training Troops...
+2015-08-17 19:00:59 : Spell Factory Full
+2015-08-17 19:01:01 : Time Idle: 00:48:49
+2015-08-17 19:01:01 : ====== Waiting for full army ======
+2015-08-17 19:01:13 : Checking Army Camp...
+2015-08-17 19:01:15 : Total Army Camp capacity: 175/220
+2015-08-17 19:01:16 :  - No. of Giants: 23
+2015-08-17 19:01:16 :  - No. of Wizards: 15
+2015-08-17 19:01:17 : Training Troops...
+2015-08-17 19:01:27 : Spell Factory Full
+2015-08-17 19:01:29 : Time Idle: 00:49:17
+2015-08-17 19:01:29 : ====== Waiting for full army ======
+2015-08-17 19:01:41 : Checking Army Camp...
+2015-08-17 19:01:43 : Total Army Camp capacity: 175/220
+2015-08-17 19:01:44 :  - No. of Giants: 23
+2015-08-17 19:01:44 :  - No. of Wizards: 15
+2015-08-17 19:01:44 : Training Troops...
+2015-08-17 19:01:54 : Spell Factory Full
+2015-08-17 19:01:56 : Time Idle: 00:49:44
+2015-08-17 19:01:56 : ====== Waiting for full army ======
+2015-08-17 19:02:08 : Checking Army Camp...
+2015-08-17 19:02:10 : Total Army Camp capacity: 175/220
+2015-08-17 19:02:11 :  - No. of Giants: 23
+2015-08-17 19:02:11 :  - No. of Wizards: 15
+2015-08-17 19:02:12 : Training Troops...
+2015-08-17 19:02:21 : Spell Factory Full
+2015-08-17 19:02:23 : Time Idle: 00:50:11
+2015-08-17 19:02:24 : ====== Waiting for full army ======
+2015-08-17 19:02:35 : Checking Army Camp...
+2015-08-17 19:02:37 : Total Army Camp capacity: 175/220
+2015-08-17 19:02:38 :  - No. of Giants: 23
+2015-08-17 19:02:38 :  - No. of Wizards: 15
+2015-08-17 19:02:39 : Training Troops...
+2015-08-17 19:02:49 : Spell Factory Full
+2015-08-17 19:02:51 : Time Idle: 00:50:38
+2015-08-17 19:02:51 : ====== Waiting for full army ======
+2015-08-17 19:03:02 : Collecting Resources
+2015-08-17 19:03:08 : Checking Army Camp...
+2015-08-17 19:03:10 : Total Army Camp capacity: 175/220
+2015-08-17 19:03:11 :  - No. of Giants: 23
+2015-08-17 19:03:11 :  - No. of Wizards: 15
+2015-08-17 19:03:12 : Training Troops...
+2015-08-17 19:03:22 : Spell Factory Full
+2015-08-17 19:03:24 : Time Idle: 00:51:11
+2015-08-17 19:03:24 : ====== Waiting for full army ======
+2015-08-17 19:03:36 : Checking Army Camp...
+2015-08-17 19:03:37 : Total Army Camp capacity: 175/220
+2015-08-17 19:03:38 :  - No. of Giants: 23
+2015-08-17 19:03:39 :  - No. of Wizards: 15
+2015-08-17 19:03:39 : Training Troops...
+2015-08-17 19:03:49 : Spell Factory Full
+2015-08-17 19:03:51 : Time Idle: 00:51:37
+2015-08-17 19:03:51 : ====== Waiting for full army ======
+2015-08-17 19:04:03 : Checking Army Camp...
+2015-08-17 19:04:04 : Total Army Camp capacity: 175/220
+2015-08-17 19:04:05 :  - No. of Giants: 23
+2015-08-17 19:04:06 :  - No. of Wizards: 15
+2015-08-17 19:04:06 : Training Troops...
+2015-08-17 19:04:16 : Spell Factory Full
+2015-08-17 19:04:18 : Time Idle: 00:52:04
+2015-08-17 19:04:18 : ====== Waiting for full army ======
+2015-08-17 19:04:30 : Checking Army Camp...
+2015-08-17 19:04:32 : Total Army Camp capacity: 175/220
+2015-08-17 19:04:33 :  - No. of Giants: 23
+2015-08-17 19:04:33 :  - No. of Wizards: 15
+2015-08-17 19:04:34 : Training Troops...
+2015-08-17 19:04:43 : Spell Factory Full
+2015-08-17 19:04:45 : Time Idle: 00:52:31
+2015-08-17 19:04:45 : ====== Waiting for full army ======
+2015-08-17 19:04:57 : Checking Army Camp...
+2015-08-17 19:04:59 : Total Army Camp capacity: 175/220
+2015-08-17 19:05:00 :  - No. of Giants: 23
+2015-08-17 19:05:00 :  - No. of Wizards: 15
+2015-08-17 19:05:01 : Training Troops...
+2015-08-17 19:05:10 : Spell Factory Full
+2015-08-17 19:05:12 : Time Idle: 00:52:58
+2015-08-17 19:05:12 : ====== Waiting for full army ======
+2015-08-17 19:05:24 : Checking Army Camp...
+2015-08-17 19:05:26 : Total Army Camp capacity: 175/220
+2015-08-17 19:05:27 :  - No. of Giants: 23
+2015-08-17 19:05:27 :  - No. of Wizards: 15
+2015-08-17 19:05:28 : Training Troops...
+2015-08-17 19:05:37 : Spell Factory Full
+2015-08-17 19:05:39 : Time Idle: 00:53:25
+2015-08-17 19:05:39 : ====== Waiting for full army ======
+2015-08-17 19:05:51 : Checking Army Camp...
+2015-08-17 19:05:53 : Total Army Camp capacity: 175/220
+2015-08-17 19:05:54 :  - No. of Giants: 23
+2015-08-17 19:05:54 :  - No. of Wizards: 15
+2015-08-17 19:05:55 : Training Troops...
+2015-08-17 19:06:05 : Spell Factory Full
+2015-08-17 19:06:07 : Time Idle: 00:53:52
+2015-08-17 19:06:07 : ====== Waiting for full army ======
+2015-08-17 19:06:19 : Checking Army Camp...
+2015-08-17 19:06:20 : Total Army Camp capacity: 175/220
+2015-08-17 19:06:22 :  - No. of Giants: 23
+2015-08-17 19:06:22 :  - No. of Wizards: 15
+2015-08-17 19:06:22 : Training Troops...
+2015-08-17 19:06:32 : Spell Factory Full
+2015-08-17 19:06:34 : Time Idle: 00:54:19
+2015-08-17 19:06:34 : ====== Waiting for full army ======
+2015-08-17 19:06:35 : Chat Request: hog giant pls
+2015-08-17 19:06:36 : Giants Keyword found: giant
+2015-08-17 19:06:36 : Donating Giants
+2015-08-17 19:06:38 : Chat Request: barchers
+2015-08-17 19:06:38 : Barbarians Keyword found: barch
+2015-08-17 19:06:41 : No Barbarians available to donate..
+2015-08-17 19:06:41 : Archers Keyword found: arc
+2015-08-17 19:06:45 : No Archers available to donate..
+2015-08-17 19:06:46 : Chat Request: witch po sana
+2015-08-17 19:06:46 : Witches Keyword found: witch
+2015-08-17 19:06:50 : Unable to donate Witches. Donate screen not visible, will retry next run.
+2015-08-17 19:07:02 : Checking Army Camp...
+2015-08-17 19:07:04 : Total Army Camp capacity: 155/220
+2015-08-17 19:07:05 :  - No. of Giants: 19
+2015-08-17 19:07:06 :  - No. of Wizards: 15
+2015-08-17 19:07:06 : Training Troops...
+2015-08-17 19:07:16 : Spell Factory Full
+2015-08-17 19:07:18 : Time Idle: 00:55:03
+2015-08-17 19:07:18 : ====== Waiting for full army ======
+2015-08-17 19:07:30 : Checking Army Camp...
+2015-08-17 19:07:32 : Total Army Camp capacity: 167/220
+2015-08-17 19:07:33 :  - No. of Giants: 19
+2015-08-17 19:07:33 :  - No. of Wizards: 18
+2015-08-17 19:07:34 : Training Troops...

@@ -348,6 +348,7 @@ Func AttackTHGrid($troopKind, $spots, $numperspot, $Sleep, $waveNb, $maxWaveNb, 
 EndFunc   ;==>AttackTHGrid
 
 Func AttackTHNormal()
+    SetLog($thinfo)
 	Setlog("Normal Attacking TH Outside with BAM PULSE!")
 
 	;---1st wave
@@ -435,6 +436,7 @@ Func AttackTHNormal()
 EndFunc   ;==>AttackTHNormal
 
 Func AttackTHXtreme()
+    SetLog($thinfo)
 	Setlog("Extreme Attacking TH Outside with BAM PULSE!")
 
 	;---1st wave 15 secs
@@ -512,6 +514,7 @@ Func AttackTHXtreme()
 EndFunc   ;==>AttackTHXtreme
 
 Func AttackTHGbarch()
+    SetLog($thinfo)
 	Setlog("Sending 1st wave of archers.")
 	AttackTHGrid($eArch, 4, 1, 2000, 1, 4, 0) ; deploys 4 archers - take out possible bombs
 	AttackTHGrid($eArch, 3, Random(5, 6, 1), 1000, 1, 4, 0) ; deploys 15-18 archers
@@ -578,6 +581,110 @@ Func AttackTHGbarch()
 	SetLog("All Giants, Barbs, and Archers should be deployed, in addition to Heroes & CC (if options are selected). Other troops are not meant to be deployed in this algorithm.", $COLOR_GREEN)
 
 EndFunc   ;==>AttackTHGbarch
+
+Func AttackTrappedTH()
+SetLog($thinfo)
+Setlog("Trapped TH detected.. Let's do this!")
+AttackTHGrid($eArch,4,1,2000,1,4,0) ; deploys 4 archers to "reveal" teslas or bombs
+AttackTHGrid($eGiant,2,1,850,1,2,0) ;releases 2 giants to trigger spring traps
+AttackTHGrid($eGiant,2,2,1200,2,2,0) ;releases 4 giants
+AttackTHGrid($eArch,3,8,950,3,4,0) ; deploys 24 archers
+AttackTHGrid($eWiza,4,2,1000,2,3,0) ;deploy 8 Wizards
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 1 dragons
+
+$count = 0
+While $count < 25
+_Sleep(200)
+_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("Still Not DesTroyed The Traps Send More Troop!")
+; while giants are distracting, loop through barb/arch until you get a star
+AttackTHGrid($eGiant,1,1,1250,2,5,0) ; deploys 1 giant
+AttackTHGrid($eWiza,4,2,1000,2,3,0) ;deploy 4 Wizards
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 2 dragons
+$count = 0
+While $count < 20
+_Sleep(200)
+_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("Are u Kidding Me What Kind Of Traps Is That Let Me Do This!")
+AttackTHGrid($eBarb,3,4,1020,1,5,0) ; deploys up to 12 barbarians
+AttackTHGrid($eWiza,4,2,1000,2,3,0) ;deploy 6 Wizards
+AttackTHGrid($eDrag,1,1,500,1,1,0) ;releases 2 dragons
+$count = 0
+While $count < 15
+_Sleep(200)
+_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+SetLog("I Hate To Do This But I Need To Destroy All Traps Send More Troops!")
+AttackTHGrid($eArch,3,5,650,3,4,0) ; deploys 15 archers
+AttackTHGrid($eWiza,4,3,1000,2,3,0) ;deploy 8 Wizards
+AttackTHGrid($eDrag,2,1,500,1,1,0) ;releases 3 dragons
+_Sleep(Random(700,1350))
+$count = 0
+While $count < 10
+_CaptureRegion()
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) = True Then
+SetLog("Townhall has been destroyed!")
+Return ;exit if you get a star
+EndIf
+$count+=1
+WEnd
+
+ Setlog("This Is Hard TH This Is The Last Sending All Troops")
+
+For $i = $eGole To $eLava ; Deploy Remaining troops
+ AttackTHGrid($i,5,2,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep(1500) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+For $i = $eGiant To $eValk ; Deploy Remaining troops
+ AttackTHGrid($i,6,5,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep(1500) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+;end check for one star
+
+For $i = $eBarb To $eArch ; Deploy Remaining Barb,archers
+ AttackTHGrid($i,5,15,2000,0,4,0)
+Next
+
+;Check for one star
+If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
+SetLog("Townhall has been destroyed!")
+If _Sleep(1500) Then Return ;wait 1.5 seconds... antiban purpose...
+Return ;exit if you get a star
+EndIf
+
+SetLog("~Finished Attacking, waiting to finish", $COLOR_GREEN)
+EndFunc ;---AttackTrappedTH
 
 Func ALLDropheroes($x, $y)
 	dropHeroes($x, $y, $King, $Queen)

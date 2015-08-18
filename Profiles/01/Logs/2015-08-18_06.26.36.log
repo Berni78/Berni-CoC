@@ -1,0 +1,829 @@
+2015-08-18 06:26:37 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-18 06:26:37 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-18 06:26:37 : =================== Bot Start ====================
+2015-08-18 06:26:37 : -------------------------  Current Profile: 01 --------------------------
+2015-08-18 06:26:37 : Trying to locate Main Screen
+2015-08-18 06:26:37 : Zooming Out
+2015-08-18 06:26:40 : Main Screen Located
+2015-08-18 06:26:41 : Detecting your Buildings..
+2015-08-18 06:26:49 : Language setting is English: Correct.
+2015-08-18 06:26:50 : Trying to locate Main Screen
+2015-08-18 06:26:50 : Main Screen Located
+2015-08-18 06:26:52 : Village Report
+2015-08-18 06:26:52 : No. of Free/Total Builders: 0/4
+2015-08-18 06:26:52 :  [T]: 2 631
+2015-08-18 06:26:52 :  [G]: 4 989 043 [E]: 4 199 749 [D]: 4 179 [GEM]: 57
+2015-08-18 06:26:53 : Collecting Resources
+2015-08-18 06:27:06 : Checking Army Camp...
+2015-08-18 06:27:08 : Total Army Camp capacity: 216/220
+2015-08-18 06:27:11 :  - No. of Barbarians: 108
+2015-08-18 06:27:11 :  - No. of Archers: 108
+2015-08-18 06:27:11 : Barracks and Spell factory status: 
+2015-08-18 06:27:11 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-18 06:27:11 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-18 06:27:11 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-18 06:27:11 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-18 06:27:12 : Training Troops...
+2015-08-18 06:27:24 : Spell Factory Full
+2015-08-18 06:27:26 : 0
+2015-08-18 06:27:27 : Requesting Clan Castle Troops
+2015-08-18 06:27:33 : ====== Waiting for full army ======
+2015-08-18 06:27:45 : Checking Army Camp...
+2015-08-18 06:27:47 : Total Army Camp capacity: 216/220
+2015-08-18 06:27:49 : Training Troops...
+2015-08-18 06:28:04 : Checking Army Camp...
+2015-08-18 06:28:05 : Total Army Camp capacity: 216/220
+2015-08-18 06:28:07 :  - No. of Barbarians: 108
+2015-08-18 06:28:07 :  - No. of Archers: 108
+2015-08-18 06:28:07 : Training Troops...
+2015-08-18 06:28:17 : Spell Factory Full
+2015-08-18 06:28:19 : Time Idle: 00:00:45
+2015-08-18 06:28:19 : ====== Waiting for full army ======
+2015-08-18 06:28:31 : Checking Army Camp...
+2015-08-18 06:28:33 : Total Army Camp capacity: 220/220
+2015-08-18 06:28:34 :  - No. of Barbarians: 108
+2015-08-18 06:28:34 :  - No. of Archers: 112
+2015-08-18 06:28:34 : Training Troops...
+2015-08-18 06:28:35 : Your Army Camps are now Full
+2015-08-18 06:29:00 : Spell Factory not found...
+2015-08-18 06:29:02 : Going to Attack...
+2015-08-18 06:29:08 : ============== Searching For Dead Base ===============
+2015-08-18 06:29:08 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:29:08 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:29:08 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:29:08 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 06:29:08 : ============== Searching For Live Base ===============
+2015-08-18 06:29:08 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:29:08 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:29:08 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:29:08 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 06:29:08 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 06:29:08 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 06:29:08 : ==================================================
+2015-08-18 06:29:12 :   1> [G]:  66530 [E]:  88935 [D]:  217 [T]:13 [TH]:10, In
+2015-08-18 06:29:18 :   2> [G]: 170383 [E]: 171611 [D]: 2714 [T]:24 [TH]:10, In
+2015-08-18 06:29:22 :   3> [G]: 107443 [E]:  37092 [D]:   82 [T]:13 [TH]: 9, In
+2015-08-18 06:29:27 :   4> [G]:  87776 [E]: 121566 [D]: 1551 [T]:28 [TH]:10, In
+2015-08-18 06:29:31 :   5> [G]:  61832 [E]:  84077 [D]:  233 [T]:13 [TH]: 9, In
+2015-08-18 06:29:38 :   6> [G]: 158819 [E]: 141869 [D]:  249 [T]:15 [TH]:10, In
+2015-08-18 06:29:42 :   7> [G]:  63069 [E]:  39508 [D]: 1553 [T]:22 [TH]: 9, In
+2015-08-18 06:29:46 : Checking Trapped TH
+2015-08-18 06:29:48 :   8> [G]:  18381 [E]: 154750 [D]:  452 [T]:16 [TH]: 8, Out
+2015-08-18 06:29:48 : No major traps found near TH.
+2015-08-18 06:29:48 : ~~~~~~~~~~~~~~~ TH Outside Found! ~~~~~~~~~~~~~~~~
+2015-08-18 06:29:48 : ================ Search Complete =================
+2015-08-18 06:29:48 : Initiating attack for: TH Snipe
+2015-08-18 06:29:51 : -Barbarians 108
+2015-08-18 06:29:51 : -Archers 112
+2015-08-18 06:29:51 : -Clan Castle 
+2015-08-18 06:29:51 : -King 
+2015-08-18 06:29:51 : -Heal Spells 4
+2015-08-18 06:29:51 :  ====== Start Attack ====== 
+2015-08-18 06:29:53 : Free meal
+2015-08-18 06:29:53 : Dropping first wave of 5 Archers
+2015-08-18 06:29:54 : Deployment of Archers Successful!
+2015-08-18 06:29:56 : Dropping second wave of 10 Archers
+2015-08-18 06:29:58 : Deployment of Archers Successful!
+2015-08-18 06:30:12 : Townhall has been destroyed!
+2015-08-18 06:30:15 : Checking if the battle has finished
+2015-08-18 06:30:16 : detected [G]:  [E]:  [DE]:  |  Exit now 
+2015-08-18 06:30:16 : Battle has finished
+2015-08-18 06:30:17 : Returning Home
+2015-08-18 06:30:21 : Loot: [G]: 900 [E]: 900 [DE]:  [T]: 5
+2015-08-18 06:30:22 : Bonus [G]: 100 000 [E]: 100 000 [DE]: 500
+2015-08-18 06:30:24 : Your league level is: Master III
+2015-08-18 06:30:24 : Stars earned: 1
+2015-08-18 06:30:32 : Trying to locate Main Screen
+2015-08-18 06:30:32 : Main Screen Located
+2015-08-18 06:30:34 : Village Report
+2015-08-18 06:30:34 : No. of Free/Total Builders: 0/4
+2015-08-18 06:30:34 :  [T]: 2 636
+2015-08-18 06:30:34 :  [G]: 5 090 453 [E]: 4 257 359 [D]: 4 689 [GEM]: 57
+2015-08-18 06:30:34 : Collecting Resources
+2015-08-18 06:30:45 : Checking Army Camp...
+2015-08-18 06:30:47 : Total Army Camp capacity: 220/220
+2015-08-18 06:30:48 :  - No. of Barbarians: 108
+2015-08-18 06:30:49 :  - No. of Archers: 112
+2015-08-18 06:30:49 : Training Troops...
+2015-08-18 06:30:50 : Your Army Camps are now Full
+2015-08-18 06:31:17 : Spell Factory not found...
+2015-08-18 06:31:19 : 0
+2015-08-18 06:31:20 : Zooming Out
+2015-08-18 06:31:22 : Zooming Out
+2015-08-18 06:31:24 : Requesting Clan Castle Troops
+2015-08-18 06:31:24 : Your Clan Castle is already full or you are not in a clan.
+2015-08-18 06:31:26 : Going to Attack...
+2015-08-18 06:31:32 : ============== Searching For Dead Base ===============
+2015-08-18 06:31:32 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:31:32 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:31:32 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:31:32 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 06:31:32 : ============== Searching For Live Base ===============
+2015-08-18 06:31:32 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:31:32 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:31:32 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:31:32 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 06:31:32 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 06:31:32 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 06:31:32 : ==================================================
+2015-08-18 06:31:33 : Trying to locate Main Screen
+2015-08-18 06:31:39 : Waiting for Main Screen
+2015-08-18 06:31:39 : Zooming Out
+2015-08-18 06:31:43 : Main Screen Located
+2015-08-18 06:31:43 : Cannot locate Next button, Restarting Bot...
+2015-08-18 06:31:45 : Trying to locate Main Screen
+2015-08-18 06:31:45 : Main Screen Located
+2015-08-18 06:31:45 : Restarted after Out of Sync Error: Attack Now
+2015-08-18 06:31:45 : Going to Attack...
+2015-08-18 06:31:51 : ============== Searching For Dead Base ===============
+2015-08-18 06:31:51 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:31:51 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:31:51 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:31:51 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 06:31:51 : ============== Searching For Live Base ===============
+2015-08-18 06:31:51 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:31:51 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:31:51 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:31:51 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 06:31:51 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 06:31:51 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 06:31:51 : ==================================================
+2015-08-18 06:31:53 :   1> [G]:  12746 [E]:  23007 [D]:  861 [T]:21 [TH]: 9, In
+2015-08-18 06:31:57 :   2> [G]:  92970 [E]:  97871 [D]: 1139 [T]:14 [TH]: 9, In
+2015-08-18 06:32:05 :   3> [G]: 100103 [E]:  80411 [D]:  937 [T]:26 [TH]: -, -
+2015-08-18 06:32:11 :   4> [G]: 142222 [E]: 158024 [D]:  739 [T]:13 [TH]:10, In
+2015-08-18 06:32:15 :   5> [G]: 160736 [E]:   7592 [D]: 1238 [T]:28 [TH]: 9, In
+2015-08-18 06:32:22 :   6> [G]:  52567 [E]:  16958 [D]:  652 [T]:28 [TH]:10, In
+2015-08-18 06:32:26 :   7> [G]:  23398 [E]:  59106 [D]:  587 [T]:16 [TH]:10, In
+2015-08-18 06:32:31 :   8> [G]:   7175 [E]: 159903 [D]:  757 [T]:22 [TH]: 9, In
+2015-08-18 06:32:35 :   9> [G]:  95788 [E]:  84838 [D]: 1223 [T]:21 [TH]: 9, In
+2015-08-18 06:32:39 :  10> [G]: 261388 [E]: 268827 [D]: 1261 [T]:15 [TH]: 9, In
+2015-08-18 06:32:45 :  11> [G]:  89229 [E]:  66605 [D]:  812 [T]:31 [TH]:10, In
+2015-08-18 06:32:49 :  12> [G]:   8840 [E]:  38408 [D]:   66 [T]:14 [TH]: 9, In
+2015-08-18 06:32:54 :  13> [G]:  32386 [E]:   2335 [D]:  397 [T]:15 [TH]: 9, In
+2015-08-18 06:33:00 :  14> [G]:  43727 [E]:  90667 [D]: 1341 [T]:14 [TH]:10, In
+2015-08-18 06:33:04 :  15> [G]:  80312 [E]:  34247 [D]: 1640 [T]:23 [TH]:10, In
+2015-08-18 06:33:08 :  16> [G]:  46290 [E]: 129153 [D]:  995 [T]:13 [TH]: 9, In
+2015-08-18 06:33:12 :  17> [G]:  59754 [E]:  28410 [D]: 1281 [T]:32 [TH]: 9, In
+2015-08-18 06:33:17 :  18> [G]:  20303 [E]:  96256 [D]: 1310 [T]:18 [TH]: 9, In
+2015-08-18 06:33:23 :  19> [G]:  53353 [E]: 192568 [D]: 1147 [T]:13 [TH]: 9, In
+2015-08-18 06:33:27 :  20> [G]: 148989 [E]: 116175 [D]:  742 [T]:30 [TH]: 9, In
+2015-08-18 06:33:31 :  21> [G]:  74500 [E]:  75652 [D]:  679 [T]:18 [TH]: 9, In
+2015-08-18 06:33:35 :  22> [G]:  98727 [E]:  45230 [D]:  529 [T]:14 [TH]: 9, In
+2015-08-18 06:33:39 :  23> [G]:  73509 [E]:  12942 [D]:  583 [T]:17 [TH]: 9, In
+2015-08-18 06:33:43 :  24> [G]:  30138 [E]:  21004 [D]:  388 [T]:15 [TH]: 9, In
+2015-08-18 06:33:49 :  25> [G]:  95004 [E]:  35425 [D]:  763 [T]:16 [TH]: 9, In
+2015-08-18 06:33:53 :  26> [G]:  18436 [E]:  97994 [D]:  288 [T]:13 [TH]: 9, In
+2015-08-18 06:33:59 :  27> [G]:   4220 [E]:  25774 [D]:  880 [T]:14 [TH]:10, In
+2015-08-18 06:34:03 :  28> [G]:  40615 [E]:  26307 [D]:  635 [T]:18 [TH]: 9, In
+2015-08-18 06:34:07 :  29> [G]:  15017 [E]: 106675 [D]: 1466 [T]:31 [TH]: 9, In
+2015-08-18 06:34:13 :  30> [G]: 318438 [E]:  79987 [D]: 1218 [T]:31 [TH]:10, In
+2015-08-18 06:34:17 :  31> [G]: 152783 [E]:  36401 [D]: 1633 [T]:17 [TH]: 9, In
+2015-08-18 06:34:23 :  32> [G]:  67499 [E]:  84176 [D]: 1204 [T]:17 [TH]: 9, In
+2015-08-18 06:34:28 :  33> [G]:  76005 [E]: 151850 [D]:  439 [T]:34 [TH]:10, In
+2015-08-18 06:34:33 :  34> [G]:  43637 [E]: 134305 [D]:  107 [T]:30 [TH]:10, In
+2015-08-18 06:34:39 :  35> [G]:  73162 [E]:  47470 [D]:  194 [T]:33 [TH]: 9, In
+2015-08-18 06:34:43 :  36> [G]:  55783 [E]:  54622 [D]: 1237 [T]:27 [TH]: 9, In
+2015-08-18 06:34:47 :  37> [G]:  33525 [E]:  44405 [D]:  846 [T]:14 [TH]: 9, In
+2015-08-18 06:34:51 :  38> [G]:   7358 [E]:  47260 [D]:   46 [T]:33 [TH]: 9, In
+2015-08-18 06:34:55 :  39> [G]:  85170 [E]: 106814 [D]:  422 [T]:19 [TH]: 9, In
+2015-08-18 06:35:00 :  40> [G]:  31241 [E]:  33828 [D]:  777 [T]:16 [TH]:10, In
+2015-08-18 06:35:06 :  41> [G]:  51380 [E]:  34175 [D]:  767 [T]:24 [TH]: 9, In
+2015-08-18 06:35:10 :  42> [G]:  75863 [E]: 152985 [D]:  598 [T]: 6 [TH]: 8, In
+2015-08-18 06:35:10 : ~~~~~~~~~~~~~~~~ Live Base Found! ~~~~~~~~~~~~~~~~
+2015-08-18 06:35:10 : ================ Search Complete =================
+2015-08-18 06:35:10 : Initiating attack for: Live Base
+2015-08-18 06:35:13 : -Barbarians 108
+2015-08-18 06:35:13 : -Archers 112
+2015-08-18 06:35:13 : -Clan Castle 
+2015-08-18 06:35:13 : -King 
+2015-08-18 06:35:13 : -Heal Spells 4
+2015-08-18 06:35:13 :  ====== Start Attack ====== 
+2015-08-18 06:35:15 : Attacking with four fingers
+2015-08-18 06:35:16 : Dropping only wave of 108 Barbarians
+2015-08-18 06:35:22 : Dropping only wave of 112 Archers
+2015-08-18 06:35:27 : Dropping Clan Castle
+2015-08-18 06:35:28 : Dropping King
+2015-08-18 06:35:29 : Dropping left over troops
+2015-08-18 06:35:29 : Checking remaining unused troops for: Live Base
+2015-08-18 06:35:32 : -Clan Castle 
+2015-08-18 06:35:32 : -Heal Spells 4
+2015-08-18 06:35:40 : Checking remaining unused troops for: Live Base
+2015-08-18 06:35:43 : -Clan Castle 
+2015-08-18 06:35:43 : -Heal Spells 4
+2015-08-18 06:35:43 : King is getting weak, Activating King's power
+2015-08-18 06:35:52 : Finished Attacking, waiting for the battle to end
+2015-08-18 06:35:52 : Checking if the battle has finished
+2015-08-18 06:35:54 : detected [G]: 58160 [E]: 140140 [DE]: 572 |  Exit in 178 sec.
+2015-08-18 06:35:54 : One Star Reach, exit
+2015-08-18 06:35:55 : Returning Home
+2015-08-18 06:36:00 : Loot: [G]: 17 703 [E]: 12 845 [DE]: 26 [T]: 2
+2015-08-18 06:36:01 : Bonus [G]: 100 000 [E]: 100 000 [DE]: 500
+2015-08-18 06:36:03 : Your league level is: Master III
+2015-08-18 06:36:03 : Stars earned: 1
+2015-08-18 06:36:10 : Trying to locate Main Screen
+2015-08-18 06:36:10 : Main Screen Located
+2015-08-18 06:36:12 : Village Report
+2015-08-18 06:36:12 : No. of Free/Total Builders: 0/4
+2015-08-18 06:36:12 :  [T]: 2 638
+2015-08-18 06:36:12 :  [G]: 5 176 656 [E]: 4 367 804 [D]: 5 217 [GEM]: 57
+2015-08-18 06:36:13 : Collecting Resources
+2015-08-18 06:36:23 : Chat Request: any
+2015-08-18 06:36:23 : Custom Donation Keyword found: any
+2015-08-18 06:36:26 : No Giants available to donate..
+2015-08-18 06:36:30 : No Minions available to donate..
+2015-08-18 06:36:30 : Donating 6 Archers
+2015-08-18 06:36:32 : Chat Request: hog giant pls
+2015-08-18 06:36:32 : Giants Keyword found: giant
+2015-08-18 06:36:35 : No Giants available to donate..
+2015-08-18 06:36:36 : Hog Riders Keyword found: hog
+2015-08-18 06:36:39 : No Hog Riders available to donate..
+2015-08-18 06:36:41 : Checking Army Camp...
+2015-08-18 06:36:43 : Total Army Camp capacity: 42/220
+2015-08-18 06:36:44 :  - No. of Archers: 42
+2015-08-18 06:36:45 : Training Troops...
+2015-08-18 06:36:54 : Spell Factory Full
+2015-08-18 06:36:54 : Created 1 Spell(s)
+2015-08-18 06:36:56 : 0
+2015-08-18 06:36:58 : Requesting Clan Castle Troops
+2015-08-18 06:36:58 : Request has already been made
+2015-08-18 06:37:00 : ====== Waiting for full army ======
+2015-08-18 06:37:01 : ClashGameBot was Paused!
+2015-08-18 06:40:30 : ClashGameBot was Resumed.
+2015-08-18 06:40:41 : Checking Army Camp...
+2015-08-18 06:40:43 : Total Army Camp capacity: 82/220
+2015-08-18 06:40:44 :  - No. of Archers: 82
+2015-08-18 06:40:45 : Training Troops...
+2015-08-18 06:40:53 : Spell Factory Full
+2015-08-18 06:40:55 : Time Idle: 00:03:54
+2015-08-18 06:40:55 : ====== Waiting for full army ======
+2015-08-18 06:41:07 : Checking Army Camp...
+2015-08-18 06:41:09 : Total Army Camp capacity: 86/220
+2015-08-18 06:41:10 :  - No. of Archers: 86
+2015-08-18 06:41:11 : Training Troops...
+2015-08-18 06:41:20 : Spell Factory Full
+2015-08-18 06:41:22 : Time Idle: 00:04:21
+2015-08-18 06:41:22 : ====== Waiting for full army ======
+2015-08-18 06:41:34 : Checking Army Camp...
+2015-08-18 06:41:36 : Total Army Camp capacity: 90/220
+2015-08-18 06:41:37 :  - No. of Barbarians: 1
+2015-08-18 06:41:37 :  - No. of Archers: 89
+2015-08-18 06:41:38 : Training Troops...
+2015-08-18 06:41:47 : Spell Factory Full
+2015-08-18 06:41:49 : Time Idle: 00:04:48
+2015-08-18 06:41:50 : ====== Waiting for full army ======
+2015-08-18 06:42:01 : Checking Army Camp...
+2015-08-18 06:42:03 : Total Army Camp capacity: 95/220
+2015-08-18 06:42:04 :  - No. of Barbarians: 4
+2015-08-18 06:42:05 :  - No. of Archers: 91
+2015-08-18 06:42:05 : Training Troops...
+2015-08-18 06:42:15 : Spell Factory Full
+2015-08-18 06:42:17 : Time Idle: 00:05:16
+2015-08-18 06:42:17 : ====== Waiting for full army ======
+2015-08-18 06:42:29 : Checking Army Camp...
+2015-08-18 06:42:31 : Total Army Camp capacity: 100/220
+2015-08-18 06:42:32 :  - No. of Barbarians: 7
+2015-08-18 06:42:32 :  - No. of Archers: 93
+2015-08-18 06:42:33 : Training Troops...
+2015-08-18 06:42:43 : Spell Factory Full
+2015-08-18 06:42:45 : Time Idle: 00:05:43
+2015-08-18 06:42:45 : ====== Waiting for full army ======
+2015-08-18 06:42:57 : Checking Army Camp...
+2015-08-18 06:42:59 : Total Army Camp capacity: 104/220
+2015-08-18 06:43:00 :  - No. of Barbarians: 9
+2015-08-18 06:43:00 :  - No. of Archers: 95
+2015-08-18 06:43:01 : Training Troops...
+2015-08-18 06:43:12 : Spell Factory Full
+2015-08-18 06:43:14 : Time Idle: 00:06:12
+2015-08-18 06:43:14 : ====== Waiting for full army ======
+2015-08-18 06:43:26 : Checking Army Camp...
+2015-08-18 06:43:28 : Total Army Camp capacity: 112/220
+2015-08-18 06:43:29 :  - No. of Barbarians: 17
+2015-08-18 06:43:29 :  - No. of Archers: 95
+2015-08-18 06:43:29 : Training Troops...
+2015-08-18 06:43:41 : Spell Factory Full
+2015-08-18 06:43:43 : Time Idle: 00:06:41
+2015-08-18 06:43:43 : ====== Waiting for full army ======
+2015-08-18 06:43:55 : Checking Army Camp...
+2015-08-18 06:43:57 : Total Army Camp capacity: 116/220
+2015-08-18 06:43:58 :  - No. of Barbarians: 21
+2015-08-18 06:43:58 :  - No. of Archers: 95
+2015-08-18 06:43:59 : Training Troops...
+2015-08-18 06:44:10 : Spell Factory Full
+2015-08-18 06:44:12 : Time Idle: 00:07:10
+2015-08-18 06:44:12 : ====== Waiting for full army ======
+2015-08-18 06:44:24 : Checking Army Camp...
+2015-08-18 06:44:26 : Total Army Camp capacity: 124/220
+2015-08-18 06:44:27 :  - No. of Barbarians: 29
+2015-08-18 06:44:27 :  - No. of Archers: 95
+2015-08-18 06:44:28 : Training Troops...
+2015-08-18 06:44:39 : Spell Factory Full
+2015-08-18 06:44:41 : Time Idle: 00:07:38
+2015-08-18 06:44:41 : ====== Waiting for full army ======
+2015-08-18 06:44:53 : Collecting Resources
+2015-08-18 06:45:02 : Checking Army Camp...
+2015-08-18 06:45:04 : Total Army Camp capacity: 131/220
+2015-08-18 06:45:05 :  - No. of Barbarians: 36
+2015-08-18 06:45:05 :  - No. of Archers: 95
+2015-08-18 06:45:06 : Training Troops...
+2015-08-18 06:45:17 : Spell Factory Full
+2015-08-18 06:45:19 : Time Idle: 00:08:16
+2015-08-18 06:45:19 : ====== Waiting for full army ======
+2015-08-18 06:45:31 : Checking Army Camp...
+2015-08-18 06:45:33 : Total Army Camp capacity: 136/220
+2015-08-18 06:45:34 :  - No. of Barbarians: 41
+2015-08-18 06:45:34 :  - No. of Archers: 95
+2015-08-18 06:45:35 : Training Troops...
+2015-08-18 06:45:46 : Spell Factory Full
+2015-08-18 06:45:48 : Time Idle: 00:08:44
+2015-08-18 06:45:48 : ====== Waiting for full army ======
+2015-08-18 06:46:00 : Checking Army Camp...
+2015-08-18 06:46:02 : Total Army Camp capacity: 143/220
+2015-08-18 06:46:03 :  - No. of Barbarians: 48
+2015-08-18 06:46:03 :  - No. of Archers: 95
+2015-08-18 06:46:03 : Training Troops...
+2015-08-18 06:46:15 : Spell Factory Full
+2015-08-18 06:46:17 : Time Idle: 00:09:13
+2015-08-18 06:46:17 : ====== Waiting for full army ======
+2015-08-18 06:46:29 : Checking Army Camp...
+2015-08-18 06:46:31 : Total Army Camp capacity: 148/220
+2015-08-18 06:46:32 :  - No. of Barbarians: 53
+2015-08-18 06:46:32 :  - No. of Archers: 95
+2015-08-18 06:46:33 : Training Troops...
+2015-08-18 06:46:44 : Spell Factory Full
+2015-08-18 06:46:46 : Time Idle: 00:09:42
+2015-08-18 06:46:46 : ====== Waiting for full army ======
+2015-08-18 06:46:58 : Checking Army Camp...
+2015-08-18 06:47:00 : Total Army Camp capacity: 155/220
+2015-08-18 06:47:01 :  - No. of Barbarians: 60
+2015-08-18 06:47:01 :  - No. of Archers: 95
+2015-08-18 06:47:02 : Training Troops...
+2015-08-18 06:47:13 : Spell Factory Full
+2015-08-18 06:47:15 : Time Idle: 00:10:11
+2015-08-18 06:47:15 : ====== Waiting for full army ======
+2015-08-18 06:47:27 : Checking Army Camp...
+2015-08-18 06:47:29 : Total Army Camp capacity: 160/220
+2015-08-18 06:47:30 :  - No. of Barbarians: 65
+2015-08-18 06:47:30 :  - No. of Archers: 95
+2015-08-18 06:47:31 : Training Troops...
+2015-08-18 06:47:42 : Spell Factory Full
+2015-08-18 06:47:44 : Time Idle: 00:10:40
+2015-08-18 06:47:44 : ====== Waiting for full army ======
+2015-08-18 06:47:51 : ClashGameBot was Paused!
+2015-08-18 06:48:16 : ClashGameBot was Resumed.
+2015-08-18 06:48:16 : Zooming Out
+2015-08-18 06:48:24 : Checking Army Camp...
+2015-08-18 06:48:26 : Total Army Camp capacity: 172/220
+2015-08-18 06:48:27 :  - No. of Barbarians: 77
+2015-08-18 06:48:27 :  - No. of Archers: 95
+2015-08-18 06:48:28 : Training Troops...
+2015-08-18 06:48:39 : Spell Factory Full
+2015-08-18 06:48:41 : Time Idle: 00:11:37
+2015-08-18 06:48:41 : ====== Waiting for full army ======
+2015-08-18 06:48:53 : Checking Army Camp...
+2015-08-18 06:48:55 : Total Army Camp capacity: 176/220
+2015-08-18 06:48:56 :  - No. of Barbarians: 81
+2015-08-18 06:48:56 :  - No. of Archers: 95
+2015-08-18 06:48:57 : Training Troops...
+2015-08-18 06:49:08 : Spell Factory Full
+2015-08-18 06:49:10 : Time Idle: 00:12:05
+2015-08-18 06:49:10 : ====== Waiting for full army ======
+2015-08-18 06:49:22 : Checking Army Camp...
+2015-08-18 06:49:24 : Total Army Camp capacity: 183/220
+2015-08-18 06:49:25 :  - No. of Barbarians: 88
+2015-08-18 06:49:25 :  - No. of Archers: 95
+2015-08-18 06:49:26 : Training Troops...
+2015-08-18 06:49:36 : Spell Factory Full
+2015-08-18 06:49:38 : Time Idle: 00:12:33
+2015-08-18 06:49:39 : ====== Waiting for full army ======
+2015-08-18 06:49:50 : Checking Army Camp...
+2015-08-18 06:49:52 : Total Army Camp capacity: 188/220
+2015-08-18 06:49:53 :  - No. of Barbarians: 93
+2015-08-18 06:49:54 :  - No. of Archers: 95
+2015-08-18 06:49:54 : Training Troops...
+2015-08-18 06:50:05 : Spell Factory Full
+2015-08-18 06:50:07 : Time Idle: 00:13:02
+2015-08-18 06:50:08 : ====== Waiting for full army ======
+2015-08-18 06:50:19 : Checking Army Camp...
+2015-08-18 06:50:21 : Total Army Camp capacity: 194/220
+2015-08-18 06:50:22 :  - No. of Barbarians: 99
+2015-08-18 06:50:22 :  - No. of Archers: 95
+2015-08-18 06:50:23 : Training Troops...
+2015-08-18 06:50:35 : Spell Factory Full
+2015-08-18 06:50:37 : Time Idle: 00:13:31
+2015-08-18 06:50:37 : ====== Waiting for full army ======
+2015-08-18 06:50:49 : Collecting Resources
+2015-08-18 06:50:55 : Checking Army Camp...
+2015-08-18 06:50:57 : Total Army Camp capacity: 197/220
+2015-08-18 06:50:58 :  - No. of Barbarians: 102
+2015-08-18 06:50:58 :  - No. of Archers: 95
+2015-08-18 06:50:59 : Training Troops...
+2015-08-18 06:51:10 : Spell Factory Full
+2015-08-18 06:51:12 : Time Idle: 00:14:06
+2015-08-18 06:51:12 : ====== Waiting for full army ======
+2015-08-18 06:51:24 : Checking Army Camp...
+2015-08-18 06:51:26 : Total Army Camp capacity: 201/220
+2015-08-18 06:51:27 :  - No. of Barbarians: 106
+2015-08-18 06:51:27 :  - No. of Archers: 95
+2015-08-18 06:51:28 : Training Troops...
+2015-08-18 06:51:39 : Spell Factory Full
+2015-08-18 06:51:41 : Time Idle: 00:14:35
+2015-08-18 06:51:42 : ====== Waiting for full army ======
+2015-08-18 06:51:53 : Checking Army Camp...
+2015-08-18 06:51:55 : Total Army Camp capacity: 203/220
+2015-08-18 06:51:56 :  - No. of Barbarians: 108
+2015-08-18 06:51:56 :  - No. of Archers: 95
+2015-08-18 06:51:57 : Training Troops...
+2015-08-18 06:52:11 : Checking Army Camp...
+2015-08-18 06:52:13 : Total Army Camp capacity: 203/220
+2015-08-18 06:52:14 :  - No. of Barbarians: 108
+2015-08-18 06:52:14 :  - No. of Archers: 95
+2015-08-18 06:52:15 : Training Troops...
+2015-08-18 06:52:26 : Spell Factory Full
+2015-08-18 06:52:28 : Time Idle: 00:15:21
+2015-08-18 06:52:28 : ====== Waiting for full army ======
+2015-08-18 06:52:40 : Checking Army Camp...
+2015-08-18 06:52:41 : Total Army Camp capacity: 206/220
+2015-08-18 06:52:43 :  - No. of Barbarians: 108
+2015-08-18 06:52:43 :  - No. of Archers: 98
+2015-08-18 06:52:43 : Training Troops...
+2015-08-18 06:52:53 : Spell Factory Full
+2015-08-18 06:52:55 : Time Idle: 00:15:48
+2015-08-18 06:52:55 : ====== Waiting for full army ======
+2015-08-18 06:53:07 : Checking Army Camp...
+2015-08-18 06:53:08 : Total Army Camp capacity: 211/220
+2015-08-18 06:53:10 :  - No. of Barbarians: 108
+2015-08-18 06:53:10 :  - No. of Archers: 103
+2015-08-18 06:53:10 : Training Troops...
+2015-08-18 06:53:20 : Spell Factory Full
+2015-08-18 06:53:22 : Time Idle: 00:16:15
+2015-08-18 06:53:22 : ====== Waiting for full army ======
+2015-08-18 06:53:34 : Checking Army Camp...
+2015-08-18 06:53:35 : Total Army Camp capacity: 215/220
+2015-08-18 06:53:37 :  - No. of Barbarians: 108
+2015-08-18 06:53:37 :  - No. of Archers: 107
+2015-08-18 06:53:37 : Training Troops...
+2015-08-18 06:53:48 : Spell Factory Full
+2015-08-18 06:53:50 : Time Idle: 00:16:43
+2015-08-18 06:53:51 : ====== Waiting for full army ======
+2015-08-18 06:54:02 : Checking Army Camp...
+2015-08-18 06:54:04 : Total Army Camp capacity: 219/220
+2015-08-18 06:54:05 :  - No. of Barbarians: 108
+2015-08-18 06:54:06 :  - No. of Archers: 111
+2015-08-18 06:54:06 : Training Troops...
+2015-08-18 06:54:07 : Your Army Camps are now Full
+2015-08-18 06:54:32 : Spell Factory not found...
+2015-08-18 06:54:33 : Going to Attack...
+2015-08-18 06:54:39 : ============== Searching For Dead Base ===============
+2015-08-18 06:54:39 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:54:39 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:54:39 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:54:39 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 06:54:39 : ============== Searching For Live Base ===============
+2015-08-18 06:54:39 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:54:39 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:54:39 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:54:39 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 06:54:39 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 06:54:39 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 06:54:39 : ==================================================
+2015-08-18 06:54:42 :   1> [G]:   5950 [E]:  46378 [D]:  436 [T]:21 [TH]:10, In
+2015-08-18 06:54:49 :   2> [G]:  68361 [E]: 187931 [D]: 1222 [T]:30 [TH]:10, In
+2015-08-18 06:54:55 :   3> [G]:  34794 [E]:  22316 [D]:  971 [T]:28 [TH]:10, In
+2015-08-18 06:55:00 : Checking Trapped TH
+2015-08-18 06:55:01 :   4> [G]: 222114 [E]: 190367 [D]: 2689 [T]:29 [TH]: 9, Out
+2015-08-18 06:55:01 : No major traps found near TH.
+2015-08-18 06:55:01 : ~~~~~~~~~~~~~~~ TH Outside Found! ~~~~~~~~~~~~~~~~
+2015-08-18 06:55:01 : ================ Search Complete =================
+2015-08-18 06:55:01 : Initiating attack for: TH Snipe
+2015-08-18 06:55:04 : -Barbarians 108
+2015-08-18 06:55:04 : -Archers 112
+2015-08-18 06:55:04 : -King 
+2015-08-18 06:55:04 : -Heal Spells 4
+2015-08-18 06:55:04 :  ====== Start Attack ====== 
+2015-08-18 06:55:06 : Free meal
+2015-08-18 06:55:06 : Dropping first wave of 5 Archers
+2015-08-18 06:55:08 : Deployment of Archers Successful!
+2015-08-18 06:55:09 : Dropping second wave of 10 Archers
+2015-08-18 06:55:11 : Deployment of Archers Successful!
+2015-08-18 06:55:30 : Townhall has been destroyed!
+2015-08-18 06:55:33 : Checking if the battle has finished
+2015-08-18 06:55:35 : detected [G]:  [E]:  [DE]:  |  Exit now 
+2015-08-18 06:55:35 : Battle has finished
+2015-08-18 06:55:35 : Returning Home
+2015-08-18 06:55:39 : Loot: [G]: 1 010 [E]: 1 012 [DE]:  [T]: 9
+2015-08-18 06:55:40 : Bonus [G]: 100 000 [E]: 100 000 [DE]: 500
+2015-08-18 06:55:42 : Your league level is: Master III
+2015-08-18 06:55:42 : Stars earned: 1
+2015-08-18 06:55:50 : Trying to locate Main Screen
+2015-08-18 06:55:50 : Main Screen Located
+2015-08-18 06:55:52 : Village Report
+2015-08-18 06:55:52 : No. of Free/Total Builders: 0/4
+2015-08-18 06:55:52 :  [T]: 2 647
+2015-08-18 06:55:52 :  [G]: 5 280 880 [E]: 4 399 691 [D]: 5 733 [GEM]: 57
+2015-08-18 06:55:52 : Collecting Resources
+2015-08-18 06:56:06 : Checking Army Camp...
+2015-08-18 06:56:08 : Total Army Camp capacity: 220/220
+2015-08-18 06:56:09 :  - No. of Barbarians: 108
+2015-08-18 06:56:09 :  - No. of Archers: 112
+2015-08-18 06:56:10 : Training Troops...
+2015-08-18 06:56:11 : Your Army Camps are now Full
+2015-08-18 06:56:38 : Spell Factory not found...
+2015-08-18 06:56:39 : 0
+2015-08-18 06:56:41 : Requesting Clan Castle Troops
+2015-08-18 06:56:47 : Going to Attack...
+2015-08-18 06:56:53 : ============== Searching For Dead Base ===============
+2015-08-18 06:56:53 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:56:53 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:56:53 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:56:53 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 06:56:53 : ============== Searching For Live Base ===============
+2015-08-18 06:56:53 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:56:53 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:56:53 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:56:53 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 06:56:53 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 06:56:53 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 06:56:53 : ==================================================
+2015-08-18 06:56:55 :   1> [G]: 135632 [E]:  38079 [D]:  754 [T]:17 [TH]: 9, In
+2015-08-18 06:57:00 :   2> [G]:  77420 [E]:  47303 [D]: 1541 [T]:34 [TH]:10, In
+2015-08-18 06:57:04 :   3> [G]:  39818 [E]:  15860 [D]: 1276 [T]:15 [TH]: 9, In
+2015-08-18 06:57:09 :   4> [G]:  71179 [E]:  19666 [D]:  734 [T]:26 [TH]: 9, In
+2015-08-18 06:57:13 :   5> [G]:  58203 [E]:  71499 [D]: 1074 [T]:26 [TH]: 9, In
+2015-08-18 06:57:18 :   6> [G]:  92944 [E]:  82962 [D]: 1184 [T]:22 [TH]: 9, In
+2015-08-18 06:57:22 :   7> [G]:  34070 [E]:  36231 [D]:  876 [T]:18 [TH]:10, In
+2015-08-18 06:57:29 :   8> [G]:  68173 [E]: 234425 [D]: 1815 [T]:24 [TH]:10, In
+2015-08-18 06:57:33 :   9> [G]: 112095 [E]:  20352 [D]: 1131 [T]:13 [TH]: 9, In
+2015-08-18 06:57:38 :  10> [G]:  24662 [E]: 177733 [D]:  405 [T]:14 [TH]:10, In
+2015-08-18 06:57:42 :  11> [G]:  27088 [E]:  36872 [D]:  805 [T]:23 [TH]: 9, In
+2015-08-18 06:57:49 :  12> [G]:  52554 [E]: 107147 [D]:  780 [T]:17 [TH]:10, In
+2015-08-18 06:57:53 :  13> [G]:  78710 [E]:  30443 [D]:  811 [T]:28 [TH]: 9, In
+2015-08-18 06:57:58 :  14> [G]:  53012 [E]: 143987 [D]: 1701 [T]:32 [TH]:10, In
+2015-08-18 06:58:04 :  15> [G]:  95809 [E]: 191317 [D]:  878 [T]:18 [TH]: 9, In
+2015-08-18 06:58:10 :  16> [G]: 132869 [E]:  46543 [D]: 1077 [T]:18 [TH]:10, In
+2015-08-18 06:58:15 :  17> [G]:  88627 [E]: 100454 [D]:  894 [T]:33 [TH]: 9, In
+2015-08-18 06:58:19 :  18> [G]:  31365 [E]:  70772 [D]:  492 [T]:32 [TH]: 9, In
+2015-08-18 06:58:23 :  19> [G]:  54270 [E]:  69517 [D]:  695 [T]:17 [TH]:10, In
+2015-08-18 06:58:28 :  20> [G]:  69069 [E]:  17379 [D]:  303 [T]:18 [TH]: 9, In
+2015-08-18 06:58:34 :  21> [G]:  27596 [E]:  64056 [D]:  123 [T]:19 [TH]: 9, In
+2015-08-18 06:58:38 :  22> [G]: 104991 [E]:  66770 [D]:  929 [T]:16 [TH]: 9, In
+2015-08-18 06:58:42 :  23> [G]:  40001 [E]:  35075 [D]: 1225 [T]:18 [TH]: 9, In
+2015-08-18 06:58:46 :  24> [G]:  20863 [E]:  39314 [D]: 1141 [T]:15 [TH]: 9, In
+2015-08-18 06:58:51 :  25> [G]: 150697 [E]: 137192 [D]: 3820 [T]:21 [TH]:10, In
+2015-08-18 06:58:55 :  26> [G]: 100934 [E]:  74160 [D]:  416 [T]:18 [TH]: 9, In
+2015-08-18 06:59:02 :  27> [G]: 237122 [E]:  82542 [D]:  681 [T]:31 [TH]:10, In
+2015-08-18 06:59:06 :  28> [G]:  68463 [E]:  11770 [D]:   91 [T]:22 [TH]: 9, In
+2015-08-18 06:59:10 :  29> [G]:  14308 [E]: 155119 [D]:  411 [T]:25 [TH]: 9, In
+2015-08-18 06:59:14 :  30> [G]: 111504 [E]:  65261 [D]: 1111 [T]:15 [TH]: 9, In
+2015-08-18 06:59:18 :  31> [G]:  51964 [E]:  25119 [D]:  416 [T]:20 [TH]: 9, In
+2015-08-18 06:59:23 :  32> [G]:  33291 [E]: 149111 [D]: 1624 [T]:31 [TH]:10, In
+2015-08-18 06:59:25 : Trying to locate Main Screen
+2015-08-18 06:59:32 : Waiting for Main Screen
+2015-08-18 06:59:32 : Zooming Out
+2015-08-18 06:59:35 : Main Screen Located
+2015-08-18 06:59:35 : Cannot locate Next button, Restarting Bot...
+2015-08-18 06:59:37 : Trying to locate Main Screen
+2015-08-18 06:59:37 : Main Screen Located
+2015-08-18 06:59:37 : Restarted after Out of Sync Error: Attack Now
+2015-08-18 06:59:37 : Going to Attack...
+2015-08-18 06:59:43 : ============== Searching For Dead Base ===============
+2015-08-18 06:59:43 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:59:43 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:59:43 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:59:43 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 06:59:43 : ============== Searching For Live Base ===============
+2015-08-18 06:59:43 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 06:59:43 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 06:59:43 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 06:59:43 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 06:59:43 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 06:59:43 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 06:59:43 : ==================================================
+2015-08-18 06:59:46 :  33> [G]: 119409 [E]: 157618 [D]: 1443 [T]:24 [TH]: 9, In
+2015-08-18 06:59:50 :  34> [G]:  30861 [E]: 115265 [D]:  792 [T]:23 [TH]: 9, In
+2015-08-18 06:59:54 :  35> [G]:  69392 [E]:  94124 [D]:  500 [T]:21 [TH]: 9, In
+2015-08-18 06:59:58 :  36> [G]:  34830 [E]: 108212 [D]:  816 [T]:21 [TH]: 9, In
+2015-08-18 07:00:05 :  37> [G]:   4550 [E]:  66682 [D]: 1238 [T]:14 [TH]: 9, In
+2015-08-18 07:00:09 :  38> [G]: 176542 [E]:   9888 [D]: 1635 [T]:22 [TH]:10, In
+2015-08-18 07:00:13 :  39> [G]:  57499 [E]:  19871 [D]:  687 [T]:26 [TH]: 9, In
+2015-08-18 07:00:18 :  40> [G]:  85642 [E]:  61465 [D]:  629 [T]:13 [TH]:10, In
+2015-08-18 07:00:22 :  41> [G]:  38059 [E]:  53027 [D]:  743 [T]:21 [TH]: 9, In
+2015-08-18 07:00:27 :  42> [G]:  15830 [E]:  25729 [D]:  388 [T]:20 [TH]: 9, In
+2015-08-18 07:00:31 :  43> [G]:  26344 [E]: 139762 [D]:  315 [T]:24 [TH]: 9, In
+2015-08-18 07:00:35 :  44> [G]:  43581 [E]:  15109 [D]: 1510 [T]:33 [TH]: 9, In
+2015-08-18 07:00:40 : Checking Trapped TH
+2015-08-18 07:00:42 :  45> [G]: 213705 [E]: 266550 [D]: 3579 [T]:31 [TH]:10, Out
+2015-08-18 07:00:42 : No major traps found near TH.
+2015-08-18 07:00:42 : ~~~~~~~~~~~~~~~ TH Outside Found! ~~~~~~~~~~~~~~~~
+2015-08-18 07:00:42 : ================ Search Complete =================
+2015-08-18 07:00:42 : Initiating attack for: TH Snipe
+2015-08-18 07:00:45 : -Barbarians 108
+2015-08-18 07:00:45 : -Archers 112
+2015-08-18 07:00:45 : -King 
+2015-08-18 07:00:45 : -Heal Spells 4
+2015-08-18 07:00:45 :  ====== Start Attack ====== 
+2015-08-18 07:00:47 : Free meal
+2015-08-18 07:00:47 : Dropping first wave of 5 Archers
+2015-08-18 07:00:48 : Deployment of Archers Successful!
+2015-08-18 07:00:49 : Dropping second wave of 15 Archers
+2015-08-18 07:00:52 : Deployment of Archers Successful!
+2015-08-18 07:01:07 : Townhall has been destroyed!
+2015-08-18 07:01:10 : Checking if the battle has finished
+2015-08-18 07:01:12 : detected [G]:  [E]:  [DE]:  |  Exit now 
+2015-08-18 07:01:12 : Battle has finished
+2015-08-18 07:01:12 : Returning Home
+2015-08-18 07:01:16 : Loot: [G]: 1 000 [E]: 1 000 [DE]:  [T]: 10
+2015-08-18 07:01:17 : Bonus [G]: 100 000 [E]: 100 000 [DE]: 500
+2015-08-18 07:01:19 : Your league level is: Master III
+2015-08-18 07:01:19 : Stars earned: 1
+2015-08-18 07:01:27 : Trying to locate Main Screen
+2015-08-18 07:01:27 : Main Screen Located
+2015-08-18 07:01:28 : Village Report
+2015-08-18 07:01:28 : No. of Free/Total Builders: 0/4
+2015-08-18 07:01:28 :  [T]: 2 657
+2015-08-18 07:01:28 :  [G]: 5 351 202 [E]: 4 500 013 [D]: 6 237 [GEM]: 57
+2015-08-18 07:01:29 : Collecting Resources
+2015-08-18 07:01:40 : Checking Army Camp...
+2015-08-18 07:01:42 : Total Army Camp capacity: 220/220
+2015-08-18 07:01:43 :  - No. of Barbarians: 108
+2015-08-18 07:01:43 :  - No. of Archers: 112
+2015-08-18 07:01:44 : Training Troops...
+2015-08-18 07:01:45 : Your Army Camps are now Full
+2015-08-18 07:02:12 : Spell Factory not found...
+2015-08-18 07:02:14 : 0
+2015-08-18 07:02:16 : Requesting Clan Castle Troops
+2015-08-18 07:02:16 : Request has already been made
+2015-08-18 07:02:18 : Going to Attack...
+2015-08-18 07:02:24 : ============== Searching For Dead Base ===============
+2015-08-18 07:02:24 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 07:02:24 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 07:02:24 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 07:02:24 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 07:02:24 : ============== Searching For Live Base ===============
+2015-08-18 07:02:24 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 07:02:24 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 07:02:24 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 07:02:24 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 07:02:24 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 07:02:24 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 07:02:24 : ==================================================
+2015-08-18 07:02:26 :   1> [G]:  51149 [E]:   9921 [D]:  862 [T]:15 [TH]: 9, In
+2015-08-18 07:02:30 :   2> [G]:  60248 [E]: 202647 [D]:  944 [T]:18 [TH]: 9, In
+2015-08-18 07:02:34 :   3> [G]:   7783 [E]:  74432 [D]:  510 [T]:28 [TH]: 9, In
+2015-08-18 07:02:38 :   4> [G]:  28336 [E]:  79592 [D]:  296 [T]:24 [TH]: 9, In
+2015-08-18 07:02:42 :   5> [G]:  70559 [E]:  85840 [D]:  399 [T]:28 [TH]: 9, In
+2015-08-18 07:02:49 :   6> [G]:  94586 [E]:  97665 [D]: 1018 [T]:18 [TH]:10, In
+2015-08-18 07:02:53 :   7> [G]:  94534 [E]: 111507 [D]:  265 [T]:19 [TH]:10, In
+2015-08-18 07:02:57 :   8> [G]:  17040 [E]: 110666 [D]: 1650 [T]:26 [TH]: 9, In
+2015-08-18 07:03:02 :   9> [G]:  56277 [E]:  25741 [D]:  265 [T]:19 [TH]: 9, In
+2015-08-18 07:03:06 : Checking Trapped TH
+2015-08-18 07:03:07 : Mortar Found
+2015-08-18 07:03:07 :  10> [G]:  47865 [E]:  25340 [D]:  340 [T]:14 [TH]:10, Out
+2015-08-18 07:03:07 : Mortar found near TH, skipping...
+2015-08-18 07:03:07 : Trap found, skipping base...
+2015-08-18 07:03:07 : ~~~~~~~~~~~~~~~ TH Outside Found! ~~~~~~~~~~~~~~~~
+2015-08-18 07:03:07 : ================ Search Complete =================
+2015-08-18 07:03:08 : Initiating attack for: TH Snipe
+2015-08-18 07:03:10 : -Barbarians 108
+2015-08-18 07:03:10 : -Archers 112
+2015-08-18 07:03:10 : -King 
+2015-08-18 07:03:10 : -Heal Spells 4
+2015-08-18 07:03:10 :  ====== Start Attack ====== 
+2015-08-18 07:03:12 : Free meal
+2015-08-18 07:03:12 : Dropping first wave of 5 Archers
+2015-08-18 07:03:14 : Deployment of Archers Successful!
+2015-08-18 07:03:15 : Dropping second wave of 15 Archers
+2015-08-18 07:03:18 : Deployment of Archers Successful!
+2015-08-18 07:03:44 : Fool me once shame on you, fool me twice shame on me
+2015-08-18 07:03:44 : Dropping first wave of 5 Barbarians
+2015-08-18 07:03:46 : Deployment of Barbarians Successful!
+2015-08-18 07:03:47 : Dropping second wave of 10 Barbarians
+2015-08-18 07:03:49 : Deployment of Barbarians Successful!
+2015-08-18 07:03:50 : No  troop Found!!!
+2015-08-18 07:03:50 : Dropping only wave of 15 Archers
+2015-08-18 07:03:52 : Deployment of Archers Successful!
+2015-08-18 07:03:53 : No  troop Found!!!
+2015-08-18 07:04:19 : Now I am really angry!
+2015-08-18 07:04:19 : No  troop Found!!!
+2015-08-18 07:04:19 : No  troop Found!!!
+2015-08-18 07:04:19 : No  troop Found!!!
+2015-08-18 07:04:19 : No  troop Found!!!
+2015-08-18 07:04:19 : No  troop Found!!!
+2015-08-18 07:04:19 : Dropping only wave of 15 Archers
+2015-08-18 07:04:22 : Deployment of Archers Successful!
+2015-08-18 07:04:22 : No  troop Found!!!
+2015-08-18 07:04:48 : ALL IN!!!
+2015-08-18 07:05:22 : Checking if the battle has finished
+2015-08-18 07:05:24 : detected [G]:  [E]:  [DE]:  |  Exit now 
+2015-08-18 07:05:24 : Battle has finished
+2015-08-18 07:05:24 : Returning Home
+2015-08-18 07:05:28 : Loot: [G]: 62 [E]: 548 [DE]:  [T]: -30
+2015-08-18 07:05:28 : Stars earned: 0
+2015-08-18 07:05:36 : Trying to locate Main Screen
+2015-08-18 07:05:36 : Main Screen Located
+2015-08-18 07:05:38 : Village Report
+2015-08-18 07:05:38 : No. of Free/Total Builders: 0/4
+2015-08-18 07:05:38 :  [T]: 2 627
+2015-08-18 07:05:38 :  [G]: 5 343 764 [E]: 4 494 561 [D]: 6 241 [GEM]: 57
+2015-08-18 07:05:38 : Collecting Resources
+2015-08-18 07:05:49 : Checking Army Camp...
+2015-08-18 07:05:51 : Total Army Camp capacity: 191/220
+2015-08-18 07:05:52 :  - No. of Barbarians: 93
+2015-08-18 07:05:52 :  - No. of Archers: 98
+2015-08-18 07:05:53 : Training Troops...
+2015-08-18 07:06:00 : Spell Factory Full
+2015-08-18 07:06:02 : 0
+2015-08-18 07:06:03 : Requesting Clan Castle Troops
+2015-08-18 07:06:04 : Request has already been made
+2015-08-18 07:06:06 : ====== Waiting for full army ======
+2015-08-18 07:06:17 : Checking Army Camp...
+2015-08-18 07:06:19 : Total Army Camp capacity: 195/220
+2015-08-18 07:06:20 :  - No. of Barbarians: 93
+2015-08-18 07:06:21 :  - No. of Archers: 102
+2015-08-18 07:06:21 : Training Troops...
+2015-08-18 07:06:28 : Spell Factory Full
+2015-08-18 07:06:30 : Time Idle: 00:00:24
+2015-08-18 07:06:30 : ====== Waiting for full army ======
+2015-08-18 07:06:42 : Checking Army Camp...
+2015-08-18 07:06:44 : Total Army Camp capacity: 199/220
+2015-08-18 07:06:45 :  - No. of Barbarians: 93
+2015-08-18 07:06:45 :  - No. of Archers: 106
+2015-08-18 07:06:45 : Training Troops...
+2015-08-18 07:06:52 : Spell Factory Full
+2015-08-18 07:06:54 : Time Idle: 00:00:47
+2015-08-18 07:06:54 : ====== Waiting for full army ======
+2015-08-18 07:07:06 : Checking Army Camp...
+2015-08-18 07:07:08 : Total Army Camp capacity: 203/220
+2015-08-18 07:07:09 :  - No. of Barbarians: 93
+2015-08-18 07:07:09 :  - No. of Archers: 110
+2015-08-18 07:07:10 : Training Troops...
+2015-08-18 07:07:16 : Spell Factory Full
+2015-08-18 07:07:18 : Time Idle: 00:01:12
+2015-08-18 07:07:18 : ====== Waiting for full army ======
+2015-08-18 07:07:30 : Checking Army Camp...
+2015-08-18 07:07:32 : Total Army Camp capacity: 207/220
+2015-08-18 07:07:33 :  - No. of Barbarians: 93
+2015-08-18 07:07:33 :  - No. of Archers: 114
+2015-08-18 07:07:34 : Training Troops...
+2015-08-18 07:07:40 : Spell Factory Full
+2015-08-18 07:07:42 : Time Idle: 00:01:35
+2015-08-18 07:07:42 : ====== Waiting for full army ======
+2015-08-18 07:07:54 : Collecting Resources
+2015-08-18 07:08:03 : Checking Army Camp...
+2015-08-18 07:08:05 : Total Army Camp capacity: 211/220
+2015-08-18 07:08:06 :  - No. of Barbarians: 93
+2015-08-18 07:08:06 :  - No. of Archers: 118
+2015-08-18 07:08:07 : Training Troops...
+2015-08-18 07:08:13 : Spell Factory Full
+2015-08-18 07:08:15 : Time Idle: 00:02:08
+2015-08-18 07:08:15 : ====== Waiting for full army ======
+2015-08-18 07:08:27 : Checking Army Camp...
+2015-08-18 07:08:29 : Total Army Camp capacity: 215/220
+2015-08-18 07:08:30 :  - No. of Barbarians: 93
+2015-08-18 07:08:30 :  - No. of Archers: 122
+2015-08-18 07:08:31 : Training Troops...
+2015-08-18 07:08:37 : Spell Factory Full
+2015-08-18 07:08:39 : Time Idle: 00:02:32
+2015-08-18 07:08:40 : ====== Waiting for full army ======
+2015-08-18 07:08:51 : Checking Army Camp...
+2015-08-18 07:08:53 : Total Army Camp capacity: 219/220
+2015-08-18 07:08:54 :  - No. of Barbarians: 93
+2015-08-18 07:08:54 :  - No. of Archers: 126
+2015-08-18 07:08:55 : Training Troops...
+2015-08-18 07:08:56 : Your Army Camps are now Full
+2015-08-18 07:09:22 : Spell Factory not found...
+2015-08-18 07:09:24 : Going to Attack...
+2015-08-18 07:09:30 : ============== Searching For Dead Base ===============
+2015-08-18 07:09:30 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 07:09:30 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 07:09:30 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 07:09:30 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 07:09:30 : ============== Searching For Live Base ===============
+2015-08-18 07:09:30 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 07:09:30 : Meet: Gold or Elixir, Max TH 8
+2015-08-18 07:09:30 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 07:09:30 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 07:09:30 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 07:09:30 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 07:09:30 : ==================================================
+2015-08-18 07:09:32 :   1> [G]:  71620 [E]:  91546 [D]:  387 [T]:23 [TH]: 9, In
+2015-08-18 07:09:37 :   2> [G]:  33491 [E]:  24571 [D]:  312 [T]:13 [TH]: 9, In
+2015-08-18 07:09:41 :   3> [G]:  59732 [E]:  34794 [D]:  906 [T]:16 [TH]: 9, In
+2015-08-18 07:09:45 :   4> [G]: 104219 [E]:  91385 [D]:   95 [T]:25 [TH]: 9, In
+2015-08-18 07:09:49 :   5> [G]: 137669 [E]: 130618 [D]: 1680 [T]:25 [TH]: 9, In
+2015-08-18 07:09:53 :   6> [G]:  76241 [E]:  88866 [D]:  810 [T]:23 [TH]:10, In
+2015-08-18 07:09:58 :   7> [G]:  24060 [E]:  25525 [D]:   72 [T]:25 [TH]: 9, In
+2015-08-18 07:10:04 :   8> [G]:  42635 [E]:  61223 [D]:  986 [T]:22 [TH]:10, In
+2015-08-18 07:10:08 :   9> [G]:  68505 [E]:  54002 [D]:  654 [T]:26 [TH]:10, In
+2015-08-18 07:10:13 :  10> [G]:  58477 [E]:  61544 [D]:  933 [T]:25 [TH]: 9, In
+2015-08-18 07:10:16 : ClashGameBot was Paused!
+2015-08-18 07:10:17 : ClashGameBot was Resumed.
+2015-08-18 07:10:20 :  11> [G]:  12386 [E]:  17452 [D]:  955 [T]:19 [TH]: 9, In
+2015-08-18 07:10:24 :  12> [G]:  90183 [E]:  39942 [D]:  554 [T]:26 [TH]: 9, In
+2015-08-18 07:10:28 :  13> [G]:  94839 [E]:  10099 [D]:  287 [T]:16 [TH]: 9, In
+2015-08-18 07:10:32 :  14> [G]:   6219 [E]:  96553 [D]:  960 [T]:15 [TH]: 9, In
+2015-08-18 07:10:39 :  15> [G]: 124308 [E]: 116771 [D]: 2036 [T]:28 [TH]:10, In
+2015-08-18 07:10:43 :  16> [G]:  14951 [E]:  74413 [D]:  959 [T]:18 [TH]: 9, In
+2015-08-18 07:10:48 :  17> [G]:  37172 [E]:  55712 [D]: 1366 [T]:20 [TH]:10, In
+2015-08-18 07:10:52 :  18> [G]:  10235 [E]:  88099 [D]:  473 [T]:30 [TH]: 9, In
+2015-08-18 07:10:54 : ClashGameBot was Paused!

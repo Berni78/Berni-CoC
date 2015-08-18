@@ -73,6 +73,15 @@ Func TrainClick($x, $y, $iTimes, $iSpeed, $aWatchSpot, $aLootSpot, $sdebugtxt = 
 	EndIf
 EndFunc   ;==>TrainClick
 
+; Temp fix for DE troop training
+Func TrainClickMini($point, $iTimes, $iSpeed)
+  If $iTimes <> 1 Then
+ For $i = 0 To ($iTimes - 1)
+ControlClick($Title, "", "", "left", "1", $point[0], $point[1])  ;Click once.
+If _Sleep($iSpeed, False) Then ExitLoop
+ Next
+  EndIf
+EndFunc
 ; TrainClickP : takes an array[2] (or array[4]) as a parameter [x,y]
 Func TrainClickP($point, $howMany, $speed, $aWatchSpot, $aLootSpot, $debugtxt = "")
 	If IsTrainPage() Then

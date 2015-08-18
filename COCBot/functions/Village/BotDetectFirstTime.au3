@@ -88,15 +88,98 @@ Func BotDetectFirstTime()
 
 	If isInsideDiamond($ArmyPos) = False Then
 		LocateBarrack(True)
+	Else
+		Click($ArmyPos[0], $ArmyPos[1]) ;Click King Altar
+		If _Sleep(500) Then Return
+		$sInfo = BuildingInfo(242, 520)
+		ClickP($aTopLeftClient,1,0,"#0121") ; click away
+		If _Sleep(500) Then Return
+		If $sInfo[0] > 1 Or $sInfo[0] = "" Then
+			If  StringInStr($sInfo[1], "Army") = 0 Then
+				SetLog("Bad Army Camp location", $COLOR_ORANGE)
+				LocateBarrack(True)
+			EndIf
+		EndIf
+
 	EndIf
 
 	If _Sleep($iDelayBotDetectFirstTime3) Then Return
 
 	If isInsideDiamond($aCCPos) = False Then
 		LocateClanCastle()
+	Else
+		Click($aCCPos[0], $aCCPos[1]) ;Click King Altar
+		If _Sleep(500) Then Return
+		$sInfo = BuildingInfo(242, 520)
+		ClickP($aTopLeftClient,1,0,"#0121") ; click away
+		If _Sleep(500) Then Return
+		If $sInfo[0] > 1 Or $sInfo[0] = "" Then
+			If  StringInStr($sInfo[1], "Clan") = 0 Then
+				SetLog("Bad CC location", $COLOR_ORANGE)
+				LocateClanCastle()
+			EndIf
+		EndIf
+
 	EndIf
 
 	If _Sleep($iDelayBotDetectFirstTime3) Then Return
+	If $ichkUpgradeKing = 1 Then
+		If isInsideDiamond($KingPos) = False Then
+			LocateKingAltar()
+		Else
+			Click($KingPos[0], $KingPos[1]) ;Click King Altar
+			If _Sleep(500) Then Return
+			$sInfo = BuildingInfo(242, 520)
+			ClickP($aTopLeftClient,1,0,"#0121") ; click away
+			If _Sleep(500) Then Return
+			If $sInfo[0] > 1 Or $sInfo[0] = "" Then
+				If  (StringInStr($sInfo[1], "Barb") = 0) And (StringInStr($sInfo[1], "King") = 0) Then
+					SetLog("Bad BK location", $COLOR_ORANGE)
+					LocateKingAltar()
+				EndIf
+			EndIf
+		EndIf
+	EndIf
+	
+	If _Sleep($iDelayBotDetectFirstTime3) Then Return
+	
+	If $ichkUpgradeQueen = 1 Then
+		If isInsideDiamond($QueenPos) = False Then
+			LocateQueenAltar()
+		Else
+			Click($QueenPos[0], $QueenPos[1]) ;Click Queen Altar
+			If _Sleep(500) Then Return
+			$sInfo = BuildingInfo(242, 520)
+			ClickP($aTopLeftClient,1,0,"#0121") ; click away
+			If _Sleep(500) Then Return
+			If $sInfo[0] > 1 Or $sInfo[0] = "" Then
+				If  StringInStr($sInfo[1], "Quee") = 0 Then
+					SetLog("Bad AQ location", $COLOR_ORANGE)
+					LocateQueenAltar()
+				EndIf
+			EndIf
+		EndIf
+	EndIf
+	
+	If _Sleep($iDelayBotDetectFirstTime3) Then Return
+	
+	If $ichkLab = 1 Then
+		If isInsideDiamond($aLabPos) = False Then
+			LocateLab()
+		Else
+			Click($aLabPos[0], $aLabPos[1]) ;Click Laboratory
+			If _Sleep(500) Then Return
+			$sInfo = BuildingInfo(242, 520)
+			ClickP($aTopLeftClient,1,0,"#0121") ; click away
+			If _Sleep(500) Then Return
+			If $sInfo[0] > 1 Or $sInfo[0] = "" Then
+				If  StringInStr($sInfo[1], "Lab") = 0 Then
+					SetLog("Bad Lab location", $COLOR_ORANGE)
+					LocateLab()
+				EndIf
+			EndIf
+		EndIf
+	EndIf
 
 	If $listResourceLocation = "" Then
 		While 1 ; Clear the collectors using old image find to reduce collector image finding errors
@@ -143,4 +226,44 @@ Func BotDetectFirstTime()
 		Next
 	EndIf
 
+	If GUICtrlRead($chkBoostKing) = $GUI_CHECKED Then
+			If $KingPos[0] = "" Then
+				LocateKing()
+				SaveConfig()
+				If _Sleep(2000) Then Return
+				Click(1, 1) ;Click Away
+			EndIf
+	EndIf
+	If GUICtrlRead($chkBoostQueen) = $GUI_CHECKED Then
+			If $QueenPos[0] = "" Then
+				LocateQueen()
+				SaveConfig()
+				If _Sleep(2000) Then Return
+				Click(1, 1) ;Click Away
+			EndIf
+	EndIf
 EndFunc   ;==>BotDetectFirstTime
+
+Func LocateKing()
+	While 1
+		$MsgBox = MsgBox(1 + 262144, "Locate King", "Click OK then click on your King bed.", 0, $frmBot)
+		If $MsgBox = 1 Then
+			$KingPos[0] = FindPos()[0]
+			$KingPos[1] = FindPos()[1]
+			SetLog("-King Bed=  " & "(" & $KingPos[0] & "," & $KingPos[1] & ")", $COLOR_GREEN)
+		EndIf
+		ExitLoop
+	WEnd
+EndFunc   ;==>LocateKing
+
+Func LocateQueen()
+	While 1
+		$MsgBox = MsgBox(1 + 262144, "Locate Queen", "Click OK then click on your Queen bed.", 0, $frmBot)
+		If $MsgBox = 1 Then
+			$QueenPos[0] = FindPos()[0]
+			$QueenPos[1] = FindPos()[1]
+			SetLog("-Queen Bed=  " & "(" & $QueenPos[0] & "," & $QueenPos[1] & ")", $COLOR_GREEN)
+		EndIf
+		ExitLoop
+	WEnd
+EndFunc   ;==>LocateQueen

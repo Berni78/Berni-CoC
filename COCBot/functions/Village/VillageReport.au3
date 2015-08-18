@@ -56,6 +56,7 @@ Func VillageReport($bBypass = False)
 			Case 1
 				;			GUICtrlSetState($lblLastAttackTemp, $GUI_HIDE)
 				GUICtrlSetState($lblTotalLootTemp, $GUI_HIDE)
+				GUICtrlSetState($lblHourlyStatsTemp, $GUI_HIDE) ;; added for hourly stats
 				ReportLastTotal()
 				ReportCurrent()
 				$FirstAttack = 2
@@ -164,5 +165,13 @@ Func ReportLastTotal()
 		GUICtrlSetData($lblDarkLoot, _NumberFormat($iDarkLoot))
 	EndIf
 	GUICtrlSetData($lblTrophyLoot, _NumberFormat($iTrophyLoot))
+
+	; Hourly stats
+	  GUICtrlSetData($lblHourlyStatsGold, _NumberFormat(Round($iGoldLoot / (Int(TimerDiff($sTimer) + $iTimePassed)) * 3600)) & "K / h")
+	  GUICtrlSetData($lblHourlyStatsElixir, _NumberFormat(Round($iElixirLoot / (Int(TimerDiff($sTimer) + $iTimePassed)) * 3600)) & "K / h")
+	  If $DarkStart <> "" Then
+		 GUICtrlSetData($lblHourlyStatsDark, _NumberFormat(Round($iDarkLoot / (Int(TimerDiff($sTimer) + $iTimePassed)) * 3600 * 1000)) & " / h")
+	  EndIf
+	  GUICtrlSetData($lblHourlyStatsTrophy, _NumberFormat(Round($iTrophyLoot / (Int(TimerDiff($sTimer) + $iTimePassed)) * 3600 * 1000)) & " / h")
 
 EndFunc   ;==>ReportLastTotal

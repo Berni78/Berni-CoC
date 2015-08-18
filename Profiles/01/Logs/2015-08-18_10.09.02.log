@@ -1,0 +1,577 @@
+2015-08-18 10:09:03 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-18 10:09:03 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-18 10:09:03 : =================== Bot Start ====================
+2015-08-18 10:09:03 : -------------------------  Current Profile: 01 --------------------------
+2015-08-18 10:09:03 : Trying to locate Main Screen
+2015-08-18 10:09:03 : Main Screen Located
+2015-08-18 10:09:04 : Detecting your Buildings..
+2015-08-18 10:09:12 : Language setting is English: Correct.
+2015-08-18 10:09:13 : Trying to locate Main Screen
+2015-08-18 10:09:13 : Main Screen Located
+2015-08-18 10:09:15 : Village Report
+2015-08-18 10:09:15 : No. of Free/Total Builders: 0/4
+2015-08-18 10:09:15 :  [T]: 2 589
+2015-08-18 10:09:15 :  [G]: 6 341 108 [E]: 5 282 610 [D]: 11 316 [GEM]: 17
+2015-08-18 10:09:15 : Collecting Resources
+2015-08-18 10:09:29 : Chat Request: witch pls
+2015-08-18 10:09:29 : Witches Keyword found: witch
+2015-08-18 10:09:32 : No Witches available to donate..
+2015-08-18 10:09:34 : Checking Army Camp...
+2015-08-18 10:09:36 : Total Army Camp capacity: 220/220
+2015-08-18 10:09:38 :  - No. of Barbarians: 108
+2015-08-18 10:09:38 :  - No. of Archers: 112
+2015-08-18 10:09:39 : Barracks and Spell factory status: 
+2015-08-18 10:09:39 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-18 10:09:39 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-18 10:09:39 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-18 10:09:39 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-18 10:09:39 : Training Troops...
+2015-08-18 10:09:40 : Your Army Camps are now Full
+2015-08-18 10:10:07 : Spell Factory not found...
+2015-08-18 10:10:09 : 0
+2015-08-18 10:10:11 : Requesting Clan Castle Troops
+2015-08-18 10:10:11 : Request has already been made
+2015-08-18 10:10:13 : Going to Attack...
+2015-08-18 10:10:18 : ============== Searching For Dead Base ===============
+2015-08-18 10:10:18 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 10:10:19 : Meet: Gold and Elixir, Max TH 8, Weak Base(Mortar: 5, WizTower: 4)
+2015-08-18 10:10:19 : Meet One and Attack!
+2015-08-18 10:10:19 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 10:10:19 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 10:10:19 : ============== Searching For Live Base ===============
+2015-08-18 10:10:19 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 10:10:19 : Meet: Gold and Elixir, Max TH 8, Weak Base(Mortar: 5, WizTower: 4)
+2015-08-18 10:10:19 : Meet One and Attack!
+2015-08-18 10:10:19 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 10:10:19 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 10:10:19 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 10:10:19 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 10:10:19 : ==================================================
+2015-08-18 10:10:21 :   1> [G]: 151278 [E]: 299326 [D]: 1907 [T]:27 [TH]: 9, In
+2015-08-18 10:10:24 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:10:30 :   2> [G]:  60134 [E]:  92318 [D]:  779 [T]:16 [TH]: 9, In
+2015-08-18 10:10:34 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:10:38 : Checking Trapped TH
+2015-08-18 10:10:40 :   3> [G]: 263595 [E]: 369257 [D]: 2397 [T]:13 [TH]: 9, Out
+2015-08-18 10:10:40 : No major traps found near TH.
+2015-08-18 10:10:42 : ~~~~~~~~~~~~~~~ TH Outside Found! ~~~~~~~~~~~~~~~~
+2015-08-18 10:10:42 : ================ Search Complete =================
+2015-08-18 10:10:42 : Initiating attack for: TH Snipe
+2015-08-18 10:10:45 : -Barbarians 108
+2015-08-18 10:10:45 : -Archers 112
+2015-08-18 10:10:45 : -Clan Castle 
+2015-08-18 10:10:45 : -Heal Spells 2
+2015-08-18 10:10:45 : -Poison Spells 3
+2015-08-18 10:10:45 :  ====== Start Attack ====== 
+2015-08-18 10:10:47 : Free meal
+2015-08-18 10:10:47 : Dropping first wave of 5 Archers
+2015-08-18 10:10:49 : Deployment of Archers Successful!
+2015-08-18 10:10:50 : Dropping second wave of 10 Archers
+2015-08-18 10:10:52 : Deployment of Archers Successful!
+2015-08-18 10:11:18 : Fool me once shame on you, fool me twice shame on me
+2015-08-18 10:11:18 : Dropping first wave of 5 Barbarians
+2015-08-18 10:11:20 : Deployment of Barbarians Successful!
+2015-08-18 10:11:21 : Dropping second wave of 15 Barbarians
+2015-08-18 10:11:24 : Deployment of Barbarians Successful!
+2015-08-18 10:11:24 : No  troop Found!!!
+2015-08-18 10:11:24 : Dropping only wave of 10 Archers
+2015-08-18 10:11:26 : Deployment of Archers Successful!
+2015-08-18 10:11:27 : No  troop Found!!!
+2015-08-18 10:11:34 : Townhall has been destroyed!
+2015-08-18 10:11:37 : Checking if the battle has finished
+2015-08-18 10:11:39 : detected [G]:  [E]:  [DE]:  |  Exit now 
+2015-08-18 10:11:39 : Battle has finished
+2015-08-18 10:11:39 : Returning Home
+2015-08-18 10:11:44 : Loot: [G]: 1 000 [E]: 3 637 [DE]:  [T]: 4
+2015-08-18 10:11:44 : Bonus [G]: 100 000 [E]: 100 000 [DE]: 500
+2015-08-18 10:11:47 : Your league level is: Master III
+2015-08-18 10:11:47 : Stars earned: 1
+2015-08-18 10:11:54 : Trying to locate Main Screen
+2015-08-18 10:11:54 : Main Screen Located
+2015-08-18 10:11:56 : Village Report
+2015-08-18 10:11:56 : No. of Free/Total Builders: 0/4
+2015-08-18 10:11:56 :  [T]: 2 593
+2015-08-18 10:11:56 :  [G]: 6 444 616 [E]: 5 397 210 [D]: 11 816 [GEM]: 17
+2015-08-18 10:11:57 : Collecting Resources
+2015-08-18 10:12:08 : Chat Request: witch pls
+2015-08-18 10:12:08 : Witches Keyword found: witch
+2015-08-18 10:12:11 : No Witches available to donate..
+2015-08-18 10:12:13 : Checking Army Camp...
+2015-08-18 10:12:15 : Total Army Camp capacity: 220/220
+2015-08-18 10:12:16 :  - No. of Barbarians: 88
+2015-08-18 10:12:17 :  - No. of Archers: 132
+2015-08-18 10:12:17 : Training Troops...
+2015-08-18 10:12:18 : Your Army Camps are now Full
+2015-08-18 10:12:44 : Spell Factory not found...
+2015-08-18 10:12:46 : 0
+2015-08-18 10:12:48 : Requesting Clan Castle Troops
+2015-08-18 10:12:54 : Going to Attack...
+2015-08-18 10:13:00 : ============== Searching For Dead Base ===============
+2015-08-18 10:13:00 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 10:13:00 : Meet: Gold and Elixir, Max TH 8, Weak Base(Mortar: 5, WizTower: 4)
+2015-08-18 10:13:00 : Meet One and Attack!
+2015-08-18 10:13:00 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 10:13:00 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 10:13:00 : ============== Searching For Live Base ===============
+2015-08-18 10:13:00 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 10:13:00 : Meet: Gold and Elixir, Max TH 8, Weak Base(Mortar: 5, WizTower: 4)
+2015-08-18 10:13:00 : Meet One and Attack!
+2015-08-18 10:13:00 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 10:13:00 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 10:13:00 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 10:13:00 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 10:13:00 : ==================================================
+2015-08-18 10:13:02 :   1> [G]:  28506 [E]:  55674 [D]:  601 [T]:15 [TH]: 9, In
+2015-08-18 10:13:05 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:13:12 :   2> [G]: 111112 [E]: 104320 [D]: 1468 [T]:15 [TH]:10, In
+2015-08-18 10:13:15 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:13:19 :   3> [G]:  35049 [E]: 119976 [D]:  101 [T]:18 [TH]: 9, In
+2015-08-18 10:13:24 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:13:30 :   4> [G]:   9161 [E]:   8868 [D]:  861 [T]:13 [TH]: 9, In
+2015-08-18 10:13:34 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:13:41 :   5> [G]: 118767 [E]:  64687 [D]:  542 [T]:25 [TH]:10, In
+2015-08-18 10:13:45 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:13:51 :   6> [G]:  65574 [E]:  79952 [D]:  495 [T]:27 [TH]:10, In
+2015-08-18 10:13:54 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:00 :   7> [G]: 324119 [E]: 144802 [D]: 2536 [T]:33 [TH]:10, In
+2015-08-18 10:14:04 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:11 :   8> [G]:  27226 [E]:   7201 [D]:  804 [T]:29 [TH]:10, In
+2015-08-18 10:14:15 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:19 :   9> [G]:  78329 [E]:   7400 [D]:   51 [T]:23 [TH]: 9, In
+2015-08-18 10:14:22 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:27 :  10> [G]: 118018 [E]:  18202 [D]:  547 [T]:29 [TH]: 9, In
+2015-08-18 10:14:30 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:34 :  11> [G]:  60788 [E]:  36877 [D]:  361 [T]:17 [TH]: 9, In
+2015-08-18 10:14:39 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:43 :  12> [G]:  48521 [E]:  46590 [D]: 1029 [T]:21 [TH]: 9, In
+2015-08-18 10:14:47 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:51 :  13> [G]:  42596 [E]: 100491 [D]:  577 [T]:27 [TH]:10, In
+2015-08-18 10:14:55 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:14:59 :  14> [G]:  76590 [E]: 193365 [D]:  179 [T]:13 [TH]:10, In
+2015-08-18 10:15:03 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:08 :  15> [G]:  71118 [E]: 187088 [D]:  848 [T]:26 [TH]:10, In
+2015-08-18 10:15:11 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:15 :  16> [G]:  38963 [E]:  11743 [D]:   60 [T]:16 [TH]: 9, In
+2015-08-18 10:15:19 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:24 :  17> [G]:  18265 [E]:  56892 [D]: 1263 [T]:16 [TH]: 9, In
+2015-08-18 10:15:27 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:31 :  18> [G]:  69403 [E]:  97693 [D]: 1487 [T]:15 [TH]: 9, In
+2015-08-18 10:15:33 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:40 :  19> [G]: 171356 [E]:   8806 [D]:  235 [T]:18 [TH]:10, In
+2015-08-18 10:15:43 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:47 :  20> [G]:  11110 [E]:  38832 [D]:  819 [T]:15 [TH]: 9, In
+2015-08-18 10:15:52 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:15:56 :  21> [G]: 149196 [E]:  42626 [D]:  700 [T]:13 [TH]: 9, In
+2015-08-18 10:16:00 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:06 :  22> [G]:  14256 [E]:  67892 [D]: 1691 [T]:13 [TH]:10, In
+2015-08-18 10:16:08 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:13 :  23> [G]:  96090 [E]:  40187 [D]:   93 [T]:18 [TH]: 9, In
+2015-08-18 10:16:17 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:22 :  24> [G]:  56401 [E]:  89734 [D]:  136 [T]:19 [TH]:10, In
+2015-08-18 10:16:25 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:30 :  25> [G]:  24819 [E]: 110504 [D]: 1471 [T]:27 [TH]: 9, In
+2015-08-18 10:16:34 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:37 :  26> [G]:  30947 [E]:  55188 [D]:  786 [T]:31 [TH]: 9, In
+2015-08-18 10:16:40 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:46 :  27> [G]:  38157 [E]: 116401 [D]: 1038 [T]:14 [TH]: 9, In
+2015-08-18 10:16:48 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:16:52 :  28> [G]:  16882 [E]:  63887 [D]: 1299 [T]:36 [TH]: 9, In
+2015-08-18 10:16:56 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:00 :  29> [G]:  83143 [E]:  19559 [D]: 1150 [T]:24 [TH]:10, In
+2015-08-18 10:17:04 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:09 :  30> [G]:  45849 [E]:  89050 [D]:  499 [T]:19 [TH]: 9, In
+2015-08-18 10:17:14 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:18 :  31> [G]:  43862 [E]: 102510 [D]: 1227 [T]:14 [TH]: 9, In
+2015-08-18 10:17:22 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:26 :  32> [G]:  52439 [E]:  10208 [D]: 1328 [T]:28 [TH]: 9, In
+2015-08-18 10:17:29 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:34 :  33> [G]:  43227 [E]:  55443 [D]: 1234 [T]:23 [TH]:10, In
+2015-08-18 10:17:36 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:41 :  34> [G]: 105335 [E]:  66716 [D]:  654 [T]:19 [TH]: 9, In
+2015-08-18 10:17:43 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:17:47 :  35> [G]:  49348 [E]:  64880 [D]:  216 [T]: 7 [TH]: 8, In
+2015-08-18 10:17:47 : ~~~~~~~~~~~~~~~~ Live Base Found! ~~~~~~~~~~~~~~~~
+2015-08-18 10:17:47 : ================ Search Complete =================
+2015-08-18 10:17:47 : Initiating attack for: Live Base
+2015-08-18 10:17:50 : -Barbarians 88
+2015-08-18 10:17:50 : -Archers 132
+2015-08-18 10:17:50 : -Clan Castle 
+2015-08-18 10:17:51 : -Heal Spells 2
+2015-08-18 10:17:51 : -Poison Spells 3
+2015-08-18 10:17:51 :  ====== Start Attack ====== 
+2015-08-18 10:17:53 : Attacking with four fingers
+2015-08-18 10:17:54 : Dropping only wave of 88 Barbarians
+2015-08-18 10:17:58 : Dropping only wave of 132 Archers
+2015-08-18 10:18:05 : Dropping Clan Castle
+2015-08-18 10:18:06 : Dropping left over troops
+2015-08-18 10:18:06 : Checking remaining unused troops for: Live Base
+2015-08-18 10:18:09 : -Clan Castle 
+2015-08-18 10:18:09 : -Heal Spells 2
+2015-08-18 10:18:09 : -Poison Spells 3
+2015-08-18 10:18:18 : Checking remaining unused troops for: Live Base
+2015-08-18 10:18:20 : -Clan Castle 
+2015-08-18 10:18:20 : -Heal Spells 2
+2015-08-18 10:18:20 : -Poison Spells 3
+2015-08-18 10:18:29 : Finished Attacking, waiting for the battle to end
+2015-08-18 10:18:29 : Checking if the battle has finished
+2015-08-18 10:18:31 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in 18 sec.
+2015-08-18 10:18:31 : Gold & Elixir & DE change detected, waiting...
+2015-08-18 10:18:35 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in 18 sec.
+2015-08-18 10:18:36 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in 16 sec.
+2015-08-18 10:18:38 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in 14 sec.
+2015-08-18 10:18:40 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in 13 sec.
+2015-08-18 10:18:42 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in 11 sec.
+2015-08-18 10:18:43 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  9 sec.
+2015-08-18 10:18:45 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  7 sec.
+2015-08-18 10:18:47 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  6 sec.
+2015-08-18 10:18:48 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  4 sec.
+2015-08-18 10:18:50 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  2 sec.
+2015-08-18 10:18:52 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  1 sec.
+2015-08-18 10:18:54 : detected [G]: 39221 [E]: 39184 [DE]: 205 |  Exit in  0 sec.
+2015-08-18 10:18:54 : Gold & Elixir & DE no change detected, exit
+2015-08-18 10:18:54 : Returning Home
+2015-08-18 10:18:58 : Loot: [G]: 10 127 [E]: 25 696 [DE]: 11 [T]: -35
+2015-08-18 10:18:58 : Stars earned: 0
+2015-08-18 10:19:06 : Trying to locate Main Screen
+2015-08-18 10:19:06 : Main Screen Located
+2015-08-18 10:19:08 : Village Report
+2015-08-18 10:19:08 : No. of Free/Total Builders: 0/4
+2015-08-18 10:19:08 :  [T]: 2 558
+2015-08-18 10:19:08 :  [G]: 6 428 493 [E]: 5 403 256 [D]: 11 829 [GEM]: 17
+2015-08-18 10:19:09 : Collecting Resources
+2015-08-18 10:19:19 : Chat Request: mnions
+2015-08-18 10:19:21 : Chat Request: super guard pls
+2015-08-18 10:19:21 : Custom Donation Keyword found: guard
+2015-08-18 10:19:24 : No Giants available to donate..
+2015-08-18 10:19:27 : No Minions available to donate..
+2015-08-18 10:19:28 : Donating 6 Archers
+2015-08-18 10:19:31 : Chat Request: witch pls
+2015-08-18 10:19:31 : Witches Keyword found: witch
+2015-08-18 10:19:34 : No Witches available to donate..
+2015-08-18 10:19:36 : Checking Army Camp...
+2015-08-18 10:19:38 : Total Army Camp capacity: 210/220
+2015-08-18 10:19:39 :  - No. of Barbarians: 108
+2015-08-18 10:19:39 :  - No. of Archers: 102
+2015-08-18 10:19:40 : Training Troops...
+2015-08-18 10:19:51 : Checking Army Camp...
+2015-08-18 10:19:53 : Total Army Camp capacity: 210/220
+2015-08-18 10:19:54 :  - No. of Barbarians: 108
+2015-08-18 10:19:55 :  - No. of Archers: 102
+2015-08-18 10:19:55 : Training Troops...
+2015-08-18 10:20:12 : Spell Factory Full
+2015-08-18 10:20:12 : Created 1 Spell(s)
+2015-08-18 10:20:14 : 0
+2015-08-18 10:20:15 : Requesting Clan Castle Troops
+2015-08-18 10:20:16 : Request has already been made
+2015-08-18 10:20:18 : ====== Waiting for full army ======
+2015-08-18 10:20:19 : Chat Request: any
+2015-08-18 10:20:19 : Custom Donation Keyword found: any
+2015-08-18 10:20:22 : No Giants available to donate..
+2015-08-18 10:20:26 : No Minions available to donate..
+2015-08-18 10:20:26 : Donating 6 Archers
+2015-08-18 10:20:28 : Chat Request: mnions
+2015-08-18 10:20:30 : Chat Request: witch pls
+2015-08-18 10:20:30 : Witches Keyword found: witch
+2015-08-18 10:20:33 : No Witches available to donate..
+2015-08-18 10:20:46 : Checking Army Camp...
+2015-08-18 10:20:48 : Total Army Camp capacity: 209/220
+2015-08-18 10:20:49 :  - No. of Barbarians: 108
+2015-08-18 10:20:49 :  - No. of Archers: 101
+2015-08-18 10:20:50 : Training Troops...
+2015-08-18 10:21:00 : Spell Factory Full
+2015-08-18 10:21:02 : Time Idle: 00:00:44
+2015-08-18 10:21:02 : ====== Waiting for full army ======
+2015-08-18 10:21:14 : Checking Army Camp...
+2015-08-18 10:21:16 : Total Army Camp capacity: 214/220
+2015-08-18 10:21:17 :  - No. of Barbarians: 108
+2015-08-18 10:21:17 :  - No. of Archers: 106
+2015-08-18 10:21:17 : Training Troops...
+2015-08-18 10:21:29 : Spell Factory Full
+2015-08-18 10:21:31 : Time Idle: 00:01:13
+2015-08-18 10:21:31 : ====== Waiting for full army ======
+2015-08-18 10:21:43 : Checking Army Camp...
+2015-08-18 10:21:45 : Total Army Camp capacity: 219/220
+2015-08-18 10:21:46 :  - No. of Barbarians: 108
+2015-08-18 10:21:46 :  - No. of Archers: 111
+2015-08-18 10:21:47 : Training Troops...
+2015-08-18 10:21:48 : Your Army Camps are now Full
+2015-08-18 10:22:13 : Spell Factory not found...
+2015-08-18 10:22:14 : Going to Attack...
+2015-08-18 10:22:20 : ============== Searching For Dead Base ===============
+2015-08-18 10:22:20 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 10:22:20 : Meet: Gold and Elixir, Max TH 8, Weak Base(Mortar: 5, WizTower: 4)
+2015-08-18 10:22:20 : Meet One and Attack!
+2015-08-18 10:22:20 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 10:22:20 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-18 10:22:20 : ============== Searching For Live Base ===============
+2015-08-18 10:22:20 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-18 10:22:20 : Meet: Gold and Elixir, Max TH 8, Weak Base(Mortar: 5, WizTower: 4)
+2015-08-18 10:22:20 : Meet One and Attack!
+2015-08-18 10:22:20 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-18 10:22:20 : Aim: [G]: 999999 [E]: 999999 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-18 10:22:20 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-18 10:22:20 : THSnipe Combo, 6 Tile(s), AttackTH, Attack6:PB6
+2015-08-18 10:22:20 : ==================================================
+2015-08-18 10:22:23 :   1> [G]:  72805 [E]:  18290 [D]: 2152 [T]:27 [TH]:10, In
+2015-08-18 10:22:26 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:22:33 :   2> [G]:  11046 [E]:   9723 [D]:  177 [T]:22 [TH]:10, In
+2015-08-18 10:22:37 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:22:41 :   3> [G]:  59859 [E]: 118388 [D]: 1129 [T]:22 [TH]: 9, In
+2015-08-18 10:22:44 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:22:51 :   4> [G]: 154984 [E]:  92799 [D]:  698 [T]:30 [TH]:10, In
+2015-08-18 10:22:55 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:00 :   5> [G]:  35124 [E]: 141344 [D]:  414 [T]:23 [TH]: 9, In
+2015-08-18 10:23:03 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:07 :   6> [G]: 163189 [E]:  89524 [D]:  770 [T]:28 [TH]:10, In
+2015-08-18 10:23:11 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:15 :   7> [G]: 214314 [E]:  96729 [D]: 1657 [T]:17 [TH]: 9, In
+2015-08-18 10:23:19 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:24 :   8> [G]: 130009 [E]: 133784 [D]:  340 [T]:21 [TH]: -, -
+2015-08-18 10:23:28 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:34 :   9> [G]:  49477 [E]: 141774 [D]:  408 [T]:14 [TH]: 9, In
+2015-08-18 10:23:37 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:42 :  10> [G]:  69880 [E]:  26605 [D]:  908 [T]:29 [TH]: 9, In
+2015-08-18 10:23:44 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:51 :  11> [G]:  86329 [E]:  77642 [D]:  534 [T]:21 [TH]:10, In
+2015-08-18 10:23:55 :  Not a Weak Base for Dead Base, Not a Weak Base for Live Base 
+2015-08-18 10:23:59 :  12> [G]:  62297 [E]:  50222 [D]:  432 [T]:18 [TH]: 8, In
+2015-08-18 10:24:00 : ~~~~~~~~~~~~~~~~ Live Base Found! ~~~~~~~~~~~~~~~~
+2015-08-18 10:24:00 : ================ Search Complete =================
+2015-08-18 10:24:00 : Initiating attack for: Live Base
+2015-08-18 10:24:03 : -Barbarians 108
+2015-08-18 10:24:03 : -Archers 112
+2015-08-18 10:24:03 : -Clan Castle 
+2015-08-18 10:24:03 : -Heal Spells 2
+2015-08-18 10:24:03 : -Poison Spells 3
+2015-08-18 10:24:03 :  ====== Start Attack ====== 
+2015-08-18 10:24:05 : Attacking with four fingers
+2015-08-18 10:24:06 : Dropping only wave of 108 Barbarians
+2015-08-18 10:24:11 : Dropping only wave of 112 Archers
+2015-08-18 10:24:17 : Dropping Clan Castle
+2015-08-18 10:24:18 : Dropping left over troops
+2015-08-18 10:24:18 : Checking remaining unused troops for: Live Base
+2015-08-18 10:24:21 : -Clan Castle 
+2015-08-18 10:24:21 : -Heal Spells 2
+2015-08-18 10:24:21 : -Poison Spells 3
+2015-08-18 10:24:30 : Checking remaining unused troops for: Live Base
+2015-08-18 10:24:33 : -Clan Castle 
+2015-08-18 10:24:33 : -Heal Spells 2
+2015-08-18 10:24:33 : -Poison Spells 3
+2015-08-18 10:24:41 : Finished Attacking, waiting for the battle to end
+2015-08-18 10:24:41 : Checking if the battle has finished
+2015-08-18 10:24:44 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in 18 sec.
+2015-08-18 10:24:45 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in 16 sec.
+2015-08-18 10:24:47 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in 14 sec.
+2015-08-18 10:24:49 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in 13 sec.
+2015-08-18 10:24:51 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in 11 sec.
+2015-08-18 10:24:52 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  9 sec.
+2015-08-18 10:24:54 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  7 sec.
+2015-08-18 10:24:56 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  6 sec.
+2015-08-18 10:24:57 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  4 sec.
+2015-08-18 10:24:59 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  2 sec.
+2015-08-18 10:25:01 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  1 sec.
+2015-08-18 10:25:03 : detected [G]: 58502 [E]: 47377 [DE]: 1 |  Exit in  0 sec.
+2015-08-18 10:25:03 : Gold & Elixir & DE no change detected, exit
+2015-08-18 10:25:03 : Returning Home
+2015-08-18 10:25:07 : Loot: [G]: 3 795 [E]: 2 845 [DE]: 431 [T]: -27
+2015-08-18 10:25:07 : Stars earned: 0
+2015-08-18 10:25:15 : Trying to locate Main Screen
+2015-08-18 10:25:15 : Main Screen Located
+2015-08-18 10:25:17 : Village Report
+2015-08-18 10:25:17 : No. of Free/Total Builders: 0/4
+2015-08-18 10:25:17 :  [T]: 2 531
+2015-08-18 10:25:17 :  [G]: 6 423 288 [E]: 5 331 421 [D]: 12 266 [GEM]: 17
+2015-08-18 10:25:18 : Collecting Resources
+2015-08-18 10:25:31 : Chat Request: witch pls
+2015-08-18 10:25:31 : Witches Keyword found: witch
+2015-08-18 10:25:35 : No Witches available to donate..
+2015-08-18 10:25:37 : Checking Army Camp...
+2015-08-18 10:25:39 : Total Army Camp capacity: 33/220
+2015-08-18 10:25:40 :  - No. of Archers: 33
+2015-08-18 10:25:40 : Training Troops...
+2015-08-18 10:25:50 : Spell Factory Full
+2015-08-18 10:25:50 : Created 1 Spell(s)
+2015-08-18 10:25:52 : 0
+2015-08-18 10:25:53 : Requesting Clan Castle Troops
+2015-08-18 10:25:54 : Request has already been made
+2015-08-18 10:25:56 : ====== Waiting for full army ======
+2015-08-18 10:26:07 : Checking Army Camp...
+2015-08-18 10:26:09 : Total Army Camp capacity: 38/220
+2015-08-18 10:26:10 :  - No. of Archers: 38
+2015-08-18 10:26:11 : Training Troops...
+2015-08-18 10:26:21 : Spell Factory Full
+2015-08-18 10:26:23 : Time Idle: 00:00:27
+2015-08-18 10:26:23 : ====== Waiting for full army ======
+2015-08-18 10:26:35 : Checking Army Camp...
+2015-08-18 10:26:37 : Total Army Camp capacity: 43/220
+2015-08-18 10:26:38 :  - No. of Archers: 43
+2015-08-18 10:26:38 : Training Troops...
+2015-08-18 10:26:47 : Spell Factory Full
+2015-08-18 10:26:49 : Time Idle: 00:00:52
+2015-08-18 10:26:49 : ====== Waiting for full army ======
+2015-08-18 10:27:00 : Checking Army Camp...
+2015-08-18 10:27:02 : Total Army Camp capacity: 47/220
+2015-08-18 10:27:03 :  - No. of Archers: 47
+2015-08-18 10:27:04 : Training Troops...
+2015-08-18 10:27:12 : Spell Factory Full
+2015-08-18 10:27:14 : Time Idle: 00:01:18
+2015-08-18 10:27:15 : ====== Waiting for full army ======
+2015-08-18 10:27:26 : Checking Army Camp...
+2015-08-18 10:27:28 : Total Army Camp capacity: 51/220
+2015-08-18 10:27:29 :  - No. of Archers: 51
+2015-08-18 10:27:30 : Training Troops...
+2015-08-18 10:27:38 : Spell Factory Full
+2015-08-18 10:27:40 : Time Idle: 00:01:43
+2015-08-18 10:27:41 : ====== Waiting for full army ======
+2015-08-18 10:27:52 : Checking Army Camp...
+2015-08-18 10:27:54 : Total Army Camp capacity: 55/220
+2015-08-18 10:27:55 :  - No. of Archers: 56
+2015-08-18 10:27:56 : Training Troops...
+2015-08-18 10:28:04 : Spell Factory Full
+2015-08-18 10:28:06 : Time Idle: 00:02:09
+2015-08-18 10:28:07 : ====== Waiting for full army ======
+2015-08-18 10:28:18 : Checking Army Camp...
+2015-08-18 10:28:20 : Total Army Camp capacity: 60/220
+2015-08-18 10:28:21 :  - No. of Archers: 60
+2015-08-18 10:28:22 : Training Troops...
+2015-08-18 10:28:30 : Spell Factory Full
+2015-08-18 10:28:32 : Time Idle: 00:02:35
+2015-08-18 10:28:33 : ====== Waiting for full army ======
+2015-08-18 10:28:44 : Checking Army Camp...
+2015-08-18 10:28:46 : Total Army Camp capacity: 64/220
+2015-08-18 10:28:47 :  - No. of Archers: 64
+2015-08-18 10:28:48 : Training Troops...
+2015-08-18 10:28:56 : Spell Factory Full
+2015-08-18 10:28:58 : Time Idle: 00:03:00
+2015-08-18 10:28:58 : ====== Waiting for full army ======
+2015-08-18 10:29:01 : Chat Request: witch pls
+2015-08-18 10:29:01 : Witches Keyword found: witch
+2015-08-18 10:29:04 : No Witches available to donate..
+2015-08-18 10:29:16 : Checking Army Camp...
+2015-08-18 10:29:18 : Total Army Camp capacity: 68/220
+2015-08-18 10:29:19 :  - No. of Archers: 68
+2015-08-18 10:29:20 : Training Troops...
+2015-08-18 10:29:28 : Spell Factory Full
+2015-08-18 10:29:30 : Time Idle: 00:03:33
+2015-08-18 10:29:31 : ====== Waiting for full army ======
+2015-08-18 10:29:42 : Collecting Resources
+2015-08-18 10:29:48 : Checking Army Camp...
+2015-08-18 10:29:50 : Total Army Camp capacity: 73/220
+2015-08-18 10:29:51 :  - No. of Archers: 74
+2015-08-18 10:29:52 : Training Troops...
+2015-08-18 10:30:00 : Spell Factory Full
+2015-08-18 10:30:02 : Time Idle: 00:04:04
+2015-08-18 10:30:03 : ====== Waiting for full army ======
+2015-08-18 10:30:14 : Checking Army Camp...
+2015-08-18 10:30:16 : Total Army Camp capacity: 78/220
+2015-08-18 10:30:17 :  - No. of Archers: 78
+2015-08-18 10:30:18 : Training Troops...
+2015-08-18 10:30:26 : Spell Factory Full
+2015-08-18 10:30:28 : Time Idle: 00:04:30
+2015-08-18 10:30:29 : ====== Waiting for full army ======
+2015-08-18 10:30:40 : Checking Army Camp...
+2015-08-18 10:30:42 : Total Army Camp capacity: 82/220
+2015-08-18 10:30:43 :  - No. of Archers: 82
+2015-08-18 10:30:44 : Training Troops...
+2015-08-18 10:30:52 : Spell Factory Full
+2015-08-18 10:30:54 : Time Idle: 00:04:56
+2015-08-18 10:30:54 : ====== Waiting for full army ======
+2015-08-18 10:31:06 : Checking Army Camp...
+2015-08-18 10:31:08 : Total Army Camp capacity: 86/220
+2015-08-18 10:31:09 :  - No. of Archers: 86
+2015-08-18 10:31:10 : Training Troops...
+2015-08-18 10:31:18 : Spell Factory Full
+2015-08-18 10:31:20 : Time Idle: 00:05:21
+2015-08-18 10:31:20 : ====== Waiting for full army ======
+2015-08-18 10:31:32 : Checking Army Camp...
+2015-08-18 10:31:34 : Total Army Camp capacity: 90/220
+2015-08-18 10:31:35 :  - No. of Archers: 90
+2015-08-18 10:31:36 : Training Troops...
+2015-08-18 10:31:44 : Spell Factory Full
+2015-08-18 10:31:46 : Time Idle: 00:05:47
+2015-08-18 10:31:46 : ====== Waiting for full army ======
+2015-08-18 10:31:58 : Checking Army Camp...
+2015-08-18 10:32:00 : Total Army Camp capacity: 94/220
+2015-08-18 10:32:01 :  - No. of Archers: 95
+2015-08-18 10:32:02 : Training Troops...
+2015-08-18 10:32:10 : Spell Factory Full
+2015-08-18 10:32:12 : Time Idle: 00:06:13
+2015-08-18 10:32:12 : ====== Waiting for full army ======
+2015-08-18 10:32:24 : Checking Army Camp...
+2015-08-18 10:32:26 : Total Army Camp capacity: 99/220
+2015-08-18 10:32:27 :  - No. of Archers: 99
+2015-08-18 10:32:28 : Training Troops...
+2015-08-18 10:32:36 : Spell Factory Full
+2015-08-18 10:32:38 : Time Idle: 00:06:38
+2015-08-18 10:32:38 : ====== Waiting for full army ======
+2015-08-18 10:32:50 : Checking Army Camp...
+2015-08-18 10:32:52 : Total Army Camp capacity: 103/220
+2015-08-18 10:32:53 :  - No. of Archers: 103
+2015-08-18 10:32:54 : Training Troops...
+2015-08-18 10:33:02 : Spell Factory Full
+2015-08-18 10:33:04 : Time Idle: 00:07:04
+2015-08-18 10:33:04 : ====== Waiting for full army ======
+2015-08-18 10:33:16 : Checking Army Camp...
+2015-08-18 10:33:18 : Total Army Camp capacity: 107/220
+2015-08-18 10:33:19 :  - No. of Archers: 107
+2015-08-18 10:33:20 : Training Troops...
+2015-08-18 10:33:31 : Spell Factory Full
+2015-08-18 10:33:33 : Time Idle: 00:07:33
+2015-08-18 10:33:33 : ====== Waiting for full army ======
+2015-08-18 10:33:45 : Checking Army Camp...
+2015-08-18 10:33:47 : Total Army Camp capacity: 112/220
+2015-08-18 10:33:48 :  - No. of Barbarians: 5
+2015-08-18 10:33:48 :  - No. of Archers: 108
+2015-08-18 10:33:49 : Training Troops...
+2015-08-18 10:34:00 : Spell Factory Full
+2015-08-18 10:34:02 : Time Idle: 00:08:02
+2015-08-18 10:34:03 : ====== Waiting for full army ======
+2015-08-18 10:34:14 : Checking Army Camp...
+2015-08-18 10:34:16 : Total Army Camp capacity: 119/220
+2015-08-18 10:34:17 :  - No. of Barbarians: 11
+2015-08-18 10:34:17 :  - No. of Archers: 108
+2015-08-18 10:34:18 : Training Troops...
+2015-08-18 10:34:29 : Spell Factory Full
+2015-08-18 10:34:31 : Time Idle: 00:08:30
+2015-08-18 10:34:31 : ====== Waiting for full army ======
+2015-08-18 10:34:43 : Collecting Resources
+2015-08-18 10:34:49 : Checking Army Camp...
+2015-08-18 10:34:51 : Total Army Camp capacity: 126/220
+2015-08-18 10:34:52 :  - No. of Barbarians: 18
+2015-08-18 10:34:53 :  - No. of Archers: 108
+2015-08-18 10:34:53 : Training Troops...
+2015-08-18 10:35:05 : Spell Factory Full
+2015-08-18 10:35:07 : Time Idle: 00:09:06
+2015-08-18 10:35:07 : ====== Waiting for full army ======
+2015-08-18 10:35:19 : Checking Army Camp...
+2015-08-18 10:35:21 : Total Army Camp capacity: 132/220
+2015-08-18 10:35:22 :  - No. of Barbarians: 24
+2015-08-18 10:35:22 :  - No. of Archers: 108
+2015-08-18 10:35:23 : Training Troops...
+2015-08-18 10:35:34 : Spell Factory Full
+2015-08-18 10:35:36 : Time Idle: 00:09:34
+2015-08-18 10:35:36 : ====== Waiting for full army ======
+2015-08-18 10:35:48 : Checking Army Camp...
+2015-08-18 10:35:50 : Total Army Camp capacity: 137/220
+2015-08-18 10:35:51 :  - No. of Barbarians: 29
+2015-08-18 10:35:51 :  - No. of Archers: 108
+2015-08-18 10:35:52 : Training Troops...
+2015-08-18 10:35:54 : ClashGameBot was Paused!
+2015-08-18 10:36:47 : ClashGameBot was Resumed.
+2015-08-18 10:36:56 : Spell Factory not found...
+2015-08-18 10:37:01 : Waiting for Main Screen
+2015-08-18 10:37:05 : Trying to locate Main Screen
+2015-08-18 10:37:05 : Main Screen Located
+2015-08-18 10:37:06 : Village Report
+2015-08-18 10:37:06 : No. of Free/Total Builders: 0/4
+2015-08-18 10:37:06 :  [T]: 2 531
+2015-08-18 10:37:07 :  [G]: 6 428 858 [E]: 5 314 991 [D]: 12 280 [GEM]: 17
+2015-08-18 10:37:07 : Collecting Resources
+2015-08-18 10:37:21 : Chat Request: witch pls
+2015-08-18 10:37:21 : Witches Keyword found: witch
+2015-08-18 10:37:24 : No Witches available to donate..
+2015-08-18 10:37:26 : Checking Army Camp...
+2015-08-18 10:37:28 : Total Army Camp capacity: 156/220
+2015-08-18 10:37:29 :  - No. of Barbarians: 48
+2015-08-18 10:37:30 :  - No. of Archers: 108
+2015-08-18 10:37:30 : Training Troops...

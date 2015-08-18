@@ -1,0 +1,608 @@
+2015-08-17 01:11:51 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-17 01:11:51 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-17 01:11:51 : =================== Bot Start ====================
+2015-08-17 01:11:51 : -------------------------  Current Profile: 01 --------------------------
+2015-08-17 01:11:51 : Trying to locate Main Screen
+2015-08-17 01:11:52 : Waiting for Main Screen
+2015-08-17 01:11:55 : Main Screen Located
+2015-08-17 01:11:56 : Detecting your Buildings..
+2015-08-17 01:12:02 : Language setting is English: Correct.
+2015-08-17 01:12:03 : Trying to locate Main Screen
+2015-08-17 01:12:03 : Main Screen Located
+2015-08-17 01:12:05 : Village Report
+2015-08-17 01:12:05 : No. of Free/Total Builders: 0/4
+2015-08-17 01:12:05 :  [T]: 2 688
+2015-08-17 01:12:05 :  [G]: 2 434 432 [E]: 2 394 428 [D]: 17 333 [GEM]: 57
+2015-08-17 01:12:06 : Collecting Resources
+2015-08-17 01:12:16 : Checking Army Camp...
+2015-08-17 01:12:18 : Total Army Camp capacity: 18/220
+2015-08-17 01:12:19 :  - No. of Archers: 18
+2015-08-17 01:12:19 : Barracks and Spell factory status: 
+2015-08-17 01:12:19 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-17 01:12:19 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-17 01:12:19 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 01:12:19 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 01:12:20 : Training Troops...
+2015-08-17 01:12:42 : Spell Factory Full
+2015-08-17 01:12:44 : 0
+2015-08-17 01:12:46 : Requesting Clan Castle Troops
+2015-08-17 01:12:46 : Request has already been made
+2015-08-17 01:12:48 : ====== Waiting for full army ======
+2015-08-17 01:13:00 : Checking Army Camp...
+2015-08-17 01:13:01 : Total Army Camp capacity: 20/220
+2015-08-17 01:13:02 :  - No. of Archers: 20
+2015-08-17 01:13:03 : Training Troops...
+2015-08-17 01:13:20 : Spell Factory Full
+2015-08-17 01:13:29 : Waiting for Main Screen
+2015-08-17 01:13:35 : Waiting for Main Screen
+2015-08-17 01:13:37 : Time Idle: 00:00:49
+2015-08-17 01:13:37 : ====== Waiting for full army ======
+2015-08-17 01:13:49 : Checking Army Camp...
+2015-08-17 01:13:51 : Total Army Camp capacity: 29/220
+2015-08-17 01:13:52 :  - No. of Archers: 24
+2015-08-17 01:13:52 :  - No. of Giants: 1
+2015-08-17 01:13:53 : Training Troops...
+2015-08-17 01:14:11 : Spell Factory Full
+2015-08-17 01:14:16 : Waiting for Main Screen
+2015-08-17 01:14:18 : Time Idle: 00:01:29
+2015-08-17 01:14:18 : ====== Waiting for full army ======
+2015-08-17 01:14:30 : Checking Army Camp...
+2015-08-17 01:14:32 : Total Army Camp capacity: 29/220
+2015-08-17 01:14:33 :  - No. of Archers: 24
+2015-08-17 01:14:33 :  - No. of Giants: 1
+2015-08-17 01:14:34 : Training Troops...
+2015-08-17 01:14:51 : Spell Factory Full
+2015-08-17 01:14:57 : Waiting for Main Screen
+2015-08-17 01:14:59 : Time Idle: 00:02:10
+2015-08-17 01:14:59 : ====== Waiting for full army ======
+2015-08-17 01:15:11 : Checking Army Camp...
+2015-08-17 01:15:13 : Total Army Camp capacity: 34/220
+2015-08-17 01:15:14 :  - No. of Archers: 24
+2015-08-17 01:15:14 :  - No. of Giants: 2
+2015-08-17 01:15:15 : Training Troops...
+2015-08-17 01:15:33 : Spell Factory Full
+2015-08-17 01:15:38 : Waiting for Main Screen
+2015-08-17 01:15:40 : Time Idle: 00:02:51
+2015-08-17 01:15:41 : ====== Waiting for full army ======
+2015-08-17 01:15:42 : ClashGameBot was Paused!
+2015-08-17 01:15:49 : ClashGameBot was Resumed.
+2015-08-17 01:16:02 : Waiting for Main Screen
+2015-08-17 01:16:04 : Trying to locate Main Screen
+2015-08-17 01:16:04 : Main Screen Located
+2015-08-17 01:16:05 : Village Report
+2015-08-17 01:16:05 : No. of Free/Total Builders: 0/4
+2015-08-17 01:16:05 :  [T]: 2 688
+2015-08-17 01:16:06 :  [G]: 2 434 432 [E]: 2 389 947 [D]: 17 335 [GEM]: 57
+2015-08-17 01:16:06 : Collecting Resources
+2015-08-17 01:16:17 : Checking Army Camp...
+2015-08-17 01:16:18 : Total Army Camp capacity: 29/220
+2015-08-17 01:16:20 :  - No. of Archers: 24
+2015-08-17 01:16:20 :  - No. of Giants: 1
+2015-08-17 01:16:20 : Training Troops...
+2015-08-17 01:16:38 : Spell Factory Full
+2015-08-17 01:16:40 : 0
+2015-08-17 01:16:42 : Requesting Clan Castle Troops
+2015-08-17 01:16:48 : ====== Waiting for full army ======
+2015-08-17 01:16:59 : Checking Army Camp...
+2015-08-17 01:17:01 : Total Army Camp capacity: 29/220
+2015-08-17 01:17:02 :  - No. of Archers: 24
+2015-08-17 01:17:02 :  - No. of Giants: 1
+2015-08-17 01:17:03 : Training Troops...
+2015-08-17 01:17:21 : Spell Factory Full
+2015-08-17 01:17:23 : ClashGameBot was Paused!
+2015-08-17 01:17:47 : ClashGameBot was Resumed.
+2015-08-17 01:17:49 : Waiting for Main Screen
+2015-08-17 01:18:01 : Waiting for Main Screen
+2015-08-17 01:18:04 : Time Idle: 00:01:15
+2015-08-17 01:18:04 : ====== Waiting for full army ======
+2015-08-17 01:18:16 : Checking Army Camp...
+2015-08-17 01:18:17 : Total Army Camp capacity: 49/220
+2015-08-17 01:18:18 :  - No. of Archers: 24
+2015-08-17 01:18:19 :  - No. of Giants: 5
+2015-08-17 01:18:19 : Training Troops...
+2015-08-17 01:18:37 : Spell Factory Full
+2015-08-17 01:18:47 : Waiting for Main Screen
+2015-08-17 01:18:52 : Waiting for Main Screen
+2015-08-17 01:18:55 : Time Idle: 00:02:06
+2015-08-17 01:18:55 : ====== Waiting for full army ======
+2015-08-17 01:19:07 : Checking Army Camp...
+2015-08-17 01:19:08 : Total Army Camp capacity: 54/220
+2015-08-17 01:19:10 :  - No. of Archers: 24
+2015-08-17 01:19:10 :  - No. of Giants: 6
+2015-08-17 01:19:10 : Training Troops...
+2015-08-17 01:19:28 : Spell Factory Full
+2015-08-17 01:19:33 : Waiting for Main Screen
+2015-08-17 01:19:36 : Time Idle: 00:02:47
+2015-08-17 01:19:36 : ====== Waiting for full army ======
+2015-08-17 01:19:48 : Checking Army Camp...
+2015-08-17 01:19:49 : Total Army Camp capacity: 69/220
+2015-08-17 01:19:51 :  - No. of Archers: 24
+2015-08-17 01:19:51 :  - No. of Giants: 9
+2015-08-17 01:19:51 : Training Troops...
+2015-08-17 01:20:09 : Spell Factory Full
+2015-08-17 01:20:14 : Waiting for Main Screen
+2015-08-17 01:20:16 : Time Idle: 00:03:27
+2015-08-17 01:20:17 : ====== Waiting for full army ======
+2015-08-17 01:20:28 : Checking Army Camp...
+2015-08-17 01:20:30 : Total Army Camp capacity: 69/220
+2015-08-17 01:20:31 :  - No. of Archers: 24
+2015-08-17 01:20:32 :  - No. of Giants: 9
+2015-08-17 01:20:32 : Training Troops...
+2015-08-17 01:20:50 : Spell Factory Full
+2015-08-17 01:20:55 : Waiting for Main Screen
+2015-08-17 01:20:58 : Time Idle: 00:04:08
+2015-08-17 01:20:58 : ====== Waiting for full army ======
+2015-08-17 01:21:10 : Checking Army Camp...
+2015-08-17 01:21:11 : Total Army Camp capacity: 74/220
+2015-08-17 01:21:12 :  - No. of Archers: 24
+2015-08-17 01:21:13 :  - No. of Giants: 10
+2015-08-17 01:21:13 : Training Troops...
+2015-08-17 01:21:31 : Spell Factory Full
+2015-08-17 01:21:36 : Waiting for Main Screen
+2015-08-17 01:21:46 : Waiting for Main Screen
+2015-08-17 01:21:48 : Time Idle: 00:04:59
+2015-08-17 01:21:48 : ====== Waiting for full army ======
+2015-08-17 01:22:00 : Checking Army Camp...
+2015-08-17 01:22:02 : Total Army Camp capacity: 89/220
+2015-08-17 01:22:03 :  - No. of Archers: 24
+2015-08-17 01:22:03 :  - No. of Giants: 13
+2015-08-17 01:22:04 : Training Troops...
+2015-08-17 01:22:21 : Spell Factory Full
+2015-08-17 01:22:31 : Waiting for Main Screen
+2015-08-17 01:22:37 : Waiting for Main Screen
+2015-08-17 01:22:39 : Time Idle: 00:05:49
+2015-08-17 01:22:39 : ====== Waiting for full army ======
+2015-08-17 01:22:51 : Collecting Resources
+2015-08-17 01:22:57 : Checking Army Camp...
+2015-08-17 01:22:59 : Total Army Camp capacity: 89/220
+2015-08-17 01:23:00 :  - No. of Archers: 24
+2015-08-17 01:23:00 :  - No. of Giants: 13
+2015-08-17 01:23:01 : Training Troops...
+2015-08-17 01:23:20 : Spell Factory Full
+2015-08-17 01:23:20 : Created 1 Spell(s)
+2015-08-17 01:23:25 : Waiting for Main Screen
+2015-08-17 01:23:27 : Time Idle: 00:06:38
+2015-08-17 01:23:28 : ====== Waiting for full army ======
+2015-08-17 01:23:39 : Checking Army Camp...
+2015-08-17 01:23:41 : Total Army Camp capacity: 109/220
+2015-08-17 01:23:42 :  - No. of Archers: 24
+2015-08-17 01:23:42 :  - No. of Giants: 17
+2015-08-17 01:23:43 : Training Troops...
+2015-08-17 01:24:02 : Spell Factory Full
+2015-08-17 01:24:07 : Waiting for Main Screen
+2015-08-17 01:24:09 : Time Idle: 00:07:19
+2015-08-17 01:24:09 : ====== Waiting for full army ======
+2015-08-17 01:24:21 : Checking Army Camp...
+2015-08-17 01:24:23 : Total Army Camp capacity: 109/220
+2015-08-17 01:24:24 :  - No. of Archers: 24
+2015-08-17 01:24:24 :  - No. of Giants: 17
+2015-08-17 01:24:25 : Training Troops...
+2015-08-17 01:24:43 : Spell Factory Full
+2015-08-17 01:24:49 : Waiting for Main Screen
+2015-08-17 01:24:51 : Time Idle: 00:08:00
+2015-08-17 01:24:51 : ====== Waiting for full army ======
+2015-08-17 01:25:03 : Checking Army Camp...
+2015-08-17 01:25:05 : Total Army Camp capacity: 114/220
+2015-08-17 01:25:06 :  - No. of Archers: 24
+2015-08-17 01:25:06 :  - No. of Giants: 18
+2015-08-17 01:25:07 : Training Troops...
+2015-08-17 01:25:25 : Spell Factory Full
+2015-08-17 01:25:31 : Waiting for Main Screen
+2015-08-17 01:25:40 : Waiting for Main Screen
+2015-08-17 01:25:43 : Time Idle: 00:08:52
+2015-08-17 01:25:43 : ====== Waiting for full army ======
+2015-08-17 01:25:55 : Checking Army Camp...
+2015-08-17 01:25:57 : Total Army Camp capacity: 114/220
+2015-08-17 01:25:58 :  - No. of Archers: 24
+2015-08-17 01:25:58 :  - No. of Giants: 18
+2015-08-17 01:25:59 : Training Troops...
+2015-08-17 01:26:18 : Spell Factory Full
+2015-08-17 01:26:27 : Waiting for Main Screen
+2015-08-17 01:26:33 : Waiting for Main Screen
+2015-08-17 01:26:35 : Time Idle: 00:09:44
+2015-08-17 01:26:35 : ====== Waiting for full army ======
+2015-08-17 01:26:47 : Checking Army Camp...
+2015-08-17 01:26:49 : Total Army Camp capacity: 114/220
+2015-08-17 01:26:50 :  - No. of Archers: 24
+2015-08-17 01:26:50 :  - No. of Giants: 18
+2015-08-17 01:26:51 : Training Troops...
+2015-08-17 01:27:10 : Spell Factory Full
+2015-08-17 01:27:15 : Waiting for Main Screen
+2015-08-17 01:27:17 : Time Idle: 00:10:26
+2015-08-17 01:27:18 : ====== Waiting for full army ======
+2015-08-17 01:27:29 : Checking Army Camp...
+2015-08-17 01:27:31 : Total Army Camp capacity: 114/220
+2015-08-17 01:27:32 :  - No. of Archers: 24
+2015-08-17 01:27:33 :  - No. of Giants: 18
+2015-08-17 01:27:33 : Training Troops...
+2015-08-17 01:27:52 : Spell Factory Full
+2015-08-17 01:27:57 : Waiting for Main Screen
+2015-08-17 01:28:00 : Time Idle: 00:11:08
+2015-08-17 01:28:00 : ====== Waiting for full army ======
+2015-08-17 01:28:12 : Checking Army Camp...
+2015-08-17 01:28:13 : Total Army Camp capacity: 114/220
+2015-08-17 01:28:14 :  - No. of Archers: 24
+2015-08-17 01:28:15 :  - No. of Giants: 18
+2015-08-17 01:28:15 : Training Troops...
+2015-08-17 01:28:34 : Spell Factory Full
+2015-08-17 01:28:39 : Waiting for Main Screen
+2015-08-17 01:28:41 : Time Idle: 00:11:50
+2015-08-17 01:28:42 : ====== Waiting for full army ======
+2015-08-17 01:28:53 : Checking Army Camp...
+2015-08-17 01:28:55 : Total Army Camp capacity: 114/220
+2015-08-17 01:28:56 :  - No. of Archers: 24
+2015-08-17 01:28:57 :  - No. of Giants: 18
+2015-08-17 01:28:57 : Training Troops...
+2015-08-17 01:29:16 : Spell Factory Full
+2015-08-17 01:29:21 : Waiting for Main Screen
+2015-08-17 01:29:31 : Waiting for Main Screen
+2015-08-17 01:29:33 : Time Idle: 00:12:41
+2015-08-17 01:29:33 : ====== Waiting for full army ======
+2015-08-17 01:29:45 : Checking Army Camp...
+2015-08-17 01:29:47 : Total Army Camp capacity: 114/220
+2015-08-17 01:29:48 :  - No. of Archers: 24
+2015-08-17 01:29:48 :  - No. of Giants: 18
+2015-08-17 01:29:49 : Training Troops...
+2015-08-17 01:30:08 : Spell Factory Full
+2015-08-17 01:30:18 : Waiting for Main Screen
+2015-08-17 01:30:23 : Waiting for Main Screen
+2015-08-17 01:30:26 : Time Idle: 00:13:33
+2015-08-17 01:30:26 : ====== Waiting for full army ======
+2015-08-17 01:30:38 : Checking Army Camp...
+2015-08-17 01:30:39 : Total Army Camp capacity: 114/220
+2015-08-17 01:30:41 :  - No. of Archers: 24
+2015-08-17 01:30:41 :  - No. of Giants: 18
+2015-08-17 01:30:41 : Training Troops...
+2015-08-17 01:31:00 : Spell Factory Full
+2015-08-17 01:31:05 : Waiting for Main Screen
+2015-08-17 01:31:08 : Time Idle: 00:14:15
+2015-08-17 01:31:08 : ====== Waiting for full army ======
+2015-08-17 01:31:20 : Collecting Resources
+2015-08-17 01:31:25 : Checking Army Camp...
+2015-08-17 01:31:27 : Total Army Camp capacity: 122/220
+2015-08-17 01:31:28 :  - No. of Archers: 24
+2015-08-17 01:31:28 :  - No. of Giants: 18
+2015-08-17 01:31:28 :  - No. of Wizards: 3
+2015-08-17 01:31:29 : Training Troops...
+2015-08-17 01:31:48 : Spell Factory Full
+2015-08-17 01:31:53 : Waiting for Main Screen
+2015-08-17 01:31:55 : Time Idle: 00:15:02
+2015-08-17 01:31:55 : ====== Waiting for full army ======
+2015-08-17 01:32:07 : Checking Army Camp...
+2015-08-17 01:32:09 : Total Army Camp capacity: 126/220
+2015-08-17 01:32:10 :  - No. of Archers: 24
+2015-08-17 01:32:10 :  - No. of Giants: 18
+2015-08-17 01:32:10 :  - No. of Wizards: 3
+2015-08-17 01:32:11 : Training Troops...
+2015-08-17 01:32:30 : Spell Factory Full
+2015-08-17 01:32:35 : Waiting for Main Screen
+2015-08-17 01:32:37 : Time Idle: 00:15:44
+2015-08-17 01:32:38 : ====== Waiting for full army ======
+2015-08-17 01:32:50 : Checking Army Camp...
+2015-08-17 01:32:51 : Total Army Camp capacity: 126/220
+2015-08-17 01:32:53 :  - No. of Archers: 24
+2015-08-17 01:32:53 :  - No. of Giants: 18
+2015-08-17 01:32:53 :  - No. of Wizards: 3
+2015-08-17 01:32:54 : Training Troops...
+2015-08-17 01:33:12 : Spell Factory Full
+2015-08-17 01:33:17 : Waiting for Main Screen
+2015-08-17 01:33:27 : Waiting for Main Screen
+2015-08-17 01:33:30 : Time Idle: 00:16:36
+2015-08-17 01:33:30 : ====== Waiting for full army ======
+2015-08-17 01:33:42 : Checking Army Camp...
+2015-08-17 01:33:44 : Total Army Camp capacity: 130/220
+2015-08-17 01:33:45 :  - No. of Archers: 24
+2015-08-17 01:33:45 :  - No. of Giants: 18
+2015-08-17 01:33:45 :  - No. of Wizards: 4
+2015-08-17 01:33:46 : Training Troops...
+2015-08-17 01:34:04 : Spell Factory Full
+2015-08-17 01:34:14 : Waiting for Main Screen
+2015-08-17 01:34:19 : Waiting for Main Screen
+2015-08-17 01:34:22 : Time Idle: 00:17:28
+2015-08-17 01:34:22 : ====== Waiting for full army ======
+2015-08-17 01:34:34 : Checking Army Camp...
+2015-08-17 01:34:36 : Total Army Camp capacity: 130/220
+2015-08-17 01:34:37 :  - No. of Archers: 24
+2015-08-17 01:34:37 :  - No. of Giants: 18
+2015-08-17 01:34:37 :  - No. of Wizards: 4
+2015-08-17 01:34:38 : Training Troops...
+2015-08-17 01:34:57 : Spell Factory Full
+2015-08-17 01:35:02 : Waiting for Main Screen
+2015-08-17 01:35:04 : Time Idle: 00:18:11
+2015-08-17 01:35:05 : ====== Waiting for full army ======
+2015-08-17 01:35:16 : Checking Army Camp...
+2015-08-17 01:35:18 : Total Army Camp capacity: 130/220
+2015-08-17 01:35:19 :  - No. of Archers: 24
+2015-08-17 01:35:19 :  - No. of Giants: 18
+2015-08-17 01:35:20 :  - No. of Wizards: 4
+2015-08-17 01:35:20 : Training Troops...
+2015-08-17 01:35:39 : Spell Factory Full
+2015-08-17 01:35:44 : Waiting for Main Screen
+2015-08-17 01:35:46 : Time Idle: 00:18:52
+2015-08-17 01:35:47 : ====== Waiting for full army ======
+2015-08-17 01:35:58 : Checking Army Camp...
+2015-08-17 01:36:00 : Total Army Camp capacity: 130/220
+2015-08-17 01:36:01 :  - No. of Archers: 24
+2015-08-17 01:36:02 :  - No. of Giants: 18
+2015-08-17 01:36:02 :  - No. of Wizards: 4
+2015-08-17 01:36:02 : Training Troops...
+2015-08-17 01:36:21 : Spell Factory Full
+2015-08-17 01:36:26 : Waiting for Main Screen
+2015-08-17 01:36:29 : Time Idle: 00:19:34
+2015-08-17 01:36:29 : ====== Waiting for full army ======
+2015-08-17 01:36:41 : Checking Army Camp...
+2015-08-17 01:36:43 : Total Army Camp capacity: 130/220
+2015-08-17 01:36:44 :  - No. of Archers: 24
+2015-08-17 01:36:44 :  - No. of Giants: 18
+2015-08-17 01:36:44 :  - No. of Wizards: 4
+2015-08-17 01:36:45 : Training Troops...
+2015-08-17 01:37:03 : Spell Factory Full
+2015-08-17 01:37:08 : Waiting for Main Screen
+2015-08-17 01:37:18 : Waiting for Main Screen
+2015-08-17 01:37:20 : Time Idle: 00:20:26
+2015-08-17 01:37:21 : ====== Waiting for full army ======
+2015-08-17 01:37:33 : Checking Army Camp...
+2015-08-17 01:37:34 : Total Army Camp capacity: 130/220
+2015-08-17 01:37:36 :  - No. of Archers: 24
+2015-08-17 01:37:36 :  - No. of Giants: 18
+2015-08-17 01:37:36 :  - No. of Wizards: 4
+2015-08-17 01:37:37 : Training Troops...
+2015-08-17 01:37:55 : Spell Factory Full
+2015-08-17 01:38:05 : Waiting for Main Screen
+2015-08-17 01:38:11 : Waiting for Main Screen
+2015-08-17 01:38:13 : Time Idle: 00:21:18
+2015-08-17 01:38:13 : ====== Waiting for full army ======
+2015-08-17 01:38:25 : Checking Army Camp...
+2015-08-17 01:38:27 : Total Army Camp capacity: 130/220
+2015-08-17 01:38:28 :  - No. of Archers: 24
+2015-08-17 01:38:28 :  - No. of Giants: 18
+2015-08-17 01:38:28 :  - No. of Wizards: 4
+2015-08-17 01:38:29 : Training Troops...
+2015-08-17 01:38:48 : Spell Factory Full
+2015-08-17 01:38:53 : Waiting for Main Screen
+2015-08-17 01:38:56 : Time Idle: 00:22:01
+2015-08-17 01:38:56 : ====== Waiting for full army ======
+2015-08-17 01:39:08 : Checking Army Camp...
+2015-08-17 01:39:10 : Total Army Camp capacity: 130/220
+2015-08-17 01:39:11 :  - No. of Archers: 24
+2015-08-17 01:39:11 :  - No. of Giants: 18
+2015-08-17 01:39:11 :  - No. of Wizards: 4
+2015-08-17 01:39:12 : Training Troops...
+2015-08-17 01:39:30 : Spell Factory Full
+2015-08-17 01:39:35 : Waiting for Main Screen
+2015-08-17 01:39:38 : Time Idle: 00:22:42
+2015-08-17 01:39:38 : ====== Waiting for full army ======
+2015-08-17 01:39:50 : Collecting Resources
+2015-08-17 01:39:56 : Checking Army Camp...
+2015-08-17 01:39:58 : Total Army Camp capacity: 142/220
+2015-08-17 01:39:59 :  - No. of Archers: 24
+2015-08-17 01:39:59 :  - No. of Giants: 18
+2015-08-17 01:39:59 :  - No. of Wizards: 7
+2015-08-17 01:40:00 : Training Troops...
+2015-08-17 01:40:19 : Spell Factory Full
+2015-08-17 01:40:24 : Waiting for Main Screen
+2015-08-17 01:40:26 : Time Idle: 00:23:31
+2015-08-17 01:40:27 : ====== Waiting for full army ======
+2015-08-17 01:40:38 : Checking Army Camp...
+2015-08-17 01:40:40 : Total Army Camp capacity: 142/220
+2015-08-17 01:40:41 :  - No. of Archers: 24
+2015-08-17 01:40:42 :  - No. of Giants: 18
+2015-08-17 01:40:42 :  - No. of Wizards: 7
+2015-08-17 01:40:42 : Training Troops...
+2015-08-17 01:41:01 : Spell Factory Full
+2015-08-17 01:41:06 : Waiting for Main Screen
+2015-08-17 01:41:16 : Waiting for Main Screen
+2015-08-17 01:41:19 : Time Idle: 00:24:23
+2015-08-17 01:41:19 : ====== Waiting for full army ======
+2015-08-17 01:41:31 : Checking Army Camp...
+2015-08-17 01:41:33 : Total Army Camp capacity: 146/220
+2015-08-17 01:41:34 :  - No. of Archers: 24
+2015-08-17 01:41:34 :  - No. of Giants: 18
+2015-08-17 01:41:34 :  - No. of Wizards: 8
+2015-08-17 01:41:35 : Training Troops...
+2015-08-17 01:41:53 : Spell Factory Full
+2015-08-17 01:42:03 : Waiting for Main Screen
+2015-08-17 01:42:08 : Waiting for Main Screen
+2015-08-17 01:42:10 : Time Idle: 00:25:14
+2015-08-17 01:42:11 : ====== Waiting for full army ======
+2015-08-17 01:42:22 : Checking Army Camp...
+2015-08-17 01:42:24 : Total Army Camp capacity: 146/220
+2015-08-17 01:42:26 :  - No. of Archers: 24
+2015-08-17 01:42:26 :  - No. of Giants: 18
+2015-08-17 01:42:26 :  - No. of Wizards: 8
+2015-08-17 01:42:26 : Training Troops...
+2015-08-17 01:42:47 : Spell Factory Full
+2015-08-17 01:42:47 : Created 1 Spell(s)
+2015-08-17 01:42:52 : Waiting for Main Screen
+2015-08-17 01:42:54 : Time Idle: 00:25:58
+2015-08-17 01:42:54 : ====== Waiting for full army ======
+2015-08-17 01:43:06 : Checking Army Camp...
+2015-08-17 01:43:08 : Total Army Camp capacity: 146/220
+2015-08-17 01:43:09 :  - No. of Archers: 24
+2015-08-17 01:43:09 :  - No. of Giants: 18
+2015-08-17 01:43:09 :  - No. of Wizards: 8
+2015-08-17 01:43:10 : Training Troops...
+2015-08-17 01:43:29 : Spell Factory Full
+2015-08-17 01:43:34 : Waiting for Main Screen
+2015-08-17 01:43:36 : Time Idle: 00:26:39
+2015-08-17 01:43:36 : ====== Waiting for full army ======
+2015-08-17 01:43:48 : Checking Army Camp...
+2015-08-17 01:43:50 : Total Army Camp capacity: 146/220
+2015-08-17 01:43:51 :  - No. of Archers: 24
+2015-08-17 01:43:51 :  - No. of Giants: 18
+2015-08-17 01:43:51 :  - No. of Wizards: 8
+2015-08-17 01:43:52 : Training Troops...
+2015-08-17 01:44:11 : Spell Factory Full
+2015-08-17 01:44:16 : Found chat message: hogs
+2015-08-17 01:44:16 : Waiting for Main Screen
+2015-08-17 01:44:18 : Time Idle: 00:27:22
+2015-08-17 01:44:19 : ====== Waiting for full army ======
+2015-08-17 01:44:31 : Checking Army Camp...
+2015-08-17 01:44:33 : Total Army Camp capacity: 146/220
+2015-08-17 01:44:34 :  - No. of Archers: 24
+2015-08-17 01:44:34 :  - No. of Giants: 18
+2015-08-17 01:44:34 :  - No. of Wizards: 8
+2015-08-17 01:44:35 : Training Troops...
+2015-08-17 01:44:53 : Spell Factory Full
+2015-08-17 01:44:59 : Found chat message: hogs
+2015-08-17 01:44:59 : Waiting for Main Screen
+2015-08-17 01:45:08 : Waiting for Main Screen
+2015-08-17 01:45:11 : Time Idle: 00:28:14
+2015-08-17 01:45:11 : ====== Waiting for full army ======
+2015-08-17 01:45:23 : Checking Army Camp...
+2015-08-17 01:45:25 : Total Army Camp capacity: 146/220
+2015-08-17 01:45:26 :  - No. of Archers: 24
+2015-08-17 01:45:26 :  - No. of Giants: 18
+2015-08-17 01:45:26 :  - No. of Wizards: 8
+2015-08-17 01:45:27 : Training Troops...
+2015-08-17 01:45:46 : Spell Factory Full
+2015-08-17 01:45:55 : Waiting for Main Screen
+2015-08-17 01:46:01 : Waiting for Main Screen
+2015-08-17 01:46:03 : Time Idle: 00:29:06
+2015-08-17 01:46:03 : ====== Waiting for full army ======
+2015-08-17 01:46:15 : Checking Army Camp...
+2015-08-17 01:46:17 : Total Army Camp capacity: 146/220
+2015-08-17 01:46:18 :  - No. of Archers: 24
+2015-08-17 01:46:18 :  - No. of Giants: 18
+2015-08-17 01:46:18 :  - No. of Wizards: 8
+2015-08-17 01:46:19 : Training Troops...
+2015-08-17 01:46:38 : Spell Factory Full
+2015-08-17 01:46:43 : Waiting for Main Screen
+2015-08-17 01:46:45 : Time Idle: 00:29:48
+2015-08-17 01:46:46 : ====== Waiting for full army ======
+2015-08-17 01:46:58 : Checking Army Camp...
+2015-08-17 01:46:59 : Total Army Camp capacity: 146/220
+2015-08-17 01:47:01 :  - No. of Archers: 24
+2015-08-17 01:47:01 :  - No. of Giants: 18
+2015-08-17 01:47:01 :  - No. of Wizards: 8
+2015-08-17 01:47:01 : Training Troops...
+2015-08-17 01:47:20 : Spell Factory Full
+2015-08-17 01:47:25 : Waiting for Main Screen
+2015-08-17 01:47:27 : Time Idle: 00:30:29
+2015-08-17 01:47:27 : ====== Waiting for full army ======
+2015-08-17 01:47:39 : Checking Army Camp...
+2015-08-17 01:47:41 : Total Army Camp capacity: 158/220
+2015-08-17 01:47:42 :  - No. of Archers: 24
+2015-08-17 01:47:42 :  - No. of Giants: 18
+2015-08-17 01:47:42 :  - No. of Wizards: 11
+2015-08-17 01:47:43 : Training Troops...
+2015-08-17 01:48:02 : Spell Factory Full
+2015-08-17 01:48:07 : Waiting for Main Screen
+2015-08-17 01:48:10 : Time Idle: 00:31:11
+2015-08-17 01:48:10 : ====== Waiting for full army ======
+2015-08-17 01:48:22 : Collecting Resources
+2015-08-17 01:48:27 : Checking Army Camp...
+2015-08-17 01:48:29 : Total Army Camp capacity: 158/220
+2015-08-17 01:48:30 :  - No. of Archers: 24
+2015-08-17 01:48:30 :  - No. of Giants: 18
+2015-08-17 01:48:31 :  - No. of Wizards: 11
+2015-08-17 01:48:31 : Training Troops...
+2015-08-17 01:48:50 : Spell Factory Full
+2015-08-17 01:48:55 : Waiting for Main Screen
+2015-08-17 01:49:05 : Waiting for Main Screen
+2015-08-17 01:49:08 : Time Idle: 00:32:09
+2015-08-17 01:49:08 : ====== Waiting for full army ======
+2015-08-17 01:49:20 : Checking Army Camp...
+2015-08-17 01:49:22 : Total Army Camp capacity: 162/220
+2015-08-17 01:49:23 :  - No. of Archers: 24
+2015-08-17 01:49:23 :  - No. of Giants: 18
+2015-08-17 01:49:23 :  - No. of Wizards: 12
+2015-08-17 01:49:24 : Training Troops...
+2015-08-17 01:49:43 : Spell Factory Full
+2015-08-17 01:49:52 : Waiting for Main Screen
+2015-08-17 01:49:57 : Waiting for Main Screen
+2015-08-17 01:50:00 : Time Idle: 00:33:01
+2015-08-17 01:50:00 : ====== Waiting for full army ======
+2015-08-17 01:50:12 : Checking Army Camp...
+2015-08-17 01:50:14 : Total Army Camp capacity: 162/220
+2015-08-17 01:50:15 :  - No. of Archers: 24
+2015-08-17 01:50:15 :  - No. of Giants: 18
+2015-08-17 01:50:15 :  - No. of Wizards: 12
+2015-08-17 01:50:16 : Training Troops...
+2015-08-17 01:50:34 : Spell Factory Full
+2015-08-17 01:50:40 : Waiting for Main Screen
+2015-08-17 01:50:42 : Time Idle: 00:33:43
+2015-08-17 01:50:42 : ====== Waiting for full army ======
+2015-08-17 01:50:54 : Checking Army Camp...
+2015-08-17 01:50:56 : Total Army Camp capacity: 162/220
+2015-08-17 01:50:57 :  - No. of Archers: 24
+2015-08-17 01:50:57 :  - No. of Giants: 18
+2015-08-17 01:50:57 :  - No. of Wizards: 12
+2015-08-17 01:50:58 : Training Troops...
+2015-08-17 01:51:17 : Spell Factory Full
+2015-08-17 01:51:22 : Waiting for Main Screen
+2015-08-17 01:51:24 : Time Idle: 00:34:25
+2015-08-17 01:51:24 : ====== Waiting for full army ======
+2015-08-17 01:51:36 : Checking Army Camp...
+2015-08-17 01:51:38 : Total Army Camp capacity: 162/220
+2015-08-17 01:51:39 :  - No. of Archers: 24
+2015-08-17 01:51:39 :  - No. of Giants: 18
+2015-08-17 01:51:39 :  - No. of Wizards: 12
+2015-08-17 01:51:40 : Training Troops...
+2015-08-17 01:51:59 : Spell Factory Full
+2015-08-17 01:52:04 : Waiting for Main Screen
+2015-08-17 01:52:06 : Time Idle: 00:35:07
+2015-08-17 01:52:06 : ====== Waiting for full army ======
+2015-08-17 01:52:18 : Checking Army Camp...
+2015-08-17 01:52:20 : Total Army Camp capacity: 162/220
+2015-08-17 01:52:21 :  - No. of Archers: 24
+2015-08-17 01:52:21 :  - No. of Giants: 18
+2015-08-17 01:52:22 :  - No. of Wizards: 12
+2015-08-17 01:52:22 : Training Troops...
+2015-08-17 01:52:41 : Spell Factory Full
+2015-08-17 01:52:46 : Waiting for Main Screen
+2015-08-17 01:52:56 : Waiting for Main Screen
+2015-08-17 01:52:59 : Time Idle: 00:35:59
+2015-08-17 01:52:59 : ====== Waiting for full army ======
+2015-08-17 01:53:11 : Checking Army Camp...
+2015-08-17 01:53:13 : Total Army Camp capacity: 162/220
+2015-08-17 01:53:14 :  - No. of Archers: 24
+2015-08-17 01:53:14 :  - No. of Giants: 18
+2015-08-17 01:53:14 :  - No. of Wizards: 12
+2015-08-17 01:53:15 : Training Troops...
+2015-08-17 01:53:33 : Spell Factory Full
+2015-08-17 01:53:43 : Waiting for Main Screen
+2015-08-17 01:53:49 : Waiting for Main Screen
+2015-08-17 01:53:51 : Time Idle: 00:36:51
+2015-08-17 01:53:51 : ====== Waiting for full army ======
+2015-08-17 01:54:03 : Checking Army Camp...
+2015-08-17 01:54:05 : Total Army Camp capacity: 162/220
+2015-08-17 01:54:06 :  - No. of Archers: 24
+2015-08-17 01:54:06 :  - No. of Giants: 18
+2015-08-17 01:54:06 :  - No. of Wizards: 12
+2015-08-17 01:54:07 : Training Troops...
+2015-08-17 01:54:26 : Spell Factory Full
+2015-08-17 01:54:31 : Waiting for Main Screen
+2015-08-17 01:54:33 : Time Idle: 00:37:33
+2015-08-17 01:54:34 : ====== Waiting for full army ======
+2015-08-17 01:54:45 : Checking Army Camp...
+2015-08-17 01:54:47 : Total Army Camp capacity: 162/220
+2015-08-17 01:54:48 :  - No. of Archers: 24
+2015-08-17 01:54:49 :  - No. of Giants: 18
+2015-08-17 01:54:49 :  - No. of Wizards: 12
+2015-08-17 01:54:49 : Training Troops...
+2015-08-17 01:55:08 : Spell Factory Full
+2015-08-17 01:55:13 : Waiting for Main Screen
+2015-08-17 01:55:16 : Time Idle: 00:38:15
+2015-08-17 01:55:16 : ====== Waiting for full army ======
+2015-08-17 01:55:28 : Checking Army Camp...
+2015-08-17 01:55:30 : Total Army Camp capacity: 174/220
+2015-08-17 01:55:31 :  - No. of Archers: 24
+2015-08-17 01:55:31 :  - No. of Giants: 18
+2015-08-17 01:55:31 :  - No. of Wizards: 15
+2015-08-17 01:55:32 : Training Troops...
+2015-08-17 01:55:50 : Spell Factory Full
+2015-08-17 01:55:55 : Waiting for Main Screen
+2015-08-17 01:55:58 : Time Idle: 00:38:57
+2015-08-17 01:55:58 : ====== Waiting for full army ======
+2015-08-17 01:56:10 : Checking Army Camp...
+2015-08-17 01:56:12 : Total Army Camp capacity: 174/220
+2015-08-17 01:56:13 :  - No. of Archers: 24
+2015-08-17 01:56:13 :  - No. of Giants: 18
+2015-08-17 01:56:13 :  - No. of Wizards: 15
+2015-08-17 01:56:14 : Training Troops...
+2015-08-17 01:56:33 : Spell Factory Full
+2015-08-17 01:56:38 : Waiting for Main Screen
+2015-08-17 01:56:48 : Waiting for Main Screen
+2015-08-17 01:56:50 : Time Idle: 00:39:49
+2015-08-17 01:56:50 : ====== Waiting for full army ======

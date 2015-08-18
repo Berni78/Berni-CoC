@@ -22,9 +22,14 @@ $tabDonate = GUICtrlCreateTabItem("Donate")
 		GUICtrlCreateIcon($pIconLib, $eIcnCC, $x - 5, $y, 32, 32, $BS_ICON)
 		$chkRequest = GUICtrlCreateCheckbox("Request for:", $x + 35, $y + 5, -1, -1)
 			GUICtrlSetOnEvent(-1, "chkRequest")
-		$txtRequest = GUICtrlCreateInput("Anything please", $x + 115, $y + 5, 305, -1)
+		$txtRequest = GUICtrlCreateInput("Anything please", $x + 115, $y + 5, 200, -1)
 			GUICtrlSetState(-1, $GUI_DISABLE)
 			GUICtrlSetTip(-1, "This text is used on your request for troops in the Clan chat.")
+    $gtfo = GUICtrlCreateCheckbox("GTFO", 360, 156, 45, 17)
+            GUICtrlSetTip(-1, "Kick after donating..")
+    $cmbgtfo = GUICtrlCreateCombo("", 414, 154, 30, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+            GUICtrlSetTip(-1, "Number of new members you want to kick..")
+            GUICtrlSetData(-1, "1|2|3|4|5|6|7|8|9|10", "5")
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 
 $y += 70
@@ -136,12 +141,18 @@ $y += 40
 		GUICtrlSetOnEvent(-1, "btnDonateLavaHounds")
 
 	;;; Custom Combination Donate by ChiefM3
-	$lblBtnCustom = GUICtrlCreateLabel("", $x + 363, $y - 22, 42, 42)
+	$lblBtnCustom = GUICtrlCreateLabel("", $x + 363, $y - 47, 42, 42)
 		GUICtrlSetBkColor(-1, $GUI_BKCOLOR_TRANSPARENT)
 		GUICtrlSetState(-1, $GUI_DISABLE)
-	$btnCustom = GUICtrlCreateButton("Custom", $x + 365, $y - 20, 38, 38, $BS_ICON)
+	$btnCustom = GUICtrlCreateButton("Custom", $x + 365, $y - 45, 38, 38, $BS_ICON)
 		GUICtrlSetImage (-1, $pIconLib, $eIcnDonCustom, 1) ;;; cross swords icon
 		GUICtrlSetOnEvent(-1, "btnDonateCustom")
+
+   ;;;AllSubTroops Donate
+    $donateAllSub = GUICtrlCreateCheckbox("Sub Troop", 380, 262, 70, 17)
+           GUICtrlSetTip(-1, "Subtitute troop if no current donate troops to be found..")
+        $cmbDonateAllSub = GUICtrlCreateCombo("", 380, 282, 75, 17, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+    GUICtrlSetData(-1, "Barbarians|Archers|Goblins|Giants|WallBreakers|Balloons|Wizards|Healers|dragons|Pekkas|Minions|Hogs|Valkyries|Golems|Witches|Lavahounds", "Archer")
 
 $x += 2
 $y += 75

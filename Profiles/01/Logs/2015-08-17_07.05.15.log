@@ -1,0 +1,60 @@
+2015-08-17 07:05:16 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-17 07:05:16 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-17 07:05:16 : =================== Bot Start ====================
+2015-08-17 07:05:16 : -------------------------  Current Profile: 01 --------------------------
+2015-08-17 07:05:16 : Trying to locate Main Screen
+2015-08-17 07:05:19 : Please wait for CoC restart......
+2015-08-17 07:05:39 : Waiting for Main Screen
+2015-08-17 07:05:39 : Zooming Out
+2015-08-17 07:05:40 : Main Screen Located
+2015-08-17 07:05:40 : Zooming Out
+2015-08-17 07:05:43 : Detecting your Buildings..
+2015-08-17 07:05:48 : Bad Army Camp location
+2015-08-17 07:05:48 : Locating Army Camp...
+2015-08-17 07:06:05 : Army Camp: (201,246)
+2015-08-17 07:06:10 : $TotalCamp = 220
+2015-08-17 07:06:13 : Language setting is English: Correct.
+2015-08-17 07:06:14 : Trying to locate Main Screen
+2015-08-17 07:06:14 : Main Screen Located
+2015-08-17 07:06:16 : Village Report
+2015-08-17 07:06:16 : No. of Free/Total Builders: 0/4
+2015-08-17 07:06:16 :  [T]: 2 714
+2015-08-17 07:06:16 :  [G]: 2 634 614 [E]: 2 735 706 [D]: 21 619 [GEM]: 57
+2015-08-17 07:06:17 : Collecting Resources
+2015-08-17 07:06:27 : Chat Request: wizard
+2015-08-17 07:06:27 : Wizards Keyword found: wiz
+2015-08-17 07:06:27 : Donating Wizards
+2015-08-17 07:06:29 : Chat Request: hogs
+2015-08-17 07:06:29 : Hog Riders Keyword found: hog
+2015-08-17 07:06:33 : No Hog Riders available to donate..
+2015-08-17 07:06:35 : Checking Army Camp...
+2015-08-17 07:06:37 : Total Army Camp capacity: 212/220
+2015-08-17 07:06:39 :  - No. of Archers: 62
+2015-08-17 07:06:40 :  - No. of Giants: 18
+2015-08-17 07:06:40 :  - No. of Wizards: 15
+2015-08-17 07:06:40 : Barracks and Spell factory status: 
+2015-08-17 07:06:40 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-17 07:06:40 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-17 07:06:40 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 07:06:40 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 07:06:40 : Training Troops...
+2015-08-17 07:07:03 : Spell Factory Full
+2015-08-17 07:07:05 : 0
+2015-08-17 07:07:06 : Requesting Clan Castle Troops
+2015-08-17 07:07:07 : Your Clan Castle is already full or you are not in a clan.
+2015-08-17 07:07:08 : ====== Waiting for full army ======
+2015-08-17 07:07:20 : Checking Army Camp...
+2015-08-17 07:07:22 : Total Army Camp capacity: 213/220
+2015-08-17 07:07:23 :  - No. of Archers: 63
+2015-08-17 07:07:23 :  - No. of Giants: 18
+2015-08-17 07:07:23 :  - No. of Wizards: 15
+2015-08-17 07:07:24 : Training Troops...
+2015-08-17 07:07:47 : Checking Army Camp...
+2015-08-17 07:07:49 : Total Army Camp capacity: 213/220
+2015-08-17 07:07:50 :  - No. of Archers: 63
+2015-08-17 07:07:50 :  - No. of Giants: 18
+2015-08-17 07:07:50 :  - No. of Wizards: 15
+2015-08-17 07:07:51 : Training Troops...
+2015-08-17 07:08:10 : Spell Factory Full
+2015-08-17 07:08:12 : Time Idle: 00:01:03
+2015-08-17 07:08:12 : ====== Waiting for full army ======

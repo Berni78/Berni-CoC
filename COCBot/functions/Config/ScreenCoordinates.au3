@@ -149,3 +149,4 @@ Global Const $aRtnHomeCheck1[4]      = [ 363, 548, 0x78C11C, 20]
 Global Const $aRtnHomeCheck2[4]      = [ 497, 548, 0x79C326, 20]
 Global Const $aRtnHomeCheck3[4]      = [ 284,  28, 0x41B1CD, 20]
 
+Global Const $MapCenter[2] = [430, 313] ; Map center location

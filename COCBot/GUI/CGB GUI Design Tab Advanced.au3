@@ -40,6 +40,8 @@
 		$y +=22
 		$chkAttackTH = GUICtrlCreateCheckbox("Attack Townhall Outside", $x, $y, -1, -1)
 			GUICtrlSetTip(-1, "Check this to Attack an exposed Townhall first. (Townhall outside of Walls)" & @CRLF & "TIP: Also tick 'Meet Townhall Outside' on the Search tab if you only want to search for bases with exposed Townhalls.")
+		$chkSnipeWhileTrain = GUICtrlCreateCheckbox("TH snipe while training army", $x + 200, $y, -1, -1) ; Snipe While Train MOD by ChiefM3
+        GUICtrlSetTip(-1, "Bot will try to TH snipe while training army.")
 ;		$y +=22
 ;		$chkLightSpell = GUICtrlCreateCheckbox("Hit Dark Elixir storage with Lightning Spell", $x, $y, -1, -1)
 ;			GUICtrlSetTip(-1, "Check this if you want to use lightning spells to steal Dark Elixir when bot meet Minimum Dark Elixir.")
@@ -99,7 +101,7 @@
 		$y+=25
 		$lblAttackTHType = GUICtrlCreateLabel("Attack Type:", $x + 10 , $y + 5, -1, 17, $SS_RIGHT)
 		$cmbAttackTHType = GUICtrlCreateCombo("",  $x + 95, $y, 105, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
-			GUICtrlSetData(-1, "Barch|Attack1:Normal|Attack2:eXtreme|Attack3:GBarch", "Attack1:Normal")
+			GUICtrlSetData(-1, "Barch|Attack1:Normal|Attack2:eXtreme|Attack3:Gbarch|Attack4:SmartBarch|Attack5:MasterGiBAM|Attack6:PB6|Attack7:THWizard|Attack8:THDragon", "Attack1:Normal")
 			GUICtrlSetState(-1, $GUI_DISABLE)
     GUICtrlCreateGroup("", -99, -99, 1, 1)
 
@@ -154,4 +156,51 @@
 			GUICtrlSetState(-1, $GUI_DISABLE)
 		GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 170, $y, 16, 16)
     GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+    ;;;;;;;;;;;;;;;;;
+    ;;; Toolbox
+    ;;;;;;;;;;;;;;;;;
+       Local $x = 28, $y = 430
+    $grpToolboxOptions = GUICtrlCreateGroup("Toolbox", $x - 20, $y - 20, 225, 90)
+        $chkToolboxModeBot = GUICtrlCreateCheckbox("Mode: Bot", $x, $y, 95, 20, $BS_PUSHLIKE)
+            $txtTip = "Check this if you want activate the Attack Toolbox during normal bot's attacks." & @CRLF & _
+                "WARNING: using the toolbox/hotkeys could screw the normal bot's attack behavior." & @CRLF & _
+                "The Toolbox should deactivate the hotkeys once the attack is finished and the bot take the screenshot." & @CRLF & _
+                "   Use with care."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxModeBot")
+        $y +=22
+        $chkToolboxModeSearch = GUICtrlCreateCheckbox("Mode: Search", $x, $y, 95, 20, $BS_PUSHLIKE)
+            $txtTip = "Check this if you want activate the Attack Toolbox when a base is found through Search Mode." & @CRLF & _
+                "This is be the 'normal' Toolbox usage. Search a base and use your mouse/keyboard to manually attack." & @CRLF & _
+                "The Toolbox should deactivate the hotkeys once the attack is done." & @CRLF & _
+                "   Enjoy it!"
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxModeSearch")
+        $x = 30 + 95
+        $y = 430
+        $chkToolboxModeWar = GUICtrlCreateCheckbox("Mode: War", $x, $y, 95, 42, $BS_PUSHLIKE)
+            $txtTip = "Check this if you want to keep the toolbox always active. Usefull for Wars probably." & @CRLF & _
+                "WARNING: when the hotkeys are active, you won't be able to use these keys on other applications!." & @CRLF & _
+                "The Toolbox will never deactivate the hotkeys. It's a responsability of yours." & @CRLF & _
+                "   Remeber, it's not my fault."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetFont(-1, 10, -1, -1, "Bad Blockhead")
+            GUICtrlSetOnEvent(-1, "chkToolboxModeWar")
+        $x = 28
+        $y = 430 + 22 + 22
+        ;$chkToolBoxDetach = GUICtrlCreateCheckbox("Integrate", $x, $y, 95, 20, $BS_PUSHLIKE)
+        $chkToolboxDetach = GUICtrlCreateCheckbox("Attached", $x, $y, 95, 20, $BS_PUSHLIKE)
+            $txtTip = "Attach/Detach the Attack Toolbox from the bot window, into its own movable toolbox-window."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxDetach")
+        $x = 30 + 95
+        $y = $y
+        ;$chkToolBoxSavePos = GUICtrlCreateCheckbox("Save Position", $x, $y, 95, 20, $BS_PUSHLIKE)
+        $chkToolboxSavePos = GUICtrlCreateCheckbox("Save Position", $x + 2, $y, 95, 20)
+            $txtTip = "Restore toolbox-window position instead of placing it at the top everytime."
+            GUICtrlSetTip(-1, $txtTip)
+            GUICtrlSetOnEvent(-1, "chkToolboxSavePos")
+    GUICtrlCreateGroup("", -99, -99, 1, 1)
+
 GUICtrlCreateTabItem("")

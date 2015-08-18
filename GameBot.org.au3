@@ -23,7 +23,7 @@
 #pragma compile(FileVersion, 4.1.1)
 #pragma compile(LegalCopyright, © http://gamebot.org)
 
-$sBotVersion = "v4.1.1"
+$sBotVersion = "v4.1.1-6 merge"
 $sBotTitle = "Clash Game Bot " & $sBotVersion
 Global $sBotDll = @ScriptDir & "\CGBPlugin.dll"
 
@@ -93,6 +93,7 @@ WEnd
 Func runBot() ;Bot that runs everything in order
 	$TotalTrainedTroops = 0
 	While 1
+		SWHTrainRevertNormal()
 		$Restart = False
 		$fullArmy = False
 		$CommandStop = -1
@@ -113,6 +114,7 @@ Func runBot() ;Bot that runs everything in order
 			if $RequestScreenshot = 1 then PushMsg("RequestScreenshot")
 				If _Sleep($iDelayRunBot3) Then Return
 			VillageReport()
+				ProfileSwitch()
 				If $OutOfGold = 1  And ($GoldCount >= $itxtRestartGold) Then  ; check if enough gold to begin searching again
 					$OutOfGold = 0  ; reset out of gold flag
 					Setlog("Switching back to normal after no gold to search ...", $COLOR_RED)
@@ -147,6 +149,7 @@ Func runBot() ;Bot that runs everything in order
 				If _Sleep($iDelayRunBot1) Then Return
 			    checkMainScreen(False)  ; required here due to many possible exits
 				If $Restart = True Then ContinueLoop
+			$iArmyPercent = 0
 			Train()
 				If _Sleep($iDelayRunBot1) Then Return
 			    checkMainScreen(False)
@@ -155,10 +158,12 @@ Func runBot() ;Bot that runs everything in order
 				If $Restart = True Then ContinueLoop
 			BoostSpellFactory()
 				If $Restart = True Then ContinueLoop
-			RequestCC()
-				If _Sleep($iDelayRunBot1) Then Return
-				checkMainScreen(False) ; required here due to many possible exits
+			BoostHeros()
 				If $Restart = True Then ContinueLoop
+			;RequestCC()
+			;	If _Sleep($iDelayRunBot1) Then Return
+			;	checkMainScreen(False) ; required here due to many possible exits
+			;	If $Restart = True Then ContinueLoop
 			If $iUnbreakableMode >= 1 Then
 				If Unbreakable() = True Then ContinueLoop
 			Endif
@@ -166,12 +171,31 @@ Func runBot() ;Bot that runs everything in order
 				If _Sleep($iDelayRunBot3) Then Return
 				checkMainScreen(False)  ; required here due to many possible exits
 				If $Restart = True Then ContinueLoop
-			UpgradeBuilding()
-				If _Sleep($iDelayRunBot3) Then Return
-				If $Restart = True Then ContinueLoop
+			If $FreeBuilder > $iSaveWallBldr Then
+				UpgradeHeroes()
+					If _Sleep($iDelayRunBot3) Then Return
+					checkMainScreen(False)  ; required here due to many possible exits
+					If $Restart = True Then ContinueLoop
+				UpgradeBuilding()
+					If _Sleep($iDelayRunBot3) Then Return
+					checkMainScreen(False)  ; required here due to many possible exits
+					If $Restart = True Then ContinueLoop
+			EndIf
 			UpgradeWall()
 				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
+
+			ClearObstacles()
+
+				If _Sleep($iDelayRunBot3) Then Return
+				If $Restart = True Then ContinueLoop
+
+			RequestCC()
+
+				If _Sleep($iDelayRunBot3) Then Return
+				;checkMainScreen(False) ; required here due to many possible exits
+				If $Restart = True Then ContinueLoop
+
 			Idle()
 				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
@@ -243,10 +267,64 @@ Func Idle() ;Sequence that runs until Full Army
 		EndIf
 		$iCollectCounter = $iCollectCounter + 1
 		if $CommandStop <> 0 Or $CommandStop <> 3 Then
-			Train()
-			If $Restart = True Then ExitLoop
-			If _Sleep($iDelayIdle1) Then ExitLoop
-			checkMainScreen(False)
+			If _GUICtrlComboBox_GetCurSel($cmbTroopComp) = 8 Then
+
+			   If (($CurCamp >= ($TotalCamp * 20/100)) and ($iArmyPercent < 20)) then
+					SetLog("====== Army more than 20% ======", $COLOR_GREEN)
+					Train()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					checkMainScreen(False)
+					RequestCC()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					;checkMainScreen(False)
+					$iArmyPercent = 20
+			   ElseIf (($CurCamp >= ($TotalCamp * 40/100)) and ($iArmyPercent < 40)) then
+					SetLog("====== Army more than 40% ======", $COLOR_GREEN)
+					Train()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					checkMainScreen(False)
+					RequestCC()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					;checkMainScreen(False)
+					$iArmyPercent = 40
+				ElseIf (($CurCamp >= ($TotalCamp * 60/100)) and ($iArmyPercent < 60)) then
+					SetLog("====== Army more than 60% ======", $COLOR_GREEN)
+					Train()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					checkMainScreen(False)
+					RequestCC()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					;checkMainScreen(False)
+					$iArmyPercent = 60
+				ElseIf (($CurCamp >= ($TotalCamp * 80/100)) and ($iArmyPercent < 80)) then
+					SetLog("====== Army more than 80% ======", $COLOR_GREEN)
+					Train()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					checkMainScreen(False)
+					RequestCC()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					;checkMainScreen(False)
+					$iArmyPercent = 80
+				Else
+					checkArmyCamp()
+					If $Restart = True Then ExitLoop
+					If _Sleep($iDelayIdle1) Then ExitLoop
+					checkMainScreen(False)
+				EndIf
+			Else
+				 Train()
+				 If $Restart = True Then ExitLoop
+				 If _Sleep($iDelayIdle1) Then ExitLoop
+				 checkMainScreen(False)
+			EndIf
 		endif
 		If _Sleep($iDelayIdle1) Then Return
 		If $CommandStop = 0 And $bTrainEnabled = True Then
@@ -271,6 +349,8 @@ Func Idle() ;Sequence that runs until Full Army
 		EndIf
 		If _Sleep($iDelayIdle1) Then Return
 		If $Restart = True Then ExitLoop
+		If $ichkIceBreaker = 1 then IceBreaker()
+		SnipeWhileTrain()
 		$TimeIdle += Round(TimerDiff($hTimer) / 1000, 2) ;In Seconds
 		SetLog("Time Idle: " & StringFormat("%02i", Floor(Floor($TimeIdle / 60) / 60)) & ":" & StringFormat("%02i", Floor(Mod(Floor($TimeIdle / 60), 60))) & ":" & StringFormat("%02i", Floor(Mod($TimeIdle, 60))))
 		If $OutOfGold = 1 Then Return
@@ -291,10 +371,22 @@ Func AttackMain() ;Main control for attack functions
 	VillageSearch()
 		If $OutOfGold = 1  Then Return ; Check flag for enough gold to search
 		If $Restart = True Then Return
+
+    ;;; ToolBox ;;;;;;;;;
+    If $ToolboxModeBot Then
+        _GUI_Toolbox_Show()
+    EndIf
+
 	PrepareAttack($iMatchMode)
 		If $Restart = True Then Return
 	;checkDarkElix()
 	;DEAttack()
+
+    ;;; ToolBox ;;;;;;;;;
+    If $ToolboxModeBot Then
+         _GUI_Toolbox_Activate()
+    EndIf
+
 		If $Restart = True Then Return
 	Attack()
 		If $Restart = True Then Return

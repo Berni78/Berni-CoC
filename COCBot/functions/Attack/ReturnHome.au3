@@ -18,6 +18,10 @@ Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 	Local $counter = 0
 	Local $hBitmap_Scaled
 
+	If $DisableOtherEBO = 1 And $DESideFound = True And $DESideEB = 1 And ($dropQueen = True Or $dropKing = True) Then
+		SaveandDisableEBO()
+		SetLog("Disabling Normal End Battle Options", $COLOR_GREEN)
+	EndIf
 	If $GoldChangeCheck = True Then
 		SetLog("Checking if the battle has finished", $COLOR_BLUE)
 		While GoldElixirChangeEBO()
@@ -40,8 +44,16 @@ Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 		EndIf
 	EndIf
 
+	If $DisableOtherEBO = 1 And $DESideFound = True And $DESideEB = 1 And ($dropQueen = True Or $dropKing = True) Then
+		RevertEBO()
+	EndIf
+
 	$checkKPower = False
 	$checkQPower = False
+    ;;; ToolBox ;;;;;;;;;
+    If $ToolboxModeBot Then
+         _GUI_Toolbox_Deactivate()
+    EndIf
 
 	If $iMatchMode = $TS And _GUICtrlComboBox_GetCurSel($cmbTroopComp) = 9 Then $FirstStart = True ;reset barracks upon return when TH sniping w/custom army
 
@@ -85,7 +97,13 @@ Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 	;push images if requested..
 	If $GoldChangeCheck = True Then
 		PushMsg("LastRaid")
+		PushMsg("LastRaidTxt")
 	EndIf
+
+    ;;; ToolBox ;;;;;;;;;
+    If $ToolboxModeBot Then
+        _GUI_Toolbox_Hide()
+    EndIf
 
 	ClickP($aReturnHomeButton, 1, 0, "#0101") ;Click Return Home Button
 

@@ -1,0 +1,118 @@
+2015-08-17 20:05:55 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-17 20:05:55 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-17 20:05:55 : =================== Bot Start ====================
+2015-08-17 20:05:55 : -------------------------  Current Profile: 01 --------------------------
+2015-08-17 20:05:56 : Trying to locate Main Screen
+2015-08-17 20:05:59 : Waiting for Main Screen
+2015-08-17 20:06:01 : Main Screen Located
+2015-08-17 20:06:02 : Detecting your Buildings..
+2015-08-17 20:06:07 : ClashGameBot was Paused!
+2015-08-17 20:08:11 : ClashGameBot was Resumed.
+2015-08-17 20:08:15 : Language setting is English: Correct.
+2015-08-17 20:08:16 : Trying to locate Main Screen
+2015-08-17 20:08:16 : Main Screen Located
+2015-08-17 20:08:17 : Village Report
+2015-08-17 20:08:17 : No. of Free/Total Builders: 0/4
+2015-08-17 20:08:17 :  [T]: 2 663
+2015-08-17 20:08:17 :  [G]: 2 979 169 [E]: 3 001 756 [D]: 32 286 [GEM]: 57
+2015-08-17 20:08:18 : Collecting Resources
+2015-08-17 20:08:31 : Chat Request: witch po sana
+2015-08-17 20:08:31 : Witches Keyword found: witch
+2015-08-17 20:08:34 : No Witches available to donate..
+2015-08-17 20:08:36 : Checking Army Camp...
+2015-08-17 20:08:38 : Total Army Camp capacity: 220/220
+2015-08-17 20:08:41 :  - No. of Barbarians: 48
+2015-08-17 20:08:41 :  - No. of Archers: 172
+2015-08-17 20:08:41 : Barracks and Spell factory status: 
+2015-08-17 20:08:41 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-17 20:08:41 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-17 20:08:41 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 20:08:41 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 20:08:41 : Training Troops...
+2015-08-17 20:08:42 : Your Army Camps are now Full
+2015-08-17 20:08:42 : Too many Arch, train last.
+2015-08-17 20:08:42 : Too few Barb, train first.
+2015-08-17 20:09:02 : Spell Factory not found...
+2015-08-17 20:09:04 : 0
+2015-08-17 20:09:06 : Requesting Clan Castle Troops
+2015-08-17 20:09:12 : Going to Attack...
+2015-08-17 20:09:18 : ============== Searching For Dead Base ===============
+2015-08-17 20:09:18 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-17 20:09:18 : Meet: Gold or Elixir, Max TH 8
+2015-08-17 20:09:18 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-17 20:09:18 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-17 20:09:18 : ============== Searching For Live Base ===============
+2015-08-17 20:09:18 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-17 20:09:18 : Meet: Gold or Elixir, Max TH 8
+2015-08-17 20:09:18 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-17 20:09:18 : Aim: [G]:      0 [E]:      0 [D]:    0 [T]: 0 [TH]: 8 for: Live Base
+2015-08-17 20:09:18 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-17 20:09:18 : THSnipe Combo, 5 Tile(s), AttackTH, Attack6:PB6
+2015-08-17 20:09:18 : ==================================================
+2015-08-17 20:09:20 :   1> [G]:  60795 [E]:  29833 [D]:  817 [T]:29 [TH]:10, In
+2015-08-17 20:09:25 :   2> [G]:  64552 [E]:  51622 [D]:  130 [T]:17 [TH]: 9, In
+2015-08-17 20:09:32 :   3> [G]:  78584 [E]:  90331 [D]:    8 [T]:24 [TH]:10, In
+2015-08-17 20:09:38 :   4> [G]:  43693 [E]:  61247 [D]:  651 [T]:32 [TH]:10, In
+2015-08-17 20:09:42 :   5> [G]:  51885 [E]:  16486 [D]: 1492 [T]:13 [TH]: 9, In
+2015-08-17 20:09:47 :   6> [G]:  66334 [E]: 101024 [D]: 1335 [T]:32 [TH]: 9, In
+2015-08-17 20:09:54 :   7> [G]:  46766 [E]:  65289 [D]: 1295 [T]:33 [TH]: 9, In
+2015-08-17 20:10:01 :   8> [G]:  22452 [E]:   2397 [D]:    6 [T]:12 [TH]: 9, In
+2015-08-17 20:10:05 :   9> [G]:  10821 [E]:  10811 [D]: 1102 [T]:31 [TH]:10, In
+2015-08-17 20:10:12 :  10> [G]:   7812 [E]: 167091 [D]:  164 [T]:26 [TH]:10, In
+2015-08-17 20:10:16 :  11> [G]:  30607 [E]:  33560 [D]:   70 [T]:23 [TH]: 9, In
+2015-08-17 20:10:22 :  12> [G]:  20438 [E]:  96779 [D]:  719 [T]:18 [TH]:10, In
+2015-08-17 20:10:29 :  13> [G]:  49707 [E]: 170683 [D]:  885 [T]:19 [TH]:10, In
+2015-08-17 20:10:35 :  14> [G]:  72635 [E]: 112139 [D]:  350 [T]:22 [TH]: 9, In
+2015-08-17 20:10:39 :  15> [G]:  63970 [E]:  63068 [D]: 1493 [T]:18 [TH]: 9, In
+2015-08-17 20:10:46 :  16> [G]: 134905 [E]: 172602 [D]: 1826 [T]:33 [TH]:10, In
+2015-08-17 20:10:52 :  17> [G]:  46300 [E]:  42456 [D]:  344 [T]:17 [TH]: 9, In
+2015-08-17 20:10:56 :  18> [G]:  38180 [E]:  86709 [D]: 1004 [T]:27 [TH]: 9, In
+2015-08-17 20:11:00 :  19> [G]:  26140 [E]: 272259 [D]: 1850 [T]:11 [TH]: 8, In
+2015-08-17 20:11:01 : ~~~~~~~~~~~~~~~~ Live Base Found! ~~~~~~~~~~~~~~~~
+2015-08-17 20:11:01 : ================ Search Complete =================
+2015-08-17 20:11:01 : Initiating attack for: Live Base
+2015-08-17 20:11:04 : -Barbarians 48
+2015-08-17 20:11:04 : -Archers 172
+2015-08-17 20:11:04 : -King 
+2015-08-17 20:11:04 : -Heal Spells 4
+2015-08-17 20:11:04 :  ====== Start Attack ====== 
+2015-08-17 20:11:06 : Calculating Smart Attack Strategy
+2015-08-17 20:11:06 : Calculated  (in 0.58 seconds) :
+2015-08-17 20:11:06 : Locating Mines, Collectors & Drills
+2015-08-17 20:11:09 : Located  (in 2.72 seconds) :
+2015-08-17 20:11:09 : [6] Gold Mines
+2015-08-17 20:11:09 : [0] Elixir Collectors
+2015-08-17 20:11:09 : [2] Dark Elixir Drill/s
+2015-08-17 20:11:09 : Attacking on all sides
+2015-08-17 20:11:11 : Dropping first wave of Barbarians 24
+2015-08-17 20:11:14 : Dropping first wave of Archers 86
+2015-08-17 20:11:18 : Dropping second wave of Barbarians 24
+2015-08-17 20:11:22 : Dropping second wave of Archers 86
+2015-08-17 20:11:27 : Dropping King
+2015-08-17 20:11:29 : Dropping left over troops
+2015-08-17 20:11:29 : Checking remaining unused troops for: Live Base
+2015-08-17 20:11:32 : -Heal Spells 4
+2015-08-17 20:11:41 : Checking remaining unused troops for: Live Base
+2015-08-17 20:11:43 : -Heal Spells 4
+2015-08-17 20:11:43 : King is getting weak, Activating King's power
+2015-08-17 20:11:52 : Finished Attacking, waiting for the battle to end
+2015-08-17 20:11:52 : Checking if the battle has finished
+2015-08-17 20:11:54 : detected [G]: 23351 [E]: 271082 [DE]: 1800 |  Exit in 178 sec.
+2015-08-17 20:11:56 : detected [G]: 23351 [E]: 271082 [DE]: 1800 |  Exit in 176 sec.
+2015-08-17 20:12:05 : detected [G]: 23351 [E]: 271082 [DE]: 1800 |  Exit in 167 sec.
+2015-08-17 20:12:07 : detected [G]: 23339 [E]: 271070 [DE]: 1800 |  Exit in 165 sec.
+2015-08-17 20:12:07 : Gold & Elixir & DE change detected, waiting...
+2015-08-17 20:12:10 : detected [G]: 23327 [E]: 271058 [DE]: 1800 |  Exit in 178 sec.
+2015-08-17 20:12:10 : Gold & Elixir & DE change detected, waiting...
+2015-08-17 20:12:14 : detected [G]: 23315 [E]: 271046 [DE]: 1800 |  Exit in 178 sec.
+2015-08-17 20:12:14 : Gold & Elixir & DE change detected, waiting...
+2015-08-17 20:12:17 : detected [G]: 23307 [E]: 271038 [DE]:  |  Exit in 178 sec.
+2015-08-17 20:12:17 : Gold & Elixir & DE change detected, waiting...
+2015-08-17 20:12:20 : detected [G]:  [E]:  [DE]:  |  Exit now 
+2015-08-17 20:12:20 : Battle has finished
+2015-08-17 20:12:20 : Returning Home
+2015-08-17 20:12:26 : Loot: [G]: 2 833 [E]: 1 221 [DE]: 50 [T]: 3
+2015-08-17 20:12:27 : Bonus [G]: 100 000 [E]: 100 000 [DE]: 500
+2015-08-17 20:12:29 : Your league level is: Master III
+2015-08-17 20:12:29 : Stars earned: 1
+2015-08-17 20:12:33 : ClashGameBot was Paused!

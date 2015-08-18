@@ -22,7 +22,7 @@ If you set $grdTroops to 1, it will ignore air defense. If you set $airTroops to
 4) The default algorithms are not recommended, as they use both ground and air troops (B.A.M.).
 *******************************************************************
 #ce
-Global $chkMortar = 0, $chkWiz = 0, $chkInferno = 1, $chkTesla = 0, $chkAir = 0, $grdTroops = 1, $airTroops = 0
+Global $chkMortar = 1, $chkWiz = 1, $chkInferno = 1, $chkTesla = 1, $chkAir = 0, $grdTroops = 1, $airTroops = 0
 
 Global $trapTH[5][50], $defInfo, $defTolerance=15, $DefLocation, $DefText
 
@@ -170,7 +170,7 @@ Func checkDefense()
 	For $t=0 to 4
 		For $i = 0 To 49
 			If FileExists($trapTH[$t][$i]) Then
-				$DefLocation = _ImageSearch($trapTH[$t][$i], 1, $Defx, $Defy, $defTolerance[$t][$i]) ; Getting Defense Location
+			    $DefLocation = _ImageSearch($trapTH[$t][$i], 1, $Defx, $Defy, $defTolerance[$t][$i]) ; Getting Defense Location
 				If $DefLocation = 1 Then
 					;$defInfo = "Def: "&$defTolerance[$t][$i]&"-"&$Defx&","&$Defy&" - "
 					If $chkInferno = 1 AND $DefText[$t] = "Inferno Tower" Then
@@ -179,54 +179,62 @@ Func checkDefense()
 							Return "Inferno Tower found near TH, skipping..."
 						Else
 							$skipBase = False
-							Return "Inferno Tower found, but not near TH."
+							;Return "Inferno Tower found, but not near TH."
 						EndIf
-					ElseIf $chkWiz = 1 AND $DefText[$t] = "Wizard Tower" Then
+					EndIf
+					If $chkWiz = 1 AND $DefText[$t] = "Wizard Tower" Then
 						If ($Defx > 53 AND $Defx < 197) AND ($Defy > 42 AND $Defy < 138) Then
 							$skipBase = True
 							Return "Wizard Tower found near TH, skipping..."
 						Else
 							$skipBase = False
-							Return "Wizard Tower found, but not near TH."
+							;Return "Wizard Tower found, but not near TH."
 						EndIf
-					ElseIf $chkMortar = 1 AND $DefText[$t] = "Mortar" Then
+					EndIf
+					If $chkMortar = 1 AND $DefText[$t] = "Mortar" Then
 						If ($Defx > 5 AND $Defx < 245) AND ($Defy > 10 AND $Defy < 170) Then
 							$skipBase = True
 							Return "Mortar found near TH, skipping..."
 						Else
 							$skipBase = False
-							Return "Mortar found, but not near TH."
+							;Return "Mortar found, but not near TH."
 						EndIf
-					ElseIf $chkTesla = 1 AND $DefText[$t] = "Hidden Tesla" Then
+					EndIf
+					If $chkTesla = 1 AND $DefText[$t] = "Hidden Tesla" Then
 						If ($Defx > 58 AND $Defx < 192) AND ($Defy > 45 AND $Defy < 135) Then
 							$skipBase = True
 							Return "Hidden Tesla found near TH, skipping..."
 						Else
 							$skipBase = False
-							Return "Hidden Tesla found, but not near TH."
+							;Return "Hidden Tesla found, but not near TH."
 						EndIf
-					ElseIf $chkAir = 1 AND $DefText[$t] = "Air Defense" Then
+					EndIf
+					If $chkAir = 1 AND $DefText[$t] = "Air Defense" Then
 						If ($Defx > 15 AND $Defx < 235) AND ($Defy > 20 AND $Defy < 160) Then
 							$skipBase = True
 							Return "Air Defense found near TH, skipping..."
 						Else
 							$skipBase = False
-							Return "Air Defense found, but not near TH."
+							;Return "Air Defense found, but not near TH."
 						EndIf
-					Else
-						If ($DefText[$t] = "Air Defense" AND $airTroops = 0) or ($DefText[$t] = "Mortar" AND $grdTroops = 0) Then
+				    EndIf
+				  Else
+						If ($DefText[$t] = "Air Defense" AND $airTroops = 0) or ($DefText[$t] <> "Air Defense" AND $grdTroops = 0) Then
 							$DefLocation = 0
-						ElseIf ($Defx > 5 AND $Defx < 245) AND ($Defy > 10 AND $Defy < 170) Then
-							$skipBase = False
-							$allTroops = True
-							Return $DefText[$t]&" found at "&$DefX&","&$DefY&" with "&$defTolerance[$t][$i]&" tolerance. Using alternative attack strategy!"
-						Else ;defense found within screen captured area, but not within striking distance
-							$skipBase = False
-							Return "Defense found, but not near TH."
+						Else
+							If ($Defx > 5 AND $Defx < 245) AND ($Defy > 10 AND $Defy < 170) Then
+							    $skipBase = False
+							    $allTroops = True
+							    Return $DefText[$t]&" found at "&$DefX&","&$DefY&" with "&$defTolerance[$t][$i]&" tolerance. Using alternative attack strategy!"
+						    Else ;defense found within screen captured area, but not within striking distance
+							    $skipBase = False
+							    Return "Defense found, but not near TH."
+						    EndIf
 						EndIf
-					EndIf
-				EndIf
-			EndIf
+				  EndIf
+			   Else
+				  ; Image file doesn't exists
+			   EndIf
 		Next
 	Next
 	If $DefLocation = 0 Then Return "No major traps found near TH."

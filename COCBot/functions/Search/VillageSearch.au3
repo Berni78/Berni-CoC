@@ -139,8 +139,9 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		GetResources() ;Reads Resource Values
 
 ; Next if skipBase = True
-		Local $i = 0
-		While $i < 100
+        If $skipBase = True Then
+		 Local $i = 0
+		 While $i < 100
 			$i += 1
 			If ( _ColorCheck(_GetPixelColor($NextBtn[0], $NextBtn[1], True), Hex($NextBtn[2], 6), $NextBtn[3])) Then
 				ClickP($NextBtn, 1, 0, "#0155") ;Click Next
@@ -153,18 +154,21 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 				$Is_ClientSyncError = True
 				$iStuck = 0
 				$Restart = True
-				If isProblemAffect(True) Then
+				  If isProblemAffect(True) Then
 					SetLog("Cannot locate Next button, Restarting Bot...", $COLOR_RED)
 					Pushmsg("OoSResources")
 				    GUICtrlSetData($lblresultoutofsync, GUICtrlRead($lblresultoutofsync)+ 1)
 					Return
-				Else
+				  Else
 					SetLog("Have strange problem can not determine, Restarting Bot...", $COLOR_RED)
 					Return
-				EndIf
-		 EndIf
-		 _Sleep($iDelayVillageSearch2)
-	    WEnd
+				  EndIf
+			EndIf
+			_Sleep($iDelayVillageSearch2)
+		 WEnd
+		 SetLog("Trap found, skipping base...", $COLOR_RED)
+		 ContinueLoop
+	  EndIf
 ; End Next if skipBase = True
 
 		If $Restart = True Then Return ; exit func

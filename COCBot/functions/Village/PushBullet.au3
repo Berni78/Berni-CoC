@@ -31,6 +31,7 @@ Func _RemoteControl()
 	$oHTTP.SetCredentials($access_token, "", 0)
 	$oHTTP.SetRequestHeader("Content-Type", "application/json")
 	$oHTTP.Send()
+	If @error Then Return SetError(0,0,0)
 	$Result = $oHTTP.ResponseText
 
 	Local $modified = _StringBetween($Result, '"modified":', ',', "", False)
@@ -259,7 +260,7 @@ Func PushMsg($Message, $Source = "")
 				;create a temporary file to send with pushbullet...
 				Local $Date = @YEAR & "-" & @MON & "-" & @MDAY
 				Local $Time = @HOUR & "." & @MIN
-
+                _Push($iOrigPushB & " | " & $Time & " - [S] " & _NumberFormat($SearchCount) & " [G] " & _NumberFormat($lootGold) & " [E] " & _NumberFormat($lootElixir) & " [D] " & _NumberFormat($lootDarkElixir) & " [T] " & _NumberFormat($lootTrophies))
 				If $ScreenshotLootInfo = 1 Then
 					$AttackFile = $Date & "__" & $Time & " G" & $lootGold & " E" & $lootElixir & " DE" & $lootDarkElixir & " T" & $lootTrophies & " S" & StringFormat("%s", $SearchCount) & ".jpg" ; separator __ is need  to not have conflict with saving other files if $TakeSS = 1 and $chkScreenshotLootInfo = 0
 				Else

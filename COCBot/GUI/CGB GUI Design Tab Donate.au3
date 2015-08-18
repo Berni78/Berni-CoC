@@ -209,7 +209,7 @@ $y += 75
 			GUICtrlSetState(-1, $GUI_HIDE)
 		$txtDonateGiants = GUICtrlCreateEdit("", $x - 5, $y + 20, 205, 135, BitOR($ES_WANTRETURN, $ES_CENTER, $ES_AUTOVSCROLL))
 			GUICtrlSetState(-1, $GUI_HIDE)
-			GUICtrlSetData(-1, StringFormat("giants\r\ngiant\r\nany\r\nreinforcements"))
+			GUICtrlSetData(-1, StringFormat("giants\r\ngiant\r\nany\r\nreinforcement"))
 			GUICtrlSetTip(-1, "Keywords for donating Giants")
 		$lblBlacklistGiants = GUICtrlCreateLabel("Do NOT donate to these keywords:", $x + 215, $y + 70, -1, -1)
 			GUICtrlSetState(-1, $GUI_HIDE)

@@ -40,21 +40,7 @@
 		$y +=22
 		$chkAttackTH = GUICtrlCreateCheckbox("Attack Townhall Outside", $x, $y, -1, -1)
 			GUICtrlSetTip(-1, "Check this to Attack an exposed Townhall first. (Townhall outside of Walls)" & @CRLF & "TIP: Also tick 'Meet Townhall Outside' on the Search tab if you only want to search for bases with exposed Townhalls.")
-;		$y +=22
-;		$chkLightSpell = GUICtrlCreateCheckbox("Hit Dark Elixir storage with Lightning Spell", $x, $y, -1, -1)
-;			GUICtrlSetTip(-1, "Check this if you want to use lightning spells to steal Dark Elixir when bot meet Minimum Dark Elixir.")
-;			GUICtrlSetOnEvent(-1, "GUILightSpell")
-;		$y +=22
-;  		$lbliLSpellQ = GUICtrlCreateLabel("Have:", $x + 20, $y + 4, -1, -1)
-;			$txtTip = "Set the minimum amount of spells needed. Never attack with less."
-;			GUICtrlSetTip(-1, $txtTip)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		$cmbiLSpellQ = GUICtrlCreateCombo("", $x + 50, $y + 1, 35, 25, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
-;			GUICtrlSetData(-1, "1|2|3|4|5", "3")
-;			GUICtrlSetTip(-1, $txtTip)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		$lbliLSpellQ2 = GUICtrlCreateLabel("Lightning Spells ready before using this type of Attack.", $x + 90, $y + 4, -1, -1)
-;			GUICtrlSetTip(-1, $txtTip)
+
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 
 	Local $x = 30, $y = 260

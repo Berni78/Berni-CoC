@@ -148,7 +148,7 @@ Func ReportLastTotal()
 	;		GUICtrlSetData($lblDarkLastAttack, _NumberFormat($DarkLast))
 	;	EndIf
 	;	GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($TrophyLast))
-
+#cs
 	;total stats
 	$CostGoldWall = $WallGoldMake * $WallCost
 	$CostElixirWall = $WallElixirMake * $WallCost
@@ -164,5 +164,5 @@ Func ReportLastTotal()
 		GUICtrlSetData($lblDarkLoot, _NumberFormat($iDarkLoot))
 	EndIf
 	GUICtrlSetData($lblTrophyLoot, _NumberFormat($iTrophyLoot))
-
+#ce
 EndFunc   ;==>ReportLastTotal

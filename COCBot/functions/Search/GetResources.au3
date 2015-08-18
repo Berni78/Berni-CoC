@@ -87,8 +87,9 @@ Func GetResources() ;Reads resources
 			$searchTH = checkTownhallADV()
 		Else
 			$searchTH = checkTownhall()
-		EndIf
 
+		EndIf
+        AtGetTHOutside()
 		If SearchTownHallLoc() = False And $searchTH <> "-" Then
 			$THLoc = "In"
 		ElseIf $searchTH <> "-" Then
@@ -99,6 +100,9 @@ Func GetResources() ;Reads resources
 			$THy = 0
 		EndIf
 		$THString = " [TH]:" & StringFormat("%2s", $searchTH) & ", " & $THLoc
+	EndIf
+	If $searchTH = "-" Then
+
 	EndIf
 
 	$SearchCount += 1 ; Counter for number of searches

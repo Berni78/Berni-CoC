@@ -103,6 +103,8 @@ Func CheckWall()
 			Next
 	WEnd
 
+ If AtCheckWall() Then Return True
+
 	SetLog("Cannot find Walls level " & $icmbWalls + 4 & ", more upgrades unlikely", $COLOR_RED)
 	SetLog("Please rearrange the walls so they can be found", $COLOR_RED)
 	;$NoMoreWalls = 1

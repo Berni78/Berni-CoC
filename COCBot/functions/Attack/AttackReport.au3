@@ -41,6 +41,8 @@ Func AttackReport()
 	WEnd
 	If $iCount > 20 Then Setlog("End of Attack scene read gold error, attack values my not be correct", $COLOR_BLUE)
 
+GetResReport()
+
 	If _ColorCheck(_GetPixelColor($aAtkRprtDECheck[0], $aAtkRprtDECheck[1], True), Hex($aAtkRprtDECheck[2], 6), $aAtkRprtDECheck[3]) Then ; if the color of the DE drop detected
 		$lootGold = getResourcesLoot(333, 289)
 		If _Sleep($iDelayAttackReport2) Then Return
@@ -56,10 +58,6 @@ Func AttackReport()
 
 		If $FirstAttack = 1 Then GUICtrlSetState($lblLastAttackTemp, $GUI_HIDE)
 
-		GUICtrlSetData($lblGoldLastAttack, _NumberFormat($lootGold))
-		GUICtrlSetData($lblElixirLastAttack, _NumberFormat($lootElixir))
-		GUICtrlSetData($lblDarkLastAttack, _NumberFormat($lootDarkElixir))
-		GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($lootTrophies))
 	Else
 		$lootGold = getResourcesLoot(333, 289)
 		If _Sleep($iDelayAttackReport2) Then Return
@@ -74,10 +72,6 @@ Func AttackReport()
 
 		If $FirstAttack = 1 Then GUICtrlSetState($lblLastAttackTemp, $GUI_HIDE)
 
-		GUICtrlSetData($lblGoldLastAttack, _NumberFormat($lootGold))
-		GUICtrlSetData($lblElixirLastAttack, _NumberFormat($lootElixir))
-		GUICtrlSetData($lblDarkLastAttack, "")
-		GUICtrlSetData($lblTrophyLastAttack, _NumberFormat($lootTrophies))
 	EndIf
 
 	If $lootTrophies >= 0 Then
@@ -150,4 +144,6 @@ Func AttackReport()
 		EndIf
 	EndIf
 
+AtAttackReport()
 EndFunc   ;==>AttackReport
+

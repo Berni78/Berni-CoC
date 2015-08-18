@@ -172,4 +172,3 @@
 #include "functions\Village\ReplayShare.au3"
 #include "functions\Village\BarracksStatus.au3"
 
-

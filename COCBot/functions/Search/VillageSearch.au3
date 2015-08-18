@@ -95,7 +95,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		If $chkATH = 1 And $AttackTHType = 2 Then $AttackTHTypeText = ", Attack2:Extreme"
 		If $chkATH = 1 And $AttackTHType = 3 Then $AttackTHTypeText = ", Attack3:GBarch"
 		If $OptTrophyMode = 1 Then $OptTrophyModeText = "THSnipe Combo, " & $THaddtiles & " Tile(s), "
-		If $OptTrophyMode = 1 Or $chkATH = 1 Then SetLog($OptTrophyModeText & $chkATHText & $AttackTHTypeText)
+		If $OptTrophyMode = 1 Or $chkATH = 1 Then SetLog($OptTrophyModeText & $chkATHText & GUICtrlRead($cmbAttackTHType))
 	EndIf
 
 	SetLog(_StringRepeat("=", 50), $COLOR_BLUE)
@@ -113,6 +113,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 	EndIf
 
 	While 1
+	    If AtSearchLoop($iSkipped) Then Return
 		If $iVSDelay > 0 Then
 			If _Sleep(1000 * $iVSDelay) Then Return
 		EndIf

@@ -251,6 +251,12 @@ Func btnHide()
 	If $Hide = False Then
 		GUICtrlSetData($btnHide, "Show BS")
 		$botPos[0] = WinGetPos($Title)[0]
+		If @error Then
+		SetError(0,0,0)
+		OpenBS()
+		Return
+		EndIf
+
 		$botPos[1] = WinGetPos($Title)[1]
 		WinMove($Title, "", -32000, -32000)
 		$Hide = True

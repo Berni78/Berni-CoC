@@ -13,7 +13,7 @@
 ; ===============================================================================================================================
 
 Func Train()
-
+    AtTrainStart()
 	Local $anotherTroops
 
 	If $debugSetlog = 1 Then SetLog("Func Train ", $COLOR_PURPLE)
@@ -694,6 +694,7 @@ Func Train()
 		;end dark
 	EndIf
 	If $debugSetlog = 1 Then SetLog("---=====================END TRAIN =======================================---", $COLOR_PURPLE)
+	TrainSpells()
 	If $icmbTroopComp <> 8 And $isNormalBuild And $BarrackStatus[0] = False And $BarrackStatus[1] = False And $BarrackStatus[2] = False And $BarrackStatus[3] = False And Not $FirstStart Then
 		If Not $isDarkBuild Or ($BarrackDarkStatus[0] = False And $BarrackDarkStatus[1] = False) Then
 			Train()
@@ -742,6 +743,7 @@ Func Train()
 	$FirstStart = False
 	If _GUICtrlComboBox_GetCurSel($cmbTroopComp) <> 1 Then
 	EndIf
+	AtTrainEnd()
 EndFunc   ;==>Train
 
 

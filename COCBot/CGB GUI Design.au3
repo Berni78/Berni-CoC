@@ -100,7 +100,6 @@ GUICtrlCreateTabItem("")
 ;~ -------------------------------------------------------------
 ;~ Bottom status bar
 ;~ -------------------------------------------------------------
-GUISetState(@SW_SHOW)
 
 $statLog = _GUICtrlStatusBar_Create($frmBot)
 _ArrayConcatenate($G, $y)

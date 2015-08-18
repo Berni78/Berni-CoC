@@ -30,18 +30,7 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 	If _Sleep($iDelayalgorithm_AllTroops1) Then Return
 
 	If $iMatchMode = $TS Or ($chkATH = 1 And SearchTownHallLoc()) Then
-		Switch $AttackTHType
-			Case 0
-				algorithmTH()
-				;_CaptureRegion()
-				If _ColorCheck(_GetPixelColor($aWonOneStar[0],$aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then AttackTHNormal() ;if 'no' use another attack mode.
-			Case 1
-				AttackTHNormal();Good for Masters
-			Case 2
-				AttackTHXtreme();Good for Champ
-			Case 3
-				AttackTHGbarch()
-		EndSwitch
+    AttackTHType()
 		If $zoomedin = True Then
 			ZoomOut()
 			$zoomedin = False
@@ -63,6 +52,8 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 		ClickP($aConfirmSurrender, 1, 0, "#0031") ;Click Confirm
 		Return
 	EndIf
+
+    If IsFourFingersDeploy() Then Return
 
 	If ($iChkRedArea[$iMatchMode]) Then
 		SetLog("Calculating Smart Attack Strategy", $COLOR_BLUE)

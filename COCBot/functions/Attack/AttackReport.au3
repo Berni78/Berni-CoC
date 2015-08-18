@@ -148,6 +148,7 @@ Func AttackReport()
 	SetAtkLog($AtkLogTxt)
 
 	; ==================== Begin CGBStats Mod ====================
+	if 0 Then
    SetLog("Sending attack report to CGBStats.cf...", $COLOR_BLUE)
    $MyApiKey = "10816b059c9741b7ae7a756523a18153" ; <---- insert api key here
    $sPD = 'apikey=' & $MyApiKey & '&ctrophy=' & $TrophyCount & '&cgold=' & $GoldCount & '&celix=' & $ElixirCount & '&cdelix=' & $DarkCount & '&search=' & $SearchCount & '&gold=' & $lootGold & '&elix=' & $lootElixir & '&delix=' & $lootDarkElixir & '&trophy=' & $lootTrophies & '&bgold=' & $BonusLeagueG & '&belix=' & $BonusLeagueE & '&bdelix=' & $BonusLeagueD & '&stars=' & $starsearned & '&thlevel=' & $iTownHallLevel & '&log='
@@ -176,6 +177,7 @@ Func AttackReport()
    $oReceived = $oHTTP.ResponseText
    $oStatusCode = $oHTTP.Status
    SetLog("Report sent. " & $oStatusCode & " " & $oReceived, $COLOR_BLUE)
+   EndIf
    ; ===================== End CGBStats Mod =====================
 
 	; Share Replay

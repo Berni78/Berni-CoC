@@ -137,6 +137,36 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 
 		If $Restart = True Then Return ; exit func
 		GetResources() ;Reads Resource Values
+
+; Next if skipBase = True
+		Local $i = 0
+		While $i < 100
+			$i += 1
+			If ( _ColorCheck(_GetPixelColor($NextBtn[0], $NextBtn[1], True), Hex($NextBtn[2], 6), $NextBtn[3])) Then
+				ClickP($NextBtn, 1, 0, "#0155") ;Click Next
+				ExitLoop
+			Else
+				If $debugsetlog = 1 Then SetLog("Wait to see Next Button... " & $i, $COLOR_PURPLE)
+			EndIf
+			If $i >= 99 Then ; if we can't find the next button or there is an error, then restart
+				$Restart = True
+				$Is_ClientSyncError = True
+				$iStuck = 0
+				$Restart = True
+				If isProblemAffect(True) Then
+					SetLog("Cannot locate Next button, Restarting Bot...", $COLOR_RED)
+					Pushmsg("OoSResources")
+				    GUICtrlSetData($lblresultoutofsync, GUICtrlRead($lblresultoutofsync)+ 1)
+					Return
+				Else
+					SetLog("Have strange problem can not determine, Restarting Bot...", $COLOR_RED)
+					Return
+				EndIf
+		 EndIf
+		 _Sleep($iDelayVillageSearch2)
+	    WEnd
+; End Next if skipBase = True
+
 		If $Restart = True Then Return ; exit func
 		$bBtnAttackNowPressed = False
 

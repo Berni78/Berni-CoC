@@ -19,6 +19,7 @@ Func checkMainScreen($Check = True) ;Checks if in main screen
 	If $Check = True Then
 		SetLog("Trying to locate Main Screen")
 		_WinAPI_EmptyWorkingSet(WinGetProcess($Title)) ; Reduce BlueStacks Memory Usage
+		AtTrueCheckMain()
 	Else
 		If $debugsetlog = 1 Then SetLog("checkMainScreen start quiet mode")
 	EndIf

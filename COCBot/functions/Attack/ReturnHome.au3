@@ -84,8 +84,9 @@ Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 
 	;push images if requested..
 	If $GoldChangeCheck = True Then
-		PushMsg("LastRaid")
+     	PushMsg("LastRaid")
 	EndIf
+
 
 	ClickP($aReturnHomeButton, 1, 0, "#0101") ;Click Return Home Button
 

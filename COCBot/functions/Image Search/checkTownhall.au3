@@ -82,7 +82,7 @@ Func checkTownhall()
    If $THLocation = 0 Then Return "-"
    EndFunc
 
-   Func   checkTownhallADV()
+Func checkTownhallADV()
 	_CaptureRegion()
 	For $t=0 to 4
 		 For $i = 0 To 10

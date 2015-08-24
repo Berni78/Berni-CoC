@@ -11,7 +11,7 @@
 
 Func saveConfigMod()
 
-;Buildings info File
+;;;;;;;;;;;;;;;;;;;;;;;;; Buildings info File ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 If FileExists($building) Then
 ;Heros upgrade
 IniWrite($building, "other", "xKing", $KingPos[0])
@@ -21,7 +21,8 @@ IniWrite($building, "other", "yQueen", $QueenPos[1])
 
 EndIf
 
-;Bot Configuration File
+
+;;;;;;;;;;;;;;;;;;;;;;;;; Bot Configuration File ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 If FileExists($config) Then
 
 ; Return normal settings after being changed by snipe while train
@@ -33,8 +34,8 @@ If GUICtrlRead($chkSnipeWhileTrain) = $GUI_CHECKED Then
 Else
     IniWrite($config, "advanced", "chkSnipeWhileTrain", "0")
 EndIf
-
 IniWrite($config, "advanced", "txtSearchlimit", GUICtrlRead($txtSearchlimit))
+
 
 ;Train Spells
 IniWrite($config, "advanced", "cmbTrainNormalSpellType", _GUICtrlComboBox_GetCurSel($cmbTrainNormalSpellType))
@@ -69,6 +70,7 @@ EndIf
 	Else
 		IniWrite($config, "advanced", "SmartLightSpell", "0")
 	EndIf
+IniWrite($config, "advanced", "txtMinDark", GUICtrlRead($txtMinDark))
 
 ;4 Fingers Barch
 IniWrite($config, "attack", "DBDeploy", _GUICtrlComboBox_GetCurSel($cmbDBDeploy))
@@ -79,8 +81,30 @@ IniWrite($config, "attack", "ABUnitD", _GUICtrlComboBox_GetCurSel($cmbABUnitDela
 ;Attack Townhall Type
 IniWrite($config, "advanced", "AttackTHType", _GUICtrlComboBox_GetCurSel($cmbAttackTHType))
 
-
 ;Halt on Dark Conditions
 IniWrite($config, "general", "Cond", _GUICtrlComboBox_GetCurSel($cmbBotCond))
+
+;Trapped Th Detect
+IniWrite($config, "advanced", "DetectTrapedTH", _GUICtrlComboBox_GetCurSel($cmbDetectTrapedTH))
+
+;Save Troops
+	IniWrite($config, "advanced", "txtTHpercentCollectors", GUICtrlRead($txtTHpercentCollectors))
+	If GUICtrlRead($chkChangeFF) = $GUI_CHECKED Then
+		IniWrite($config, "advanced", "ChkSTFFBarch", 1)
+	Else
+		IniWrite($config, "advanced", "ChkSTFFBarch", 0)
+	EndIf
+IniWrite($config, "advanced", "cmbInsideCol", _GUICtrlComboBox_GetCurSel($cmbInsideCol))
+
+
+
+;Use Spell TH
+If GUICtrlRead($chkUseSpellsTH) = $GUI_CHECKED Then
+    IniWrite($config, "advanced", "chkUseSpellsTH", "1")
+Else
+    IniWrite($config, "advanced", "chkUseSpellsTH", "0")
+EndIf
+
+
 EndIf
 EndFunc

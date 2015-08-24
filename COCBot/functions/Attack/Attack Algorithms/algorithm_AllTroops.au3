@@ -52,8 +52,8 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 		ClickP($aConfirmSurrender, 1, 0, "#0031") ;Click Confirm
 		Return
 	EndIf
+    AtAttackAllTroops( $King , $Queen , $CC )
 
-    If IsFourFingersDeploy() Then Return
 
 	If ($iChkRedArea[$iMatchMode]) Then
 		SetLog("Calculating Smart Attack Strategy", $COLOR_BLUE)
@@ -126,7 +126,7 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 	If ($nbSides = 0) Then Return
 	If _Sleep($iDelayalgorithm_AllTroops2) Then Return
 
-	Local $listInfoDeploy[13][5] = [[$eGiant, $nbSides, 1, 1, 2] _
+	Local $listInfoDeploy[14][5] = [[$eGiant, $nbSides, 1, 1, 2] _
 			, [$eBarb, $nbSides, 1, 2, 0] _
 			, [$eWall, $nbSides, 1, 1, 1] _
 			, [$eArch, $nbSides, 1, 2, 0] _
@@ -135,6 +135,7 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 			, ["CC", 1, 1, 1, 1] _
 			, [$eHogs, $nbSides, 1, 1, 1] _
 			, [$eWiza, $nbSides, 1, 1, 0] _
+			, [$eBall, $nbSides, 1, 1, 0] _
 			, [$eMini, $nbSides, 1, 1, 0] _
 			, [$eArch, $nbSides, 2, 2, 0] _
 			, [$eGobl, $nbSides, 2, 2, 0] _

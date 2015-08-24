@@ -57,14 +57,14 @@
 			GUICtrlSetState(-1, $GUI_DISABLE)
 		$lblATBullyMode = GUICtrlCreateLabel("search(es).", $x + 135, $y + 5, -1, -1)
 		$y +=25
-		$lblATBullyMode = GUICtrlCreateLabel("Max TH level:", $x + 10, $y + 3, -1, -1, $SS_RIGHT)
+		$lblATBullyMode2 = GUICtrlCreateLabel("Max TH level:", $x + 10, $y + 3, -1, -1, $SS_RIGHT)
 		$cmbYourTH = GUICtrlCreateCombo("", $x + 95, $y, 50, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			$txtTip = "TH Bully: Max. Townhall level to bully."
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetData(-1, "4-6|7|8|9|10", "4-6")
 			GUICtrlSetState(-1, $GUI_DISABLE)
 		$y += 24
-		GUICtrlCreateLabel("When found, Attack with settings from:", $x + 10, $y, -1, -1, $SS_RIGHT)
+		$IbIBullyMode3 = GUICtrlCreateLabel("When found, Attack with settings from:", $x + 10, $y, -1, -1, $SS_RIGHT)
 		$y += 14
 		$radUseDBAttack = GUICtrlCreateRadio("DeadBase Atk.", $x + 20, $y, -1, -1)
 			GUICtrlSetTip(-1, "Use Dead Base attack settings when attacking a TH Bully match.")

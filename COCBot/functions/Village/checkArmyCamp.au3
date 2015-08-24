@@ -188,8 +188,9 @@ Func checkArmyCamp()
 	EndIf
 
 
-
+	If _Sleep(200) Then Return
 	ClickP($aAway, 1, 0, "#0295") ;Click Away
+	If _Sleep(200) Then Return
 	$FirstCampView = True
 
 EndFunc   ;==>checkArmyCamp

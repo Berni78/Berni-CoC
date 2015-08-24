@@ -128,6 +128,7 @@ Func DisableBS($HWnD, $iButton)
 EndFunc   ;==>DisableBS
 
 Func EnableBS($HWnD, $iButton)
+    $HWnD = WinGetHandle($Title)
 	ConsoleWrite('+ Window Handle: ' & $HWnD & @CRLF)
 	$hSysMenu = _GUICtrlMenu_GetSystemMenu($HWnD, 1)
 	_GUICtrlMenu_RemoveMenu($hSysMenu, $iButton, False)
@@ -147,6 +148,7 @@ EndFunc   ;==>chkBackground
 Func btnStart()
 	If $RunState = False Then
 		$RunState = True
+		hidenormal()
 		GUICtrlSetState($btnStart, $GUI_HIDE)
 		GUICtrlSetState($btnStop, $GUI_SHOW)
 		GUICtrlSetState($btnPause, $GUI_SHOW)
@@ -184,7 +186,7 @@ Func btnStop()
 		EnableBS($HWnD, $SC_MINIMIZE)
 		EnableBS($HWnD, $SC_CLOSE)
 		For $i = $FirstControlToHide To $LastControlToHide ; Restore previous state of controls
-			If $i = $tabGeneral Or $i = $tabSearch Or $i = $tabAttack Or $i = $tabAttackAdv Or $i = $tabDonate Or $i = $tabTroops Or $i = $tabMisc Or $i = $tabNotify Or $i = $tabEndBattle Or $i = $tabExpert Then ContinueLoop ; exclude tabs
+			If $i = $tabProfiles Or $i = $tabGeneral Or $i = $tabSearch Or $i = $tabAttack Or $i = $tabAttackAdv Or $i = $tabDonate Or $i = $tabTroops Or $i = $tabMisc Or $i = $tabNotify Or $i = $tabEndBattle Or $i = $tabExpert Then ContinueLoop ; exclude tabs
 			If $pEnabled And $i = $btnDeletePBmessages Then ContinueLoop ; exclude the DeleteAllMesages button when PushBullet is enabled
 			If $i = $btnMakeScreenshot Then ContinueLoop ; exclude
 			If $i = $divider Then ContinueLoop ; exclude divider
@@ -286,12 +288,23 @@ Func btnSearchMode()
 		$RunState = True
 		PrepareSearch()
 		If _Sleep(1000) Then Return
+
+        ;;; ToolBox ;;;;;;;;;
+        If $ToolboxModeSearch Then
+            _GUI_Toolbox_Show()
+        EndIf
+
 		VillageSearch()
 		$RunState = False
 
+        ;;; ToolBox ;;;;;;;;;
+        If $ToolboxModeSearch Then
+             _GUI_Toolbox_Activate()
+        EndIf
+
 		GUICtrlSetState($btnStart, $GUI_SHOW)
 		GUICtrlSetState($btnStop, $GUI_HIDE)
-
+		GUICtrlSetState($btnSearchMode, $GUI_SHOW)
 		GUICtrlSetState($btnLocateBarracks, $GUI_ENABLE)
 		;GUICtrlSetState($btnSearchMode, $GUI_ENABLE)
 		GUICtrlSetState($cmbTroopComp, $GUI_ENABLE)

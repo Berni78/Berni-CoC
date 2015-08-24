@@ -56,8 +56,10 @@ Func BotCommand()
 			Case 11
 				If isElixirFull() Then $MeetCondStop = True
 			Case 12
-				If $TrophyMax Then $MeetCondStop = True
+				If isDarkElixirFull() Then $MeetCondStop = True
 			Case 13
+				If $TrophyMax Then $MeetCondStop = True
+			Case 14
 				If $UseTimeStop = -1 Then
 					$UseTimeStop = 1
 				EndIf
@@ -68,6 +70,9 @@ Func BotCommand()
 				$MeetCondStop = True
 				$bTrainEnabled = False
 			Case 16
+				$MeetCondStop = True
+				$bTrainEnabled = False
+			Case 17
 				$MeetCondStop = True
 				$bTrainEnabled = False
 				$bDonationEnabled = False

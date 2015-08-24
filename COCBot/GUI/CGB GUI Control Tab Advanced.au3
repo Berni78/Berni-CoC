@@ -85,11 +85,81 @@ EndFunc   ;==>chkBullyMode
 Func chkSnipeMode()
 	If GUICtrlRead($chkTrophyMode) = $GUI_CHECKED Then
 		$OptTrophyMode = 1
+		SetTroopsTh()
 		GUICtrlSetState($txtTHaddtiles, $GUI_ENABLE)
 		GUICtrlSetState($cmbAttackTHType, $GUI_ENABLE)
 	Else
 		$OptTrophyMode = 0
+		RevertTroops()
 		GUICtrlSetState($txtTHaddtiles, $GUI_DISABLE)
 		GUICtrlSetState($cmbAttackTHType, $GUI_DISABLE)
 	EndIf
 EndFunc   ;==>chkSnipeMode
+;;; Toolbox
+Func chkToolboxModeWar()
+    If GUICtrlRead($chkToolboxModeWar) = $GUI_CHECKED Then
+        $ToolboxModeWar = True
+        $ToolboxModeBot    = False
+        $ToolboxModeSearch = False
+        If Not $ToolboxActive Then
+            _GUI_Toolbox_Show()
+        EndIf
+    Else
+        $ToolboxModeWar = False
+        $ToolboxModeBot    = (GUICtrlRead($chkToolboxModeBot) = $GUI_CHECKED)
+        $ToolboxModeSearch = (GUICtrlRead($chkToolboxModeSearch) = $GUI_CHECKED)
+        If $ToolboxActive Then
+            _GUI_Toolbox_Hide()
+        EndIf
+    EndIf
+EndFunc
+
+Func chkToolboxModeBot()
+    $ToolboxModeBot = (GUICtrlRead($chkToolboxModeBot) = $GUI_CHECKED)
+EndFunc
+
+Func chkToolboxModeSearch()
+    $ToolboxModeSearch = (GUICtrlRead($chkToolboxModeSearch) = $GUI_CHECKED)
+EndFunc
+
+Func chkToolboxDetach()
+    Local $val = (GUICtrlRead($chkToolboxDetach) = $GUI_CHECKED)
+    Local $restore = $ToolboxActive
+    If $restore Then
+        ($ToolboxDetached) ? _GUI_Toolbox_Win_Hide() : _GUI_Toolbox_GUI_Hide()
+        ;_GUI_Toolbox_Hide()
+    EndIf
+    $ToolboxDetached = $val
+    If $restore Then
+        ($ToolboxDetached) ? _GUI_Toolbox_Win_Show() : _GUI_Toolbox_GUI_Show()
+    EndIf
+    If $val Then
+        _GUICtrlButton_SetText($chkToolboxDetach, "Detached")
+    Else
+        _GUICtrlButton_SetText($chkToolboxDetach, "Attached")
+    EndIf
+EndFunc
+
+Func chkToolboxSavePos()
+    $ToolboxSavePos = (GUICtrlRead($chkToolboxDetach) = $GUI_CHECKED)
+EndFunc
+Func SetTroopsTh()
+	If $OptTrophyMode = 1 Then
+		for $i=0 to Ubound($THSnipeTroopGroup,1) - 1
+			$TroopName[$i]         	= $THSnipeTroopGroup[$i][0]
+			$TroopNamePosition[$i] 	= $THSnipeTroopGroup[$i][1]
+			$TroopHeight[$i]       	= $THSnipeTroopGroup[$i][2]
+		next
+	EndIf
+EndFunc
+Func RevertTroops()
+	If $OptTrophyMode = 0 and GUICtrlRead($chkSnipeWhileTrain) = $GUI_UNCHECKED Then
+
+	For $i = 0 To UBound($TroopGroup, 1) - 1
+	    $TroopName[$i]              = $TroopGroup[$i][0]
+	    $TroopNamePosition[$i]      = $TroopGroup[$i][1]
+	    $TroopHeight[$i]            = $TroopGroup[$i][2]
+    Next
+
+	EndIf
+EndFunc

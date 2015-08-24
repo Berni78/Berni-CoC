@@ -175,6 +175,7 @@ Global $ReduceCount, $ReduceGold, $ReduceElixir, $ReduceGoldPlusElixir, $ReduceD
 Global $iChkEnableAfter[$iModeCount], $iCmbMeetGE[$iModeCount], $iChkMeetDE[$iModeCount], $iChkMeetTrophy[$iModeCount], $iChkMeetTH[$iModeCount], $iChkMeetTHO[$iModeCount], $iChkMeetOne[$iModeCount], $iCmbTH[$iModeCount], $iChkWeakBase[$iModeCount]
 Global $THLocation
 Global $THx = 0, $THy = 0
+Global $Defx = 0, $Defy = 0
 Global $DESLoc
 Global $DESLocx = 0
 Global $DESLocy = 0
@@ -184,6 +185,12 @@ $THText[1] = "7"
 $THText[2] = "8"
 $THText[3] = "9"
 $THText[4] = "10"
+Global $DefText[5] ; Text of Defense Type
+$DefText[0] = "Inferno Tower"
+$DefText[1] = "Hidden Tesla"
+$DefText[2] = "Mortar"
+$DefText[3] = "Wizard Tower"
+$DefText[4] = "Air Defense"
 Global $SearchCount = 0 ;Number of searches
 Global $THaddtiles, $THside, $THi
 Global $SearchTHLResult = 0
@@ -194,6 +201,7 @@ Global $ATBullyMode
 Global $YourTH
 Global $iTHBullyAttackMode
 Global $AttackTHType
+Global $allTroops = False, $skipBase = False
 ;Global $chklightspell
 ;Global $iLSpellQ
 
@@ -215,10 +223,10 @@ Global $wallh[8]
 Global $Wall[8]
 
 ;Attack Settings
-Global $TopLeft[5][2] = [[79, 281], [170, 205], [234, 162], [296, 115], [368, 66]]
-Global $TopRight[5][2] = [[480, 63], [540, 104], [589, 146], [655, 190], [779, 278]]
-Global $BottomLeft[5][2] = [[79, 342], [142, 389], [210, 446], [276, 492], [339, 539]]
-Global $BottomRight[5][2] = [[523, 537], [595, 484], [654, 440], [715, 393], [779, 344]]
+Global $TopLeft[5][2] = [[79, 281], [170, 205], [234, 162], [296, 115], [407, 35]]
+Global $TopRight[5][2] = [[454, 37], [540, 104], [589, 146], [655, 190], [779, 278]]
+Global $BottomLeft[5][2] = [[79, 342], [142, 389], [210, 446], [276, 492], [393, 576]]
+Global $BottomRight[5][2] = [[487, 564], [595, 484], [654, 440], [715, 393], [779, 344]]
 Global $eThing[1] = [101]
 Global $Edges[4] = [$BottomRight, $TopLeft, $BottomLeft, $TopRight]
 
@@ -228,6 +236,9 @@ Global $fullArmy ;Check for full army or not
 ;Global $deploySettings ;Method of deploy found in attack settings
 Global $iChkDeploySettings[$iModeCount] ;Method of deploy found in attack settings
 Global $iChkRedArea[$iModeCount], $iCmbSmartDeploy[$iModeCount], $iChkSmartAttack[$iModeCount][3], $iCmbSelectTroop[$iModeCount]
+
+Global $iChkDEUseSpell
+Global $iChkDEUseSpellType
 
 Global $troopsToBeUsed[11]
 Global $useAllTroops[27] = [$eBarb, $eArch, $eGiant, $eGobl, $eWall, $eBall, $eWiza, $eHeal, $eDrag, $ePekk, $eMini, $eHogs, $eValk, $eGole, $eWitc, $eLava, $eKing, $eQueen, $eCastle, $eLSpell, $eHSpell, $eRSpell, $eJSpell, $eFSpell, $ePSpell, $eESpell, $eHaSpell]
@@ -257,6 +268,7 @@ Global $KingAttack[$iModeCount] ;King attack settings
 Global $QueenAttack[$iModeCount] ;Queen attack settings
 Global $A[4] = [112, 111, 116, 97]
 
+Global $dropQueen, $dropKing
 Global $checkKPower = False ; Check for King activate power
 Global $checkQPower = False ; Check for Queen activate power
 Global $iActivateKQCondition
@@ -294,7 +306,11 @@ Global $SFPos[2] = [-1, -1] ;Position of Spell Factory
 ;Donate Settings
 Global $aCCPos[2] = [-1, -1] ;Position of clan castle
 Global $LastDonateBtn1 = -1, $LastDonateBtn2 = -1
-
+Global $SubAllDonate
+Global $TroopCheck = 0
+Global $GTFO
+Global $cmbgtfo
+Global $gtfocount
 Global $iChkRequest = 0, $sTxtRequest = ""
 
 Global $ichkDonateAllBarbarians = 0, $ichkDonateBarbarians = 0, $sTxtDonateBarbarians = "", $sTxtBlacklistBarbarians = "", $aDonBarbarians, $aBlkBarbarians
@@ -366,7 +382,7 @@ Global $frmBotPosX ; Position X of the GUI
 Global $frmBotPosY ; Position Y of the GUI
 Global $Hide = False ; If hidden or not
 
-Global $ichkBotStop, $icmbBotCommand, $icmbBotCond, $icmbHoursStop
+Global $ichkBotStop, $ichkIceBreaker, $icmbBotCommand, $icmbBotCond, $icmbHoursStop
 Global $C[6] = [98, 117, 103, 115, 51, 46]
 Global $CommandStop = -1
 Global $MeetCondStop = False
@@ -394,7 +410,7 @@ Global $resArmy = 0
 Global $FirstAttack = 0
 Global $CurTrophy = 0
 Global $brrNum
-Global $sTimer, $hour, $min, $sec, $sTimeWakeUp = 120
+Global $sTimer, $iTimePassed, $hour, $min, $sec , $sTimeWakeUp = 120,$sTimeStopAtk
 Global $fulltroop = 100
 Global $CurCamp, $TotalCamp = 0
 Global $NoLeague
@@ -408,7 +424,9 @@ Global $itxtRestartGold, $itxtRestartElixir, $itxtRestartDark
 ;Global $iWBMortar
 ;Global $iWBWizTower
 ;Global $iWBXbow
-Global $TroopGroup[10][3] = [["Arch", 1, 1], ["Giant", 2, 5], ["Wall", 4, 2], ["Barb", 0, 1], ["Gobl", 3, 1], ["Heal", 7, 14], ["Pekk", 9, 25], ["Ball", 5, 5], ["Wiza", 6, 4], ["Drag", 8, 20]]
+Global $TroopGroup[10][3] = [["Pekk", 9, 25], ["Drag", 8, 20], ["Heal", 7, 14], ["Wiza", 6, 4], ["Ball", 5, 5], ["Giant", 2, 5], ["Wall", 4, 2], ["Gobl", 3, 1], ["Barb", 0, 1], ["Arch", 1, 1]]
+Global $THSnipeTroopGroup[10][3] = [["Arch", 1, 1], ["Barb", 0, 1], ["Giant", 2, 5], ["Wall", 4, 2], ["Gobl", 3, 1], ["Heal", 7, 14], ["Pekk", 9, 25], ["Ball", 5, 5], ["Wiza", 6, 4], ["Drag", 8, 20]]
+;Global $THSnipeTroopGroup[10][3] = [["Arch", 1, 1], ["Giant", 2, 5], ["Wall", 4, 2], ["Barb", 0, 1], ["Gobl", 3, 1], ["Heal", 7, 14], ["Pekk", 9, 25], ["Ball", 5, 5], ["Wiza", 6, 4], ["Drag", 8, 20]]
 Global $TroopName[UBound($TroopGroup, 1)]
 Global $TroopNamePosition[UBound($TroopGroup, 1)]
 Global $TroopHeight[UBound($TroopGroup, 1)]
@@ -488,10 +506,10 @@ Global $stxtMinGoldStopAtk2 = 1000, $stxtMinElixirStopAtk2 = 1000, $stxtMinDarkE
 Global $ichkEndOneStar = 0, $ichkEndTwoStars = 0
 
 ;ImprovedUpgradeBuildingHero
-Global $aUpgrades[6][4] = [[-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""]] ;Store upgrade position x&y, value, and loot type
-Global $picUpgradeStatus[6], $ipicUpgradeStatus[6] ;Add indexable array variables for accessing the Upgrades GUI
-Global $picUpgradeType[6], $txtUpgradeX[6], $txtUpgradeY[6], $chkbxUpgrade[6], $txtUpgradeValue[6]
-Global $ichkbxUpgrade[6], $itxtUpgrMinGold, $itxtUpgrMinElixir, $txtUpgrMinDark, $itxtUpgrMinDark
+Global $aUpgrades[12][4] = [[-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""],[-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""], [-1, -1, -1, ""]] ;Store upgrade position x&y, value, and loot type
+Global $picUpgradeStatus[12], $ipicUpgradeStatus[12] ;Add indexable array variables for accessing the Upgrades GUI
+Global $picUpgradeType[12], $txtUpgradeX[12], $txtUpgradeY[12], $chkbxUpgrade[12], $txtUpgradeValue[12]
+Global $ichkbxUpgrade[12], $itxtUpgrMinGold, $itxtUpgrMinElixir, $txtUpgrMinDark, $itxtUpgrMinDark
 Global $chkSaveWallBldr, $iSaveWallBldr
 Global $pushLastModified = 0
 
@@ -601,3 +619,55 @@ Global $League[16][4] = [ _
 		["35000", "Crystal III", "100", "C3"], ["50000", "Crystal II", "200", "C2"], ["65000", "Crystal I", "300", "C1"], _
 		["100000", "Master III", "500", "M3"], ["120000", "Master II", "700", "M2"], ["140000", "Master I", "900", "M1"], _
 		["180000", "Champion", "1200", "CA"]]
+
+;De Side Switch and End Early
+Global $DEEdge, $DarkLow, $DESideFound
+Global $saveiChkTimeStopAtk, $saveiChkTimeStopAtk2, $saveichkEndOneStar, $saveichkEndTwoStars
+Global $DESideEB, $DELowEndMin, $DisableOtherEBO
+Global $DEEndAq, $DEEndBk, $DEEndOneStar
+Global $SpellDP[2] = [0, 0]; Spell drop point for DE attack
+;Location for BK & AQ for boosting
+Global $KingPos[2], $QueenPos[2]
+;Hero Healing Filter
+Global $LBsave[17], $LBHeroFilter, $LBAQFilter, $LBBKFilter, $iSkipCentreDE, $iSkipUndetectedDE, $DECorepix = 15
+Global 	$iCmbMeetGEHero, $iChkMeetDEHero, $iChkMeetTrophyHero, $iChkMeetTHHero, $iChkMeetTHOHero, $iChkWeakBaseHero, $iChkMeetOneHero, $iEnableAfterCountHero, $iMinGoldHero
+Global $iMinElixirHero, $iMinGoldPlusElixirHero,$iMinDarkHero, $iMinTrophyHero, $iCmbTHHero, $iCmbWeakMortarHero, $iCmbWeakWizTowerHero, $iMaxTHHero
+Global $THString
+;Profile Switch
+Global $ichkGoldSwitchMax, $itxtMaxGoldAmount, $icmbGoldMaxProfile, $ichkGoldSwitchMin, $itxtMinGoldAmount, $icmbGoldMinProfile
+Global $ichkElixirSwitchMax, $itxtMaxElixirAmount, $icmbElixirMaxProfile, $ichkElixirSwitchMin, $itxtMinElixirAmount, $icmbElixirMinProfile
+Global $ichkDESwitchMax, $itxtMaxDEAmount, $icmbDEMaxProfile, $ichkDESwitchMin, $itxtMinDEAmount, $icmbDEMinProfile
+Global $ichkTrophySwitchMax, $itxtMaxTrophyAmount, $icmbTrophyMaxProfile, $ichkTrophySwitchMin, $itxtMinTrophyAmount, $icmbTrophyMinProfile
+Global $DidntRevert
+Global $iChkSnipeWhileTrain, $isSnipeWhileTrain
+Global $tempSnipeWhileTrain[8] = [0,0,0,0,0,0,0,0]
+;;; Toolbox
+Global $ichkToolboxModeBot
+Global $ichkToolboxModeSearch
+Global $ichkToolboxDetach
+Global $ichkToolboxSavePos
+Global $iToolbox_x
+Global $iToolbox_y
+;Mods
+
+;Heroes
+Global $ichkUpgradeKing = 0
+Global $ichkUpgradeQueen = 0
+Global $KingPos[2] = [-1, -1]
+Global $QueenPos[2] = [-1, -1]
+
+;Barracks Training
+Global $iArmyPercent = 0
+Global $iMaxBarrackTroop[4] ;
+
+;Obstacle
+Global $ObsFolder = 0
+
+;Lab
+Global $LabNeedsDE = 0
+Global $LabNeedsElix = 0
+
+;Icebreaker
+Global $Answer
+Global $Answered = True
+Global $AnswerTries = 0

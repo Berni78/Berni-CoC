@@ -31,7 +31,7 @@ Global $AdjustTolerance = 0
 Global $Tolerance[5][11] = [[55, 55, 55, 80, 70, 70, 75, 80, 0, 75, 65], [55, 55, 55, 80, 80, 70, 75, 80, 0, 75, 65], [55, 55, 55, 80, 80, 70, 75, 80, 0, 75, 65], [55, 55, 55, 80, 80, 60, 75, 75, 0, 75, 60], [55, 55, 55, 80, 80, 70, 75, 80, 0, 75, 65]]
 Global $ZC = 0, $ZombieCount = 0;, $E
 Global $ZombieFileSets = 3 ;Variant Image to use organized as per Folder
-Global $ZSExclude = 0 ;Set to 0 to include Elixir Lvl 6, 1 to include lvl 7 and so on..
+Global $ZSExclude = 4 ;Set to 0 to include Elixir Lvl 6, 1 to include lvl 7 and so on..
 Global $Lx[4] = [0, 400, 0, 400]
 Global $Ly[4] = [0, 0, 265, 265]
 Global $Rx[4] = [460, 860, 400, 860]

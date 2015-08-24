@@ -18,6 +18,8 @@
 ;~ -------------------------------------------------------------
 $tabMisc = GUICtrlCreateTabItem("Misc")
 Local $x = 30, $y = 150
+	$chkIceBreaker = GUICtrlCreateCheckbox("IceBreaker", $x - 5, $y + 50, 80, 16)
+
 	$grpControls = GUICtrlCreateGroup("Halt Attack", $x - 20, $y - 20, 450, 50)
 		$chkBotStop = GUICtrlCreateCheckbox("", $x - 5, $y, 16, 16)
 			$txtTip = "Use these options to set when the bot will stop attacking."
@@ -28,27 +30,12 @@ Local $x = 30, $y = 150
 		$lblBotCond = GUICtrlCreateLabel("When...", $x + 125, $y, 45, 17)
 		$cmbBotCond = GUICtrlCreateCombo("", $x + 175, $y - 3, 160, 25, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetData(-1, "G and E Full and Max.Trophy|(G and E) Full or Max.Trophy|(G or E) Full and Max.Trophy|G or E Full or Max.Trophy|Gold and Elixir Full|Gold or Elixir Full|Gold Full and Max.Trophy|Elixir Full and Max.Trophy|Gold Full or Max.Trophy|Elixir Full or Max.Trophy|Gold Full|Elixir Full|Reach Max. Trophy|Bot running for...|Now (Train/Donate Only)|Now (Donate Only)|Now (Only stay online)", "Now (Train/Donate Only)")
+			GUICtrlSetData(-1, "G and E Full and Max.Trophy|(G and E) Full or Max.Trophy|(G or E) Full and Max.Trophy|G or E Full or Max.Trophy|Gold and Elixir Full|Gold or Elixir Full|Gold Full and Max.Trophy|Elixir Full and Max.Trophy|Gold Full or Max.Trophy|Elixir Full or Max.Trophy|Gold Full|Elixir Full|Dark Elixir Full|Reach Max. Trophy|Bot running for...|Now (Train/Donate Only)|Now (Donate Only)|Now (Only stay online)", "Now (Train/Donate Only)")
 			GUICtrlSetOnEvent(-1, "cmbBotCond")
 		$cmbHoursStop = GUICtrlCreateCombo("", $x + 335, $y - 3, 80, 35, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetData(-1, "-|1 Hour|2 Hours|3 Hours|4 Hours|5 Hours|6 Hours|7 Hours|8 Hours|9 Hours|10 Hours|11 Hours|12 Hours|13 Hours|14 Hours|15 Hours|16 Hours|17 Hours|18 Hours|19 Hours|20 Hours|21 Hours|22 Hours|23 Hours|24 Hours", "-")
 			GUICtrlSetState (-1, $GUI_DISABLE)
-	GUICtrlCreateGroup("", -99, -99, 1, 1)
-
-Local $x = 30, $y = 205
-	$grpControls = GUICtrlCreateGroup("Profiles", $x - 20, $y - 20, 450, 65)
-		$lblProfile = GUICtrlCreateLabel("Current Profile:", $x, $y, -1, -1)
-		$cmbProfile = GUICtrlCreateCombo("01", $x + 75, $y - 5, 40, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
-		$txtTip = "Use this to switch to a different profile. Default: 01" & @CRLF & "Your profiles/configs can be found in:" & @CRLF &  $sProfilePath
-		GUICtrlSetTip(-1, $txtTip)
-		GUICtrlSetData(-1, "02|03|04|05|06", "01")
-		GUICtrlSetOnEvent(-1, "cmbProfile")
-		$txtVillageName = GUICtrlCreateInput("MyVillage", $x + 120, $y - 4, 130, 18, BitOR($SS_CENTER, $ES_AUTOHSCROLL))
-		GUICtrlSetLimit (-1, 100, 0)
-		GUICtrlSetFont(-1, 9, 400, 1)
-		GUICtrlSetTip(-1, "Your village/profile's name")
-		GUICtrlSetOnEvent(-1, "txtVillageName")
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 
 	Local $x = 30, $y = 275
@@ -77,8 +64,8 @@ Local $x = 30, $y = 205
 	;Local $x = 30, $y = 400
 	;$grpTombstones = GUICtrlCreateGroup("Clear Tombstones", $x - 20, $y - 20 , 225, 55)
 		GUICtrlCreateIcon($pIconLib, $eIcnTombstone, $x + 20, $y, 24, 24)
-		$chkTombstones = GUICtrlCreateCheckbox("Clear Tombstones", $x + 75, $y + 2, -1, -1)
-			$txtTip = "Check this to automatically clear tombstones after enemy attack."
+		$chkTombstones = GUICtrlCreateCheckbox("Clear Tomb/Field", $x + 75, $y + 2, -1, -1)
+			$txtTip = "Check this to automatically clear tombstones and obstacles (tree,bush,etc.) on the field."
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetState(-1, $GUI_UNCHECKED)
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
@@ -191,6 +178,20 @@ Local $x = 30, $y = 205
 			$txtTip = "Relocate your Laboratory."
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetOnEvent(-1, "btnLab")
+
+		$btnLocateKing = GUICtrlCreateButton("King", $x + 230, $y, 40, 40, $BS_ICON)
+            GUICtrlSetOnEvent(-1, "LocateKing")
+            GUICtrlSetImage (-1, $LibDir & "\CGBBOT.dll", 7, 1)
+            $txtTip = "Locate Your King."
+            GUICtrlSetTip(-1, $txtTip)
+		$btnLocateQueen = GUICtrlCreateButton("Queen", $x + 270, $y, 40, 40, $BS_ICON)
+            GUICtrlSetOnEvent(-1, "LocateQueen")
+            GUICtrlSetImage (-1, $LibDir & "\CGBBOT.dll", 41, 1)
+            $txtTip = "Locate Your Queen."
+            GUICtrlSetTip(-1, $txtTip)
+		GUICtrlCreateGroup("", -99, -99, 1, 1)
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+
 		$btnResetBuilding = GUICtrlCreateButton("Reset.", $x + 380, $y, 40, 40, $BS_ICON)
 			GUICtrlSetImage(-1, $pIconLib, $eIcnBldgX)
 			$txtTip = "Click here it reset all building locations," & @CRLF & "like when you have changed base layout"

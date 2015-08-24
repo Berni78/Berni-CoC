@@ -18,11 +18,12 @@
 #include "functions\Config\saveConfig.au3"
 #include "functions\Config\ScreenCoordinates.au3"
 #include "functions\Config\DelayTimes.au3"
-
+#include "functions\Attack\DESide.au3"
 #include "functions\Attack\AttackReport.au3"
 #include "functions\Attack\CheckHeroesHealth.au3"
 #include "functions\Attack\dropCC.au3"
 #include "functions\Attack\dropHeroes.au3"
+#include "functions\Attack\dropSpell.au3"
 #include "functions\Attack\GoldElixirChange.au3"
 #include "functions\Attack\GoldElixirChangeEBO.au3"
 #include "functions\Attack\PrepareAttack.au3"
@@ -63,6 +64,8 @@
 #include "functions\Image Search\checkWall.au3"
 ;#include "functions\Image Search\checkDElixS.au3"
 #include "functions\Image Search\CheckTombs.au3"
+#include "functions\Image Search\ClearObstacles.au3"
+#include "functions\Image Search\checkDefense.au3"
 
 #include "functions\Main Screen\checkMainScreen.au3"
 #include "functions\Main Screen\checkObstacles.au3"
@@ -104,6 +107,9 @@
 #include "functions\Other\DeleteFiles.au3"
 #include "functions\Other\CheckVersion.au3"
 #include "functions\Other\TrainClick.au3"
+#include "functions\Other\ProfileSwitch.au3"
+#include "functions\Other\IceBreaker.au3"
+#include "functions\Other\Chatbot.au3"
 
 #include "functions\Pixels\_CaptureRegion.au3"
 #include "functions\Pixels\_ColorCheck.au3"
@@ -114,6 +120,7 @@
 #include "functions\Pixels\_MultiPixelSearch.au3"
 #include "functions\Pixels\boolPixelSearch.au3"
 #include "functions\Pixels\isInsideDiamond.au3"
+#include "functions\Pixels\isInsideBigDiamond.au3"
 
 #include "functions\Read Text\BuildingInfo.au3"
 #include "functions\Read Text\getChar.au3"
@@ -138,7 +145,7 @@
 #include "functions\Search\VillageSearch.au3"
 #include "functions\Search\CheckZoomOut.au3"
 #include "functions\Search\SearchTownHallloc.au3"
-
+#include "functions\Search\CheckHeroAvailable.au3"
 #include "functions\Village\_TrainMoveBtn.au3"
 #include "functions\Village\BoostBarracks.au3"
 #include "functions\Village\BotDetectFirstTime.au3"
@@ -151,6 +158,7 @@
 #include "functions\Village\GetTownHallLevel.au3"
 #include "functions\Village\isGoldFull.au3"
 #include "functions\Village\isElixirFull.au3"
+#include "functions\Village\isDarkElixirFull.au3"
 #include "functions\Village\LocateBarrack.au3"
 #include "functions\Village\LocateUpgrade.au3"
 #include "functions\Village\LocateClanCastle.au3"
@@ -171,5 +179,11 @@
 #include "functions\Village\Laboratory.au3"
 #include "functions\Village\ReplayShare.au3"
 #include "functions\Village\BarracksStatus.au3"
-
-
+#include "functions\Attack\SnipeWhileTrain.au3"
+#include "functions\Attack\Attack Algorithms\MasterGiBAM.au3"
+#include "functions\Attack\Attack Algorithms\AttackTHSmartBarch.au3"
+#include "functions\Attack\Attack Algorithms\PB6.au3"
+#include "functions\Attack\Attack Algorithms\THDragons.au3"
+#include "functions\Attack\Attack Algorithms\THWizard.au3"
+#include "functions\Village\LocateHeroes.au3"
+#include "functions\Village\UpgradeHeroes.au3"

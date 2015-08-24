@@ -22,7 +22,8 @@ $frmBot = GUICreate($sBotTitle, 470, 650)
 	TraySetIcon($pIconLib, $eIcnGUI)
 $tabMain = GUICtrlCreateTab(5, 85, 461, 425, $TCS_MULTILINE)
 	GUICtrlSetOnEvent(-1, "tabMain")
-	GUICtrlCreatePic (@ScriptDir & "\Icons\logo.jpg", 0, 0, 470, 80)
+
+	$picBotLogo = GUICtrlCreatePic (@ScriptDir & "\Icons\logo.jpg", 0, 0, 470, 80)
 
 ;~ ------------------------------------------------------
 ;~ Header Menu
@@ -32,7 +33,7 @@ $tabMain = GUICtrlCreateTab(5, 85, 461, 425, $TCS_MULTILINE)
 $DonateMenu = GUICtrlCreateMenu("&Paypal Donate?")
 $DonateConfig = GUICtrlCreateMenuItem("Support the development", $DonateMenu)
 GUICtrlSetOnEvent(-1, "")
-
+#include "GUI\CGB GUI Design Toolbox.au3"
 ;~ ------------------------------------------------------
 ;~ Tab Files
 ;~ ------------------------------------------------------
@@ -45,7 +46,9 @@ GUICtrlSetOnEvent(-1, "")
 #include "GUI\CGB GUI Design Tab EndBattle.au3"
 #include "GUI\CGB GUI Design Tab Donate.au3"
 #include "GUI\CGB GUI Design Tab Misc.au3"
+#include "GUI\CGB GUI Design Tab Profiles.au3"
 #include "GUI\CGB GUI Design Tab Upgrade.au3"
+#include "GUI\CGB GUI Design Tab Buildings.au3"
 #include "GUI\CGB GUI Design Tab Notify.au3"
 #include "GUI\CGB GUI Design Tab Expert.au3"
 #include "GUI\CGB GUI Design Tab Stats.au3" ; includes '$LastControlToHide" on GUI
@@ -109,5 +112,11 @@ _GUICtrlStatusBar_SetText($statLog, "Status : Idle")
 $tiAbout = TrayCreateItem("About")
 TrayCreateItem("")
 $tiExit = TrayCreateItem("Exit")
+
+;;;;;;;;;;;;;;;
+;;; Toolbox
+;;;;;;;;;;;;;;;
+_CGB_GUI_Toolbox_GUI(0, 0)
+_CGB_GUI_Toolbox_Win()
 
 ;~ -------------------------------------------------------------

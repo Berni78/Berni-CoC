@@ -1,0 +1,58 @@
+2015-08-17 12:34:05 :  Clash Game Bot v4.1.1-6 merge Powered by GameBot.org 
+2015-08-17 12:34:05 : GameBot.org.exe Executable running on WIN_7 Service Pack 1 X64
+2015-08-17 12:34:05 : =================== Bot Start ====================
+2015-08-17 12:34:05 : -------------------------  Current Profile: 01 --------------------------
+2015-08-17 12:34:05 : Trying to locate Main Screen
+2015-08-17 12:34:05 : Main Screen Located
+2015-08-17 12:34:07 : Detecting your Buildings..
+2015-08-17 12:34:14 : Language setting is English: Correct.
+2015-08-17 12:34:15 : Trying to locate Main Screen
+2015-08-17 12:34:15 : Main Screen Located
+2015-08-17 12:34:17 : Village Report
+2015-08-17 12:34:17 : No. of Free/Total Builders: 0/4
+2015-08-17 12:34:17 :  [T]: 2 721
+2015-08-17 12:34:17 :  [G]: 3 149 439 [E]: 3 289 952 [D]: 27 063 [GEM]: 57
+2015-08-17 12:34:18 : Collecting Resources
+2015-08-17 12:34:30 : Checking Army Camp...
+2015-08-17 12:34:31 : ClashGameBot was Paused!
+2015-08-17 12:35:45 : ClashGameBot was Resumed.
+2015-08-17 12:35:45 : Total Army Camp capacity: 220/220
+2015-08-17 12:35:48 :  - No. of Barbarians: 10
+2015-08-17 12:35:48 :  - No. of Archers: 114
+2015-08-17 12:35:48 :  - No. of Goblins: 91
+2015-08-17 12:35:49 :  - No. of Giants: 1
+2015-08-17 12:35:49 : Barracks and Spell factory status: 
+2015-08-17 12:35:49 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2015-08-17 12:35:49 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2015-08-17 12:35:49 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 12:35:49 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2015-08-17 12:35:49 : Training Troops...
+2015-08-17 12:35:50 : Your Army Camps are now Full
+2015-08-17 12:35:50 : Too few Giant, train first.
+2015-08-17 12:35:50 : Too few Barb, train first.
+2015-08-17 12:35:50 : Too many Gobl, train last.
+2015-08-17 12:36:21 : Spell Factory not found...
+2015-08-17 12:36:23 : 0
+2015-08-17 12:36:25 : Requesting Clan Castle Troops
+2015-08-17 12:36:26 : Your Clan Castle is already full or you are not in a clan.
+2015-08-17 12:36:27 : Going to Attack...
+2015-08-17 12:36:33 : ============== Searching For Dead Base ===============
+2015-08-17 12:36:33 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-17 12:36:33 : Meet: Gold and Elixir, Dark, Max TH 8
+2015-08-17 12:36:33 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-17 12:36:33 : Aim: [G]: 300000 [E]: 300000 [D]: 3000 [T]: 0 [TH]: 8 for: Dead Base
+2015-08-17 12:36:33 : ============== Searching For Live Base ===============
+2015-08-17 12:36:33 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2015-08-17 12:36:33 : Meet: Gold and Elixir, Dark, Max TH 8
+2015-08-17 12:36:33 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2015-08-17 12:36:33 : Aim: [G]: 500000 [E]: 500000 [D]: 5000 [T]: 0 [TH]: 8 for: Live Base
+2015-08-17 12:36:33 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2015-08-17 12:36:33 : THSnipe Combo, 6 Tile(s), , Attack6:PB6
+2015-08-17 12:36:33 : ==================================================
+2015-08-17 12:36:35 :   1> [G]: 145948 [E]:  93434 [D]:  774 [T]:17 [TH]: 9, In
+2015-08-17 12:36:40 :   2> [G]: 171540 [E]: 129608 [D]: 1425 [T]:23 [TH]: 9, In
+2015-08-17 12:36:44 :   3> [G]:   9551 [E]:  65704 [D]:  570 [T]:14 [TH]: 9, In
+2015-08-17 12:36:48 :   4> [G]:  81904 [E]:  56966 [D]:  291 [T]:26 [TH]:10, In
+2015-08-17 12:36:52 :   5> [G]:  53443 [E]:  57012 [D]:  116 [T]:28 [TH]: 9, In
+2015-08-17 12:36:56 :   6> [G]:  61139 [E]:  23381 [D]:  650 [T]:21 [TH]: 9, In
+2015-08-17 12:37:00 :   7> [G]: 102416 [E]:  35746 [D]:  525 [T]:31 [TH]: 9, In

@@ -89,6 +89,7 @@ Func GetResources() ;Reads resources
 			$searchTH = checkTownhall()
 
 		EndIf
+
         AtGetTHOutside()
 		If SearchTownHallLoc() = False And $searchTH <> "-" Then
 			$THLoc = "In"

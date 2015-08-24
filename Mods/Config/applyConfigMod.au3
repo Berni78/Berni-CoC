@@ -35,11 +35,11 @@ EndIf
 ;Train Spells
 If $ichkTrainSpells = 1 Then
     GUICtrlSetState($chkTrainSpells, $GUI_CHECKED)
-	chkTrainSpells()
 Else
     GUICtrlSetState($chkTrainSpells, $GUI_UNCHECKED)
-	chkTrainSpells()
 EndIf
+chkTrainSpells()
+
 
 _GUICtrlComboBox_SetCurSel($cmbTrainNormalSpellType, $NormalSpellTrain)
 cmbTrainNormalSpellType()
@@ -55,16 +55,12 @@ _GUICtrlComboBox_SetCurSel($cmbAttackbottomType, $BottomTHType)
 If $iChkSnipeWhileTrain = 1 Then
     GUICtrlSetState($chkSnipeWhileTrain, $GUI_CHECKED)
 	GUICtrlSetState($txtSearchlimit, $GUI_ENABLE)
-	chkSnipeWhileTrain()
 Else
     GUICtrlSetState($chkSnipeWhileTrain, $GUI_UNCHECKED)
-    chkSnipeWhileTrain()
 EndIf
-
-GUICtrlSetData($txtSearchlimit, $itxtSearchlimit)
-
+chkSnipeWhileTrain()
 chkSnipeModeAdd()
-
+GUICtrlSetData($txtSearchlimit, $itxtSearchlimit)
 
 ;Th Snipe attack type
 _GUICtrlComboBox_SetCurSel($cmbAttackTHType, $AttackTHType)
@@ -77,10 +73,30 @@ Else
     GUICtrlSetState($chkSmartLightSpell, $GUI_UNCHECKED)
 EndIf
 SmartLightSpell()
+GUICtrlSetData($txtMinDark, $itxtMinDark)
 
 
 ;Halt on Dark Conditions
 _GUICtrlComboBox_SetCurSel($cmbBotCond, $icmbBotCond)
 
+;Trapped Th Detect
+_GUICtrlComboBox_SetCurSel($cmbDetectTrapedTH, $icmbDetectTrapedTH)
+
+;Save Troops
+GUICtrlSetData($txtTHpercentCollectors, $percentCollectors)
+If $useFFBarchST = 1 Then
+		GUICtrlSetState($chkChangeFF, $GUI_CHECKED)
+Else
+		GUICtrlSetState($chkChangeFF, $GUI_UNCHECKED)
+Endif
+_GUICtrlComboBox_SetCurSel($cmbInsideCol, $icmbInsideCol)
+
+;Use spells TH
+If $ichkUseSpellsTH = 1 Then
+    GUICtrlSetState($chkUseSpellsTH, $GUI_CHECKED)
+Else
+    GUICtrlSetState($chkUseSpellsTH, $GUI_UNCHECKED)
+EndIf
+chkUseSpellsTH()
 
 EndFunc

@@ -16,6 +16,8 @@ GUISetState(@SW_UNLOCK,$frmBot)
 $FirstCtrlToDisableMod = GUICtrlCreateDummy()
 GUICtrlSetOnEvent($btnStart, "btnStartAdd")
 GUICtrlSetOnEvent($btnStop, "btnStopAdd")
+Opt("TrayMenuMode", 1) ; Default tray menu items (Script Paused/Exit) will not be shown.
+
 
 Func ShowGUI()
 readConfigMod()
@@ -37,7 +39,6 @@ ReDim $CtrlPrevState [$CtrlsNumber+2]
 		$CtrlPrevState[$i] = GUICtrlGetState($i + $FirstCtrlToDisableMod)
 		GUICtrlSetState($i + $FirstCtrlToDisableMod, $GUI_DISABLE)
 	Next
-
 EndFunc
 
 Func ReturnCtrlsState()
